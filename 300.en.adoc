@@ -1,0 +1,2 @@
+[[chapter_three]]
+== Managing camera trap data
