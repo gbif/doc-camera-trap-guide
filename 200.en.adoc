@@ -2,7 +2,7 @@
 
 == The use of camera traps
 
-==== HIGHLIGHTS:
+===== HIGHLIGHTS:
 
 * A <<camera,camera trap>> is a camera designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion.
 * They are most frequently used to monitor medium to large sized warm-blooded animals, but innovative sensors can detect amphibians, reptiles, small mammals, and large invertebrates as well.
