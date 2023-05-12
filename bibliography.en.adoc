@@ -1,14 +1,12 @@
 [bibliography]
 == References
 
-//The bibliography list is a style of AsciiDoc bulleted list.
-
+- [[[ref_burton_2015,Burton et al. 2015]]] Burton AC, Neilson E, Moreira D, Ladle A, Steenweg R, Fisher JT, et al. (2015) Wildlife camera trapping: a review and recommendations for linking surveys to ecological processes. J. Appl. Ecol., 52, 675–685.
+- [[[ref_cadman_2014,Cadman & González-Talaván 2014]]] Cadman M, González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Contributed by Athreya V, Chavan V, Ghosh M, Hanssen F, Harihar A, Hirsch T, Lindgaard A, Mathur VB, Mehlum F, Pandav B, Talukdar G, Vang R. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=6045.
+- [[[ref_meek_2014, Meek et al. 2014]]] Meek P, Fleming P, Ballard G, Banks P, Claridge A, Sanderson J, et al. (eds.) (2014). Camera Trapping: Wildlife Management and Research. Csiro Publishing.
 - [[[ref_oconnell_2011,O’Connell et al. 2011]]] O’Connell AF, Nichols JD, Karanth KU (2011) Camera Traps in Animal Ecology: Methods and Analyses. Springer, New York.
-- [[carrillo]] Carrillo Trueba C (1995) El Pedregal de San Ángel. Mexico City: Universidad Nacional Autonoma de Mexico.
-- [[eggener]]	Keith Eggener (2001) Luis Barragán’s Gardens of el Pedregal Princeton, N.J., USA: Princeton Architectural Press.
-- [[heizer]]Heizer RF & Bennyhoff JA (1958) Archeological Investigation of Cuicuilco, Valley of Mexico, 1957. Science 127(3292): 232-233. https://doi.org/10.1126/science.127.3292.232
-- [[palacio]] Palacio Prieto JL & Guilbaud M-N (2015) Patrimonio natural de la Reserva Ecológica del Pedregal de San Ángel y áreas cercanas: sitios de interés geológico y geomorfológico al sur de la Cuenca de México. Boletín de la Sociedad Geológica Mexicana 67(2):227-244. http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-33222015000200008
-- [[salas05]] Salas Portugal A (2005) Armando Salas Portugal. Mexico City: Lunwerg Editores.
-- [[salas06]] Salas Portugal A (2006) Morada de Lava: las colecciones fotográficas del Pedregal de San Ángel y la Ciudad Universitaria. Mexico City: Universidad Nacional Autonoma de Mexico.
+- [[[ref_rovero_2013,Rovero et al. 2013]]] Rovero F, Zimmermann F, Berzi D, Meek P (2013). "Which camera trap type and how many do I need?" A review of camera features and study designs for a range of wildlife research applications. Hystrix, 24, 148–156.
+- [[[ref_wearn_2017,Wearn & Glover-Kapfer 2017]]]: Wearn OR, Glover-Kapfer P (2017) Camera-trapping for conservation: a guide to best practices. WWF Conservation Technology Series 1(1). WWF-UK, Woking, United Kingdom.
+- [[[ref_wilkinson_2018]]] TODO
 
 <<<
