@@ -1,9 +1,17 @@
 [glossary]
 == Glossary
 
-[[AI]]AI:: TODO
+[[activity]]activity:: Movement in front of a <<camera>>. Movement can cause a <<trigger>> when certain conditions are met (e.g. within the <<detection-zone,detection zone>> and outside the <<quiet-period,quiet period). Camera traps are typically <<deployment,deployed>> to capture wildlife activity, but may also record movements of humans, vehicles or vegetation.
 
-[[cloud-computing]]cloud computing:: Performing computing tasks on a distributed IT infrastructure ("cloud service"). Typically at a cost ("pay as you go") in return for better performance and less maintenance.
+[[alignment]]alignment:: Physical placement of a <<camera>>. Consists of <<camera-height,camera height>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>.
+
+[[AI]]artificial intelligence:: Ability to perceive, synthesize and infer information as demonstrated by machines, as opposed to humans/animals. In camera trap research, AI is mainly applied as <<machine-learning,machine learning>> to perform <<computer-vision,computer vision>> tasks.
+
+[[bait]]bait:: Attractant used to encourage animals to investigate a <<location>> or specific point within the <<detection-zone,detection zone>>. Baits may be auditory, olfactory, visual, or some combination of these in nature. Whether bait was used for a <<deployment>> is useful to know for analyses, as it can alter the natural behaviour of animals. Can be expressed as a categorical description (e.g. `acoustic`, `visual`, `scent`) or a boolean. Also referred to as `lure` (<<ref_meek_2014>>). term:camtrapdp[deployments:baitUse] in Camtrap DP.
+
+[[camera]]camera:: TODO
+
+[[cloud-computing]]cloud computing:: Performing computing tasks on a distributed IT infrastructure (“cloud service”). Typically at a cost (“pay as you go”) in return for better performance and less maintenance.
 
 [[data-exchange-format]]data exchange format:: TODO
 
