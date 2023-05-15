@@ -65,7 +65,7 @@
 
 - [[[ref_rovero_2013,Rovero et al. 2013]]] Rovero F, Zimmermann F, Berzi D, Meek P (2013). "Which camera trap type and how many do I need?" A review of camera features and study designs for a range of wildlife research applications. Hystrix, 24, 148–156.
 
-- [[[ref_rovero_2016,Rovero & Zimmermann 2016]]] TODO
+- [[[ref_rovero_2016,Rovero & Zimmermann 2016]]] TODO Camera Trapping for Wildlife Research (Pelagic Pu).
 
 - [[[ref_rowcliffe_2008]]] TODO
 
