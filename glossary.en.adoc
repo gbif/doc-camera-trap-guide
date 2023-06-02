@@ -13,7 +13,7 @@
 
 [[camera]]camera:: Device designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion. Of a certain make and model and uniquely identifiable by e.g. by serial number. Also referred to as `camera trap`, `game camera`, `trail camera`, `scouting camera` or `device`.
 
-[[camera-height]]camera height:: Height of the camera above the ground, a component of camera <<alignment>>. Can be expressed in meters above the ground or as a categorical description (`knee height` ~ 0.5m, `chest height` ~ 1.5m,  `canopy` ~ 3+m, <<ref_wildlife_insights>>). {deployments.cameraHeight} in Camtrap DP.
+[[camera-height]]camera height:: Height of the camera above the ground, a component of camera <<alignment>>. Can be expressed in meters above the ground or as a categorical description (`knee height` ~ 0.5m, `chest height` ~ 1.5m,  `canopy` ~ 3+m, <<ref_wildlife_insights>>). {deployments_cameraHeight} in Camtrap DP.
 
 [[camera-tilt]]camera tilt:: Up or down orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees or as a categorical description (`parallel` = 0°, `pointed downward` = -90°, <<ref_wildlife_insights>>). term:camtrapdp[deployments.cameraTilt] in Camtrap DP.
 
