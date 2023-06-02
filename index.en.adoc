@@ -12,6 +12,8 @@ ifdef::backend-html5[]
 languageLinks:combined[]
 endif::backend-html5[]
 
+:deployments.cameraHeight: link:https://tdwg.github.io/camtrap-dp/data/#deployments.cameraHeight[deployments.cameraHeight,role=term]
+
 :sectnums!:
 
 include::colophon.en.adoc[]
