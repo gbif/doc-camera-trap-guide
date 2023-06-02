@@ -7,7 +7,7 @@
 
 [[AI]]artificial intelligence:: Ability to perceive, synthesize and infer information as demonstrated by machines, as opposed to humans/animals. In camera trap research, AI is mainly applied as <<machine-learning,machine learning>> to perform <<computer-vision,computer vision>> tasks.
 
-[[bait]]bait:: Attractant used to encourage animals to investigate a <<location>> or specific point within the <<detection-zone,detection zone>>. Baits may be auditory, olfactory, visual, or some combination of these in nature. Whether bait was used for a <<deployment>> is useful to know for analyses, as it can alter the natural behaviour of animals. Can be expressed as a categorical description (e.g. `acoustic`, `visual`, `scent`) or a boolean. Also referred to as `lure` (<<ref_meek_2014>>). term:camtrapdp[deployments.baitUse] in Camtrap DP.
+[[bait]]bait:: Attractant used to encourage animals to investigate a <<location>> or specific point within the <<detection-zone,detection zone>>. Baits may be auditory, olfactory, visual, or some combination of these in nature. Whether bait was used for a <<deployment>> is useful to know for analyses, as it can alter the natural behaviour of animals. Can be expressed as a categorical description (e.g. `acoustic`, `visual`, `scent`) or a boolean. Also referred to as `lure` (<<ref_meek_2014>>). {deployments_baitUse} in Camtrap DP.
 
 [[blank]]blank:: TODO
 
@@ -15,9 +15,9 @@
 
 [[camera-height]]camera height:: Height of the camera above the ground, a component of camera <<alignment>>. Can be expressed in meters above the ground or as a categorical description (`knee height` ~ 0.5m, `chest height` ~ 1.5m,  `canopy` ~ 3+m, <<ref_wildlife_insights>>). {deployments_cameraHeight} in Camtrap DP.
 
-[[camera-tilt]]camera tilt:: Up or down orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees or as a categorical description (`parallel` = 0°, `pointed downward` = -90°, <<ref_wildlife_insights>>). term:camtrapdp[deployments.cameraTilt] in Camtrap DP.
+[[camera-tilt]]camera tilt:: Up or down orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees or as a categorical description (`parallel` = 0°, `pointed downward` = -90°, <<ref_wildlife_insights>>). {deployments_cameraTilt} in Camtrap DP.
 
-[[camera-heading]]camera heading:: Horizontal cardinal orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees from North or as cardinal directions (N, NW, etc.). term:camtrapdp[deployments.cameraHeading] in Camtrap DP.
+[[camera-heading]]camera heading:: Horizontal cardinal orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees from North or as cardinal directions (N, NW, etc.). {deployments_cameraHeading} in Camtrap DP.
 
 [[camtrap-dp]]Camtrap DP:: TODO
 
@@ -35,29 +35,29 @@
 
 [[data-management-system]]data management system:: Online or desktop application to manage camera trap data. Typically includes functionality to upload <<media>>, add <<deployment>> information, <<classification,classify>> images, export data, invite <<participant,participants>> and manage a <<project>>.
 
-[[deployment]]deployment:: Spatial and temporal placement of a <<camera>> to sample wildlife images. A camera placed at a location between 1 and 15 January 2020 is a different deployment than the same (or different) camera placed at the same location between 15 and 30 January 2020. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. Also referred to as `sampling point` (<<ref_wearn_2017>>), `trap station session` (<<ref_camelot>>) or `visit` (<<ref_newkirk_2016>>). term:camtrapdp[deployments] in Camtrap DP.
+[[deployment]]deployment:: Spatial and temporal placement of a <<camera>> to sample wildlife images. A camera placed at a location between 1 and 15 January 2020 is a different deployment than the same (or different) camera placed at the same location between 15 and 30 January 2020. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. Also referred to as `sampling point` (<<ref_wearn_2017>>), `trap station session` (<<ref_camelot>>) or `visit` (<<ref_newkirk_2016>>). {deployments} in Camtrap DP.
 
-[[deployment-group]]deployment group:: A logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` (<<ref_oconnor_2017>>), `camera trap array` (<<ref_meek_2014>>), `cluster` (<<ref_risc_2019>>), `paired deployment` (<<ref_kolowski_2017>>), `site` and `strata` (<<ref_sun_2021>>) are spatial deployment groups. `sampling campaign` (<<ref_lamelas_2020>>), `sampling event` (<<ref_fegraus_2011>>) and `session` are temporal deployment groups. `subproject` (<<ref_emammal_design>>), `survey` (<<ref_risc_2019>>, <<ref_camerabase>>) and `tags` are thematic deployment groups. `study areas` (<<ref_newkirk_2016>>) can be considered a deployment group or <<project>> in its own right. term:camtrapdp[deployments.deploymentGroup] in Camtrap DP.
+[[deployment-group]]deployment group:: A logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` (<<ref_oconnor_2017>>), `camera trap array` (<<ref_meek_2014>>), `cluster` (<<ref_risc_2019>>), `paired deployment` (<<ref_kolowski_2017>>), `site` and `strata` (<<ref_sun_2021>>) are spatial deployment groups. `sampling campaign` (<<ref_lamelas_2020>>), `sampling event` (<<ref_fegraus_2011>>) and `session` are temporal deployment groups. `subproject` (<<ref_emammal_design>>), `survey` (<<ref_risc_2019>>, <<ref_camerabase>>) and `tags` are thematic deployment groups. `study areas` (<<ref_newkirk_2016>>) can be considered a deployment group or <<project>> in its own right. {deployments_deploymentGroups} in Camtrap DP.
 
-[[detection-distance]]detection distance:: Furthest distance in the <<detection-zone,detection zone>> at which the <<camera>> detects <<activity>>. term:camtrapdp[deployments.detectionDistance] in Camtrap DP.
+[[detection-distance]]detection distance:: Furthest distance in the <<detection-zone,detection zone>> at which the <<camera>> detects <<activity>>. {deployments_detectionDistance} in Camtrap DP.
 
 [[detection-zone]]detection zone:: The area of a <<location>> in which a camera <<sensor>> is able to detect <<activity>>.
 
 [[event]]event: TODO
 
-[[EXIF]]EXIF:: TODO term:camtrapdp[media.exifData] in Camtrap DP
+[[EXIF]]EXIF:: TODO {media_exifData} in Camtrap DP
 
 [[FAIR]]FAIR:: TODO
 
-[[feature-type]]feature type:: Categorical description of a particular physical feature targeted during the deployment, such as burrow, nest site, or water source. term:camtrapdp[deployments.featureType] in Camtrap DP.
+[[feature-type]]feature type:: Categorical description of a particular physical feature targeted during the deployment, such as burrow, nest site, or water source. {deployments_featureType} in Camtrap DP.
 
-[[file-path]]file path:: TODO term:camtrapdp[media.filePath] in Camtrap DP.
+[[file-path]]file path:: TODO {media_filePath} in Camtrap DP.
 
 [[format]]format:: The format of a property value determines the structure of the stored information and commonly used for data validation. For example, dates are formatted as `YYYY-MM-DD` (e.g., `2022-06-25`), the ISO 8601 standard. Properties containing date and times are formatted as `YYYY-MM-DD HH:MM:SS`.
 
 [[GDPR]]GDPR:: TODO
 
-[[habitat-type]]habitat type:: Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat (<<ref_eunis_habitat>>, <<ref_iucn_habitat>>) or vegetation type (<<ref_us_vegetation>>). term:camtrapdp[deployments.habitat] in Camtrap DP.
+[[habitat-type]]habitat type:: Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat (<<ref_eunis_habitat>>, <<ref_iucn_habitat>>) or vegetation type (<<ref_us_vegetation>>). {deployments_habitat} in Camtrap DP.
 
 [[identification]]identification:: TODO Also referred to as `detection` (<<ref_newkirk_2016>>).
 
@@ -67,13 +67,13 @@
 
 [[life-stage]]life stage:: TODO Also referred to as `age`.
 
-[[location]]location:: Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` (<<ref_newkirk_2016>>), `station` (<<ref_berkel_2014>>, <<ref_cameratrap_manager>>), `project station` (<<ref_wildcam>>) or `trap station` (<<ref_camelot>>). Deployment location with a term:camtrapdp[deployments.locationName], term:camtrapdp[deployments.locationID], term:camtrapdp[deployments.longitude], term:camtrapdp[deployments.latitude], and term:camtrapdp[deployments.coordinateUncertainty] in Camtrap DP.
+[[location]]location:: Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` (<<ref_newkirk_2016>>), `station` (<<ref_berkel_2014>>, <<ref_cameratrap_manager>>), `project station` (<<ref_wildcam>>) or `trap station` (<<ref_camelot>>). Deployment location with a {deployments_locationName}, {deployments_locationID}, {deployments_latitude}, {deployments_longitude}, and {deployments_coordinateUncertainty} in Camtrap DP.
 
 [[machine-learning]]machine learning:: TODO
 
-[[media]]media:: <<media-file,Media files>> (plural) captured by a <<camera>>. Also referred to as `photos` (<<ref_newkirk_2016>>). term:camtrapdp[media] in Camtrap DP. 
+[[media]]media:: <<media-file,Media files>> (plural) captured by a <<camera>>. Also referred to as `photos` (<<ref_newkirk_2016>>). {media} in Camtrap DP. 
 
-[[media-file]]media file:: A (audio)visual file captured by a <<camera>>. Can be an <<image>> or <<video>>. A media file typically has an identifier, file name, timestamp when it was created and associated metadata (e.g. <<EXIF>>). To access a media file, one needs to know its <<file-path,file path>> and have the required access rights. Media with term:camtrapdp[media.mediaID], term:camtrapdp[media.timestamp], term:camtrapdp[media.fileName], term:camtrapdp[media.filePath] in Camtrap DP.
+[[media-file]]media file:: A (audio)visual file captured by a <<camera>>. Can be an <<image>> or <<video>>. A media file typically has an identifier, file name, timestamp when it was created and associated metadata (e.g. <<EXIF>>). To access a media file, one needs to know its <<file-path,file path>> and have the required access rights. Media with {media_mediaID}, {media_timestamp}, {media_fileName}, {media_filePath} in Camtrap DP.
 
 [[media-type]]media type:: TODO
 
@@ -87,7 +87,7 @@
 
 [[project]]project:: A scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. term:camtrapdp[project] in Camtrap DP, where a dataset is associated with one and only one project.
 
-[[quiet-period]]quiet period:: Predefined duration after a <<trigger>> when <<activity>> detected by the camera sensor is ignored. term:camtrapdp[deployments.cameraDelay] in Camtrap DP.
+[[quiet-period]]quiet period:: Predefined duration after a <<trigger>> when <<activity>> detected by the camera sensor is ignored. {deployments_cameraDelay} in Camtrap DP.
 
 [[sampling-design]]sampling design:: TODO Types of sampling design, based on (<<ref_wearn_2017>>): `simple random`, `systematic random`,`clustered random`, `experimental`, `targeted`, `opportunistic`. term:camtrapdp[project.samplingDesign] in Camtrap DP.
 
@@ -95,7 +95,7 @@
 
 [[sensor]]sensor:: TODO the heat signature and motion of a target
 
-[[sequence]]sequence:: A series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of a <<trigger,triggering event>>. Also referred to as `series` (<<ref_wildtrax>>). Images belonging to a sequence can be assigned the same term:camtrapdp[media.eventID] in Camtrap DP.
+[[sequence]]sequence:: A series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of a <<trigger,triggering event>>. Also referred to as `series` (<<ref_wildtrax>>).
 
 [[setup]]setup:: TODO
 
