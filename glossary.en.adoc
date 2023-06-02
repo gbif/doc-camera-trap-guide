@@ -79,17 +79,17 @@
 
 [[observation]]observation:: TODO
 
-[[organization]]organization:: Entity comprising one or more people that share a particular purpose, such as a company, institution, association or partnership. Organizations can be directly associated with a <<project>> (e.g. as rights holder, publisher) or indirectly via the affiliation of the project <<participant,participants>>. An organization is a term:camtrapdp[contributors] in Camtrap DP.
+[[organization]]organization:: Entity comprising one or more people that share a particular purpose, such as a company, institution, association or partnership. Organizations can be directly associated with a <<project>> (e.g. as rights holder, publisher) or indirectly via the affiliation of the project <<participant,participants>>. An organization is a {package_contributors} in Camtrap DP.
 
-[[participant]]participant:: Person associated with a <<project>>, performing out one or more <<role,roles>>. Participant information typically includes name and contact information and is subject to <<GDPR>>. <<organization,Organizations>> can also be considered participants. Also referred to as `contributor`, sometimes `user`. A participant is a term:camtrapdp[contributors] in Camtrap DP.
+[[participant]]participant:: Person associated with a <<project>>, performing out one or more <<role,roles>>. Participant information typically includes name and contact information and is subject to <<GDPR>>. <<organization,Organizations>> can also be considered participants. Also referred to as `contributor`, sometimes `user`. A participant is a {package_contributors} in Camtrap DP.
 
-[[role]]role:: Function carried out by a <<participant>> in a <<project>>, such as project lead, data manager or volunteer <<classification,classifying>> media. Participants can have multiple roles and roles are typically associated with different rights in a <<data-management-system,data management system>> (e.g. the right to invite new participants). Also referred to as `participant type`. term:camtrapdp[contributors.role] in Camtrap DP.
+[[role]]role:: Function carried out by a <<participant>> in a <<project>>, such as project lead, data manager or volunteer <<classification,classifying>> media. Participants can have multiple roles and roles are typically associated with different rights in a <<data-management-system,data management system>> (e.g. the right to invite new participants). Also referred to as `participant type`. {package_contributors_role} in Camtrap DP.
 
-[[project]]project:: A scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. term:camtrapdp[project] in Camtrap DP, where a dataset is associated with one and only one project.
+[[project]]project:: A scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. {package_project} in Camtrap DP, where a dataset is associated with one and only one project.
 
 [[quiet-period]]quiet period:: Predefined duration after a <<trigger>> when <<activity>> detected by the camera sensor is ignored. {deployments_cameraDelay} in Camtrap DP.
 
-[[sampling-design]]sampling design:: TODO Types of sampling design, based on (<<ref_wearn_2017>>): `simple random`, `systematic random`,`clustered random`, `experimental`, `targeted`, `opportunistic`. term:camtrapdp[project.samplingDesign] in Camtrap DP.
+[[sampling-design]]sampling design:: TODO Types of sampling design, based on (<<ref_wearn_2017>>): `simple random`, `systematic random`,`clustered random`, `experimental`, `targeted`, `opportunistic`. {package_project_samplingDesign} in Camtrap DP.
 
 [[sensitivity]]sensitivity:: The <<trigger>> sensitivity setting used on a camera sensor.
 
