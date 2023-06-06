@@ -7,6 +7,8 @@
 
 * [[[ref_cadman_2014,Cadman & González-Talaván 2014]]] Cadman M, González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Contributed by Athreya V, Chavan V, Ghosh M, Hanssen F, Harihar A, Hirsch T, Lindgaard A, Mathur VB, Mehlum F, Pandav B, Talukdar G, Vang R. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=6045.
 
+* [[ref_bubnicki_2013]] TODO
+
 * [[[ref_camelot]]] TODO
 
 * [[[ref_camerabase]]] TODO, CameraBase https://www.atrium-biodiversity.org/tools/camerabase/
@@ -96,5 +98,7 @@
 * [[[ref_wildtrax]]] TODO
 
 * [[[ref_wilkinson_2018]]] TODO
+
+* [[ref_young_2018]] TODO
 
 <<<
