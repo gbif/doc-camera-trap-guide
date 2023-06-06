@@ -11,4 +11,12 @@
 Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the timeframe of the project. 
 Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. 
 The content of the images needs interpretation or annotation, either manually or facilitated by technology. 
-All these steps are considered in the data management process. 
+All these steps are considered in the data management process.
+
+Data management is one of the real bottlenecks in camera-trapping research <<ref_bubnicki_2013>>. 
+The massive amount of information stored on memory cards requires a high investment in terms of manpower and time. 
+If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. 
+Manual extraction, organization and labelling can introduce human errors and can lead to data loss. 
+In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. 
+Camera traps inherently detect multiple species and observations of nontarget species provide valuable data for other research objectives. 
+If all data, including non target species, were annotated, more relevant outcomes to funds could be generated (<<ref_young_2018>>, <<ref_wearn_2017>>).
