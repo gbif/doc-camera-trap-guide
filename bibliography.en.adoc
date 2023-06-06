@@ -1,7 +1,7 @@
 [bibliography]
 == References
 
-- [[[ref_berkel_2014]]]: TODO Berkel 2014
+- [[[ref_berkel_2014]]] TODO Berkel 2014
 
 - [[[ref_burton_2015,Burton et al. 2015]]] Burton AC, Neilson E, Moreira D, Ladle A, Steenweg R, Fisher JT, et al. (2015) Wildlife camera trapping: a review and recommendations for linking surveys to ecological processes. J. Appl. Ecol., 52, 675–685.
 
@@ -25,7 +25,7 @@
 
 - [[[ref_eunis_habitat]]] TODO EUNIS Habitat Classification, https://eunis.eea.europa.eu/habitats.jsp
 
-* [[ref_fegraus_2011,Fegraus et al. 2011]]: Fegraus EH, Lin K, Ahumada JA, Baru C, Chandra S, Youn C (2011) Data acquisition and management software for camera trap data: A case study from the TEAM Network. Ecological Informatics 6, 345-353. https://doi.org/10.1016/j.ecoinf.2011.06.003
+- [[ref_fegraus_2011,Fegraus et al. 2011]] Fegraus EH, Lin K, Ahumada JA, Baru C, Chandra S, Youn C (2011) Data acquisition and management software for camera trap data: A case study from the TEAM Network. Ecological Informatics 6, 345-353. https://doi.org/10.1016/j.ecoinf.2011.06.003
 
 - [[[ref_glover_2019,Glover & Kapfer 2019]]] TODO
 
@@ -51,7 +51,7 @@
 
 - [[[ref_meek_2020]]] TODO
 
-- [[[ref_newkirk_2016, Newkirk 2016]]]: Newkirk ES (2016) CPW Photo Database. Colorado Parks and Wildlife, Fort Collins, Colorado, USA. http://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx
+- [[[ref_newkirk_2016, Newkirk 2016]]] Newkirk ES (2016) CPW Photo Database. Colorado Parks and Wildlife, Fort Collins, Colorado, USA. http://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx
 
 - [[[ref_obrien_2010]]] TODO
 
@@ -83,13 +83,13 @@
 
 - [[[ref_tobler_2013]]] TODO
 
-- [[[ref_us_vegetation]]]: TODO US National Vegetation Classification, https://usnvc.org
+- [[[ref_us_vegetation]]] TODO US National Vegetation Classification, https://usnvc.org
 
 - [[[ref_wearn_2013]]] TODO
 
-- [[[ref_wearn_2017,Wearn & Glover-Kapfer 2017]]]: Wearn OR, Glover-Kapfer P (2017) Camera-trapping for conservation: a guide to best practices. WWF Conservation Technology Series 1(1). WWF-UK, Woking, United Kingdom.
+- [[[ref_wearn_2017,Wearn & Glover-Kapfer 2017]]] Wearn OR, Glover-Kapfer P (2017) Camera-trapping for conservation: a guide to best practices. WWF Conservation Technology Series 1(1). WWF-UK, Woking, United Kingdom.
 
-- [[[ref_wildcam]]]: TODO WildCAM
+- [[[ref_wildcam]]] TODO WildCAM
 
 - [[[ref_wildlife_insights]]] TODO
 
