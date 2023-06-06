@@ -35,3 +35,42 @@ But to be able to use these for research they need to be documented with additio
 Media files should be <<classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology 
 is needed to know when, where and how likely those species were to be observed. 
 Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved.
+
+=== Project Metadata
+
+==== Participants and roles
+
+=== Media files
+
+==== Timestamps
+
+==== File naming
+
+==== Storage
+
+=== Deployments
+
+==== Column naming
+
+==== Location
+
+==== Camera model, settings and alignment
+
+==== Deployment groups
+
+==== Covariates
+
+=== Observations
+
+==== Classification
+
+==== Citizen science
+
+==== Artificial intelligence
+
+==== Media or event based classification
+
+==== Common or scientific names
+
+=== Data management systems
+
