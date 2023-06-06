@@ -1,2 +1,14 @@
 [[chapter_three]]
+
 == Managing camera trap data
+
+*HIGHLIGHTS*
+
+* Add highlights here
+* Add highlights here
+* Add highlights here
+
+Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the timeframe of the project. 
+Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. 
+The content of the images needs interpretation or annotation, either manually or facilitated by technology. 
+All these steps are considered in the data management process. 
