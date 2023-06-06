@@ -1,100 +1,100 @@
 [bibliography]
 == References
 
-- [[[ref_berkel_2014]]]: TODO Berkel 2014
+* [[[ref_berkel_2014]]] TODO Berkel 2014
 
-- [[[ref_burton_2015,Burton et al. 2015]]] Burton AC, Neilson E, Moreira D, Ladle A, Steenweg R, Fisher JT, et al. (2015) Wildlife camera trapping: a review and recommendations for linking surveys to ecological processes. J. Appl. Ecol., 52, 675–685.
+* [[[ref_burton_2015,Burton et al. 2015]]] Burton AC, Neilson E, Moreira D, Ladle A, Steenweg R, Fisher JT, et al. (2015) Wildlife camera trapping: a review and recommendations for linking surveys to ecological processes. J. Appl. Ecol., 52, 675–685.
 
-- [[[ref_cadman_2014,Cadman & González-Talaván 2014]]] Cadman M, González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Contributed by Athreya V, Chavan V, Ghosh M, Hanssen F, Harihar A, Hirsch T, Lindgaard A, Mathur VB, Mehlum F, Pandav B, Talukdar G, Vang R. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=6045.
+* [[[ref_cadman_2014,Cadman & González-Talaván 2014]]] Cadman M, González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Contributed by Athreya V, Chavan V, Ghosh M, Hanssen F, Harihar A, Hirsch T, Lindgaard A, Mathur VB, Mehlum F, Pandav B, Talukdar G, Vang R. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=6045.
 
-- [[[ref_camelot]]] TODO
+* [[[ref_camelot]]] TODO
 
-- [[[ref_camerabase]]] TODO, CameraBase https://www.atrium-biodiversity.org/tools/camerabase/
+* [[[ref_camerabase]]] TODO, CameraBase https://www.atrium-biodiversity.org/tools/camerabase/
 
-- [[[ref_cameratrap_manager]]] TODO Cameratrap Manager
+* [[[ref_cameratrap_manager]]] TODO Cameratrap Manager
 
-- [[[ref_caravaggi_2020]]] TODO
+* [[[ref_caravaggi_2020]]] TODO
 
-- [[[ref_chapman_1927]]] TODO
+* [[[ref_chapman_1927]]] TODO
 
-- [[[ref_cusack_2015]]] TODO
+* [[[ref_cusack_2015]]] TODO
 
-- [[[ref_delisle_2021]]] TODO
+* [[[ref_delisle_2021]]] TODO
 
-- [[[ref_emammal_design]]] TODO Study Design Recommendation for a Park. eMammal https://emammal.si.edu/about/study-design/park
+* [[[ref_emammal_design]]] TODO Study Design Recommendation for a Park. eMammal https://emammal.si.edu/about/study-design/park
 
-- [[[ref_eunis_habitat]]] TODO EUNIS Habitat Classification, https://eunis.eea.europa.eu/habitats.jsp
+* [[[ref_eunis_habitat]]] TODO EUNIS Habitat Classification, https://eunis.eea.europa.eu/habitats.jsp
 
-- [[[ref_fegraus_2011,Fegraus et al. 2011]]]: Fegraus EH, Lin K, Ahumada JA, Baru C, Chandra S, Youn C (2011) Data acquisition and management software for camera trap data: A case study from the TEAM Network. Ecological Informatics 6, 345-353. https://doi.org/10.1016/j.ecoinf.2011.06.003
+* [[[ref_fegraus_2011,Fegraus et al. 2011]]] Fegraus EH, Lin K, Ahumada JA, Baru C, Chandra S, Youn C (2011) Data acquisition and management software for camera trap data: A case study from the TEAM Network. Ecological Informatics 6, 345-353. https://doi.org/10.1016/j.ecoinf.2011.06.003
 
-- [[[ref_glover_2019,Glover & Kapfer 2019]]] TODO
+* [[[ref_glover_2019,Glover & Kapfer 2019]]] TODO
 
-- [[[ref_guillera_2010,Guillera & Arroita 2010]]] TODO
+* [[[ref_guillera_2010,Guillera & Arroita 2010]]] TODO
 
-- [[[ref_hobbs_2017,Hobbs & Brehme 2017]]] TODO
+* [[[ref_hobbs_2017,Hobbs & Brehme 2017]]] TODO
 
-- [[[ref_iucn_habitat]]] TODO IUCN Habitat Classification, https://www.iucnredlist.org/resources/habitat-classification-scheme
+* [[[ref_iucn_habitat]]] TODO IUCN Habitat Classification, https://www.iucnredlist.org/resources/habitat-classification-scheme
 
-- [[[ref_kays_2020, Kays et al. 2020]]] Kays R, Arbogast BS, Baker-Whatton M, Beirne C, Boone HM, Bowler M, Burneo SF, Cove MV, Ding P, Espinosa S, Gonçalves ALS, Hansen CP, Jansen PA, Kolowski JM, Knowles TW, Lima MGM, Millspaugh J, McShea WJ, Pacifici K, et al. (2020) An empirical of camera trap study design: How many long and when? Methods in Ecology and Evolution. 11(6), 700-713. https://doi.org/10.1111/2041-210X.13370
+* [[[ref_kays_2020, Kays et al. 2020]]] Kays R, Arbogast BS, Baker-Whatton M, Beirne C, Boone HM, Bowler M, Burneo SF, Cove MV, Ding P, Espinosa S, Gonçalves ALS, Hansen CP, Jansen PA, Kolowski JM, Knowles TW, Lima MGM, Millspaugh J, McShea WJ, Pacifici K, et al. (2020) An empirical of camera trap study design: How many long and when? Methods in Ecology and Evolution. 11(6), 700-713. https://doi.org/10.1111/2041-210X.13370
 
-- [[[ref_kolowski_2017,Kolowski & Forrester 2017]]] Kolowski JM, Forrester TD (2017) Camera trap placement and the potential for bias due to trails and other features. PloS one, 12(10), e0186679. https://doi.org/10.1371/journal.pone.0186679
+* [[[ref_kolowski_2017,Kolowski & Forrester 2017]]] Kolowski JM, Forrester TD (2017) Camera trap placement and the potential for bias due to trails and other features. PloS one, 12(10), e0186679. https://doi.org/10.1371/journal.pone.0186679
 
-- [[[ref_kucera_2011]]] TODO
+* [[[ref_kucera_2011]]] TODO
 
-- [[[ref_lamelas_2020,Lamelas-Lopez et al. 2020]]] Lamelas-Lopez L, Pardavila X, Amorim IR, Borges P (2020) Wildlife inventory from camera-trapping surveys in the Azores (Pico and Terceira islands). Biodiversity data journal, 8, e47865. https://doi.org/10.3897/BDJ.8.e47865
+* [[[ref_lamelas_2020,Lamelas-Lopez et al. 2020]]] Lamelas-Lopez L, Pardavila X, Amorim IR, Borges P (2020) Wildlife inventory from camera-trapping surveys in the Azores (Pico and Terceira islands). Biodiversity data journal, 8, e47865. https://doi.org/10.3897/BDJ.8.e47865
 
-- [[[ref_mackenzie_2005]]] TODO
+* [[[ref_mackenzie_2005]]] TODO
 
-- [[[ref_mcintyre_2020]]] TODO
+* [[[ref_mcintyre_2020]]] TODO
 
-- [[[ref_meek_2014, Meek et al. 2014]]] Meek P, Fleming P, Ballard G, Banks P, Claridge A, Sanderson J, et al. (eds.) (2014). Camera Trapping: Wildlife Management and Research. Csiro Publishing.
+* [[[ref_meek_2014, Meek et al. 2014]]] Meek P, Fleming P, Ballard G, Banks P, Claridge A, Sanderson J, et al. (eds.) (2014). Camera Trapping: Wildlife Management and Research. Csiro Publishing.
 
-- [[[ref_meek_2020]]] TODO
+* [[[ref_meek_2020]]] TODO
 
-- [[[ref_newkirk_2016, Newkirk 2016]]]: Newkirk ES (2016) CPW Photo Database. Colorado Parks and Wildlife, Fort Collins, Colorado, USA. http://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx
+* [[[ref_newkirk_2016, Newkirk 2016]]] Newkirk ES (2016) CPW Photo Database. Colorado Parks and Wildlife, Fort Collins, Colorado, USA. http://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx
 
-- [[[ref_obrien_2010]]] TODO
+* [[[ref_obrien_2010]]] TODO
 
-- [[[ref_oconnell_2011,O’Connell et al. 2011]]] O’Connell AF, Nichols JD, Karanth KU (2011) Camera Traps in Animal Ecology: Methods and Analyses. Springer, New York.
+* [[[ref_oconnell_2011,O’Connell et al. 2011]]] O’Connell AF, Nichols JD, Karanth KU (2011) Camera Traps in Animal Ecology: Methods and Analyses. Springer, New York.
 
-- [[[ref_oconnor_2017,O'Connor et al. 2017]]] O'Connor KM, Nathan LR, Liberati MR, Tingley MW, Vokoun JC, Rittenhouse TAG (2017) Camera trap arrays improve detection probability of wildlife: Investigating study design considerations using an empirical dataset. PLoS ONE 12(4). e0175684. https://doi.org/10.1371/journal.pone.0175684
+* [[[ref_oconnor_2017,O'Connor et al. 2017]]] O'Connor KM, Nathan LR, Liberati MR, Tingley MW, Vokoun JC, Rittenhouse TAG (2017) Camera trap arrays improve detection probability of wildlife: Investigating study design considerations using an empirical dataset. PLoS ONE 12(4). e0175684. https://doi.org/10.1371/journal.pone.0175684
 
-- [[[ref_risc_2019,RISC 2019]]] Resources Information Standards Committee (RISC) (2019) Wildlife Camera Metadata Protocol: Standards for Components of British Columbia’s Biodiversity No. 44. Knowledge Management Branch, B.C. Ministry of Environment and Climate Change Strategy and B.C. Ministry of Forests, Lands, Natural Resource Operations and Rural Development. Victoria, B.C
+* [[[ref_risc_2019,RISC 2019]]] Resources Information Standards Committee (RISC) (2019) Wildlife Camera Metadata Protocol: Standards for Components of British Columbia’s Biodiversity No. 44. Knowledge Management Branch, B.C. Ministry of Environment and Climate Change Strategy and B.C. Ministry of Forests, Lands, Natural Resource Operations and Rural Development. Victoria, B.C
 
-- [[[ref_rovero_2010]]] TODO
+* [[[ref_rovero_2010]]] TODO
 
-- [[[ref_rovero_2013,Rovero et al. 2013]]] Rovero F, Zimmermann F, Berzi D, Meek P (2013). "Which camera trap type and how many do I need?" A review of camera features and study designs for a range of wildlife research applications. Hystrix, 24, 148–156.
+* [[[ref_rovero_2013,Rovero et al. 2013]]] Rovero F, Zimmermann F, Berzi D, Meek P (2013). "Which camera trap type and how many do I need?" A review of camera features and study designs for a range of wildlife research applications. Hystrix, 24, 148–156.
 
-- [[[ref_rovero_2016,Rovero & Zimmermann 2016]]] TODO Camera Trapping for Wildlife Research (Pelagic Pu).
+* [[[ref_rovero_2016,Rovero & Zimmermann 2016]]] TODO Camera Trapping for Wildlife Research (Pelagic Pu).
 
-- [[[ref_rowcliffe_2008]]] TODO
+* [[[ref_rowcliffe_2008]]] TODO
 
-- [[[ref_rowcliffe_2016]]] TODO
+* [[[ref_rowcliffe_2016]]] TODO
 
-- [[[ref_shannon_2014]]] TODO
+* [[[ref_shannon_2014]]] TODO
 
-- [[[ref_sollmann_2012]]] TODO
+* [[[ref_sollmann_2012]]] TODO
 
-- [[[ref_sun_2021, Sun et al. 2021]]] Sun C, Beirne C, Burgar JM, Howey T, Fisher JT, Burton AC (2021) Simultaneous monitoring of vegetation dynamics and wildlife activity with camera traps to assess habitat change. Remote Sensing in Ecology and Conservation 7(4):666–684. https://doi.org/10.1002/rse2.222
+* [[[ref_sun_2021, Sun et al. 2021]]] Sun C, Beirne C, Burgar JM, Howey T, Fisher JT, Burton AC (2021) Simultaneous monitoring of vegetation dynamics and wildlife activity with camera traps to assess habitat change. Remote Sensing in Ecology and Conservation 7(4):666–684. https://doi.org/10.1002/rse2.222
 
-- [[[ref_sunarto_2013]]] TODO
+* [[[ref_sunarto_2013]]] TODO
 
-- [[[ref_tobler_2008]]] TODO
+* [[[ref_tobler_2008]]] TODO
 
-- [[[ref_tobler_2013]]] TODO
+* [[[ref_tobler_2013]]] TODO
 
-- [[[ref_us_vegetation]]]: TODO US National Vegetation Classification, https://usnvc.org
+* [[[ref_us_vegetation]]] TODO US National Vegetation Classification, https://usnvc.org
 
-- [[[ref_wearn_2013]]] TODO
+* [[[ref_wearn_2013]]] TODO
 
-- [[[ref_wearn_2017,Wearn & Glover-Kapfer 2017]]]: Wearn OR, Glover-Kapfer P (2017) Camera-trapping for conservation: a guide to best practices. WWF Conservation Technology Series 1(1). WWF-UK, Woking, United Kingdom.
+* [[[ref_wearn_2017,Wearn & Glover-Kapfer 2017]]] Wearn OR, Glover-Kapfer P (2017) Camera-trapping for conservation: a guide to best practices. WWF Conservation Technology Series 1(1). WWF-UK, Woking, United Kingdom.
 
-- [[[ref_wildcam]]]: TODO WildCAM
+* [[[ref_wildcam]]] TODO WildCAM
 
-- [[[ref_wildlife_insights]]] TODO
+* [[[ref_wildlife_insights]]] TODO
 
-- [[[ref_wildtrax]]] TODO
+* [[[ref_wildtrax]]] TODO
 
-- [[[ref_wilkinson_2018]]] TODO
+* [[[ref_wilkinson_2018]]] TODO
 
 <<<
