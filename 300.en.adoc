@@ -19,7 +19,7 @@ If data storage and classification is lagging behind, large volumes of data will
 Manual extraction, organization and labelling can introduce human errors and can lead to data loss. 
 In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. 
 Camera traps inherently detect multiple species and observations of nontarget species provide valuable data for other research objectives. 
-If all data, including non target species, were annotated, more relevant outcomes to funds could be generated
+If all data, including non target species, were annotated, more relevant outcomes to funds could be generated (<<ref_young_2018>>, <<ref_wearn_2017>>).
 
 To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, 
 rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data.
