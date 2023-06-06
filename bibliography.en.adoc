@@ -25,7 +25,7 @@
 
 - [[[ref_eunis_habitat]]] TODO EUNIS Habitat Classification, https://eunis.eea.europa.eu/habitats.jsp
 
-- [[[ref_fegraus_2011,Fegraus et al. 2011]]]: Fegraus EH, Lin K, Ahumada JA, Baru C, Chandra S, Youn C (2011) Data acquisition and management software for camera trap data: A case study from the TEAM Network. Ecological Informatics 6, 345-353. https://doi.org/10.1016/j.ecoinf.2011.06.003
+* [[ref_fegraus_2011,Fegraus et al. 2011]]: Fegraus EH, Lin K, Ahumada JA, Baru C, Chandra S, Youn C (2011) Data acquisition and management software for camera trap data: A case study from the TEAM Network. Ecological Informatics 6, 345-353. https://doi.org/10.1016/j.ecoinf.2011.06.003
 
 - [[[ref_glover_2019,Glover & Kapfer 2019]]] TODO
 
