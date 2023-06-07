@@ -186,7 +186,76 @@ Metadata for videos is less standardised, although some formats like AVI and MOV
 
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see #figure_classes).
 
+FIGURE IMAGE
+
+TABLE EXIF
+
+[cols=2*,options="header"]
+|===
+|Property
+|Value
+
+|File type
+|JPEG
+
+|MIME type
+|image/jpeg
+
+|Image width
+|2048 pixels
+
+|Image height
+|1440 pixels
+
+|Horizontal resolution
+|72 dpi
+
+|Vertical resolution
+|72 dpi
+
+|Exif version
+|0220
+
+|Make
+|RECONYX
+
+|Model
+|HYPERFIRE 2 COVERT
+
+|Date time original
+|2020:06:12 06:04:32 UTC
+
+|Time zone offset
+|N/A
+
+|Exposure time / shutter speed
+|1/85
+
+|ISO
+|200
+
+|Colour Space
+|sRGB
+
+|Flash
+|Auto, Fired
+
+|Exposure mode
+|Auto
+
+|White balance
+|Manual
+
+|Scene capture type
+|Standard
+
+|=== 
+
+
 ==== Timestamps
+
+
+
 
 ==== File naming
 
