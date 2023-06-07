@@ -103,10 +103,71 @@ Different names are used for similar roles. We recommend simplifying those to a 
 |Project coordinator
 |Project Owner
 
+|principalInvestigator
+|PrincipalInvestigator
+|
+|ProjectLeader
+ProjectManager
+Supervisor
+|Owner
+Principal Investigator
+|Principal investigator
+|Project Owner
 
+|rightsHolder
+|
+|
+|RightsHolder
+|
+|
+|
 
+|publishers
+|
+|
+|Distributor
+|Distributor
+Publisher
+|
+|
 
+|contributor
+|sequenceIdentifiedBy
+PhotoTypeIdentifiedBy
+|Crew Member
+Surveyor
+|DataManager
+DataCurator
+DataCollector
+ProjectMember
+Researcher
+|Curator
+Editor
+Author
+Content Provider
+Originator
+|Admin
+Taxonomic expert
+Photo processor
+Volunteer
+|Project Editor
+Project Contributor
+Project Tagger
 
+|
+|
+|
+|Other
+|User
+Processor
+Reviewer
+Metadata Provider
+|View only
+Dummy
+Awaiting access
+|Project Viewer
+
+|=== 
 
 
 
