@@ -55,7 +55,7 @@ Project metadata document a camera trap project/study as a whole. Who was involv
 Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). 
 Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? 
 How easy is it to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. 
-Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<chapter-4, chapter 4>>).
+Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<chapter-four, chapter 4>>).
 
 
 ==== Participants and roles
