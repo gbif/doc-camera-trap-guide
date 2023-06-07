@@ -21,13 +21,19 @@
 
 * [[[ref_cusack_2015]]] TODO
 
+* [[[ref_datacite]]]
+
 * [[[ref_delisle_2021]]] TODO
 
 * [[[ref_emammal_design]]] TODO Study Design Recommendation for a Park. eMammal https://emammal.si.edu/about/study-design/park
 
+* [[[ref_eml_2015]]] TODO
+
 * [[[ref_eunis_habitat]]] TODO EUNIS Habitat Classification, https://eunis.eea.europa.eu/habitats.jsp
 
 * [[[ref_fegraus_2011,Fegraus et al. 2011]]] Fegraus EH, Lin K, Ahumada JA, Baru C, Chandra S, Youn C (2011) Data acquisition and management software for camera trap data: A case study from the TEAM Network. Ecological Informatics 6, 345-353. https://doi.org/10.1016/j.ecoinf.2011.06.003
+
+* [[[ref_forrester_2017]]] TODO and check year! reference to CTMS
 
 * [[[ref_glover_2019,Glover & Kapfer 2019]]] TODO
 
@@ -60,6 +66,8 @@
 * [[[ref_oconnell_2011,O’Connell et al. 2011]]] O’Connell AF, Nichols JD, Karanth KU (2011) Camera Traps in Animal Ecology: Methods and Analyses. Springer, New York.
 
 * [[[ref_oconnor_2017,O'Connor et al. 2017]]] O'Connor KM, Nathan LR, Liberati MR, Tingley MW, Vokoun JC, Rittenhouse TAG (2017) Camera trap arrays improve detection probability of wildlife: Investigating study design considerations using an empirical dataset. PLoS ONE 12(4). e0175684. https://doi.org/10.1371/journal.pone.0175684
+
+* [[[ref_protocol_2019]]] TODO
 
 * [[[ref_risc_2019,RISC 2019]]] Resources Information Standards Committee (RISC) (2019) Wildlife Camera Metadata Protocol: Standards for Components of British Columbia’s Biodiversity No. 44. Knowledge Management Branch, B.C. Ministry of Environment and Climate Change Strategy and B.C. Ministry of Forests, Lands, Natural Resource Operations and Rural Development. Victoria, B.C
 
