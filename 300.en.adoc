@@ -26,7 +26,7 @@ rather than a hundred poorly documented ones. Only in this way can we turn the c
 
 In this chapter, we introduce a number of general conventions for sound data management data. 
 We zoom deeper into what camera trap data exactly is. For each type of camera trap data 
-(<<#project-metadata, metadata>>, <<#media-files, media>>, <<deployments, deployments>>, <<observations, observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
+(<<project-metadata, metadata>>, <<media-files, media>>, <<deployments, deployments>>, <<observations, observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
 
 === What are camera trap data
 
@@ -36,7 +36,27 @@ Media files should be <<classified>> to know what species were observed. Informa
 is needed to know when, where and how likely those species were to be observed. 
 Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved.
 
+Overall, we can distinguish four types of camera trap data:
+
+* **Project metadata:** information about the camera trap project/study as a whole
+* **Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata
+* **Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.
+* **Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.
+
+These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. 
+We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see #figure_classes). 
+Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
+
+FIGURE CLASSES HERE
+
 === Project Metadata
+
+Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? 
+Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). 
+Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? 
+How easy is it to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. 
+Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<chapter-4, chapter 4>>).
+
 
 ==== Participants and roles
 
