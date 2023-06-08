@@ -88,7 +88,7 @@ Different names are used for similar roles. We recommend simplifying those to a 
 [cols=7*,options="header"]
 |===
 |Camtrap DP
-|CTMS <<ref_forrester_2017>>
+|CTMS <<ref_forrester_2016>>
 |Wildlife camera metadata protocol <<ref_protocol_2019>>
 |Datacite <<ref_datacite>>
 |EML <<ref_eml_2015>>

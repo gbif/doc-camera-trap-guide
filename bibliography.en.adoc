@@ -33,7 +33,7 @@
 
 * [[[ref_fegraus_2011,Fegraus et al. 2011]]] Fegraus EH, Lin K, Ahumada JA, Baru C, Chandra S, Youn C (2011) Data acquisition and management software for camera trap data: A case study from the TEAM Network. Ecological Informatics 6, 345-353. https://doi.org/10.1016/j.ecoinf.2011.06.003
 
-* [[[ref_forrester_2017]]] TODO and check year! reference to CTMS
+* [[[ref_forrester_2016]]] Forrester T, O’Brien T, Fegraus E, Jansen PA, Palmer J, Kays R, et al. (2016). An open standard for camera trap data. Biodiversity Data Journal, 4, e10197.
 
 * [[[ref_glover_2019,Glover & Kapfer 2019]]] TODO
 
