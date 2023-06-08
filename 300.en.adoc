@@ -32,7 +32,7 @@ We zoom deeper into what camera trap data exactly is. For each type of camera tr
 
 Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. 
 But to be able to use these for research they need to be documented with additional information. 
-Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology 
+Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location,location>>, <<alignment>> and sampling methodology 
 is needed to know when, where and how likely those species were to be observed. 
 Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved.
 
@@ -47,7 +47,7 @@ These data can be organized in different ways, based on personal preference or w
 We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see #figure_classes). 
 Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
 
-FIGURE CLASSES HERE
+#figure_classes here
 
 === Project Metadata
 
@@ -77,7 +77,7 @@ When describing your project, think about what others would need to understand i
 Data management systems typically organize this information into the following classes: 
 <<project>>, <<subproject>>, <<organization>> and <<participant>> (see #figure_classes).
 
-FIGURE METADATA HERE
+#figure_metadata here
 
 ==== Participants and roles
 
