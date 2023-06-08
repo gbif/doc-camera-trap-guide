@@ -1,13 +1,13 @@
 [bibliography]
 == References
 
+* [[[ref_agouti_2019]]] TODO
+
 * [[[ref_berkel_2014]]] TODO Berkel 2014
 
 * [[[ref_burton_2015,Burton et al. 2015]]] Burton AC, Neilson E, Moreira D, Ladle A, Steenweg R, Fisher JT, et al. (2015) Wildlife camera trapping: a review and recommendations for linking surveys to ecological processes. J. Appl. Ecol., 52, 675–685.
 
 * [[[ref_cadman_2014,Cadman & González-Talaván 2014]]] Cadman M, González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Contributed by Athreya V, Chavan V, Ghosh M, Hanssen F, Harihar A, Hirsch T, Lindgaard A, Mathur VB, Mehlum F, Pandav B, Talukdar G, Vang R. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=6045.
-
-* [[ref_bubnicki_2013]] TODO
 
 * [[[ref_camelot]]] TODO
 
@@ -107,6 +107,6 @@
 
 * [[[ref_wilkinson_2018]]] TODO
 
-* [[ref_young_2018]] TODO
+* [[[ref_young_2018]]] Young S, Rode-Margono, Amin R (2018) Software to facilitate and streamline camera trap data management: A review. Ecology and Evolution, 8, 9947-9957. https://doi.org/10.1002/ece3.4464
 
 <<<
