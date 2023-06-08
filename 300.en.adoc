@@ -32,7 +32,7 @@ We zoom deeper into what camera trap data exactly is. For each type of camera tr
 
 Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. 
 But to be able to use these for research they need to be documented with additional information. 
-Media files should be <<classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology 
+Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology 
 is needed to know when, where and how likely those species were to be observed. 
 Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved.
 
