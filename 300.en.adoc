@@ -258,11 +258,17 @@ Since this information is derived from the camera’s internal clock, it is crit
 We recommend setting the clock to https://en.wikipedia.org/wiki/Coordinated_Universal_Time[Coordinated Universal Time (UTC)] or local winter time. 
 Disable automatic switching to summer time and record the used time zone as part of the <<deployment>>.
 
-
-
-
-
 ==== File naming
+
+Media files are best managed by a <<data-management-system,data management system>>. 
+If you manage your media files yourself, then we recommend the following file and directory naming conventions:
+
+- Avoid renaming media file names. Rather, organize media files in one directory for each <<deployment>>. 
+This also prevents raw file names from overlapping across cameras. Note that file paths may be used as identifiers in <<classification>> data.
+- Make sure that ordering files alphabetically also sorts them chronologically. 
+This is likely already the case for sequentially assigned file names (e.g. `IMG_4545.jpg`). 
+Otherwise, start the name with the date (`YYYYMMDD`) or datetime (`YYYYMMDD_HHMMSS`). This can also be useful for directory names.
+- If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than whitespace (`image 1`). Avoid special characters.
 
 ==== Storage
 
