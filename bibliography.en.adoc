@@ -13,6 +13,8 @@
 
 * [[[ref_burton_2015,Burton et al. 2015]]] Burton AC, Neilson E, Moreira D, Ladle A, Steenweg R, Fisher JT, et al. (2015) Wildlife camera trapping: a review and recommendations for linking surveys to ecological processes. J. Appl. Ecol., 52, 675–685.
 
+* [[[ref_bradley_2017]]] Bradley S (2017) MammalWeb - Participant guided development of a generalised citizen science web platform. https://edshare.soton.ac.uk/18337/
+
 * [[[ref_cadman_2014,Cadman & González-Talaván 2014]]] Cadman M, González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Contributed by Athreya V, Chavan V, Ghosh M, Hanssen F, Harihar A, Hirsch T, Lindgaard A, Mathur VB, Mehlum F, Pandav B, Talukdar G, Vang R. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=6045.
 
 * [[[ref_camelot]]] TODO
@@ -33,6 +35,8 @@
 
 * [[[ref_delisle_2021]]] TODO
 
+* [[[ref_alony_2020]]] Alony I, Hanski-Leventhal D, Lockstone-Binney L, Holmes K, Meijs LCPM (2020) Online volunteering at DigiVol: an innovative crowd-sourcing approach for heritage tourism artefacts preservation. Journal of Heritage tourism, 15 (1), 14-26. https://doi.org/10.1080/1743873X.2018.1557665.
+
 * [[[ref_dinerstein_2017]]] Dinerstein E, Olson D, Joshi A, Vynne C, Burgess ND, Wikramanayake E et al. (2017) An ecoregion-based approach to protecting half the terrestrial realm. Bioscience, 67 (6), 534-545. https://doi.org/10.1093/biosci/bix014
 
 * [[[ref_emammal_design]]] TODO Study Design Recommendation for a Park. eMammal https://emammal.si.edu/about/study-design/park
@@ -45,11 +49,19 @@
 
 * [[[ref_forrester_2016]]] Forrester T, O’Brien T, Fegraus E, Jansen PA, Palmer J, Kays R, et al. (2016). An open standard for camera trap data. Biodiversity Data Journal, 4, e10197.
 
+* [[[ref_forston_2012]]] Fortson L, Masters K, Nichol R, Borne K, Edmondson E, Lintott C,et al. (2012) Galaxy zoo: Morphological classification and citizen science. In Way MJ, Scargle JD, Ali KM, Srivastava AN (Eds.) Advances in machine learning and data mining for astronomy (pp. 213–236). Boca Raton, FL: CRC Press.
+
 * [[[ref_glover_2019,Glover & Kapfer 2019]]] TODO
+
+* [[[ref_green_2020]]] Green SE, Rees JP, Stephens PA, Hill RA, Giordano AJ (2020) Innovations in camera trapping technology and approaches: the integration of citizen science and artificial intelligence. Animals, 10, 132. https://doi.org/10.3390/ani10010132
+
+* [[[ref_groom_2018]]] Groom Q, De Smedt S, Verissimo Pereira N, Bogaerts A, Engledo H (2018) BISS, 2, e26803. https://doi.org/10.3897/biss.2.26803
 
 * [[[ref_guillera_2010,Guillera & Arroita 2010]]] TODO
 
 * [[[ref_hobbs_2017,Hobbs & Brehme 2017]]] TODO
+
+* [[[ref_hsing_2018]]] Hsing P, Bradley S, Kent VT, Hill RA, Smith GC, Whittingham MJ et al. (2018) Economical crowdsourcing for camera trap image classification. Remote Sensing in Ecology and Conservation, 4 (4), 361-374. https://doi.org/10.1002/rse2.84
 
 * [[[ref_iucn_habitat]]] TODO IUCN Habitat Classification, https://www.iucnredlist.org/resources/habitat-classification-scheme
 
@@ -103,7 +115,11 @@
 
 * [[[ref_shannon_2014]]] TODO
 
+* [[[ref_simpson_2014]]] Simpson R, Page KR, De Roure D (2014) Zooniverse: observing the world's largest citizen science platform. Proceedings of the 23rd International Conference on World Wide Web, 1049-1054. https://doi.org/10.1145/2567948.2579215
+
 * [[[ref_sollmann_2012]]] TODO
+
+* [[[ref_swanson_2015]]] Swanson AA., Kosmala M, Lintott CC, Simpson RR, Smith A, Packer C (2015). Snapshot Serengeti, high-frequency annotated camera trap images of 40 mammalian species in an African savanna. Scientific Data, 2, 150026. https://doi.org/10.1038/sdata.2015.26
 
 * [[[ref_soria_2021]]] Soria CD, Pacifici M, Di Marco M, Stephen SM, Rondinini C (2021) COMBINE: a coalesced mammal database of intrinsic and extrinsic traits. Ecology, 102 (6), e03344.https://doi.org/10.1002/ecy.3344
 
@@ -122,6 +138,8 @@
 * [[[ref_wearn_2013]]] TODO
 
 * [[[ref_wearn_2017,Wearn & Glover-Kapfer 2017]]] Wearn OR, Glover-Kapfer P (2017) Camera-trapping for conservation: a guide to best practices. WWF Conservation Technology Series 1(1). WWF-UK, Woking, United Kingdom.
+
+* [[[ref_weinstein_2018]]] Weinstein BG (2017) A computer vision for animal ecology. Journal of Animal Ecology, 87 (3), 533-545. https://doi.org/10.1111/1365-2656.12780
 
 * [[[ref_wildcam]]] TODO WildCAM
 
