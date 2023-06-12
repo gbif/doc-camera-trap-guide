@@ -174,9 +174,10 @@ A camera also records metadata when creating a media file. This can include date
 
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see #figure_classes).
 
-FIGURE IMAGE
+#figure_image: An image captured by a camera trap deployed as part of the MICA project (#cit_mica_project). It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. Source: https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file
 
-TABLE EXIF
+#table_exif: Selected properties included in the EXIF metadata of the image in #figure_image
+
 
 [cols=2*,options="header"]
 |===
