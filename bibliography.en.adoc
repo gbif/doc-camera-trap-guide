@@ -27,7 +27,7 @@
 
 * [[[ref_emammal_design]]] TODO Study Design Recommendation for a Park. eMammal https://emammal.si.edu/about/study-design/park
 
-* [[[ref_eml_2015]]] TODO
+* [[[ref_eml_2015]]] Darwin Core vocabulary: EML agent role vocabulary. Available from: https://rs.gbif.org/vocabulary/gbif/agent_role.xml [2015-02-13]
 
 * [[[ref_eunis_habitat]]] TODO EUNIS Habitat Classification, https://eunis.eea.europa.eu/habitats.jsp
 
