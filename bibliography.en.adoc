@@ -67,7 +67,7 @@
 
 * [[[ref_oconnor_2017,O'Connor et al. 2017]]] O'Connor KM, Nathan LR, Liberati MR, Tingley MW, Vokoun JC, Rittenhouse TAG (2017) Camera trap arrays improve detection probability of wildlife: Investigating study design considerations using an empirical dataset. PLoS ONE 12(4). e0175684. https://doi.org/10.1371/journal.pone.0175684
 
-* [[[ref_protocol_2019]]] TODO
+* [[[ref_RISC_2019]]] Resources Information Standards Committee (RISC) (2019) Wildlife camera metadata protocol: standards for components of British Columbia’s biodiversity, no. 44. Knowledge Management Branch, B.C. Ministry of Environment and Climate Change Strategy and B.C. Ministry of Forests, Lands, Natural Resource Operations and Rural Development. Victoria, B.C.
 
 * [[[ref_risc_2019,RISC 2019]]] Resources Information Standards Committee (RISC) (2019) Wildlife Camera Metadata Protocol: Standards for Components of British Columbia’s Biodiversity No. 44. Knowledge Management Branch, B.C. Ministry of Environment and Climate Change Strategy and B.C. Ministry of Forests, Lands, Natural Resource Operations and Rural Development. Victoria, B.C
 
