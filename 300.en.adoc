@@ -428,14 +428,14 @@ Observations are best recorded in a <<data-management-system,data management sys
 
 Unfortunately, camera traps don’t provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
 
-* Media does or <<blanks,does not>> contain object(s) of interest.
+* Media does or <<blank,does not>> contain object(s) of interest.
 * Object(s) of interest is a human or vehicle, or cannot be identified.
 * Object(s) of interest is an animal, identified at a high taxonomic level (e.g. a rodent).
-* Animal is identified at species or subspecies level (e.g. Sus scrofa).
+* Animal is identified at species or subspecies level (e.g. _Sus scrofa_).
 * Animal is identified as a known individual (e.g. wolf Noëlla).
 * Other properties of the animal are recorded, such as group size, life stage, sex, and behaviour.
 
-Different actors (experts, volunteers, AI) can reach different levels of precision, based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process (#cit_green_2022). Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
+Different actors (experts, volunteers, AI) can reach different levels of precision, based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process (<<ref_green_2022>>). Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
 
 ==== Citizen science
 
