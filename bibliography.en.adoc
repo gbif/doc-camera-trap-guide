@@ -1,7 +1,7 @@
 [bibliography]
 == References
 
-* [[[ref_agouti_2019]]] TODO
+* [[[ref_agouti_2019]]] Caesar J., Milotic T., Liefting Y., Desmet P., Jansen P. (2019) Agouti: a platform for processing and archiving camera trap images. BISS 3: e46690. https://doi.org/10.3897/biss.3.46690
 
 * [[[ref_berkel_2014]]] TODO Berkel 2014
 
@@ -101,7 +101,7 @@
 
 * [[[ref_wildcam]]] TODO WildCAM
 
-* [[[ref_wildlife_insights]]] TODO
+* [[[ref_wildlife_insights]]] Wildlife Insights (2022). https://www.wildlifeinsights.org/
 
 * [[[ref_wildtrax]]] TODO
 
