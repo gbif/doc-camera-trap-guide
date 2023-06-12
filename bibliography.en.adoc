@@ -3,7 +3,13 @@
 
 * [[[ref_agouti_2019]]] Caesar J, Milotic T, Liefting Y, Desmet P, Jansen P (2019) Agouti: a platform for processing and archiving camera trap images. BISS 3: e46690. https://doi.org/10.3897/biss.3.46690
 
+* [[[ref_amatulli_2018]]] TODO
+
+* [[[ref_bennett_2017]]] TODO
+
 * [[[ref_berkel_2014]]] TODO Berkel 2014
+
+* [[[ref_buchhorn_2019]]] TODO
 
 * [[[ref_burton_2015,Burton et al. 2015]]] Burton AC, Neilson E, Moreira D, Ladle A, Steenweg R, Fisher JT, et al. (2015) Wildlife camera trapping: a review and recommendations for linking surveys to ecological processes. J. Appl. Ecol., 52, 675–685.
 
@@ -27,6 +33,8 @@
 
 * [[[ref_delisle_2021]]] TODO
 
+* [[[ref_dinerstein_2017]]] Dinerstein E, Olson D, Joshi A, Vynne C, Burgess ND, Wikramanayake E et al. (2017) An ecoregion-based approach to protecting half the terrestrial realm. Bioscience, 67 (6), 534-545. https://doi.org/10.1093/biosci/bix014
+
 * [[[ref_emammal_design]]] TODO Study Design Recommendation for a Park. eMammal https://emammal.si.edu/about/study-design/park
 
 * [[[ref_eml_2015]]] Darwin Core vocabulary: EML agent role vocabulary. Available from: https://rs.gbif.org/vocabulary/gbif/agent_role.xml [2015-02-13]
@@ -45,6 +53,10 @@
 
 * [[[ref_iucn_habitat]]] TODO IUCN Habitat Classification, https://www.iucnredlist.org/resources/habitat-classification-scheme
 
+* [[[ref_jones_2009]]] Jones KE, Bielby J, Cardillo M, Fritz SA, O’Dell J, Orme DL et al. (2009) PanTHERIA: a species-level database of life history, ecology, and geography of extant and recently extinct mammals. Ecology, 90 (9): 2648-2648. https://doi.org/10.1890/08-1494.1
+
+* [[[ref_jung_2020]]] TODO
+
 * [[[ref_kays_2020, Kays et al. 2020]]] Kays R, Arbogast BS, Baker-Whatton M, Beirne C, Boone HM, Bowler M, Burneo SF, Cove MV, Ding P, Espinosa S, Gonçalves ALS, Hansen CP, Jansen PA, Kolowski JM, Knowles TW, Lima MGM, Millspaugh J, McShea WJ, Pacifici K, et al. (2020) An empirical of camera trap study design: How many long and when? Methods in Ecology and Evolution. 11(6), 700-713. https://doi.org/10.1111/2041-210X.13370
 
 * [[[ref_kolowski_2017,Kolowski & Forrester 2017]]] Kolowski JM, Forrester TD (2017) Camera trap placement and the potential for bias due to trails and other features. PloS one, 12(10), e0186679. https://doi.org/10.1371/journal.pone.0186679
@@ -52,6 +64,8 @@
 * [[[ref_kucera_2011]]] TODO
 
 * [[[ref_lamelas_2020,Lamelas-Lopez et al. 2020]]] Lamelas-Lopez L, Pardavila X, Amorim IR, Borges P (2020) Wildlife inventory from camera-trapping surveys in the Azores (Pico and Terceira islands). Biodiversity data journal, 8, e47865. https://doi.org/10.3897/BDJ.8.e47865
+
+* [[[ref_law_2018]]] TODO
 
 * [[[ref_mackenzie_2005]]] TODO
 
@@ -68,6 +82,10 @@
 * [[[ref_oconnell_2011,O’Connell et al. 2011]]] O’Connell AF, Nichols JD, Karanth KU (2011) Camera Traps in Animal Ecology: Methods and Analyses. Springer, New York.
 
 * [[[ref_oconnor_2017,O'Connor et al. 2017]]] O'Connor KM, Nathan LR, Liberati MR, Tingley MW, Vokoun JC, Rittenhouse TAG (2017) Camera trap arrays improve detection probability of wildlife: Investigating study design considerations using an empirical dataset. PLoS ONE 12(4). e0175684. https://doi.org/10.1371/journal.pone.0175684
+
+* [[[ref_oliveira_2017]]] TODO
+
+* [[[ref_riley_1999]]] TODO
 
 * [[[ref_RISC_2019]]] Resources Information Standards Committee (RISC) (2019) Wildlife camera metadata protocol: standards for components of British Columbia’s biodiversity, no. 44. Knowledge Management Branch, B.C. Ministry of Environment and Climate Change Strategy and B.C. Ministry of Forests, Lands, Natural Resource Operations and Rural Development. Victoria, B.C.
 
@@ -87,9 +105,13 @@
 
 * [[[ref_sollmann_2012]]] TODO
 
+* [[[ref_soria_2021]]] Soria CD, Pacifici M, Di Marco M, Stephen SM, Rondinini C (2021) COMBINE: a coalesced mammal database of intrinsic and extrinsic traits. Ecology, 102 (6), e03344.https://doi.org/10.1002/ecy.3344
+
 * [[[ref_sun_2021, Sun et al. 2021]]] Sun C, Beirne C, Burgar JM, Howey T, Fisher JT, Burton AC (2021) Simultaneous monitoring of vegetation dynamics and wildlife activity with camera traps to assess habitat change. Remote Sensing in Ecology and Conservation 7(4):666–684. https://doi.org/10.1002/rse2.222
 
 * [[[ref_sunarto_2013]]] TODO
+
+* [[[ref_tobias_2022]]] TODO
 
 * [[[ref_tobler_2008]]] TODO
 
@@ -109,6 +131,12 @@
 
 * [[[ref_wilkinson_2018]]] TODO
 
+* [[[ref_wilman_2014]]] Wilman H, Belmaker J, de la Rosa C, Rivandeneira MM, Jetz W (2014). EltonTraits 1.0: Species-level foraging attributes of the world’s birds and mammals. Ecology, 95 (7), 2027-2027. https://doi.org/10.1890/13-1917.1
+
+* [[[ref_yang_2017]]] TODO
+
 * [[[ref_young_2018]]] Young S, Rode-Margono, Amin R (2018) Software to facilitate and streamline camera trap data management: A review. Ecology and Evolution, 8, 9947-9957. https://doi.org/10.1002/ece3.4464
+
+* [[[ref_zhao_2005]]] TODO
 
 <<<

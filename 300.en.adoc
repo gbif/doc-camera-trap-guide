@@ -363,22 +363,24 @@ It can be useful to categorize deployments in <<deployment-group,deployment grou
 
 ==== Covariates
 
-Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. as part of the deployment. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:
-* Biomes/ecoregions (#cit_dinerstein_2017)
+Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. as part of the deployment. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:
+
+* Biomes/ecoregions (<<ref_dinerstein_2017>>)
 * Ecological traits:
-* COMBINE (#cit_soria_2021)
-* PanTHERIA (#cit_bielby_2009)
-* EltonTraits (#cit_wilman_2014)
-* AmphBIO (#cit_oliveira_2017)
-* GlobTerm (#cit_bennett_2017)
-* AVONET (#cit_tobias_2022)
-* Open Traits Network
-* Habitat classification (#cit_jung_2020)
-* Land cover products (#cit_yang_2017, #cit_amatulli_2018, http://www.earthenv.org)
-* Land cover type (#cit_buchhorn_2019)
-* Leaf Area Index (#cit_law_2008)
-* Primary productivity (#zhao_2005)
-* Terrain ruggedness index (TRI) (#cit_riley_degloria_1999)
+** COMBINE (<<ref_soria_2021>>)
+** PanTHERIA (<<ref_jones_2009>>)
+** EltonTraits (<<ref_wilman_2014>>)
+** AmphBIO (<<ref_oliveira_2017>>)
+** GlobTerm (<<ref_bennett_2017>>)
+** AVONET (<<ref_tobias_2022>>)
+* https://opentraits.org/datasets.html[Open Traits Network]
+* Habitat classification (<<ref_jung_2020>>)
+* Land cover products (<<ref_yang_2017>>, <<ref_amatulli_2018>>, http://www.earthenv.org/[http://www.earthenv.org])
+* Land cover type (<<ref_buchhorn_2019>>)
+* Leaf Area Index (<<ref_law_2008>>)
+* Primary productivity (<<ref_zhao_2005>>)
+* Terrain ruggedness index (TRI) (<<ref_riley_1999>>)
+
 
 === Observations
 
