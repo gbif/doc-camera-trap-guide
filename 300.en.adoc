@@ -357,9 +357,9 @@ Since a deployment relates to the placement of a <<camera>>, it is important to 
 ==== Deployment groups
 
 It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see #figure_deployment_groups). A single deployment can belong to zero or more deployment groups.
-<<subproject,Subprojects> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. This facilitates their management. A single deployment can belong to a single subproject.
+<<subproject,Subprojects>> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. This facilitates their management. A single deployment can belong to a single subproject.
 
-FIGURE DEPLOYMENT GROUPS HERE
+#figure_deployment_groups: Map showing a selection of deployments from the NC Candid Critters project (#cit_cc_project). Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Left (A): deployment groups representing site type (forested area, open area, residential yard, trail), right (B): deployment groups representing property type (private, public). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure).
 
 ==== Covariates
 
