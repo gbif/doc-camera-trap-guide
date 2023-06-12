@@ -78,6 +78,8 @@ Data management systems typically organize this information into the following c
 
 A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see #figure_classes). Different names are used for similar roles. We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data (see #table_roles).
 
+#table_roles: Participant roles in camera trap studies, as defined by different formats and data management systems.
+
 [cols=7*,options="header"]
 |===
 |Camtrap DP
