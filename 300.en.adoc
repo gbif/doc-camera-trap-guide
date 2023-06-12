@@ -273,6 +273,8 @@ A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployme
 
 Data management systems typically organize deployments into the following classes: <<deployment>>, <<location,location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see #figure_classes).
 
+#table_deployment: Recorded information for the deployment that generated the image in #figure_image. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/
+
 [cols=2*,options="header"]
 |===
 |Property
@@ -287,7 +289,7 @@ Data management systems typically organize deployments into the following classe
 |End date/time
 |2020-07-01 09:41:41 UTC
 
-Location name
+|Location name
 |B_HS_val_2_processiepark
 
 |Latitude
