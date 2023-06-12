@@ -469,35 +469,35 @@ The list of scientific names that are available for <<classification,classificat
 |Taxonomic coverage
 |Use for
 
-|Catalogue of Life (#cit_col)
+|Catalogue of Life (<<ref_col_2023>>)
 |All
 |Scientific names
 Common names (select languages)
 Taxonomy
 
-|Wikipedia (English and other language versions)
+|https://en.wikipedia.org/[Wikipedia] (English and other language versions)
 |All
 |Common names (many languages)
 
-|Clements Checklist of Birds of the World (#cit_clements)
+|Clements Checklist of Birds of the World (<<ref_clements_2022>>)
 |Birds
 |Scientific names
 Common names (English)
 Taxonomy
 
-|Birdlife International's taxonomy
+|(http://datazone.birdlife.org/species/search)[Birdlife International's taxonomy]
 |Birds
 |Scientific names
 Common names (English)
 Taxonomy
 
-|IUCN Red List of Endangered Species
+|https://www.iucnredlist.org/[IUCN Red List of Endangered Species]
 |Mammals
 |Scientific names
 Common names (select languages)
 Taxonomy
 
-|American Society of Mammalogists Mammal Diversity Database
+|https://www.mammaldiversity.org/[American Society of Mammalogists Mammal Diversity Database]
 |Mammals
 |Scientific names
 Common names (English)

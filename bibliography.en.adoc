@@ -31,6 +31,10 @@
 
 * [[[ref_chapman_2020]]] Chapman AD, Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853
 
+* [[[ref_clements_2022]]] Clements JF, Schulenberg TS, Iliff MJ, Fredericks TA, Gerbracht JA, Lepage D, et al. (2022) The eBird/Clements checklist of Birds of the World: v2022. Downloaded from https://www.birds.cornell.edu/clementschecklist/download/
+
+* [[[ref_col_2023]]] Catalogue of Life Checklist (2023) https://doi.org/10.48580/dfs6.
+
 * [[[ref_cusack_2015]]] TODO
 
 * [[[ref_datacite]]]
