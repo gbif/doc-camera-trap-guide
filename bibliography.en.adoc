@@ -95,7 +95,7 @@
 
 * [[[ref_nguyen_2017]]] Nguyen H, Maclagan SJ, Nguyen TD, Nguyen T, Flemons P, Andrews K (2017) Animal recognition and identification with deep convolutional neural networks for automated wildlife monitoring. IEEE International Conference on Data Science and Advanced Analytics, Tokyo, Japan. pp. 40-49. https://doi.org/10.1109/DSAA.2017.31.
 
-* [[[ref_norouzzadeh_2021]]] Norouzzadeh MS, Morris D, Beery S, Joshi N, Jojic N, Clune JA (2021) A deep active learning system for species identification and counting in camera trap images. Methods in Ecology and Evolution, 12, 150-161.  https://doi.org/10.1111/2041-210X.13504
+* [[[ref_norouzzadeh_2020]]] Norouzzadeh MS, Morris D, Beery S, Joshi N, Jojic N, Clune JA (2021) A deep active learning system for species identification and counting in camera trap images. Methods in Ecology and Evolution, 12, 150-161.  https://doi.org/10.1111/2041-210X.13504
 
 * [[[ref_obrien_2010]]] TODO
 
