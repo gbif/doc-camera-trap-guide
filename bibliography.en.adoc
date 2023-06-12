@@ -19,6 +19,8 @@
 
 * [[[ref_chapman_1927]]] TODO
 
+* [[[ref_chapman_2020]]] Chapman AD, Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853
+
 * [[[ref_cusack_2015]]] TODO
 
 * [[[ref_datacite]]]
