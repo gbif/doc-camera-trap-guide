@@ -88,7 +88,7 @@ A <<participant>> is a person associated with a camera trap project. Information
 |Datacite <<ref_datacite>>
 |EML <<ref_eml_2015>>
 |Agouti <<ref_agouti_2019>>
-|Wildlife Insights <<ref_wildlife_insights>>
+|Wildlife Insights <<ref_wildlife_insights_2022>>
 
 |contact
 |ProjectContact
@@ -166,20 +166,11 @@ Awaiting access
 
 === Media files
 
-<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<images,images>> (see #figure_image for an example), 
-but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process.
-
-An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). 
-When processing the media files, those related images can be combined in a <<sequence>>. 
-A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). 
-That way, continued <<activity>> is captured in a single sequence.
-
-A camera also records metadata when creating a media file. 
-This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. 
-For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see #table_exif). 
-Metadata for videos is less standardised, although some formats like AVI and MOV support EXIF.
-
+<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see #figure_image for an example), but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process.
+An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence.
+A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see #table_exif). Metadata for videos is less standardised, although some formats like AVI and MOV support EXIF.
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see #figure_classes).
+
 
 FIGURE IMAGE
 
