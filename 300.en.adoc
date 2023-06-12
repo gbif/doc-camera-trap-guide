@@ -269,11 +269,9 @@ Bad
 
 === Deployments
 
-A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. 
-The resulting <<media-file,media files>> are all associated with that deployment and are best organized as such. Deployment information includes camera <<location>>, duration, <<alignment>> and settings and other <<covariates>> such as bait use, feature type, habitat, canopy cover, etc. (see table #table_deployment). 
-This information is not captured by the camera and needs to be recorded manually. Note that even the duration can be longer than the timestamp of the first and last captured media file.
+A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. The resulting <<media-file,media files>> are all associated with that deployment and are best organized as such. Deployment information includes camera <<location,location>>, duration, <<alignment>> and settings and other <<covariates,covariates>> such as bait use, feature type, habitat, canopy cover, etc. (see table #table_deployment). This information is not captured by the camera and needs to be recorded manually. Note that even the duration can be longer than the timestamp of the first and last captured media file.
 
-Data management systems typically organize deployments into the following classes: <<deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> and <<subpr
+Data management systems typically organize deployments into the following classes: <<deployment>>, <<location,location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see #figure_classes).
 
 [cols=2*,options="header"]
 |===
