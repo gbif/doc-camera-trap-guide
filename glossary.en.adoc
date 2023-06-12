@@ -79,6 +79,8 @@
 
 [[observation]]observation:: TODO
 
+[[observation-type]]observation type:: TODO
+
 [[organization]]organization:: Entity comprising one or more people that share a particular purpose, such as a company, institution, association or partnership. Organizations can be directly associated with a <<project>> (e.g. as rights holder, publisher) or indirectly via the affiliation of the project <<participant,participants>>. An organization is a {package_contributors} in Camtrap DP.
 
 [[participant]]participant:: Person associated with a <<project>>, performing out one or more <<role,roles>>. Participant information typically includes name and contact information and is subject to <<GDPR>>. <<organization,Organizations>> can also be considered participants. Also referred to as `contributor`, sometimes `user`. A participant is a {package_contributors} in Camtrap DP.

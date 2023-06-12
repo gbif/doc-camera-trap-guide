@@ -373,7 +373,7 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 ** AmphBIO (<<ref_oliveira_2017>>)
 ** GlobTerm (<<ref_bennett_2017>>)
 ** AVONET (<<ref_tobias_2022>>)
-* https://opentraits.org/datasets.html[Open Traits Network]
+** https://opentraits.org/datasets.html[Open Traits Network]
 * Habitat classification (<<ref_jung_2020>>)
 * Land cover products (<<ref_yang_2017>>, <<ref_amatulli_2018>>, http://www.earthenv.org/[http://www.earthenv.org])
 * Land cover type (<<ref_buchhorn_2019>>)
