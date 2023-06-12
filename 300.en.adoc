@@ -323,14 +323,16 @@ Deployment information is best recorded in a <<data-management-system,data manag
 * Be consistent.
 
 Good
-scientificName
-deployment_group
+
+`scientificName`
+`deployment_group`
 
 Bad
-scientific name
-dep_gr                          # abbreviated
-latitude & coordinatesLongitude # inconsistent naming
-camera_height_meter_double      # don’t include unit or data type
+
+`scientific name`
+`dep_gr`                          # abbreviated
+`latitude & coordinatesLongitude` # inconsistent naming
+`camera_height_meter_double`      # don’t include unit or data type
 
 ==== Location
 
