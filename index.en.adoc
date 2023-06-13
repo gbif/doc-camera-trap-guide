@@ -7,7 +7,7 @@ Author One <communication@gbif.org>; Author Two
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 :title-page-background-image: image:img/web/photo.jpg[position=top center]
 :license: https://creativecommons.org/licenses/by-sa/4.0/
-// Syntax highlighting
+:xrefstyle: short
 :source-highlighter: pygments
 
 ifdef::backend-html5[]
