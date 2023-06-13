@@ -9,10 +9,11 @@ Author One <communication@gbif.org>; Author Two
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 :xrefstyle: short
 :source-highlighter: pygments
-
-ifdef::backend-html5[]
-languageLinks:combined[]
-endif::backend-html5[]
+// Citation style
+:bibtex-file: references.bib
+:bibtex-style: gbif
+:bibtex-order: alphabetical
+:bibtex-locale: en-GB
 
 // References to Camera DP terms
 :package_resources: link:https://tdwg.github.io/camtrap-dp/metadata/#resources[package.resources,role=term]
@@ -113,6 +114,11 @@ endif::backend-html5[]
 :observations_classificationProbability: link:https://tdwg.github.io/camtrap-dp/data/#observations.classificationProbability[observations.classificationProbability,role=term]
 :observations_observationTags: link:https://tdwg.github.io/camtrap-dp/data/#observations.observationTags[observations.observationTags,role=term]
 :observations_observationComments: link:https://tdwg.github.io/camtrap-dp/data/#observations.observationComments[observations.observationComments,role=term]
+
+// "This document also available as PDF/languages" thing.
+ifdef::backend-html5[]
+languageLinks:combined[]
+endif::backend-html5[]
 
 :sectnums!:
 

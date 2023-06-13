@@ -1,0 +1,80 @@
+@article{ref_brides_2018,
+author = {Kane Brides and Jon Middleton and Kevin Leighton and Adam Grogan},
+title = {The use of camera traps to identify individual colour-marked geese at a moulting site},
+journal = {Ringing \& Migration},
+volume = {33},
+number = {1},
+pages = {19-22},
+year  = {2018},
+publisher = {Taylor & Francis},
+doi = {10.1080/03078698.2018.1525194},
+URL = {https://doi.org/10.1080/03078698.2018.1525194},
+eprint = {https://doi.org/10.1080/03078698.2018.1525194}
+}
+
+@article{ref_price_tack_2016,
+title = {AnimalFinder: A semi-automated system for animal detection in time-lapse camera trap images},
+journal = {Ecological Informatics},
+volume = {36},
+pages = {145-151},
+year = {2016},
+issn = {1574-9541},
+doi = {10.1016/j.ecoinf.2016.11.003},
+url = {https://www.sciencedirect.com/science/article/pii/S1574954116301121},
+author = {Jennifer L. {Price Tack} and Brian S. West and Conor P. McGowan and Stephen S. Ditchkoff and Stanley J. Reeves and Allison C. Keever and James B. Grand},
+keywords = {Camera trap, Game camera, N-mixture model, Image processing, Wildlife monitoring, Animal detection},
+abstract = {Although the use of camera traps in wildlife management is well established, technologies to automate image processing have been much slower in development, despite their potential to drastically reduce personnel time and cost required to review photos. We developed AnimalFinder in MATLAB® to identify animal presence in time-lapse camera trap images by comparing individual photos to all images contained within the subset of images (i.e. photos from the same survey and site), with some manual processing required to remove false positives and collect other relevant data (species, sex, etc.). We tested AnimalFinder on a set of camera trap images and compared the presence/absence results with manual-only review with white-tailed deer (Odocoileus virginianus), wild pigs (Sus scrofa), and raccoons (Procyon lotor). We compared abundance estimates, model rankings, and coefficient estimates of detection and abundance for white-tailed deer using N-mixture models. AnimalFinder performance varied depending on a threshold value that affects program sensitivity to frequently occurring pixels in a series of images. Higher threshold values led to fewer false negatives (missed deer images) but increased manual processing time, but even at the highest threshold value, the program reduced the images requiring manual review by ~40% and correctly identified >90% of deer, raccoon, and wild pig images. Estimates of white-tailed deer were similar between AnimalFinder and the manual-only method (~1–2 deer difference, depending on the model), as were model rankings and coefficient estimates. Our results show that the program significantly reduced data processing time and may increase efficiency of camera trapping surveys.}
+}
+
+@article{ref_gomez_villa_2017,
+title = {Towards automatic wild animal monitoring: Identification of animal species in camera-trap images using very deep convolutional neural networks},
+journal = {Ecological Informatics},
+volume = {41},
+pages = {24-32},
+year = {2017},
+issn = {1574-9541},
+doi = {10.1016/j.ecoinf.2017.07.004},
+url = {https://www.sciencedirect.com/science/article/pii/S1574954116302047},
+author = {Alexander {Gomez Villa} and Augusto Salazar and Francisco Vargas},
+keywords = {Animal species recognition, Deep convolutional neural networks, Camera-trap, Snapshot Serengeti},
+abstract = {Non-intrusive monitoring of animals in the wild is possible using camera trapping networks. The cameras are triggered by sensors in order to disturb the animals as little as possible. This approach produces a high volume of data (in the order of thousands or millions of images) that demands laborious work to analyze both useless (incorrect detections, which are the most) and useful (images with presence of animals). In this work, we show that as soon as some obstacles are overcome, deep neural networks can cope with the problem of the automated species classification appropriately. As case of study, the most common 26 of 48 species from the Snapshot Serengeti (SSe) dataset were selected and the potential of the Very Deep Convolutional neural networks framework for the species identification task was analyzed. In the worst-case scenario (unbalanced training dataset containing empty images) the method reached 35.4% Top-1 and 60.4% Top-5 accuracy. For the best scenario (balanced dataset, images containing foreground animals only, and manually segmented) the accuracy reached a 88.9% Top-1 and 98.1% Top-5, respectively. To the best of our knowledge, this is the first published attempt on solving the automatic species recognition on the SSe dataset. In addition, a comparison with other approaches on a different dataset was carried out, showing that the architectures used in this work outperformed previous approaches. The limitations of the method, drawbacks, as well as new challenges in automatic camera-trap species classification are widely discussed.}
+}
+
+@INPROCEEDINGS{ref_nguyen_2017,
+  author={Nguyen, Hung and Maclagan, Sarah J. and Nguyen, Tu Dinh and Nguyen, Thin and Flemons, Paul and Andrews, Kylie and Ritchie, Euan G. and Phung, Dinh},
+  booktitle={2017 IEEE International Conference on Data Science and Advanced Analytics (DSAA)}, 
+  title={Animal Recognition and Identification with Deep Convolutional Neural Networks for Automated Wildlife Monitoring}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={40-49},
+  doi={10.1109/DSAA.2017.31}}
+
+@article{ref_norouzzadeh_2020,
+author = {Norouzzadeh, Mohammad Sadegh and Morris, Dan and Beery, Sara and Joshi, Neel and Jojic, Nebojsa and Clune, Jeff},
+title = {A deep active learning system for species identification and counting in camera trap images},
+journal = {Methods in Ecology and Evolution},
+volume = {12},
+number = {1},
+pages = {150-161},
+keywords = {active learning, camera trap images, computer vision, deep learning, deep neural networks},
+doi = {10.1111/2041-210X.13504},
+url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13504},
+eprint = {https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.13504},
+abstract = {Abstract A typical camera trap survey may produce millions of images that require slow, expensive manual review. Consequently, critical conservation questions may be answered too slowly to support decision-making. Recent studies demonstrated the potential for computer vision to dramatically increase efficiency in image-based biodiversity surveys; however, the literature has focused on projects with a large set of labelled training images, and hence many projects with a smaller set of labelled images cannot benefit from existing machine learning techniques. Furthermore, even sizable projects have struggled to adopt computer vision methods because classification models overfit to specific image backgrounds (i.e. camera locations). In this paper, we combine the power of machine intelligence and human intelligence via a novel active learning system to minimize the manual work required to train a computer vision model. Furthermore, we utilize object detection models and transfer learning to prevent overfitting to camera locations. To our knowledge, this is the first work to apply an active learning approach to camera trap images. Our proposed scheme can match state-of-the-art accuracy on a 3.2 million image dataset with as few as 14,100 manual labels, which means decreasing manual labelling effort by over 99.5\%. Our trained models are also less dependent on background pixels, since they operate only on cropped regions around animals. The proposed active deep learning scheme can significantly reduce the manual labour required to extract information from camera trap images. Automation of information extraction will not only benefit existing camera trap projects, but can also catalyse the deployment of larger camera trap arrays.},
+year = {2021}
+}
+
+@article{ref_yousif_2018,
+title = {Object detection from dynamic scene using joint background modeling and fast deep learning classification},
+journal = {Journal of Visual Communication and Image Representation},
+volume = {55},
+pages = {802-815},
+year = {2018},
+issn = {1047-3203},
+doi = {10.1016/j.jvcir.2018.08.013},
+url = {https://www.sciencedirect.com/science/article/pii/S1047320318302013},
+author = {Hayder Yousif and Jianhe Yuan and Roland Kays and Zhihai He},
+keywords = {Human-animal detection, Camera-trap images, Background subtraction, Deep convolutional neural networks, Wildlife monitoring},
+abstract = {In this paper, we couple effective dynamic background modeling with fast deep learning classification to develop an accurate scheme for human-animal detection from camera-trap images with cluttered moving objects. We introduce a new block-wise background model, named as Minimum Feature Difference (MFD), to model the variation of the background of the camera-trap sequences and generate the foreground object proposals. We then develop a region proposals verification to reduce the number of false alarms. Finally, we perform complexity-accuracy analysis of DCNN to construct a fast deep learning classification scheme to classify these region proposals into three categories: human, animals, and background patches. The optimized DCNN is able to maintain high level of accuracy while reducing the computational complexity by 14 times, which allows near real-time implementation of the proposed method on CPU machines. Our experimental results demonstrate that the proposed method outperforms existing methods on our and Alexander von Humboldt Institute camera-trap datasets in both foreground segmentation and object detection.}
+}

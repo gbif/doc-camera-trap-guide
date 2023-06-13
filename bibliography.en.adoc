@@ -1,6 +1,9 @@
 [bibliography]
 == References
 
+bibliography::[]
+
+#TODO: Convert remaining references to BibTeX#
 * [[[ref_agouti_2019]]] Caesar J, Milotic T, Liefting Y, Desmet P, Jansen P (2019) Agouti: a platform for processing and archiving camera trap images. BISS 3: e46690. https://doi.org/10.3897/biss.3.46690
 
 * [[[ref_amatulli_2018]]] TODO
@@ -8,8 +11,6 @@
 * [[[ref_bennett_2017]]] TODO
 
 * [[[ref_berkel_2014]]] TODO Berkel 2014
-
-* [[[ref_brides_2018]]] Brides K, Middleton J, Leighton K, Grogan A (2018) The use of camera traps to identify individual colour-marked geese at a moulting site. Rining & Migration, 33 (1), 19-22. https://doi.org/10.1080/03078698.2018.1525194.
 
 * [[[ref_buchhorn_2019]]] TODO
 
@@ -59,8 +60,6 @@
 
 * [[[ref_glover_2019,Glover & Kapfer 2019]]] TODO
 
-* [[[ref_gomez_villa_2017]]] Gomez Villa A, Salazar A, Vargas F (2017) Towards automatic wild animal monitoring: Identification of animal species in camera-trap images using very deep convolutional neural networks. Ecological Informatics, 41, 24-32. https://doi.org/10.1016/j.ecoinf.2017.07.004.
-
 * [[[ref_green_2020]]] Green SE, Rees JP, Stephens PA, Hill RA, Giordano AJ (2020) Innovations in camera trapping technology and approaches: the integration of citizen science and artificial intelligence. Animals, 10, 132. https://doi.org/10.3390/ani10010132
 
 * [[[ref_groom_2018]]] Groom Q, De Smedt S, Verissimo Pereira N, Bogaerts A, Engledo H (2018) BISS, 2, e26803. https://doi.org/10.3897/biss.2.26803
@@ -97,10 +96,6 @@
 
 * [[[ref_newkirk_2016, Newkirk 2016]]] Newkirk ES (2016) CPW Photo Database. Colorado Parks and Wildlife, Fort Collins, Colorado, USA. http://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx
 
-* [[[ref_nguyen_2017]]] Nguyen H, Maclagan SJ, Nguyen TD, Nguyen T, Flemons P, Andrews K (2017) Animal recognition and identification with deep convolutional neural networks for automated wildlife monitoring. IEEE International Conference on Data Science and Advanced Analytics, Tokyo, Japan. pp. 40-49. https://doi.org/10.1109/DSAA.2017.31.
-
-* [[[ref_norouzzadeh_2020]]] Norouzzadeh MS, Morris D, Beery S, Joshi N, Jojic N, Clune JA (2021) A deep active learning system for species identification and counting in camera trap images. Methods in Ecology and Evolution, 12, 150-161.  https://doi.org/10.1111/2041-210X.13504
-
 * [[[ref_obrien_2010]]] TODO
 
 * [[[ref_oconnell_2011,O’Connell et al. 2011]]] O’Connell AF, Nichols JD, Karanth KU (2011) Camera Traps in Animal Ecology: Methods and Analyses. Springer, New York.
@@ -108,8 +103,6 @@
 * [[[ref_oconnor_2017,O'Connor et al. 2017]]] O'Connor KM, Nathan LR, Liberati MR, Tingley MW, Vokoun JC, Rittenhouse TAG (2017) Camera trap arrays improve detection probability of wildlife: Investigating study design considerations using an empirical dataset. PLoS ONE 12(4). e0175684. https://doi.org/10.1371/journal.pone.0175684
 
 * [[[ref_oliveira_2017]]] TODO
-
-* [[[ref_price_tack_2016]]] Price Tack JL, West BS, McGoan CP, Ditchkoff SS, Reeves SJ, Keever AC et al. (2016) AnimalFinder: A semi-automated system for animal detection in time-lapse camera trap images. Ecological Informatics,36, 145-151. https://doi.org/10.1016/j.ecoinf.2016.11.003.
 
 * [[[ref_riley_1999]]] TODO
 
@@ -166,8 +159,6 @@
 * [[[ref_wilman_2014]]] Wilman H, Belmaker J, de la Rosa C, Rivandeneira MM, Jetz W (2014). EltonTraits 1.0: Species-level foraging attributes of the world’s birds and mammals. Ecology, 95 (7), 2027-2027. https://doi.org/10.1890/13-1917.1
 
 * [[[ref_yang_2017]]] TODO
-
-* [[[ref_yousif_2018]]] Yousif H, Yuan J, Kays R, He Z (2018) Object detection from dynamic scene using joint background modeling and fast deep learning classification. Journal of Visual Communication and Image Representation, 55, 802-815. https://doi.org/10.1016/j.jvcir.2018.08.013
 
 * [[[ref_young_2018]]] Young S, Rode-Margono, Amin R (2018) Software to facilitate and streamline camera trap data management: A review. Ecology and Evolution, 8, 9947-9957. https://doi.org/10.1002/ece3.4464
 
