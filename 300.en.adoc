@@ -72,7 +72,7 @@ Data management systems typically organize this information into the following c
 
 .Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF (#cit_cartuyvels_2022). A substantial part of its metadata are derived from the project metadata.
 [#figure-metadata]
-image::metadata.jpg[]
+image::img/web/metadata.png[]
 
 ==== Participants and roles
 
