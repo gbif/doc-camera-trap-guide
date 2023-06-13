@@ -260,10 +260,14 @@ Media files are best managed by a <<data-management-system,data management syste
 PICT0001.JPG
 20200709_093352.JPG
 
-# Bad
-09072020_093352.JPG # Cannot be sorted chronologically
+# Bad: can't be sorted chronologically
+09072020_093352.JPG
+
+# Bad: contains classification information
 20200709_093352_Ardea_alba_1_Anas_platyrhynchos_male_female.jpg
-dep 2021 't WAD # Don’t use spaces or special characters
+
+# Bad: contains spaces and special characters
+dep 2021 't WAD
 ----
 
 ==== Storage
