@@ -24,7 +24,7 @@ rather than a hundred poorly documented ones. Only in this way can we turn the c
 
 In this chapter, we introduce a number of general conventions for sound data management data. 
 We zoom deeper into what camera trap data exactly is. For each type of camera trap data 
-(<<project-metadata, metadata>>, <<media-files, media>>, <<deployments, deployments>>, <<observations, observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
+(<<project-metadata,metadata>>, <<media-files,media>>, <<deployments,deployments>>, <<observations,observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
 
 === What are camera trap data
 
