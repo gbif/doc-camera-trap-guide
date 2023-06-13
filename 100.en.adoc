@@ -1,4 +1,4 @@
-[[chapter-1]]
+[[section-1]]
 == Introduction
 
 === Why this guide?
@@ -15,7 +15,7 @@ No up-to-date guidelines are available that focus on camera trap data management
 
 === How to read this guide?
 
-This guide aims to cover all aspects related to the management and publication of camera trap data. Depending on your prior experience and your interest in reading this guide, each (sub)chapter may be consulted independently. At the start of this guide, we summarize the most important take-home messages (#chapter_general_recommendations). This is intended for readers interested in general guidance only. Each chapter afterwards starts with its own recommendations and ends with references to  relevant literature for further exploration on the topic. At the very end of this guide, there’s a <<Glossary>> to assist the reader in understanding what each concept introduced in this guide actually means.
+This guide aims to cover all aspects related to the management and publication of camera trap data. Depending on your prior experience and your interest in reading this guide, each (sub)section may be consulted independently. At the start of this guide, we summarize the most important take-home messages (#chapter_general_recommendations). This is intended for readers interested in general guidance only. Each section afterwards starts with its own recommendations and ends with references to  relevant literature for further exploration on the topic. At the very end of this guide, there’s a <<Glossary>> to assist the reader in understanding what each concept introduced in this guide actually means.
 
 === Target audience
 

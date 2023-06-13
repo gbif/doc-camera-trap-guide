@@ -1,4 +1,4 @@
-[[chapter-2]]
+[[section-2]]
 == The use of camera traps
 
 [NOTE]
@@ -68,7 +68,7 @@ From field to hard-disk
 Annotating camera trap data
 Software for data management
 Sharing and publishing camera trap data
-|#chapter_3 and #chapter_4 of this guide
+|<<section-3>> and <<section-4>> of this guide
 
 |Analysis
 |Software for analysing data

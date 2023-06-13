@@ -1,4 +1,4 @@
-[[chapter-3]]
+[[section-3]]
 == Managing camera trap data
 
 [NOTE]
@@ -22,7 +22,7 @@ If all data, including non target species, were annotated, more relevant outcome
 To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, 
 rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data.
 
-In this chapter, we introduce a number of general conventions for sound data management data. 
+In this section, we introduce a number of general conventions for sound data management data. 
 We zoom deeper into what camera trap data exactly is. For each type of camera trap data 
 (<<project-metadata,metadata>>, <<media-files,media>>, <<deployments,deployments>>, <<observations,observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
 
@@ -49,7 +49,7 @@ Those classes are project, organization, participant, deployment, location, devi
 
 === Project Metadata
 
-Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? Is it easy to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<chapter-4>>).
+Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? Is it easy to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<section-4>>).
 
 When published, project metadata are a substantial part of the dataset metadata (see #figure_metadata), allowing others to discover your dataset when searching for certain keywords and to assess if it fits their research needs. When describing your project, think about what others would need to understand it. We recommend to cover the following aspects:
 
