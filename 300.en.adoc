@@ -252,7 +252,7 @@ Media files are best managed by a <<data-management-system,data management syste
 * Do not store <<classification,classification>> information as part of the media file name.
 * Be consistent.
 
-[,yaml]
+[,ini]
 ----
 # Good
 PICT0001.JPG
