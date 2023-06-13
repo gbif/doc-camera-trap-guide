@@ -1,2 +1,2 @@
-[[chapter_four]]
+[[chapter-4]]
 == Publishing camera trap data

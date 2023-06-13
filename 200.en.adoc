@@ -1,5 +1,4 @@
-[[chapter_two]]
-
+[[chapter-2]]
 == The use of camera traps
 
 [NOTE]
