@@ -12,6 +12,9 @@ ifdef::backend-html5[]
 languageLinks:combined[]
 endif::backend-html5[]
 
+// Syntax highlighting
+:source-highlighter: pygments
+
 // References to Camera DP terms
 :package_resources: link:https://tdwg.github.io/camtrap-dp/metadata/#resources[package.resources,role=term]
 :package_profile: link:https://tdwg.github.io/camtrap-dp/metadata/#profile[package.profile,role=term]
