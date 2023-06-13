@@ -75,11 +75,11 @@ Data management systems typically organize this information into the following c
 
 ==== Participants and roles
 
-A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see #figure_classes). Different names are used for similar roles. We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data (see #table_roles).
+A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see #figure_classes). Different names are used for similar roles. We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data (see <<table-roles>>).
 
-#table_roles: Participant roles in camera trap studies, as defined by different formats and data management systems.
-
-[cols=7*,options="header"]
+[[table-roles]]
+.Participant roles in camera trap studies, as defined by different formats and data management systems.
+[%header,cols=7*]
 |===
 |Camtrap DP
 |CTMS <<ref_forrester_2016>>
@@ -272,13 +272,13 @@ dep 2021 't WAD
 
 === Deployments
 
-A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. The resulting <<media-file,media files>> are all associated with that deployment and are best organized as such. Deployment information includes camera <<location,location>>, duration, <<alignment>> and settings and other <<covariates,covariates>> such as bait use, feature type, habitat, canopy cover, etc. (see table #table_deployment). This information is not captured by the camera and needs to be recorded manually. Note that even the duration can be longer than the timestamp of the first and last captured media file.
+A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. The resulting <<media-file,media files>> are all associated with that deployment and are best organized as such. Deployment information includes camera <<location,location>>, duration, <<alignment>> and settings and other <<covariates,covariates>> such as bait use, feature type, habitat, canopy cover, etc. (see <<table-deployment>>). This information is not captured by the camera and needs to be recorded manually. Note that even the duration can be longer than the timestamp of the first and last captured media file.
 
 Data management systems typically organize deployments into the following classes: <<deployment>>, <<location,location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see #figure_classes).
 
-#table_deployment: Recorded information for the deployment that generated the image in #figure_image. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/
-
-[cols=2*,options="header"]
+[[table-deployment]]
+.Recorded information for the deployment that generated the image in #figure_image. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/
+[%header,cols=2*]
 |===
 |Property
 |Value
@@ -322,7 +322,7 @@ Deployment information is best recorded in a <<data-management-system,data manag
 * Use descriptive names, so users have an idea of what information to expect.
 * Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than whitespace (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camelCase is most often used in data standards.
 * Avoid abbreviations to mitigate the risk of confusion, except for well known words like `ID` for identifier.
-* Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or table schema), together with the column definition and controlled values.
+* Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values.
 * Be consistent.
 
 [,ini]
@@ -394,13 +394,13 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 
 === Observations
 
-<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see #table_observation).
+<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
 
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type>> and <<sequence>> (see #figure_classes). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<column-naming,column naming conventions>> as for deployments.
 
-#table_observation: Recorded information for one of the observations that is based on the image in #figure_image. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/#79204343-27df-401d-bfbd-80366e848fd5
-
-[cols=2*,options="header"]
+[[table-observation]]
+.Recorded information for one of the observations that is based on the image in #figure_image. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/#79204343-27df-401d-bfbd-80366e848fd5
+[%header,cols=2*]
 |===
 |Property
 |Value
@@ -469,11 +469,11 @@ As a result, <<data-management-system,data management systems>> may favour one t
 
 Media can be classified using common (e.g. roe deer) or scientific names (e.g. _Capreolus capreolus_) for taxa. Common (or vernacular) names are easier to remember and allow for better public engagement. The downside is that they are subject to translation, can vary regionally, sometimes refer to different species (e.g. “elk” in North America refers to _Cervus canadensis_, while in Europe it is used for _Alces alces_) and might not exist for every species or language combination. Scientific names on the other hand follow strict nomenclatural rules, are globally consistent and are not subject to translation. We therefore recommend to always store the scientific name as part of the observation, even if only common names are presented to the user.
 
-The list of scientific names that are available for <<classification,classification>> in a project is best maintained in a single reference table. This facilitates the management of taxonomic classification and associated common names, and allows to restrict classification options to those species that are likely to occur. More taxa can be added if needed, but only after verification. This practice is used by most <<data-management-system,data management systems>>. To populate such a reference table, we recommend using an authorative source (see #table_taxon_ref_sources) and storing the taxon identifiers used by that source as reference.
+The list of scientific names that are available for <<classification,classification>> in a project is best maintained in a single reference table. This facilitates the management of taxonomic classification and associated common names, and allows to restrict classification options to those species that are likely to occur. More taxa can be added if needed, but only after verification. This practice is used by most <<data-management-system,data management systems>>. To populate such a reference table, we recommend using an authorative source (see <<table-taxon-reference-sources>>) and storing the taxon identifiers used by that source as reference.
 
-#table_taxon_ref_sources: Selection of sources for scientific names, common names and taxonomic information.
-
-[cols=3*,options="header"]
+[[table-taxon-reference-sources]]
+.Selection of sources for scientific names, common names and taxonomic information.
+[%header,cols=3*]
 |===
 |Source
 |Taxonomic coverage
@@ -517,7 +517,7 @@ Taxonomy
 
 === Data management systems
 
-Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data managements (#cit_young_2018). These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see table #table_dm_systems for an overview of their features). They support the entire life cycle of camera trap data management:
+Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data managements (#cit_young_2018). These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:
 
 * Create one or more projects
 * Invite <<participant,collaborators>> with different levels of access
@@ -560,7 +560,9 @@ WildTrax (#cit_wildtrax, https://www.wildtrax.ca/) is an online system for manag
 
 Wildtrax is a good choice for organizations who want a free service based in Canada.
 
-[cols=5*,options="header"]
+[[table-data-management-systems]]
+.Comparison of features offered by five data management systems. Features that are the same for all systems are not shown.
+[%header,cols=5*]
 |===
 
 |Platform
