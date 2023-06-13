@@ -11,7 +11,7 @@ Author One <communication@gbif.org>; Author Two
 :source-highlighter: pygments
 // Citation style
 :bibtex-file: references.bib
-:bibtex-style: apa
+:bibtex-style: gbif
 :bibtex-order: alphabetical
 :bibtex-locale: en-GB
 
