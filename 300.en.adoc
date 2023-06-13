@@ -325,17 +325,24 @@ Deployment information is best recorded in a <<data-management-system,data manag
 * Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or table schema), together with the column definition and controlled values.
 * Be consistent.
 
-Good
+[,ini]
+----
+# Good
+scientificName
+deployment_group
 
-`scientificName`
-`deployment_group`
+# Bad: contains spaces
+scientific name
 
-Bad
+# Bad: abbreviated
+dep_gr
 
-`scientific name`
-`dep_gr`                          # abbreviated
-`latitude & coordinatesLongitude` # inconsistent naming
-`camera_height_meter_double`      # don’t include unit or data type
+# Bad: inconsistent naming
+latitude & coordinatesLongitude
+
+# Bad: includes unit or data type
+camera_height_meter_double
+----
 
 ==== Location
 
