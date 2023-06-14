@@ -22,9 +22,9 @@ In the past decades camera traps have been increasingly used to collect biodiver
 
 The most frequently studied animal taxa include ungulates, carnivores, birds and primates, although the most innovative sensors allow the detection of amphibians, reptiles, small mammals, and large invertebrates as well (<<ref_hobbs_2017>>). Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies and “bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains.
 
-=== The camera-trapping project life cycle
+=== The camera trap project life cycle
 
-The full life cycle of camera-trapping research includes the planning phase, the deployment of the camera traps in the field, the collection, management, analysis and sharing of data. This guide is not intended to cover all aspects of the camera-trapping project life cycle. The focus in this best practice guide lies on the management and publishing of the data. For readers interested in a general review of camera-trapping research, the planning phase, the deployment of camera traps in the field, we here provide an overview of the available resources (see <<table-topics>>).
+The full life cycle of camera trap research includes the planning phase, the deployment of the camera traps in the field, the collection, management, analysis and sharing of data. This guide is not intended to cover all aspects of the camera trap project life cycle. The focus in this best practice guide lies on the management and publishing of the data. For readers interested in a general review of camera trap research, the planning phase, the deployment of camera traps in the field, we here provide an overview of the available resources (see <<table-topics>>).
 
 [[table-topics]]
 .TODO, caption.
@@ -34,7 +34,7 @@ The full life cycle of camera-trapping research includes the planning phase, the
 |What
 |Reference
 
-|Full camera-trapping life cycle
+|Full camera trapping life cycle
 |General state of the art
 Future developments and camera trap constraints
 |<<ref_rovero_2016>>
