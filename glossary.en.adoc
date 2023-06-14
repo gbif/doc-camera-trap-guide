@@ -13,9 +13,9 @@
 
 [[camera]]camera:: Device designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion. Of a certain make and model and uniquely identifiable by e.g. by serial number. Also referred to as `camera trap`, `game camera`, `trail camera`, `scouting camera` or `device`.
 
-[[camera-height]]camera height:: Height of the camera above the ground, a component of camera <<alignment>>. Can be expressed in meters above the ground or as a categorical description (`knee height` ~ 0.5m, `chest height` ~ 1.5m,  `canopy` ~ 3+m, cite:[wildlife-insights]). {deployments_cameraHeight} in Camtrap DP.
+[[camera-height]]camera height:: Height of the camera above the ground, a component of camera <<alignment>>. Can be expressed in meters above the ground or as a categorical description (`knee height` ~ 0.5m, `chest height` ~ 1.5m,  `canopy` ~ 3+m in citenp:[wildlife-insights]). {deployments_cameraHeight} in Camtrap DP.
 
-[[camera-tilt]]camera tilt:: Up or down orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees or as a categorical description (`parallel` = 0°, `pointed downward` = -90°, cite:[wildlife-insights]). {deployments_cameraTilt} in Camtrap DP.
+[[camera-tilt]]camera tilt:: Up or down orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees or as a categorical description (`parallel` = 0°, `pointed downward` = -90° in citenp:[wildlife-insights]). {deployments_cameraTilt} in Camtrap DP.
 
 [[camera-heading]]camera heading:: Horizontal cardinal orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees from North or as cardinal directions (N, NW, etc.). {deployments_cameraHeading} in Camtrap DP.
 
