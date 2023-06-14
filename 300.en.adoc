@@ -68,7 +68,7 @@ A <<participant>> is a person associated with a camera trap project. Information
 |===
 |Camtrap DP
 |CTMS cite:[ctms]
-|Wildlife camera metadata protocol cite:[RISC-2019]
+|Wildlife camera metadata protocol cite:[risc-2019]
 |Datacite cite:[datacite]
 |EML cite:[eml-2015]
 |Agouti cite:[agouti]
