@@ -6,33 +6,17 @@
 TODO, add highlights here
 ====
 
-Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the timeframe of the project. 
-Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. 
-The content of the images needs interpretation or annotation, either manually or facilitated by technology. 
-All these steps are considered in the data management process.
+Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the timeframe of the project. Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. The content of the images needs interpretation or annotation, either manually or facilitated by technology. All these steps are considered in the data management process.
 
-Data management is one of the real bottlenecks in camera trap research. 
-The massive amount of information stored on memory cards requires a high investment in terms of manpower and time. 
-If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. 
-Manual extraction, organization and labelling can introduce human errors and can lead to data loss. 
-In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. 
-Camera traps inherently detect multiple species and observations of nontarget species provide valuable data for other research objectives. 
-If all data, including non target species, were annotated, more relevant outcomes to funds could be generated (<<ref_young_2018>>, <<ref_wearn_2017>>).
+Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of manpower and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of nontarget species provide valuable data for other research objectives. If all data, including non target species, were annotated, more relevant outcomes to funds could be generated (<<ref_young_2018>>, <<ref_wearn_2017>>).
 
-To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, 
-rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data.
+To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data.
 
-In this section, we introduce a number of general conventions for sound data management data. 
-We zoom deeper into what camera trap data exactly is. For each type of camera trap data 
-(<<project-metadata,metadata>>, <<media-files,media>>, <<deployments,deployments>>, <<observations,observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
+In this section, we introduce a number of general conventions for sound data management data. We zoom deeper into what camera trap data exactly is. For each type of camera trap data (<<project-metadata,metadata>>, <<media-files,media>>, <<deployments,deployments>>, <<observations,observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
 
 === What are camera trap data
 
-Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. 
-But to be able to use these for research they need to be documented with additional information. 
-Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location,location>>, <<alignment>> and sampling methodology 
-is needed to know when, where and how likely those species were to be observed. 
-Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved.
+Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. But to be able to use these for research they need to be documented with additional information. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location,location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved.
 
 Overall, we can distinguish four types of camera trap data:
 
@@ -41,9 +25,7 @@ Overall, we can distinguish four types of camera trap data:
 * **Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.
 * **Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.
 
-These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. 
-We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see #figure_classes). 
-Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
+These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see #figure_classes). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
 
 #figure_classes here
 
@@ -392,7 +374,6 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 * Primary productivity (<<ref_zhao_2005>>)
 * Terrain ruggedness index (TRI) (<<ref_riley_1999>>)
 
-
 === Observations
 
 <<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
@@ -663,4 +644,3 @@ Wildtrax is a good choice for organizations who want a free service based in Can
 |Custom format
 
 |===
-
