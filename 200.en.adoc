@@ -12,15 +12,15 @@
 
 === What are camera traps?
 
-Camera traps are remotely triggered cameras that take images or videos of animals passing in front of them. Basically any camera which is triggered by an animal to take pictures can be classified as a camera trap. Modern camera traps typically consist of a digital camera with an integrated passive infrared sensor (PIR) that serves as the trigger to capture images and/or videos (<<ref_hobbs_2017>>). The PIR sensor is a pyroelectric device designed to detect animals based on a combination of heat and motion. Their functioning is optimal whenever the animal’s body temperature is at least 2.7°C greater than the background temperature (<<ref_rovero_2013>>). Furthermore, the distance of the animal from the camera trap and its body mass determine the effectiveness of the PIR sensor. Therefore camera traps are especially useful for large and medium sized endothermic animals, and less so for small animals or ectothermic animals whose body temperature rarely differs with more than 3°C from the background temperature.
+Camera traps are remotely triggered cameras that take images or videos of animals passing in front of them. Basically any camera which is triggered by an animal to take pictures can be classified as a camera trap. Modern camera traps typically consist of a digital camera with an integrated passive infrared sensor (PIR) that serves as the trigger to capture images and/or videos cite:[hobbs-2017]. The PIR sensor is a pyroelectric device designed to detect animals based on a combination of heat and motion. Their functioning is optimal whenever the animal’s body temperature is at least 2.7°C greater than the background temperature cite:[rovero-2013]. Furthermore, the distance of the animal from the camera trap and its body mass determine the effectiveness of the PIR sensor. Therefore camera traps are especially useful for large and medium sized endothermic animals, and less so for small animals or ectothermic animals whose body temperature rarely differs with more than 3°C from the background temperature.
 
-Although most modern camera traps are equipped with PIR sensors, different methods for remotely triggering the camera are in use. These include trip-wires, pull-wires, pressure plates, lasers and microwave sensors. A camera which is triggered remotely by a human is not a camera trap, and neither is a time-lapse camera (which is a camera programmed to take pictures at set intervals). The term ‘remote camera’ is sometimes used to include this broader class of cameras which are triggered in the absence of a human operator (but not necessarily by an animal) (<<ref_wearn_2017>>).
+Although most modern camera traps are equipped with PIR sensors, different methods for remotely triggering the camera are in use. These include trip-wires, pull-wires, pressure plates, lasers and microwave sensors. A camera which is triggered remotely by a human is not a camera trap, and neither is a time-lapse camera (which is a camera programmed to take pictures at set intervals). The term ‘remote camera’ is sometimes used to include this broader class of cameras which are triggered in the absence of a human operator (but not necessarily by an animal) cite:[wearn-2017].
 
 === Why are camera traps used?
 
-In the past decades camera traps have been increasingly used to collect biodiversity data in a non-invasive manner with minimal disturbance of wildlife. As early as in the 1890’s, George Siras was the first to develop a method using tripwire and a flash system in which wild animals photographed themselves (<<ref_kucera_2011>>). The first scientific camera trap studies date back to the beginning of the 20th century (<<ref_chapman_1927>>). Since those pioneering days, technological advances in digital photography and infrared sensors have led to cost-effective, non-invasive detections of elusive wildlife (<<ref_burton_2015>>). Camera traps have become popular research tools. They are easy to install, relatively cheap and do not require special permissions or training and are therefore being used by professional researchers and hobbyists at a very broad scale. Consequently, the number of annual publications concerning camera trap studies has grown more than 80-fold since the 1990’s. Camera trap technology is used to sample communities of medium- and large sized bird and mammal species inhabiting freshwater, terrestrial, fossorial, arboreal and marine habitats and have proven to be excellent tools to help biodiversity monitoring initiatives (<<ref_delisle_2021>>).
+In the past decades camera traps have been increasingly used to collect biodiversity data in a non-invasive manner with minimal disturbance of wildlife. As early as in the 1890’s, George Siras was the first to develop a method using tripwire and a flash system in which wild animals photographed themselves cite:[kucera-2011]. The first scientific camera trap studies date back to the beginning of the 20th century cite:[chapman-1927]. Since those pioneering days, technological advances in digital photography and infrared sensors have led to cost-effective, non-invasive detections of elusive wildlife cite:[burton-2015]. Camera traps have become popular research tools. They are easy to install, relatively cheap and do not require special permissions or training and are therefore being used by professional researchers and hobbyists at a very broad scale. Consequently, the number of annual publications concerning camera trap studies has grown more than 80-fold since the 1990’s. Camera trap technology is used to sample communities of medium- and large sized bird and mammal species inhabiting freshwater, terrestrial, fossorial, arboreal and marine habitats and have proven to be excellent tools to help biodiversity monitoring initiatives cite:[delisle-2021].
 
-The most frequently studied animal taxa include ungulates, carnivores, birds and primates, although the most innovative sensors allow the detection of amphibians, reptiles, small mammals, and large invertebrates as well (<<ref_hobbs_2017>>). Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies and “bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains.
+The most frequently studied animal taxa include ungulates, carnivores, birds and primates, although the most innovative sensors allow the detection of amphibians, reptiles, small mammals, and large invertebrates as well cite:[hobbs-2017]. Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies and “bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains.
 
 === The camera trap project life cycle
 
@@ -37,20 +37,12 @@ The full life cycle of camera trap research includes the planning phase, the dep
 |Full camera trapping life cycle
 |General state of the art
 Future developments and camera trap constraints
-|<<ref_rovero_2016>>
-<<ref_wearn_2017>>
-<<ref_meek_2020>>
-<<ref_glover_2019>>
+|citenp:[rovero-2016,wearn-2017,meek-2020,glover-2019]
 
 |Planning
 |How to design a camera trap study?
 What type of camera traps to choose?
-|<<ref_wearn_2017>>
-<<ref_rovero_2010>>, <<ref_sunarto_2013>>, <<ref_meek_2014>>
-<<cit_kays_2020>>
-<<ref_caravaggi_2020>>
-<<ref_hobbs_2017>>
-<<ref_mcintyre_2020>>
+|citenp:[wearn-2017,rovero-2010,sunarto-2013,meek-2014,kays-2020,caravaggi-2020,hobbs-2017,mcintyre-2020]
 
 |Deployment and collection
 |Where and how to mount your camera?
@@ -58,9 +50,7 @@ Camera trap storage and maintenance
 Baits and lures
 Combating theft and vandalism
 Set-up in different environments
-|<<ref_wearn_2017>>
-<<ref_rovero_2010>>, <<ref_rovero_2013>>
-<<ref_meek_2014>>
+|citenp:[wearn-2017,rovero-2010,rovero-2013,meek-2014]
 
 |Data management and sharing
 |Data management considerations
@@ -72,14 +62,14 @@ Sharing and publishing camera trap data
 
 |Analysis
 |Software for analysing data
-|ref_sunarto_2013 (large carnivores)
+|citenp:[sunarto-2013] (large carnivores)
 xxx
 |=== 
 
-For a camera trap dataset to be useful, you should clearly define the aim and objectives in the planning phase: what would you like to know from which species groups? Each aim brings along its own key characteristics to consider, such as camera height and direction, seasonality, bait usage, detection zone features, camera settings, trigger and flash type. These characteristics must be included in the published dataset in order to be useful in consequent analyses. We recommend consulting the key references in <<table-topics>> for readers interested in this topic. Additionally, <<ref_wearn_2017>> provides a comprehensive overview of more general, camera trap survey design aspects.
+For a camera trap dataset to be useful, you should clearly define the aim and objectives in the planning phase: what would you like to know from which species groups? Each aim brings along its own key characteristics to consider, such as camera height and direction, seasonality, bait usage, detection zone features, camera settings, trigger and flash type. These characteristics must be included in the published dataset in order to be useful in consequent analyses. We recommend consulting the key references in <<table-topics>> for readers interested in this topic. Additionally, citenp:[wearn-2017] provides a comprehensive overview of more general, camera trap survey design aspects.
 
 [[table-aims]]
-.TODO, caption. Adapted from <<ref_wearn_2017>>.
+.TODO, caption. Adapted from citenp:[wearn-2017].
 [%header,cols=3*]
 |===
 |Study Aim
@@ -88,13 +78,11 @@ For a camera trap dataset to be useful, you should clearly define the aim and ob
 
 |species presence
 |species checklist
-|<<ref_tobler_2008>>
-<<ref_wearn_2013>>
+|citenp:[tobler-2008,wearn-2013]
 
 |diversity
 |richness
-|<<ref_tobler_2008>>
-<<ref_cusack_2015>>
+|citenp:[tobler-2008,cusack-2015]
 
 |diversity
 |diversity indices
@@ -106,23 +94,15 @@ For a camera trap dataset to be useful, you should clearly define the aim and ob
 
 |abundance
 |relative abundance
-|<<ref_rowcliffe_2008>>
-<<ref_wearn_2013>>
-<<ref_cusack_2015>>
+|citenp:[rowcliffe-2008,wearn-2013,cusack-2015]
 
 |abundance
 |density
-|<<ref_sollmann_2012>>
-<<ref_tobler_2013>>
-<<ref_rowcliffe_2008>>
-<<ref_rowcliffe_2016>>
+|citenp:[sollmann-2012,tobler-2013,rowcliffe-2008,rowcliffe-2016]
 
 |distribution
 |occupancy
-|<<ref_mackenzie_2005>>
-<<ref_guillera_2010>>
-<<ref_obrien_2010>>
-<<ref_shannon_2014>>
+|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]
 
 |behaviour
 |activity patterns
