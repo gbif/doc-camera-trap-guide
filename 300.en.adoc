@@ -25,9 +25,11 @@ Overall, we can distinguish four types of camera trap data:
 * **Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.
 * **Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.
 
-These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see #figure_classes). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
+These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see <<figure-class-diagram>>). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
 
-#figure_classes here
+.TODO, caption.
+[#figure-class-diagram]
+image::img/web/class-diagram.svg[]
 
 === Project Metadata
 
@@ -50,7 +52,7 @@ When published, project metadata are a substantial part of the dataset metadata 
 * Funding
 
 Data management systems typically organize this information into the following classes: 
-<<project>>, <<subproject>>, <<organization>> and <<participant>> (see #figure_classes).
+<<project>>, <<subproject>>, <<organization>> and <<participant>> (see <<figure-class-diagram>>).
 
 .Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF (#cit_cartuyvels_2022). A substantial part of its metadata are derived from the project metadata.
 [#figure-example-metadata]
@@ -58,7 +60,7 @@ image::img/web/example-metadata.png[]
 
 ==== Participants and roles
 
-A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see #figure_classes). Different names are used for similar roles. We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data (see <<table-roles>>).
+A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles. We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data (see <<table-roles>>).
 
 [[table-roles]]
 .Participant roles in camera trap studies, as defined by different formats and data management systems.
@@ -148,18 +150,20 @@ Awaiting access
 
 === Media files
 
-<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see #figure_image for an example), but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process.
+<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process.
 
 An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence.
 
 A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Metadata for videos is less standardised, although some formats like AVI and MOV support EXIF.
 
-Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see #figure_classes).
+Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>).
 
-#figure_image: An image captured by a camera trap deployed as part of the MICA project (#cit_mica_project). It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. Source: https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file
+.An image captured by a camera trap deployed as part of the MICA project (#cit_mica_project). It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. Source: https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file.
+[#figure-example-image]
+image::img/web/example-image.jpg[]
 
 [[table-exif]]
-.Selected properties included in the EXIF metadata of the image in #figure_image.
+.Selected properties included in the EXIF metadata of the image in <<figure-example-image>>.
 [%header,cols=2*]
 |===
 |Property
@@ -257,10 +261,10 @@ dep 2021 't WAD
 
 A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. The resulting <<media-file,media files>> are all associated with that deployment and are best organized as such. Deployment information includes camera <<location,location>>, duration, <<alignment>> and settings and other <<covariates,covariates>> such as bait use, feature type, habitat, canopy cover, etc. (see <<table-deployment>>). This information is not captured by the camera and needs to be recorded manually. Note that even the duration can be longer than the timestamp of the first and last captured media file.
 
-Data management systems typically organize deployments into the following classes: <<deployment>>, <<location,location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see #figure_classes).
+Data management systems typically organize deployments into the following classes: <<deployment>>, <<location,location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>).
 
 [[table-deployment]]
-.Recorded information for the deployment that generated the image in #figure_image. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/
+.Recorded information for the deployment that generated the image in <<figure-example-image>>. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/
 [%header,cols=2*]
 |===
 |Property
@@ -349,10 +353,12 @@ Since a deployment relates to the placement of a <<camera>>, it is important to 
 
 ==== Deployment groups
 
-It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see #figure_deployment_groups). A single deployment can belong to zero or more deployment groups.
+It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see <<figure-deployment-groups>>). A single deployment can belong to zero or more deployment groups.
 <<subproject,Subprojects>> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. This facilitates their management. A single deployment can belong to a single subproject.
 
-#figure_deployment_groups: Map showing a selection of deployments from the NC Candid Critters project (#cit_cc_project). Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Left (A): deployment groups representing site type (forested area, open area, residential yard, trail), right (B): deployment groups representing property type (private, public). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure).
+.Map showing a selection of deployments from the NC Candid Critters project (#cit_cc_project). Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Left (A): deployment groups representing site type (forested area, open area, residential yard, trail), right (B): deployment groups representing property type (private, public). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure).
+[#figure-deployment-groups]
+image::img/web/deployment-groups.png[]
 
 ==== Covariates
 
@@ -378,10 +384,10 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 
 <<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
 
-Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type>> and <<sequence>> (see #figure_classes). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<column-naming,column naming conventions>> as for deployments.
+Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<column-naming,column naming conventions>> as for deployments.
 
 [[table-observation]]
-.Recorded information for one of the observations that is based on the image in #figure_image. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/#79204343-27df-401d-bfbd-80366e848fd5
+.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/#79204343-27df-401d-bfbd-80366e848fd5
 [%header,cols=2*]
 |===
 |Property
