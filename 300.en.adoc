@@ -8,7 +8,7 @@ TODO, add highlights here
 
 Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the timeframe of the project. Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. The content of the images needs interpretation or annotation, either manually or facilitated by technology. All these steps are considered in the data management process.
 
-Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of manpower and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of nontarget species provide valuable data for other research objectives. If all data, including non target species, were annotated, more relevant outcomes to funds could be generated (<<ref_young_2018>>, <<ref_wearn_2017>>).
+Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of manpower and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of nontarget species provide valuable data for other research objectives. If all data, including non target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017].
 
 To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data.
 
@@ -54,7 +54,7 @@ When published, project metadata are a substantial part of the dataset metadata 
 Data management systems typically organize this information into the following classes: 
 <<project>>, <<subproject>>, <<organization>> and <<participant>> (see <<figure-class-diagram>>).
 
-.Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF (#cit_cartuyvels_2022). A substantial part of its metadata are derived from the project metadata.
+.Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. A substantial part of its metadata are derived from the project metadata.
 [#figure-example-metadata]
 image::img/web/example-metadata.png[]
 
@@ -67,12 +67,12 @@ A <<participant>> is a person associated with a camera trap project. Information
 [%header,cols=7*]
 |===
 |Camtrap DP
-|CTMS <<ref_forrester_2016>>
-|Wildlife camera metadata protocol <<ref_RISC_2019>>
-|Datacite <<ref_datacite>>
-|EML <<ref_eml_2015>>
-|Agouti <<ref_agouti_2019>>
-|Wildlife Insights <<ref_wildlife_insights_2022>>
+|CTMS cite:[ctms]
+|Wildlife camera metadata protocol cite:[RISC-2019]
+|Datacite cite:[datacite]
+|EML cite:[eml-2015]
+|Agouti cite:[agouti]
+|Wildlife Insights cite:[wildlife-insights]
 
 |contact
 |ProjectContact
@@ -158,7 +158,7 @@ A camera also records metadata when creating a media file. This can include date
 
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>).
 
-.An image captured by a camera trap deployed as part of the MICA project (#cit_mica_project). It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. Source: https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file.
+.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. Source: https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file.
 [#figure-example-image]
 image::img/web/example-image.jpg[]
 
@@ -335,12 +335,12 @@ camera_height_meter_double
 
 A <<location,location>> is the physical place where a camera is located during a deployment. It can be described with a name, identifier and/or description, but we recommend always to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[geographical coordinates]. Those are most commonly expressed as latitude and longitude in decimal degrees, using the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84] datum.
 
-The coordinates are best determined using a GPS receiver at the location itself. If this is not possible, use (online) resources and georeferencing best practices (<<ref_chapman_2020>>) to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:
+The coordinates are best determined using a GPS receiver at the location itself. If this is not possible, use (online) resources and georeferencing best practices cite:[chapman-2020] to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:
 
 * The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location[extent] of the location. Note that for camera traps this includes the <<detection-distance,detection distance>>, which is typically between 5 and 20m.
-* The accuracy of the GPS receiver or georeferencing resource. Most GPS receivers obtain an accuracy of 5 metres in open areas when using four or more satellites (#cit_chapman_2021). Forest canopy or limited satellite connection can reduce accuracy. Google Maps or Open Street Maps have an accuracy of 8m (#cit_chapman_2021).
-* The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in <<ref_chapman_2020>>).
-* An https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-from-unknown-datum[unknown datum]. This can range from centimetres to kilometres (<<ref_chapman_2020>>), so it is important to always record the datum used by the GPS receiver or georeferencing resource (WGS84 for Google Maps or Open Street Maps).
+* The accuracy of the GPS receiver or georeferencing resource. Most GPS receivers obtain an accuracy of 5 metres in open areas when using four or more satellites cite:[chapman-2020]. Forest canopy or limited satellite connection can reduce accuracy. Google Maps or Open Street Maps have an accuracy of 8m cite:[chapman-2020].
+* The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-2020].
+* An https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-from-unknown-datum[unknown datum]. This can range from centimetres to kilometres cite:[chapman-2020], so it is important to always record the datum used by the GPS receiver or georeferencing resource (WGS84 for Google Maps or Open Street Maps).
 * The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the point-radius-method.
 
 The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method[point-radius-method].
@@ -356,7 +356,7 @@ Since a deployment relates to the placement of a <<camera>>, it is important to 
 It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see <<figure-deployment-groups>>). A single deployment can belong to zero or more deployment groups.
 <<subproject,Subprojects>> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. This facilitates their management. A single deployment can belong to a single subproject.
 
-.Map showing a selection of deployments from the NC Candid Critters project (#cit_cc_project). Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Left (A): deployment groups representing site type (forested area, open area, residential yard, trail), right (B): deployment groups representing property type (private, public). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure).
+.Map showing a selection of deployments from the NC Candid Critters project cite:[candid-critters-project]. Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Left (A): deployment groups representing site type (forested area, open area, residential yard, trail), right (B): deployment groups representing property type (private, public). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure).
 [#figure-deployment-groups]
 image::img/web/deployment-groups.png[]
 
@@ -364,21 +364,21 @@ image::img/web/deployment-groups.png[]
 
 Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. as part of the deployment. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:
 
-* Biomes/ecoregions (<<ref_dinerstein_2017>>)
+* Biomes/ecoregions cite:[dinerstein-2017]
 * Ecological traits:
-** COMBINE (<<ref_soria_2021>>)
-** PanTHERIA (<<ref_jones_2009>>)
-** EltonTraits (<<ref_wilman_2014>>)
-** AmphBIO (<<ref_oliveira_2017>>)
-** GlobTerm (<<ref_bennett_2017>>)
-** AVONET (<<ref_tobias_2022>>)
+** COMBINE cite:[soria-2021]
+** PanTHERIA cite:[jones-2009]
+** EltonTraits cite:[wilman-2014]
+** AmphBIO cite:[oliveira-2017]
+** GlobTerm cite:[bennett-2017]
+** AVONET cite:[tobias-2022]
 ** https://opentraits.org/datasets.html[Open Traits Network]
-* Habitat classification (<<ref_jung_2020>>)
-* Land cover products (<<ref_yang_2017>>, <<ref_amatulli_2018>>, http://www.earthenv.org/[http://www.earthenv.org])
-* Land cover type (<<ref_buchhorn_2019>>)
-* Leaf Area Index (<<ref_law_2008>>)
-* Primary productivity (<<ref_zhao_2005>>)
-* Terrain ruggedness index (TRI) (<<ref_riley_1999>>)
+* Habitat classification cite:[jung-2020]
+* Land cover products cite:[yang-2017,amatulli-2018] (http://www.earthenv.org)
+* Land cover type cite:[buchhorn-2019]
+* Leaf Area Index cite:[law-2008]
+* Primary productivity cite:[zhao-2005]
+* Terrain ruggedness index (TRI) cite:[riley-1999]
 
 === Observations
 
@@ -433,13 +433,13 @@ Unfortunately, camera traps don’t provide observations directly. Media need to
 * Animal is identified as a known individual (e.g. wolf Noëlla).
 * Other properties of the animal are recorded, such as group size, life stage, sex, and behaviour.
 
-Different actors (experts, volunteers, AI) can reach different levels of precision, based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process (<<ref_green_2020>>). Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
+Different actors (experts, volunteers, AI) can reach different levels of precision, based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
 
 ==== Citizen science
 
-<<citizen-science,Citizen scientists>> are volunteers from the non-scientific community that help scientists in their work. They can contribute to camera trap studies in a number of ways, such as placing cameras and collecting/swapping memory cards. In a practice called crowdsourcing, researchers can also distribute the task of  <<classification,classifying>> media, by presenting these online to a community of citizen scientists. Each classification helps to confirm or improve the community's opinion on the observed species (<<ref_swanson_2015>>, <<ref_hsing_2018>>).
+<<citizen-science,Citizen scientists>> are volunteers from the non-scientific community that help scientists in their work. They can contribute to camera trap studies in a number of ways, such as placing cameras and collecting/swapping memory cards. In a practice called crowdsourcing, researchers can also distribute the task of  <<classification,classifying>> media, by presenting these online to a community of citizen scientists. Each classification helps to confirm or improve the community's opinion on the observed species cite:[swanson-2015,hsing-2018].
 
-Most projects use established online platforms for crowdsourcing (<<ref_forston_2012>>, <<ref_swanson_2015>>, https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse <<ref_simpson_2014>>, MammalWeb (<<ref_bradley_2017>>), Digivol (<<ref_alony_2020>>) or DoeDat (<<ref_groom_2018>>). These platforms give access to large, already existing volunteer bases, which is particularly important if classifications are needed within a short time frame. Note however that managing a citizen science project takes time and might be more beneficial for larger studies. In addition to uploading media to a platform, waiting for classifications, downloading consensus observations and dealing with non-consensus observations, you need to keep the community engaged and/or attract new members. It is also important to exclude sensitive media from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in (<<ref_weinstein_2017>>).
+Most projects use established online platforms for crowdsourcing cite:[forston-2012,swanson-2015], https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] or DoeDat cite:[groom-2018]. These platforms give access to large, already existing volunteer bases, which is particularly important if classifications are needed within a short time frame. Note however that managing a citizen science project takes time and might be more beneficial for larger studies. In addition to uploading media to a platform, waiting for classifications, downloading consensus observations and dealing with non-consensus observations, you need to keep the community engaged and/or attract new members. It is also important to exclude sensitive media from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in cite:[weinstein-2017].
 
 ==== Artificial intelligence
 
@@ -467,7 +467,7 @@ The list of scientific names that are available for <<classification,classificat
 |Taxonomic coverage
 |Use for
 
-|Catalogue of Life (<<ref_col_2023>>)
+|Catalogue of Life cite:[col-2023]
 |All
 |Scientific names
 Common names (select languages)
@@ -477,7 +477,7 @@ Taxonomy
 |All
 |Common names (many languages)
 
-|Clements Checklist of Birds of the World (<<ref_clements_2022>>)
+|Clements Checklist of Birds of the World cite:[clements-2022]
 |Birds
 |Scientific names
 Common names (English)
@@ -505,7 +505,7 @@ Taxonomy
 
 === Data management systems
 
-Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data managements (#cit_young_2018). These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:
+Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data managements cite:[young-2018]. These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:
 
 * Create one or more projects
 * Invite <<participant,collaborators>> with different levels of access
@@ -518,33 +518,33 @@ Managing camera trap data can be daunting, especially for larger projects. Lucki
 
 ==== Agouti
 
-Agouti (#cit_agouti_2019, https://agouti.eu) is an online system for managing camera trap data. It is maintained by Wageningen University & Research and the Research Institute for Nature and Forest (INBO), based respectively in the Netherlands and Belgium. Agouti is mainly used by European projects and is free to use.
+Agouti cite:[agouti] (https://agouti.eu) is an online system for managing camera trap data. It is maintained by Wageningen University & Research and the Research Institute for Nature and Forest (INBO), based respectively in the Netherlands and Belgium. Agouti is mainly used by European projects and is free to use.
 
-Classification is event based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses (#cit_howe_2017) and random encounter modelling (#cit_rowcliffe_2011). AI classification is possible, using a dedicated species classification model that is updated regularly. Media containing humans are always hidden from the public. Data are stored on university infrastructure, which also offers long term archival and hotlinking to media. Project metadata can be made available via a public portal. Data can be exported as <<camtrap-dp,Camtrap DP>>.
+Classification is event based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. AI classification is possible, using a dedicated species classification model that is updated regularly. Media containing humans are always hidden from the public. Data are stored on university infrastructure, which also offers long term archival and hotlinking to media. Project metadata can be made available via a public portal. Data can be exported as <<camtrap-dp,Camtrap DP>>.
 
 Agouti is a good choice for organizations who want a free full-feature European based service.
 
 ==== Camelot
 
-Camelot (#cit_camelot, https://camelotproject.org/) is a local system for managing camera trap data. It is maintained as a volunteer initiative based in Australia. Camelot is free to use, open source, available for all major operating systems and requires installation. It is typically used as a local desktop application, but can be set up on a server allowing multiple users to connect via their browser. Classification is media based with the option to classify multiple media at once. AI classification is not offered. Data can be exported in a custom format.
+Camelot cite:[camelot] (https://camelotproject.org/) is a local system for managing camera trap data. It is maintained as a volunteer initiative based in Australia. Camelot is free to use, open source, available for all major operating systems and requires installation. It is typically used as a local desktop application, but can be set up on a server allowing multiple users to connect via their browser. Classification is media based with the option to classify multiple media at once. AI classification is not offered. Data can be exported in a custom format.
 
 Camelot is a good choice for organizations and individuals who want a light-weigh solution they can manage themselves.
 
 ==== TRAPPER
 
-TRAPPER (#cit_bubnicki_2016, https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. It is maintained by the Open Science Conservation Fund, based in Poland. TRAPPER is mainly used by European projects and is free to use. The software is open source and requires installation and hosting. Classification is media based with the option to classify multiple media at once. AI classification is possible, using existing species classification models. Data can be exported as <<camtrap-dp,Camtrap DP>>.
+TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. It is maintained by the Open Science Conservation Fund, based in Poland. TRAPPER is mainly used by European projects and is free to use. The software is open source and requires installation and hosting. Classification is media based with the option to classify multiple media at once. AI classification is possible, using existing species classification models. Data can be exported as <<camtrap-dp,Camtrap DP>>.
 
 TRAPPER is a good choice for organizations who want control over the software and where their data are stored.
 
 ==== Wildlife Insights
 
-Wildlife Insights (#cit_wildlife_insights, https://www.wildlifeinsights.org/) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS (#cit_forrester_2014).
+Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org/) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS cite:[ctms].
 
 Wildlife Insights is a good choice for organizations who want a full-feature service with powerful AI and open data requirements.
 
 ==== Wildtrax
 
-WildTrax (#cit_wildtrax, https://www.wildtrax.ca/) is an online system for managing camera trap data. It is maintained by the University of Alberta, based in Canada. Wildtrax is mainly used by Canadian projects and is free to use (except for very large projects). Classification is media based with the option to classify multiple media at once. AI classification is possible, but only at a broad level (blanks, animals, vehicles), species classification is not (yet) offered. Data are stored in the cloud. Project metadata can be made available via a public portal. Data can be exported in a custom format (with associated R package).
+WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. It is maintained by the University of Alberta, based in Canada. Wildtrax is mainly used by Canadian projects and is free to use (except for very large projects). Classification is media based with the option to classify multiple media at once. AI classification is possible, but only at a broad level (blanks, animals, vehicles), species classification is not (yet) offered. Data are stored in the cloud. Project metadata can be made available via a public portal. Data can be exported in a custom format (with associated R package).
 
 Wildtrax is a good choice for organizations who want a free service based in Canada.
 
