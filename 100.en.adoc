@@ -9,7 +9,7 @@ To optimize the (re)use of camera trap data, there’s a need for best practice 
 
 * Specialized data management platforms are now primarily used to manage projects and data
 * <<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media
-* Data exchange is now facilitated by Camtrap DP, a <<data-exchange-format,data exchange format>> developed under Biodiversity Information Standards (TDWG).There is increased awareness of open science, <<FAIR>> data cite:[wilkinson-2018] and privacy regulations
+* Data exchange is now facilitated by Camtrap DP, a <<data-exchange-format,data exchange format>> developed under Biodiversity Information Standards (TDWG).There is increased awareness of open science, <<FAIR>> data cite:[wilkinson-2016] and privacy regulations
 
 No up-to-date guidelines are available that focus on camera trap data management and publication only. This guide aims to fill that gap.
 
