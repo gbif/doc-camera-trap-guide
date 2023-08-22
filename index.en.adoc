@@ -1,11 +1,11 @@
-= GBIF Document Template
+= Camera Trap Guide
 Author One <communication@gbif.org>; Author Two
 :toc: left
 :toclevels: 3
 :numbered:
 :revnumber: {git-metadata-sha-short}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
-:title-page-background-image: image:img/web/photo.jpg[position=top center]
+:title-page-background-image: image:img/doc-camtrap-illustration.svg[position=top center]
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 :xrefstyle: short
 :source-highlighter: pygments
