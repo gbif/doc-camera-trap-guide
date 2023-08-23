@@ -424,7 +424,7 @@ Observations are best recorded in a <<data-management-system,data management sys
 |Value
 
 |Observation ID
-|05230014-f165-4b73-8835-3e86c6d2649f
+|05230014
 
 |Observation type
 |animal
