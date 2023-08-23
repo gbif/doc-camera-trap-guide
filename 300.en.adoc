@@ -197,7 +197,7 @@ image::img/web/example-image.jpg[]
 |HYPERFIRE 2 COVERT
 
 |Date time original
-|2020:06:12 06:04:32 UTC
+|2020:06:12T06:04:32Z
 
 |Time zone offset
 |N/A
@@ -274,10 +274,10 @@ Data management systems typically organize deployments into the following classe
 |00a2c20d
 
 |Start date/time
-|2020-05-30 02:57:37 UTC
+|2020-05-30T04:57:37+02:00 (= 2020-05-30T02:57:37Z)
 
 |End date/time
-|2020-07-01 09:41:41 UTC
+|2020-07-01T11:41:41+02:00 (= 2020-07-01T09:41:41Z)
 
 |Location ID
 |e254a13c
