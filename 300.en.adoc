@@ -264,7 +264,7 @@ A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployme
 Data management systems typically organize deployments into the following classes: <<deployment>>, <<location,location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>).
 
 [[table-deployment]]
-.Recorded information for the deployment that generated the image in <<figure-example-image>>. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/
+.Recorded information for the deployment that generated the image in <<figure-example-image>>. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/
 [%header,cols=2*]
 |===
 |Property
@@ -387,7 +387,7 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<column-naming,column naming conventions>> as for deployments.
 
 [[table-observation]]
-.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/#79204343-27df-401d-bfbd-80366e848fd5
+.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
 [%header,cols=2*]
 |===
 |Property
