@@ -45,6 +45,11 @@
 |
 |MachineObservation
 
+|term:dwc[dwc:informationWithheld]
+|Share if available
+|
+|camera settings & alignment
+
 |term:dwc[dwc:dataGeneralizations]
 |Share if available
 |
