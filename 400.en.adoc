@@ -1,2 +1,196 @@
 [[section-4]]
 == Publishing camera trap data
+
+[[table-dwc-mapping]]
+.Overview of relevant terms to use when expressing a camera trap dataset as a Darwin Core Archive. Name space abbreviations are: `ac` (Audiovisual Core), `dc` (Dublin Core), `dcterms` (Dublin Core), `dwc` (Darwin Core), and `xmp` (Adobe XMP Core Properties). Camtrap DP table abbreviations are: `metadata` (package metadata), `dep` (deployments), `med` (media), and `obs` (observations).
+[%header,cols=4*]
+|===
+|Term
+|Status
+|Camtrap DP term
+|Example
+
+|term:dwc[dc:type]
+|Share if available
+|x
+|StillImage
+
+|term:dwc[dcterms:license]
+|Share if available
+|{package-licenses} (scope = data)
+|https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+|term:dwc[dcterms:rightsHolder]
+|Share if available
+|{package-contributors} (role = rightsholder)
+|INBO
+
+|term:dwc[dwc:datasetID]
+|Share if available
+|{package-id}
+|https://doi.org/10.5281/zenodo.4893244
+
+|term:dwc[dwc:collectionCode]
+|Share if available
+|{package-sources}
+|Agouti
+
+|term:dwc[dwc:datasetName]
+|Share if available
+|{package-title}
+|MICA - Muskrat and coypu camera trap observations in Belgium, the Netherlands and Germany [animal observations]
+
+|term:dwc[dwc:basisOfRecord]
+|Required
+|
+|MachineObservation
+
+|term:dwc[dwc:informationWithheld]
+|Share if available
+|
+|camera settings
+
+|term:dwc[dwc:dataGeneralizations]
+|Share if available
+|
+|coordinates rounded to 0.001 degree
+
+|term:dwc[dwc:occurrenceID]
+|Required
+|{observations-observationID}
+|185469b4-70a5-4fe2-96e6-46daaa524079
+
+|term:dwc[dwc:individualCount]
+|Strongly recommended
+|{observations-count}
+|1
+
+|term:dwc[dwc:sex]
+|Share if available
+|{observations-sex}
+|
+
+|term:dwc[dwc:lifeStage]
+|Share if available
+|{observations-lifeStage}
+|
+
+|term:dwc[dwc:behavior]
+|Share if available
+|{observations-behavior}
+|
+
+|term:dwc[dwc:occurrenceStatus]
+|Share if available
+|
+|present
+
+|term:dwc[dwc:occurrenceRemarks]
+|Share if available
+|{observations-observationComments}
+|
+
+|term:dwc[dwc:organismID]
+|Share if available
+|{observations-individualID}
+|
+
+|term:dwc[dwc:eventID]
+|Strongly recommended
+|{observations-eventID}
+|2bf4bd2b-eafc-43cb-baa7-07d9b9fa8591
+
+|term:dwc[dwc:parentEventID]
+|Strongly recommended
+|{deployments-deploymentID}
+|e7de873d-f90d-409e-83d0-64f38aa36e11
+
+|term:dwc[dwc:eventDate]
+|Required
+|{observations-eventStart} + `/` + {observations-eventEnd} or if both are equal {observations-eventStart} 
+|2021-01-16T03:03:53Z
+
+|term:dwc[dwc:habitat]
+|Share if available
+|{deployments-habitat}
+|
+
+|term:dwc[dwc:samplingProtocol]
+|Strongly recommended
+|
+|camera trap
+
+|term:dwc[dwc:samplingEffort]
+|Share if available
+|{deployments-deploymentStart} + `/` + {deployments-deploymentEnd}
+|2020-12-23T16:46:42Z/2021-01-21T11:27:14Z
+
+|term:dwc[dwc:eventRemarks]
+|Share if available
+|{deployments-deploymentComments}, {deployments-deploymentTags}, {deployments-featureType}
+|
+
+|term:dwc[dwc:locationID]
+|Share if available
+|{deployments-locationID}
+|eb05cc7b-0ffe-466b-9b8d-f379428c5f60
+
+|term:dwc[dwc:locality]
+|Share if available
+|{deployments-locationName}
+|D_MICA 327
+
+|term:dwc[dwc:decimalLatitude]
+|Strongly recommended
+|{deployments-latitude}
+|52.601
+
+|term:dwc[dwc:decimalLongitude]
+|Strongly recommended
+|{deployments-longitude}
+|6.802
+
+|term:dwc[dwc:geodeticDatum]
+|Strongly recommended
+|
+|WGS84
+
+|term:dwc[dwc:coordinateUncertaintyInMeters]
+|Strongly recommended
+|{deployments-coordinateUncertainty}
+|111
+
+|term:dwc[dwc:identifiedBy]
+|Share if available
+|{observations-classifiedBy}
+|Claudia Maistrelli
+
+|term:dwc[dwc:dateIdentified]
+|Share if available
+|{observations-classificationTimestamp}
+|2021-02-18T11:06:40Z
+
+|term:dwc[dwc:identificationRemarks]
+|Share if available
+|
+|classified by human
+
+|term:dwc[dwc:taxonID]
+|Share if available
+|{observations-taxonID}
+|49JSC
+
+|term:dwc[dwc:scientificName]
+|Required
+|{observations-scientificName}
+|Ondatra zibethicus
+
+|term:dwc[dwc:kingdom]
+|Strongly recommended
+|
+|Animalia
+
+|term:dwc[dwc:vernacularName]
+|Share if available
+|Vernacular name associated with {observations-taxonID} in {package-taxonomic}
+|muskrat
