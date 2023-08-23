@@ -17,27 +17,27 @@
 
 |https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]
 |Share if available
-|[.break-all]#{package-licenses} (scope = data)
-|[.break-all]#https://creativecommons.org/publicdomain/zero/1.0/legalcode
+|[.break-all]#{package-licenses} (scope = data)#
+|[.break-all]#https://creativecommons.org/publicdomain/zero/1.0/legalcode#
 
 |https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]
 |Share if available
-|[.break-all]#{package-contributors} (role = rightsholder)
+|[.break-all]#{package-contributors} (role = rightsholder)#
 |Research Institute for Nature and Forest (INBO)
 
 |term:dwc[dwc:datasetID]
 |Share if available
-|[.break-all]#{package-id}
-|[.break-all]#_https://doi.org/10.15468/5tb6ze_
+|[.break-all]#{package-id}#
+|[.break-all]#_https://doi.org/10.15468/5tb6ze_#
 
 |term:dwc[dwc:collectionCode]
 |Share if available
-|[.break-all]#{package-sources}
+|[.break-all]#{package-sources}#
 |Agouti
 
 |term:dwc[dwc:datasetName]
 |Share if available
-|[.break-all]#{package-title}
+|[.break-all]#{package-title}#
 |Sample from: MICA - Muskrat and coypu camera trap observations in Belgium, the Netherlands and Germany
 
 |term:dwc[dwc:basisOfRecord]
@@ -57,27 +57,27 @@
 
 |term:dwc[dwc:occurrenceID]
 |Required
-|[.break-all]#{observations-observationID}
+|[.break-all]#{observations-observationID}#
 |05230014
 
 |term:dwc[dwc:individualCount]
 |Strongly recommended
-|[.break-all]#{observations-count}
+|[.break-all]#{observations-count}#
 |1
 
 |term:dwc[dwc:sex]
 |Share if available
-|[.break-all]#{observations-sex}
+|[.break-all]#{observations-sex}#
 |_male_
 
 |term:dwc[dwc:lifeStage]
 |Share if available
-|[.break-all]#{observations-lifeStage}
+|[.break-all]#{observations-lifeStage}#
 |adult
 
 |term:dwc[dwc:behavior]
 |Share if available
-|[.break-all]#{observations-behavior}
+|[.break-all]#{observations-behavior}#
 |_foraging_
 
 |term:dwc[dwc:occurrenceStatus]
@@ -87,32 +87,32 @@
 
 |term:dwc[dwc:occurrenceRemarks]
 |Share if available
-|[.break-all]#{observations-observationComments}
+|[.break-all]#{observations-observationComments}#
 |_eclipse plumage_
 
 |term:dwc[dwc:organismID]
 |Share if available
-|[.break-all]#{observations-individualID}
+|[.break-all]#{observations-individualID}#
 |
 
 |term:dwc[dwc:eventID]
 |Strongly recommended
-|[.break-all]#{observations-eventID}
+|[.break-all]#{observations-eventID}#
 |79204343
 
 |term:dwc[dwc:parentEventID]
 |Strongly recommended
-|[.break-all]#{deployments-deploymentID}
+|[.break-all]#{deployments-deploymentID}#
 |00a2c20d
 
 |term:dwc[dwc:eventDate]
 |Required
-|[.break-all]#{observations-eventStart} + `/` + {observations-eventEnd} or {observations-eventStart} if both are equal
+|[.break-all]#{observations-eventStart} + `/` + {observations-eventEnd} or {observations-eventStart} if both are equal#
 |[.break-all]#2020-06-12T04:04:29Z/2020-06-12T04:04:55Z
 
 |term:dwc[dwc:habitat]
 |Share if available
-|[.break-all]#{deployments-habitat}
+|[.break-all]#{deployments-habitat}#
 |Campine area with a number of river valleys with valuable grasslands
 
 |term:dwc[dwc:samplingProtocol]
@@ -122,82 +122,82 @@
 
 |term:dwc[dwc:samplingEffort]
 |Share if available
-|[.break-all]#{deployments-deploymentStart} + `/` + {deployments-deploymentEnd}
-|[.break-all]#2020-05-30T02:57:37Z/2020-07-01T09:41:41Z
+|[.break-all]#{deployments-deploymentStart} + `/` + {deployments-deploymentEnd}#
+|[.break-all]#2020-05-30T02:57:37Z/2020-07-01T09:41:41Z#
 
 |term:dwc[dwc:eventRemarks]
 |Share if available
-|[.break-all]#A combination of {deployments-baitUse}, {deployments-featureType}, {deployments-deploymentTags} and {deployments-deploymentComments}
+|[.break-all]#A combination of {deployments-baitUse}, {deployments-featureType}, {deployments-deploymentTags} and {deployments-deploymentComments}#
 |camera trap without bait near game trail \| tags: position:above stream
 
 |term:dwc[dwc:locationID]
 |Share if available
-|[.break-all]#{deployments-locationID}
+|[.break-all]#{deployments-locationID}#
 |e254a13c
 
 |term:dwc[dwc:locality]
 |Share if available
-|[.break-all]#{deployments-locationName}
+|[.break-all]#{deployments-locationName}#
 |B_HS_val 2_processiepark	
 
 |term:dwc[dwc:decimalLatitude]
 |Strongly recommended
-|[.break-all]#{deployments-latitude}
+|[.break-all]#{deployments-latitude}#
 |51.496
 
 |term:dwc[dwc:decimalLongitude]
 |Strongly recommended
-|[.break-all]#{deployments-longitude}
+|[.break-all]#{deployments-longitude}#
 |4.774
 
 |term:dwc[dwc:geodeticDatum]
 |Strongly recommended
-|[.break-all]#Camtrap DP coordinates use datum WGS84 (EPSG:4326)
+|Camtrap DP coordinates use datum WGS84 (EPSG:4326)
 |EPSG:4326
 
 |term:dwc[dwc:coordinateUncertaintyInMeters]
 |Strongly recommended
-|[.break-all]#{deployments-coordinateUncertainty}
+|[.break-all]#{deployments-coordinateUncertainty}#
 |187
 
 |term:dwc[dwc:coordinatePrecision]
 |Share if available
-|[.break-all]#{package-coordinatePrecision}
+|[.break-all]#{package-coordinatePrecision}#
 |0.001
 
 |term:dwc[dwc:identifiedBy]
 |Share if available
-|[.break-all]#{observations-classifiedBy}
+|[.break-all]#{observations-classifiedBy}#
 |Peter Desmet
 
 |term:dwc[dwc:dateIdentified]
 |Share if available
-|[.break-all]#{observations-classificationTimestamp}
+|[.break-all]#{observations-classificationTimestamp}#
 |2023-02-02T13:57:58Z
 
 |term:dwc[dwc:identificationRemarks]
 |Share if available
-|[.break-all]#Derived from {observations-classificationMethod}
+|[.break-all]#Derived from {observations-classificationMethod}#
 |classified by human
 
 |term:dwc[dwc:taxonID]
 |Share if available
-|[.break-all]#{observations-taxonID}
+|[.break-all]#{observations-taxonID}#
 |GCHS
 
 |term:dwc[dwc:scientificName]
 |Required
-|[.break-all]#{observations-scientificName}
+|[.break-all]#{observations-scientificName}#
 |Ardea cinerea
 
 |term:dwc[dwc:kingdom]
 |Strongly recommended
-|[.break-all]#Derived from the kingdom associated with {observations-taxonID} in {package-taxonomic}
+|[.break-all]#Derived from the kingdom associated with {observations-taxonID} in {package-taxonomic}#
 |Animalia
 
 |term:dwc[dwc:vernacularName]
 |Share if available
-|[.break-all]#Derived from the vernacular name associated with {observations-taxonID} in {package-taxonomic}
+|[.break-all]#Derived from the vernacular name associated with {observations-taxonID} in {package-taxonomic}#
 |grey heron
 
 |===
