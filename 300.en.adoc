@@ -271,7 +271,7 @@ Data management systems typically organize deployments into the following classe
 |Value
 
 |Deployment ID
-|00a2c20d-f038-490c-9b3f-7e32abfa0be7
+|00a2c20d
 
 |Start date/time
 |2020-05-30 02:57:37 UTC
@@ -279,8 +279,11 @@ Data management systems typically organize deployments into the following classe
 |End date/time
 |2020-07-01 09:41:41 UTC
 
+|Location ID
+|e254a13c
+
 |Location name
-|B_HS_val_2_processiepark
+|B_HS_val 2_processiepark
 
 |Latitude
 |51.496
@@ -295,10 +298,37 @@ Data management systems typically organize deployments into the following classe
 |boven de stroom
 
 |Camera set up by
-|Dennis
+|anonymized:3eb30aa
+
+|Camera ID
+|320
+
+|Camera model
+|Reconyx-HF2X
+
+|Camera delay
+|0 s
 
 |Camera height
 |1.30 m
+
+|Camera tilt
+|-15 °
+
+|Camera heading
+|285 °
+
+|Detection distance
+|3.20 m
+
+|Timestamp issues
+|false
+
+|Bait use
+|false
+
+|habitat
+|Campine area with a number of river valleys with valuable grasslands
 
 |===
 
