@@ -1,6 +1,12 @@
 [#section-4]
 == Publishing camera trap data
 
+[#section-preparing-data]
+=== Preparing data
+
+[#section-camtrap-dp]
+=== Camtrap DP
+
 [#section-dwca]
 === Darwin Core Archive
 
@@ -252,7 +258,7 @@ The dominant behaviour of the observed individual(s). We recommend using existin
 
 term:dwc[dwc:occurrenceStatus]
 
-A statement about the presence or absence of the taxon at a location. Following the recommendations in this document, camera trap datasets only contain presence records. Set to `present` for all records.
+A statement about the presence or absence of the taxon at a location. When reduced to species observations (filtering out <<blank,blanks>>, etc.), camera trap data only contain presence records. Set to `present` for all records.
 
 [#section-occurrenceremarks]
 ===== occurrenceRemarks
