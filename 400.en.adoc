@@ -14,6 +14,9 @@
 |<<datasetid-datasetname,datasetID & datasetName>>
 |Share if available
 
+|<<sex,sex>>
+|Share if available
+
 |<<lifestage,lifeStage>>
 |Share if available
 
@@ -37,6 +40,12 @@ term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName], *share if available*
 Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (https://doi.org/10.5281/zenodo.5590881), study URL (http://n2t.net/ark:/63614/w12001317), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI).
 
 term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}.
+
+==== sex
+
+term:dwc[dwc:sex], *share if available*
+
+The sex of the observed individual(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the <<https://rs.gbif.org/vocabulary/gbif/sex.xml,GBIF Sex vocabulary>>. In Camtrap DP, this term corresponds with {observations-sex}.
 
 ==== lifeStage
 
