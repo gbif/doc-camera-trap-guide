@@ -1,7 +1,9 @@
 [#section-4]
 == Publishing camera trap data
 
-[#table-dwc]
+=== Darwin Core
+
+[#table-dwc-occurrence-core]
 .Recommended terms to use when expressing camera trap data as a Darwin Core Occurrence core. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
 [%header,cols=3*]
 |===
@@ -19,7 +21,7 @@
 
 |<<section-rightsholder,rightsHolder>>
 |Share if available
-|Research Institute for Nature and Forest (INBO)
+|INBO
 
 |<<section-datasetid-datasetname,datasetID>>
 |Share if available
@@ -169,6 +171,20 @@
 https://dwc.tdwg.org/list/#dc_type[dc:type]
 
 The nature of the resource. Use `StillImage` if the record is based on an image or sequence of images, `MovingImage` if based on a video. One can also use the broader term `Image` for all records.
+
+[#section-license]
+==== license
+
+https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]
+
+The licence under which the data record is shared. Very likely this will be the same licence as the one used for the dataset as a whole, but it is possible to deviate cite:[waller-2020]. To enable wide use, we recommend publishing data under a Creative Commons Zero waiver and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode`. In Camtrap DP, this term corresponds with the licence that has the scope `data` in {package-licenses}.
+
+[#section-rightsholder]
+==== rightsHolder
+
+https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]
+
+The person or organization (i.e. <<participant>>) owning or managing rights over the resource. In all likeness the organization that decided under what license the data are published and/or the publisher of the data (i.e. the organization selected as publisher when registering a dataset with GBIF). Use an acronym if the organization has one. In Camtrap DP, this term corresponds with the collaborator that has the role `rightsHolder` in {package-contributors}.
 
 [#section-datasetid-datasetname]
 ==== datasetID & datasetName
