@@ -215,7 +215,12 @@ term:dwc[dwc:occurrenceID]
 
 An identifier for the observation. It should be stable and unique. We recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. This identifier is likely stable, sometimes globally unique (such as a <<UUID>>) and allows users (with access) to look up the observation in the source system. It is not necessary to append elements to the identifier to make it globally unique, since this makes it more prone to change. It is sufficient if the identifier is unique within the dataset. In Camtrap DP, this term corresponds with {observations-observationID}.
 
+[#section-individualcount]
+==== individualCount
 
+term:dwc[dwc:individualCount]
+
+The number of observed individuals. Note that this number is dependent on the granularity of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
 
 [#section-sex]
 ==== sex
@@ -244,3 +249,10 @@ The dominant behaviour of the observed individual(s). We recommend using existin
 term:dwc[dwc:occurrenceStatus]
 
 A statement about the presence or absence of the taxon at a location. Following the recommendations in this document, camera trap datasets only contain presence records. Set to `present` for all records.
+
+[#section-occurrenceremarks]
+==== occurrenceRemarks
+
+term:dwc[dwc:occurrenceRemarks]
+
+Comments or notes about the observation. These are typically notes (sometimes in the native language of the author) about the observation and/or observed individual(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. In Camtrap DP, this term corresponds with {observations-observationComments}.
