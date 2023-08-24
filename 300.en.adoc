@@ -1,4 +1,4 @@
-[[section-3]]
+[#section-3]
 == Managing camera trap data
 
 [NOTE]
@@ -62,7 +62,7 @@ image::img/web/example-metadata.png[]
 
 A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles. We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data (see <<table-roles>>).
 
-[[table-roles]]
+[#table-roles]
 .Participant roles in camera trap studies, as defined by different formats and data management systems.
 [%header,cols=7*]
 |===
@@ -162,7 +162,7 @@ Data management systems typically organize media files and the associated metada
 [#figure-example-image]
 image::img/web/example-image.jpg[]
 
-[[table-exif]]
+[#table-exif]
 .Selected properties included in the EXIF metadata of the image in <<figure-example-image>>.
 [%header,cols=2*]
 |===
@@ -263,7 +263,7 @@ A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployme
 
 Data management systems typically organize deployments into the following classes: <<deployment>>, <<location,location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>).
 
-[[table-deployment]]
+[#table-deployment]
 .Recorded information for the deployment that generated the image in <<figure-example-image>>. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/
 [%header,cols=2*]
 |===
@@ -416,7 +416,7 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<column-naming,column naming conventions>> as for deployments.
 
-[[table-observation]]
+[#table-observation]
 .Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
 [%header,cols=2*]
 |===
@@ -489,7 +489,7 @@ Media can be classified using common (e.g. roe deer) or scientific names (e.g. _
 
 The list of scientific names that are available for <<classification,classification>> in a project is best maintained in a single reference table. This facilitates the management of taxonomic classification and associated common names, and allows to restrict classification options to those species that are likely to occur. More taxa can be added if needed, but only after verification. This practice is used by most <<data-management-system,data management systems>>. To populate such a reference table, we recommend using an authorative source (see <<table-taxon-reference-sources>>) and storing the taxon identifiers used by that source as reference.
 
-[[table-taxon-reference-sources]]
+[#table-taxon-reference-sources]
 .Selection of sources for scientific names, common names and taxonomic information.
 [%header,cols=3*]
 |===
@@ -578,7 +578,7 @@ WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for mana
 
 Wildtrax is a good choice for organizations who want a free service based in Canada.
 
-[[table-data-management-systems]]
+[#table-data-management-systems]
 .Comparison of features offered by five data management systems. Features that are the same for all systems are not shown.
 [%header,cols=5*]
 |===
