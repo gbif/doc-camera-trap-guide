@@ -1,7 +1,39 @@
 [[section-4]]
 == Publishing camera trap data
 
-[[table-dwc-mapping]]
+[#table-dwc]
+.TODO
+[%header,cols=2*]
+|===
+|Term
+|Status
+
+|<<dwc-type,type>>
+|Share if available
+
+|<<dwc-datasetID-datasetName,datasetID & datasetName>>
+|Share if available
+|===
+
+[#dwc-type]
+==== type
+
+https://dwc.tdwg.org/list/#dc_type[dc:type]
+
+Recommendation: Share if available
+
+The nature of the resource. Use `StillImage` if the record is based on an image or sequence of images, `MovingImage` if based on a video. One can also use the broader term `Image` for all records.
+
+[#dwc-datasetID-datasetName]
+==== datasetID & datasetName
+
+term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]
+
+Recommendation: Share if available
+
+Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (https://doi.org/10.5281/zenodo.5590881), study URL (http://n2t.net/ark:/63614/w12001317), or study identifier used by data management system. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI). term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}.
+
+[#table-dwc-mapping]
 .Overview of relevant terms to use when expressing a camera trap dataset as a Darwin Core Archive. Name space abbreviations are: `ac` (Audiovisual Core), `dc` (Dublin Core), `dcterms` (Dublin Core), `dwc` (Darwin Core), and `xmp` (Adobe XMP Core Properties). Source for the example values (except when italic): https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343 and https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file
 [%header,cols=4*]
 |===
@@ -108,7 +140,7 @@
 |term:dwc[dwc:eventDate]
 |Required
 |[.break-all]#{observations-eventStart} + `/` + {observations-eventEnd} or {observations-eventStart} if both are equal#
-|[.break-all]#2020-06-12T04:04:29Z/2020-06-12T04:04:55Z
+|[.break-all]#2020-06-12T04:04:29Z/2020-06-12T04:04:55Z#
 
 |term:dwc[dwc:habitat]
 |Share if available
