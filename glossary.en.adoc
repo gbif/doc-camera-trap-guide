@@ -109,6 +109,8 @@
 
 [[trigger]]trigger:: TODO
 
+[[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identfier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
+
 [[video]]video:: TODO
 
 <<<
