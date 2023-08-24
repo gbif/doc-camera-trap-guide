@@ -1,6 +1,7 @@
 [#section-4]
 == Publishing camera trap data
 
+[#section-darwin-core]
 === Darwin Core
 
 [#table-dwc-occurrence-core]
@@ -191,9 +192,22 @@ The person or organization (i.e. <<participant>>) owning or managing rights over
 
 term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]
 
-Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (https://doi.org/10.5281/zenodo.5590881), study URL (http://n2t.net/ark:/63614/w12001317), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI).
+Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (`https://doi.org/10.15468/5tb6ze`), study URL (`http://n2t.net/ark:/63614/w12001317`), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI).
 
 term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}.
+
+[#section-collectioncode]
+===== collectionCode
+
+term:dwc[dwc:collectionCode]
+
+The name or acronym identifying the collection or dataset the record was derived from. Traditionally used to indicate a physical collection, we recommend to provide the name of the <<data-management-system,data management system>> (i.e. virtual collection) the record was derived from. This allows users to search for records from the same data management system across datasets. Recommended values: `Agouti, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. In Camtrap DP, this term corresponds with the `title` of the (applicable) source in {package-sources}.
+
+[#section-basisOfRecord]
+
+term:dwc[dwc:basisOfRecord]
+
+The specific nature of the record. Set to `MachineObservation` for all records.
 
 [#section-sex]
 ==== sex
