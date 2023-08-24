@@ -8,28 +8,35 @@
 |Term
 |Status
 
-|<<type>>
+|<<type,type>>
 |Share if available
 
-|<<datasetid-datasetname>>
+|<<datasetid-datasetname,datasetID & datasetName>>
+|Share if available
+
+|<<occurrencestatus,occurrenceStatus>>
 |Share if available
 |===
 
 ==== type
 
-https://dwc.tdwg.org/list/#dc_type[dc:type], recommendation: *share if available*
+https://dwc.tdwg.org/list/#dc_type[dc:type], *share if available*
 
 The nature of the resource. Use `StillImage` if the record is based on an image or sequence of images, `MovingImage` if based on a video. One can also use the broader term `Image` for all records.
 
 ==== datasetID & datasetName
 
-term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName], recommendation: *share if available*
+term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName], *share if available*
 
 Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (https://doi.org/10.5281/zenodo.5590881), study URL (http://n2t.net/ark:/63614/w12001317), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI).
 
 term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}.
 
+==== occurrenceStatus
 
+term:dwc[dwc:occurrenceStatus], *share if available*
+
+A statement about the presence or absence of the taxon at a location. Following the recommendations in this document, camera trap datasets only contain presence records. Set to `present` for all records.
 
 [#table-dwc-mapping]
 .Overview of relevant terms to use when expressing a camera trap dataset as a Darwin Core Archive. Name space abbreviations are: `ac` (Audiovisual Core), `dc` (Dublin Core), `dcterms` (Dublin Core), `dwc` (Darwin Core), and `xmp` (Adobe XMP Core Properties). Source for the example values (except when italic): https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343 and https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file
