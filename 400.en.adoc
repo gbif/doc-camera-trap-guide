@@ -37,11 +37,11 @@ We recommend providing the URL to all media files (in {media-filePath} or https:
 [#section-sensitive-location-information]
 ==== Sensitive location information
 
-Camera trap data may contain <<location,Location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization.
+Camera trap data may contain <<location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization.
 
 [CAUTION]
 ====
-Note that camera trap location information is often the same across multiple <<deployment,deployments>>. Generalizing the coordinates of the deployment that has sensitive <<observation,observations>> is likely not sufficient to prevent correlational analyses. A {deployments-locationID} shared by multiple deployments for example can lead to deductions of localities/records that are generalized. Make sure to generalize the coordinates for the <<location>> across deployments.
+Note that camera trap location information is often the same across multiple <<deployment,deployments>>. Generalizing the coordinates of the deployment with associated sensitive information is likely not sufficient to prevent correlational analyses. A {deployments-locationID} shared by multiple deployments for example can lead to deductions of localities/records that are generalized. Make sure to generalize the coordinates for the <<location>> across deployments.
 ====
 
 Whatever the selected level of generalization, document it in the dataset metadata and appropriate terms, so that users are aware. See <<table-generalization>> for an example.
@@ -101,11 +101,11 @@ Text fields such as comments and notes (e.g. {deployments-deploymentComments} or
 [#section-camtrap-dp]
 === Camtrap DP
 
-Camera Trap Data Package (https://tdwg.github.io/camtrap-dp/[Camtrap DP]) is a community developed data exchange format for camera trap data. It is the recommended format to publish camera trap data to GBIF.
+Camera Trap Data Package (https://tdwg.github.io/camtrap-dp/[Camtrap DP]) is a community developed data exchange format for camera trap data.
 
 [NOTE]
 ====
-At the time of writing, publishing a Camtrap DP to GBIF is an experimental feature. It will be supported in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT]).
+At the time of writing, GBIF does not yet support the publication of Camtrap DP in their production environment. It will be released as a feature in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT]).
 ====
 
 [#section-dwca]
