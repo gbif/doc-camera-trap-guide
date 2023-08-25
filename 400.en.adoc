@@ -37,7 +37,12 @@ We recommend providing the URL to all media files (in {media-filePath} or https:
 [#section-sensitive-location-information]
 ==== Sensitive location information
 
-Camera trap data may contain <<location,Location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization. Note that camera trap location information is often the same across multiple <<deployment,deployments>>: generalizing the location of the deployment with associated sensitive information is typically not sufficient to prevent correlational analyses that lead to deductions of localities/records that are generalized.
+Camera trap data may contain <<location,Location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization.
+
+[CAUTION]
+====
+Note that camera trap location information is often the same across multiple <<deployment,deployments>>. Generalizing the coordinates of the deployment that has sensitive <<observation,observations>> is likely not sufficient to prevent correlational analyses. A {deployments-locationID} shared by multiple deployments for example can lead to deductions of localities/records that are generalized. Make sure to generalize the coordinates for the <<location>> across deployments.
+====
 
 Whatever the selected level of generalization, document it in the dataset metadata and appropriate terms, so that users are aware. See <<table-generalization>> for an example.
 
