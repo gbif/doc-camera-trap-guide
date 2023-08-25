@@ -463,3 +463,10 @@ term:dwc[dwc:geodeticDatum]
 
 The spatial reference system used for the geographic <<section-decimallatitude-decimallongitude,coordinates>>. For coordinates obtained by GPS this is typically `EPSG:4326` (i.e. `WGS84`) cite:[chapman-wieczorek-2020]. In Camtrap DP, WGS84 is implied for the terms {deployments-latitude} and {deployments-longitude}.
 
+[#section-coordinateuncertaintyinmeters]
+===== coordinateUncertaintyInMeters
+
+term:dwc[dwc:coordinateUncertaintyInMeters]
+
+The horizontal distance (in metres) from the geographic <<section-decimallatitude-decimallongitude,coordinates>> describing the smallest circle containing the <<location>>. We recommend `30` meters as reasonable lower limit for coordinates obtained by GPS, but see <<section-location>> for details on what elements contribute to the uncertainty. <<section-sensitive-location-information,Generalized/rounded>> coordinates in particular will increase the term:dwc[dwc:coordinateUncertaintyInMeters]. 
+
