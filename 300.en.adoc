@@ -140,7 +140,6 @@ Metadata Provider
 Dummy
 Awaiting access
 |Project Viewer
-
 |=== 
 
 === Media files
@@ -217,7 +216,6 @@ image::img/web/example-image.jpg[]
 
 |Scene capture type
 |Standard
-
 |=== 
 
 ==== Timestamps
@@ -324,7 +322,6 @@ Data management systems typically organize deployments into the following classe
 
 |habitat
 |Campine area with a number of river valleys with valuable grasslands
-
 |===
 
 ==== Column naming
@@ -444,12 +441,11 @@ Observations are best recorded in a <<data-management-system,data management sys
 
 |Classification timestamp
 |2023-02-02T13:57:58Z
-
 |===
 
 ==== Classification
 
-Unfortunately, camera traps don’t provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
+Unfortunately, camera traps don not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
 
 * Media does or <<blank,does not>> contain object(s) of interest.
 * Object(s) of interest is a human or vehicle, or cannot be identified.
@@ -526,7 +522,6 @@ Taxonomy
 |Scientific names
 Common names (English)
 Taxonomy
-
 |===
 
 === Data management systems
@@ -674,5 +669,4 @@ Wildtrax is a good choice for organizations who want a free service based in Can
 |Custom format
 |Camtrap DP
 |Custom format
-
 |===
