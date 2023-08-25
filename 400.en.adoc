@@ -13,7 +13,7 @@ Terms like term:dwc[dwc:occurrenceID] or {deployments-deploymentID} expect an id
 * Strongly recommended to be **stable**/persistent, i.e. it does not change over time and can safely be referenced.
 * Recommended to be **globally unique**, i.e. it uniquely refers to a record or concept in a global context.
 
-If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. These identifiers will be unique, most likely stable, and sometimes globally unique (e.g. a <<UUID>>). They also allow users (with access) to look up the record in the data management system. We advice against appending elements to the identifier to make it globally unique, since this makes it more prone to change. Since datasets can be uniquely identified (e.g. with a DOI), it is sufficient if the identifier is unique within the dataset.
+If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. These identifiers will be unique, most likely stable, and sometimes globally unique (e.g. a <<UUID,UUID>>). They also allow users (with access) to look up the record in the data management system. We advice against appending elements to the identifier to make it globally unique, since this makes it more prone to change. Since datasets can be uniquely identified (e.g. with a DOI), it is sufficient if the identifier is unique within the dataset.
 
 [#section-sensitive-information]
 ==== Sensitive information
@@ -23,7 +23,7 @@ Camera trap data may contain sensitive information, such as personal information
 [#section-personal-data]
 ===== Personal data
 
-Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participants>> and the whereabouts of <<participant,participants>> who setup the camera (identifiable by combining the name with the deployment datetime and <<location>>). In <<section-camtrap-dp,Camtrap DP>>, person names can be appear in {package-contributors}, {package-bibliographicCitation}, {deployment-setupBy} and {observations-classifiedBy}. In a <<section-dwc,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy].
+Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participant,participants>> and the whereabouts of participants who setup the camera (identifiable by combining the name with the deployment datetime and <<location>>). In <<section-camtrap-dp,Camtrap DP>>, person names can be appear in {package-contributors}, {package-bibliographicCitation}, {deployments-setupBy} and {observations-classifiedBy}. In a <<section-dwc,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy].
 
 We recommend contacting participants to ask if their personal information can be made public and to anomyze (e.g. `anonymized:3eb30aa`) or exclude it when they prefer not to. Some <<data-management-system,data management system>> (such as citenp:[agouti]) allow users to indicate their preferences and automatically anonymize their personal data in exports. Note that it may not be possible to permanently remove personal information from older versions of an already published dataset.
 
@@ -52,12 +52,12 @@ If coordinates need to be generalized (see Section 4.2 in citenp:[chapman-2020])
 |Non-generalized
 |Generalized
 
-|{deployment-latitude}
+|{deployments-latitude}
 |term:dwc[dwc:decimalLatitude]
 |51.18061
 |51.181
 
-|{deployment-longitude}
+|{deployments-longitude}
 |term:dwc[dwc:decimalLongitude]
 |5.65490
 |5.655
@@ -67,7 +67,7 @@ If coordinates need to be generalized (see Section 4.2 in citenp:[chapman-2020])
 |WGS84
 |WGS84
 
-|{deployment-coordinateUncertainty}
+|{deployments-coordinateUncertainty}
 |term:dwc[dwc:coordinateUncertaintyInMeters]
 |30
 |187
@@ -258,7 +258,6 @@ If coordinates need to be generalized (see Section 4.2 in citenp:[chapman-2020])
 |<<section-vernacularname,vernacularName>>
 |Share if available
 |grey heron
-
 |===
 
 [#section-type]
