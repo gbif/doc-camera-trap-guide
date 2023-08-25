@@ -101,6 +101,13 @@ Text fields such as comments and notes (e.g. {deployments-deploymentComments} or
 [#section-camtrap-dp]
 === Camtrap DP
 
+Camera Trap Data Package (https://tdwg.github.io/camtrap-dp/[Camtrap DP]) is a community developed data exchange format for camera trap data. It is the recommended format to publish camera trap data to GBIF.
+
+[NOTE]
+====
+At the time of writing, publishing a Camtrap DP to GBIF is an experimental feature. It will be supported in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT]).
+====
+
 [#section-dwca]
 === Darwin Core Archive
 
