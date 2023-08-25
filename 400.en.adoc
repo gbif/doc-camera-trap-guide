@@ -223,7 +223,7 @@ The specific nature of the record. Set to `MachineObservation` for all records.
 
 term:dwc[dwc:occurrenceID]
 
-An identifier for the observation. It should be stable and unique. We recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. This identifier is likely stable, sometimes globally unique (such as a <<UUID>>) and allows users (with access) to look up the observation in the source system. It is not necessary to append elements to the identifier to make it globally unique, since this makes it more prone to change. It is sufficient if the identifier is unique within the dataset. In Camtrap DP, this term corresponds with {observations-observationID}.
+An identifier for the <<observation>>. It should be stable and unique. If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. This identifier is likely stable, sometimes globally unique (e.g. a <<UUID>>) and allows users (with access) to look up the observation in the data management system. It is not necessary to append elements to the identifier to make it globally unique, since this makes it more prone to change. It is sufficient if the identifier is unique within the dataset. In Camtrap DP, this term corresponds with {observations-observationID}.
 
 [#section-individualcount]
 ===== individualCount
@@ -288,3 +288,16 @@ term:dwc[dwc:parentEventID]
 
 An identifier for a broader event then those identified by <<section-eventid,eventID>>. We recommend providing the identifier of the <<deployment>>. Using an Occurrence core, deployments will not have their own records, but providing their identifier in term:dwc[dwc:parentEventID] allows users to find all observations (and media) for a specific deployment. If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. This identifier is likely stable, sometimes globally unique (e.g. a <<UUID>>) and allows users (with access) to look up the event in the data management system. It is not necessary to append elements to the identifier to make it globally unique, since this makes it more prone to change. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:parentEventID] as belonging together. In Camtrap DP, this term corresponds with {observations-deploymentID}.
 
+[#section-eventdate]
+===== eventDate
+
+term:dwc[dwc:eventDate]
+
+The datetime or interval during which the event occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal. Examples:
+
+[,ini]
+----
+2020-07-29T05:38:55Z/2020-07-29T05:39:00Z
+2020-07-29T05:38:55Z
+2020-07-29T07:38:55+02:00
+----
