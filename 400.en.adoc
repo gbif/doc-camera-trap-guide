@@ -305,7 +305,7 @@ term:dwc[dwc:collectionCode]
 
 The name or acronym identifying the collection or dataset the record was derived from. Traditionally used to indicate a physical collection, we recommend to provide the name of the <<data-management-system,data management system>> (i.e. virtual collection) the record was derived from. This allows users to search for records from the same data management system across datasets. Recommended values: `Agouti, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. In Camtrap DP, this term corresponds with the `title` of the (applicable) source in {package-sources}.
 
-[#section-basisOfRecord]
+[#section-basisofrecord]
 ===== basisOfRecord
 
 term:dwc[dwc:basisOfRecord]
@@ -319,7 +319,7 @@ term:dwc[dwc:dataGeneralizations]
 
 TODO
 
-[#section-occurrenceID]
+[#section-occurrenceid]
 ===== occurrenceID
 
 term:dwc[dwc:occurrenceID]
