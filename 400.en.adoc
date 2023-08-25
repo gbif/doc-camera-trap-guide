@@ -69,8 +69,8 @@ If coordinates need to be generalized (see Section 4.2 in citenp:[chapman-2020])
 
 |implied
 |term:dwc[dwc:geodeticDatum]
-|WGS84
-|WGS84
+|EPSG:4326
+|EPSG:4326
 
 |{deployments-coordinateUncertainty}
 |term:dwc[dwc:coordinateUncertaintyInMeters]
@@ -455,3 +455,11 @@ The name of the <<location>>. This is typically a name or code assigned within t
 term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]
 
 The geographic latitude and longitude of the <<location>>, in decimal degrees. Latitude values lie between -90 and 90, longitude values between -180 and 180. For camera trap studies, these are typically obtained by GPS and recorded in the <<data-management-system,data management system>>. We recommend providing the coordinates as stored in the data management system, unless they need to be rounded/generalization to protect <<section-sensitive-location-information,sensitive information>. In Camtrap DP, these terms correspond with {deployments-latitude} and {deployments-longitude} respectively.
+
+[#section-geodeticdatum]
+===== geodeticDatum
+
+term:dwc[dwc:geodeticDatum]
+
+The spatial reference system used for the geographic <<section-decimallatitude-decimallongitude,coordinates>>. For coordinates obtained by GPS this is typically `EPSG:4326` (i.e. `WGS84`) cite:[chapman-wieczorek-2020]. In Camtrap DP, WGS84 is implied for the terms {deployments-latitude} and {deployments-longitude}.
+
