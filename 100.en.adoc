@@ -25,9 +25,8 @@ This guide is intended to be useful for anyone managing a camera trap study. The
 
 This guide primarily focuses on the management, quality control, enhancement and publication of camera trap data. This following topics are out of scope:
 
-* Technical aspects of camera traps: types of camera traps, camera settings, etc.
-* Study design: how to distribute and position camera traps for your research question, effect of bait use, etc.
-* Study execution: field work, data retrieval, etc.
-* Statistical analysis: software for analysis, ecological modeling, bias correction, etc.
+* Planning a camera trap study:  types of camera traps,  study design,  etc.
+* Camera trap deployment and collection: field work, baits and lures, data retrieval, etc. 
+* Analysis: software for analysis, ecological modelling, bias correction, etc.
 
-Many extensive guides on these topics are already available. See <<The use of camera traps>> for a brief overview.
+Many extensive guides on these topics are already available. See <table-topics>> for a brief overview.
