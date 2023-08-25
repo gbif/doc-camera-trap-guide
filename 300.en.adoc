@@ -353,6 +353,7 @@ latitude & coordinatesLongitude
 camera_height_meter_double
 ----
 
+[#section-location]
 ==== Location
 
 A <<location,location>> is the physical place where a camera is located during a deployment. It can be described with a name, identifier and/or description, but we recommend always to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[geographical coordinates]. Those are most commonly expressed as latitude and longitude in decimal degrees, using the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84] datum.
