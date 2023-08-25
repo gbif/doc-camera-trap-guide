@@ -23,7 +23,7 @@ In the past decades camera traps have been increasingly used to collect biodiver
 The most frequently studied animal taxa include ungulates, carnivores, birds and primates, although the most innovative sensors allow the detection of amphibians, reptiles, small mammals, and large invertebrates as well cite:[hobbs-2017]. Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies and “bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains.
 
 [#table-aims]
-.TODO, caption. Adapted from citenp:[wearn-2017].
+.Aims and outputs of camera trap studies as taken from citenp:[wearn-2017].
 [%header,cols=3*]
 |===
 |Study Aim
