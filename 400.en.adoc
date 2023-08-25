@@ -230,28 +230,28 @@ An identifier for the <<observation>>. It should be stable and unique. If availa
 
 term:dwc[dwc:individualCount]
 
-The number of observed individuals. Note that this number is dependent on the granularity of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
+The number of observed <<individual,individuals>>. Note that this number is dependent on the granularity of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
 
 [#section-sex]
 ===== sex
 
 term:dwc[dwc:sex]
 
-The sex of the observed individual(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the <<https://rs.gbif.org/vocabulary/gbif/sex.xml,GBIF Sex vocabulary>>. In Camtrap DP, this term corresponds with {observations-sex}.
+The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the <<https://rs.gbif.org/vocabulary/gbif/sex.xml,GBIF Sex vocabulary>>. In Camtrap DP, this term corresponds with {observations-sex}.
 
 [#section-lifestage]
 ===== lifeStage
 
 term:dwc[dwc:lifeStage]
 
-The life stage of the observed individual(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the <<https://registry.gbif.org/vocabulary/LifeStage,GBIF LifeStage vocabulary>>. In Camtrap DP, this term corresponds with {observations-lifeStage}.
+The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the <<https://registry.gbif.org/vocabulary/LifeStage,GBIF LifeStage vocabulary>>. In Camtrap DP, this term corresponds with {observations-lifeStage}.
 
 [#section-behavior]
 ===== behavior
 
 term:dwc[dwc:behavior]
 
-The dominant behaviour of the observed individual(s). We recommend using existing or your own controlled values (e.g. grazing, browsing, rooting, vigilance, running, walking). In Camtrap DP, this term corresponds with {observations-behavior}.
+The dominant behaviour of the observed <<individual>>(s). We recommend using existing or your own controlled values (e.g. grazing, browsing, rooting, vigilance, running, walking). In Camtrap DP, this term corresponds with {observations-behavior}.
 
 [#section-occurrencestatus]
 ===== occurrenceStatus
@@ -265,21 +265,21 @@ A statement about the presence or absence of the taxon at a location. When reduc
 
 term:dwc[dwc:occurrenceRemarks]
 
-Comments or notes about the observation. These are typically notes (sometimes in the native language of the author) about the observation and/or observed individual(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. In Camtrap DP, this term corresponds with {observations-observationComments}.
+Comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. In Camtrap DP, this term corresponds with {observations-observationComments}.
 
 [#section-organismid]
 ===== organismID
 
 term:dwc[dwc:organismID]
 
-An identifier for an observed and known individual that was recognized by colour ring, ear tag, skin pattern or other characteristics. Observations with term:dwc[dwc:organismID] typically have term:dwc[dwc:individualCount] of 1, unless the term:dwc[dwc:organismID] refers to a known group. Unless a globally unique identifier is available and known for the individual, we recommend using the code/identifier assigned within the camera trap study to the individual, allowing users to find all observations of this individual within the dataset. In Camtrap DP, this term corresponds with {observations-individualID}.
+An identifier for an observed and known <<individual>> that was recognized by colour ring, ear tag, skin pattern or other characteristics. Observations with term:dwc[dwc:organismID] typically have term:dwc[dwc:individualCount] of 1, unless the term:dwc[dwc:organismID] refers to a known group. Unless a globally unique identifier is available and known for the individual, we recommend using the code/identifier assigned within the camera trap study to the individual, allowing users to find all observations of this individual within the dataset. In Camtrap DP, this term corresponds with {observations-individualID}.
 
 [#section-eventid]
 ===== eventID
 
 term:dwc[dwc:eventID]
 
-An identifier for the event the observation belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. This identifier is likely stable, sometimes globally unique (e.g. a <<UUID>>) and allows users (with access) to look up the event in the data management system. It is not necessary to append elements to the identifier to make it globally unique, since this makes it more prone to change. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}.
+An identifier for the event the <<observation>> belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. This identifier is likely stable, sometimes globally unique (e.g. a <<UUID>>) and allows users (with access) to look up the event in the data management system. It is not necessary to append elements to the identifier to make it globally unique, since this makes it more prone to change. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}.
 
 [#section-parenteventid]
 ===== parentEventID
@@ -293,11 +293,50 @@ An identifier for a broader event then those identified by <<section-eventid,eve
 
 term:dwc[dwc:eventDate]
 
-The datetime or interval during which the event occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal. Examples:
+The datetime or datetime interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal.
+
+Examples:
 
 [,ini]
 ----
 2020-07-29T05:38:55Z/2020-07-29T05:39:00Z
 2020-07-29T05:38:55Z
 2020-07-29T07:38:55+02:00
+----
+
+[#section-habitat]
+===== habitat
+
+term:dwc[dwc:habitat]
+
+A category or description of the habitat in which the <<event>> occurred. This is typically the habitat at the time of deployment, with values repeated for all records of this deployment. Values can be controlled, ideally using an existing classification system, or free-text descriptions. In Camtrap DP, this term corresponds with {deployments-habitat}.
+
+[#section-samplingprotocol]
+===== samplingProtocol
+
+term:dwc[dwc:samplingProtocol]
+
+The methods or protocols used during the <<event>>. We recommend using the controlled value `camera trap`. This allows users to search for records with this protocol across datasets.
+
+[#section-samplingeffort]
+===== samplingEffort
+
+term:dwc[dwc:samplingEffort]
+
+The amount of effort expanded during the <<event>>. We recommend providing the datetime interval the camera trap was deployed, using the same formatting conventions as <<section-eventdate,eventDate>>. In Camtrap DP, this term corresponds with {deployments-deploymentStart} and {deployments-deploymentEnd}.
+
+[#section-eventremarks]
+===== eventRemarks
+
+term:dwc[dwc:eventRemarks]
+
+Comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (` | `) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments}, {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}.
+
+Examples:
+
+[,ini]
+----
+camera trap with bait near burrow
+camera trap without bait | tags: position:above stream
+camera malfunction on 29/06/2020
 ----

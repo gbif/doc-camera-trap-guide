@@ -43,7 +43,7 @@
 
 [[detection-zone]]detection zone:: The area of a <<location>> in which a camera <<sensor>> is able to detect <<activity>>.
 
-[[event]]event:: TODO
+[[event]]event:: TODO Mention sequence.
 
 [[EXIF]]EXIF:: TODO {media-exifData} in Camtrap DP
 
@@ -64,6 +64,8 @@
 [[image]]image:: TODO
 
 [[independence-interval]]independence interval:: TODO
+
+[[individual]]individual:: TODO
 
 [[life-stage]]life stage:: TODO Also referred to as `age`.
 
