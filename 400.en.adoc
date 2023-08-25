@@ -314,6 +314,13 @@ term:dwc[dwc:basisOfRecord]
 
 The specific nature of the record. Set to `MachineObservation` for all records.
 
+[#section-datageneralizations]
+===== dataGeneralizations
+
+term:dwc[dwc:dataGeneralizations]
+
+TODO
+
 [#section-occurrenceID]
 ===== occurrenceID
 
@@ -470,3 +477,65 @@ term:dwc[dwc:coordinateUncertaintyInMeters]
 
 The horizontal distance (in metres) from the geographic <<section-decimallatitude-decimallongitude,coordinates>> describing the smallest circle containing the <<location>>. We recommend `30` meters as reasonable lower limit for coordinates obtained by GPS, but see <<section-location>> for details on what elements contribute to the uncertainty. <<section-sensitive-location-information,Generalized/rounded>> coordinates in particular will increase the term:dwc[dwc:coordinateUncertaintyInMeters]. 
 
+[#section-coordinateprecision]
+===== coordinatePrecision
+
+term:dwc[dwc:coordinatePrecision]
+
+TODO
+
+[#section-identifiedby]
+===== identifiedBy
+
+term:dwc[dwc:identifiedBy]
+
+TODO
+
+[#section-dateidentified]
+===== dateIdentified
+
+term:dwc[dwc:dateIdentified]
+
+TODO
+
+[#section-dateidentified]
+===== dateIdentified
+
+term:dwc[dwc:dateIdentified]
+
+TODO
+
+[#section-identificationremarks]
+===== identificationRemarks
+
+term:dwc[dwc:identificationRemarks]
+
+TODO
+
+[#section-taxonid]
+===== taxonID
+
+term:dwc[dwc:taxonID]
+
+TODO
+
+[#section-scientificname]
+===== scientificName
+
+term:dwc[dwc:scientificName]
+
+TODO
+
+[#section-kingdom]
+===== kingdom
+
+term:dwc[dwc:kingdom]
+
+TODO
+
+[#section-vernacularname]
+===== vernacularName
+
+term:dwc[dwc:vernacularName]
+
+TODO
