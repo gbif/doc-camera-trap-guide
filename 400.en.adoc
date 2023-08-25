@@ -35,7 +35,7 @@ We recommend contacting participants to ask if their personal information can be
 We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level. The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in a <<section-dwca,Darwin Core Archive>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded.
 
 [#section-sensitive-location-information]
-==== Sensitive location information
+===== Sensitive location information
 
 Camera trap data may contain <<location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization.
 
@@ -94,7 +94,7 @@ If coordinates need to be generalized (see Section 4.2 in citenp:[chapman-2020])
 |===
 
 [#section-other-sensitive-information]
-==== Other sensitive information
+===== Other sensitive information
 
 Text fields such as comments and notes (e.g. {deployments-deploymentComments} or term:dwc[dwc:occurrenceRemarks]) may contain sensitive information such as <<section-personal-data,person names>>, <<section-sensitive-location-information,sensitive location information>> or information not intended for the public. We recommend verifing values and generalizing where necessary (see https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[Chapter 3] in citenp:[chapman-2020]).
 
