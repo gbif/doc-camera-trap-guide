@@ -72,7 +72,7 @@ The most frequently studied animal taxa include ungulates, carnivores, birds and
 The full life cycle of camera trap research includes the planning phase, the deployment of the camera traps in the field, the collection, management, analysis and sharing of data. This guide is not intended to cover all aspects of the camera trap project life cycle. The focus in this best practice guide lies on the management and publishing of the data. For readers interested in a general review of camera trap research, the planning phase, the deployment of camera traps in the field, we here provide an overview of the available resources (see <<table-topics>>).
 
 [#table-topics]
-.#TODO caption.
+.Stages in the camera trap life cycle and key references.
 [%header,cols=3*]
 |===
 |Topic
