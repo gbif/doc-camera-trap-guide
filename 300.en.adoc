@@ -1,4 +1,4 @@
-[[section-3]]
+[#section-3]
 == Managing camera trap data
 
 [NOTE]
@@ -62,7 +62,7 @@ image::img/web/example-metadata.png[]
 
 A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles. We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data (see <<table-roles>>).
 
-[[table-roles]]
+[#table-roles]
 .Participant roles in camera trap studies, as defined by different formats and data management systems.
 [%header,cols=7*]
 |===
@@ -162,7 +162,7 @@ Data management systems typically organize media files and the associated metada
 [#figure-example-image]
 image::img/web/example-image.jpg[]
 
-[[table-exif]]
+[#table-exif]
 .Selected properties included in the EXIF metadata of the image in <<figure-example-image>>.
 [%header,cols=2*]
 |===
@@ -197,7 +197,7 @@ image::img/web/example-image.jpg[]
 |HYPERFIRE 2 COVERT
 
 |Date time original
-|2020:06:12 06:04:32 UTC
+|2020:06:12T06:04:32Z
 
 |Time zone offset
 |N/A
@@ -263,24 +263,27 @@ A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployme
 
 Data management systems typically organize deployments into the following classes: <<deployment>>, <<location,location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>).
 
-[[table-deployment]]
-.Recorded information for the deployment that generated the image in <<figure-example-image>>. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/
+[#table-deployment]
+.Recorded information for the deployment that generated the image in <<figure-example-image>>. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/
 [%header,cols=2*]
 |===
 |Property
 |Value
 
 |Deployment ID
-|00a2c20d-f038-490c-9b3f-7e32abfa0be7
+|00a2c20d
 
 |Start date/time
-|2020-05-30 02:57:37 UTC
+|2020-05-30T04:57:37+02:00 (= 2020-05-30T02:57:37Z)
 
 |End date/time
-|2020-07-01 09:41:41 UTC
+|2020-07-01T11:41:41+02:00 (= 2020-07-01T09:41:41Z)
+
+|Location ID
+|e254a13c
 
 |Location name
-|B_HS_val_2_processiepark
+|B_HS_val 2_processiepark
 
 |Latitude
 |51.496
@@ -295,10 +298,37 @@ Data management systems typically organize deployments into the following classe
 |boven de stroom
 
 |Camera set up by
-|Dennis
+|anonymized:3eb30aa
+
+|Camera ID
+|320
+
+|Camera model
+|Reconyx-HF2X
+
+|Camera delay
+|0 s
 
 |Camera height
 |1.30 m
+
+|Camera tilt
+|-15 °
+
+|Camera heading
+|285 °
+
+|Detection distance
+|3.20 m
+
+|Timestamp issues
+|false
+
+|Bait use
+|false
+
+|habitat
+|Campine area with a number of river valleys with valuable grasslands
 
 |===
 
@@ -335,12 +365,12 @@ camera_height_meter_double
 
 A <<location,location>> is the physical place where a camera is located during a deployment. It can be described with a name, identifier and/or description, but we recommend always to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[geographical coordinates]. Those are most commonly expressed as latitude and longitude in decimal degrees, using the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84] datum.
 
-The coordinates are best determined using a GPS receiver at the location itself. If this is not possible, use (online) resources and georeferencing best practices cite:[chapman-2020] to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:
+The coordinates are best determined using a GPS receiver at the location itself. If this is not possible, use (online) resources and georeferencing best practices cite:[chapman-wieczorek-2020] to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:
 
 * The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location[extent] of the location. Note that for camera traps this includes the <<detection-distance,detection distance>>, which is typically between 5 and 20m.
-* The accuracy of the GPS receiver or georeferencing resource. Most GPS receivers obtain an accuracy of 5 metres in open areas when using four or more satellites cite:[chapman-2020]. Forest canopy or limited satellite connection can reduce accuracy. Google Maps or Open Street Maps have an accuracy of 8m cite:[chapman-2020].
-* The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-2020]).
-* An https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-from-unknown-datum[unknown datum]. This can range from centimetres to kilometres cite:[chapman-2020], so it is important to always record the datum used by the GPS receiver or georeferencing resource (WGS84 for Google Maps or Open Street Maps).
+* The accuracy of the GPS receiver or georeferencing resource. Most GPS receivers obtain an accuracy of 5 metres in open areas when using four or more satellites cite:[chapman-wieczorek-2020]. Forest canopy or limited satellite connection can reduce accuracy. Google Maps or Open Street Maps have an accuracy of 8m cite:[chapman-wieczorek-2020].
+* The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-wieczorek-2020]).
+* An https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-from-unknown-datum[unknown datum]. This can range from centimetres to kilometres cite:[chapman-wieczorek-2020], so it is important to always record the datum used by the GPS receiver or georeferencing resource (WGS84 for Google Maps or Open Street Maps).
 * The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the point-radius-method.
 
 The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method[point-radius-method].
@@ -370,12 +400,12 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 ** PanTHERIA cite:[jones-2009]
 ** EltonTraits cite:[wilman-2014]
 ** AmphBIO cite:[oliveira-2017]
-** GlobTerm cite:[bennett-2017]
+** GlobTerm cite:[bennett-2018]
 ** AVONET cite:[tobias-2022]
 ** https://opentraits.org/datasets.html[Open Traits Network]
 * Habitat classification cite:[jung-2020]
 * Land cover products cite:[yang-2017,amatulli-2018] (http://www.earthenv.org)
-* Land cover type cite:[buchhorn-2019]
+* Land cover type cite:[buchhorn-2020]
 * Leaf Area Index cite:[law-2008]
 * Primary productivity cite:[zhao-2005]
 * Terrain ruggedness index (TRI) cite:[riley-1999]
@@ -386,15 +416,15 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<column-naming,column naming conventions>> as for deployments.
 
-[[table-observation]]
-.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d-f038-490c-9b3f-7e32abfa0be7/#79204343-27df-401d-bfbd-80366e848fd5
+[#table-observation]
+.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
 [%header,cols=2*]
 |===
 |Property
 |Value
 
 |Observation ID
-|05230014-f165-4b73-8835-3e86c6d2649f
+|05230014
 
 |Observation type
 |animal
@@ -439,7 +469,7 @@ Different actors (experts, volunteers, AI) can reach different levels of precisi
 
 <<citizen-science,Citizen scientists>> are volunteers from the non-scientific community that help scientists in their work. They can contribute to camera trap studies in a number of ways, such as placing cameras and collecting/swapping memory cards. In a practice called crowdsourcing, researchers can also distribute the task of  <<classification,classifying>> media, by presenting these online to a community of citizen scientists. Each classification helps to confirm or improve the community's opinion on the observed species cite:[swanson-2015,hsing-2018].
 
-Most projects use established online platforms for crowdsourcing cite:[forston-2012,swanson-2015], (https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] or DoeDat cite:[groom-2018]. These platforms give access to large, already existing volunteer bases, which is particularly important if classifications are needed within a short time frame. Note however that managing a citizen science project takes time and might be more beneficial for larger studies. In addition to uploading media to a platform, waiting for classifications, downloading consensus observations and dealing with non-consensus observations, you need to keep the community engaged and/or attract new members. It is also important to exclude sensitive media from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in cite:[weinstein-2017].
+Most projects use established online platforms for crowdsourcing cite:[forston-2012,swanson-2015], (https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] or DoeDat cite:[groom-2018]. These platforms give access to large, already existing volunteer bases, which is particularly important if classifications are needed within a short time frame. Note however that managing a citizen science project takes time and might be more beneficial for larger studies. In addition to uploading media to a platform, waiting for classifications, downloading consensus observations and dealing with non-consensus observations, you need to keep the community engaged and/or attract new members. It is also important to exclude sensitive media from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in cite:[weinstein-2018].
 
 ==== Artificial intelligence
 
@@ -447,6 +477,7 @@ In the context of camera trap research, artificial intelligence (AI) typically r
 
 Still, computer vision won’t entirely replace human <<classification,classification>>, since a large and diverse number of preprocessed data are needed to train the models. Unbalanced training datasets may produce low performance of the models, such as training datasets with a highly variable number of images of each species, or small and geographically limited datasets. Additionally, the accuracy of computer vision classification is currently still secondary to that of a human expert. A combination of AI-aided preprocessing and human verification is therefore recommended.
 
+[#section-media-or-event-based-classification]
 ==== Media or event based classification
 
 Classifications can be based on a single media file (typically an <<image>>) or an <<event>> (typically a <<sequence>> of images). In the latter technique, all media files that belong to the <<event>> are assessed as a whole to determine the species and their number of individuals. This is less time consuming for human classifiers and can lead to better estimates of group size, since the number of individuals passing by a camera can be larger than those that can be seen in a single image. The disadvantage of event based classification is that it is not possible to split the classification into events that are shorter than the one that is assessed (the same is true for videos classified as a whole). Nor can those classifications be used to train computer models, which require media based training datasets.
@@ -459,7 +490,7 @@ Media can be classified using common (e.g. roe deer) or scientific names (e.g. _
 
 The list of scientific names that are available for <<classification,classification>> in a project is best maintained in a single reference table. This facilitates the management of taxonomic classification and associated common names, and allows to restrict classification options to those species that are likely to occur. More taxa can be added if needed, but only after verification. This practice is used by most <<data-management-system,data management systems>>. To populate such a reference table, we recommend using an authorative source (see <<table-taxon-reference-sources>>) and storing the taxon identifiers used by that source as reference.
 
-[[table-taxon-reference-sources]]
+[#table-taxon-reference-sources]
 .Selection of sources for scientific names, common names and taxonomic information.
 [%header,cols=3*]
 |===
@@ -548,7 +579,7 @@ WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for mana
 
 Wildtrax is a good choice for organizations who want a free service based in Canada.
 
-[[table-data-management-systems]]
+[#table-data-management-systems]
 .Comparison of features offered by five data management systems. Features that are the same for all systems are not shown.
 [%header,cols=5*]
 |===

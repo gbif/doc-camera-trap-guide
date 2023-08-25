@@ -43,7 +43,7 @@
 
 [[detection-zone]]detection zone:: The area of a <<location>> in which a camera <<sensor>> is able to detect <<activity>>.
 
-[[event]]event:: TODO
+[[event]]event:: TODO Mention sequence.
 
 [[EXIF]]EXIF:: TODO {media-exifData} in Camtrap DP
 
@@ -65,9 +65,11 @@
 
 [[independence-interval]]independence interval:: TODO
 
+[[individual]]individual:: TODO
+
 [[life-stage]]life stage:: TODO Also referred to as `age`.
 
-[[location]]location:: Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` cite:[newkirk-2016], `station` cite:[berkel-2014,cameratrap-manager], `project station` cite:[wildcam] or `trap station` cite:[camelot]. Deployment location with a {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, and {deployments-coordinateUncertainty} in Camtrap DP.
+[[location]]location:: Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` cite:[newkirk-2016], `station` cite:[berkel-2014,camera-trap-manager], `project station` cite:[wildcam-project] or `trap station` cite:[camelot]. Deployment location with a {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, and {deployments-coordinateUncertainty} in Camtrap DP.
 
 [[machine-learning]]machine learning:: TODO
 
@@ -108,6 +110,8 @@
 [[subproject]]subproject:: TODO
 
 [[trigger]]trigger:: TODO
+
+[[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identfier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
 
 [[video]]video:: TODO
 

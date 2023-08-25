@@ -1,2 +1,351 @@
-[[section-4]]
+[#section-4]
 == Publishing camera trap data
+
+[#section-preparing-data]
+=== Preparing data
+
+[#section-stable-unique-identifiers]
+==== Stable unique identifiers
+
+Some terms (e.g. term:dwc[dwc:occurrenceID], term:dwc[dwc:eventID], term:dwc[dwc:locationID]) relate to an identifier that is:
+
+* Required to be **unique**, i.e. it uniquely refers to a record or concept.
+* Strongly recommended to be **stable**/persistent, i.e. it does not change over time and can safely be referenced.
+* Recommended to be **globally unique**, i.e. it uniquely refers to a record or concept in a global context.
+
+If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. These identifiers will be unique, most likely stable, and sometimes globally unique (e.g. a <<UUID>>). They also allow users (with access) to look up the record in the data management system. We advice against appending elements to the identifier to make it globally unique, since this makes it more prone to change. Since datasets can be uniquely identified (e.g. with a DOI), it is sufficient if the identifier is unique within the dataset.
+
+[#section-camtrap-dp]
+=== Camtrap DP
+
+[#section-dwca]
+=== Darwin Core Archive
+
+
+[#section-occurrence-core]
+==== Occurrence core
+
+[#table-dwc-occurrence-core]
+.Recommended terms to use when expressing camera trap data as a Darwin Core Occurrence core. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+[%header,cols=3*]
+|===
+|Term
+|Status
+|Example value
+
+|<<section-type,type>>
+|Share if available
+|StillImage
+
+|<<section-license,license>>
+|Share if available
+|[.break-all]#https://creativecommons.org/publicdomain/zero/1.0/legalcode#
+
+|<<section-rightsholder,rightsHolder>>
+|Share if available
+|INBO
+
+|<<section-datasetid-datasetname,datasetID>>
+|Share if available
+|[.break-all]#https://doi.org/10.15468/5tb6ze#
+
+|<<section-collectioncode,collectionCode>>
+|Share if available
+|Agouti
+
+|<<section-datasetid-datasetname,datasetName>>
+|Share if available
+|Sample from: MICA - Muskrat and coypu camera trap observations in Belgium, the Netherlands and Germany
+
+|<<section-basisofrecord,basisOfRecord>>
+|Required
+|MachineObservation
+
+|<<section-informationwithheld,informationWithheld>>
+|Share if available
+|
+
+|<<section-datageneralizations,dataGeneralizations>>
+|Share if available
+|coordinates rounded to 0.001 degrees
+
+|<<section-occurrenceid,occurrenceID>>
+|Required
+|05230014
+
+|<<section-individualcount,individualCount>>
+|Strongly recommended
+|1
+
+|<<section-sex,sex>>
+|Share if available
+|
+
+|<<section-lifestage,lifeStage>>
+|Share if available
+|adult
+
+|<<section-behavior,behavior>>
+|Share if available
+|
+
+|<<section-occurrencestatus,occurrenceStatus>>
+|Strongly recommended
+|present
+
+|<<section-occurrenceremarks,occurrenceRemarks>>
+|Share if available
+|
+
+|<<section-organismid,organismID>>
+|Share if available
+|
+
+|<<section-eventid,eventID>>
+|Strongly recommended
+|79204343
+
+|<<section-parenteventid,parentEventID>>
+|Strongly recommended
+|00a2c20d
+
+|<<section-eventdate,eventDate>>
+|Required
+|[.break-all]#2020-06-12T04:04:29Z/2020-06-12T04:04:55Z#
+
+|<<section-habitat,habitat>>
+|Share if available
+|Campine area with a number of river valleys with valuable grasslands
+
+|<<section-samplingprotocol,samplingProtocol>>
+|Strongly recommended
+|camera trap
+
+|<<section-samplingeffort,samplingEffort>>
+|Share if available
+|[.break-all]#2020-05-30T02:57:37Z/2020-07-01T09:41:41Z#
+
+|<<section-eventremarks,eventRemarks>>
+|Share if available
+|camera trap without bait near game trail \| tags: position:above stream
+
+|<<section-locationid,locationID>>
+|Share if available
+|e254a13c
+
+|<<section-locality,locality>>
+|Share if available
+|B_HS_val 2_processiepark	
+
+|<<section-decimallatitude-decimallongitude,decimalLatitude>>
+|Strongly recommended
+|51.496
+
+|<<section-decimallatitude-decimallongitude,decimalLongitude>>
+|Strongly recommended
+|4.774
+
+|<<section-geodeticdatum,geodeticDatum>>
+|Strongly recommended
+|EPSG:4326
+
+|<<section-coordinateuncertaintyinmeters,coordinateUncertaintyInMeters>>
+|Strongly recommended
+|187
+
+|<<section-coordinateprecision,coordinatePrecision>>
+|Share if available
+|0.001
+
+|<<section-identifiedby,identifiedBy>>
+|Share if available
+|Peter Desmet
+
+|<<section-dateidentified,dateIdentified>>
+|Share if available
+|2023-02-02T13:57:58Z
+
+|<<section-identificationremarks,identificationRemarks>>
+|Share if available
+|classified by human
+
+|<<section-taxonid,taxonID>>
+|Share if available
+|GCHS
+
+|<<section-scientificname,scientificName>>
+|Required
+|Ardea cinerea
+
+|<<section-kingdom,kingdom>>
+|Strongly recommended
+|Animalia
+
+|<<section-vernacularname,vernacularName>>
+|Share if available
+|grey heron
+
+|===
+
+[#section-type]
+===== type
+
+https://dwc.tdwg.org/list/#dc_type[dc:type]
+
+The nature of the resource. Use `StillImage` if the record is based on an image or sequence of images, `MovingImage` if based on a video. One can also use the broader term `Image` for all records.
+
+[#section-license]
+===== license
+
+https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]
+
+The licence under which the data record is shared. Very likely this will be the same licence as the one used for the dataset as a whole, but it is possible to deviate cite:[waller-2020]. To enable wide use, we recommend publishing data under a Creative Commons Zero waiver and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode`. In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `data` in {package-licenses}.
+
+[#section-rightsholder]
+===== rightsHolder
+
+https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]
+
+The person or organization (i.e. <<participant>>) owning or managing rights over the resource. In all likeness the organization that decided under what license the data are published and/or the publisher of the data (i.e. the organization selected as publisher when registering a dataset with GBIF). Use an acronym if the organization has one. In Camtrap DP, this term corresponds with the `title` of the collaborator that has the role `rightsHolder` in {package-contributors}.
+
+[#section-datasetid-datasetname]
+===== datasetID & datasetName
+
+term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]
+
+Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (`https://doi.org/10.15468/5tb6ze`), study URL (`http://n2t.net/ark:/63614/w12001317`), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI). term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}.
+
+[#section-collectioncode]
+===== collectionCode
+
+term:dwc[dwc:collectionCode]
+
+The name or acronym identifying the collection or dataset the record was derived from. Traditionally used to indicate a physical collection, we recommend to provide the name of the <<data-management-system,data management system>> (i.e. virtual collection) the record was derived from. This allows users to search for records from the same data management system across datasets. Recommended values: `Agouti, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. In Camtrap DP, this term corresponds with the `title` of the (applicable) source in {package-sources}.
+
+[#section-basisOfRecord]
+===== basisOfRecord
+
+term:dwc[dwc:basisOfRecord]
+
+The specific nature of the record. Set to `MachineObservation` for all records.
+
+[#section-occurrenceID]
+===== occurrenceID
+
+term:dwc[dwc:occurrenceID]
+
+An identifier for the <<observation>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap DP, this term corresponds with {observations-observationID}.
+
+[#section-individualcount]
+===== individualCount
+
+term:dwc[dwc:individualCount]
+
+The number of observed <<individual,individuals>>. Note that this number is dependent on the granularity of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
+
+[#section-sex]
+===== sex
+
+term:dwc[dwc:sex]
+
+The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the <<https://rs.gbif.org/vocabulary/gbif/sex.xml,GBIF Sex vocabulary>>. In Camtrap DP, this term corresponds with {observations-sex}.
+
+[#section-lifestage]
+===== lifeStage
+
+term:dwc[dwc:lifeStage]
+
+The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the <<https://registry.gbif.org/vocabulary/LifeStage,GBIF LifeStage vocabulary>>. In Camtrap DP, this term corresponds with {observations-lifeStage}.
+
+[#section-behavior]
+===== behavior
+
+term:dwc[dwc:behavior]
+
+The dominant behaviour of the observed <<individual>>(s). We recommend using existing or your own controlled values (e.g. grazing, browsing, rooting, vigilance, running, walking). In Camtrap DP, this term corresponds with {observations-behavior}.
+
+[#section-occurrencestatus]
+===== occurrenceStatus
+
+term:dwc[dwc:occurrenceStatus]
+
+A statement about the presence or absence of the taxon at a location. When reduced to species observations (filtering out <<blank,blanks>>, etc.), camera trap data only contain presence records. Set to `present` for all records.
+
+[#section-occurrenceremarks]
+===== occurrenceRemarks
+
+term:dwc[dwc:occurrenceRemarks]
+
+Comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. In Camtrap DP, this term corresponds with {observations-observationComments}.
+
+[#section-organismid]
+===== organismID
+
+term:dwc[dwc:organismID]
+
+An identifier for an observed and known <<individual>> that was recognized by colour ring, ear tag, skin pattern or other characteristics. Observations with term:dwc[dwc:organismID] typically have term:dwc[dwc:individualCount] of 1, unless the term:dwc[dwc:organismID] refers to a known group. Unless a globally unique identifier is available and known for the individual, we recommend using the code/identifier assigned within the camera trap study to the individual, allowing users to find all observations of this individual within the dataset. In Camtrap DP, this term corresponds with {observations-individualID}.
+
+[#section-eventid]
+===== eventID
+
+term:dwc[dwc:eventID]
+
+An identifier for the event the <<observation>> belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}.
+
+[#section-parenteventid]
+===== parentEventID
+
+term:dwc[dwc:parentEventID]
+
+An identifier for a broader event then those identified by <<section-eventid,eventID>>. We recommend providing the identifier of the <<deployment>>. Using an Occurrence core, deployments will not have their own records, but providing their identifier in term:dwc[dwc:parentEventID] allows users to find all observations (and media) for a specific deployment. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:parentEventID] as belonging together. In Camtrap DP, this term corresponds with {observations-deploymentID}.
+
+[#section-eventdate]
+===== eventDate
+
+term:dwc[dwc:eventDate]
+
+The datetime or datetime interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal.
+
+Examples:
+
+----
+2020-07-29T05:38:55Z/2020-07-29T05:39:00Z
+2020-07-29T05:38:55Z
+2020-07-29T07:38:55+02:00
+----
+
+[#section-habitat]
+===== habitat
+
+term:dwc[dwc:habitat]
+
+A category or description of the habitat in which the <<event>> occurred. This is typically the habitat at the time of deployment, with values repeated for all records of this deployment. Values can be controlled, ideally using an existing classification system, or free-text descriptions. In Camtrap DP, this term corresponds with {deployments-habitat}.
+
+[#section-samplingprotocol]
+===== samplingProtocol
+
+term:dwc[dwc:samplingProtocol]
+
+The methods or protocols used during the <<event>>. We recommend using the controlled value `camera trap`. This allows users to search for records with this protocol across datasets.
+
+[#section-samplingeffort]
+===== samplingEffort
+
+term:dwc[dwc:samplingEffort]
+
+The amount of effort expanded during the <<event>>. We recommend providing the datetime interval the camera trap was deployed, using the same formatting conventions as <<section-eventdate,eventDate>>. In Camtrap DP, this term corresponds with {deployments-deploymentStart} and {deployments-deploymentEnd}.
+
+[#section-eventremarks]
+===== eventRemarks
+
+term:dwc[dwc:eventRemarks]
+
+Comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments}, {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}.
+
+Examples:
+
+----
+camera trap with bait near burrow
+camera trap without bait | tags: position:above stream
+camera malfunction on 29/06/2020
+----
