@@ -107,7 +107,7 @@ Sharing and publishing camera trap data
 
 |Analysis
 |Software for analysing data
-|citenp:[sunarto-2013] (large carnivores)
+|citenp:[sunarto-2013]
 |=== 
 
 For a camera trap dataset to be useful, you should clearly define the aim and objectives in the planning phase: what would you like to know from which species groups? Each aim brings along its own key characteristics to consider, such as camera height and direction, seasonality, bait usage, detection zone features, camera settings, trigger and flash type. These characteristics must be included in the published dataset in order to be useful in consequent analyses. We recommend consulting the key references in <<table-topics>> for readers interested in this topic. Additionally, citenp:[wearn-2017] provides a comprehensive overview of more general, camera trap survey design aspects.
