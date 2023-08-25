@@ -7,13 +7,32 @@
 [#section-stable-unique-identifiers]
 ==== Stable unique identifiers
 
-Some terms (e.g. term:dwc[dwc:occurrenceID], term:dwc[dwc:eventID], term:dwc[dwc:locationID]) relate to an identifier that is:
+Terms like term:dwc[dwc:occurrenceID] or {deployments-deploymentID} expect an identifier that is:
 
 * Required to be **unique**, i.e. it uniquely refers to a record or concept.
 * Strongly recommended to be **stable**/persistent, i.e. it does not change over time and can safely be referenced.
 * Recommended to be **globally unique**, i.e. it uniquely refers to a record or concept in a global context.
 
 If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. These identifiers will be unique, most likely stable, and sometimes globally unique (e.g. a <<UUID>>). They also allow users (with access) to look up the record in the data management system. We advice against appending elements to the identifier to make it globally unique, since this makes it more prone to change. Since datasets can be uniquely identified (e.g. with a DOI), it is sufficient if the identifier is unique within the dataset.
+
+[#section-sensitive-information]
+==== Sensitive information
+
+Camera trap data may contain sensitive information, such as personal information (e.g. names or images of living persons), the occurrence of sensitive (e.g. endangered) species, the locations of active cameras that can be subject to theft, or even notes and comments not are intended for the public. We recommend following the best practice guidelines in citenp:[chapman-2020], which favour generalization over restriction of the record as a whole.
+
+[#section-personal-data]
+===== Personal data
+
+Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participants>> and the whereabouts of <<participants>> who setup the camera (identifiable by combining the name with the deployment datetime and <<location>>). In a <<section-dwc,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy]. In <<section-camtrap-dp,Camtrap DP>>, person names can be appear in {package-contributors}, {package-bibliographicCitation}, {deployment-setupBy} and {observations-classifiedBy}.
+
+We recommend contacting participants to ask if their personal information can be made public and to anomyze (e.g. `anonymized:3eb30aa`) or exclude it when they prefer not to. Some <<data-management-system,data management system>> (such as citenp:[agouti]) allow users to indicate their preferences and automatically anonymize their personal data in exports. Note that it may not be possible to permanently remove personal information from older versions of an already published dataset.
+
+[#section-sensitive-media-files]
+===== Sensitive media files
+
+<<media-file,Media files>> containing identifiable persons is a form of <<section-personal-data,personal data>> that should be identified and kept private in order to protect the privacy of the persons. The same may be necessary for media files containing vehicles or picturing camera <<setup>>. Media files containing sensitive species may need to be kept private if they allow to identify the location.
+
+We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level. The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in <<section-dwca,Darwin Core Archives>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded.
 
 [#section-camtrap-dp]
 === Camtrap DP
