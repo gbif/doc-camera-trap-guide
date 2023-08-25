@@ -7,7 +7,7 @@
 [#section-stable-unique-identifiers]
 ==== Stable unique identifiers
 
-Terms like term:dwc[dwc:occurrenceID] or {deployments-deploymentID} expect an identifier that is:
+Terms like {deployments-deploymentID} or term:dwc[dwc:occurrenceID] expect an identifier that is:
 
 * Required to be **unique**, i.e. it uniquely refers to a record or concept.
 * Strongly recommended to be **stable**/persistent, i.e. it does not change over time and can safely be referenced.
@@ -23,7 +23,7 @@ Camera trap data may contain sensitive information, such as personal information
 [#section-personal-data]
 ===== Personal data
 
-Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participant,participants>> and the whereabouts of participants who setup the camera (identifiable by combining the name with the deployment datetime and <<location>>). In <<section-camtrap-dp,Camtrap DP>>, person names can be appear in {package-contributors}, {package-bibliographicCitation}, {deployments-setupBy} and {observations-classifiedBy}. In a <<section-dwc,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy].
+Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participant,participants>> and the whereabouts of participants who setup the camera (identifiable by combining the name with the deployment datetime and <<location>>). In <<section-camtrap-dp,Camtrap DP>>, person names can appear in {package-contributors}, {package-bibliographicCitation}, {deployments-setupBy} and {observations-classifiedBy}. In a <<section-dwc,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy].
 
 We recommend contacting participants to ask if their personal information can be made public and to anomyze (e.g. `anonymized:3eb30aa`) or exclude it when they prefer not to. Some <<data-management-system,data management system>> (such as citenp:[agouti]) allow users to indicate their preferences and automatically anonymize their personal data in exports. Note that it may not be possible to permanently remove personal information from older versions of an already published dataset.
 
@@ -39,12 +39,12 @@ We recommend providing the URL to all media files (in {media-filePath} or https:
 
 Camera trap data may contain <<location,Location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization. Note that camera trap location information is often the same across multiple <<deployment,deployments>>: generalizing the location of the deployment with associated sensitive information is typically not sufficient to prevent correlational analyses that lead to deductions of localities/records that are generalized.
 
-Whatever the selected level of generalization, document it in the dataset metadata and appropriate terms, so that users are aware of what can be done with the data. See <<table-generalization>> for an example.
+Whatever the selected level of generalization, document it in the dataset metadata and appropriate terms, so that users are aware. See <<table-generalization>> for an example.
 
 If coordinates need to be generalized (see Section 4.2 in citenp:[chapman-2020]) to protect sensitive species and/or prevent theft of active cameras, we recommend rounding to 0.001 degrees (see Table 7 in citenp:[chapman-2020]). Describe the rounding in <<section-datageneralizations>> and provide a `dwc:coordinateUncertaintyInMeters` of e.g. 157m for latitudes near the equator (see Table 1 in #cit_chapman_wieczorek_2020).
 
 [#table-generalization]
-.How to express non-generalized vs generalized location information in Camtrap DP and Darwin Core. The generalized example assumes a sensitivity of https://docs.gbif.org/sensitive-species-best-practices/master/en/#cat4[Category 4].
+.How to express non-generalized vs generalized location information in Camtrap DP and Darwin Core. The generalized example assumes a sensitivity of https://docs.gbif.org/sensitive-species-best-practices/master/en/#cat4[Category 4]. The coordinate uncertainty of 187 meter is the sum of the GPS precision (30 m) and maximum uncertainty associated with coordinates that have a precision of 0.001 degree (157 m).
 [%header,cols=4*]
 |===
 |Camtrap DP term
@@ -79,15 +79,19 @@ If coordinates need to be generalized (see Section 4.2 in citenp:[chapman-2020])
 
 |
 |term:dwc[dwc:georeferenceRemarks]
-|source assumed to be GPS, uncertainty defaulted to 30m
-|source assumed to be GPS, uncertainty defaulted to 30m
+|source assumed to be GPS, uncertainty defaulted to 30 m
+|source assumed to be GPS, uncertainty defaulted to 30 m
 
 |
-|dwc:dataGeneralizations
+|term:dwc[dwc:dataGeneralizations]
 |
 |coordinates rounded to 0.001 degree
 |===
 
+[#section-other-sensitive-information]
+==== Other sensitive information
+
+Text fields such as comments and notes (e.g. {deployments-deploymentComments} or term:dwc[dwc:occurrenceRemarks]) may contain sensitive information such as <<section-personal-data,person names>>, <<section-sensitive-location-information,sensitive location information>> or information not intended for the public. We recommend verifing values and generalizing where necessary (see https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[Chapter 3] in citenp:[chapman-2020]).
 
 [#section-camtrap-dp]
 === Camtrap DP
@@ -349,7 +353,7 @@ A statement about the presence or absence of the taxon at a location. When reduc
 
 term:dwc[dwc:occurrenceRemarks]
 
-Comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. In Camtrap DP, this term corresponds with {observations-observationComments}.
+Comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. In Camtrap DP, this term corresponds with {observations-observationComments}.
 
 [#section-organismid]
 ===== organismID
@@ -413,7 +417,7 @@ The amount of effort expanded during the <<event>>. We recommend providing the d
 
 term:dwc[dwc:eventRemarks]
 
-Comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments}, {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}.
+Comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments}, {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}.
 
 Examples:
 
