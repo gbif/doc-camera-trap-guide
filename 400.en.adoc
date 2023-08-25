@@ -151,13 +151,9 @@ At the time of writing, publishing a Camtrap DP to GBIF is an experimental featu
 |Required
 |MachineObservation
 
-|<<section-informationwithheld,informationWithheld>>
-|Share if available
-|
-
 |<<section-datageneralizations,dataGeneralizations>>
 |Share if available
-|coordinates rounded to 0.001 degrees
+|coordinates rounded to 0.001 degree
 
 |<<section-occurrenceid,occurrenceID>>
 |Required
