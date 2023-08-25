@@ -477,6 +477,7 @@ In the context of camera trap research, artificial intelligence (AI) typically r
 
 Still, computer vision won’t entirely replace human <<classification,classification>>, since a large and diverse number of preprocessed data are needed to train the models. Unbalanced training datasets may produce low performance of the models, such as training datasets with a highly variable number of images of each species, or small and geographically limited datasets. Additionally, the accuracy of computer vision classification is currently still secondary to that of a human expert. A combination of AI-aided preprocessing and human verification is therefore recommended.
 
+[#section-media-or-event-based-classification]
 ==== Media or event based classification
 
 Classifications can be based on a single media file (typically an <<image>>) or an <<event>> (typically a <<sequence>> of images). In the latter technique, all media files that belong to the <<event>> are assessed as a whole to determine the species and their number of individuals. This is less time consuming for human classifiers and can lead to better estimates of group size, since the number of individuals passing by a camera can be larger than those that can be seen in a single image. The disadvantage of event based classification is that it is not possible to split the classification into events that are shorter than the one that is assessed (the same is true for videos classified as a whole). Nor can those classifications be used to train computer models, which require media based training datasets.

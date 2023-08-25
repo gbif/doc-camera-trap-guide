@@ -266,3 +266,25 @@ A statement about the presence or absence of the taxon at a location. When reduc
 term:dwc[dwc:occurrenceRemarks]
 
 Comments or notes about the observation. These are typically notes (sometimes in the native language of the author) about the observation and/or observed individual(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but we recommend verifying that values do not contain private information. In Camtrap DP, this term corresponds with {observations-observationComments}.
+
+[#section-organismid]
+===== organismID
+
+term:dwc[dwc:organismID]
+
+An identifier for an observed and known individual that was recognized by colour ring, ear tag, skin pattern or other characteristics. Observations with term:dwc[dwc:organismID] typically have term:dwc[dwc:individualCount] of 1, unless the term:dwc[dwc:organismID] refers to a known group. Unless a globally unique identifier is available and known for the individual, we recommend using the code/identifier assigned within the camera trap study to the individual, allowing users to find all observations of this individual within the dataset. In Camtrap DP, this term corresponds with {observations-individualID}.
+
+[#section-eventid]
+===== eventID
+
+term:dwc[dwc:eventID]
+
+An identifier for the event the observation belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. This identifier is likely stable, sometimes globally unique (e.g. a <<UUID>>) and allows users (with access) to look up the event in the data management system. It is not necessary to append elements to the identifier to make it globally unique, since this makes it more prone to change. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}.
+
+[#section-parenteventid]
+===== parentEventID
+
+term:dwc[dwc:parentEventID]
+
+An identifier for a broader event then those identified by <<section-eventid,eventID>>. We recommend providing the identifier of the <<deployment>>. Using an Occurrence core, deployments will not have their own records, but providing their identifier in term:dwc[dwc:parentEventID] allows users to find all observations (and media) for a specific deployment. If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. This identifier is likely stable, sometimes globally unique (e.g. a <<UUID>>) and allows users (with access) to look up the event in the data management system. It is not necessary to append elements to the identifier to make it globally unique, since this makes it more prone to change. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:parentEventID] as belonging together. In Camtrap DP, this term corresponds with {observations-deploymentID}.
+
