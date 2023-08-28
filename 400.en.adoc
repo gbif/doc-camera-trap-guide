@@ -23,7 +23,7 @@ Camera trap data may contain sensitive information, such as personal information
 [#section-personal-data]
 ===== Personal data
 
-Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participant,participants>> and the whereabouts of participants who setup the camera (identifiable by combining the name with the deployment datetime and <<location>>). In <<section-camtrap-dp,Camtrap DP>>, person names can appear in {package-contributors}, {package-bibliographicCitation}, {deployments-setupBy} and {observations-classifiedBy}. In a <<section-dwc,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy].
+Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participant,participants>>, their email addresses and the whereabouts of participants who setup the camera (identifiable by combining the name with the deployment datetime and <<location>>). In <<camtrap-dp,Camtrap DP>>, person names can appear in {package-contributors}, {package-bibliographicCitation}, {deployments-setupBy} and {observations-classifiedBy}. In a <<darwin-core-archive,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy].
 
 We recommend contacting participants to ask if their personal information can be made public and to anomyze (e.g. `anonymized:3eb30aa`) or exclude it when they prefer not to. Some <<data-management-system,data management system>> (such as citenp:[agouti]) allow users to indicate their preferences and automatically anonymize their personal data in exports. Note that it may not be possible to permanently remove personal information from older versions of an already published dataset.
 
@@ -32,7 +32,7 @@ We recommend contacting participants to ask if their personal information can be
 
 <<media-file,Media files>> containing identifiable persons is a form of <<section-personal-data,personal data>> that should be identified and kept private in order to protect the privacy of the persons. The same may be necessary for media files containing vehicles or picturing camera <<setup>>. Media files containing sensitive species may need to be kept private if they allow to identify the location.
 
-We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level. The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in a <<section-dwca,Darwin Core Archive>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded.
+We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level. The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in a <<darwin-core-archive,Darwin Core Archive>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded.
 
 [#section-sensitive-location-information]
 ===== Sensitive location information
@@ -106,7 +106,7 @@ Camera Trap Data Package (https://tdwg.github.io/camtrap-dp/[Camtrap DP]) is a c
 At the time of writing, GBIF does not yet support the publication of Camtrap DP in their production environment. It will be released as a feature in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT]).
 ====
 
-[#section-dwca]
+[#section-darwin-core-archive]
 === Darwin Core Archive
 
 
