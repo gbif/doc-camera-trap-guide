@@ -518,7 +518,7 @@ Examples:
 
 ----
 classified by human
-classified by machine with a certainty of 0.89
+classified by machine with a 0.89 certainty
 ----
 
 [#section-taxonid]
@@ -526,7 +526,7 @@ classified by machine with a certainty of 0.89
 
 term:dwc[dwc:taxonID]
 
-An identifier for <<section-scientificname,scientificName>>. This identifier allows users to find all observations (and media) for a specific taxon. Use a <<section-stable-unique-identifiers,stable unique identifier>>, preferrably one assigned by an <<<table-taxon-reference-sources,authorative source>>. In Camtrap DP, this term corresponds with {observations-taxonID}.
+An identifier for <<section-scientificname,scientificName>>. This identifier allows users to find all observations (and media) for a specific taxon. Use a <<section-stable-unique-identifiers,stable unique identifier>>, preferrably one assigned by an <<table-taxon-reference-sources,authorative source>>. In Camtrap DP, this term corresponds with {observations-taxonID}.
 
 [#section-scientificname]
 ===== scientificName
@@ -540,7 +540,7 @@ The scientific name of the observed <<individual,individual(s)>>. In Camtrap DP,
 
 term:dwc[dwc:kingdom]
 
-The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classification>> of plants, fungi or other kingdoms.
+The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classifications>> of plants, fungi or other kingdoms.
 
 [#section-audiovisual-extension]
 ==== Audiovisual Media Description extension
