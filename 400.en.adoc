@@ -264,10 +264,6 @@ At the time of writing, GBIF does not yet support the publication of Camtrap DP 
 |<<section-kingdom,kingdom>>
 |Strongly recommended
 |Animalia
-
-|<<section-vernacularname,vernacularName>>
-|Share if available
-|grey heron
 |===
 
 [#section-type]
@@ -545,13 +541,6 @@ The scientific name of the observed <<individual,individual(s)>>. In Camtrap DP,
 term:dwc[dwc:kingdom]
 
 The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classification>> of plants, fungi or other kingdoms.
-
-[#section-vernacularname]
-===== vernacularName
-
-term:dwc[dwc:vernacularName]
-
-The common (or vernacular) name of the observed <<individual,individual(s)>>. It allows users to find all observations (and media) for a specific taxon even when they do not know the scientific name. We recommend providing a single name and to use the same language throughout the whole dataset. In Camtrap DP, this term corresponds with the vernacular name (in a specific language) of the taxon in {{package-taxonomic}}.
 
 [#section-audiovisual-extension]
 ==== Audiovisual Media Description extension
