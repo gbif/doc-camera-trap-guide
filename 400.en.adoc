@@ -317,7 +317,14 @@ The specific nature of the record. Set to `MachineObservation` for all records.
 
 term:dwc[dwc:dataGeneralizations]
 
-TODO
+The actions taken to make the published data less specific or complete than in its original form. We recommend to succinctly describe here what <<section-sensitive-information,sensitive information>> of the record was generalized and how. Note that this information can be provided at record level and does not need to apply to the whole dataset. If important information was omitted altogether, use term:dwc[dwc:informationWithheld].
+
+Examples:
+
+----
+coordinates rounded to 0.001 degree
+scientific name generalized to genus
+----
 
 [#section-occurrenceid]
 ===== occurrenceID
@@ -366,7 +373,7 @@ A statement about the presence or absence of the taxon at a location. When reduc
 
 term:dwc[dwc:occurrenceRemarks]
 
-Comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. In Camtrap DP, this term corresponds with {observations-observationComments}.
+Comments or notes about the observation. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. In Camtrap DP, this term corresponds with {observations-observationComments}.
 
 [#section-organismid]
 ===== organismID
@@ -380,7 +387,7 @@ An identifier for an observed and known <<individual>> that was recognized by co
 
 term:dwc[dwc:eventID]
 
-An identifier for the event the <<observation>> belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}.
+An identifier for the event the observation belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}.
 
 [#section-parenteventid]
 ===== parentEventID
@@ -394,7 +401,7 @@ An identifier for a broader event then those identified by <<section-eventid,eve
 
 term:dwc[dwc:eventDate]
 
-The datetime or datetime interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal.
+The date, datetime or datetime interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal.
 
 Examples:
 
@@ -480,28 +487,29 @@ The horizontal distance (in metres) from the geographic <<section-decimallatitud
 
 term:dwc[dwc:coordinatePrecision]
 
-TODO
+The decimal precision of the geographic <<section-decimallatitude-decimallongitude,coordinates>>>, if known. This information is known and we recommend providing it for <<section-sensitive-location-information,generalized/rounded>> coordinates (e.g. `0.001` for coordinates that were rounded to 3 decimals). In Camtrap DP, this term corresponds with {package-coordinatePrecision}, although there it specified for the dataset as whole, rather than per record.
 
 [#section-identifiedby]
 ===== identifiedBy
 
 term:dwc[dwc:identifiedBy]
 
-TODO
+The name or identifier of the person or <<AI>> algorithm that assigned the <<section-scientificname,scientificName>> to the observation. We recommend providing a single name: that of the person/algorithm that most recently <<classification,classified>> the observation. This information is typically recorded by the <<data-management-system,data management system>>. Note that this term contains <<section-personal-data,personal data>>. In Camtrap DP, this term corresponds with {observations-classifiedBy}.
+
+Examples:
+
+----
+Peter Desmet
+Western Europe species model Version 1
+anonymized:3eb30aa
+----
 
 [#section-dateidentified]
 ===== dateIdentified
 
 term:dwc[dwc:dateIdentified]
 
-TODO
-
-[#section-dateidentified]
-===== dateIdentified
-
-term:dwc[dwc:dateIdentified]
-
-TODO
+The date or datetime on which the <<section-scientificname,scientificName>> was assigned to the observation. We recommend providing a single timestamp: that of the <<classification>> made by the person/algorithm indicated in <<section-identifiedby,identifiedBy>>. This information is typically recorded by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-classificationTimestamp}.
 
 [#section-identificationremarks]
 ===== identificationRemarks
@@ -667,6 +675,8 @@ TODO
 ===== resourceCreationTechnique
 
 https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]
+
+TODO
 
 [#section-ac-comments]
 ===== comments
