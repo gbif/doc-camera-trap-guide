@@ -553,10 +553,6 @@ TODO
 |Required
 |05230014
 
-|<<section-ac-rights,rights>> 
-|Strongly recommended
-|https://creativecommons.org/licenses/by/4.0/legalcode
-
 |<<section-ac-identifier,identifier>>
 |Share if available
 |6d65f3e4
@@ -565,9 +561,25 @@ TODO
 |Share if available
 |StillImage
 
-|<<section-ac-comments,comments>>
+|<<section-ac-rights,rights>> 
+|Strongly recommended
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+
+|<<section-ac-accessuri,accessURI>>
+|Required
+|[.break-all]#https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file#
+
+|<<section-ac-serviceexpectation,serviceExpectation>>
 |Share if available
-|
+|public
+
+|<<section-ac-format,format>>
+|Share if available
+|image/jpeg
+
+|<<section-ac-createdate,CreateDate>>
+|Share if available
+|2020-06-12T06:04:32+02:00
 
 |<<section-ac-capturedevice,captureDevice>>
 |Share if available
@@ -577,21 +589,9 @@ TODO
 |Share if available
 |motion detection
 
-|<<section-ac-accessuri,accessURI>>
-|Required
-|https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file
-
-|<<section-ac-format,format>>
+|<<section-ac-comments,comments>>
 |Share if available
-|image/jpeg
-
-|<<section-ac-serviceexpectation,serviceExpectation>>
-|Share if available
-|public
-
-|<<section-ac-createdate,CreateDate>>
-|Share if available
-|2020-06-12T06:04:32+02:00
+|
 |===
 
 [#section-ac-occurrenceid]
@@ -601,16 +601,8 @@ term:dwc[dwc:occurrenceID]
 
 TODO
 
-[#section-ac-rights]
-===== rights
-
-https://ac.tdwg.org/termlist/#dc_rights[dc:rights]
-
-TODO
-
-Not https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights] 
-
 [#section-ac-identifier]
+===== identifier
 
 https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]
 
@@ -623,26 +615,28 @@ https://ac.tdwg.org/termlist/#dc_type[dc:type]
 
 TODO
 
-Note https://ac.tdwg.org/termlist/#dcterms_type[dcterms:type]
+Not https://ac.tdwg.org/termlist/#dcterms_type[dcterms:type]
 
-[#section-ac-comments]
-===== comments
+[#section-ac-rights]
+===== rights
 
-https://ac.tdwg.org/termlist/#ac_comments[ac:comments]
-
-TODO
-
-[#section-ac-capturedevice]
-===== captureDevice
-
-https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]
+https://ac.tdwg.org/termlist/#dc_rights[dc:rights]
 
 TODO
+
+Not https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights] 
 
 [#section-ac-accessuri]
 ===== accessURI
 
 https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]
+
+TODO
+
+[#section-ac-serviceexpectation]
+===== serviceExpectation
+
+https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]
 
 TODO
 
@@ -655,23 +649,28 @@ TODO
 
 Not https://ac.tdwg.org/termlist/#dcterms_format[dcterms:format]
 
+[#section-ac-createdate]
+===== CreateDate
+
+https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]
+
+TODO
+
+[#section-ac-capturedevice]
+===== captureDevice
+
+https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]
+
+TODO
+
 [#section-ac-resourcecreationtechnique]
 ===== resourceCreationTechnique
 
 https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]
 
-TODO
+[#section-ac-comments]
+===== comments
 
-[#section-ac-serviceexpectation]
-===== serviceExpectation
-
-https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]
-
-TODO
-
-[#section-ac-createdate]
-===== CreateDate
-
-https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]
+https://ac.tdwg.org/termlist/#ac_comments[ac:comments]
 
 TODO
