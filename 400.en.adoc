@@ -317,7 +317,7 @@ The specific nature of the record. Set to `MachineObservation` for all records.
 
 term:dwc[dwc:dataGeneralizations]
 
-The actions taken to make the published data less specific or complete than in its original form. We recommend to succinctly describe here what <<section-sensitive-information,sensitive information>> of the record was generalized and how. Note that this information can be provided at record level and does not need to apply to the whole dataset. If important information was omitted altogether, use term:dwc[dwc:informationWithheld].
+The actions taken to make the published data less specific or complete than in its original form. We recommend succinctly describing here what <<section-sensitive-information,sensitive information>> of the record was generalized and how. Note that this information can be provided at record level and does not need to apply to the whole dataset. If important information was omitted altogether, use term:dwc[dwc:informationWithheld].
 
 Examples:
 
@@ -373,7 +373,7 @@ A statement about the presence or absence of the taxon at a location. When reduc
 
 term:dwc[dwc:occurrenceRemarks]
 
-Comments or notes about the observation. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. In Camtrap DP, this term corresponds with {observations-observationComments}.
+The comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. In Camtrap DP, this term corresponds with {observations-observationComments}.
 
 [#section-organismid]
 ===== organismID
@@ -437,7 +437,7 @@ The amount of effort expanded during the <<event>>. We recommend providing the d
 
 term:dwc[dwc:eventRemarks]
 
-Comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments}, {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}.
+The comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments} and relates to {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}.
 
 Examples:
 
@@ -480,7 +480,7 @@ The spatial reference system used for the geographic <<section-decimallatitude-d
 
 term:dwc[dwc:coordinateUncertaintyInMeters]
 
-The horizontal distance (in metres) from the geographic <<section-decimallatitude-decimallongitude,coordinates>> describing the smallest circle containing the <<location>>. We recommend `30` meters as reasonable lower limit for coordinates obtained by GPS, but see <<section-location>> for details on what elements contribute to the uncertainty. <<section-sensitive-location-information,Generalized/rounded>> coordinates in particular will increase the term:dwc[dwc:coordinateUncertaintyInMeters]. 
+The horizontal distance (in metres) from the geographic <<section-decimallatitude-decimallongitude,coordinates>> describing the smallest circle containing the <<location>>. We recommend `30` meters as reasonable lower limit for coordinates obtained by GPS, but see <<section-location>> for details on what elements contribute to the uncertainty. <<section-sensitive-location-information,Generalized/rounded>> coordinates in particular will increase the term:dwc[dwc:coordinateUncertaintyInMeters]. In Camtrap DP, this term corresponds with {observations-coordinateUncertainty}.
 
 [#section-coordinateprecision]
 ===== coordinatePrecision
@@ -494,7 +494,7 @@ The decimal precision of the geographic <<section-decimallatitude-decimallongitu
 
 term:dwc[dwc:identifiedBy]
 
-The name or identifier of the person or <<AI>> algorithm that assigned the <<section-scientificname,scientificName>> to the observation. We recommend providing a single name: that of the person/algorithm that most recently <<classification,classified>> the observation. This information is typically recorded by the <<data-management-system,data management system>>. Note that this term contains <<section-personal-data,personal data>>. In Camtrap DP, this term corresponds with {observations-classifiedBy}.
+The person or <<AI,species classification model>> that identified the observed <<individual,individual(s)>> and assigned the <<section-scientificname,scientificName>>. We recommend providing a single name: that of the person or model that made the (most recent) classification. Although <<classification,classifying>> can be broader than assigning a scientific name, it is likely to involve that aspect for <<observation-type,animal observations>>. Note that this term contains <<section-personal-data,personal data>>. In Camtrap DP, this term corresponds with {observations-classifiedBy}.
 
 Examples:
 
@@ -509,7 +509,7 @@ anonymized:3eb30aa
 
 term:dwc[dwc:dateIdentified]
 
-The date or datetime on which the <<section-scientificname,scientificName>> was assigned to the observation. We recommend providing a single timestamp: that of the <<classification>> made by the person/algorithm indicated in <<section-identifiedby,identifiedBy>>. This information is typically recorded by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-classificationTimestamp}.
+The date or datetime on which the identification was made. We recommend providing a single timestamp: that of the <<classification>> made by the person or model indicated in <<section-identifiedby,identifiedBy>>. This information is typically recorded by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-classificationTimestamp}.
 
 [#section-identificationremarks]
 ===== identificationRemarks
