@@ -145,6 +145,7 @@ Awaiting access
 |Project Viewer
 |=== 
 
+[#section-media-files]
 === Media files
 
 <<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process.
