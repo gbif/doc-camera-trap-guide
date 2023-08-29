@@ -109,6 +109,66 @@ At the time of writing, GBIF does not yet support the publication of Camtrap DP 
 [#section-darwin-core-archive]
 === Darwin Core Archive
 
+[#section-why-not-a-sampling-event-dataset]
+==== Why not a sampling event dataset?
+
+With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observations>>, it seems logical to express camera trap data as a https://www.gbif.org/sampling-event-data[[Sampling-event dataset]] with an Event core (see <<table-event-core>> and Occurrence extension (see <<table-occurrence-extension>>). But doing so impedes us from expressing the <<media>> information as an extension, since the star-schema design of Darwin Core Archives does not allow relating an extension to an extension. The only available option would be to express all image information in term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s).
+
+[#table-event-core]
+.TODO
+[%header,cols=4*]
+|===
+|eventID
+|parentEventID
+|eventDate
+|Location information
+
+|00a2c20d (deployment event)
+|
+|2020-05-30T02:57:37Z/2020-05-30T02:57:37Z
+|51.496, 4.774
+
+|79204343 (sequence event)
+|00a2c20d (deployment event)
+|2020-06-12T04:04:29Z/04:04:55Z
+|Same as deployment
+
+|e68deaed (timestamp event)
+|79204343 (sequence event)
+|2020-06-12T04:04:29Z
+|Same as deployment
+
+|c5efbcb3 (timestamp event)
+|79204343 (sequence event)
+|2020-06-12T04:04:30Z
+|Same as deployment
+|===
+
+[#table-occurrence-extension]
+.TODO
+[%header,cols=4*]
+|===
+|occurrenceID
+|eventID
+|scientificName
+|associatedMedia
+
+|observation1
+|e68deaed (timestamp event)
+|Anas platyrhynchos
+|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file
+
+|observation2
+|c5efbcb3 (timestamp event)
+|Anas platyrhynchos
+|https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
+
+|observation3
+|79204343 (sequence event)
+|Ardea cinerea
+|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file,
+https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
+|===
 
 [#section-occurrence-core]
 ==== Occurrence core
