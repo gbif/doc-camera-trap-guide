@@ -150,7 +150,7 @@ Awaiting access
 
 <<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process.
 
-An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence.
+An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence (see #table_sequence).
 
 [#table-sequence]
 .A series of images, resulting from 3 consecutive triggers and captured in one sequence. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
