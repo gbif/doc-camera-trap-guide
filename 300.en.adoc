@@ -761,7 +761,7 @@ Wildtrax is a good choice for organizations who want a free service based in Can
 [%header,cols=5*]
 |===
 
-|Platform
+|Feature
 |Agouti
 |Camelot
 |TRAPPER
