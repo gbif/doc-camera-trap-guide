@@ -767,13 +767,13 @@ Wildtrax is a good choice for organizations who want a free service based in Can
 |TRAPPER
 |Wildlife Insights
 
-|Provided as
+|**Provided as**
 |Service
 |Software
 |Software
 |Service
 
-|Cost
+|**Cost**
 |Free
 |Free
 |Free
