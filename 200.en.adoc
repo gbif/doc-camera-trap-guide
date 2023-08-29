@@ -32,41 +32,33 @@ The most frequently studied animal taxa include ungulates, carnivores, birds and
 |Output
 |Key references
 
-|species presence
-|species checklist
-|citenp:[tobler-2008,wearn-2013]
-
-|diversity
-|richness
-|citenp:[tobler-2008,cusack-2015]
-
-|diversity
-|diversity indices
-|
-
-|diversity
-|beta-diversity
-|
+|abundance
+|density
+|citenp:[sollmann-2012,tobler-2013,rowcliffe-2008,rowcliffe-2016]
 
 |abundance
 |relative abundance
 |citenp:[rowcliffe-2008,wearn-2013,cusack-2015]
 
-|abundance
-|density
-|citenp:[sollmann-2012,tobler-2013,rowcliffe-2008,rowcliffe-2016]
-
 |distribution
 |occupancy
 |citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]
 
-|behaviour
-|activity patterns
-|
+|diversity
+|beta-diversity
+|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]
 
-|people or their activities
-|
-|
+|diversity
+|diversity indices
+|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]
+
+|diversity
+|richness
+|citenp:[tobler-2008,cusack-2015]
+
+|species presence
+|species checklist
+|citenp:[tobler-2008,wearn-2013]
 |===
 
 [#section-camera-trap-project-life-cycle]
@@ -85,7 +77,7 @@ The full life cycle of camera trap research includes the planning phase, the dep
 |Full camera trapping life cycle
 |General state of the art
 Future developments and camera trap constraints
-|citenp:[rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]
+|citenp:[cadman-2014,rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]
 
 |Planning
 |How to design a camera trap study?

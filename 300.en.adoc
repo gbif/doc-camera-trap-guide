@@ -150,7 +150,168 @@ Awaiting access
 
 <<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process.
 
-An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence.
+An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence (see <<table-sequence>>).
+
+[#table-sequence]
+.A series of images, resulting from 3 consecutive triggers and captured in one sequence. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+[%header,cols=4*]
+|===
+
+|Trigger
+|Media ID
+|Timestamp
+|File path
+
+|1
+|e68deaed
+|2020-06-12T04:04:29Z
+|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file
+
+|1
+|c5efbcb3
+|2020-06-12T04:04:30Z
+|https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
+
+|1
+|07eee194
+|2020-06-12T04:04:31Z
+|https://multimedia.agouti.eu/assets/07eee194-85c7-4586-96be-7b42ff6f1132/file
+
+|1
+|479a93c4
+|2020-06-12T04:04:31Z
+|https://multimedia.agouti.eu/assets/479a93c4-bc70-4e91-9ab5-b058df232ed0/file
+
+|1
+|6d65f3e4
+|2020-06-12T04:04:32Z
+|https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file
+
+|1
+|5ba57018
+|2020-06-12T04:04:32Z
+|https://multimedia.agouti.eu/assets/5ba57018-fd06-4319-bc80-ba6efa076c7c/file
+
+|1
+|c39a0749
+|2020-06-12T04:04:33Z
+|https://multimedia.agouti.eu/assets/c39a0749-b8db-4853-81c4-32b9a99868ca/file
+
+|1
+|d2ed4389
+|2020-06-12T04:04:34Z
+|https://multimedia.agouti.eu/assets/d2ed4389-14e6-45d7-b67d-b52d3cffd0fb/file
+
+|1
+|51549c25
+|2020-06-12T04:04:35Z
+|https://multimedia.agouti.eu/assets/51549c25-e565-4ece-a26e-12442ccc3fcb/file
+
+|1
+|b78bb29f
+|2020-06-12T04:04:35Z
+|https://multimedia.agouti.eu/assets/b78bb29f-fbf3-49b0-911b-ca4e5a95d801/file
+
+|2
+|d6785b65
+|2020-06-12T04:04:41Z
+|https://multimedia.agouti.eu/assets/d6785b65-24fa-4663-8539-e5fb261d069d/file
+
+|2
+|2b860458
+|2020-06-12T04:04:42Z
+|https://multimedia.agouti.eu/assets/2b860458-742b-4fca-937c-2a27742dccb0/file
+
+|2
+|d45648b9
+|2020-06-12T04:04:43Z
+|https://multimedia.agouti.eu/assets/d45648b9-76d1-4500-898c-dd3c3f31a0b8/file
+
+|2
+|eecd8ce1
+|2020-06-12T04:04:43Z
+|https://multimedia.agouti.eu/assets/eecd8ce1-2b13-49b7-bcec-c0056848aa62/file
+
+|2
+|48d26ebc
+|2020-06-12T04:04:44Z
+|https://multimedia.agouti.eu/assets/48d26ebc-ba6e-4245-8f52-c2cc1d64ef1f/file
+
+|2
+|4afd0344
+|2020-06-12T04:04:44Z
+|https://multimedia.agouti.eu/assets/4afd0344-3cec-4942-987b-96b69da75e6b/file
+
+|2
+|916964ac
+|2020-06-12T04:04:45Z
+|https://multimedia.agouti.eu/assets/916964ac-6389-4d06-8853-2eac6c36d8e7/file
+
+|2
+|3e8e355a
+|2020-06-12T04:04:46Z
+|https://multimedia.agouti.eu/assets/3e8e355a-6253-4a5f-a950-2f934821b7f7/file
+
+|2
+|b7792672
+|2020-06-12T04:04:46Z
+|https://multimedia.agouti.eu/assets/b7792672-6a31-484a-a97b-e19e34657021/file
+
+|2
+|1683dd3b
+|2020-06-12T04:04:47Z
+|https://multimedia.agouti.eu/assets/1683dd3b-7791-493a-84c6-1bb50541fd97/file
+
+|3
+|e6c63f88
+|2020-06-12T04:04:49Z
+|https://multimedia.agouti.eu/assets/e6c63f88-a31f-4f06-9410-3213baed08ab/file
+
+|3
+|91a1ba54
+|2020-06-12T04:04:50Z
+|https://multimedia.agouti.eu/assets/91a1ba54-5e19-4f18-88f8-8dd0dd3ef836/file
+
+|3
+|233a2f40
+|2020-06-12T04:04:51Z
+|https://multimedia.agouti.eu/assets/233a2f40-b0c5-4b93-90e4-e254d2e148f5/file
+
+|3
+|5e01e638
+|2020-06-12T04:04:51Z
+|https://multimedia.agouti.eu/assets/5e01e638-d36f-4ca2-957d-7bbdc76dcc89/file
+
+|3
+|dadf1718
+|2020-06-12T04:04:52Z
+|https://multimedia.agouti.eu/assets/dadf1718-90bd-438e-8649-3663f226072f/file
+
+|3
+|643d63a4
+|2020-06-12T04:04:52Z
+|https://multimedia.agouti.eu/assets/643d63a4-dd46-4b9d-b3de-665fe2a46754/file
+
+|3
+|19744c44
+|2020-06-12T04:04:53Z
+|https://multimedia.agouti.eu/assets/19744c44-03ea-438f-9dc7-927e6e494ee1/file
+
+|3
+|edc345bc
+|2020-06-12T04:04:54Z
+|https://multimedia.agouti.eu/assets/edc345bc-b58a-4c0d-8659-89132449cc3c/file
+
+|3
+|b6e435f8
+|2020-06-12T04:04:54Z
+|https://multimedia.agouti.eu/assets/b6e435f8-b22b-4916-8275-5fbff2d84a76/file
+
+|3
+|54c5d869
+|2020-06-12T04:04:55Z
+|https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72
+|===
 
 A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Metadata for videos is less standardised, although some formats like AVI and MOV support EXIF.
 
@@ -256,6 +417,8 @@ dep 2021 't WAD
 
 [#section-storage]
 ==== Storage
+
+The media files stored on memory cards should be stored and backed up, preferably by using online services. Due to the large volumes of generated data, storage can require a high investment in terms of space and costs. We recommend to use a <<section-data-management-systems,data management system>> to store your data as some of them offer free storage (e.g. Agouti, Wildlife Insights). It is also useful if your data storage system allows serving images over https, so that they can be linked to in published datasets (see <<table-sequence>>).
 
 [#section-deployments]
 === Deployments
@@ -598,97 +761,97 @@ Wildtrax is a good choice for organizations who want a free service based in Can
 [%header,cols=5*]
 |===
 
-|Platform
+|Feature
 |Agouti
 |Camelot
 |TRAPPER
 |Wildlife Insights
 
-|Provided as
+|**Provided as**
 |Service
 |Software
 |Software
 |Service
 
-|Cost
+|**Cost**
 |Free
 |Free
 |Free
 |Tiered subscription model (incl. free)
 
-|Open source
+|**Open source**
 |No
 |Yes
 |Yes
 |No
 
-|Supported media types
+|**Supported media types**
 |Image, Video
 |Image
 |Image, Video
 |Image
 
-|Multiple users roles
+|**Multiple users roles**
 |Yes
 |Yes (limited)
 |Yes
 |Yes
 
-|Supported languages
+|**Supported languages**
 |English, Croatian, Dutch, French, German, Polish, Spanish
 |English
-|English?
+|English
 |Many (via Google translate)
 
-|Media or event based classification
+|**Media or event based classification**
 |Event based
 |Media based
-|Media based?
-|Media based?
+|Media based
+|Media based
 
-|AI classification
+|**AI classification**
 |Yes (species classification)
 |No
 |Yes (species classification)
 |Yes (species classification)
 
-|Integration with crowdsourcing platform
+|**Integration with crowdsourcing platform**
 |Yes (Zooniverse)
 |No
-|Yes (Zooniverse?
+|Yes
 |No
 
-|Project portal
+|**Project portal**
 |Yes
 |No
 |No
 |Yes
 
-|Data storage
+|**Data storage**
 |University infrastructure
 |Own server
 |Own server or cloud
 |Cloud (Google Cloud Platform)
 
-|Data rights granted to system
+|**Data rights granted to system**
 |Minimal
 |None
 |None
 |Some (e.g. for training AI and summary data products)
 
-|Open data requirement
+|**Open data requirement**
 |No (but recommended)
 |No
 |No (but recommended)
 |Yes (data can be kept private for 48 months, project metadata are always public)
 
-|Media hosting
+|**Media hosting**
 |Yes
 |No
-|Yes?
-|Yes?
+|Yes
+|Yes
 
-|Export format
+|**Export format**
 |Camtrap DP
 |Custom format
 |Camtrap DP
