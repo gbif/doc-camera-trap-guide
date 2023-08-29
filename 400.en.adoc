@@ -613,8 +613,8 @@ term:dwc[dwc:kingdom]
 
 The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classifications>> of plants, fungi or other kingdoms.
 
-[#section-audiovisual-extension]
-==== Audiovisual Media Description extension
+[#section-ac-extension]
+==== Audobon Media Description extension
 
 [#table-ac-media-extension]
 .Recommended terms to use when expressing camera trap data as an {ac-extension}. Source for example values: <<figure-example-image>>
