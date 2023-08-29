@@ -779,79 +779,79 @@ Wildtrax is a good choice for organizations who want a free service based in Can
 |Free
 |Tiered subscription model (incl. free)
 
-|Open source
+|**Open source**
 |No
 |Yes
 |Yes
 |No
 
-|Supported media types
+|**Supported media types**
 |Image, Video
 |Image
 |Image, Video
 |Image
 
-|Multiple users roles
+|**Multiple users roles**
 |Yes
 |Yes (limited)
 |Yes
 |Yes
 
-|Supported languages
+|**Supported languages**
 |English, Croatian, Dutch, French, German, Polish, Spanish
 |English
 |English?
 |Many (via Google translate)
 
-|Media or event based classification
+|**Media or event based classification**
 |Event based
 |Media based
 |Media based?
 |Media based?
 
-|AI classification
+|**AI classification**
 |Yes (species classification)
 |No
 |Yes (species classification)
 |Yes (species classification)
 
-|Integration with crowdsourcing platform
+|**Integration with crowdsourcing platform**
 |Yes (Zooniverse)
 |No
 |Yes (Zooniverse?
 |No
 
-|Project portal
+|**Project portal**
 |Yes
 |No
 |No
 |Yes
 
-|Data storage
+|**Data storage**
 |University infrastructure
 |Own server
 |Own server or cloud
 |Cloud (Google Cloud Platform)
 
-|Data rights granted to system
+|**Data rights granted to system**
 |Minimal
 |None
 |None
 |Some (e.g. for training AI and summary data products)
 
-|Open data requirement
+|**Open data requirement**
 |No (but recommended)
 |No
 |No (but recommended)
 |Yes (data can be kept private for 48 months, project metadata are always public)
 
-|Media hosting
+|**Media hosting**
 |Yes
 |No
 |Yes?
 |Yes?
 
-|Export format
+|**Export format**
 |Camtrap DP
 |Custom format
 |Camtrap DP
