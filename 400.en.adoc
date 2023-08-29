@@ -115,37 +115,44 @@ At the time of writing, GBIF does not yet support the publication of Camtrap DP 
 With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observations>>, it seems logical to express camera trap data as a https://www.gbif.org/sampling-event-data[[Sampling-event dataset]] with an Event core (see <<table-event-core>> and Occurrence extension (see <<table-occurrence-extension>>). But doing so impedes us from expressing the <<media>> information as an extension, since the star-schema design of Darwin Core Archives does not allow relating an extension to an extension. The only available option would be to express all image information in term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s).
 
 [#table-event-core]
-.TODO
-[%header,cols=4*]
+.Event core with camera trap data. It contains three types of events: <<deployment>> (with a duration of days), <<sequence>> (with a duration of seconds) and <<media>>-based event (with a single timestamp for <<image,images>>). Note that location information is the same for all events. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+[%header,cols=5*]
 |===
 |eventID
 |parentEventID
+|eventType
 |eventDate
 |Location information
 
-|00a2c20d (deployment event)
+|00a2c20d
 |
-|2020-05-30T02:57:37Z/2020-05-30T02:57:37Z
+|deployment
+|2020-05-30T02:57:37Z/
+2020-07-01T09:41:41Z
 |51.496, 4.774
 
-|79204343 (sequence event)
-|00a2c20d (deployment event)
-|2020-06-12T04:04:29Z/04:04:55Z
+|79204343
+|00a2c20d
+|sequence
+|2020-06-12T04:04:29Z/
+2020-06-12T04:04:55Z
 |Same as deployment
 
-|e68deaed (timestamp event)
-|79204343 (sequence event)
+|e68deaed
+|79204343
+|media
 |2020-06-12T04:04:29Z
 |Same as deployment
 
-|c5efbcb3 (timestamp event)
-|79204343 (sequence event)
+|c5efbcb3
+|79204343
+|media
 |2020-06-12T04:04:30Z
 |Same as deployment
 |===
 
 [#table-occurrence-extension]
-.TODO
+.Occurrence core with camera trap data. It contains three observations: 2 <<#section-media-or-event-based-classification,media based>> observations of _Anas platyrhynchos_ and 1 event (here sequence) based observation of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
 [%header,cols=4*]
 |===
 |occurrenceID
@@ -153,20 +160,23 @@ With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences
 |scientificName
 |associatedMedia
 
-|observation1
-|e68deaed (timestamp event)
+|e68deaed_2
+|e68deaed
+(media identifier)
 |Anas platyrhynchos
 |https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file
 
-|observation2
-|c5efbcb3 (timestamp event)
+|c5efbcb3_2
+|c5efbcb3
+(media identifier)
 |Anas platyrhynchos
 |https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
 
-|observation3
-|79204343 (sequence event)
+|05230014
+|79204343
+(sequence identifier)
 |Ardea cinerea
-|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file,
+|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \|
 https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
 |===
 
