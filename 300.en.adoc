@@ -157,7 +157,7 @@ An often used compromise is to take a series of images when a camera is triggere
 [%header,cols=4*]
 |===
 
-|Sequence
+|Trigger
 |Media ID
 |Timestamp
 |File path
