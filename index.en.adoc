@@ -20,6 +20,11 @@
 
 // References to GBIF registered extensions
 :event-core: link:https://rs.gbif.org/core/dwc_event_2022-02-02.xml[Event core]
+:occurence-core: link:https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml[Occurrence core]
+:occurrence-extension: link:https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml[Occurrence extension]
+:ac-extension: link:https://rs.gbif.org/extension/ac/audubon_2020_10_06.xml[Audubon Media Description extension]
+:mof-extension: link:https://rs.gbif.org/extension/dwc/measurements_or_facts_2022-02-02.xml[Measurement Or Facts extension]
+:extended-mof-extension: link:https://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[Extended Measurement Or Facts extension]
 
 // References to Camera DP terms
 :package-resources: link:https://tdwg.github.io/camtrap-dp/metadata/#resources[package.resources,role=term]
