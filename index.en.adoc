@@ -18,6 +18,9 @@
 :bibtex-order: alphabetical
 :bibtex-locale: en-GB
 
+// References to GBIF registered extensions
+:event-core: link:https://rs.gbif.org/core/dwc_event_2022-02-02.xml[Event core]
+
 // References to Camera DP terms
 :package-resources: link:https://tdwg.github.io/camtrap-dp/metadata/#resources[package.resources,role=term]
 :package-profile: link:https://tdwg.github.io/camtrap-dp/metadata/#profile[package.profile,role=term]

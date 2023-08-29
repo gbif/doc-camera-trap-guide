@@ -112,10 +112,12 @@ At the time of writing, GBIF does not yet support the publication of Camtrap DP 
 [#section-why-not-a-sampling-event-dataset]
 ==== Why not a sampling event dataset?
 
-With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observations>>, it seems logical to express camera trap data as a https://www.gbif.org/sampling-event-data[[Sampling-event dataset]] with an Event core (see <<table-event-core>> and Occurrence extension (see <<table-occurrence-extension>>). But doing so impedes us from expressing the <<media>> information as an extension, since the star-schema design of Darwin Core Archives does not allow relating an extension to an extension. The only available option would be to express all image information in term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s).
+With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observation,observatios>>, it seems logical to express camera trap data as a https://www.gbif.org/sampling-event-data[Sampling-event dataset] with an {event-core} (see <<table-event-core>>) and Occurrence extension (see <<table-occurrence-extension>>). It allows us to provide detailed (though repeated) information about each type of event and offers the possiblity to add a Measurements Or Facts extention with more information (mostly relevant for the deployments).
+
+It however also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the Occurrence extension with an Media description extension. The only available option to express information about the media would be in the Occurrence extension term term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s).
 
 [#table-event-core]
-.Event core with camera trap data. It contains three types of events: <<deployment>> (with a duration of days), <<sequence>> (with a duration of seconds) and <<media>>-based event (with a single timestamp for <<image,images>>). Note that location information is the same for all events. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.{event-core} with camera trap data. It contains three types of events: <<deployment>> (with a duration of days), <<sequence>> (with a duration of seconds) and <<media>>-based event (with a single timestamp for <<image,images>>). Note that location information is the same for all events. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
 [%header,cols=5*]
 |===
 |eventID
