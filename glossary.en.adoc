@@ -65,7 +65,7 @@
 
 [[independence-interval]]independence interval:: Minimum time interval between two consecutive observations of wildlife. This interval is set to ensure that observations are treated as statistically independent events, reducing the potential for repeated measurements of the same individual animal or group within a short time span.
 
-[[individual]]individual:: TODO. Can be identified with {observations-individualID} in Camtrap DP.
+[[individual]]individual:: A distinct organism, typically an animal. Can be identified with {observations-individualID} in Camtrap DP.
 
 [[life-stage]]life stage:: TODO Also referred to as `age`. {observations-lifeStage} in Camtrap DP.
 
