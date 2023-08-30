@@ -93,7 +93,7 @@
 
 [[quiet-period]]quiet period:: Predefined duration after a <<trigger>> when <<activity>> detected by the camera sensor is ignored. {deployments-cameraDelay} in Camtrap DP.
 
-[[sampling-design]]sampling design:: TODO Types of sampling design, based on cite:[wearn-2017]: `simple random`, `systematic random`,`clustered random`, `experimental`, `targeted`, `opportunistic`. {package-project-samplingDesign} in Camtrap DP.
+[[sampling-design]]sampling design:: the planning of camera trap locations, deployment strategies, and data collection procedures within a specific camera trap project.  Types of sampling design, based on cite:[wearn-2017]: `simple random`, `systematic random`,`clustered random`, `experimental`, `targeted`, `opportunistic`. {package-project-samplingDesign} in Camtrap DP.
 
 [[sensitivity]]sensitivity:: The <<trigger>> sensitivity setting used on a camera sensor.
 
