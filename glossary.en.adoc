@@ -61,7 +61,7 @@
 
 [[habitat-type]]habitat type:: Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat cite:[eunis-habitat,iucn-habitat] or vegetation type cite:[us-vegetation]. {deployments-habitat} in Camtrap DP.
 
-[[image]]image:: A visual representation, in this context a picture taken by the camera trap. See also <<media-file>>.
+[[image]]image:: A static, visual representation, in this context a picture taken by the camera trap. See also <<media-file>>.
 
 [[independence-interval]]independence interval:: Minimum time interval between two consecutive observations of wildlife. This interval is set to ensure that observations are treated as statistically independent events, reducing the potential for repeated measurements of the same individual animal or group within a short time span.
 
