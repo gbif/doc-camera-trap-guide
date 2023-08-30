@@ -179,9 +179,11 @@ It unfortunately also **impedes us from expressing information about the <<media
 https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |===
 
-We therefore recommend expressing camera trap data as an Occurrence dataset with an {occurrence-core} and an {ac-extension} (see <<table-occurrence-core>> and <<table-ac-extension>>). This treats media as primary data records, which is important given that they are the evidence on which the observations are based.
+We therefore recommend expressing camera trap data as an Occurrence dataset with an {occurrence-core} and an {ac-extension} (see <<table-occurrence-core>> and <<table-ac-extension>>). This treats **media as primary data records**, which is important given that they are the evidence on which the observations are based.
 
-Note that the <<ac-extension>> can contain duplicates, an important difference with {media} where each file is only listed once. Repeated term:dwc[dwc:occurrenceID] are the result of a single <<section-media-or-event-based-classification,event based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier] are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media `e68deaed` in <<table-ac-extension>>). The extension should however contain unique `observationID`+`identifier` combinations.
+Event hierarchy information can largely be retained as well, since the {occurrence-core} allows to group occurrences into events (term:dwc[dwc:eventID]) and parent events (term:dwc[dwc:parentEventID]). By providing the <<event>>/sequence identifier in term:dwc[dwc:eventID] and <<deployment>> identifier in term:dwc[dwc:parentEventID], observations can be grouped just like they would in an {event-core}. GBIF.org will automatically create event pages if term:dwc[dwc:eventID] and term:dwc[dwc:parentEventID] are provided, irrespective of the use of an {event-core} or {occurrence-core} (see <<figure-example-event-page>>). Event duration information however cannot be provided, but <<section-eventdate,eventDate>> and <<section-samplingeffort,samplingEffort>> can retain most of it. Information about the deployment location, habitat, sampling protocol, etc. needs to be repeated for every observation in the deployment.
+
+Term recommendations for the {occurrence-core} and {ac-extension} are provided in <<section-occurrence-core>> and <<section-ac-extension>>.
 
 [#table-occurrence-core]
 .{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
@@ -256,6 +258,9 @@ Note that the <<ac-extension>> can contain duplicates, an important difference w
 |Reconyx-HF2X
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
 |===
+
+.Screenshot of an https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[event page] created by GBIF.org from information provided in an {occurrence-core} (based on row 3 in <<table-occurrence-extension>>). Notice the event (sequence) and parent event (deployment) identifier.
+image::img/web/example-event-page.png[]
 
 [#section-occurrence-core]
 ==== Occurrence core
@@ -691,6 +696,8 @@ The kingdom in which the taxon with the <<section-scientificname,scientificName>
 
 [#section-ac-extension]
 ==== Audobon Media Description extension
+
+Note that the {ac-extension} can contain duplicates, an important difference with Camtrap DP's {media} where each file is only listed once. Repeated term:dwc[dwc:occurrenceID] are the result of a single <<section-media-or-event-based-classification,event based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier] are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media file `e68deaed` in <<table-ac-extension>>). The extension should however contain unique term:dwc[dwc:occurrenceID] https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier] combinations.
 
 [#table-ac-media-extension]
 .Recommended terms to use when expressing camera trap data as an {ac-extension}. <<figure-example-image,Source>>.
