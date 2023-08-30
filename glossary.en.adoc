@@ -101,7 +101,7 @@
 
 [[sequence]]sequence:: A series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of a <<trigger,triggering event>>. Also referred to as `series` cite:[wildtrax].
 
-[[setup]]setup:: TODO Indicated in {observations-cameraSetupType} in Camtrap DP.
+[[setup]]setup:: The configuration of a camera trap in the field, involving the camera's location, orientation, sensor settings, and other accompanying accessories to ensure optimal data capture. Indicated in {observations-cameraSetupType} in Camtrap DP.
 
 [[site]]site:: A geographic area containing multiple <<location,locations>>.
 
