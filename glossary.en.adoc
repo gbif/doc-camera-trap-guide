@@ -29,7 +29,7 @@
 
 [[computer-vision]]computer vision:: Processing, analyzing and understanding of <<media>> by machines to aid <<classification>>, from object tracking to species identification. A form of artificial intelligence, typically trained with <<machine-learning,machine learning>>.
 
-[[covariates]]covariates:: TODO
+[[covariates]]covariates:: Ecological variables that may affect the behaviour and thus detection of animals. Recording covariates is important for further analysis of the data. Examples are: bait use, feature type, habitat, canopy cover. See also <<section-covariates>>.
 
 [[data-exchange-format]]data exchange format:: TODO
 
