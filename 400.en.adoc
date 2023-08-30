@@ -138,19 +138,19 @@ It unfortunately also **impedes us from expressing information about the <<media
 |00a2c20d
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
-|Same as deployment
+|51.496, 4.774
 
 |media
 |e68deaed
 |79204343
 |2020-06-12T04:04:29Z
-|Same as deployment
+|51.496, 4.774
 
 |media
 |c5efbcb3
 |79204343
 |2020-06-12T04:04:30Z
-|Same as deployment
+|51.496, 4.774
 |===
 
 [#table-occurrence-extension]
@@ -165,18 +165,54 @@ It unfortunately also **impedes us from expressing information about the <<media
 |e68deaed_2
 |e68deaed
 |Anas platyrhynchos
-|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file
+|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file#
 
 |c5efbcb3_2
 |c5efbcb3
 |Anas platyrhynchos
-|https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 
 |05230014
 |79204343
 |Ardea cinerea
-|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \|
-https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
+|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \|
+https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|===
+
+We therefore recommend expressing camera trap data as an Occurrence dataset with an {occurrence-core} and an {ac-extension} (see <<table-occurrence-core>> and <<table-ac-extension>>). This treats media as primary data records, which is important given that they are the evidence on which the observations are based.
+
+[#table-occurrence-core]
+.{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in dwc:term[dwc:eventID], the deployment identifier in dwc:term[dwc:parentEventID]. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+[%header,cols=6*]
+|===
+|occurrenceID
+|eventID
+|parentEventID
+|scientificName
+|eventDate
+|Location information
+
+|e68deaed_2
+|79204343
+|00a2c20d
+|Anas platyrhynchos
+|2020-06-12T04:04:29Z
+|51.496, 4.774
+
+|c5efbcb3_2
+|79204343
+|00a2c20d
+|Anas platyrhynchos
+|2020-06-12T04:04:30Z
+|51.496, 4.774
+
+|05230014
+|79204343
+|00a2c20d
+|Ardea cinerea
+|2020-06-12T04:04:29Z/
+2020-06-12T04:04:55Z
+|51.496, 4.774
 |===
 
 [#section-occurrence-core]
