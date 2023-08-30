@@ -112,51 +112,49 @@ At the time of writing, GBIF does not yet support the publication of Camtrap DP 
 [#section-why-not-a-sampling-event-dataset]
 ==== Why not a sampling event dataset?
 
-With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observation,observatios>>, it seems logical to express camera trap data as a https://www.gbif.org/sampling-event-data[Sampling-event dataset] with an {event-core} (see <<table-event-core>>) and {occurrence-extension} (see <<table-occurrence-extension>>). It allows us to provide detailed (though repeated) information about each type of event and offers the possiblity to add a {mof-extension} with more information (mostly relevant for the deployments).
+With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observation,observations>>, it seems logical to express camera trap data as https://www.gbif.org/sampling-event-data[Sampling-event data] with an {event-core} (see <<table-event-core>>) and an {occurrence-extension} (see <<table-occurrence-extension>>). It allows us to provide detailed (though repeated) information about each type of event and offers the possiblity to add a {mof-extension} with <<alignment>> and other information (mostly relevant for the deployments).
 
-It however also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the {occurrence-extension} with a {ac-extension}. It is techniqually possible to link the {ac-extension} with the {event-core}, but the media would then not be linked to the occurrences and not appear on occurrence pages on GBIF.org.
-
-The only available option to express information about the media at an occurrence level would be to use term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s). License, media type, capture method, bounding boxes, etc. cannot be expressed.
+It unfortunately also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the {occurrence-extension} with an {ac-extension}. It is techniqually possible to link the {ac-extension} with the {event-core}, but the media would then not be linked to the occurrences and not appear on occurrence pages at GBIF.org. The only available option to express information about the media at an occurrence level would be to use term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s). License, media type, capture method, bounding boxes, etc. cannot be provided.
 
 [#table-event-core]
 .{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
 [%header,cols=5*]
 |===
+|eventType
 |eventID
 |parentEventID
-|eventType
 |eventDate
 |Location information
 
+|deployment
 |00a2c20d
 |
-|deployment
 |2020-05-30T02:57:37Z/
 2020-07-01T09:41:41Z
 |51.496, 4.774
 
+|sequence
 |79204343
 |00a2c20d
-|sequence
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
 |Same as deployment
 
+|media
 |e68deaed
 |79204343
-|media
 |2020-06-12T04:04:29Z
 |Same as deployment
 
+|media
 |c5efbcb3
 |79204343
-|media
 |2020-06-12T04:04:30Z
 |Same as deployment
 |===
 
 [#table-occurrence-extension]
-.{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media based>> observations of _Anas platyrhynchos_ and one event (here sequence) based observation of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media based>> classifications of _Anas platyrhynchos_ and one event based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
 [%header,cols=4*]
 |===
 |occurrenceID
