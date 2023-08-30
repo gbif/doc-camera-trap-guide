@@ -45,7 +45,7 @@
 
 [[detection-zone]]detection zone:: The area of a <<location>> in which a camera <<sensor>> is able to detect <<activity>>.
 
-[[event]]event:: TODO Mention sequence. Can be indicated with {observations-eventID} in Camtrap DP.
+[[event]]event:: An <<activity>> that occurs at a specific <<location>> during a specific (period of) time. Events are most often used to aggregate repeated <<activity,activities>> in a consistent, hierarchical way. Commonly used events are: <<deployment>> (with a duration of days), <<sequence>> (with a duration of seconds) or <<media>>-based events (with a single timestamp). Can be indicated with {observations-eventID} in Camtrap DP.
 
 [[EXIF]]EXIF:: TODO {media-exifData} in Camtrap DP
 
