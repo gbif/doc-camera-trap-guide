@@ -120,35 +120,35 @@ It unfortunately also **impedes us from expressing information about the <<media
 .{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source for example values].
 [%header,cols=5*]
 |===
-|eventType
 |eventID
 |parentEventID
+|eventType
 |eventDate
 |Location information
 
-|deployment
 |00a2c20d
 |
+|deployment
 |2020-05-30T02:57:37Z/
 2020-07-01T09:41:41Z
 |51.496, 4.774
 
-|sequence
 |79204343
 |00a2c20d
+|sequence
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
 |51.496, 4.774
 
-|media
 |e68deaed
 |79204343
+|media
 |2020-06-12T04:04:29Z
 |51.496, 4.774
 
-|media
 |c5efbcb3
 |79204343
+|media
 |2020-06-12T04:04:30Z
 |51.496, 4.774
 |===
@@ -180,6 +180,8 @@ https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |===
 
 We therefore recommend expressing camera trap data as an Occurrence dataset with an {occurrence-core} and an {ac-extension} (see <<table-occurrence-core>> and <<table-ac-extension>>). This treats media as primary data records, which is important given that they are the evidence on which the observations are based.
+
+Note that the <<ac-extension>> can contain duplicates, an important difference with {media} where each file is only listed once. Repeated term:dwc[dwc:occurrenceID] are the result of a single <<section-media-or-event-based-classification,event based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier] are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media `e68deaed` in <<table-ac-extension>>). The extension should however contain unique `observationID`+`identifier` combinations.
 
 [#table-occurrence-core]
 .{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
