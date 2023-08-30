@@ -109,7 +109,7 @@ Text fields such as comments and notes (e.g. {deployments-deploymentComments} or
 [#section-camtrap-dp]
 === Camtrap DP
 
-We recommend the use of <<camtrap-dp,Camera Trap Data Package (Camtrap DP)>> to publish camera trap data.It is specifically designed for this type of information and can retain more information than a <<darwin-core-archive,Darwin Core Archive>> cite:[bubnicki-2023]. Some <<data-management-system,data management systems>> directly support it as an export format, reducing the need for data transformation when publishing through GBIF.
+We recommend the use of <<camtrap-dp,Camera Trap Data Package (Camtrap DP)>> to publish camera trap data. It is specifically designed for this type of data and can retain more information than a <<darwin-core-archive,Darwin Core Archive>> cite:[bubnicki-2023]. Some <<data-management-system,data management systems>> directly support it as an export format (see <<table-data-management-systems>>), reducing the need for data transformation when publishing through GBIF.
 
 See the https://tdwg.github.io/camtrap-dp/[Camtrap DP website] for term definitions, recommendations and examples.
 
@@ -118,7 +118,7 @@ See the https://tdwg.github.io/camtrap-dp/[Camtrap DP website] for term definiti
 At the time of writing, GBIF does not yet support the publication of Camtrap DP in their production environment. It will be released as a feature in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT]).
 ====
 
-Not all information in a published Camtrap DP is currently harvested by GBIF. The current GBIF data model requires it to be processed to Darwin Core before ingestion. This process is provided by the https://inbo.github.io/camtraptor/reference/write_dwc.html[write_dwc] function in the R software package camtraptor cite:[camtraptor]. This function implements the <<section-darwin-core-archive,Darwin Core Archive>> recommendations suggested in this document. GBIF will be able to process more information from a published Camtrap DP once it has implemented a new data model cite:[gbif-2022].
+Not all information in a published Camtrap DP is currently harvested by GBIF. The GBIF data model requires it to be transformed to Darwin Core before ingestion. This process is provided by the https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] function in the R software package camtraptor cite:[camtraptor]. This function implements the <<section-darwin-core-archive,recommendations>> suggested in this document. GBIF will be able to process more information from a published Camtrap DP once it has implemented a new data model cite:[gbif-2022].
 
 [#section-darwin-core-archive]
 === Darwin Core Archive
