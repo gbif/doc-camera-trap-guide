@@ -77,7 +77,7 @@
 
 [[media-file]]media file:: A (audio)visual file captured by a <<camera>>. Can be an <<image>> or <<video>>. A media file typically has an identifier, file name, timestamp when it was created and associated metadata (e.g. <<EXIF>>). To access a media file, one needs to know its <<file-path,file path>> and have the required access rights. Media with {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} in Camtrap DP. See also <<section-media-files>>.
 
-[[media-type]]media type:: TODO {media-fileMediatype} in Camtrap DP.
+[[media-type]]media type:: Format of the data captured by camera traps, such as <<images,image>>, <<videos,video>>, or audio recordings. {media-fileMediatype} in Camtrap DP.
 
 [[observation]]observation:: TODO. {observations} in Camtrap DP. See also <<section-observations>>.
 
