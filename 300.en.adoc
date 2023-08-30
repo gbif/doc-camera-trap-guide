@@ -25,7 +25,7 @@ These data can be organized in different ways, based on personal preference or w
 
 .Class diagram for camera trap data, constituting of different classes (boxes) and relationships (arrows). Mandatory classes are dark blue, optional classes light blue. The arrow ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment.
 [#figure-class-diagram]
-image::img/web/class-diagram.svg[]
+image::img/web/class-diagram.svg[Class diagram,600]
 
 [#section-project-metadata]
 === Project Metadata
