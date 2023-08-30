@@ -31,7 +31,7 @@
 
 [[covariates]]covariates:: Ecological variables that may affect the behaviour and thus detection of animals. Recording covariates is important for further analysis of the data. Examples are: bait use, feature type, habitat, canopy cover. See also <<section-covariates>>.
 
-[[data-exchange-format]]data exchange format:: TODO
+[[data-exchange-format]]data exchange format:: An interim data format desinged to exchange data from one data source to another. The source data is converted into the data exchange format by one program, and the data in the exchange format is converted to the target format by another. <<camtrap-dp,Camtrap DP>> is a data exchange format for camera trap data.
 
 [[data-management-system]]data management system:: Online or desktop application to manage camera trap data. Typically includes functionality to upload <<media>>, add <<deployment>> information, <<classification,classify>> images, export data, invite <<participant,participants>> and manage a <<project>>. See also <<section-data-management-systems>>.
 
