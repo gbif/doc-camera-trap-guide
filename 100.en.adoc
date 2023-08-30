@@ -28,4 +28,4 @@ This guide primarily focuses on the management, quality control, enhancement and
 * Camera trap deployment and collection: field work, baits and lures, data retrieval, etc. 
 * Analysis: software for analysis, ecological modelling, bias correction, etc.
 
-Many extensive guides on these topics are already available. See <<table-topics>> and <<table-aims>> for a brief overview.
+Many extensive guides on these topics are already available. See <<table-aims>> and <<table-topics>> for a brief overview.
