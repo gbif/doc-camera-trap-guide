@@ -49,7 +49,7 @@
 
 [[EXIF]]EXIF:: Exchangeable Image File Format. A format for storing specific metadata about images, like camera trap settings, time and date, <<location>>, shutter speed or exposure level. {media-exifData} in Camtrap DP.
 
-[[FAIR]]FAIR:: TODO
+[[FAIR]]FAIR:: FAIR (meta)data are (meta)data that meet the principles of findability, accessibility, interoperability and reusability. The FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. See cite:[wilkinson-2016]
 
 [[feature-type]]feature type:: Categorical description of a particular physical feature targeted during the deployment, such as burrow, nest site, or water source. {deployments-featureType} in Camtrap DP.
 
