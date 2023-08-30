@@ -105,7 +105,7 @@
 
 [[site]]site:: A geographic area containing multiple <<location,locations>>.
 
-[[species-recognition]]species recognition:: TODO
+[[species-recognition]]species recognition:: The automated identification and classification of different animal species based on visual or auditory data captured by camera traps.
 
 [[subproject]]subproject:: TODO
 
