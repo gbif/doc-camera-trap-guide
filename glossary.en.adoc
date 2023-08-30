@@ -63,7 +63,7 @@
 
 [[image]]image:: A visual representation, in this context a picture taken by the camera trap. See also <<media-file>>.
 
-[[independence-interval]]independence interval:: TODO
+[[independence-interval]]independence interval:: Minimum time interval between two consecutive observations of wildlife. This interval is set to ensure that observations are treated as statistically independent events, reducing the potential for repeated measurements of the same individual animal or group within a short time span.
 
 [[individual]]individual:: TODO. Can be identified with {observations-individualID} in Camtrap DP.
 
