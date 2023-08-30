@@ -97,7 +97,7 @@
 
 [[sensitivity]]sensitivity:: The <<trigger>> sensitivity setting used on a camera sensor.
 
-[[sensor]]sensor:: TODO the heat signature and motion of a target
+[[sensor]]sensor:: Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli. They trigger the capture of <<image,images>>, <<video,videos>>, or audio recordings when specific conditions occur within the camera's field of view.
 
 [[sequence]]sequence:: A series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of a <<trigger,triggering event>>. Also referred to as `series` cite:[wildtrax].
 
@@ -109,7 +109,7 @@
 
 [[subproject]]subproject:: a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. Subprojects are used to facilitate their management.
 
-[[trigger]]trigger:: Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli. They trigger the capture of <<image,images>>, <<video,videos>>, or audio recordings when specific conditions occur within the camera's field of view.
+[[trigger]]trigger:: 
 
 [[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identfier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
 
