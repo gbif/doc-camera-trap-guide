@@ -35,7 +35,7 @@
 
 [[data-management-system]]data management system:: Online or desktop application to manage camera trap data. Typically includes functionality to upload <<media>>, add <<deployment>> information, <<classification,classify>> images, export data, invite <<participant,participants>> and manage a <<project>>. See also <<section-data-management-systems>>.
 
-[[darwin-core-archive]]Darwin Core Archive:: TODO See also <<section-darwin-core-archive>>.
+[[darwin-core-archive]]Darwin Core Archive:: A standardized format and package for sharing and publishing biodiversity-related data. See also <<section-darwin-core-archive>>.
 
 [[deployment]]deployment:: Spatial and temporal placement of a <<camera>> to sample wildlife images. A camera placed at a location between 1 and 15 January 2020 is a different deployment than the same (or different) camera placed at the same location between 15 and 30 January 2020. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. Also referred to as `sampling point` cite:[wearn-2017], `trap station session` cite:[camelot] or `visit` cite:[newkirk-2016]. {deployments} in Camtrap DP. See also <<section-deployments>>.
 
