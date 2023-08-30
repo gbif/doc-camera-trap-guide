@@ -79,7 +79,7 @@
 
 [[media-type]]media type:: Format of the data captured by camera traps, such as <<images,image>>, <<videos,video>>, or audio recordings. {media-fileMediatype} in Camtrap DP.
 
-[[observation]]observation:: TODO. {observations} in Camtrap DP. See also <<section-observations>>.
+[[observation]]observation:: An interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species <<observation,observations>>, but can also indicate whether the <<media-file>> contains a vehicle, human or unknown object, or <<blank,blanks>>. {observations} in Camtrap DP. See also <<section-observations>>.
 
 [[observation-type]]observation type:: Mention "animal observations" {observations-observationType} in Camtrap DP.
 
