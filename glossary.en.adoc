@@ -61,8 +61,6 @@
 
 [[habitat-type]]habitat type:: Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat cite:[eunis-habitat,iucn-habitat] or vegetation type cite:[us-vegetation]. {deployments-habitat} in Camtrap DP.
 
-[[identification]]identification:: TODO Also referred to as `detection` cite:[newkirk-2016].
-
 [[image]]image:: TODO
 
 [[independence-interval]]independence interval:: TODO
