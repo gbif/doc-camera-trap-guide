@@ -1,15 +1,6 @@
 [#section-2]
 == The use of camera traps
 
-[NOTE]
-====
-* A <<camera,camera trap>> is a camera designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion.
-* They are most frequently used to monitor medium to large sized warm-blooded animals, but innovative sensors can detect amphibians, reptiles, small mammals, and large invertebrates as well.
-* Camera traps often capture more than intended. This can be a boon (useful “bycatch” observations) or a hindrance (large data volume, media of humans, <<blank,blanks>>).
-* Camera traps are suitable for a whole range of studies collecting occurrence, abundance, density, distribution and behavioural data.
-* For a camera trap dataset to be useful, you should clearly define the aim and objectives in the planning phase: what do you want to study exactly? Each objective brings along its own key characteristics to consider.
-====
-
 [#section-what-are-camera-traps]
 === What are camera traps?
 

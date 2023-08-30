@@ -23,9 +23,9 @@ Overall, we can distinguish four types of camera trap data:
 
 These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see <<figure-class-diagram>>). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
 
-.Class diagram for camera trap data, constituting of different classes (boxes) and relationships (arrows). Mandatory classes are dark blue, optional classes light blue. The arrow ends represent the cardinality of the relationship, with `○|` zero or one, `○<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment.
+.Class diagram for camera trap data, constituting of different classes (boxes) and relationships (arrows). Mandatory classes are dark blue, optional classes light blue. The arrow ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment.
 [#figure-class-diagram]
-image::img/web/class-diagram.svg[Class diagram,500,align="center"]
+image::img/web/class-diagram.svg[]
 
 [#section-project-metadata]
 === Project Metadata
@@ -623,7 +623,7 @@ Observations are best recorded in a <<data-management-system,data management sys
 [#section-classification]
 ==== Classification
 
-Unfortunately, camera traps do not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
+Unfortunately, camera traps don not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
 
 * Media does or <<blank,does not>> contain object(s) of interest.
 * Object(s) of interest is a human or vehicle, or cannot be identified.
@@ -632,47 +632,7 @@ Unfortunately, camera traps do not provide observations directly. Media need to 
 * Animal is identified as a known individual (e.g. wolf Noëlla).
 * Other properties of the animal are recorded, such as group size, life stage, sex, and behaviour.
 
-Different actors (experts, volunteers, AI) can reach different levels of precision (see <<table-classification-precision>>), based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
-
-[#table-classification-precision]
-.Observation records for four observed ducks, but provided at different levels of precision. Row one is the result of a classification at a high taxonomic level (family _Anatidae_). Row two is the result of a classification at species level (_Anas platyrhynchos_), but no further characteristics were recorded. Rows three and four are the result of a classification that further specified one duck to be male and showing foraging behaviour. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#14059fd2[Source].
-[%header,cols=4*]
-|===
-|scientificName
-|sex
-|count
-|behavior
-
-|Anatidae
-|
-|4
-|
-
-|
-|
-|
-|
-
-|Anas platyrhynchos
-|
-|4
-|
-
-|
-|
-|
-|
-
-|Anas platyrhynchos
-|male
-|1
-|foraging
-
-|Anas platyrhynchos
-|
-|3
-|
-|===
+Different actors (experts, volunteers, AI) can reach different levels of precision, based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
 
 [#section-citizen-science]
 ==== Citizen science
