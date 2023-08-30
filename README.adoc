@@ -6,7 +6,7 @@ https://creativecommons.org/licenses/by-sa/4.0/[image:https://img.shields.io/bad
 // Build status badge: In the text below, please update "doc-camera-trap-guide" to "doc-your-document-name", and remove this line.
 https://builds.gbif.org/job/doc-camera-trap-guide/lastBuild/console[image:https://builds.gbif.org/job/doc-camera-trap-guide/badge/icon[Build status]]
 
-= GBIF Document Camera-Trap-Guide (TODO: Set title.)
+= Best Practices for Managing and Publishing Camera Trap Data
 
 _This is information *about* this document's source code.  It is not part of the document._
 
