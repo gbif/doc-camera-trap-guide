@@ -109,7 +109,7 @@
 
 [[subproject]]subproject:: a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. Subprojects are used to facilitate their management.
 
-[[trigger]]trigger:: 
+[[trigger]]trigger:: A condition that prompts a camera trap to activate and capture images, videos, or audio recordings.
 
 [[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identfier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
 
