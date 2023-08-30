@@ -19,7 +19,7 @@
 
 [[camera-heading]]camera heading:: Horizontal cardinal orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees from North or as cardinal directions (N, NW, etc.). {deployments-cameraHeading} in Camtrap DP.
 
-[[camtrap-dp]]Camtrap DP:: TODO See also <<section-camtrap-dp>>.
+[[camtrap-dp]]Camtrap DP:: Camera Trap Data Package. A community developed <<data-exchange-format,data exchange format>> for camera trap data, managed by the Biodiviersity Information Standards (TDWG). See also <<section-camtrap-dp>> and the (https://tdwg.github.io/camtrap-dp/[Camtrap DP documentation website]).
 
 [[classification]]classification:: The act of classifying camera trap <<media>>, resulting in <<observation,observations>>. Not to be confused with taxonomic classification. Can be performed in different steps and with different levels of precision, e.g. 1. media does/does not contain object(s) of interest (i.e. <<blank>>), 2. object of interest is human/vehicle/animal or unknown, 3. animal is member of certain taxon (e.g. Sus scrofa, Rodentia), 4. animal is of certain sex/life stage, is known individual x or shows certain behaviour. Classification is typically labour intensive and therefore often aided by <<computer-vision,computer vision>>, <<citizen-science,volunteers>> and/or classifying <<sequence,sequences>> rather than individual <<media-file,media files>>. Also referred to as `image classification`, `annotation` or `identification`. See also <<section-classification>>.
 
