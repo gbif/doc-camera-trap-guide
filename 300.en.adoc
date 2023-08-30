@@ -23,7 +23,7 @@ Overall, we can distinguish four types of camera trap data:
 
 These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see <<figure-class-diagram>>). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
 
-.TODO, caption.
+.Class diagram for camera trap data, constituting of different classes (boxes) and relationships (arrows). Mandatory classes are dark blue, optional classes light blue. The arrow ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment.
 [#figure-class-diagram]
 image::img/web/class-diagram.svg[]
 
