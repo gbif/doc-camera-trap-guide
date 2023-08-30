@@ -153,7 +153,7 @@ Awaiting access
 An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence (see <<table-sequence>>).
 
 [#table-sequence]
-.A series of images, resulting from 3 consecutive triggers and captured in one sequence. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.A series of images, resulting from 3 consecutive triggers and captured in one sequence. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=4*]
 |===
 
@@ -317,7 +317,7 @@ A camera also records metadata when creating a media file. This can include date
 
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>).
 
-.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. Source: https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file.
+.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source].
 [#figure-example-image]
 image::img/web/example-image.jpg[]
 
@@ -428,7 +428,7 @@ A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployme
 Data management systems typically organize deployments into the following classes: <<deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>).
 
 [#table-deployment]
-.Recorded information for the deployment that generated the image in <<figure-example-image>>. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/
+.Recorded information for the deployment that generated the image in <<figure-example-image>>. https://tdwg.github.io/camtrap-dp/example/00a2c20d/[Source].
 [%header,cols=2*]
 |===
 |Property
@@ -586,7 +586,7 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type,observation type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<section-column-naming,column naming conventions>> as for deployments.
 
 [#table-observation]
-.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=2*]
 |===
 |Property

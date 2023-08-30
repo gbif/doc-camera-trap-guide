@@ -117,7 +117,7 @@ With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences
 It unfortunately also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the {occurrence-extension} with an {ac-extension}. It is techniqually possible to link the {ac-extension} with the {event-core}, but the media would then not be linked to the occurrences and not appear on occurrence pages at GBIF.org. The only available option to express information about the media at an occurrence level would be to use term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s). License, media type, capture method, bounding boxes, etc. cannot be provided.
 
 [#table-event-core]
-.{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source for example values].
 [%header,cols=5*]
 |===
 |eventType
@@ -154,7 +154,7 @@ It unfortunately also **impedes us from expressing information about the <<media
 |===
 
 [#table-occurrence-extension]
-.{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media based>> classifications of _Anas platyrhynchos_ and one event based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media based>> classifications of _Anas platyrhynchos_ and one event based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=4*]
 |===
 |occurrenceID
@@ -183,7 +183,7 @@ https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
 ==== Occurrence core
 
 [#table-dwc-occurrence-core]
-.Recommended terms to use when expressing camera trap data as a {occurrence-core}. Source for example values: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=3*]
 |===
 |Term
@@ -615,7 +615,7 @@ The kingdom in which the taxon with the <<section-scientificname,scientificName>
 ==== Audobon Media Description extension
 
 [#table-ac-media-extension]
-.Recommended terms to use when expressing camera trap data as an {ac-extension}. Source for example values: <<figure-example-image>>
+.Recommended terms to use when expressing camera trap data as an {ac-extension}. <<figure-example-image,Source>>.
 [%header,cols=3*]
 |===
 |Term
