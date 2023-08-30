@@ -257,7 +257,6 @@ Term recommendations for the {occurrence-core} and {ac-extension} are provided i
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
 |===
 
-
 .Screenshot of an https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[event page] created by GBIF.org from information provided in an {occurrence-core} (based on row 3 in <<table-occurrence-core>>). Notice the event ID (a sequence) and parent event ID (a deployment).
 [#figure-example-event-page]
 image::img/web/example-event-page.png[]
@@ -266,6 +265,8 @@ image::img/web/example-event-page.png[]
 ==== Occurrence core
 
 As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {occurrence-core} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-occurrence-core>> for term recommendations. These recommendations align with the GBIF quality requirements for Occurrence datasets cite:[gbif-2023] and use the same terminology (Required, Strongly recommended, Share if available).
+
+Note that the {occurrence-core} should only contain <<observation-type,animal observations>>, so classifications of <<blank,blanks>>, vehicles and preferrably humans (see <<section-personal-data,sensitive data>>) should be filtered out. The number of records will depend on the size of the study, the classification effort (are all media classified?), the classification precision (see <<table-classification-precision>>) and whether <<section-media-or-event-based-classification,media or event based classification>> was used. Especially media based classifications can substantially increase the number of occurrences, with little added benefit for ecological research. <<camtrap-dp,Camtrap DP>> is designed for both, but when publishing as a Darwin Core Archive, we recommend only providing event based observations if available.
 
 [#table-occurrence-core]
 .Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
@@ -488,7 +489,7 @@ An identifier for the <<observation>>. Use a <<section-stable-unique-identifiers
 
 term:dwc[dwc:individualCount]
 
-The number of observed <<individual,individuals>>. Note that this number is dependent on the granularity of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
+The number of observed <<individual,individuals>>. Note that this number is dependent on the <<table-classification-precision,precision>> of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
 
 [#section-sex]
 ===== sex
