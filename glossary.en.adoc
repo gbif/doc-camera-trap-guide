@@ -57,7 +57,7 @@
 
 [[format]]format:: The format of a property value determines the structure of the stored information and commonly used for data validation. For example, dates are formatted as `YYYY-MM-DD` (e.g., `2022-06-25`), the ISO 8601 standard. Properties containing date and times are formatted as `YYYY-MM-DD HH:MM:SS`.
 
-[[GDPR]]GDPR:: TODO
+[[GDPR]]GDPR:: General Data Protection Regulation. A European Union regulation on information privacy, designed to enhance individuals' control and rights over their personal information and to simplify the regulations for international business.
 
 [[habitat-type]]habitat type:: Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat cite:[eunis-habitat,iucn-habitat] or vegetation type cite:[us-vegetation]. {deployments-habitat} in Camtrap DP.
 
