@@ -215,6 +215,46 @@ We therefore recommend expressing camera trap data as an Occurrence dataset with
 |51.496, 4.774
 |===
 
+[#table-ac-extension]
+.{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+[%header,cols=6*]
+|===
+|observationID
+|identifier
+|accessURI
+|CreateDate
+|captureDevice
+|rights
+
+|e68deaed_2
+|e68deaed
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|2020-06-12T04:04:29Z
+|Reconyx-HF2X
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+
+|c5efbcb3_2
+|c5efbcb3
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|2020-06-12T04:04:30Z
+|Reconyx-HF2X
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+
+|05230014
+|e68deaed
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|2020-06-12T04:04:29Z
+|Reconyx-HF2X
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+
+|05230014
+|c5efbcb3
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|2020-06-12T04:04:30Z
+|Reconyx-HF2X
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+|===
+
 [#section-occurrence-core]
 ==== Occurrence core
 
