@@ -1,4 +1,4 @@
-= Camera Trap Guide
+= Best Practices for Managing and Publishing Camera Trap Data
 :authorcount: 3
 :author_1: Lien Reyserhove
 :author_2: Ben Norton
