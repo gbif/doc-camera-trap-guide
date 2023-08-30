@@ -53,7 +53,7 @@
 
 [[feature-type]]feature type:: Categorical description of a particular physical feature targeted during the deployment, such as burrow, nest site, or water source. {deployments-featureType} in Camtrap DP.
 
-[[file-path]]file path:: TODO {media-filePath} in Camtrap DP.
+[[file-path]]file path:: The specific sequence of directories and folders that uniquely identifies the location of a file within a file system. {media-filePath} in Camtrap DP.
 
 [[format]]format:: The format of a property value determines the structure of the stored information and commonly used for data validation. For example, dates are formatted as `YYYY-MM-DD` (e.g., `2022-06-25`), the ISO 8601 standard. Properties containing date and times are formatted as `YYYY-MM-DD HH:MM:SS`.
 
