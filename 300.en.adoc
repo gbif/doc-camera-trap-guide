@@ -418,7 +418,7 @@ dep 2021 't WAD
 [#section-storage]
 ==== Storage
 
-The media files stored on memory cards should be stored and backed up, preferably by using online services. Due to the large volumes of generated data, storage can require a high investment in terms of space and costs. We recommend to use a <<section-data-management-systems,data management system>> to store your data as some of them offer free storage (e.g. Agouti, Wildlife Insights). It is also useful if your data storage system allows serving images over https, so that they can be linked to in published datasets (see <<table-sequence>>).
+Due to the large volume of generated data, it is not trivial to securely store, backup and manage media files. Cloud services or well managed institutional services are recommended, but these come at a substantial cost. We recommend the use of an online <<data-management-system,data management system>> to store your media files. Some offer this storage for free. It is also very useful if your data storage system can serve media files over http/https, using allows <<section-stable-unique-identifiers,stable URLs>> and optionally authentication. This allows you to directly reference/hotlink media files in a published dataset (see <<section-ac-accessuri,accessURI>>). Such a service is provided by e.g. Agouti cite:[agouti] (through `https://multimedia.agouti.eu/assets/`), https://www.flickr.com/[Flickr] (through `https://www.flickr.com/services/api/`) and https://zenodo.org/[Zenodo] (through the undocumented `https://zenodo.org/record/<record_id>/files/<file>`).
 
 [#section-deployments]
 === Deployments
