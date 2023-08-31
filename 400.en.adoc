@@ -447,7 +447,7 @@ The nature of the resource. Use `StillImage` if the record is based on an image 
 
 https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]
 
-The licence under which the data record is shared. Very likely this will be the same licence as the one used for the dataset as a whole, but it is possible to deviate cite:[waller-2020]. To enable wide use, we recommend publishing data under a Creative Commons Zero waiver and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode`. In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `data` in {package-licenses}.
+The licence under which the data record is shared. Very likely this will be the same licence as the one used for the dataset as a whole, but it is possible to deviate cite:[waller-2020]. To enable wide use, we recommend publishing data under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode`. In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `data` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record.
 
 [#section-rightsholder]
 ===== rightsHolder
@@ -588,7 +588,7 @@ A category or description of the habitat in which the <<event>> occurred. This i
 
 term:dwc[dwc:samplingProtocol]
 
-The methods or protocols used during the <<event>>. We recommend using the controlled value `camera trap`. This allows users to search for records with this protocol across datasets.
+The method(s) or protocol(s) used during the <<event>>. We recommend using the controlled value `camera trap`. This allows users to search for records with this protocol across datasets.
 
 [#section-samplingeffort]
 ===== samplingEffort
@@ -652,7 +652,7 @@ The horizontal distance (in metres) from the geographic <<section-decimallatitud
 
 term:dwc[dwc:coordinatePrecision]
 
-The decimal precision of the geographic <<section-decimallatitude-decimallongitude,coordinates>>>, if known. This information is known and we recommend providing it for <<section-sensitive-location-information,generalized/rounded>> coordinates (e.g. `0.001` for coordinates that were rounded to 3 decimals). In Camtrap DP, this term corresponds with {package-coordinatePrecision}, although there it specified for the dataset as whole, rather than per record.
+The decimal precision of the geographic <<section-decimallatitude-decimallongitude,coordinates>>>, if known. This information is known and we recommend providing it for <<section-sensitive-location-information,generalized/rounded>> coordinates (e.g. `0.001` for coordinates that were rounded to 3 decimals). In Camtrap DP, this term corresponds with {package-coordinatePrecision}, although there it is specified for the dataset as whole, rather than per record.
 
 [#section-identifiedby]
 ===== identifiedBy
@@ -740,7 +740,7 @@ Note that the {ac-extension} can contain duplicates, an important difference wit
 
 |<<section-ac-comments,comments>>
 |Share if available
-|
+|media marked as favourite
 
 |<<section-ac-rights,rights>> 
 |Strongly recommended
@@ -776,7 +776,7 @@ Note that the {ac-extension} can contain duplicates, an important difference wit
 
 term:dwc[dwc:occurrenceID]
 
-A foreign key to the <<section-occurrenceid,occurrenceID>> in the {occurrence-core}, to indicate the relation between the <<observation>> and the <<media-file,media file(s)>> on which it is based. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {observations-observationID}, but the relationship between {observations} and {media} can be established in several ways: either directly via {observation-mediaID} or by selecting media that have the same {media-deploymentID} as the observation and that have a {media-timestamp}s that falls within the {observations-eventStart} and {observations-eventEnd} of the observation.
+A foreign key to the <<section-occurrenceid,occurrenceID>> in the {occurrence-core}, to indicate the relation between the <<observation>> and the <<media-file,media file(s)>> on which it is based. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {observations-observationID}, but the relationship between {observations} and {media} can be established in several ways: either directly via {observations-mediaID} or by selecting media that have the same {media-deploymentID} as the observation and a {media-timestamp} that falls between the {observations-eventStart} and {observations-eventEnd} of the observation.
 
 [#section-ac-identifier]
 ===== identifier
@@ -797,40 +797,35 @@ The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage`
 
 https://ac.tdwg.org/termlist/#ac_comments[ac:comments]
 
-TODO
-
+The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceRemarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favourite}.
 
 [#section-ac-rights]
 ===== rights
 
 https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]
 
-TODO
-
-
-
+The licence under which the media file is shared. Note that this applies to file referenced in <<section-ac-accessuri,accessURI>>, not the data in the {ac-extension} (these fall under the dataset license). We recommend using the same license for all media files. To enable wide use, we recommend publishing media files under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] or https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International license] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode` or `https://creativecommons.org/licenses/by/4.0/legalcode` respectively. Do not use https://ac.tdwg.org/termlist/#dc_rights[dc:rights], because that term expects a literal value (the full-text copyright statement). In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `media` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record.
 
 [#section-ac-createdate]
 ===== CreateDate
 
 https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]
 
-TODO
+The datetime on which the media file was created. This information is typically extracted from the <<EXIF>> metadata by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {media-timestamp}.
 
 [#section-ac-capturedevice]
 ===== captureDevice
 
 https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]
 
-TODO
+The device(s) used to create the media file. We recommend providing the <<camera>> make and model (e.g. `Reconyx-HF2X`). In Camtrap DP, this term corresponds with {deployments-cameraModel}.
 
 [#section-ac-resourcecreationtechnique]
 ===== resourceCreationTechnique
 
 https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]
 
-TODO
-
+The method(s) used to create or alter the media file. We recommend using this term to provide the <<trigger>> method that was used to capture the media file, as controlled values: `motion detection` or `time lapse`. In Camtrap DP, this term corresponds with {media-captureMethod}.
 
 [#section-ac-accessuri]
 ===== accessURI
