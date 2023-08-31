@@ -509,14 +509,14 @@ The number of observed <<individual,individuals>>. Note that this number is depe
 
 term:dwc[dwc:sex]
 
-The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the <<https://rs.gbif.org/vocabulary/gbif/sex.xml,GBIF Sex vocabulary>>. In Camtrap DP, this term corresponds with {observations-sex}.
+The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIF Sex vocabulary]. In Camtrap DP, this term corresponds with {observations-sex}.
 
 [#section-lifestage]
 ===== lifeStage
 
 term:dwc[dwc:lifeStage]
 
-The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the <<https://registry.gbif.org/vocabulary/LifeStage,GBIF LifeStage vocabulary>>. In Camtrap DP, this term corresponds with {observations-lifeStage}.
+The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the https://registry.gbif.org/vocabulary/LifeStage[GBIF LifeStage vocabulary]. In Camtrap DP, this term corresponds with {observations-lifeStage}.
 
 [#section-behavior]
 ===== behavior
