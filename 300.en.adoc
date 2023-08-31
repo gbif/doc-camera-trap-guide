@@ -83,10 +83,10 @@ A <<participant>> is a person associated with a camera trap project. Information
 |principalInvestigator
 |PrincipalInvestigator
 |
-|ProjectLeader
-ProjectManager
+|ProjectLeader +
+ProjectManager +
 Supervisor
-|Owner
+|Owner +
 Principal Investigator
 |Principal investigator
 |Project Owner
@@ -109,27 +109,27 @@ Publisher
 |
 
 |contributor
-|sequenceIdentifiedBy
+|sequenceIdentifiedBy +
 PhotoTypeIdentifiedBy
-|Crew Member
+|Crew Member +
 Surveyor
-|DataManager
-DataCurator
-DataCollector
-ProjectMember
+|DataManager +
+DataCurator +
+DataCollector +
+ProjectMember +
 Researcher
-|Curator
-Editor
-Author
-Content Provider
-Originator
-|Admin
-Taxonomic expert
-Photo processor
+|Curator +
+Editor +
+Author +
+Content Provider +
+Originator +
+|Admin +
+Taxonomic expert +
+Photo processor +
 Volunteer
-|Project Editor
-Project Contributor
-Project Tagger
+|Project Editor +
+Project Contributor +
+Project Tagger +
 
 |
 |
