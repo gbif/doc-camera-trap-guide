@@ -67,27 +67,27 @@ The full life cycle of camera trap research includes the planning phase, the dep
 
 |Full camera trapping life cycle
 |General state of the art +
-Future developments and camera trap constraints.
+Future developments and camera trap constraints
 |citenp:[cadman-2014,rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]
 
 |Planning
-|How to design a camera trap study?
+|How to design a camera trap study? +
 What type of camera traps to choose?
 |citenp:[wearn-2017,rovero-2010,sunarto-2013,meek-2014,kays-2020,caravaggi-2020,hobbs-2017,mcintyre-2020]
 
 |Deployment and collection
-|Where and how to mount your camera?
-Camera trap storage and maintenance
-Baits and lures
-Combating theft and vandalism
+|Where and how to mount your camera? +
+Camera trap storage and maintenance +
+Baits and lures +
+Combating theft and vandalism +
 Set-up in different environments
 |citenp:[wearn-2017,rovero-2010,rovero-2013,meek-2014]
 
 |Data management and sharing
-|Data management considerations
-From field to hard-disk
-Annotating camera trap data
-Software for data management
+|Data management considerations +
+From field to hard-disk +
+Annotating camera trap data +
+Software for data management +
 Sharing and publishing camera trap data
 |<<section-3>> and <<section-4>> of this guide
 
