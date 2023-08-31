@@ -9,7 +9,7 @@
 
 [[bait]]bait:: Attractant used to encourage animals to investigate a <<location>> or specific point within the <<detection-zone,detection zone>>. Baits may be auditory, olfactory, visual, or some combination of these in nature. Whether bait was used for a <<deployment>> is useful to know for analyses, as it can alter the natural behaviour of animals. Can be expressed as a categorical description (e.g. `acoustic`, `visual`, `scent`) or a boolean. Also referred to as `lure` cite:[meek-2014]. {deployments-baitUse} in Camtrap DP.
 
-[[blank]]blank:: TODO
+[[blank]]blank:: <<media,Media>> without objects of interest. Blanks are typically the result of false <<trigger,triggers>> such as moving vegetation or fluctuating light. Marked as such when <<classification,classifying>> to facilitate excluding them from queries.
 
 [[camera]]camera:: Device designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion. Of a certain make and model and uniquely identifiable by e.g. by serial number. Also referred to as `camera trap`, `game camera`, `trail camera`, `scouting camera` or `device`.
 
@@ -19,9 +19,9 @@
 
 [[camera-heading]]camera heading:: Horizontal cardinal orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees from North or as cardinal directions (N, NW, etc.). {deployments-cameraHeading} in Camtrap DP.
 
-[[camtrap-dp]]Camtrap DP:: TODO See also <<section-camtrap-dp>>.
+[[camtrap-dp]]Camtrap DP:: Camera Trap Data Package. A community developed <<data-exchange-format,data exchange format>> for camera trap data, maintained under Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-camtrap-dp>>, citenp:[camtrap-dp] and the https://tdwg.github.io/camtrap-dp/[Camtrap DP website].
 
-[[classification]]classification:: The act of classifying camera trap <<media>>, resulting in <<observation,observations>>. Not to be confused with taxonomic classification. Can be performed in different steps and with different levels of precision, e.g. 1. media does/does not contain object(s) of interest (i.e. <<blank>>), 2. object of interest is human/vehicle/animal or unknown, 3. animal is member of certain taxon (e.g. Sus scrofa, Rodentia), 4. animal is of certain sex/life stage, is known individual x or shows certain behaviour. Classification is typically labour intensive and therefore often aided by <<computer-vision,computer vision>>, <<citizen-science,volunteers>> and/or classifying <<sequence,sequences>> rather than individual <<media-file,media files>>. Also referred to as `image classification`, `annotation` or `identification`. See also <<section-classification>>.
+[[classification]]classification:: The act of classifying camera trap <<media>>, resulting in <<observation,observations>>. Not to be confused with taxonomic classification. Can be performed in different steps and with different levels of precision, e.g. 1. media does/does not contain object(s) of interest (i.e. <<blank>>), 2. object of interest is human/vehicle/animal or unknown, 3. animal is member of certain taxon (e.g. Sus scrofa, Rodentia), 4. animal is of certain sex/life stage, is known <<individual>> x or shows certain behaviour. Classification is typically labour intensive and therefore often aided by <<computer-vision,computer vision>>, <<citizen-science,volunteers>> and/or classifying <<sequence,sequences>> rather than individual <<media-file,media files>>. Also referred to as `image classification`, `annotation` or `identification`. See also <<section-classification>>.
 
 [[citizen-science]]citizen science:: Scientific research conducted with participation from the public. Also referred to as `community science`, `crowd science`, `crowdsourcing`, or `volunteer monitoring`. In camera trap research, citizen scientists can participate in camera trap <<deployment>> and <<classification>>. See also <<section-citizen-science>>.
 
@@ -29,61 +29,57 @@
 
 [[computer-vision]]computer vision:: Processing, analyzing and understanding of <<media>> by machines to aid <<classification>>, from object tracking to species identification. A form of artificial intelligence, typically trained with <<machine-learning,machine learning>>.
 
-[[covariates]]covariates:: TODO
+[[covariates]]covariates:: Ecological variables that may affect the behaviour and detection of animals (e.g. <<bait,bait use>>, <<feature-type,feature type>>, <<habitat-type,habitat>>, canopy cover). Recording covariates is important for further analysis of the data. See also <<section-covariates>>.
 
-[[data-exchange-format]]data exchange format:: TODO
+[[data-exchange-format]]data exchange format:: Format used to exchange data between systems (e.g. <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>>). Requires data transformation from the source system to the format and from the format to the target system. Well designed data exchange formats facilitate <<FAIR>> data exchange, use open formats and provide clear definitions. Also referred to as `data standard` (when approved through a ratification process).
 
 [[data-management-system]]data management system:: Online or desktop application to manage camera trap data. Typically includes functionality to upload <<media>>, add <<deployment>> information, <<classification,classify>> images, export data, invite <<participant,participants>> and manage a <<project>>. See also <<section-data-management-systems>>.
 
-[[darwin-core-archive]]Darwin Core Archive:: TODO See also <<section-darwin-core-archive>>.
+[[data-repository]]data repository:: Online system for the long term archival of (research) data (e.g. https://zenodo.org[Zenodo], https://datadryad.org/[Dryad] and the GBIF https://www.gbif.org/ipt[IPT]). Different from a <<data-management-system,data management system>> which is designed for the management (and not necessarily long term archival) of data.
+
+[[darwin-core-archive]]Darwin Core Archive:: Standardized and widely supported <<data-exchange-format,data exchange format>> for biodiversity data, maintained by Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-darwin-core-archive>> and the https://dwc.tdwg.org/text/[Darwin Core text guide].
 
 [[deployment]]deployment:: Spatial and temporal placement of a <<camera>> to sample wildlife images. A camera placed at a location between 1 and 15 January 2020 is a different deployment than the same (or different) camera placed at the same location between 15 and 30 January 2020. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. Also referred to as `sampling point` cite:[wearn-2017], `trap station session` cite:[camelot] or `visit` cite:[newkirk-2016]. {deployments} in Camtrap DP. See also <<section-deployments>>.
 
-[[deployment-group]]deployment group:: A logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` cite:[oconnor-2017], `camera trap array` cite:[meek-2014], `cluster` cite:[risc-2019], `paired deployment` cite:[kolowski-2017], `site` and `strata` cite:[sun-2021] are spatial deployment groups. `sampling campaign` cite:[lamelas-2020], `sampling event` cite:[fegraus-2011] and `session` are temporal deployment groups. `subproject` cite:[emammal-design], `survey` cite:[risc-2019,camerabase] and `tags` are thematic deployment groups. `study areas` cite:[newkirk-2016] can be considered a deployment group or <<project>> in its own right. {deployments-deploymentGroups} in Camtrap DP. See also <<section-deployment-groups>>.
+[[deployment-group]]deployment group:: Logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` cite:[oconnor-2017], `camera trap array` cite:[meek-2014], `cluster` cite:[risc-2019], `paired deployment` cite:[kolowski-2017], `site` and `strata` cite:[sun-2021] are spatial deployment groups. `sampling campaign` cite:[lamelas-2020], `sampling event` cite:[fegraus-2011] and `session` are temporal deployment groups. `subproject` cite:[emammal-design], `survey` cite:[risc-2019,camerabase] and `tags` are thematic deployment groups. `study areas` cite:[newkirk-2016] can be considered a deployment group or <<project>> in its own right. {deployments-deploymentGroups} in Camtrap DP. See also <<section-deployment-groups>>.
 
 [[detection-distance]]detection distance:: Furthest distance in the <<detection-zone,detection zone>> at which the <<camera>> detects <<activity>>. {deployments-detectionDistance} in Camtrap DP.
 
-[[detection-zone]]detection zone:: The area of a <<location>> in which a camera <<sensor>> is able to detect <<activity>>.
+[[detection-zone]]detection zone:: Area of a <<location>> in which a camera <<sensor>> is able to detect <<activity>>.
 
-[[event]]event:: TODO Mention sequence. Can be indicated with {observations-eventID} in Camtrap DP.
+[[event]]event:: Action that occurs at a specific <<location>> for a specific duration. In camera trap research, events typically refer to animal <<activity>> recorded through one or more <<trigger,triggers>> and forming a <<sequence>>, but other definitions might be used when analysing data. Events can be indicated with {observations-eventID}, {observations-eventStart} and {observations-eventEnd} in Camtrap DP. In a <<darwin-core-archive,Darwin Core Archive>>, <<deployment,deployments>> can also be considered events.
 
-[[EXIF]]EXIF:: TODO {media-exifData} in Camtrap DP
+[[EXIF]]EXIF:: Exchangeable Image File Format. A format for storing metadata about a <<media-file,media fiel>> (e.g. creation date and time, format, resolution, shutter speed, exposure level, camera model), typicall stored as part of the media file. {media-exifData} in Camtrap DP.
 
-[[FAIR]]FAIR:: TODO
+[[FAIR]]FAIR:: FAIR (meta)data are (meta)data that meet the principles of findability, accessibility, interoperability and reusability. The FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. See citenp:[wilkinson-2016].
 
 [[feature-type]]feature type:: Categorical description of a particular physical feature targeted during the deployment, such as burrow, nest site, or water source. {deployments-featureType} in Camtrap DP.
 
-[[file-path]]file path:: TODO {media-filePath} in Camtrap DP.
+[[file-path]]file path:: String describing the location of a file in a storage system (e.g. `data/deployments.csv`). When served over http/https, the domain name and file path constitute the file URL (e.g. `https://raw.githubusercontent.com/tdwg/camtrap-dp/main/example/deployments.csv`).
 
-[[format]]format:: The format of a property value determines the structure of the stored information and commonly used for data validation. For example, dates are formatted as `YYYY-MM-DD` (e.g., `2022-06-25`), the ISO 8601 standard. Properties containing date and times are formatted as `YYYY-MM-DD HH:MM:SS`.
-
-[[GDPR]]GDPR:: TODO
+[[GDPR]]GDPR:: General Data Protection Regulation. A https://gdpr-info.eu/[European Union regulation] on information privacy, designed to enhance individuals' control and rights over their personal information. See <<section-personal-data>>.
 
 [[habitat-type]]habitat type:: Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat cite:[eunis-habitat,iucn-habitat] or vegetation type cite:[us-vegetation]. {deployments-habitat} in Camtrap DP.
 
-[[identification]]identification:: TODO Also referred to as `detection` cite:[newkirk-2016].
+[[image]]image:: Static <<media-file,media file>> recorded by a <<camera>>. Has no significant duration or audio.
 
-[[image]]image:: TODO
+[[independence-interval]]independence interval:: Minimum duration between consecutive <<trigger,triggers>> to be considered belonging to separate <<sequence,sequences>>. This duration (e.g. 120 seconds) can be defined in a <<data-management-system>> to automatically group <<media>> into sequences. This is different from the <<quiet-period,quiet period>>, which is a camera setting.
 
-[[independence-interval]]independence interval:: TODO
-
-[[individual]]individual:: TODO. Can be identified with {observations-individualID} in Camtrap DP.
-
-[[life-stage]]life stage:: TODO Also referred to as `age`. {observations-lifeStage} in Camtrap DP.
+[[individual]]individual:: Distinct organism, typically an animal.
 
 [[location]]location:: Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` cite:[newkirk-2016], `station` cite:[berkel-2014,camera-trap-manager], `project station` cite:[wildcam-project] or `trap station` cite:[camelot]. Deployment location with a {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, and {deployments-coordinateUncertainty} in Camtrap DP. See also <<section-location>>.
 
-[[machine-learning]]machine learning:: TODO
+[[machine-learning]]machine learning:: Computational technique that makes use of (training) data and algorithms to imitate the way that humans learn, gradually improving accuracy.
 
 [[media]]media:: <<media-file,Media files>> (plural) captured by a <<camera>>. Also referred to as `photos` cite:[newkirk-2016]. {media} in Camtrap DP. 
 
 [[media-file]]media file:: A (audio)visual file captured by a <<camera>>. Can be an <<image>> or <<video>>. A media file typically has an identifier, file name, timestamp when it was created and associated metadata (e.g. <<EXIF>>). To access a media file, one needs to know its <<file-path,file path>> and have the required access rights. Media with {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} in Camtrap DP. See also <<section-media-files>>.
 
-[[media-type]]media type:: TODO {media-fileMediatype} in Camtrap DP.
+[[media-type]]media type:: Standardized expression of a file format (e.g. `image/jpeg` for an <<image>>). Formerly known as MIME type. {media-fileMediatype} in Camtrap DP.
 
-[[observation]]observation:: TODO. {observations} in Camtrap DP. See also <<section-observations>>.
+[[observation]]observation:: Result of a <<classification>>, i.e. a record of what can be seen or heard on <<media-file,media-files>>. Has an <<observation-type,observation type>> to differentiate between animal and other observations. {observations} in Camtrap DP. See also <<section-observations>>.
 
-[[observation-type]]observation type:: Mention "animal observations" {observations-observationType} in Camtrap DP.
+[[observation-type]]observation type:: Categorical description of the type of <<observation>>. Recorded as part of the <<classification>>, allowing to differentiate between <<blank,blanks>>, observations of humans or vehicles and animal observations. {observations-observationType} in Camtrap DP.
 
 [[organization]]organization:: Entity comprising one or more people that share a particular purpose, such as a company, institution, association or partnership. Organizations can be directly associated with a <<project>> (e.g. as rights holder, publisher) or indirectly via the affiliation of the project <<participant,participants>>. An organization is a {package-contributors} in Camtrap DP.
 
@@ -91,30 +87,30 @@
 
 [[role]]role:: Function carried out by a <<participant>> in a <<project>>, such as project lead, data manager or volunteer <<classification,classifying>> media. Participants can have multiple roles and roles are typically associated with different rights in a <<data-management-system,data management system>> (e.g. the right to invite new participants). Also referred to as `participant type`. {package-contributors-role} in Camtrap DP. See also <<section-participants-and-roles>>.
 
-[[project]]project:: A scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. {package-project} in Camtrap DP, where a dataset is associated with one and only one project. See also <<section-project-metadata>>.
+[[project]]project:: Scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. {package-project} in Camtrap DP, where a dataset is associated with one and only one project. See also <<section-project-metadata>>.
 
 [[quiet-period]]quiet period:: Predefined duration after a <<trigger>> when <<activity>> detected by the camera sensor is ignored. {deployments-cameraDelay} in Camtrap DP.
 
-[[sampling-design]]sampling design:: TODO Types of sampling design, based on cite:[wearn-2017]: `simple random`, `systematic random`,`clustered random`, `experimental`, `targeted`, `opportunistic`. {package-project-samplingDesign} in Camtrap DP.
+[[sampling-design]]sampling design:: Strategy for deploying cameras to facilitate a certain research purpose. Can be expressed as a categorical description (e.g. `simple random`, `systematic random`, `opportunistic`). {package-project-samplingDesign} in Camtrap DP.
 
-[[sensitivity]]sensitivity:: The <<trigger>> sensitivity setting used on a camera sensor.
+[[sensitivity]]sensitivity:: <<trigger>> sensitivity setting used on a camera sensor.
 
-[[sensor]]sensor:: TODO the heat signature and motion of a target
+[[sensor]]sensor:: Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli.
 
-[[sequence]]sequence:: A series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of a <<trigger,triggering event>>. Also referred to as `series` cite:[wildtrax].
+[[sequence]]sequence:: Series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of an <<event>>. Also referred to as `series` cite:[wildtrax].
 
-[[setup]]setup:: TODO Indicated in {observations-cameraSetupType} in Camtrap DP.
+[[setup]]setup:: The act of deploying a <<camera>> in the field. Involves <<alignment>>, defining the camera settings and securing the camera to ensure optimal data captures. {observations-cameraSetupType} in Camtrap DP.
 
-[[site]]site:: A geographic area containing multiple <<location,locations>>.
+[[site]]site:: Geographic area containing multiple <<location,locations>>.
 
-[[species-recognition]]species recognition:: TODO
+[[species-recognition]]species recognition:: Automated identification and <<classification>> of different animal species based on visual or auditory data captured by camera traps.
 
-[[subproject]]subproject:: TODO
+[[subproject]]subproject:: Type of <<deployment-group,deployment group>> used to subdivide very large projects into more manageable units.
 
-[[trigger]]trigger:: TODO
+[[trigger]]trigger:: Condition that prompts a <<camera>> to activate and capture <<media>>. Modern camera traps typically use an integrated passive infrared (PIR) sensor that is designed to detect <<activity>> based on a combination of heat and motion.
 
 [[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identfier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
 
-[[video]]video:: TODO
+[[video]]video:: Moving <<media-file,media file>> recorded by a <<camera>>. Has a specific duration and can include audio.
 
 <<<
