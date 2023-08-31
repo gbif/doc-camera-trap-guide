@@ -23,9 +23,9 @@ Overall, we can distinguish four types of camera trap data:
 
 These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see <<figure-class-diagram>>). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
 
-.TODO, caption.
+.Class diagram for camera trap data, constituting of different classes (boxes) and relationships (arrows). Mandatory classes are dark blue, optional classes light blue. The arrow ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment.
 [#figure-class-diagram]
-image::img/web/class-diagram.svg[]
+image::img/web/class-diagram.svg[Class diagram,500,align="center"]
 
 [#section-project-metadata]
 === Project Metadata
@@ -58,7 +58,7 @@ image::img/web/example-metadata.png[]
 [#section-participants-and-roles]
 ==== Participants and roles
 
-A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles. We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data (see <<table-roles>>).
+A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles (see <<table-roles>>). We recommend simplifying those to a limited set of controlled values (e.g. https://tdwg.github.io/camtrap-dp/metadata/#contributors.role[Camtrap DP roles]) when publishing data.
 
 [#table-roles]
 .Participant roles in camera trap studies, as defined by different formats and data management systems.
@@ -83,10 +83,10 @@ A <<participant>> is a person associated with a camera trap project. Information
 |principalInvestigator
 |PrincipalInvestigator
 |
-|ProjectLeader
-ProjectManager
+|ProjectLeader +
+ProjectManager +
 Supervisor
-|Owner
+|Owner +
 Principal Investigator
 |Principal investigator
 |Project Owner
@@ -109,27 +109,27 @@ Publisher
 |
 
 |contributor
-|sequenceIdentifiedBy
+|sequenceIdentifiedBy +
 PhotoTypeIdentifiedBy
-|Crew Member
+|Crew Member +
 Surveyor
-|DataManager
-DataCurator
-DataCollector
-ProjectMember
+|DataManager +
+DataCurator +
+DataCollector +
+ProjectMember +
 Researcher
-|Curator
-Editor
-Author
-Content Provider
-Originator
-|Admin
-Taxonomic expert
-Photo processor
+|Curator +
+Editor +
+Author +
+Content Provider +
+Originator +
+|Admin +
+Taxonomic expert +
+Photo processor +
 Volunteer
-|Project Editor
-Project Contributor
-Project Tagger
+|Project Editor +
+Project Contributor +
+Project Tagger +
 
 |
 |
@@ -152,8 +152,12 @@ Awaiting access
 
 An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence (see <<table-sequence>>).
 
+.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source].
+[#figure-example-image]
+image::img/web/example-image.jpg[]
+
 [#table-sequence]
-.A series of images, resulting from 3 consecutive triggers and captured in one sequence. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.A series of images, resulting from 3 consecutive triggers and captured in one sequence. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=4*]
 |===
 
@@ -317,10 +321,6 @@ A camera also records metadata when creating a media file. This can include date
 
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>).
 
-.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. Source: https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file.
-[#figure-example-image]
-image::img/web/example-image.jpg[]
-
 [#table-exif]
 .Selected properties included in the EXIF metadata of the image in <<figure-example-image>>.
 [%header,cols=2*]
@@ -418,7 +418,7 @@ dep 2021 't WAD
 [#section-storage]
 ==== Storage
 
-The media files stored on memory cards should be stored and backed up, preferably by using online services. Due to the large volumes of generated data, storage can require a high investment in terms of space and costs. We recommend to use a <<section-data-management-systems,data management system>> to store your data as some of them offer free storage (e.g. Agouti, Wildlife Insights). It is also useful if your data storage system allows serving images over https, so that they can be linked to in published datasets (see <<table-sequence>>).
+Due to the large volume of generated data, it is not trivial to securely store, backup and manage media files. Cloud services or well managed institutional services are recommended, but these come at a substantial cost. We recommend the use of an online <<data-management-system,data management system>> to store your media files. Some offer this storage for free. It is also very useful if your data storage system can serve media files over http/https, using allows <<section-stable-unique-identifiers,stable URLs>> and optionally authentication. This allows you to directly reference/hotlink media files in a published dataset (see <<section-ac-accessuri,accessURI>>). Such a service is provided by e.g. Agouti cite:[agouti] (through `https://multimedia.agouti.eu/assets/`), https://www.flickr.com/[Flickr] (through `https://www.flickr.com/services/api/`) and https://zenodo.org/[Zenodo] (through the undocumented `https://zenodo.org/record/{record_id}/files/{file}`).
 
 [#section-deployments]
 === Deployments
@@ -428,7 +428,7 @@ A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployme
 Data management systems typically organize deployments into the following classes: <<deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>).
 
 [#table-deployment]
-.Recorded information for the deployment that generated the image in <<figure-example-image>>. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/
+.Recorded information for the deployment that generated the image in <<figure-example-image>>. https://tdwg.github.io/camtrap-dp/example/00a2c20d/[Source].
 [%header,cols=2*]
 |===
 |Property
@@ -491,7 +491,7 @@ Data management systems typically organize deployments into the following classe
 |Bait use
 |false
 
-|habitat
+|Habitat
 |Campine area with a number of river valleys with valuable grasslands
 |===
 
@@ -560,7 +560,7 @@ image::img/web/deployment-groups.png[]
 [#section-covariates]
 ==== Covariates
 
-Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. as part of the deployment. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:
+Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:
 
 * Biomes/ecoregions cite:[dinerstein-2017]
 * Ecological traits:
@@ -586,7 +586,7 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type,observation type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<section-column-naming,column naming conventions>> as for deployments.
 
 [#table-observation]
-.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. Source: https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343
+.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=2*]
 |===
 |Property
@@ -623,7 +623,7 @@ Observations are best recorded in a <<data-management-system,data management sys
 [#section-classification]
 ==== Classification
 
-Unfortunately, camera traps don not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
+Unfortunately, camera traps do not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
 
 * Media does or <<blank,does not>> contain object(s) of interest.
 * Object(s) of interest is a human or vehicle, or cannot be identified.
@@ -632,7 +632,47 @@ Unfortunately, camera traps don not provide observations directly. Media need to
 * Animal is identified as a known individual (e.g. wolf Noëlla).
 * Other properties of the animal are recorded, such as group size, life stage, sex, and behaviour.
 
-Different actors (experts, volunteers, AI) can reach different levels of precision, based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
+Different actors (experts, volunteers, AI) can reach different levels of precision (see <<table-classification-precision>>), based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
+
+[#table-classification-precision]
+.Observation records for four observed ducks, but provided at different levels of precision. Row one is the result of a classification at a high taxonomic level (family _Anatidae_). Row two is the result of a classification at species level (_Anas platyrhynchos_), but no further characteristics were recorded. Rows three and four are the result of a classification that further specified one duck to be male and showing foraging behaviour. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#14059fd2[Source].
+[%header,cols=4*]
+|===
+|scientificName
+|sex
+|count
+|behavior
+
+|Anatidae
+|
+|4
+|
+
+|
+|
+|
+|
+
+|Anas platyrhynchos
+|
+|4
+|
+
+|
+|
+|
+|
+
+|Anas platyrhynchos
+|male
+|1
+|foraging
+
+|Anas platyrhynchos
+|
+|3
+|
+|===
 
 [#section-citizen-science]
 ==== Citizen science
@@ -672,8 +712,8 @@ The list of scientific names that are available for <<classification>> in a proj
 
 |Catalogue of Life cite:[col-2023]
 |All
-|Scientific names
-Common names (select languages)
+|Scientific names +
+Common names (select languages) +
 Taxonomy
 
 |https://en.wikipedia.org/[Wikipedia] (English and other language versions)
@@ -682,33 +722,33 @@ Taxonomy
 
 |Clements Checklist of Birds of the World cite:[clements-2022]
 |Birds
-|Scientific names
-Common names (English)
+|Scientific names +
+Common names (English) +
 Taxonomy
 
 |(http://datazone.birdlife.org/species/search)[Birdlife International's taxonomy]
 |Birds
-|Scientific names
-Common names (English)
-Taxonomy
+|Scientific names +
+Common names (English) +
+Taxonomy +
 
 |https://www.iucnredlist.org/[IUCN Red List of Endangered Species]
 |Mammals
-|Scientific names
-Common names (select languages)
+|Scientific names +
+Common names (select languages) +
 Taxonomy
 
 |https://www.mammaldiversity.org/[American Society of Mammalogists Mammal Diversity Database]
 |Mammals
-|Scientific names
-Common names (English)
+|Scientific names +
+Common names (English) +
 Taxonomy
 |===
 
 [#section-data-management-systems]
 === Data management systems
 
-Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data managements cite:[young-2018]. These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:
+Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data management cite:[young-2018]. These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:
 
 * Create one or more projects
 * Invite <<participant,collaborators>> with different levels of access
@@ -745,7 +785,7 @@ TRAPPER is a good choice for organizations who want control over the software an
 [#section-wildlife-insights]
 ==== Wildlife Insights
 
-Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org/) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS cite:[ctms].
+Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS cite:[ctms].
 
 Wildlife Insights is a good choice for organizations who want a full-feature service with powerful AI and open data requirements.
 
