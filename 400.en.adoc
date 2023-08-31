@@ -768,7 +768,7 @@ Note that the {ac-extension} can contain duplicates, an important difference wit
 
 |<<section-ac-serviceexpectation,serviceExpectation>>
 |Share if available
-|public
+|online
 |===
 
 [#section-ac-occurrenceid]
@@ -832,17 +832,18 @@ The method(s) used to create or alter the media file. We recommend using this te
 
 https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]
 
-TODO
+The URI (Uniform Resource Identifier) that provides access to the media file. Although the term allows to point to relative file paths or offline storage, we strongly recommend to provide the http/https URL that serves the media file, if available (see <<section-storage>>). Use a http/https URL that serves the media file directly (not a HTML page embedding it), so it can be displayed on occurrence pages at GBIF.org. Camera trap images are typically small enough that it is not necessary to serve a reduced version of the file. In Camtrap DP, this term corresponds with {media-filePath}.
 
 [#section-ac-serviceexpectation]
 ===== serviceExpectation
 
 https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]
 
-TODO
+The service expectations users may have of the <<section-ac-accessuri,accessURI>>. We recommend using the controlled values `online` for media files that are publicly accessible over http/https and `authenticate` for media files that are kept private over http/https (see <<section-sensitive-media-files>>). In Camtrap DP, these values related to `TRUE` and `FALSE` respectively in {media-filePublic}.
+
 [#section-ac-format]
 ===== format
 
 https://ac.tdwg.org/termlist/#dc_format[dc:format]
 
-TODO
+The file format of the media file. We recommend providing the media type (MIME type) using the controlled values `image/jpeg`, `video/mp4` or `video/mpeg` of the https://ac.tdwg.org/format/[Audiovisual Core Controlled Vocabulary for Dublin Core]. Do not use https://ac.tdwg.org/termlist/#dcterms_format[dcterms:format], because that term expects a URL value. In Camtrap DP, this term corresponds with {media-fileMediatype}.
