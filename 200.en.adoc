@@ -13,7 +13,7 @@ Although most modern camera traps are equipped with PIR sensors, different metho
 
 In the past decades camera traps have been increasingly used to collect biodiversity data in a non-invasive manner with minimal disturbance of wildlife. As early as in the 1890’s, George Siras was the first to develop a method using tripwire and a flash system in which wild animals photographed themselves cite:[kucera-2011]. The first scientific camera trap studies date back to the beginning of the 20th century cite:[chapman-1927]. Since those pioneering days, technological advances in digital photography and infrared sensors have led to cost-effective, non-invasive detections of elusive wildlife cite:[burton-2015]. Camera traps have become popular research tools. They are easy to install, relatively cheap and do not require special permissions or training and are therefore being used by professional researchers and hobbyists at a very broad scale. Consequently, the number of annual publications concerning camera trap studies has grown more than 80-fold since the 1990’s. Camera trap technology is used to sample communities of medium- and large sized bird and mammal species inhabiting freshwater, terrestrial, fossorial, arboreal and marine habitats and have proven to be excellent tools to help biodiversity monitoring initiatives cite:[delisle-2021].
 
-The most frequently studied animal taxa include ungulates, carnivores, birds and primates, although the most innovative sensors allow the detection of amphibians, reptiles, small mammals, and large invertebrates as well cite:[hobbs-2017]. Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies and “bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains.
+The most frequently studied animal taxa include ungulates, carnivores, birds and primates, although the most innovative sensors allow the detection of amphibians, reptiles, small mammals, and large invertebrates as well cite:[hobbs-2017]. Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies. “Bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains.
 
 [#table-aims]
 .Aims and outputs of camera trap studies as taken from citenp:[wearn-2017].
@@ -66,8 +66,8 @@ The full life cycle of camera trap research includes the planning phase, the dep
 |Reference
 
 |Full camera trapping life cycle
-|General state of the art
-Future developments and camera trap constraints
+|General state of the art +
+Future developments and camera trap constraints.
 |citenp:[cadman-2014,rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]
 
 |Planning
