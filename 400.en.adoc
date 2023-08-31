@@ -623,7 +623,7 @@ An identifier for the <<location>>. This identifier allows users to find all obs
 
 term:dwc[dwc:locality]
 
-The name of the <<location>>. This is typically a name or code assigned within the camera trap study. In Camtrap DP, this term corresponds with {deployments-locality}.
+The name of the <<location>>. This is typically a name or code assigned within the camera trap study. In Camtrap DP, this term corresponds with {deployments-locationName}.
 
 [#section-decimallatitude-decimallongitude]
 ===== decimalLatitude & decimalLongitude
