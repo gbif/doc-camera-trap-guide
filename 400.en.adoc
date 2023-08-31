@@ -1,7 +1,7 @@
 [#section-4]
 == Publishing camera trap data
 
-Data publication is the process of making biodiversity data open and <<FAIR>> (findable, accessible, interoperable and reusable cite:[wilkinson-2016]). The best way to do this is by depositing your data in a <<data-repository,data repository>>. Repositories are specifically designed to find, aggregate, provide access and store research data. We recommend the use of the GBIF Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT]) cite:[robertson-2014] as a data repository to publish and register your dataset with the Global Biodiversity Information Facility (https://www.gbif.org[GBIF]). 
+Data publication is the process of making biodiversity data open and <<FAIR>> (findable, accessible, interoperable and reusable) cite:[wilkinson-2016]. The best way to do this is by depositing your data in a <<data-repository,data repository>>. Repositories are specifically designed to find, aggregate, provide access and store research data. We recommend the use of the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014] as a data repository to publish and register your dataset with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)]. 
 
 Publishing data through GBIF requires data preparation (see <<section-preparing-data>>) and standardization. Data standardization is the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively.
 
@@ -793,7 +793,7 @@ The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage`
 
 https://ac.tdwg.org/termlist/#ac_comments[ac:comments]
 
-The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceRemarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favorite}.
+The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceremarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favorite}.
 
 [#section-ac-rights]
 ===== rights
