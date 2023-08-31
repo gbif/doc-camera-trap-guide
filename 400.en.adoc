@@ -832,7 +832,7 @@ The method(s) used to create or alter the media file. We recommend using this te
 
 https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]
 
-The URI (Uniform Resource Identifier) that provides access to the media file. Although the term allows to point to relative file paths or offline storage, we strongly recommend to provide the http/https URL that serves the media file, if available (see <<section-storage>>). Use a http/https URL that serves the media file directly (not a HTML page embedding it), so it can be displayed on occurrence pages at GBIF.org. Camera trap images are typically small enough that it is not necessary to serve a reduced version of the file. In Camtrap DP, this term corresponds with {media-filePath}.
+The URI (Uniform Resource Identifier) that provides access to the media file. Although the term allows to point to relative <<file-path,file paths>> or offline storage, we strongly recommend to provide the http/https URL that serves the media file, if available (see <<section-storage>>). Use a http/https URL that serves the media file directly (not a HTML page embedding it), so it can be displayed on occurrence pages at GBIF.org. Camera trap images are typically small enough that it is not necessary to serve a reduced version of the file. In Camtrap DP, this term corresponds with {media-filePath}.
 
 [#section-ac-serviceexpectation]
 ===== serviceExpectation
