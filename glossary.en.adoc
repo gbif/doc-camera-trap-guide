@@ -95,7 +95,7 @@
 
 [[sensitivity]]sensitivity:: <<trigger>> sensitivity setting used on a camera sensor.
 
-[[sensor]]sensor:: Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli.
+[[sensor]]sensor:: Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli. Modern camera traps typically use an integrated passive infrared (PIR) sensor that is designed to detect <<activity>> based on a combination of heat and motion.
 
 [[sequence]]sequence:: Series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of an <<event>>. Also referred to as `series` cite:[wildtrax].
 
@@ -107,7 +107,7 @@
 
 [[subproject]]subproject:: Type of <<deployment-group,deployment group>> used to subdivide very large projects into more manageable units.
 
-[[trigger]]trigger:: Condition that prompts a <<camera>> to activate and capture <<media>>. Modern camera traps typically use an integrated passive infrared (PIR) sensor that is designed to detect <<activity>> based on a combination of heat and motion.
+[[trigger]]trigger:: <<sensor,Sensor>> condition that prompts a <<camera>> to activate and capture <<media>>. Also used to indicate the series of consecutive <<media-file,media files>> resulting from that trigger. One or more triggers form a <<sequence>>. Also referred to as `burst`.
 
 [[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identfier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
 
