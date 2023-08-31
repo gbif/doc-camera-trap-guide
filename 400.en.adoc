@@ -796,7 +796,7 @@ The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage`
 
 https://ac.tdwg.org/termlist/#ac_comments[ac:comments]
 
-The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceRemarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favourite}.
+The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceRemarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favorite}.
 
 [#section-ac-rights]
 ===== rights
