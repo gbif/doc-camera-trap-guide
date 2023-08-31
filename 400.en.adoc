@@ -1,6 +1,10 @@
 [#section-4]
 == Publishing camera trap data
 
+Data publication is the process of making biodiversity data open and <<FAIR>> (findable, accessible, interoperable and reusable, citenp:[wilkinson-2016]). The best way to do this is by depositing your data in a <<data-repository,data repository>>. Repositories are specifically designed to find, aggregate, provide access and store research data. We recommend the use of the GBIF IPT as a data repository to publish and register your dataset with GBIF. 
+
+Publishing data through GBIF requires data preparation (<<section-preparing-data>>) and standardization. Data standardization is the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively.
+
 ////
 See https://www.gbif.org/publishing-data
 Mention 1 study = 1 dataset
@@ -8,11 +12,6 @@ Mention 1 study = 1 dataset
 
 [#section-preparing-data]
 === Preparing data
-
-[#section-data-exchange-format]
-==== Data exchange format
-
-Publishing data through GBIF requires standardization, i.e. the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively.
 
 [#section-stable-unique-identifiers]
 ==== Stable unique identifiers
