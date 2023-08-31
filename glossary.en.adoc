@@ -87,27 +87,27 @@
 
 [[role]]role:: Function carried out by a <<participant>> in a <<project>>, such as project lead, data manager or volunteer <<classification,classifying>> media. Participants can have multiple roles and roles are typically associated with different rights in a <<data-management-system,data management system>> (e.g. the right to invite new participants). Also referred to as `participant type`. {package-contributors-role} in Camtrap DP. See also <<section-participants-and-roles>>.
 
-[[project]]project:: A scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. {package-project} in Camtrap DP, where a dataset is associated with one and only one project. See also <<section-project-metadata>>.
+[[project]]project:: Scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. {package-project} in Camtrap DP, where a dataset is associated with one and only one project. See also <<section-project-metadata>>.
 
 [[quiet-period]]quiet period:: Predefined duration after a <<trigger>> when <<activity>> detected by the camera sensor is ignored. {deployments-cameraDelay} in Camtrap DP.
 
-[[sampling-design]]sampling design:: the planning of camera trap locations, deployment strategies, and data collection procedures within a specific camera trap project.  Types of sampling design, based on cite:[wearn-2017]: `simple random`, `systematic random`,`clustered random`, `experimental`, `targeted`, `opportunistic`. {package-project-samplingDesign} in Camtrap DP.
+[[sampling-design]]sampling design:: Strategy for deploying cameras to facilitate a certain research purpose. Can be expressed as a categorical description (e.g. `simple random`, `systematic random`, `opportunistic`). {package-project-samplingDesign} in Camtrap DP.
 
-[[sensitivity]]sensitivity:: The <<trigger>> sensitivity setting used on a camera sensor.
+[[sensitivity]]sensitivity:: <<trigger>> sensitivity setting used on a camera sensor.
 
-[[sensor]]sensor:: Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli. They trigger the capture of <<image,images>>, <<video,videos>>, or audio recordings when specific conditions occur within the camera's field of view.
+[[sensor]]sensor:: Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli.
 
-[[sequence]]sequence:: A series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of an <<event>>. Also referred to as `series` cite:[wildtrax].
+[[sequence]]sequence:: Series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of an <<event>>. Also referred to as `series` cite:[wildtrax].
 
-[[setup]]setup:: The configuration of a camera trap in the field, involving the camera's location, orientation, sensor settings, and other accompanying accessories to ensure optimal data capture. Indicated in {observations-cameraSetupType} in Camtrap DP.
+[[setup]]setup:: The act of deploying a <<camera>> in the field. Involves <<alignment>>, defining the camera settings and securing the camera to ensure optimal data captures. {observations-cameraSetupType} in Camtrap DP.
 
-[[site]]site:: A geographic area containing multiple <<location,locations>>.
+[[site]]site:: Geographic area containing multiple <<location,locations>>.
 
-[[species-recognition]]species recognition:: The automated identification and classification of different animal species based on visual or auditory data captured by camera traps.
+[[species-recognition]]species recognition:: Automated identification and <<classification>> of different animal species based on visual or auditory data captured by camera traps.
 
-[[subproject]]subproject:: a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. Subprojects are used to facilitate their management.
+[[subproject]]subproject:: Type of <<deployment-group,deployment group>> used to subdivide very large projects into more manageable units.
 
-[[trigger]]trigger:: A condition that prompts a camera trap to activate and capture images, videos, or audio recordings.
+[[trigger]]trigger:: Condition that prompts a <<camera>> to activate and capture <<media>>. Modern camera traps typically use an integrated passive infrared (PIR) sensor that is designed to detect <<activity>> based on a combination of heat and motion.
 
 [[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identfier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
 
