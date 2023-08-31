@@ -648,21 +648,13 @@ The kingdom in which the taxon with the <<section-scientificname,scientificName>
 |Share if available
 |StillImage
 
+|<<section-ac-comments,comments>>
+|Share if available
+|
+
 |<<section-ac-rights,rights>> 
 |Strongly recommended
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
-
-|<<section-ac-accessuri,accessURI>>
-|Required
-|[.break-all]#https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file#
-
-|<<section-ac-serviceexpectation,serviceExpectation>>
-|Share if available
-|public
-
-|<<section-ac-format,format>>
-|Share if available
-|image/jpeg
 
 |<<section-ac-createdate,CreateDate>>
 |Share if available
@@ -676,9 +668,17 @@ The kingdom in which the taxon with the <<section-scientificname,scientificName>
 |Share if available
 |motion detection
 
-|<<section-ac-comments,comments>>
+|<<section-ac-accessuri,accessURI>>
+|Required
+|[.break-all]#https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file#
+
+|<<section-ac-format,format>>
 |Share if available
-|
+|image/jpeg
+
+|<<section-ac-serviceexpectation,serviceExpectation>>
+|Share if available
+|public
 |===
 
 [#section-ac-occurrenceid]
@@ -702,39 +702,25 @@ https://ac.tdwg.org/termlist/#dc_type[dc:type]
 
 TODO
 
-Not https://ac.tdwg.org/termlist/#dcterms_type[dcterms:type]
+
+
+[#section-ac-comments]
+===== comments
+
+https://ac.tdwg.org/termlist/#ac_comments[ac:comments]
+
+TODO
+
 
 [#section-ac-rights]
 ===== rights
 
-https://ac.tdwg.org/termlist/#dc_rights[dc:rights]
+https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]
 
 TODO
 
-Not https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights] 
 
-[#section-ac-accessuri]
-===== accessURI
 
-https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]
-
-TODO
-
-[#section-ac-serviceexpectation]
-===== serviceExpectation
-
-https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]
-
-TODO
-
-[#section-ac-format]
-===== format
-
-https://ac.tdwg.org/termlist/#dc_format[dc:format]
-
-TODO
-
-Not https://ac.tdwg.org/termlist/#dcterms_format[dcterms:format]
 
 [#section-ac-createdate]
 ===== CreateDate
@@ -757,9 +743,23 @@ https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTe
 
 TODO
 
-[#section-ac-comments]
-===== comments
 
-https://ac.tdwg.org/termlist/#ac_comments[ac:comments]
+[#section-ac-accessuri]
+===== accessURI
+
+https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]
+
+TODO
+
+[#section-ac-serviceexpectation]
+===== serviceExpectation
+
+https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]
+
+TODO
+[#section-ac-format]
+===== format
+
+https://ac.tdwg.org/termlist/#dc_format[dc:format]
 
 TODO
