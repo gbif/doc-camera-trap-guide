@@ -776,23 +776,21 @@ Note that the {ac-extension} can contain duplicates, an important difference wit
 
 term:dwc[dwc:occurrenceID]
 
-TODO
+A foreign key to the <<section-occurrenceid,occurrenceID>> in the {occurrence-core}, to indicate the relation between the <<observation>> and the <<media-file,media file(s)>> on which it is based. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {observations-observationID}, but the relationship between {observations} and {media} can be established in several ways: either directly via {observation-mediaID} or by selecting media that have the same {media-deploymentID} as the observation and that have a {media-timestamp}s that falls within the {observations-eventStart} and {observations-eventEnd} of the observation.
 
 [#section-ac-identifier]
 ===== identifier
 
 https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]
 
-TODO
+An identifier for the <<media-file,media file>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {media-mediaID}.
 
 [#section-ac-type]
 ===== type
 
 https://ac.tdwg.org/termlist/#dc_type[dc:type]
 
-TODO
-
-
+The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage` for <<video,videos>>. Do not use https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type], because that term expects a URL value.
 
 [#section-ac-comments]
 ===== comments
