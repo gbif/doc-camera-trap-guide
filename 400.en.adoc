@@ -131,7 +131,7 @@ With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences
 It unfortunately also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the {occurrence-extension} with an {ac-extension}. It is techniqually possible to link the {ac-extension} with the {event-core}, but the media would then not be linked to the occurrences and not appear on occurrence pages at GBIF.org. The only available option to express information about the media at an occurrence level would be to use term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s). License, media type, capture method, bounding boxes, etc. cannot be provided.
 
 [#table-event-core]
-.{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source for example values].
+.{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=5*]
 |===
 |eventType
@@ -152,19 +152,19 @@ It unfortunately also **impedes us from expressing information about the <<media
 |00a2c20d
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
-|Same as deployment
+|51.496, 4.774
 
 |media
 |e68deaed
 |79204343
 |2020-06-12T04:04:29Z
-|Same as deployment
+|51.496, 4.774
 
 |media
 |c5efbcb3
 |79204343
 |2020-06-12T04:04:30Z
-|Same as deployment
+|51.496, 4.774
 |===
 
 [#table-occurrence-extension]
@@ -179,24 +179,110 @@ It unfortunately also **impedes us from expressing information about the <<media
 |e68deaed_2
 |e68deaed
 |Anas platyrhynchos
-|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file
+|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file#
 
 |c5efbcb3_2
 |c5efbcb3
 |Anas platyrhynchos
-|https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 
 |05230014
 |79204343
 |Ardea cinerea
-|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \|
-https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file
+|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \|
+https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |===
+
+We therefore recommend expressing camera trap data as an Occurrence dataset with an {occurrence-core} and an {ac-extension} (see <<table-occurrence-core>> and <<table-ac-extension>>). This treats **media as primary data records**, which is important given that they are the evidence on which the observations are based. Event hierarchy can largely be retained as well, since the {occurrence-core} allows to group occurrences into events (term:dwc[dwc:eventID]) and parent events (term:dwc[dwc:parentEventID]). By providing the <<event>>/sequence identifier in term:dwc[dwc:eventID] and <<deployment>> identifier in term:dwc[dwc:parentEventID], observations can be grouped just like they would in an {event-core} and GBIF.org will automatically create event pages for those (see <<figure-example-event-page>>). Event duration information however cannot be provided, but <<section-eventdate,eventDate>> and <<section-samplingeffort,samplingEffort>> can retain most of it. Information about the deployment location, habitat, sampling protocol, etc. is repeated for every observation in the deployment.
+
+Term recommendations for the {occurrence-core} and {ac-extension} are provided in <<section-occurrence-core>> and <<section-ac-extension>> respectively.
+
+[#table-occurrence-core]
+.{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+[%header,cols=6*]
+|===
+|occurrenceID
+|eventID
+|parentEventID
+|scientificName
+|eventDate
+|Location information
+
+|e68deaed_2
+|79204343
+|00a2c20d
+|Anas platyrhynchos
+|2020-06-12T04:04:29Z
+|51.496, 4.774
+
+|c5efbcb3_2
+|79204343
+|00a2c20d
+|Anas platyrhynchos
+|2020-06-12T04:04:30Z
+|51.496, 4.774
+
+|05230014
+|79204343
+|00a2c20d
+|Ardea cinerea
+|2020-06-12T04:04:29Z/
+2020-06-12T04:04:55Z
+|51.496, 4.774
+|===
+
+[#table-ac-extension]
+.{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+[%header,cols=6*]
+|===
+|observationID
+|identifier
+|accessURI
+|CreateDate
+|captureDevice
+|rights
+
+|e68deaed_2
+|e68deaed
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|2020-06-12T04:04:29Z
+|Reconyx-HF2X
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+
+|c5efbcb3_2
+|c5efbcb3
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|2020-06-12T04:04:30Z
+|Reconyx-HF2X
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+
+|05230014
+|e68deaed
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|2020-06-12T04:04:29Z
+|Reconyx-HF2X
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+
+|05230014
+|c5efbcb3
+|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
+|2020-06-12T04:04:30Z
+|Reconyx-HF2X
+|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
+|===
+
+.Screenshot of an https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[event page] created by GBIF.org from information provided in an {occurrence-core} (based on row 3 in <<table-occurrence-core>>). Notice the event ID (a sequence) and parent event ID (a deployment).
+[#figure-example-event-page]
+image::img/web/example-event-page.png[]
 
 [#section-occurrence-core]
 ==== Occurrence core
 
-[#table-dwc-occurrence-core]
+As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {occurrence-core} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-occurrence-core>> for term recommendations. These recommendations align with the GBIF quality requirements for Occurrence datasets cite:[gbif-2020] and use the same terminology (Required, Strongly recommended, Share if available).
+
+Note that the {occurrence-core} should only contain <<observation-type,animal observations>>, so classifications of <<blank,blanks>>, vehicles and preferrably <<section-sensitive-media-files,humans>> should be filtered out. The number of records will depend on the size of the study, the classification effort (are all media classified?), the classification precision (see <<table-classification-precision>>) and whether <<section-media-or-event-based-classification,media or event based classification>> was used. Especially media based classifications can substantially increase the number of occurrences, with little added benefit for ecological research. <<camtrap-dp,Camtrap DP>> is designed for both, but when publishing as a Darwin Core Archive, we recommend only providing event based observations if available.
+
+[#table-occurrence-core]
 .Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=3*]
 |===
@@ -417,7 +503,7 @@ An identifier for the <<observation>>. Use a <<section-stable-unique-identifiers
 
 term:dwc[dwc:individualCount]
 
-The number of observed <<individual,individuals>>. Note that this number is dependent on the granularity of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
+The number of observed <<individual,individuals>>. Note that this number is dependent on the <<table-classification-precision,precision>> of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
 
 [#section-sex]
 ===== sex
@@ -626,9 +712,13 @@ term:dwc[dwc:kingdom]
 The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classifications>> of plants, fungi or other kingdoms.
 
 [#section-ac-extension]
-==== Audobon Media Description extension
+==== Audubon Media Description extension
 
-[#table-ac-media-extension]
+As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {ac-extension} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-ac-extension>> for term recommendations.
+
+Note that the {ac-extension} can contain duplicates, an important difference with Camtrap DP's {media} where each file is only listed once. Repeated <<section-ac-occurrenceid,occurrenceIDs>> are the result of a single <<section-media-or-event-based-classification,event based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated <<section-ac-identifier,identifiers>> are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media file `e68deaed` in <<table-ac-extension>>). The extension should however contain unique <<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>> combinations.
+
+[#table-ac-extension]
 .Recommended terms to use when expressing camera trap data as an {ac-extension}. <<figure-example-image,Source>>.
 [%header,cols=3*]
 |===
