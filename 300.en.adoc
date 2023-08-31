@@ -712,8 +712,8 @@ The list of scientific names that are available for <<classification>> in a proj
 
 |Catalogue of Life cite:[col-2023]
 |All
-|Scientific names
-Common names (select languages)
+|Scientific names +
+Common names (select languages) +
 Taxonomy
 
 |https://en.wikipedia.org/[Wikipedia] (English and other language versions)
@@ -722,26 +722,26 @@ Taxonomy
 
 |Clements Checklist of Birds of the World cite:[clements-2022]
 |Birds
-|Scientific names
-Common names (English)
+|Scientific names +
+Common names (English) +
 Taxonomy
 
 |(http://datazone.birdlife.org/species/search)[Birdlife International's taxonomy]
 |Birds
-|Scientific names
-Common names (English)
-Taxonomy
+|Scientific names +
+Common names (English) +
+Taxonomy +
 
 |https://www.iucnredlist.org/[IUCN Red List of Endangered Species]
 |Mammals
-|Scientific names
-Common names (select languages)
+|Scientific names +
+Common names (select languages) +
 Taxonomy
 
 |https://www.mammaldiversity.org/[American Society of Mammalogists Mammal Diversity Database]
 |Mammals
-|Scientific names
-Common names (English)
+|Scientific names +
+Common names (English) +
 Taxonomy
 |===
 
