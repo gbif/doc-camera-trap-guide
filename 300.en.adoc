@@ -491,7 +491,7 @@ Data management systems typically organize deployments into the following classe
 |Bait use
 |false
 
-|habitat
+|Habitat
 |Campine area with a number of river valleys with valuable grasslands
 |===
 
