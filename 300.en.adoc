@@ -748,7 +748,7 @@ Taxonomy
 [#section-data-management-systems]
 === Data management systems
 
-Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data managements cite:[young-2018]. These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:
+Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data management cite:[young-2018]. These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:
 
 * Create one or more projects
 * Invite <<participant,collaborators>> with different levels of access
