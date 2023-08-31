@@ -152,6 +152,10 @@ Awaiting access
 
 An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single sequence (see <<table-sequence>>).
 
+.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source].
+[#figure-example-image]
+image::img/web/example-image.jpg[]
+
 [#table-sequence]
 .A series of images, resulting from 3 consecutive triggers and captured in one sequence. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
 [%header,cols=4*]
@@ -316,10 +320,6 @@ An often used compromise is to take a series of images when a camera is triggere
 A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Metadata for videos is less standardised, although some formats like AVI and MOV support EXIF.
 
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>).
-
-.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source].
-[#figure-example-image]
-image::img/web/example-image.jpg[]
 
 [#table-exif]
 .Selected properties included in the EXIF metadata of the image in <<figure-example-image>>.
