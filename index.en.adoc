@@ -1,4 +1,4 @@
-= Best Practices for Managing and Publishing Camera Trap Data
+= Best Practices for Managing and Publishing Camera Trap Data: Community Review DRAFT
 :authorcount: 3
 :author_1: Lien Reyserhove
 :author_2: Ben Norton
