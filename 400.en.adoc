@@ -736,7 +736,7 @@ Note that the {ac-extension} can contain duplicates, an important difference wit
 
 |<<section-ac-comments,comments>>
 |Share if available
-|media marked as favourite
+|marked as favourite
 
 |<<section-ac-rights,rights>> 
 |Strongly recommended
