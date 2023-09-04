@@ -416,7 +416,7 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 
 |<<section-identificationremarks,identificationRemarks>>
 |Share if available
-|classified by human
+|classified by a human
 
 |<<section-taxonid,taxonID>>
 |Share if available
@@ -682,8 +682,8 @@ The comments or notes about the identification. We recommend using this term to 
 Examples:
 
 ----
-classified by human
-classified by machine with a 0.89 certainty
+classified by a human
+classified by a machine with a degree of certainty of 89%
 ----
 
 [#section-taxonid]
