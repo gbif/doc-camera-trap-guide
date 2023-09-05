@@ -107,7 +107,7 @@ Text fields such as comments and notes (e.g. {deployments-deploymentComments} or
 
 We recommend the use of <<camtrap-dp,Camera Trap Data Package (Camtrap DP)>> to publish camera trap data. It is specifically designed for this type of data and can retain more information than a <<darwin-core-archive,Darwin Core Archive>> cite:[bubnicki-2023]. Some <<data-management-system,data management systems>> directly support it as an export format (see <<table-data-management-systems>>), reducing the need for data transformation when publishing through GBIF.
 
-See the https://tdwg.github.io/camtrap-dp/[Camtrap DP website] for term definitions, recommendations and examples.
+See the https://camtrap-dp.tdwg.org[Camtrap DP website] for term definitions, recommendations and examples.
 
 [NOTE]
 ====
@@ -127,7 +127,7 @@ With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences
 It unfortunately also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the {occurrence-extension} with an {ac-extension}. It is techniqually possible to link the {ac-extension} with the {event-core}, but the media would then not be linked to the occurrences and not appear on occurrence pages at GBIF.org. The only available option to express information about the media at an occurrence level would be to use term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s). License, media type, capture method, bounding boxes, etc. cannot be provided.
 
 [#table-event-core]
-.{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+.{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header,cols=5*]
 |===
 |eventType
@@ -164,7 +164,7 @@ It unfortunately also **impedes us from expressing information about the <<media
 |===
 
 [#table-occurrence-extension]
-.{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media based>> classifications of _Anas platyrhynchos_ and one event based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+.{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media based>> classifications of _Anas platyrhynchos_ and one event based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header,cols=4*]
 |===
 |occurrenceID
@@ -194,7 +194,7 @@ We therefore recommend expressing camera trap data as an Occurrence dataset with
 Term recommendations for the {occurrence-core} and {ac-extension} are provided in <<section-occurrence-core>> and <<section-ac-extension>> respectively.
 
 [#table-occurrence-core]
-.{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+.{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header,cols=6*]
 |===
 |occurrenceID
@@ -228,7 +228,7 @@ Term recommendations for the {occurrence-core} and {ac-extension} are provided i
 |===
 
 [#table-ac-extension]
-.{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+.{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header,cols=6*]
 |===
 |observationID
@@ -279,7 +279,7 @@ As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to
 Note that the {occurrence-core} should only contain <<observation-type,animal observations>>, so classifications of <<blank,blanks>>, vehicles and preferrably <<section-sensitive-media-files,humans>> should be filtered out. The number of records will depend on the size of the study, the classification effort (are all media classified?), the classification precision (see <<table-classification-precision>>) and whether <<section-media-or-event-based-classification,media or event based classification>> was used. Especially media based classifications can substantially increase the number of occurrences, with little added benefit for ecological research. <<camtrap-dp,Camtrap DP>> is designed for both, but when publishing as a Darwin Core Archive, we recommend only providing event based observations if available.
 
 [#table-occurrence-core-terms]
-.Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://tdwg.github.io/camtrap-dp/example/00a2c20d/#79204343[Source].
+.Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header,cols=3*]
 |===
 |Term
