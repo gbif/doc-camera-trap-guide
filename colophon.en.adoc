@@ -25,9 +25,7 @@ The document _Best Practices for Managing and Publishing Camera Trap Data_ is li
 
 === Persistent URI
 
-#TODO: Assign a DOI before publication#
-// Uncomment once a DOI is assigned
-//https://doi.org/10.EXAMPLE/EXAMPLE
+https://doi.org/10.35035/doc-7ssq-vm94
 
 === Document control
 
