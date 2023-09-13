@@ -27,7 +27,7 @@
 
 [[cloud-computing]]cloud computing:: Performing computing tasks on a distributed IT infrastructure (“cloud service”). Typically at a cost (“pay as you go”) in return for better performance and less maintenance.
 
-[[computer-vision]]computer vision:: Processing, analyzing and understanding of <<media>> by machines to aid <<classification>>, from object tracking to species identification. A form of artificial intelligence, typically trained with <<machine-learning,machine learning>>.
+[[computer-vision]]computer vision:: Processing, analysing and understanding of <<media>> by machines to aid <<classification>>, from object tracking to species identification. A form of artificial intelligence, typically trained with <<machine-learning,machine learning>>.
 
 [[covariates]]covariates:: Ecological variables that may affect the behaviour and detection of animals (e.g. <<bait,bait use>>, <<feature-type,feature type>>, <<habitat-type,habitat>>, canopy cover). Recording covariates is important for further analysis of the data. See also <<section-covariates>>.
 
@@ -49,7 +49,7 @@
 
 [[event]]event:: Action that occurs at a specific <<location>> for a specific duration. In camera trap research, events typically refer to animal <<activity>> recorded through one or more <<trigger,triggers>> and forming a <<sequence>>, but other definitions might be used when analysing data. Events can be indicated with {observations-eventID}, {observations-eventStart} and {observations-eventEnd} in Camtrap DP. In a <<darwin-core-archive,Darwin Core Archive>>, <<deployment,deployments>> can also be considered events.
 
-[[EXIF]]EXIF:: Exchangeable Image File Format. A format for storing metadata about a <<media-file,media fiel>> (e.g. creation date and time, format, resolution, shutter speed, exposure level, camera model), typicall stored as part of the media file. {media-exifData} in Camtrap DP.
+[[EXIF]]EXIF:: Exchangeable Image File Format. A format for storing metadata about a <<media-file,media file>> (e.g. creation date and time, format, resolution, shutter speed, exposure level, camera model), typically stored as part of the media file. {media-exifData} in Camtrap DP.
 
 [[FAIR]]FAIR:: FAIR (meta)data are (meta)data that meet the principles of findability, accessibility, interoperability and reusability. The FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. See citenp:[wilkinson-2016].
 
@@ -109,7 +109,7 @@
 
 [[trigger]]trigger:: <<sensor,Sensor>> condition that prompts a <<camera>> to activate and capture <<media>>. Also used to indicate the series of consecutive <<media-file,media files>> resulting from that trigger. One or more triggers form a <<sequence>>. Also referred to as `burst`.
 
-[[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identfier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
+[[UUID]]UUID:: Universally Unique Identifier (UUID). A type of globally unique identifier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`.
 
 [[video]]video:: Moving <<media-file,media file>> recorded by a <<camera>>. Has a specific duration and can include audio.
 

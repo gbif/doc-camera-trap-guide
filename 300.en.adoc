@@ -1,9 +1,9 @@
 [#section-3]
 == Managing camera trap data
 
-Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the timeframe of the project. Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. The content of the images needs interpretation or annotation, either manually or facilitated by technology. All these steps are considered in the data management process.
+Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the time frame of the project. Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. The content of the images needs interpretation or annotation, either manually or facilitated by technology. All these steps are considered in the data management process.
 
-Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of manpower and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of nontarget species provide valuable data for other research objectives. If all data, including non target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017].
+Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of manpower and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of non-target species provide valuable data for other research objectives. If all data, including non target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017].
 
 To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data.
 
@@ -39,7 +39,7 @@ When published, project metadata are a substantial part of the dataset metadata 
 * Description (including rationale)
 * Contributors and their roles (including organizations)
 * Sampling design (simple random, systematic random, etc.)
-* Capture method (motion detection and/or timelapse)
+* Capture method (motion detection and/or time lapse)
 * Whether individual animals were tracked
 * Geographic scope
 * Temporal scope
@@ -67,7 +67,7 @@ A <<participant>> is a person associated with a camera trap project. Information
 |Camtrap DP
 |CTMS cite:[ctms]
 |Wildlife camera metadata protocol cite:[risc-2019]
-|Datacite cite:[datacite]
+|DataCite cite:[datacite]
 |EML cite:[eml-2015]
 |Agouti cite:[agouti]
 |Wildlife Insights cite:[wildlife-insights]
@@ -317,7 +317,7 @@ image::img/web/example-image.jpg[]
 |https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72
 |===
 
-A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Metadata for videos is less standardised, although some formats like AVI and MOV support EXIF.
+A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Metadata for videos is less standardized, although some formats like AVI and MOV support EXIF.
 
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>).
 
@@ -346,7 +346,7 @@ Data management systems typically organize media files and the associated metada
 |Vertical resolution
 |72 dpi
 
-|Exif version
+|EXIF version
 |0220
 
 |Make
@@ -394,8 +394,8 @@ The date and time a media file was recorded is the most important aspect of its 
 Media files are best managed by a <<data-management-system,data management system>>. If you manage your media files yourself, then we recommend the following file and directory naming conventions:
 
 * Avoid renaming media file names. Rather, organize media files in one directory for each <<deployment>>. This also prevents raw file names from overlapping across cameras. Note that file paths may be used as identifiers in <<classification>> data.
-* Make sure that ordering files alphabetically also sorts them chronologically. This is likely already the case for sequentially assigned file names (e.g. `IMG_4545.jpg`). Otherwise, start the name with the date (`YYYYMMDD`) or datetime (`YYYYMMDD_HHMMSS`). This can also be useful for directory names.
-* If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than whitespace (`image 1`). Avoid special characters.
+* Make sure that ordering files alphabetically also sorts them chronologically. This is likely already the case for sequentially assigned file names (e.g. `IMG_4545.jpg`). Otherwise, start the name with the date (`YYYYMMDD`) or date-time (`YYYYMMDD_HHMMSS`). This can also be useful for directory names.
+* If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than white space (`image 1`). Avoid special characters.
 * Do not store <<classification>> information as part of the media file name.
 * Be consistent.
 
@@ -501,7 +501,7 @@ Data management systems typically organize deployments into the following classe
 Deployment information is best recorded in a <<data-management-system,data management system>>. If you manage your deployment information elsewhere (e.g. a spreadsheet), then we recommend the following column naming conventions:
 
 * Use descriptive names, so users have an idea of what information to expect.
-* Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than whitespace (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camelCase is most often used in data standards.
+* Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than white space (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camel case is most often used in data standards.
 * Avoid abbreviations to mitigate the risk of confusion, except for well known words like `ID` for identifier.
 * Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values.
 * Be consistent.
@@ -567,8 +567,8 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 ** COMBINE cite:[soria-2021]
 ** PanTHERIA cite:[jones-2009]
 ** EltonTraits cite:[wilman-2014]
-** AmphBIO cite:[oliveira-2017]
-** GlobTerm cite:[bennett-2018]
+** AmphiBIO cite:[oliveira-2017]
+** GlobTherm cite:[bennett-2018]
 ** AVONET cite:[tobias-2022]
 ** https://opentraits.org/datasets.html[Open Traits Network]
 * Habitat classification cite:[jung-2020]
@@ -764,7 +764,7 @@ Managing camera trap data can be daunting, especially for larger projects. Lucki
 
 Agouti cite:[agouti] (https://agouti.eu) is an online system for managing camera trap data. It is maintained by Wageningen University & Research and the Research Institute for Nature and Forest (INBO), based respectively in the Netherlands and Belgium. Agouti is mainly used by European projects and is free to use.
 
-Classification is event based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. AI classification is possible, using a dedicated species classification model that is updated regularly. Media containing humans are always hidden from the public. Data are stored on university infrastructure, which also offers long term archival and hotlinking to media. Project metadata can be made available via a public portal. Data can be exported as <<camtrap-dp,Camtrap DP>>.
+Classification is event based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. AI classification is possible, using a dedicated species classification model that is updated regularly. Media containing humans are always hidden from the public. Data are stored on university infrastructure, which also offers long term archival and hot-linking to media. Project metadata can be made available via a public portal. Data can be exported as <<camtrap-dp,Camtrap DP>>.
 
 Agouti is a good choice for organizations who want a free full-feature European based service.
 
@@ -790,11 +790,11 @@ Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) is
 Wildlife Insights is a good choice for organizations who want a full-feature service with powerful AI and open data requirements.
 
 [#section-wildtrax]
-==== Wildtrax
+==== WildTrax
 
-WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. It is maintained by the University of Alberta, based in Canada. Wildtrax is mainly used by Canadian projects and is free to use (except for very large projects). Classification is media based with the option to classify multiple media at once. AI classification is possible, but only at a broad level (blanks, animals, vehicles), species classification is not (yet) offered. Data are stored in the cloud. Project metadata can be made available via a public portal. Data can be exported in a custom format (with associated R package).
+WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. It is maintained by the University of Alberta, based in Canada. WildTrax is mainly used by Canadian projects and is free to use (except for very large projects). Classification is media based with the option to classify multiple media at once. AI classification is possible, but only at a broad level (blanks, animals, vehicles), species classification is not (yet) offered. Data are stored in the cloud. Project metadata can be made available via a public portal. Data can be exported in a custom format (with associated R package).
 
-Wildtrax is a good choice for organizations who want a free service based in Canada.
+WildTrax is a good choice for organizations who want a free service based in Canada.
 
 [#table-data-management-systems]
 .Comparison of features offered by five data management systems. Features that are the same for all systems are not shown.
