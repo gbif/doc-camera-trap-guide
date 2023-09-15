@@ -7,13 +7,11 @@ endif::backend-html5[]
 
 === Suggested citation
 
-Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. Community review draft. GBIF Secretariat: Copenhagen. 
-// Uncomment once a DOI is assigned
-//https://doi.org/10.EXAMPLE/EXAMPLE
+Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. Community review draft. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-0qzp-2x37
 
 === Authors
 
-https://www.orcid.org/0000-0001-7484-9267[Lien Reyserhove], https://www.orcid.org/0000-0002-5819-9134[Ben Norton] & https://www.orcid.org/0000-0002-8442-8025[Peter Desmet]
+https://orcid.org/0000-0001-7484-9267[Lien Reyserhove], https://orcid.org/0000-0002-5819-9134[Ben Norton] & https://orcid.org/0000-0002-8442-8025[Peter Desmet]
 
 === Contributors
 
@@ -25,13 +23,8 @@ The document _Best Practices for Managing and Publishing Camera Trap Data_ is li
 
 === Persistent URI
 
-https://doi.org/10.35035/doc-7ssq-vm94
+https://doi.org/10.35035/doc-0qzp-2x37
 
 === Document control
 
 Community review draft, September 2023
-
-// include reference to provenance if possible/relevant
-// https://doi.org/10.EXAMPLE/2ND-EXAMPLE[Second edition], March 2015, by Due Autore and https://orcid.org/0000-0000-0000-0000[Troisième Auteur].
-
-// Originally based on an earlier publication, _Towards establishing the special guide to something_.
