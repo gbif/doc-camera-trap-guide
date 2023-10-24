@@ -22,7 +22,7 @@ This guide is intended to be useful for anyone managing a camera trap study. The
 [#section-what-this-guide-is-not-about]
 === What this guide is not about
 
-This guide primarily focuses on the management, quality control, enhancement and publication of camera trap data. This following topics are out of scope:
+This guide primarily focuses on the management, quality control, enhancement and publication of camera trap data. The following topics are out of scope:
 
 * Planning a camera trap study:  types of camera traps,  study design,  etc.
 * Camera trap deployment and collection: field work, baits and lures, data retrieval, etc. 
