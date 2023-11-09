@@ -35,7 +35,7 @@
 
 [[data-management-system]]data management system:: Online or desktop application to manage camera trap data. Typically includes functionality to upload <<media>>, add <<deployment>> information, <<classification,classify>> images, export data, invite <<participant,participants>> and manage a <<project>>. See also <<section-data-management-systems>>.
 
-[[data-repository]]data repository:: Online system for the long term archival of (research) data (e.g. https://zenodo.org[Zenodo], https://datadryad.org/[Dryad] and the GBIF https://www.gbif.org/ipt[IPT]). Different from a <<data-management-system,data management system>> which is designed for the management (and not necessarily long term archival) of data.
+[[data-repository]]data repository:: Online system for the long-term archival of (research) data (e.g. https://zenodo.org[Zenodo], https://datadryad.org/[Dryad] and the GBIF https://www.gbif.org/ipt[IPT]). Different from a <<data-management-system,data management system>> which is designed for the management (and not necessarily long-term archival) of data.
 
 [[darwin-core-archive]]Darwin Core Archive:: Standardized and widely supported <<data-exchange-format,data exchange format>> for biodiversity data, maintained by Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-darwin-core-archive>> and the https://dwc.tdwg.org/text/[Darwin Core text guide].
 
