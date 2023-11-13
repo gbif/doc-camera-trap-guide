@@ -386,19 +386,19 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 |Share if available
 |B_HS_val 2_processiepark
 
-|<<section-minimumDepthInMeters-maximumDepthInMeters,minimumDepthInMeters>>
+|<<section-minimumdepthinmeters-maximumdepthinmeters,minimumDepthInMeters>>
 |Share if available
 |
 
-|<<section-minimumDepthInMeters-maximumDepthInMeters,maximumDepthInMeters>>
+|<<section-minimumdepthinmeters-maximumdepthinmeters,maximumDepthInMeters>>
 |Share if available
 |
 
-|<<section-minimumDistanceAboveSurfaceInMeters-maximumDistanceAboveSurfaceInMeters,minimumDistanceAboveSurfaceInMeters>>
+|<<section-minimumdistanceabovesurfaceinmeters-maximumdistanceabovesurfaceinmeters,minimumDistanceAboveSurfaceInMeters>>
 |Share if available
 |1.30
 
-|<<section-minimumDistanceAboveSurfaceInMeters-maximumDistanceAboveSurfaceInMeters,maximumDistanceAboveSurfaceInMeters>>
+|<<section-minimumdistanceabovesurfaceinmeters-maximumdistanceabovesurfaceinmeters,maximumDistanceAboveSurfaceInMeters>>
 |Share if available
 |1.30
 
@@ -638,14 +638,14 @@ term:dwc[dwc:locality]
 
 The name of the <<location>>. This is typically a name or code assigned within the camera trap study. In Camtrap DP, this term corresponds with {deployments-locationName}.
 
-[#section-minimumDepthInMeters-maximumDepthInMeters]
+[#section-minimumdepthinmeters-maximumdepthinmeters]
 ===== minimumDepthInMeters & maximumDepthInMeters
 
 term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]
 
 The depth (in meters) below the local surface. For (marine) camera trap studies, this is the <<camera-depth,depth>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraDepth}.
 
-[#section-minimumDistanceAboveSurfaceInMeters-maximumDistanceAboveSurfaceInMeters]
+[#section-minimumdistanceabovesurfaceinmeters-maximumdistanceabovesurfaceinmeters]
 ===== minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters
 
 term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]
