@@ -384,7 +384,7 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 
 |<<section-locality,locality>>
 |Share if available
-|B_HS_val 2_processiepark	
+|B_HS_val 2_processiepark
 
 |<<section-decimallatitude-decimallongitude,decimalLatitude>>
 |Strongly recommended
@@ -420,7 +420,7 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 
 |<<section-taxonid,taxonID>>
 |Share if available
-|GCHS
+|https://www.checklistbank.org/dataset/COL2023/taxon/GCHS
 
 |<<section-scientificname,scientificName>>
 |Required

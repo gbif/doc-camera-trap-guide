@@ -459,7 +459,7 @@ Data management systems typically organize deployments into the following classe
 |187 m
 
 |Other location information
-|boven de stroom
+|position:above stream
 
 |Camera set up by
 |anonymized:3eb30aa
