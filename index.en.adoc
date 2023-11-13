@@ -105,7 +105,6 @@
 :observations-observationLevel: link:https://camtrap-dp.tdwg.org/data/#observations.observationLevel[observations.observationLevel,role=term]
 :observations-observationType: link:https://camtrap-dp.tdwg.org/data/#observations.observationType[observations.observationType,role=term]
 :observations-cameraSetupType: link:https://camtrap-dp.tdwg.org/data/#observations.cameraSetupType[observations.cameraSetupType,role=term]
-:observations-taxonID: link:https://camtrap-dp.tdwg.org/data/#observations.taxonID[observations.taxonID,role=term]
 :observations-scientificName: link:https://camtrap-dp.tdwg.org/data/#observations.scientificName[observations.scientificName,role=term]
 :observations-count: link:https://camtrap-dp.tdwg.org/data/#observations.count[observations.count,role=term]
 :observations-lifeStage: link:https://camtrap-dp.tdwg.org/data/#observations.lifeStage[observations.lifeStage,role=term]

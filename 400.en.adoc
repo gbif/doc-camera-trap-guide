@@ -691,7 +691,7 @@ classified by a machine with a degree of certainty of 89%
 
 term:dwc[dwc:taxonID]
 
-An identifier for <<section-scientificname,scientificName>>. This identifier allows users to find all observations (and media) for a specific taxon. Use a <<section-stable-unique-identifiers,stable unique identifier>>, preferably one assigned by an <<table-taxon-reference-sources,authorative source>>. In Camtrap DP, this term corresponds with {observations-taxonID}.
+An identifier for <<section-scientificname,scientificName>>. This identifier allows users to find all observations (and media) for a specific taxon. Use a <<section-stable-unique-identifiers,stable unique identifier>>, preferably one assigned by an <<table-taxon-reference-sources,authorative source>>. In Camtrap DP, this term corresponds with the `taxonID` of the corresponding taxon in {package-taxonomic}.
 
 [#section-scientificname]
 ===== scientificName
