@@ -476,6 +476,9 @@ Data management systems typically organize deployments into the following classe
 |Camera height
 |1.30 m
 
+|Camera depth
+|
+
 |Camera tilt
 |-15 °
 
@@ -545,7 +548,7 @@ Most other properties associated with a location such as country and state, but 
 [#section-camera-model-settings-and-alignment]
 ==== Camera model, settings and alignment
 
-Since a deployment relates to the placement of a <<camera>>, it is important to capture information regarding its model, settings and alignment. The model consists of the manufacturer and model name (e.g. `Reconyx-PC800`). Except for the <<quiet-period,quiet period>>, most camera settings are typically automatically recorded as part of the <<EXIF>> metadata. The <<detection-distance,detection distance>> can vary a lot depending on terrain and vegetation and is best measured in the field by having someone move in front of the camera at different distances. The <<alignment>> is the physical placement of a <<camera>> in 3D space. It consists of <<camera-height,camera height>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>.
+Since a deployment relates to the placement of a <<camera>>, it is important to capture information regarding its model, settings and alignment. The model consists of the manufacturer and model name (e.g. `Reconyx-PC800`). Except for the <<quiet-period,quiet period>>, most camera settings are typically automatically recorded as part of the <<EXIF>> metadata. The <<detection-distance,detection distance>> can vary a lot depending on terrain and vegetation and is best measured in the field by having someone move in front of the camera at different distances. The <<alignment>> is the physical placement of a <<camera>> in 3D space. It consists of <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>.
 
 [#section-deployment-groups]
 ==== Deployment groups

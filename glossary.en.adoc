@@ -3,7 +3,7 @@
 
 [[activity]]activity:: Movement in front of a <<camera>>. Movement can cause a <<trigger>> when certain conditions are met (e.g. within the <<detection-zone,detection zone>> and outside the <<quiet-period,quiet period>>). Camera traps are typically <<deployment,deployed>> to capture wildlife activity, but may also record movements of humans, vehicles or vegetation.
 
-[[alignment]]alignment:: Physical placement of a <<camera>>. Consists of <<camera-height,camera height>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>.
+[[alignment]]alignment:: Physical placement of a <<camera>>. Consists of <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>.
 
 [[AI]]artificial intelligence:: Ability to perceive, synthesize and infer information as demonstrated by machines, as opposed to humans/animals. In camera trap research, AI is mainly applied as <<machine-learning,machine learning>> to perform <<computer-vision,computer vision>> tasks. See also <<section-artificial-intelligence>>.
 
@@ -12,6 +12,8 @@
 [[blank]]blank:: <<media,Media>> without objects of interest. Blanks are typically the result of false <<trigger,triggers>> such as moving vegetation or fluctuating light. Marked as such when <<classification,classifying>> to facilitate excluding them from queries.
 
 [[camera]]camera:: Device designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion. Of a certain make and model and uniquely identifiable by e.g. by serial number. Also referred to as `camera trap`, `game camera`, `trail camera`, `scouting camera` or `device`.
+
+[[camera-depth]]camera depth:: Depth of the (underwater) camera, a component of camera <<alignment>>. Typically expressed in meters below the local water surface. {deployments-cameraDepth} in Camtrap DP.
 
 [[camera-height]]camera height:: Height of the camera above the ground, a component of camera <<alignment>>. Can be expressed in meters above the ground or as a categorical description (`knee height` ~ 0.5m, `chest height` ~ 1.5m,  `canopy` ~ 3+m in citenp:[wildlife-insights]). {deployments-cameraHeight} in Camtrap DP.
 

@@ -386,6 +386,22 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 |Share if available
 |B_HS_val 2_processiepark
 
+|<<section-minimumDepthInMeters-maximumDepthInMeters,minimumDepthInMeters>>
+|Share if available
+|
+
+|<<section-minimumDepthInMeters-maximumDepthInMeters,maximumDepthInMeters>>
+|Share if available
+|
+
+|<<section-minimumDistanceAboveSurfaceInMeters-maximumDistanceAboveSurfaceInMeters,minimumDistanceAboveSurfaceInMeters>>
+|Share if available
+|1.30
+
+|<<section-minimumDistanceAboveSurfaceInMeters-maximumDistanceAboveSurfaceInMeters,maximumDistanceAboveSurfaceInMeters>>
+|Share if available
+|1.30
+
 |<<section-decimallatitude-decimallongitude,decimalLatitude>>
 |Strongly recommended
 |51.496
@@ -420,7 +436,7 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 
 |<<section-taxonid,taxonID>>
 |Share if available
-|https://www.checklistbank.org/dataset/COL2023/taxon/GCHS
+|[.break-all]#https://www.checklistbank.org/dataset/COL2023/taxon/GCHS#
 
 |<<section-scientificname,scientificName>>
 |Required
@@ -621,6 +637,20 @@ An identifier for the <<location>>. This identifier allows users to find all obs
 term:dwc[dwc:locality]
 
 The name of the <<location>>. This is typically a name or code assigned within the camera trap study. In Camtrap DP, this term corresponds with {deployments-locationName}.
+
+[#section-minimumDepthInMeters-maximumDepthInMeters]
+===== minimumDepthInMeters & maximumDepthInMeters
+
+term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]
+
+The depth (in meters) below the local surface. For (marine) camera trap studies, this is the <<camera-depth,depth>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraDepth}.
+
+[#section-minimumDistanceAboveSurfaceInMeters-maximumDistanceAboveSurfaceInMeters]
+===== minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters
+
+term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]
+
+The height (in meters) above a reference surface. For camera trap studies, this is the <<camera-height,height>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraHeight}.
 
 [#section-decimallatitude-decimallongitude]
 ===== decimalLatitude & decimalLongitude

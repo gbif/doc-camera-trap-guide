@@ -73,6 +73,7 @@
 :deployments-cameraModel: link:https://camtrap-dp.tdwg.org/data/#deployments.cameraModel[deployments.cameraModel,role=term]
 :deployments-cameraDelay: link:https://camtrap-dp.tdwg.org/data/#deployments.cameraDelay[deployments.cameraDelay,role=term]
 :deployments-cameraHeight: link:https://camtrap-dp.tdwg.org/data/#deployments.cameraHeight[deployments.cameraHeight,role=term]
+:deployments-cameraDepth: link:https://camtrap-dp.tdwg.org/data/#deployments.cameraDepth[deployments.cameraDepth,role=term]
 :deployments-cameraTilt: link:https://camtrap-dp.tdwg.org/data/#deployments.cameraTilt[deployments.cameraTilt,role=term]
 :deployments-cameraHeading: link:https://camtrap-dp.tdwg.org/data/#deployments.cameraHeading[deployments.cameraHeading,role=term]
 :deployments-detectionDistance: link:https://camtrap-dp.tdwg.org/data/#deployments.detectionDistance[deployments.detectionDistance,role=term]
