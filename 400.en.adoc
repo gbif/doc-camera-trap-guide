@@ -821,7 +821,7 @@ The device(s) used to create the media file. We recommend providing the <<camera
 
 https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]
 
-The method(s) used to create or alter the media file. We recommend using this term to provide the <<trigger>> method that was used to capture the media file, as controlled values: `motion detection` or `time lapse`. In Camtrap DP, this term corresponds with {media-captureMethod}.
+The method(s) used to create or alter the media file. We recommend using this term to provide the <<trigger>> method that was used to capture the media file, as controlled values: `activity detection` or `time lapse`. In Camtrap DP, this term corresponds with {media-captureMethod}.
 
 [#section-ac-accessuri]
 ===== accessURI
