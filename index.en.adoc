@@ -8,7 +8,7 @@
 :numbered:
 :revnumber: {git-metadata-sha-short}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
-:title-page-background-image: image:img/doc-camtrap-illustration.svg[position=top center]
+:title-page-background-image: image:img/web/doc-camtrap-illustration.png[position=top center,fit=none,pdfwidth=85%]
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 :xrefstyle: short
 :source-highlighter: pygments
