@@ -126,16 +126,15 @@
 :observations-observationTags: link:https://camtrap-dp.tdwg.org/data/#observations.observationTags[observations.observationTags,role=term]
 :observations-observationComments: link:https://camtrap-dp.tdwg.org/data/#observations.observationComments[observations.observationComments,role=term]
 
-// "This document also available as PDF/languages" thing.
+// "This document is also available as PDF/languages"
 ifdef::backend-html5[]
 languageLinks:combined[]
 endif::backend-html5[]
 
+// Sections
 :sectnums!:
 
 include::colophon.en.adoc[]
-
-// include::preface.en.adoc[]
 
 :sectnums:
 

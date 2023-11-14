@@ -29,3 +29,5 @@ This guide primarily focuses on the management, quality control, enhancement and
 * Analysis: software for analysis, ecological modelling, bias correction, etc.
 
 Many extensive guides on these topics are already available. See <<table-aims>> and <<table-topics>> for a brief overview.
+
+<<<
