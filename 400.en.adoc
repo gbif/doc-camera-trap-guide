@@ -38,7 +38,7 @@ We recommend contacting participants to ask if their personal information can be
 
 <<media-file,Media files>> containing identifiable persons is a form of <<section-personal-data,personal data>> that should be identified and kept private in order to protect the privacy of the persons. The same may be necessary for media files containing vehicles or picturing camera <<setup>>. Media files containing sensitive species may need to be kept private if they allow to identify the location.
 
-We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level. The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in a <<darwin-core-archive,Darwin Core Archive>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded.
+We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level (e.g. `https://multimedia.agouti.eu/assets/813bafb2-befe-45fa-b0e3-080f1f019a70/file`). The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in a <<darwin-core-archive,Darwin Core Archive>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded.
 
 [#section-sensitive-location-information]
 ===== Sensitive location information
