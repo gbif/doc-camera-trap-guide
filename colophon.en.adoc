@@ -29,4 +29,8 @@ https://doi.org/10.35035/doc-0qzp-2x37
 
 Community review draft, September 2023
 
+=== Abstract
+
+Camera traps have emerged as important tools for monitoring the state of biodiversity and natural ecosystems. The proliferation of data from such sensors has made data management, rather than data collection, the limiting factor in camera trap-related research. This guide provides recommendations for camera trap data management and publication to GBIF. It is intended for anyone running a camera trap study, in particular data stewards, data publishers, and others working in biodiversity informatics.
+
 <<<
