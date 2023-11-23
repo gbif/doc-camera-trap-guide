@@ -584,7 +584,9 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 [#section-observations]
 === Observations
 
-<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
+<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. Observations captured by camera traps are always collected by machines (sensors) rather than human observers, which is an important distinction. The latter involves human decision-making on whether to record an organism. By using machines, we eliminate uncertainties linked to human interpretation. When publishing camera trap data, the nature of the record should always be set to `machine observation` for all records.
+
+Observations are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
 
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type,observation type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<section-column-naming,column naming conventions>> as for deployments.
 
