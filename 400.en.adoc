@@ -151,14 +151,14 @@ It unfortunately also **impedes us from expressing information about the <<media
 |51.496, 4.774
 
 |media
-|e68deaed
-|79204343
+|[.green]#e68deaed#
+|[.blue]#79204343#
 |2020-06-12T04:04:29Z
 |51.496, 4.774
 
 |media
-|c5efbcb3
-|79204343
+|[.orange]#c5efbcb3#
+|[.blue]#79204343#
 |2020-06-12T04:04:30Z
 |51.496, 4.774
 |===
@@ -173,17 +173,17 @@ It unfortunately also **impedes us from expressing information about the <<media
 |associatedMedia
 
 |e68deaed_2
-|e68deaed
+|[.green]#e68deaed#
 |Anas platyrhynchos
 |[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file#
 
 |c5efbcb3_2
-|c5efbcb3
+|[.orange]#c5efbcb3#
 |Anas platyrhynchos
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 
 |05230014
-|79204343
+|[.blue]#79204343#
 |Ardea cinerea
 |[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \|
 https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
