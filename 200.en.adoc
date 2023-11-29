@@ -37,7 +37,7 @@ The most frequently studied animal taxa include ungulates, carnivores, birds and
 
 |diversity
 |beta-diversity
-.3+|citenp:tobler-2008,cusack-2015]
+.3+|citenp[:tobler-2008,cusack-2015]
 
 |diversity
 |diversity indices
