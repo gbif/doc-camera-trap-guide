@@ -506,7 +506,7 @@ Deployment information is best recorded in a <<data-management-system,data manag
 * Use descriptive names, so users have an idea of what information to expect.
 * Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than white space (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camel case is most often used in data standards.
 * Avoid abbreviations to mitigate the risk of confusion, except for well-known words like `ID` for identifier.
-* Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values.
+* Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema], <<table-readme>> ), together with the column definition and controlled values.
 * Be consistent.
 
 [,ini]
@@ -527,6 +527,50 @@ latitude & coordinatesLongitude
 # Bad: includes unit or data type
 camera_height_meter_double
 ----
+
+[#table-readme]
+.Example of how to describe your deployment data in a separate spreadsheet
+[%header,cols=5*]
+|===
+|Column name
+|Definition
+|Unit
+|Data type
+|Required (y/n)
+
+|Unique identifier of the deployment
+|Date and time at which the deployment was started, in ISO 8601 format with timezone designator	
+|Date and time at which the deployment was started, in ISO 8601 format with timezone designator
+|Latitude of the deployment location, using the WGS84 datum
+|Longitude of the deployment location, using the WGS84 datum
+|Height at which the camera was deployed
+|Angle at which the camera was deployed
+
+|
+|
+|
+|decimal degrees
+|decimal degrees
+|meter
+|degrees
+
+|string
+|datetime
+|datetime
+|number
+|number
+|number
+|integer
+
+|yes
+|yes
+|yes
+|yes
+|yes
+|no
+|no
+|===
+
 
 [#section-location]
 ==== Location
