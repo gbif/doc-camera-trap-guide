@@ -144,8 +144,8 @@ It unfortunately also **impedes us from expressing information about the <<media
 |51.496, 4.774
 
 |sequence
-|79204343
-|00a2c20d
+|[.blue]#79204343#
+|[.red]#00a2c20d#
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
 |51.496, 4.774
