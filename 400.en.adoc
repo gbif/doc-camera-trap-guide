@@ -137,28 +137,28 @@ It unfortunately also **impedes us from expressing information about the <<media
 |Location information
 
 |deployment
-|[.red]#00a2c20d#
+|[.aqua]#00a2c20d#
 |
 |2020-05-30T02:57:37Z/
 2020-07-01T09:41:41Z
 |51.496, 4.774
 
 |sequence
-|[.blue]#79204343#
-|[.red]#00a2c20d#
+|[.lime]#79204343#
+|[.aqua]#00a2c20d#
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
 |51.496, 4.774
 
 |media
-|[.green]#e68deaed#
-|[.blue]#79204343#
+|[.red]#e68deaed#
+|[.lime]#79204343#
 |2020-06-12T04:04:29Z
 |51.496, 4.774
 
 |media
-|[.yellow]#c5efbcb3#
-|[.blue]#79204343#
+|[.fuchsia]#c5efbcb3#
+|[.lime]#79204343#
 |2020-06-12T04:04:30Z
 |51.496, 4.774
 |===
@@ -173,17 +173,17 @@ It unfortunately also **impedes us from expressing information about the <<media
 |associatedMedia
 
 |e68deaed_2
-|[.green]#e68deaed#
+|[.red]#e68deaed#
 |Anas platyrhynchos
 |[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file#
 
 |c5efbcb3_2
-|[.yellow]#c5efbcb3#
+|[.fuchsia]#c5efbcb3#
 |Anas platyrhynchos
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 
 |05230014
-|[.blue]#79204343#
+|[.lime]#79204343#
 |Ardea cinerea
 |[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \|
 https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
@@ -205,22 +205,22 @@ Term recommendations for the {occurrence-core} and {ac-extension} are provided i
 |Location information
 
 |e68deaed_2
-|79204343
-|00a2c20d
+|[.lime]#79204343#
+|[.aqua]#00a2c20d#
 |Anas platyrhynchos
 |2020-06-12T04:04:29Z
 |51.496, 4.774
 
 |c5efbcb3_2
-|79204343
-|00a2c20d
+|[.lime]#79204343#
+|[.aqua]#00a2c20d#
 |Anas platyrhynchos
 |2020-06-12T04:04:30Z
 |51.496, 4.774
 
 |05230014
-|79204343
-|00a2c20d
+|[.lime]#79204343#
+|[.aqua]#00a2c20d#
 |Ardea cinerea
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
@@ -239,28 +239,28 @@ Term recommendations for the {occurrence-core} and {ac-extension} are provided i
 |rights
 
 |e68deaed_2
-|e68deaed
+|[.red]#e68deaed#
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |2020-06-12T04:04:29Z
 |Reconyx-HF2X
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
 
 |c5efbcb3_2
-|c5efbcb3
+|[.fuchsia]#c5efbcb3#
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |2020-06-12T04:04:30Z
 |Reconyx-HF2X
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
 
 |05230014
-|e68deaed
+|[.red]#e68deaed#
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |2020-06-12T04:04:29Z
 |Reconyx-HF2X
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
 
 |05230014
-|c5efbcb3
+|[.fuchsia]#c5efbcb3#
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |2020-06-12T04:04:30Z
 |Reconyx-HF2X
