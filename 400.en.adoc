@@ -1,11 +1,19 @@
 [#section-4]
 == Publishing camera trap data
 
-Data publication is the process of making biodiversity data open and <<FAIR>> (findable, accessible, interoperable and reusable) cite:[wilkinson-2016]. The best way to do this is by depositing your data in a <<data-repository,data repository>>. Repositories are specifically designed to find, aggregate, provide access and store research data. We recommend the use of the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014] as a data repository to publish and register your dataset with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)]. 
+Data publication is the process of making biodiversity data open and <<FAIR>> cite:[wilkinson-2016]. Adopting the FAIR principles guarantees that your camera trap data can be found, obtained, integrated and reliably reused to benefit various applications in the future (see <<section-fair-data>>). We recommend the use the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014] to publish and register your dataset with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)]. 
 
-Publishing data through GBIF requires data preparation (see <<section-preparing-data>>) and standardization. Data standardization is the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively.
+Before you publish through GBIF, you must prepare (see <<section-preparing-data>>) and standardize your data. Data standardization is the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively.
 
 We strongly recommend publishing camera trap data at project level, i.e. one dataset for one project. This makes it easier to describe the scope, methodology, contributors, funding sources, etc. in the metadata. For a general overview on how to publish data to GBIF, see citenp:[gbif-2018].
+
+[#section-fair-data]
+=== FAIR camera trap data
+
+Imagine you need to aggregate all observations of muskrats recorded in Belgium in 2023. These data might be scattered across different data sources, hard to access and available in different languages. Making these data sources FAIR means organizing them in a way that everyone can find them, use them and understand the information inside. The best way to start with FAIR data is by making your data findable and accessible. Stable identifiers help people and computers to find and recognize a specific dataset. Add keywords to make people quickly understand what the dataset is about and why they need it.  Register and index the (meta)data in a searchable resource. One easy way to make your data findable and accessible is by depositing your data in a data repository. Repositories are specifically designed for this purpose. to find, aggregate, provide access and store research data. 
+
+The hard part is making sure that the data can be easily used and understood across various systems. We need to determine whether the data are fit for our purpose. The data and metadata should reflect how a camera trap study was planned and deployed, how data was collected and managed. If all these elements are recorded in a way that a human can understand, we make it possible for them to determine whether the data are fit for purpose, or can be mapped into a suitable form. If all these elements are recorded in a way that a machine can interpret (reliable use of identifiers, vocabularies, ontologies, etc.), these data could be useful in unsupervised/semi-supervised modeling and decision-support tools.
+
 
 [#section-preparing-data]
 === Preparing data

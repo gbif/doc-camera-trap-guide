@@ -3,7 +3,7 @@
 
 Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the time frame of the project. Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. The content of the images needs interpretation or annotation, either manually or facilitated by technology. All these steps are considered in the data management process.
 
-Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of human effort and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there’s often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of non-target species provide valuable data for other research objectives. If all data, including non-target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017].
+Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of human effort and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there is often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of non-target species provide valuable data for other research objectives. If all data, including non-target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017].
 
 To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data.
 
@@ -506,7 +506,7 @@ Deployment information is best recorded in a <<data-management-system,data manag
 * Use descriptive names, so users have an idea of what information to expect.
 * Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than white space (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camel case is most often used in data standards.
 * Avoid abbreviations to mitigate the risk of confusion, except for well-known words like `ID` for identifier.
-* Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values.
+* Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema], <<table-readme>> ), together with the column definition and controlled values.
 * Be consistent.
 
 [,ini]
@@ -527,6 +527,50 @@ latitude & coordinatesLongitude
 # Bad: includes unit or data type
 camera_height_meter_double
 ----
+
+[#table-readme]
+.Example of how to describe your deployment data in a separate spreadsheet
+[%header,cols=5*]
+|===
+|Column name
+|Definition
+|Unit
+|Data type
+|Required (y/n)
+
+|Unique identifier of the deployment
+|Date and time at which the deployment was started, in ISO 8601 format with timezone designator	
+|Date and time at which the deployment was started, in ISO 8601 format with timezone designator
+|Latitude of the deployment location, using the WGS84 datum
+|Longitude of the deployment location, using the WGS84 datum
+|Height at which the camera was deployed
+|Angle at which the camera was deployed
+
+|
+|
+|
+|decimal degrees
+|decimal degrees
+|meter
+|degrees
+
+|string
+|datetime
+|datetime
+|number
+|number
+|number
+|integer
+
+|yes
+|yes
+|yes
+|yes
+|yes
+|no
+|no
+|===
+
 
 [#section-location]
 ==== Location
@@ -584,7 +628,9 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 [#section-observations]
 === Observations
 
-<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
+<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. Observations captured by camera traps are always collected by machines (sensors) rather than human observers, which is an important distinction. The latter involves human decision-making on whether to record an organism. By using machines, we eliminate uncertainties linked to human interpretation. When publishing camera trap data, the nature of the record should always be set to `machine observation` for all records.
+
+Observations are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
 
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type,observation type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<section-column-naming,column naming conventions>> as for deployments.
 
@@ -635,7 +681,7 @@ Unfortunately, camera traps do not provide observations directly. Media need to 
 * Animal is identified as a known individual (e.g. wolf Noëlla).
 * Other properties of the animal are recorded, such as group size, life stage, sex, and behaviour.
 
-Different actors (experts, volunteers, AI) can reach different levels of precision (see <<table-classification-precision>>), based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
+Camera trap observations are machine observations by nature but can be classified by humans or by machines. Different actors (experts, volunteers, AI) can reach different levels of precision (see <<table-classification-precision>>), based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
 
 [#table-classification-precision]
 .Observation records for four observed ducks, but provided at different levels of precision. Row one is the result of a classification at a high taxonomic level (family _Anatidae_). Row two is the result of a classification at species level (_Anas platyrhynchos_), but no further characteristics were recorded. Rows three and four are the result of a classification that further specified one duck to be male and showing foraging behaviour. https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[Source].

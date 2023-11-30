@@ -4,9 +4,9 @@
 [#section-why-this-guide]
 === Why this guide?
  
-Camera traps have emerged as a powerful tool to monitor the state of natural ecosystems. This resulted in the improvement of technology and techniques for camera trap research, which brought along an explosion of camera trap data. Herein lies a major challenge: large volumes of data are waiting to be classified, interpreted and archived. Data management, rather than data collection, is now becoming a limiting factor in camera trap research. Additionally, the proliferation of camera trap projects led to a diversity of terminologies, classification methods and data management practices. This has led to a lack of accessibility and transparency, resulting in limited cross-project collaboration or meta-analyses. A large, interconnected network of remote cameras can act as an instrument for reliable, real-time biodiversity management and decision making. If we’re not able to merge data from different projects together, camera trap research will lose its full potential.
+Camera traps have emerged as a powerful technology for the semi-automated monitoring of natural ecosystems. Their success has led to an exponential growth of camera trap data worldwide. Herein lies a major challenge: large volumes of data are waiting to be classified, interpreted and archived. Data management, rather than data collection, has become a limiting factor for camera trap research. The proliferation of camera trap projects has also led to a diversity of terminologies, classification methods and data management practices, which impedes transparency, interoperability, cross-project collaboration or meta-analyses. A large, interconnected network of remote cameras could act as an instrument for reliable, real-time biodiversity management and decision making, but if we are not able to combine data, camera trap research will lose its full potential. This is why camera trap data needs to be open and FAIR (findable, accessible, interoperable and reusable, see citenp:[wilkinson-2016]), so that both humans and machines can use this valuable data for present and future applications.
 
-To optimize the (re)use of camera trap data, there’s a need for best practice guidelines. Several guides exist that tackle one or more elements of the camera trap research life cycle: planning, technology and techniques, study design, data collection, analysis, data management methods and data publication cite:[oconnell-2011,rovero-2013,meek-2014,cadman-2014,burton-2015,wearn-2017]. Since then, the camera trapping community has made significant progress:
+To optimize the (re)use of camera trap data, there is a need for best practice guidelines. Several guides exist that tackle one or more elements of the camera trap research life cycle: planning, technology and techniques, study design, data collection, analysis, data management methods and data publication cite:[oconnell-2011,rovero-2013,meek-2014,cadman-2014,burton-2015,wearn-2017]. Since then, the camera trapping community has made significant progress:
 
 * Specialized data management platforms are now primarily used to manage projects and data
 * <<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media
@@ -18,6 +18,8 @@ No up-to-date guidelines are available that focus on camera trap data management
 === Target audience
 
 This guide is intended to be useful for anyone managing a camera trap study. The specific focus on data management and publication makes this best practice guide extra useful for profiles such as data stewards, data publishers, database and information managers and students working with biodiversity informatics.
+
+While the authors of this guide mainly have experience with traditional camera traps designed for terrestrial medium-to-large terrestrial mammals, many of the recommendations brough forward (as well as the <<camtrap-dp,Camtrap DP>> standard) should be applicable to data from other types of camera traps as well.
 
 [#section-what-this-guide-is-not-about]
 === What this guide is not about
