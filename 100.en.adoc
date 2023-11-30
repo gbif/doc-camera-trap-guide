@@ -19,6 +19,8 @@ No up-to-date guidelines are available that focus on camera trap data management
 
 This guide is intended to be useful for anyone managing a camera trap study. The specific focus on data management and publication makes this best practice guide extra useful for profiles such as data stewards, data publishers, database and information managers and students working with biodiversity informatics.
 
+While the authors of this guide mainly have experience with traditional camera traps designed for terrestrial medium-to-large terrestrial mammals, many of the recommendations brough forward (as well as the <<camtrap-dp,Camtrap DP>> standard) should be applicable to data from other types of camera traps as well.
+
 [#section-what-this-guide-is-not-about]
 === What this guide is not about
 
