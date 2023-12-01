@@ -29,6 +29,7 @@ This guide primarily focuses on the management, quality control, enhancement and
 * Planning a camera trap study: types of camera traps, study design, etc.
 * Camera trap deployment and collection: field work, baits and lures, data retrieval, etc. 
 * Analysis: software for analysis, ecological modelling, bias correction, etc.
+* Data from moving cameras: underwater robots, vehicle-mounted cameras, drones, etc.
 
 Many extensive guides on these topics are already available. See <<table-aims>> and <<table-topics>> for a brief overview.
 
