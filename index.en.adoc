@@ -148,7 +148,7 @@ include::400.en.adoc[]
 
 :sectnums!:
 
-// include::afterword.en.adoc[]
+include::afterword.en.adoc[]
 
 include::glossary.en.adoc[]
 
