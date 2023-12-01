@@ -1,13 +1,13 @@
 [#section-4]
 == Publishing camera trap data
 
-Data publication is the process of making biodiversity data open and <<FAIR>> cite:[wilkinson-2016]. Adopting the FAIR principles guarantees that your camera trap data can be found, accessed, integrated and reliably reused for various applications (see <<section-fair-data>>). To do so, we recommend the use of the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014]. It facilitates data publication and registration with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)], an international network and data infrastructure for biodiversity data.
+Data publication is the process of making biodiversity data open and <<FAIR>> cite:[wilkinson-2016]. Adopting the FAIR principles guarantees that your camera trap data can be found, accessed, integrated and reliably reused for various applications (see <<section-fair-camera-trap-data>>). To do so, we recommend the use of the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014]. It facilitates data publication and registration with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)], an international network and data infrastructure for biodiversity data.
 
 Before you publish through GBIF, you must prepare (see <<section-preparing-data>>) and standardize your data. Data standardization is the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively.
 
 We strongly recommend publishing camera trap data at project level, i.e. one dataset for one project. This makes it easier to describe the scope, methodology, contributors, funding sources, etc. in the metadata. For a general overview on how to publish data to GBIF, see citenp:[gbif-2018].
 
-[#section-fair-data]
+[#section-fair-camera-trap-data]
 === FAIR camera trap data
 
 Imagine you need to aggregate all observations of muskrats recorded in Belgium in 2023. Doing so is hard if the data are scattered across sources and use different access protocols, field names and languages. Making these data sources FAIR means organizing them in such a way that everyone (humans and machines) can find, use, understand and combine them.
