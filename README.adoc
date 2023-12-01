@@ -1,15 +1,15 @@
 https://docs.gbif.org/documentation-guidelines/[image:https://docs.gbif.org/documentation-guidelines/gbif-document-shield.svg[GBIF Document]]
-// DOI badge: If you have a DOI, remove the comment ("// ") from the line below, change "10.EXAMPLE/EXAMPLE" to the DOI in all three places, and remove this line.
-// https://doi.org/10.EXAMPLE/EXAMPLE[image:https://zenodo.org/badge/DOI/10.EXAMPLE/EXAMPLE.svg[doi:10.EXAMPLE/EXAMPLE]]
+// DOI badge
+https://doi.org/10.35035/doc-0qzp-2x37[image:https://zenodo.org/badge/DOI/10.35035/doc-0qzp-2x37.svg[doi:10.35035/doc-0qzp-2x37]]
 // License badge
 https://creativecommons.org/licenses/by-sa/4.0/[image:https://img.shields.io/badge/License-CC%20BY%2D-SA%204.0-lightgrey.svg[CC BY-SA 4.0]]
-// Build status badge: In the text below, please update "doc-camera-trap-guide" to "doc-your-document-name", and remove this line.
+// Build status badge
 https://builds.gbif.org/job/doc-camera-trap-guide/lastBuild/console[image:https://builds.gbif.org/job/doc-camera-trap-guide/badge/icon[Build status]]
 
 = Best Practices for Managing and Publishing Camera Trap Data
 
-_This is information *about* this document's source code.  It is not part of the document._
+_This is information *about* this document's source code. It is not part of the document._
 
-The document is available as HTML and PDF at https://docs.gbif-uat.org/camera-trap-guide/[Document Camera-Trap-Guide].
+The document is available as HTML and PDF at https://docs.gbif-uat.org/camera-trap-guide/.
 
 The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://docs.gbif.org/documentation-guidelines/[GBIF Documentation Guidelines].
