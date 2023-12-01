@@ -32,21 +32,25 @@ image::img/web/class-diagram.svg[Class diagram,500,align="center"]
 
 Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? Is it easy to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<section-4>>).
 
-When published, project metadata are a substantial part of the dataset metadata (see <<figure-example-metadata>>), allowing others to discover your dataset when searching for certain keywords and to assess if it fits their research needs. When describing your project, think about what others would need to understand it. We recommend to cover the following aspects:
+When published, project metadata are a substantial part of the dataset metadata (see <<figure-example-metadata>>), allowing others to discover your dataset when searching for certain keywords and to assess if it fits their research needs. When describing your project, think about what others would need to understand it. We recommend to cover the following aspects (but do not let perfection be the enemy of good):
 
 * Title
 * Identifier and/or acronym
 * Description (including rationale)
 * Contributors and their roles (including organizations)
-* Sampling design (simple random, systematic random, etc.)
-* Capture method (motion detection and/or time lapse)
-* Whether individual animals were tracked
-* Geographic scope
-* Temporal scope
-* Taxonomic scope
 * Link to website
 * Keywords
 * Funding
+* Sampling design (simple random, systematic random, etc.)
+* Resulting geographic scope
+* Capture method (type of sensor, motion detection and/or time lapse)
+* Capture schedules (continuous, nightly, etc.)
+* Capture outages and unplanned events
+* Resulting temporal scope
+* Classification method (experts, <<section-citizen-science,crowdsourcing>>, <<section-artificial-intelligence,AI>>)
+* Classification granularity and scope (i.e. which detectable organisms were classified: all animals, mammals only, known individuals only, etc.)
+* Resulting taxonomic scope
+* Data filtering before <<section-4,publication>>
 
 Data management systems typically organize this information into the following classes: 
 <<project>>, <<subproject>>, <<organization>> and <<participant>> (see <<figure-class-diagram>>).
