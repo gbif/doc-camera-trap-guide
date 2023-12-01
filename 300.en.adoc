@@ -782,6 +782,12 @@ The list of scientific names that are available for <<classification>> in a proj
 Common names (select languages) +
 Taxonomy
 
+|https://www.marinespecies.org/[World Register of Marine Species (WoRMS)]
+|Marine species (not exclusively)
+|Scientific names +
+Common names (many languages) +
+Taxonomy
+
 |https://en.wikipedia.org/[Wikipedia] (English and other language versions)
 |All
 |Common names (many languages)
@@ -791,12 +797,6 @@ Taxonomy
 |Scientific names +
 Common names (English) +
 Taxonomy
-
-|(http://datazone.birdlife.org/species/search)[Birdlife International's taxonomy]
-|Birds
-|Scientific names +
-Common names (English) +
-Taxonomy +
 
 |https://www.iucnredlist.org/[IUCN Red List of Endangered Species]
 |Mammals
