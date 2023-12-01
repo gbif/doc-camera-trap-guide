@@ -495,7 +495,7 @@ The name or acronym identifying the collection or dataset the record was derived
 
 term:dwc[dwc:basisOfRecord]
 
-The specific nature of the record. Set to `MachineObservation` for all records.
+The specific nature of the record. Set to `MachineObservation` for all records. While humans decide when and were to deploy a camera trap, and humans or machines (AI) can <<classification,classify>> media, the capturing of the record is done by a machine responding to a sensor. This is critically different from human observations, where a human is actively in control of the decision whether to record an organism or not.
 
 [#section-datageneralizations]
 ===== dataGeneralizations
