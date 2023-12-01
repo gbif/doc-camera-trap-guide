@@ -776,13 +776,13 @@ The list of scientific names that are available for <<classification>> in a proj
 |Taxonomic coverage
 |Use for
 
-|Catalogue of Life cite:[col-2023]
+|https://www.checklistbank.org/dataset/9893/names[Catalogue of Life] cite:[col-2023]
 |All
 |Scientific names +
 Common names (select languages) +
 Taxonomy
 
-|https://www.marinespecies.org/[World Register of Marine Species (WoRMS)]
+|https://www.marinespecies.org/[World Register of Marine Species (WoRMS)] cite:[worms-2023]
 |Marine species (not exclusively)
 |Scientific names +
 Common names (many languages) +
