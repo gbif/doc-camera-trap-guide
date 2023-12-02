@@ -7,7 +7,7 @@ endif::backend-html5[]
 
 === Suggested citation
 
-Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. Community review draft. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-0qzp-2x37
+Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-0qzp-2x37
 
 === Authors
 
@@ -27,7 +27,7 @@ https://doi.org/10.35035/doc-0qzp-2x37
 
 === Document control
 
-Community review draft, September 2023
+v1.0, December 2023
 
 === Abstract
 
