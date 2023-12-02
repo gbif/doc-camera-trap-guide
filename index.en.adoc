@@ -6,7 +6,7 @@
 :toc: left
 :toclevels: 3
 :numbered:
-:revnumber: {git-metadata-sha-short}
+:revnumber: 1.0
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 :title-page-background-image: image:img/web/camtrap-guide-cover.png[position=top center,fit=none,pdfwidth=85%]
 :license: https://creativecommons.org/licenses/by-sa/4.0/
