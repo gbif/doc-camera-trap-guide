@@ -103,7 +103,7 @@ Principal Investigator
 |
 |
 
-|publishers
+|publisher
 |
 |
 |Distributor
