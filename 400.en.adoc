@@ -1,11 +1,18 @@
 [#section-4]
 == Publishing camera trap data
 
-Data publication is the process of making biodiversity data open and <<FAIR>> (findable, accessible, interoperable and reusable) cite:[wilkinson-2016]. The best way to do this is by depositing your data in a <<data-repository,data repository>>. Repositories are specifically designed to find, aggregate, provide access and store research data. We recommend the use of the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014] as a data repository to publish and register your dataset with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)]. 
+Data publication is the process of making biodiversity data open and <<FAIR>> cite:[wilkinson-2016]. Adopting the FAIR principles guarantees that your camera trap data can be found, accessed, integrated and reused (see <<section-fair-camera-trap-data>>) for many applications, from biological use cases (species distribution modeling, population density estimation, etc.) to providing training data for <<machine-learning,machine learning>> model development. We recommend the use of the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014] to do so. It facilitates data publication and registration with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)], an international network and data infrastructure for biodiversity data.
 
-Publishing data through GBIF requires data preparation (see <<section-preparing-data>>) and standardization. Data standardization is the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively.
+Before you publish through GBIF, you must prepare (see <<section-preparing-data>>) and standardize your data. Data standardization is the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively.
 
 We strongly recommend publishing camera trap data at project level, i.e. one dataset for one project. This makes it easier to describe the scope, methodology, contributors, funding sources, etc. in the metadata. For a general overview on how to publish data to GBIF, see citenp:[gbif-2018].
+
+[#section-fair-camera-trap-data]
+=== FAIR camera trap data
+
+Imagine you need to aggregate all observations of muskrats recorded in Belgium in 2023. Doing so is hard if the data are scattered across sources and use different access protocols, field names and languages. Making these data sources FAIR means organizing them in such a way that everyone (humans and machines) can find, use, understand and combine them.
+
+The easiest way to make a dataset **findable** is by providing meaningful metadata (e.g. title, description and keywords) and depositing it in a research repository (such as the IPT cite:[robertson-2014] in combination with GBIF). Repositories provide cross-dataset search functionalities and will assign each dataset a <<section-stable-unique-identifiers,unique identifier>> so that it can be uniquely referenced and **accessed**. Adding an open <<section-license,license>> to the dataset will allow users to access and **reuse** the data (in addition to the metadata), while <<#section-project-metadata,rich metadata>> (e.g. methodology) will enable users to determine if the dataset is fit for their purpose. The most challenging aspect is to make a dataset **interoperable** so that it can easily be integrated with other data. This can be achieved by using standards: research repositories will standardize metadata and <<camtrap-dp,Camtrap DP>> can be used to standardize the data. See also citenp:[bubnicki-2023] (section "Is Camtrap DP FAIR?") for more information on how Camtrap DP enables FAIR data exchange.
 
 [#section-preparing-data]
 === Preparing data
@@ -137,28 +144,28 @@ It unfortunately also **impedes us from expressing information about the <<media
 |Location information
 
 |deployment
-|[.red]#00a2c20d#
+|[.aqua]#00a2c20d#
 |
 |2020-05-30T02:57:37Z/
 2020-07-01T09:41:41Z
 |51.496, 4.774
 
 |sequence
-|[.blue]#79204343#
-|[.red]#00a2c20d#
+|[.lime]#79204343#
+|[.aqua]#00a2c20d#
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
 |51.496, 4.774
 
 |media
-|[.green]#e68deaed#
-|[.blue]#79204343#
+|[.red]#e68deaed#
+|[.lime]#79204343#
 |2020-06-12T04:04:29Z
 |51.496, 4.774
 
 |media
-|[.yellow]#c5efbcb3#
-|[.blue]#79204343#
+|[.fuchsia]#c5efbcb3#
+|[.lime]#79204343#
 |2020-06-12T04:04:30Z
 |51.496, 4.774
 |===
@@ -173,17 +180,17 @@ It unfortunately also **impedes us from expressing information about the <<media
 |associatedMedia
 
 |e68deaed_2
-|[.green]#e68deaed#
+|[.red]#e68deaed#
 |Anas platyrhynchos
 |[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file#
 
 |c5efbcb3_2
-|[.yellow]#c5efbcb3#
+|[.fuchsia]#c5efbcb3#
 |Anas platyrhynchos
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 
 |05230014
-|[.blue]#79204343#
+|[.lime]#79204343#
 |Ardea cinerea
 |[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \|
 https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
@@ -205,22 +212,22 @@ Term recommendations for the {occurrence-core} and {ac-extension} are provided i
 |Location information
 
 |e68deaed_2
-|79204343
-|00a2c20d
+|[.lime]#79204343#
+|[.aqua]#00a2c20d#
 |Anas platyrhynchos
 |2020-06-12T04:04:29Z
 |51.496, 4.774
 
 |c5efbcb3_2
-|79204343
-|00a2c20d
+|[.lime]#79204343#
+|[.aqua]#00a2c20d#
 |Anas platyrhynchos
 |2020-06-12T04:04:30Z
 |51.496, 4.774
 
 |05230014
-|79204343
-|00a2c20d
+|[.lime]#79204343#
+|[.aqua]#00a2c20d#
 |Ardea cinerea
 |2020-06-12T04:04:29Z/
 2020-06-12T04:04:55Z
@@ -239,28 +246,28 @@ Term recommendations for the {occurrence-core} and {ac-extension} are provided i
 |rights
 
 |e68deaed_2
-|e68deaed
+|[.red]#e68deaed#
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |2020-06-12T04:04:29Z
 |Reconyx-HF2X
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
 
 |c5efbcb3_2
-|c5efbcb3
+|[.fuchsia]#c5efbcb3#
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |2020-06-12T04:04:30Z
 |Reconyx-HF2X
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
 
 |05230014
-|e68deaed
+|[.red]#e68deaed#
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |2020-06-12T04:04:29Z
 |Reconyx-HF2X
 |[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#
 
 |05230014
-|c5efbcb3
+|[.fuchsia]#c5efbcb3#
 |[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#
 |2020-06-12T04:04:30Z
 |Reconyx-HF2X
@@ -487,7 +494,7 @@ The name or acronym identifying the collection or dataset the record was derived
 
 term:dwc[dwc:basisOfRecord]
 
-The specific nature of the record. Set to `MachineObservation` for all records.
+The specific nature of the record. Set to `MachineObservation` for all records. While humans decide when and were to deploy a camera trap, and humans or machines (AI) can <<classification,classify>> media, the capturing of the record is done by a machine responding to a sensor. This is critically different from human observations, where a human is actively in control of the decision whether to record an organism or not.
 
 [#section-datageneralizations]
 ===== dataGeneralizations

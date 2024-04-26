@@ -71,7 +71,7 @@
 
 [[location]]location:: Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` cite:[newkirk-2016], `station` cite:[berkel-2014,camera-trap-manager], `project station` cite:[wildcam-project] or `trap station` cite:[camelot]. Deployment location with a {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, and {deployments-coordinateUncertainty} in Camtrap DP. See also <<section-location>>.
 
-[[machine-learning]]machine learning:: Computational technique that makes use of (training) data and algorithms to imitate the way that humans learn, gradually improving accuracy.
+[[machine-learning]]machine learning:: Computational technique that makes use of (training) data (e.g. https://lila.science/) and algorithms to imitate the way that humans learn, gradually improving accuracy.
 
 [[media]]media:: <<media-file,Media files>> (plural) captured by a <<camera>>. Also referred to as `photos` cite:[newkirk-2016]. {media} in Camtrap DP. 
 

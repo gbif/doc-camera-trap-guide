@@ -1,20 +1,6 @@
-[afterword]
+[#acknowledgements]
 == Acknowledgements
 
-This formal statement recognizes individuals and institutions that made direct contributions to your work. This is a simple statement of gratitude, not dedication or very emotional testimonial. The people and institutions you should consider listing include:
+We thank the following people for making suggestions to this guide and/or providing technical support: https://orcid.org/0000-0001-7418-1244[Stephen Formel], https://orcid.org/0000-0001-6492-4016[Donald Hobern], https://orcid.org/0000-0002-6590-599X[Kyle Copas], https://orcid.org/0000-0002-1920-5298[Laura Russell], https://orcid.org/0000-0003-0623-6682[Matt Blissett] and members of the https://camtrap-dp.tdwg.org[Camtrap DP Development Team].
 
-* Those who provided guidance
-* Those who shared unpublished (and therefore uncitable) work
-* Those who provided you with facilities or equipment
-* Those who participated in discussions
-* Technicians, lab assistants, students and interns
-* Host or hosting institions and funding agencies (with grant number, if required)
-
-You may also wish to acknowledge the non-techincal contributions of:
-
-* Graphic designers
-* Photographers
-* Those who provided emotional support
-* Others whose support was non-technical
-
-When naming individuals whose contribution you intend to acknowledge, use only their names without titles. For example write only Aldo Leopold, instead Aldo Leopold, Professor of Game Management, Agricultural Economics Department, University of Wisconsin.
+<<<
