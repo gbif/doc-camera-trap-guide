@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-01-29 14:28+0000\n"
-"PO-Revision-Date: 2025-01-30 11:57\n"
+"PO-Revision-Date: 2025-02-12 02:21\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -54,7 +54,7 @@ msgstr ""
 #: colophon.en.adoc:12
 #, no-wrap
 msgid "Authors"
-msgstr ""
+msgstr "著者"
 
 #. type: Plain text
 #: colophon.en.adoc:15
@@ -76,7 +76,7 @@ msgstr ""
 #: colophon.en.adoc:20
 #, no-wrap
 msgid "Licence"
-msgstr ""
+msgstr "ライセンス"
 
 #. type: Plain text
 #: colophon.en.adoc:23
