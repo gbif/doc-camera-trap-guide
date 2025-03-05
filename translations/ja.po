@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-01-29 14:28+0000\n"
-"PO-Revision-Date: 2025-03-05 04:47\n"
+"PO-Revision-Date: 2025-03-05 05:43\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -43,12 +43,12 @@ msgstr "奥付"
 #: colophon.en.adoc:8
 #, no-wrap
 msgid "Suggested citation"
-msgstr ""
+msgstr "推奨される引用表記"
 
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid "Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-0qzp-2x37"
-msgstr ""
+msgstr "Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-0qzp-2x37"
 
 #. type: Title ===
 #: colophon.en.adoc:12
@@ -59,18 +59,18 @@ msgstr "著者"
 #. type: Plain text
 #: colophon.en.adoc:15
 msgid "https://orcid.org/0000-0001-7484-9267[Lien Reyserhove], https://orcid.org/0000-0002-5819-9134[Ben Norton] & https://orcid.org/0000-0002-8442-8025[Peter Desmet]"
-msgstr ""
+msgstr "https://orcid.org/0000-0001-7484-9267[Lien Reyserhove], https://orcid.org/0000-0002-5819-9134[Ben Norton] & https://orcid.org/0000-0002-8442-8025[Peter Desmet]"
 
 #. type: Title ===
 #: colophon.en.adoc:16
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "貢献者"
 
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "https://orcid.org/0000-0002-3129-6196[Tanja Milotic] and https://orcid.org/0000-0002-6658-6062[Pieter Huybrechts] contributed to the introduction and figures."
-msgstr ""
+msgstr "https://orcid.org/0000-0002-3129-6196[Tanja Milotic] と https://orcid.org/0000-0002-6658-6062[Pieter Huybrechts] は序論および図に貢献した。"
 
 #. type: Title ===
 #: colophon.en.adoc:20
@@ -81,35 +81,35 @@ msgstr "ライセンス"
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "The document _Best Practices for Managing and Publishing Camera Trap Data_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr ""
+msgstr "Best Practices for Managing and Publishing Camera Trap Data は https://creativecommons.org/licenses/by-sa/4.0[クリエイティブ・コモンズの表示-継承 4.0 国際ライセンス]の下に提供されています。"
 
 #. type: Title ===
 #: colophon.en.adoc:24
 #, no-wrap
 msgid "Persistent URI"
-msgstr ""
+msgstr "永続URI"
 
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "https://doi.org/10.35035/doc-0qzp-2x37"
-msgstr ""
+msgstr "https://doi.org/10.35035/doc-0qzp-2x37"
 
 #. type: Title ===
 #: colophon.en.adoc:28
 #, no-wrap
 msgid "Document control"
-msgstr ""
+msgstr "⽂書のバージョン管理"
 
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "v1.0, December 2023"
-msgstr ""
+msgstr "v1.0、2023年12月"
 
 #. type: Title ===
 #: colophon.en.adoc:32
 #, no-wrap
 msgid "Abstract"
-msgstr ""
+msgstr "要約"
 
 #. type: Plain text
 #: colophon.en.adoc:35
@@ -121,19 +121,19 @@ msgstr ""
 #: 400.en.adoc:884 afterword.en.adoc:6 glossary.en.adoc:118
 #: bibliography.en.adoc:6
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ==
 #: 100.en.adoc:2
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "序論"
 
 #. type: Title ===
 #: 100.en.adoc:5
 #, no-wrap
 msgid "Why this guide?"
-msgstr ""
+msgstr "なぜこのガイドブックを作成したか"
 
 #. type: Plain text
 #: 100.en.adoc:8
