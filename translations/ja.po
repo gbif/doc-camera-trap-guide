@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-01-29 14:28+0000\n"
-"PO-Revision-Date: 2025-02-12 02:21\n"
+"PO-Revision-Date: 2025-03-05 04:47\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -25,19 +25,19 @@ msgstr "カメラトラップデータの管理および公開のベストプラ
 #. type: Plain text
 #: index.en.adoc:132
 msgid "languageLinks:combined[]"
-msgstr ""
+msgstr "languageLinks:combined[]"
 
 #. type: Target for macro image
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/camtrap-guide-cover.png"
-msgstr ""
+msgstr "img/web/camtrap-guide-cover.png"
 
 #. type: Title ==
 #: colophon.en.adoc:6
 #, no-wrap
 msgid "Colophon"
-msgstr ""
+msgstr "奥付"
 
 #. type: Title ===
 #: colophon.en.adoc:8
