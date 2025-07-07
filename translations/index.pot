@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-29 14:28+0000\n"
+"POT-Creation-Date: 2025-07-07 07:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3160,7 +3160,7 @@ msgstr ""
 #: 400.en.adoc:275
 #, no-wrap
 msgid ""
-"|observationID\n"
+"|occurrenceID\n"
 "|identifier\n"
 "|accessURI\n"
 "|CreateDate\n"
