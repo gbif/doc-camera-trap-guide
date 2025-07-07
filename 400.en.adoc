@@ -238,7 +238,7 @@ Term recommendations for the {occurrence-core} and {ac-extension} are provided i
 .{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header,cols=6*]
 |===
-|observationID
+|occurrenceID
 |identifier
 |accessURI
 |CreateDate
