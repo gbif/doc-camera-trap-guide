@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
-"POT-Creation-Date: 2025-01-29 14:28+0000\n"
-"PO-Revision-Date: 2025-03-05 05:43\n"
+"POT-Creation-Date: 2025-07-07 07:42+0000\n"
+"PO-Revision-Date: 2025-07-07 07:49\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2146,7 +2146,7 @@ msgstr ""
 #. type: Table
 #: 400.en.adoc:275
 #, no-wrap
-msgid "|observationID\n"
+msgid "|occurrenceID\n"
 "|identifier\n"
 "|accessURI\n"
 "|CreateDate\n"
