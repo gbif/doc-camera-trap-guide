@@ -558,7 +558,7 @@ camera_height_meter_double
 
 |FinDespliegue
 |Fecha y hora en que finalizó el despliegue.
-|Formatted as `YYYY-MM-DDTHH:MM:SSZ`.
+|Formateado como `AAAA-MM-DDTHH:MM:SSZ`.
 |
 |fecha y hora
 |si
@@ -845,7 +845,7 @@ Camelot es una buena opción para organizaciones e individuos que quieren una so
 [#section-trapper]
 ==== TRAPPER
 
-TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. Es mantenido por el Open Science Conservation Fund, con sede en Polonia. TRAPPER es utilizado principalmente por proyectos europeos y es de uso gratuito. El software es de código abierto y requiere instalación y alojamiento. La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación de IA es posible, utilizando modelos de clasificación de especies existentes. Data can be exported as <<camtrap-dp,Camtrap DP>>.
+TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. Es mantenido por el Open Science Conservation Fund, con sede en Polonia. TRAPPER es utilizado principalmente por proyectos europeos y es de uso gratuito. El software es de código abierto y requiere instalación y alojamiento. La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación de IA es posible, utilizando modelos de clasificación de especies existentes. TEST <<camtrap-dp,TESTLINK>>.
 
 TRAPPER es una buena opción para las organizaciones que quieren controlar el software y donde se almacenan sus datos.
 
