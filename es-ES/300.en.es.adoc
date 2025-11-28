@@ -1,74 +1,74 @@
 [#section-3]
-== Managing camera trap data
+== Gestión de datos de cámaras trampa
 
-Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the time frame of the project. Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. The content of the images needs interpretation or annotation, either manually or facilitated by technology. All these steps are considered in the data management process.
+Una vez que una cámara trampa está operando en el campo puede generar centenas, miles o incluso millones de fotos o videos en el marco temporal del proyecto. En última instancia, es necesario analizar estos datos. Pero primero, hay que recuperar, almacenar, organizar y etiquetar los datos. El contenido de las imágenes necesita interpretación o anotación, ya sea manualmente o facilitado por la tecnología. Todas estas etapas se consideran en el proceso de gestión de datos.
 
-Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of human effort and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there is often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of non-target species provide valuable data for other research objectives. If all data, including non-target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017].
+La gestión de datos es uno de los cuellos de botella reales en la investigación de cámaras trampa. La enorme cantidad de información almacenada en las tarjetas de memoria requiere una alta inversión en términos de esfuerzo humano y tiempo. Si el almacenamiento y la clasificación de datos se quedan rezagados, grandes volúmenes de datos permanecerán sin utilizar y se perderán eventualmente. La extracción, la organización y el etiquetado manuales pueden introducir errores humanos y provocar la pérdida de datos. Además, hay a menudo más información en la imagen o vídeo que la única especie objetivo (grupo) o tema que es el foco del proyecto. Las trampas de la cámara detectan inherentemente múltiples especies y observaciones de especies no objetivo proporcionan datos valiosos para otros objetivos de investigación. If all data, including non-target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017].
 
-To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data.
+Para concluir, cada investigador debe prestar atención a la higiene de datos. La idea subyacente es: es mejor tener diez elementos bien documentados en lugar de cien elementos mal documentados. Sólo de esta manera podremos convertir la cacofonía de los datos de imágenes en bruto en datos cuantitativos útiles.
 
-In this section, we introduce a number of general conventions for sound data management data. We zoom deeper into what camera trap data exactly is. For each type of camera trap data (<<section-project-metadata,metadata>>, <<section-media-files,media>>, <<section-deployments,deployments>>, <<section-observations,observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
+En esta sección introducimos una serie de convenciones generales para la buena gestión de datos. Nos acercamos más a qué son exactamente los datos de las cámaras trampa. For each type of camera trap data (<<section-project-metadata,metadata>>, <<section-media-files,media>>, <<section-deployments,deployments>>, <<section-observations,observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so.
 
 [#section-what-are-camera-trap-data]
-=== What are camera trap data
+=== Qué son las cámaras trampa
 
-Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. But to be able to use these for research they need to be documented with additional information. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved.
+Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. Pero para poder utilizarlos para la investigación necesitan estar documentados con información adicional. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved.
 
-Overall, we can distinguish four types of camera trap data:
+En general, podemos distinguir cuatro tipos de datos de cámaras trampa:
 
 * **Project metadata:** information about the camera trap project/study as a whole
 * **Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata
-* **Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.
-* **Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.
+* **Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Normalmente no se registra automáticamente por la cámara.
+* **Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. El objetivo normalmente es registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento.
 
-These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see <<figure-class-diagram>>). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation.
+These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see <<figure-class-diagram>>). Estas clases son proyectos, organización, participante, despliegue, ubicación, dispositivos, medios, secuencia y observación.
 
-.Class diagram for camera trap data, constituting of different classes (boxes) and relationships (lines). Mandatory classes are dark blue, optional classes light blue. The line ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment.
+.Diagrama de clases para datos de cámaras trampa, constituido por diferentes clases (cajas) y relaciones (líneas). Las clases obligatorias son de color azul oscuro, las clases opcionales de celeste. The line ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. Un despliegue por ejemplo tiene cero para muchos medios, mientras que un medio pertenece exactamente a un despliegue.
 [#figure-class-diagram]
 image::img/web/class-diagram.svg[Class diagram,500,align="center"]
 
 [#section-project-metadata]
-=== Project Metadata
+=== Metadatos del proyecto
 
-Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? Is it easy to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<section-4>>).
+Los metadatos del proyecto documentan un proyecto/estudio de la cámara trampa como un todo. ¿Quién estaba implicado, cuál era la razón, qué métodos de muestreo se utilizaron y cuál era el ámbito? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describa los proyectos a un nivel que tenga sentido. ¿Es posible identificar a una persona que puede tomar decisiones o responder preguntas sobre el proyecto? ¿Es fácil describir la metodología? Si la respuesta a estas preguntas es no, entonces sería mejor considerar esos proyectos como separados. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<section-4>>).
 
-When published, project metadata are a substantial part of the dataset metadata (see <<figure-example-metadata>>), allowing others to discover your dataset when searching for certain keywords and to assess if it fits their research needs. When describing your project, think about what others would need to understand it. We recommend to cover the following aspects (but do not let perfection be the enemy of good):
+When published, project metadata are a substantial part of the dataset metadata (see <<figure-example-metadata>>), allowing others to discover your dataset when searching for certain keywords and to assess if it fits their research needs. Cuando describa su proyecto, piense en lo que otros necesitarían para entenderlo. Recomendamos cubrir los siguientes aspectos (pero no dejar que lo perfecto sea enemigo de lo bueno):
 
-* Title
-* Identifier and/or acronym
-* Description (including rationale)
-* Contributors and their roles (including organizations)
-* Link to website
-* Keywords
-* Funding
-* Sampling design (simple random, systematic random, etc.)
-* Resulting geographic scope
-* Capture method (type of sensor, motion detection and/or time lapse)
-* Capture schedules (continuous, nightly, etc.)
-* Capture outages and unplanned events
-* Resulting temporal scope
+* Título
+* Identificador y/o acrónimo
+* Descripción (incluyendo racionales)
+* Colaboradores y sus roles (incluyendo organizaciones)
+* Enlace al sitio web
+* Palabras clave
+* Financiación
+* Diseño de muestreo (simple aleatorio, sistemático aleatorio, etc.)
+* Resultado del ámbito geográfico
+* Método de captura (tipo de sensor, detección de movimiento y/o intervalo de tiempo)
+* Programas de captura (continuos, nocturnos, etc.)
+* Interrupciones de captura y eventos no planificados
+* Alcance temporal resultante
 * Classification method (experts, <<section-citizen-science,crowdsourcing>>, <<section-artificial-intelligence,AI>>)
-* Classification granularity and scope (i.e. which detectable organisms were classified: all animals, mammals only, known individuals only, etc.)
-* Resulting taxonomic scope
+* Granularidad y alcance de la clasificación (es decir, qué órganismos detectables fueron clasificados: todos los animales, solo mamíferos, únicamente individuos conocidos, etc.)
+* Alcance taxonómico resultante
 * Data filtering before <<section-4,publication>>
 
 Data management systems typically organize this information into the following classes:
 <<project>>, <<subproject>>, <<organization>> and <<participant>> (see <<figure-class-diagram>>).
 
-.Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. A substantial part of its metadata are derived from the project metadata.
+.Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. Una parte importante de sus metadatos se deriva de los metadatos del proyecto.
 [#figure-example-metadata]
 image::img/web/example-metadata.png[]
 
 [#section-participants-and-roles]
-==== Participants and roles
+==== Participantes y roles
 
-A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles (see <<table-roles>>). We recommend simplifying those to a limited set of controlled values (e.g. {package-contributors-role}) when publishing data.
+A <<participant>> is a person associated with a camera trap project. La información que se captura sobre un participante normlamente es su nombre, apellido, correo electrónico y ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles (see <<table-roles>>). We recommend simplifying those to a limited set of controlled values (e.g. {package-contributors-role}) when publishing data.
 
 [#table-roles]
-.Participant roles in camera trap studies, as defined by different formats and data management systems.
+.Funciones participativas en los estudios de trampas de cámara, definidas por diferentes formatos y sistemas de gestión de datos.
 [%header, cols=7*]
 |===
-|Camtrap DP
+|Camptrap DP
 |CTMS cite:[ctms]
 |Wildlife camera metadata protocol cite:[risc-2019]
 |DataCite cite:[datacite]
@@ -76,12 +76,12 @@ A <<participant>> is a person associated with a camera trap project. Information
 |Agouti cite:[agouti]
 |Wildlife Insights cite:[wildlife-insights]
 
-|contact
+|contacto
 |ProjectContact
 |Project Coordinator
 |ContactPerson
-|Point of Contact
-|Project coordinator
+|Punto de contacto
+|Coordinador del proyecto
 |Project Owner
 
 |principalInvestigator
@@ -92,27 +92,27 @@ ProjectManager +
 Supervisor
 |Owner +
 Principal Investigator
-|Principal investigator
+|Investigador principal
 |Project Owner
 
-|rightsHolder
+|Titular de derechos
 |
 |
-|RightsHolder
+|Titular de derechos
 |
 |
 |
 
-|publisher
+|publicador
 |
 |
-|Distributor
+|Distribuidor
 |Distributor
 Publisher
 |
 |
 
-|contributor
+|contribuidor
 |sequenceIdentifiedBy +
 PhotoTypeIdentifiedBy
 |Crew Member +
@@ -138,7 +138,7 @@ Project Tagger +
 |
 |
 |
-|Other
+|Otro
 |User
 Processor
 Reviewer
@@ -146,28 +146,28 @@ Metadata Provider
 |View only
 Dummy
 Awaiting access
-|Project Viewer
+|Visor de proyecto
 |===
 
 [#section-media-files]
-=== Media files
+=== Archivos multimedia
 
-<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process.
+<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but  modern camera traps can record other types of media types as well, such as <<video>> or sound. Los videos pueden capturar el comportamiento animal con más detalle que las imágenes y a menudo son adecuados para su producción pero requieren más energía de batería, tamaños de archivo más grande y son más difíciles de procesar.
 
-An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single <<sequence>>/<<event>> (see <<table-sequence>>).
+Un compromiso usado a menudo es tomar una serie de imágenes cuando se activa una cámara (por ejemplo, 10 imágenes, 1 segundo de separación). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single <<sequence>>/<<event>> (see <<table-sequence>>).
 
-.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source].
+.An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. Es la quinta de una serie de diez imágenes e indica fecha, hora y temperatura. Se trata de una foto en blanco y negro de un arroyo ocupado por tres pájaros: una garza real (Ardea cinerea) en el primer plano y un ánade real femenino y uno masculino (Anas platyrhynchos) en segundo plano. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source].
 [#figure-example-image]
 image::img/web/example-image.jpg[]
 
 [#table-sequence]
-.A series of images, resulting from 3 consecutive triggers and captured in one sequence. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
+.Una serie de imágenes, resultantes de 3 disparadores consecutivos y capturados en una secuencia. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header, cols=4*]
 |===
-|Trigger
-|Media ID
-|Timestamp
-|File path
+|Disparador
+|ID de medio
+|Fecha y hora
+|Ruta del archivo
 
 |1
 |e68deaed
@@ -211,60 +211,60 @@ image::img/web/example-image.jpg[]
 
 |1
 |51549c25
-|2020-06-12T04:04:35Z
+|2020-06-12T04:04:34Z
 |https://multimedia.agouti.eu/assets/51549c25-e565-4ece-a26e-12442ccc3fcb/file
 
 |1
 |b78bb29f
-|2020-06-12T04:04:35Z
+|2020-06-12T04:04:34Z
 |https://multimedia.agouti.eu/assets/b78bb29f-fbf3-49b0-911b-ca4e5a95d801/file
 
-|2
+|4
 |d6785b65
 |2020-06-12T04:04:41Z
 |https://multimedia.agouti.eu/assets/d6785b65-24fa-4663-8539-e5fb261d069d/file
 
-|2
+|4
 |2b860458
 |2020-06-12T04:04:42Z
 |https://multimedia.agouti.eu/assets/2b860458-742b-4fca-937c-2a27742dccb0/file
 
-|2
+|4
 |d45648b9
 |2020-06-12T04:04:43Z
 |https://multimedia.agouti.eu/assets/d45648b9-76d1-4500-898c-dd3c3f31a0b8/file
 
-|2
+|4
 |eecd8ce1
 |2020-06-12T04:04:43Z
 |https://multimedia.agouti.eu/assets/eecd8ce1-2b13-49b7-bcec-c0056848aa62/file
 
-|2
+|4
 |48d26ebc
 |2020-06-12T04:04:44Z
 |https://multimedia.agouti.eu/assets/48d26ebc-ba6e-4245-8f52-c2cc1d64ef1f/file
 
-|2
+|4
 |4afd0344
 |2020-06-12T04:04:44Z
 |https://multimedia.agouti.eu/assets/4afd0344-3cec-4942-987b-96b69da75e6b/file
 
-|2
+|4
 |916964ac
 |2020-06-12T04:04:45Z
 |https://multimedia.agouti.eu/assets/916964ac-6389-4d06-8853-2eac6c36d8e7/file
 
-|2
+|4
 |3e8e355a
 |2020-06-12T04:04:46Z
 |https://multimedia.agouti.eu/assets/3e8e355a-6253-4a5f-a950-2f934821b7f7/file
 
-|2
+|4
 |b7792672
 |2020-06-12T04:04:46Z
 |https://multimedia.agouti.eu/assets/b7792672-6a31-484a-a97b-e19e34657021/file
 
-|2
+|4
 |1683dd3b
 |2020-06-12T04:04:47Z
 |https://multimedia.agouti.eu/assets/1683dd3b-7791-493a-84c6-1bb50541fd97/file
@@ -320,7 +320,7 @@ image::img/web/example-image.jpg[]
 |https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72
 |===
 
-A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Metadata for videos is less standardized, although some formats like AVI and MOV support EXIF.
+Una cámara también graba metadatos al crear un archivo multimedia. Esto puede incluir fecha y hora, ajustes de la cámara (como velocidad de obturación, nivel de exposición, estado del flash) y otras propiedades. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Los metadatos para videos son menos estandarizados, aunque algunos formatos como AVI y MOV soportan EXIF.
 
 Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>).
 
@@ -328,79 +328,79 @@ Data management systems typically organize media files and the associated metada
 .Selected properties included in the EXIF metadata of the image in <<figure-example-image>>.
 [%header, cols=2*]
 |===
-|Property
-|Value
+|Propiedad
+|Valor
 
-|File type
+|Tipo de archivo
 |JPEG
 
-|MIME type
-|image/jpeg
+|Tipo MIME
+|imagen/jpeg
 
-|Image width
+|Ancho de imagen
 |2048 pixels
 
-|Image height
+|Altura de imagen
 |1440 pixels
 
-|Horizontal resolution
+|Resolución horizontal
 |72 dpi
 
-|Vertical resolution
+|Resolución vertical
 |72 dpi
 
-|EXIF version
+|Versión de EXIF
 |0220
 
-|Make
+|Marca
 |RECONYX
 
-|Model
+|Modelo
 |HYPERFIRE 2 COVERT
 
-|Date time original
+|Fecha hora original
 |2020:06:12T06:04:32Z
 
-|Time zone offset
-|N/A
+|Desplazamiento de zona horaria
+|N/D
 
-|Exposure time / shutter speed
+|Tiempo de exposición / velocidad de obturación
 |1/85
 
 |ISO
 |200
 
-|Colour Space
+|Espacio de color
 |sRGB
 
 |Flash
-|Auto, Fired
+|Auto, activado
 
-|Exposure mode
+|Modo de exposición
 |Auto
 
-|White balance
+|Balance de blancos
 |Manual
 
-|Scene capture type
-|Standard
+|Tipo de captura de escena
+|Estándar
 |===
 
 [#section-timestamps]
-==== Timestamps
+==== Fecha y hora
 
-The date and time a media file was recorded is the most important aspect of its metadata. This information is used to assess when animals were observed and cannot be derived later (in contrast with e.g. <<location>>). Since this information is derived from the camera’s internal clock, it is critical to verify it is set correctly. We recommend setting the clock to https://en.wikipedia.org/wiki/Coordinated_Universal_Time[Coordinated Universal Time (UTC)] or local winter time. Disable automatic switching to summer time and record the used time zone as part of the <<deployment>>.
+La fecha y hora en que se registró un archivo multimedia es el aspecto más importante de sus metadatos. This information is used to assess when animals were observed and cannot be derived later (in contrast with e.g. <<location>>). Dado que esta información se deriva del reloj interno de la cámara, es fundamental verificar que está configurado correctamente. We recommend setting the clock to https://en.wikipedia.org/wiki/Coordinated_Universal_Time[Coordinated Universal Time (UTC)] or local winter time. Disable automatic switching to summer time and record the used time zone as part of the <<deployment>>.
 
 [#section-file-naming]
-==== File naming
+==== Nombre de archivo
 
-Media files are best managed by a <<data-management-system,data management system>>. If you manage your media files yourself, then we recommend the following file and directory naming conventions:
+Media files are best managed by a <<data-management-system,data management system>>. Si usted mismo administra sus archivos multimedia, le recomendamos las siguientes convenciones de nombres de archivos y directorios:
 
-* Avoid renaming media file names. Rather, organize media files in one directory for each <<deployment>>. This also prevents raw file names from overlapping across cameras. Note that file paths may be used as identifiers in <<classification>> data.
-* Make sure that ordering files alphabetically also sorts them chronologically. This is likely already the case for sequentially assigned file names (e.g. `IMG_4545.jpg`). Otherwise, start the name with the date (`YYYYMMDD`) or date-time (`YYYYMMDD_HHMMSS`). This can also be useful for directory names.
-* If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than white space (`image 1`). Avoid special characters.
+* Evite renombrar los nombres de los archivos multimedia. Rather, organize media files in one directory for each <<deployment>>. Esto también evita que los nombres de archivos crudos se superpongan de una cámara a otra. Note that file paths may be used as identifiers in <<classification>> data.
+* Asegúrese de que ordenar los archivos alfabéticamente también los ordene cronológicamente. This is likely already the case for sequentially assigned file names (e.g. `IMG_4545.jpg`). Otherwise, start the name with the date (`YYYYMMDD`) or date-time (`YYYYMMDD_HHMMSS`). Esto también puede ser útil para nombres de directorios.
+* If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than white space (`image 1`). Evite los caracteres especiales.
 * Do not store <<classification>> information as part of the media file name.
-* Be consistent.
+* Sea consistente.
 
 [,ini]
 ----
@@ -419,14 +419,14 @@ dep 2021 't WAD
 ----
 
 [#section-storage]
-==== Storage
+==== Almacenamiento
 
-Due to the large volume of generated data, it is not trivial to securely store, backup and manage media files. Cloud services or well managed institutional services are recommended, but these come at a substantial cost. We recommend the use of an online <<data-management-system,data management system>> to store your media files. Some offer this storage for free. It is also very useful if your data storage system can serve media files over http/https, using allows <<section-stable-unique-identifiers,stable URLs>> and optionally authentication. This allows you to directly reference/hotlink media files in a published dataset (see <<section-ac-accessuri,accessURI>>). Such a service is provided by e.g. Agouti cite:[agouti] (through `+https://multimedia.agouti.eu/assets/+`), https://www.flickr.com/[Flickr] (through `https://www.flickr.com/services/api/`) and to far lesser extent https://zenodo.org/[Zenodo] (limited to 100 files through the undocumented `+https://zenodo.org/record/{record_id}/files/{file}+`).
+Debido al gran volumen de datos generados, no es trivial almacenar, respaldar y gestionar archivos multimedia de forma segura. Se recomiendan servicios en la nube o servicios institucionales bien administrados, pero estos tienen un coste considerable. We recommend the use of an online <<data-management-system,data management system>> to store your media files. Algunos ofrecen este almacenamiento de forma gratuita. It is also very useful if your data storage system can serve media files over http/https, using allows <<section-stable-unique-identifiers,stable URLs>> and optionally authentication. This allows you to directly reference/hotlink media files in a published dataset (see <<section-ac-accessuri,accessURI>>). Such a service is provided by e.g. Agouti cite:[agouti] (through `+https://multimedia.agouti.eu/assets/+`), https://www.flickr.com/[Flickr] (through `https://www.flickr.com/services/api/`) and to far lesser extent https://zenodo.org/[Zenodo] (limited to 100 files through the undocumented `+https://zenodo.org/record/{record_id}/files/{file}+`).
 
 [#section-deployments]
-=== Deployments
+=== Despliegues
 
-A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. The resulting <<media-file,media files>> are all associated with that deployment and are best organized as such. Deployment information includes camera <<location>>, duration, <<alignment>> and settings and other <<covariates>> such as bait use, feature type, habitat, canopy cover, etc. (see <<table-deployment>>). This information is not captured by the camera and needs to be recorded manually. Note that even the duration can be longer than the timestamp of the first and last captured media file.
+A <<deployment>> is the spatial and temporal placement of a <<camera>>. Los despliegues finalizan eliminando o reemplazando la cámara, cambiando su posición o cambiando su tarjeta de memoria. The resulting <<media-file,media files>> are all associated with that deployment and are best organized as such. Deployment information includes camera <<location>>, duration, <<alignment>> and settings and other <<covariates>> such as bait use, feature type, habitat, canopy cover, etc. (see <<table-deployment>>). Esta información no es capturada por la cámara y necesita ser grabada manualmente. Tenga en cuenta que incluso la duración puede ser más larga que la marca de tiempo del primer y último archivo de medios capturado.
 
 Data management systems typically organize deployments into the following classes: <<deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>).
 
@@ -434,83 +434,83 @@ Data management systems typically organize deployments into the following classe
 .Recorded information for the deployment that generated the image in <<figure-example-image>>. https://camtrap-dp.tdwg.org/example/00a2c20d/[Source].
 [%header, cols=2*]
 |===
-|Property
-|Value
+|Propiedad
+|Valor
 
-|Deployment ID
+|ID de despliegue
 |00a2c20d
 
-|Start date/time
+|Fecha/hora de inicio
 |2020-05-30T04:57:37+02:00 (= 2020-05-30T02:57:37Z)
 
-|End date/time
+|Fecha/hora de fin
 |2020-07-01T11:41:41+02:00 (= 2020-07-01T09:41:41Z)
 
-|Location ID
+|Identificador (ID) de la ubicación
 |e254a13c
 
-|Location name
+|Nombre de ubicación
 |B_HS_val 2_processiepark
 
-|Latitude
-|51.496
+|Latitud
+|51,496
 
-|Longitude
+|Longitud
 |4.774
 
-|Coordinate uncertainty
+|Incetidumbre de las coordenadas
 |187 m
 
-|Other location information
-|position:above stream
+|Información de otra ubicación
+|posición:arriba
 
-|Camera set up by
-|anonymized:3eb30aa
+|Cámara configurada por
+|anonimizado:3eb30aa
 
-|Camera ID
+|ID de cámara
 |320
 
-|Camera model
+|Modelo de cámara
 |Reconyx-HF2X
 
-|Camera delay
+|Retraso de la cámara
 |0 s
 
-|Camera height
-|1.30 m
+|Altura de la cámara
+|1,30 m
 
-|Camera depth
+|Profundidad de la cámara
 |
 
-|Camera tilt
+|Inclinación de la cámara
 |-15 °
 
-|Camera heading
+|Dirección de cámara
 |285 °
 
-|Detection distance
-|3.20 m
+|Distancia de detección
+|3,20 m
 
-|Timestamp issues
-|false
+|Problemas de fecha y hora
+|falso
 
-|Bait use
-|false
+|Uso de cebo
+|falso
 
-|Habitat
-|Campine area with a number of river valleys with valuable grasslands
+|Hábitat
+|Área de Campine con una serie de valles fluviales con praderas valiosas
 |===
 
 [#section-column-naming]
-==== Column naming
+==== Nombre de columna
 
-Deployment information is best recorded in a <<data-management-system,data management system>>. If you manage your deployment information elsewhere (e.g. a spreadsheet), then we recommend the following column naming conventions:
+Deployment information is best recorded in a <<data-management-system,data management system>>. Si administra su información de implementación en otros lugares (por ejemplo, una hoja de cálculo), le recomendamos las siguientes convenciones de nombres de columna:
 
-* Use descriptive names, so users have an idea of what information to expect.
-* Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than white space (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camel case is most often used in data standards.
+* Utilice nombres descriptivos, para que los usuarios tienen una idea de qué información esperar.
+* Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than white space (`deployment location 1`). El snake case garantiza el nivel de interoperabilidad más alto entre sistemas, el camel case se utiliza con mayor frecuencia en los estándares de datos.
 * Avoid abbreviations to mitigate the risk of confusion, except for well-known words like `ID` for identifier.
-* Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values (see <<table-readme>>).
-* Be consistent.
+* Evite incluir unidades y tipos de datos. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values (see <<table-readme>>).
+* Sea consistente.
 
 [,ini]
 ----
@@ -532,105 +532,105 @@ camera_height_meter_double
 ----
 
 [#table-readme]
-.Example of how to describe deployment data in a separate spreadsheet.
+.Ejemplo de cómo describir los datos de implementación en una hoja de cálculo independiente.
 [%header, cols=6*]
 |===
-|Column name
-|Definition
-|Notes
-|Unit
-|Data type
-|Required (y/n)
+|Nombre de columna
+|Definición
+|Notas
+|Unidad
+|Tipo de datos
+|Requerido (s/n)
 
-|deploymentID
+|IDdeDesarrollo
 |Unique identifier of the deployment.
 |This identifier is auto-generated.
 |
-|string
-|yes
+|cadena
+|sí
 
 |deploymentStart
-|Date and time at which the deployment started.
+|Fecha y hora en que comenzó el despliegue.
 |Formatted as `YYYY-MM-DDTHH:MM:SSZ`.
 |
-|datetime
-|yes
+|fecha y hora
+|si
 
-|deploymentEnd
-|Date and time at which the deployment ended.
+|FinDespliegue
+|Fecha y hora en que finalizó el despliegue.
 |Formatted as `YYYY-MM-DDTHH:MM:SSZ`.
 |
-|datetime
-|yes
+|fecha y hora
+|si
 
-|latitude
-|Latitude of the deployment location.
+|latitud
+|Latitud de la ubicación de despliegue.
 |Uses the WGS84 datum.
-|decimal degrees
-|number
-|yes
+|grados decimales
+|número
+|si
 
-|longitude
-|Longitude of the deployment location.
+|longitud
+|Longitud de la ubicación de despliegue.
 |Uses the WGS84 datum.
-|decimal degrees
-|number
-|yes
+|grados decimales
+|número
+|sí
 
-|cameraHeight
-|Height at which the camera was deployed.
+|AlturaCámara
+|Altura a la que se desplegó la cámara.
 |
-|meters
-|number
+|metros
+|número
 |no
 
-|cameraHeading
-|Angle at which the camera was deployed in the horizontal plane.
-|Values (0-360) start clockwise from north, so 0 = north, 90 = east, 180 = south, 270 = west.
-|decimal degrees
-|number
+|DirecciónCámara
+|Ángulo en el que la cámara fue desplegada en el plano horizontal.
+|Los valores (0-360) comienzan en sentido horario desde el norte, por lo que 0 = norte, 90 = este, 180 = sur, 270 = oeste.
+|grados decimales
+|número
 |no
 |===
 
 [#section-location]
-==== Location
+==== Localización
 
 A <<location>> is the physical place where a camera is located during a deployment. It can be described with a name, identifier and/or description, but we recommend always to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[geographical coordinates]. Those are most commonly expressed as latitude and longitude in decimal degrees, using the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84] datum.
 
-The coordinates are best determined using a GPS receiver at the location itself. If this is not possible, use (online) resources and georeferencing best practices cite:[chapman-wieczorek-2020] to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:
+Las coordenadas se determinan mejor mediante un receptor GPS en la propia ubicación. If this is not possible, use (online) resources and georeferencing best practices cite:[chapman-wieczorek-2020] to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:
 
 * The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location[extent] of the location. Note that for camera traps this includes the <<detection-distance,detection distance>>, which is typically between 5 and 20 m.
-* The accuracy of the GPS receiver or georeferencing resource. Most GPS receivers obtain an accuracy of 5 metres in open areas when using four or more satellites cite:[chapman-wieczorek-2020]. Forest canopy or limited satellite connection can reduce accuracy. Google Maps or Open Street Maps have an accuracy of 8m cite:[chapman-wieczorek-2020].
+* La precisión del receptor GPS o recurso de georreferencia. Most GPS receivers obtain an accuracy of 5 metres in open areas when using four or more satellites cite:[chapman-wieczorek-2020]. El dosel del bosque o la conexión limitada por satélite pueden reducir la precisión. Google Maps or Open Street Maps have an accuracy of 8m cite:[chapman-wieczorek-2020].
 * The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157 m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-wieczorek-2020]).
 * An https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-from-unknown-datum[unknown datum]. This can range from centimetres to kilometres cite:[chapman-wieczorek-2020], so it is important to always record the datum used by the GPS receiver or georeferencing resource (WGS84 for Google Maps or Open Street Maps).
-* The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the point-radius-method.
+* La incertidumbre máxima combinada se expresa de forma más conveniente como una incertidumbre de coordinación en metros, permitiendo que la ubicación se describa con el método punto-radiofónico.
 
 The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method[point-radius-method].
 
-Most other properties associated with a location such as country and state, but even elevation, slope, land cover or leaf area index, can be derived from the coordinates using an online resource.
+La mayoría de las otras propiedades asociadas con una ubicación como país y estado, pero incluso elevación, pendiente, cubierta de tierra o índice de área de hoja, puede derivarse de las coordenadas utilizando un recurso en línea.
 
 [#section-camera-model-settings-and-alignment]
-==== Camera model, settings and alignment
+==== Modelo de cámara, ajustes y alineación
 
 Since a deployment relates to the placement of a <<camera>>, it is important to capture information regarding its model, settings and alignment. The model consists of the manufacturer and model name (e.g. `Reconyx-PC800`). Except for the <<quiet-period,quiet period>>, most camera settings are typically automatically recorded as part of the <<EXIF>> metadata. The <<detection-distance,detection distance>> can vary a lot depending on terrain and vegetation and is best measured in the field by having someone move in front of the camera at different distances. The <<alignment>> is the physical placement of a <<camera>> in 3D space. It consists of <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>.
 
 [#section-deployment-groups]
-==== Deployment groups
+==== Grupos de despliegue
 
-It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see <<figure-deployment-groups>>). A single deployment can belong to zero or more deployment groups.
-<<subproject,Subprojects>> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. This facilitates their management. A single deployment can belong to a single subproject.
+It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see <<figure-deployment-groups>>). Un solo despliegue puede pertenecer a cero o más grupos de despliegue.
+<<subproject,Subprojects>> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. Esto facilita su gestión. Un solo despliegue puede pertenecer a un solo subproyecto.
 
-.Map showing a selection of deployments from the NC Candid Critters project cite:[candid-critters-project]. Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Left (A): deployment groups representing site type (forested area, open area, residential yard, trail), right (B): deployment groups representing property type (private, public). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure).
+.Map showing a selection of deployments from the NC Candid Critters project cite:[candid-critters-project]. Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Izquierda (A): grupos de despliegue que representan el tipo de sitio (área boscosa, área abierta, patio residencial, sendero), a la derecha (B): grupos de despliegue que representan el tipo de propiedad (privada, pública). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure).
 [#figure-deployment-groups]
 image::img/web/deployment-groups.png[]
 
 [#section-covariates]
-==== Covariates
+==== Covariantes
 
-Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:
+Las covariantes son variables que pueden afectar el comportamiento y, por tanto, la detección de animales. La grabación de estos datos es importante para un análisis más profundo de los datos. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. El qué y el cómo registrar covariantes debe ser consistente dentro de un proyecto, pero normalmente no es así en todos los proyectos, a menos que formen parte de un estudio de investigación más amplio y bien coordinado.  Para facilitar la interoperabilidad, recomendamos hacer uso de los sistemas de clasificación existentes para registrar covariantes:
 
 * Biomes/ecoregions cite:[dinerstein-2017]
-* Ecological traits:
+* Características ecológicas:
 ** COMBINE cite:[soria-2021]
 ** PanTHERIA cite:[jones-2009]
 ** EltonTraits cite:[wilman-2014]
@@ -646,69 +646,69 @@ Covariates are variables that may affect the behaviour and thus detection of ani
 * Terrain ruggedness index (TRI) cite:[riley-1999]
 
 [#section-observations]
-=== Observations
+=== Observaciones
 
-<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
+<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). Por eso a veces se les llama clasificaciones, anotaciones o identificaciones. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>).
 
 Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type,observation type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<section-column-naming,column naming conventions>> as for deployments.
 
 [#table-observation]
-.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
+.Recorded information for one of the observations that is based on the image in <<figure-example-image>>. Está clasificado a nivel de eventos (secuencia) en el sistema de gestión de cámara trampa Agouti. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header, cols=2*]
 |===
-|Property
-|Value
+|Propiedad
+|Valor
 
-|Observation ID
+|ID de observación
 |05230014
 
-|Observation type
+|Tipo de observación
 |animal
 
-|Taxon ID
+|ID del Taxón
 |GCHS
 
-|Scientific name
+|Nombre científico
 |Ardea cinerea
 
-|Count
+|Recuento
 |1
 
-|Life stage
-|adult
+|Estadio de desarrollo
+|adulto
 
-|Classification method
-|human
+|Método de clasificación
+|humano
 
-|Classified by
+|Clasificado por
 |Peter Desmet
 
-|Classification timestamp
+|Fecha y hora de clasificación
 |2023-02-02T13:57:58Z
 |===
 
 [#section-classification]
-==== Classification
+==== Clasificación
 
-Unfortunately, camera traps do not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
+Desafortunadamente, las cámaras trampa no proporcionan observaciones directamente. Media need to be <<classification,classified>> to obtain observations. Este proceso se puede realizar en diferentes etapas y con diferentes niveles de precisión y granularidad:
 
 * Media does or <<blank,does not>> contain object(s) of interest.
-* Object(s) of interest is a human or vehicle, or cannot be identified.
-* Object(s) of interest is an animal, identified at a high taxonomic level (e.g. a rodent).
+* Los objetos de interés son humanos o vehículos, o no pueden ser identificados.
+* El objeto de interés es un animal, identificado a un nivel taxonómico alto (p. ej., un roedor).
 * Animal is identified at species or subspecies level (e.g. _Sus scrofa_).
-* Animal is identified as a known individual (e.g. wolf Noëlla).
-* Other properties of the animal are recorded, such as group size, life stage, sex, and behaviour.
+* Un animal se identifica como un indivuduo conocido (por ejemplo, la loba Noëlla).
+* Se registran otras propiedades del animal, como el tamaño del grupo, la etapa de vida, el sexo y el comportamiento.
 
-Classification can be done by humans and/or machines. These actors (experts, volunteers, AI) can reach different levels of precision (see <<table-classification-precision>>), based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used.
+La clasificación puede ser hecha por humanos y/o máquinas. These actors (experts, volunteers, AI) can reach different levels of precision (see <<table-classification-precision>>), based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Dado que la clasificación puede ser muy intensiva en mano de obra para estudios más grandes, es mejor utilizar un enfoque que produzca los datos necesarios de manera eficiente. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Cualquiera que sea la técnica, recomendamos siempre registrar quién hizo la clasificación y qué tipo de técnica (humana vs máquina) fue utilizada.
 
 [#table-classification-precision]
-.Observation records for four observed ducks, but provided at different levels of precision. Row one is the result of a classification at a high taxonomic level (family _Anatidae_). Row two is the result of a classification at species level (_Anas platyrhynchos_), but no further characteristics were recorded. Rows three and four are the result of a classification that further specified one duck to be male and showing foraging behaviour. https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[Source].
+.Los registros de observación de cuatro patos observados, pero provistos en diferentes niveles de precisión. Row one is the result of a classification at a high taxonomic level (family _Anatidae_). Row two is the result of a classification at species level (_Anas platyrhynchos_), but no further characteristics were recorded. Las filas tres y cuatro son el resultado de una clasificación que más tarde especificó un pato para ser masculino y que mostró un comportamiento de búsqueda de alimentos. https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[Source].
 [%header, cols=4*]
 |===
 |scientificName
-|sex
-|count
-|behavior
+|sexo
+|conteo
+|comportamiento
 
 |Anatidae
 |
@@ -731,9 +731,9 @@ Classification can be done by humans and/or machines. These actors (experts, vol
 |
 
 |Anas platyrhynchos
-|male
+|macho
 |1
-|foraging
+|buscando alimento
 
 |Anas platyrhynchos
 |
@@ -742,226 +742,226 @@ Classification can be done by humans and/or machines. These actors (experts, vol
 |===
 
 [#section-citizen-science]
-==== Citizen science
+==== Ciencia ciudadana
 
-<<citizen-science,Citizen scientists>> are volunteers from the non-scientific community that help scientists in their work. They can contribute to camera trap studies in a number of ways, such as placing cameras and collecting/swapping memory cards. In a practice called crowdsourcing, researchers can also distribute the task of  <<classification,classifying>> media, by presenting these online to a community of citizen scientists. Each classification helps to confirm or improve the community's opinion on the observed species cite:[swanson-2015,hsing-2018].
+<<citizen-science,Citizen scientists>> are volunteers from the non-scientific community that help scientists in their work. Pueden contribuir a los estudios de cámaras trampa de diversas maneras, como la colocación de cámaras y el intercambio de tarjetas de memoria. In a practice called crowdsourcing, researchers can also distribute the task of  <<classification,classifying>> media, by presenting these online to a community of citizen scientists. Each classification helps to confirm or improve the community's opinion on the observed species cite:[swanson-2015,hsing-2018].
 
-Most projects use established online platforms for crowdsourcing cite:[forston-2012,swanson-2015], (https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] or DoeDat cite:[groom-2018]. These platforms give access to large, already existing volunteer bases, which is particularly important if classifications are needed within a short time frame. Note however that managing a citizen science project takes time and might be more beneficial for larger studies. In addition to uploading media to a platform, waiting for classifications, downloading consensus observations and dealing with non-consensus observations, you need to keep the community engaged and/or attract new members. It is also important to exclude <<section-sensitive-information,sensitive media>> from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in cite:[weinstein-2018].
+Most projects use established online platforms for crowdsourcing cite:[forston-2012,swanson-2015], (https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] or DoeDat cite:[groom-2018]. Estas plataformas dan acceso a grandes bases de voluntariado ya existentes, lo que es especialmente importante si se necesitan clasificaciones en un plazo breve. Tenga en cuenta, sin embargo, que la gestión de un proyecto científico ciudadano lleva tiempo y podría ser más beneficiosa para estudios más grandes. Además de subir archivos multimedia a una plataforma, esperar clasificaciones, descargar observaciones de consenso y tratar con observaciones sin consenso, necesita mantener a la comunidad comprometida y/o atraer nuevos miembros. It is also important to exclude <<section-sensitive-information,sensitive media>> from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in cite:[weinstein-2018].
 
 [#section-artificial-intelligence]
-==== Artificial intelligence
+==== Inteligencia artificial
 
-In the context of camera trap research, artificial intelligence (AI) typically refers to the use of <<computer-vision,computer vision>> for <<classification>>. These computer models are <<machine-learning,trained>> with already classified datasets and can process millions of media in a fraction of a time it would take a human cite:[norouzzadeh-2020]. The field has seen significant advancements in recent years and models are now able to filter out <<blank,blanks>> and media containing humans, recognize species, count or track individuals, as well as recognize individual animals cite:[price-tack-2016,gomez-villa-2017,nguyen-2017,brides-2018,norouzzadeh-2020,yousif-2018]. New models are coming out every year, but especially their incorporation in <<data-management-system,data management systems>> will increase their use, especially by users that have no experience in machine learning. As such, computer vision will likely become the dominant technique to classify camera trap data in the near future.
+In the context of camera trap research, artificial intelligence (AI) typically refers to the use of <<computer-vision,computer vision>> for <<classification>>. These computer models are <<machine-learning,trained>> with already classified datasets and can process millions of media in a fraction of a time it would take a human cite:[norouzzadeh-2020]. The field has seen significant advancements in recent years and models are now able to filter out <<blank,blanks>> and media containing humans, recognize species, count or track individuals, as well as recognize individual animals cite:[price-tack-2016,gomez-villa-2017,nguyen-2017,brides-2018,norouzzadeh-2020,yousif-2018]. New models are coming out every year, but especially their incorporation in <<data-management-system,data management systems>> will increase their use, especially by users that have no experience in machine learning. Como tal, es probable que la visión de la computadora se convierta en la técnica dominante para clasificar los datos de las cámaras trampa en un futuro próximo.
 
-Still, computer vision will not entirely replace human <<classification>>, since a large and diverse number of preprocessed data are needed to train the models. Unbalanced training datasets may produce low performance of the models, such as training datasets with a highly variable number of images of each species, or small and geographically limited datasets. Additionally, the accuracy of computer vision classification is currently still secondary to that of a human expert. A combination of AI-aided preprocessing and human verification is therefore recommended.
+Still, computer vision will not entirely replace human <<classification>>, since a large and diverse number of preprocessed data are needed to train the models. Los conjuntos de datos de formación desequilibrados pueden producir un bajo rendimiento de los modelos, tales como conjuntos de datos de capacitación con un número muy variable de imágenes de cada especie, o pequeños conjuntos de datos geográficamente limitados. Además, la precisión de la clasificación de la visión informática sigue siendo actualmente secundaria a la de un experto humano. Por lo tanto, se recomienda una combinación de preprocesamiento con ayuda de la IA y verificación humana.
 
 [#section-media-or-event-based-classification]
-==== Media- or event-based classification
+==== Clasificación basada en archivos multimedia o en eventos
 
-Classifications can be based on a single media file (typically an <<image>>) or an <<event>> (typically a <<sequence>> of images). In the latter technique, all media files that belong to the <<event>> are assessed as a whole to determine the species and their number of individuals. This is less time consuming for human classifiers and can lead to better estimates of group size, since the number of individuals passing by a camera can be larger than those that can be seen in a single image. The disadvantage of event-based classification is that it is not possible to split the classification into events that are shorter than the one that is assessed (the same is true for videos classified as a whole). Nor can those classifications be used to train computer models, which require media-based training datasets.
+Classifications can be based on a single media file (typically an <<image>>) or an <<event>> (typically a <<sequence>> of images). In the latter technique, all media files that belong to the <<event>> are assessed as a whole to determine the species and their number of individuals. Esto consume menos tiempo para los clasificadores humanos y puede dar lugar a mejores estimaciones del tamaño del grupo, ya que el número de personas que pasan por una cámara puede ser mayor que las que se pueden ver en una sola imagen. La desventaja de la clasificación basada en eventos es que no es posible dividir la clasificación en eventos que son más cortos que el que se evalúa (lo mismo puede decirse de los vídeos clasificados como un todo). Estas clasificaciones tampoco pueden utilizarse para formar modelos informáticos, que requieren conjuntos de datos de formación basados en archivos multimedia.
 
-As a result, <<data-management-system,data management systems>> may favour one technique over the other, or offer both. Resulting datasets can include media-based, event-based or both types of classifications.
+As a result, <<data-management-system,data management systems>> may favour one technique over the other, or offer both. Los conjuntos de datos resultantes pueden incluir clasificaciones basadas en medios, basadas en eventos o ambos tipos de estas.
 
 [#section-common-or-scientific-names]
-==== Common or scientific names
+==== Nombres comunes o científicos
 
-Media can be classified using common (e.g. roe deer) or scientific names (e.g. _Capreolus capreolus_) for taxa. Common (or vernacular) names are easier to remember and allow for better public engagement. The downside is that they are subject to translation, can vary regionally, sometimes refer to different species (e.g. “elk” in North America refers to _Cervus canadensis_, while in Europe it is used for _Alces alces_) and might not exist for every species or language combination. Scientific names on the other hand follow strict nomenclatural rules, are globally consistent and are not subject to translation. We therefore recommend to always store the scientific name as part of the observation, even if only common names are presented to the user.
+Media can be classified using common (e.g. roe deer) or scientific names (e.g. _Capreolus capreolus_) for taxa. Los nombres comunes (o vernáculos) son más fáciles de recordar y permiten una mejor participación del público. The downside is that they are subject to translation, can vary regionally, sometimes refer to different species (e.g. “elk” in North America refers to _Cervus canadensis_, while in Europe it is used for _Alces alces_) and might not exist for every species or language combination. Por otra parte, los nombres científicos siguen estrictas reglas nomenclaturales, son globalmente consistentes y no están sujetos a traducción. Por lo tanto, recomendamos siempre almacenar el nombre científico como parte de la observación, incluso si sólo se presentan nombres comunes al usuario.
 
-The list of scientific names that are available for <<classification>> in a project is best maintained in a single reference table. This facilitates the management of taxonomic classification and associated common names, and allows to restrict classification options to those species that are likely to occur. More taxa can be added if needed, but only after verification. This practice is used by most <<data-management-system,data management systems>>. To populate such a reference table, we recommend using an authorative source (see <<table-taxon-reference-sources>>) and storing the taxon identifiers used by that source as reference.
+The list of scientific names that are available for <<classification>> in a project is best maintained in a single reference table. Esto facilita el manejo de la clasificación taxonómica y los nombres comunes asociados, y permite restringir las opciones de clasificación a aquellas especies que sea probable que aparezcan. Se pueden añadir más taxones si es necesario, pero sólo después de la verificación. This practice is used by most <<data-management-system,data management systems>>. To populate such a reference table, we recommend using an authorative source (see <<table-taxon-reference-sources>>) and storing the taxon identifiers used by that source as reference.
 
 [#table-taxon-reference-sources]
-.Selection of sources for scientific names, common names and taxonomic information.
+.Selección de fuentes para nombres científicos, nombres comunes e información taxonómica.
 [%header, cols=3*]
 |===
-|Source
-|Taxonomic coverage
-|Use for
+|Fuente
+|Cobertura taxonómica
+|Usar para
 
 |https://www.checklistbank.org/dataset/9893/names[Catalogue of Life] cite:[col-2023]
-|All
+|todos
 |Scientific names +
 Common names (select languages) +
 Taxonomy
 
 |https://www.marinespecies.org/[World Register of Marine Species (WoRMS)] cite:[worms-2023]
-|Marine species (not exclusively)
+|Especies marinas (no exclusivamente)
 |Scientific names +
 Common names (many languages) +
 Taxonomy
 
 |https://en.wikipedia.org/[Wikipedia] (English and other language versions)
-|All
-|Common names (many languages)
+|todos
+|Nombres comunes (muchos idiomas)
 
 |Clements Checklist of Birds of the World cite:[clements-2022]
-|Birds
+|Aves
 |Scientific names +
 Common names (English) +
 Taxonomy
 
 |https://www.iucnredlist.org/[IUCN Red List of Endangered Species]
-|Mammals
+|Mamíferos
 |Scientific names +
 Common names (select languages) +
 Taxonomy
 
 |https://www.mammaldiversity.org/[American Society of Mammalogists Mammal Diversity Database]
-|Mammals
+|Mamíferos
 |Scientific names +
 Common names (English) +
 Taxonomy
 |===
 
 [#section-data-management-systems]
-=== Data management systems
+=== Sistemas de gestión de datos
 
-Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data management cite:[young-2018]. These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:
+La gestión de los datos de las cámaras trampa puede ser abrumadora, especialmente para proyectos más grandes. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data management cite:[young-2018]. Estas iniciativas a menudo comenzaron por equipos de investigación para facilitar sus propias necesidades, pero algunos han llegado a ser sistemas completos que pueden ser utilizados por cualquiera. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). Soportan todo el ciclo de vida de la gestión de datos cámaras trampa:
 
-* Create one or more projects
+* Crean uno o más proyectos
 * Invite <<participant,collaborators>> with different levels of access
-* Upload media and creating deployments
+* Subir medios y crear despliegues
 * <<classification,Classify>> media to observations, optionally supported by <<computer-vision,AI>> and <<citizen-science,citizen science>>
-* Manage reference lists of species, locations, covariates, etc.
-* Engage the public by making some or all project metadata available on a website
+* Gestionan listas de referencias de especies, ubicaciones, covariantes, etc.
+* Incorporan al público haciendo que algunos o todos los metadatos del proyecto estén disponibles en un sitio web
 * Export data in a standardized format for further analysis and data publication
 * Archive data, including media files
 
 [#section-agouti]
 ==== Agouti
 
-Agouti cite:[agouti] (https://agouti.eu) is an online system for managing camera trap data. It is maintained by Wageningen University & Research and the Research Institute for Nature and Forest (INBO), based respectively in the Netherlands and Belgium. Agouti is mainly used by European projects and is free to use.
+Agouti cite:[agouti] (https://agouti.eu) is an online system for managing camera trap data. Es mantenido por la Wageningen University & Research y el Instituto de Investigación para la Naturaleza y los Bosques (INBO), con sede respectiva en los Países Bajos y Bélgica. Agouti es utilizado principalmente por proyectos europeos y es de uso gratuito.
 
-Classification is event-based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. AI classification is possible, using a dedicated species classification model that is updated regularly. Media containing humans are always hidden from the public. Data are stored on university infrastructure, which also offers long-term archival and hot-linking to media. Project metadata can be made available via a public portal. Data can be exported as <<camtrap-dp,Camtrap DP>>.
+Classification is event-based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. La clasificación de IA es posible, utilizando un modelo específico de clasificación de especies que se actualiza regularmente. Los medios que contienen seres humanos siempre están ocultos al público. Los datos se almacenan en la infraestructura universitaria, que también ofrece archivos a largo plazo y enlaces directos a los archivos multimedia. Los metadatos del proyecto pueden estar disponibles a través de un portal público. Data can be exported as <<camtrap-dp,Camtrap DP>>.
 
-Agouti is a good choice for organizations who want a free full-feature European based service.
+Agouti es una buena elección para las organizaciones que quieren un servicio europeo completo gratuito.
 
 [#section-camelot]
 ==== Camelot
 
-Camelot cite:[camelot] (https://camelotproject.org/) is a local system for managing camera trap data. It is maintained as a volunteer initiative based in Australia. Camelot is free to use, open source, available for all major operating systems and requires installation. It is typically used as a local desktop application, but can be set up on a server allowing multiple users to connect via their browser. Classification is media-based with the option to classify multiple media at once. AI classification is not offered. Data can be exported in a custom format.
+Camelot cite:[camelot] (https://camelotproject.org/) is a local system for managing camera trap data. Se mantiene como una iniciativa de voluntariado con sede en Australia. Camelot es libre de usar, de código abierto, disponible para todos los principales sistemas operativos y requiere instalación. Normalmente se utiliza como una aplicación de escritorio local, pero puede configurarse en un servidor que permite a varios usuarios conectarse a través de su navegador. La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. No se ofrece la clasificación de IA. Los datos pueden ser exportados en un formato personalizado.
 
-Camelot is a good choice for organizations and individuals who want a light-weigh solution they can manage themselves.
+Camelot es una buena opción para organizaciones e individuos que quieren una solución ligera que puedan gestionar por su cuenta.
 
 [#section-trapper]
 ==== TRAPPER
 
-TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. It is maintained by the Open Science Conservation Fund, based in Poland. TRAPPER is mainly used by European projects and is free to use. The software is open source and requires installation and hosting. Classification is media-based with the option to classify multiple media at once. AI classification is possible, using existing species classification models. Data can be exported as <<camtrap-dp,Camtrap DP>>.
+TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. Es mantenido por el Open Science Conservation Fund, con sede en Polonia. TRAPPER es utilizado principalmente por proyectos europeos y es de uso gratuito. El software es de código abierto y requiere instalación y alojamiento. La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación de IA es posible, utilizando modelos de clasificación de especies existentes. Data can be exported as <<camtrap-dp,Camtrap DP>>.
 
-TRAPPER is a good choice for organizations who want control over the software and where their data are stored.
+TRAPPER es una buena opción para las organizaciones que quieren controlar el software y donde se almacenan sus datos.
 
 [#section-wildlife-insights]
 ==== Wildlife Insights
 
-Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS cite:[ctms].
+Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) is an online system for managing camera trap data. Es mantenido por Conservación Internacional, Google y otros socios, con sede en los Estados Unidos. Wildlife Insights se utiliza principalmente en proyectos en América y utiliza un modelo de suscripción por categorías (incluyendo niveles gratuitos). Los archivos multimedia subidos se clasifican automáticamente a nivel de archivos por IA, utilizando un modelo de clasificación específica desarrollado por Google. Los archivos multimedia que contienen seres humanos siempre están ocultos al público. La clasificación adicional tiene la opción de clasificar varios archivos a la vez. Los datos se almacenan en la nube, puede ser utilizado por Wildlife Insights para entrenar IA y debe hacerse público después de un período máximo de embargo de 48 meses. Los metadatos del proyecto siempre están disponibles a través de un portal público. Data can be exported in a custom format, based on CTMS cite:[ctms].
 
-Wildlife Insights is a good choice for organizations who want a full-feature service with powerful AI and open data requirements.
+Wildlife Insights es una buena opción para organizaciones que quieren un servicio completo con fuertes requisitos de IA y datos abiertos.
 
 [#section-wildtrax]
 ==== WildTrax
 
-WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. It is maintained by the University of Alberta, based in Canada. WildTrax is mainly used by Canadian projects and is free to use (except for very large projects). Classification is media-based with the option to classify multiple media at once. AI classification is possible, but only at a broad level (blanks, animals, vehicles), species classification is not (yet) offered. Data are stored in the cloud. Project metadata can be made available via a public portal. Data can be exported in a custom format (with associated R package).
+WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. Es mantenido por la Universidad de Alberta, con sede en Canadá. WildTrax es utilizado principalmente por proyectos canadienses y es de uso gratuito (excepto para proyectos muy grandes). La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación de IA es posible, pero sólo a un nivel amplio (blancos, animales, vehículos), la clasificación de especies (todavía) no se ofrece. Los datos se almacenan en la nube. Los metadatos del proyecto pueden estar disponibles a través de un portal público. Los datos pueden ser exportados en un formato personalizado (con el paquete R asociado).
 
-WildTrax is a good choice for organizations who want a free service based in Canada.
+WildTrax es una buena elección para organizaciones que quieren un servicio gratuito con sede en Canadá.
 
 [#table-data-management-systems]
-.Comparison of features offered by five data management systems. Features that are the same for all systems are not shown.
+.Comparación de características ofrecidas por cinco sistemas de gestión de datos. No se muestran las características que son las mismas para todos los sistemas.
 [%header, cols=5*]
 |===
-|Feature
+|Característica
 |Agouti
 |Camelot
 |TRAPPER
 |Wildlife Insights
 
 |**Provided as**
-|Service
+|Servicio
 |Software
 |Software
-|Service
+|Servicio
 
 |**Cost**
-|Free
-|Free
-|Free
-|Tiered subscription model (incl. free)
+|Gratuito
+|Gratuito
+|Gratuito
+|Modelo de suscripción de nivel (incl. gratuito)
 
 |**Open source**
 |No
-|Yes
-|Yes
+|Si
+|Si
 |No
 
-|**Supported media types**
-|Image, Video
-|Image
-|Image, Video
-|Image
+|**Tipos de archivos soportados**
+|Imagen, video
+|Imágen
+|Imagen, video
+|Imágen
 
-|**Multiple users roles**
-|Yes
-|Yes (limited)
-|Yes
-|Yes
+|**Múltiples roles de usuarios**
+|Si
+|Sí (limitado)
+|Si
+|Si
 
-|**Supported languages**
+|**Idiomas soportados**
 |English, Croatian, Dutch, French, German, Polish, Spanish
-|English
-|English
-|Many (via Google translate)
+|Inglés
+|Inglés
+|Muchos (a través del traductor de Google)
 
-|**Media- or event-based classification**
-|Event based
-|Media based
-|Media based
-|Media based
+|**Clasificación basada en archivos multimedia o en eventos**
+|Basada en eventos
+|Basada en medios
+|Basada en medios
+|Basada en medios
 
-|**AI classification**
-|Yes (species classification)
+|**Clasificación IA**
+|Sí (clasificación de especies)
 |No
-|Yes (species classification)
-|Yes (species classification)
+|Sí (clasificación de especies)
+|Sí (clasificación de especies)
 
-|**Integration with crowdsourcing platform**
-|Yes (Zooniverse)
+|**Integración con plataforma de crowdsourcing**
+|Sí (Zooniverse)
 |No
-|Yes
+|Si
 |No
 
-|**Project portal**
-|Yes
+|**Portal del proyecto**
+|Si
 |No
 |No
-|Yes
+|Si
 
-|**Data storage**
-|University infrastructure
-|Own server
-|Own server or cloud
-|Cloud (Google Cloud Platform)
+|**Almacenamiento de datos**
+|Infraestructura universitaria
+|Servidor propio
+|Servidor propio o nube
+|Nube (Google Cloud Platform)
 
-|**Data rights granted to system**
-|Minimal
-|None
-|None
-|Some (e.g. for training AI and summary data products)
+|**Derechos de datos otorgados al sistema**
+|Mínimo
+|Ninguno
+|Ninguno
+|Algunos (por ejemplo, para la formación de IA y productos de datos resumidos)
 
-|**Open data requirement**
-|No (but recommended)
+|**Requisito de datos abiertos**
+|No (pero recomendado)
 |No
-|No (but recommended)
-|Yes (data can be kept private for 48 months, project metadata are always public)
+|No (pero recomendado)
+|Sí (los datos pueden mantenerse privados durante 48 meses, los metadatos del proyecto son siempre públicos)
 
-|**Media hosting**
-|Yes
+|**Servidor multimedia**
+|Si
 |No
-|Yes
-|Yes
+|Si
+|Si
 
-|**Export format**
-|Camtrap DP
-|Custom format
-|Camtrap DP
-|Custom format
+|**Formato de exportación**
+|Camptrap DP
+|Formato personalizado
+|Camptrap DP
+|Formato personalizado
 |===
 
 <<<
