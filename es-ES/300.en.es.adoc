@@ -551,7 +551,7 @@ camera_height_meter_double
 
 |deploymentStart
 |Fecha y hora en que comenzó el despliegue.
-|Formatted as `YYYY-MM-DDTHH:MM:SSZ`.
+|Formateado como `AAAA-MM-DDTHH:MM:SSZ`.
 |
 |fecha y hora
 |si
@@ -831,7 +831,7 @@ La gestión de los datos de las cámaras trampa puede ser abrumadora, especialme
 
 Agouti cite:[agouti] (https://agouti.eu) is an online system for managing camera trap data. Es mantenido por la Wageningen University & Research y el Instituto de Investigación para la Naturaleza y los Bosques (INBO), con sede respectiva en los Países Bajos y Bélgica. Agouti es utilizado principalmente por proyectos europeos y es de uso gratuito.
 
-Classification is event-based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. La clasificación de IA es posible, utilizando un modelo específico de clasificación de especies que se actualiza regularmente. Los medios que contienen seres humanos siempre están ocultos al público. Los datos se almacenan en la infraestructura universitaria, que también ofrece archivos a largo plazo y enlaces directos a los archivos multimedia. Los metadatos del proyecto pueden estar disponibles a través de un portal público. Data can be exported as <<camtrap-dp,Camtrap DP>>.
+Classification is event-based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. La clasificación de IA es posible, utilizando un modelo específico de clasificación de especies que se actualiza regularmente. Los medios que contienen seres humanos siempre están ocultos al público. Los datos se almacenan en la infraestructura universitaria, que también ofrece archivos a largo plazo y enlaces directos a los archivos multimedia. Los metadatos del proyecto pueden estar disponibles a través de un portal público. TEST <<camtrap-dp,TESTLINK>>.
 
 Agouti es una buena elección para las organizaciones que quieren un servicio europeo completo gratuito.
 
@@ -859,7 +859,7 @@ Wildlife Insights es una buena opción para organizaciones que quieren un servic
 [#section-wildtrax]
 ==== WildTrax
 
-WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. Es mantenido por la Universidad de Alberta, con sede en Canadá. WildTrax es utilizado principalmente por proyectos canadienses y es de uso gratuito (excepto para proyectos muy grandes). La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación de IA es posible, pero sólo a un nivel amplio (blancos, animales, vehículos), la clasificación de especies (todavía) no se ofrece. Los datos se almacenan en la nube. Los metadatos del proyecto pueden estar disponibles a través de un portal público. Los datos pueden ser exportados en un formato personalizado (con el paquete R asociado).
+WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) es un sistema en línea para gestionar los datos de las cámaras trampa. Es mantenido por la Universidad de Alberta, con sede en Canadá. WildTrax es utilizado principalmente por proyectos canadienses y es de uso gratuito (excepto para proyectos muy grandes). La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación de IA es posible, pero sólo a un nivel amplio (blancos, animales, vehículos), la clasificación de especies (todavía) no se ofrece. Los datos se almacenan en la nube. Los metadatos del proyecto pueden estar disponibles a través de un portal público. Los datos pueden ser exportados en un formato personalizado (con el paquete R asociado).
 
 WildTrax es una buena elección para organizaciones que quieren un servicio gratuito con sede en Canadá.
 
