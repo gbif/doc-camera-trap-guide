@@ -1,0 +1,39 @@
+// add cover image to img directory and update filename below
+
+ifdef::backend-html5[]
+
+image::img/web/camtrap-guide-cover.png[]
+
+endif::backend-html5[]
+
+== Colophon
+
+=== Suggested citation
+
+Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-0qzp-2x37
+
+=== Authors
+
+https://orcid.org/0000-0001-7484-9267[Lien Reyserhove], https://orcid.org/0000-0002-5819-9134[Ben Norton] & https://orcid.org/0000-0002-8442-8025[Peter Desmet]
+
+=== Contributors
+
+https://orcid.org/0000-0002-3129-6196[Tanja Milotic] and https://orcid.org/0000-0002-6658-6062[Pieter Huybrechts] contributed to the introduction and figures.
+
+=== Licence
+
+The document _Best Practices for Managing and Publishing Camera Trap Data_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
+
+=== Persistent URI
+
+https://doi.org/10.35035/doc-0qzp-2x37
+
+=== Document control
+
+v1.0, December 2023
+
+=== Abstract
+
+Camera traps have emerged as important tools for monitoring the state of biodiversity and natural ecosystems. The proliferation of data from such sensors has made data management, rather than data collection, the limiting factor in camera trap-related research. This guide provides recommendations for camera trap data management and publication to GBIF. It is intended for anyone running a camera trap study, in particular data stewards, data publishers, and others working in biodiversity informatics.
+
+<<<
