@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2025-11-28 14:53\n"
+"PO-Revision-Date: 2025-11-28 15:20\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -25,25 +25,25 @@ msgstr ""
 #. type: Plain text
 #: index.en.adoc:132
 msgid "languageLinks:combined[]"
-msgstr ""
+msgstr "languageLinks:combined[]"
 
 #. type: Target for macro image
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/camtrap-guide-cover.png"
-msgstr ""
+msgstr "img/web/camtrap-guide-cover.png"
 
 #. type: Title ==
 #: colophon.en.adoc:6
 #, no-wrap
 msgid "Colophon"
-msgstr ""
+msgstr "Colofón"
 
 #. type: Title ===
 #: colophon.en.adoc:8
 #, no-wrap
 msgid "Suggested citation"
-msgstr ""
+msgstr "Citación sugerida"
 
 #. type: Plain text
 #: colophon.en.adoc:11
@@ -54,7 +54,7 @@ msgstr ""
 #: colophon.en.adoc:12
 #, no-wrap
 msgid "Authors"
-msgstr ""
+msgstr "Autores"
 
 #. type: Plain text
 #: colophon.en.adoc:15
@@ -65,7 +65,7 @@ msgstr ""
 #: colophon.en.adoc:16
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Colaboradores"
 
 #. type: Plain text
 #: colophon.en.adoc:19
@@ -76,7 +76,7 @@ msgstr ""
 #: colophon.en.adoc:20
 #, no-wrap
 msgid "Licence"
-msgstr ""
+msgstr "Licencia"
 
 #. type: Plain text
 #: colophon.en.adoc:23
@@ -87,29 +87,29 @@ msgstr ""
 #: colophon.en.adoc:24
 #, no-wrap
 msgid "Persistent URI"
-msgstr ""
+msgstr "URI persistente"
 
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "https://doi.org/10.35035/doc-0qzp-2x37"
-msgstr ""
+msgstr "https://doi.org/10.35035/doc-0qzp-2x37"
 
 #. type: Title ===
 #: colophon.en.adoc:28
 #, no-wrap
 msgid "Document control"
-msgstr ""
+msgstr "Control del documento"
 
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "v1.0, December 2023"
-msgstr ""
+msgstr "v1.0, diciembre de 2023"
 
 #. type: Title ===
 #: colophon.en.adoc:32
 #, no-wrap
 msgid "Abstract"
-msgstr ""
+msgstr "Resumen"
 
 #. type: Plain text
 #: colophon.en.adoc:35
@@ -121,19 +121,19 @@ msgstr ""
 #: 400.en.adoc:884 afterword.en.adoc:6 glossary.en.adoc:118
 #: bibliography.en.adoc:6
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ==
 #: 100.en.adoc:2
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
 #. type: Title ===
 #: 100.en.adoc:5
 #, no-wrap
 msgid "Why this guide?"
-msgstr ""
+msgstr "¿Qué es esta guía?"
 
 #. type: Plain text
 #: 100.en.adoc:8
@@ -148,7 +148,7 @@ msgstr ""
 #. type: Plain text
 #: 100.en.adoc:12
 msgid "Specialized data management platforms are now primarily used to manage projects and data"
-msgstr ""
+msgstr "Las plataformas especializadas de gestión de datos ahora se utilizan principalmente para gestionar proyectos y datos"
 
 #. type: Plain text
 #: 100.en.adoc:13
@@ -169,7 +169,7 @@ msgstr ""
 #: 100.en.adoc:18
 #, no-wrap
 msgid "Target audience"
-msgstr ""
+msgstr "Público objetivo"
 
 #. type: Plain text
 #: 100.en.adoc:21
@@ -185,7 +185,7 @@ msgstr ""
 #: 100.en.adoc:25
 #, no-wrap
 msgid "What this guide is not about"
-msgstr ""
+msgstr "De qué no trata esta guía"
 
 #. type: Plain text
 #: 100.en.adoc:28
@@ -195,22 +195,22 @@ msgstr ""
 #. type: Plain text
 #: 100.en.adoc:30
 msgid "Planning a camera trap study: types of camera traps, study design, etc."
-msgstr ""
+msgstr "Planear un estudio de cámaras trampa: tipos de cámaras trampa, diseño de estudio, etc."
 
 #. type: Plain text
 #: 100.en.adoc:31
 msgid "Camera trap deployment and collection: field work, baits and lures, data retrieval, etc."
-msgstr ""
+msgstr "Distribución y recolección de cámaras trampa: trabajo de campo, cebos y señuelos, recuperación de datos, etc."
 
 #. type: Plain text
 #: 100.en.adoc:32
 msgid "Analysis: software for analysis, ecological modelling, bias correction, etc."
-msgstr ""
+msgstr "Análisis: software de análisis, modelado ecológico, corrección de prejuicios, etc."
 
 #. type: Plain text
 #: 100.en.adoc:33
 msgid "Data from moving cameras: underwater robots, vehicle-mounted cameras, drones, etc."
-msgstr ""
+msgstr "Datos de las cámaras móviles: robots submarinos, cámaras montadas en vehículos, drones, etc."
 
 #. type: Plain text
 #: 100.en.adoc:35
@@ -221,13 +221,13 @@ msgstr ""
 #: 200.en.adoc:2
 #, no-wrap
 msgid "The use of camera traps"
-msgstr ""
+msgstr "El uso de cámaras trampa"
 
 #. type: Title ===
 #: 200.en.adoc:5
 #, no-wrap
 msgid "What are camera traps?"
-msgstr ""
+msgstr "¿Qué son las cámaras trampa?"
 
 #. type: Plain text
 #: 200.en.adoc:8
@@ -238,7 +238,7 @@ msgstr ""
 #: 200.en.adoc:10
 #, no-wrap
 msgid "Why are camera traps used?"
-msgstr ""
+msgstr "¿Por qué se utilizan las cámaras trampa?"
 
 #. type: Plain text
 #: 200.en.adoc:13
@@ -290,7 +290,7 @@ msgstr ""
 #: 200.en.adoc:52
 #, no-wrap
 msgid "Camera trap project life cycle"
-msgstr ""
+msgstr "Ciclo de vida de la cámara trampa"
 
 #. type: Plain text
 #: 200.en.adoc:55
@@ -301,7 +301,7 @@ msgstr ""
 #: 200.en.adoc:57
 #, no-wrap
 msgid "Stages in the camera trap life cycle and key references."
-msgstr ""
+msgstr "Etapas en el ciclo de vida de la cámara trampa y referencias clave."
 
 #. type: Table
 #: 200.en.adoc:93
@@ -345,7 +345,7 @@ msgstr ""
 #: 300.en.adoc:2
 #, no-wrap
 msgid "Managing camera trap data"
-msgstr ""
+msgstr "Gestión de datos de cámaras trampa"
 
 #. type: Plain text
 #: 300.en.adoc:5
@@ -371,7 +371,7 @@ msgstr ""
 #: 300.en.adoc:13
 #, no-wrap
 msgid "What are camera trap data"
-msgstr ""
+msgstr "Qué son las cámaras trampa"
 
 #. type: Plain text
 #: 300.en.adoc:16
@@ -381,7 +381,7 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:18
 msgid "Overall, we can distinguish four types of camera trap data:"
-msgstr ""
+msgstr "En general, podemos distinguir cuatro tipos de datos de cámaras trampa:"
 
 #. type: Plain text
 #: 300.en.adoc:20
@@ -434,7 +434,7 @@ msgstr ""
 #: 300.en.adoc:31
 #, no-wrap
 msgid "Project Metadata"
-msgstr ""
+msgstr "Metadatos del proyecto"
 
 #. type: Plain text
 #: 300.en.adoc:34
@@ -449,67 +449,67 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:38
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #. type: Plain text
 #: 300.en.adoc:39
 msgid "Identifier and/or acronym"
-msgstr ""
+msgstr "Identificador y/o acrónimo"
 
 #. type: Plain text
 #: 300.en.adoc:40
 msgid "Description (including rationale)"
-msgstr ""
+msgstr "Descripción (incluyendo racionales)"
 
 #. type: Plain text
 #: 300.en.adoc:41
 msgid "Contributors and their roles (including organizations)"
-msgstr ""
+msgstr "Colaboradores y sus roles (incluyendo organizaciones)"
 
 #. type: Plain text
 #: 300.en.adoc:42
 msgid "Link to website"
-msgstr ""
+msgstr "Enlace al sitio web"
 
 #. type: Plain text
 #: 300.en.adoc:43
 msgid "Keywords"
-msgstr ""
+msgstr "Palabras clave"
 
 #. type: Plain text
 #: 300.en.adoc:44
 msgid "Funding"
-msgstr ""
+msgstr "Financiación"
 
 #. type: Plain text
 #: 300.en.adoc:45
 msgid "Sampling design (simple random, systematic random, etc.)"
-msgstr ""
+msgstr "Diseño de muestreo (simple aleatorio, sistemático aleatorio, etc.)"
 
 #. type: Plain text
 #: 300.en.adoc:46
 msgid "Resulting geographic scope"
-msgstr ""
+msgstr "Resultado del ámbito geográfico"
 
 #. type: Plain text
 #: 300.en.adoc:47
 msgid "Capture method (type of sensor, motion detection and/or time lapse)"
-msgstr ""
+msgstr "Método de captura (tipo de sensor, detección de movimiento y/o intervalo de tiempo)"
 
 #. type: Plain text
 #: 300.en.adoc:48
 msgid "Capture schedules (continuous, nightly, etc.)"
-msgstr ""
+msgstr "Programas de captura (continuos, nocturnos, etc.)"
 
 #. type: Plain text
 #: 300.en.adoc:49
 msgid "Capture outages and unplanned events"
-msgstr ""
+msgstr "Interrupciones de captura y eventos no planificados"
 
 #. type: Plain text
 #: 300.en.adoc:50
 msgid "Resulting temporal scope"
-msgstr ""
+msgstr "Alcance temporal resultante"
 
 #. type: Plain text
 #: 300.en.adoc:51
@@ -519,12 +519,12 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:52
 msgid "Classification granularity and scope (i.e. which detectable organisms were classified: all animals, mammals only, known individuals only, etc.)"
-msgstr ""
+msgstr "Granularidad y alcance de la clasificación (es decir, qué órganismos detectables fueron clasificados: todos los animales, solo mamíferos, únicamente individuos conocidos, etc.)"
 
 #. type: Plain text
 #: 300.en.adoc:53
 msgid "Resulting taxonomic scope"
-msgstr ""
+msgstr "Alcance taxonómico resultante"
 
 #. type: Plain text
 #: 300.en.adoc:54
@@ -552,7 +552,7 @@ msgstr ""
 #: 300.en.adoc:63
 #, no-wrap
 msgid "Participants and roles"
-msgstr ""
+msgstr "Participantes y roles"
 
 #. type: Plain text
 #: 300.en.adoc:66
@@ -563,7 +563,7 @@ msgstr ""
 #: 300.en.adoc:68
 #, no-wrap
 msgid "Participant roles in camera trap studies, as defined by different formats and data management systems."
-msgstr ""
+msgstr "Funciones participativas en los estudios de trampas de cámara, definidas por diferentes formatos y sistemas de gestión de datos."
 
 #. type: Table
 #: 300.en.adoc:150
@@ -647,7 +647,7 @@ msgstr ""
 #: 300.en.adoc:153
 #, no-wrap
 msgid "Media files"
-msgstr ""
+msgstr "Archivos multimedia"
 
 #. type: Plain text
 #: 300.en.adoc:156
@@ -869,7 +869,7 @@ msgstr ""
 #: 300.en.adoc:391
 #, no-wrap
 msgid "Timestamps"
-msgstr ""
+msgstr "Fecha y hora"
 
 #. type: Plain text
 #: 300.en.adoc:394
@@ -880,7 +880,7 @@ msgstr ""
 #: 300.en.adoc:396
 #, no-wrap
 msgid "File naming"
-msgstr ""
+msgstr "Nombre de archivo"
 
 #. type: Plain text
 #: 300.en.adoc:399
@@ -910,7 +910,7 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:405 300.en.adoc:515
 msgid "Be consistent."
-msgstr ""
+msgstr "Sea consistente."
 
 #. type: delimited block -
 #: 300.en.adoc:411
@@ -945,7 +945,7 @@ msgstr ""
 #: 300.en.adoc:423
 #, no-wrap
 msgid "Storage"
-msgstr ""
+msgstr "Almacenamiento"
 
 #. type: Plain text
 #: 300.en.adoc:426
@@ -956,7 +956,7 @@ msgstr ""
 #: 300.en.adoc:428
 #, no-wrap
 msgid "Deployments"
-msgstr ""
+msgstr "Despliegues"
 
 #. type: Plain text
 #: 300.en.adoc:431
@@ -1027,7 +1027,7 @@ msgstr ""
 #: 300.en.adoc:506
 #, no-wrap
 msgid "Column naming"
-msgstr ""
+msgstr "Nombre de columna"
 
 #. type: Plain text
 #: 300.en.adoc:509
@@ -1037,7 +1037,7 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:511
 msgid "Use descriptive names, so users have an idea of what information to expect."
-msgstr ""
+msgstr "Utilice nombres descriptivos, para que los usuarios tienen una idea de qué información esperar."
 
 #. type: Plain text
 #: 300.en.adoc:512
@@ -1094,7 +1094,7 @@ msgstr ""
 #: 300.en.adoc:536
 #, no-wrap
 msgid "Example of how to describe deployment data in a separate spreadsheet."
-msgstr ""
+msgstr "Ejemplo de cómo describir los datos de implementación en una hoja de cálculo independiente."
 
 #. type: Table
 #: 300.en.adoc:594
@@ -1153,7 +1153,7 @@ msgstr ""
 #: 300.en.adoc:597
 #, no-wrap
 msgid "Location"
-msgstr ""
+msgstr "Localización"
 
 #. type: Plain text
 #: 300.en.adoc:600
@@ -1188,7 +1188,7 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:608
 msgid "The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the point-radius-method."
-msgstr ""
+msgstr "La incertidumbre máxima combinada se expresa de forma más conveniente como una incertidumbre de coordinación en metros, permitiendo que la ubicación se describa con el método punto-radiofónico."
 
 #. type: Plain text
 #: 300.en.adoc:610
@@ -1198,13 +1198,13 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:612
 msgid "Most other properties associated with a location such as country and state, but even elevation, slope, land cover or leaf area index, can be derived from the coordinates using an online resource."
-msgstr ""
+msgstr "La mayoría de las otras propiedades asociadas con una ubicación como país y estado, pero incluso elevación, pendiente, cubierta de tierra o índice de área de hoja, puede derivarse de las coordenadas utilizando un recurso en línea."
 
 #. type: Title ====
 #: 300.en.adoc:614
 #, no-wrap
 msgid "Camera model, settings and alignment"
-msgstr ""
+msgstr "Modelo de cámara, ajustes y alineación"
 
 #. type: Plain text
 #: 300.en.adoc:617
@@ -1215,7 +1215,7 @@ msgstr ""
 #: 300.en.adoc:619
 #, no-wrap
 msgid "Deployment groups"
-msgstr ""
+msgstr "Grupos de despliegue"
 
 #. type: Plain text
 #: 300.en.adoc:623
@@ -1238,7 +1238,7 @@ msgstr ""
 #: 300.en.adoc:629
 #, no-wrap
 msgid "Covariates"
-msgstr ""
+msgstr "Covariantes"
 
 #. type: Plain text
 #: 300.en.adoc:632
@@ -1253,7 +1253,7 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:635
 msgid "Ecological traits:"
-msgstr ""
+msgstr "Características ecológicas:"
 
 #. type: Plain text
 #: 300.en.adoc:636
@@ -1324,7 +1324,7 @@ msgstr ""
 #: 300.en.adoc:650
 #, no-wrap
 msgid "Observations"
-msgstr ""
+msgstr "Observaciones"
 
 #. type: Plain text
 #: 300.en.adoc:653
@@ -1371,7 +1371,7 @@ msgstr ""
 #: 300.en.adoc:692
 #, no-wrap
 msgid "Classification"
-msgstr ""
+msgstr "Clasificación"
 
 #. type: Plain text
 #: 300.en.adoc:695
@@ -1386,12 +1386,12 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:698
 msgid "Object(s) of interest is a human or vehicle, or cannot be identified."
-msgstr ""
+msgstr "Los objetos de interés son humanos o vehículos, o no pueden ser identificados."
 
 #. type: Plain text
 #: 300.en.adoc:699
 msgid "Object(s) of interest is an animal, identified at a high taxonomic level (e.g. a rodent)."
-msgstr ""
+msgstr "El objeto de interés es un animal, identificado a un nivel taxonómico alto (p. ej., un roedor)."
 
 #. type: Plain text
 #: 300.en.adoc:700
@@ -1401,12 +1401,12 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:701
 msgid "Animal is identified as a known individual (e.g. wolf Noëlla)."
-msgstr ""
+msgstr "Un animal se identifica como un indivuduo conocido (por ejemplo, la loba Noëlla)."
 
 #. type: Plain text
 #: 300.en.adoc:702
 msgid "Other properties of the animal are recorded, such as group size, life stage, sex, and behaviour."
-msgstr ""
+msgstr "Se registran otras propiedades del animal, como el tamaño del grupo, la etapa de vida, el sexo y el comportamiento."
 
 #. type: Plain text
 #: 300.en.adoc:704
@@ -1456,7 +1456,7 @@ msgstr ""
 #: 300.en.adoc:746
 #, no-wrap
 msgid "Citizen science"
-msgstr ""
+msgstr "Ciencia ciudadana"
 
 #. type: Plain text
 #: 300.en.adoc:749
@@ -1472,7 +1472,7 @@ msgstr ""
 #: 300.en.adoc:753
 #, no-wrap
 msgid "Artificial intelligence"
-msgstr ""
+msgstr "Inteligencia artificial"
 
 #. type: Plain text
 #: 300.en.adoc:756
@@ -1488,7 +1488,7 @@ msgstr ""
 #: 300.en.adoc:760
 #, no-wrap
 msgid "Media- or event-based classification"
-msgstr ""
+msgstr "Clasificación basada en archivos multimedia o en eventos"
 
 #. type: Plain text
 #: 300.en.adoc:763
@@ -1504,7 +1504,7 @@ msgstr ""
 #: 300.en.adoc:767
 #, no-wrap
 msgid "Common or scientific names"
-msgstr ""
+msgstr "Nombres comunes o científicos"
 
 #. type: Plain text
 #: 300.en.adoc:770
@@ -1520,7 +1520,7 @@ msgstr ""
 #: 300.en.adoc:774
 #, no-wrap
 msgid "Selection of sources for scientific names, common names and taxonomic information."
-msgstr ""
+msgstr "Selección de fuentes para nombres científicos, nombres comunes e información taxonómica."
 
 #. type: Table
 #: 300.en.adoc:814
@@ -1562,7 +1562,7 @@ msgstr ""
 #: 300.en.adoc:817
 #, no-wrap
 msgid "Data management systems"
-msgstr ""
+msgstr "Sistemas de gestión de datos"
 
 #. type: Plain text
 #: 300.en.adoc:820
@@ -1572,7 +1572,7 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:822
 msgid "Create one or more projects"
-msgstr ""
+msgstr "Crean uno o más proyectos"
 
 #. type: Plain text
 #: 300.en.adoc:823
@@ -1582,7 +1582,7 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:824
 msgid "Upload media and creating deployments"
-msgstr ""
+msgstr "Subir medios y crear despliegues"
 
 #. type: Plain text
 #: 300.en.adoc:825
@@ -1592,12 +1592,12 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:826
 msgid "Manage reference lists of species, locations, covariates, etc."
-msgstr ""
+msgstr "Gestionan listas de referencias de especies, ubicaciones, covariantes, etc."
 
 #. type: Plain text
 #: 300.en.adoc:827
 msgid "Engage the public by making some or all project metadata available on a website"
-msgstr ""
+msgstr "Incorporan al público haciendo que algunos o todos los metadatos del proyecto estén disponibles en un sitio web"
 
 #. type: Plain text
 #: 300.en.adoc:828
@@ -1613,7 +1613,7 @@ msgstr ""
 #: 300.en.adoc:831
 #, no-wrap
 msgid "Agouti"
-msgstr ""
+msgstr "Agouti"
 
 #. type: Plain text
 #: 300.en.adoc:834
@@ -1628,13 +1628,13 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:838
 msgid "Agouti is a good choice for organizations who want a free full-feature European based service."
-msgstr ""
+msgstr "Agouti es una buena elección para las organizaciones que quieren un servicio europeo completo gratuito."
 
 #. type: Title ====
 #: 300.en.adoc:840
 #, no-wrap
 msgid "Camelot"
-msgstr ""
+msgstr "Camelot"
 
 #. type: Plain text
 #: 300.en.adoc:843
@@ -1644,13 +1644,13 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:845
 msgid "Camelot is a good choice for organizations and individuals who want a light-weigh solution they can manage themselves."
-msgstr ""
+msgstr "Camelot es una buena opción para organizaciones e individuos que quieren una solución ligera que puedan gestionar por su cuenta."
 
 #. type: Title ====
 #: 300.en.adoc:847
 #, no-wrap
 msgid "TRAPPER"
-msgstr ""
+msgstr "TRAPPER"
 
 #. type: Plain text
 #: 300.en.adoc:850
@@ -1660,13 +1660,13 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:852
 msgid "TRAPPER is a good choice for organizations who want control over the software and where their data are stored."
-msgstr ""
+msgstr "TRAPPER es una buena opción para las organizaciones que quieren controlar el software y donde se almacenan sus datos."
 
 #. type: Title ====
 #: 300.en.adoc:854
 #, no-wrap
 msgid "Wildlife Insights"
-msgstr ""
+msgstr "Wildlife Insights"
 
 #. type: Plain text
 #: 300.en.adoc:857
@@ -1676,13 +1676,13 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:859
 msgid "Wildlife Insights is a good choice for organizations who want a full-feature service with powerful AI and open data requirements."
-msgstr ""
+msgstr "Wildlife Insights es una buena opción para organizaciones que quieren un servicio completo con fuertes requisitos de IA y datos abiertos."
 
 #. type: Title ====
 #: 300.en.adoc:861
 #, no-wrap
 msgid "WildTrax"
-msgstr ""
+msgstr "WildTrax"
 
 #. type: Plain text
 #: 300.en.adoc:864
@@ -1692,7 +1692,7 @@ msgstr ""
 #. type: Plain text
 #: 300.en.adoc:866
 msgid "WildTrax is a good choice for organizations who want a free service based in Canada."
-msgstr ""
+msgstr "WildTrax es una buena elección para organizaciones que quieren un servicio gratuito con sede en Canadá."
 
 #. type: Block title
 #: 300.en.adoc:868
@@ -1789,7 +1789,7 @@ msgstr ""
 #: 400.en.adoc:2
 #, no-wrap
 msgid "Publishing camera trap data"
-msgstr ""
+msgstr "Publicación de datos de cámaras trampa"
 
 #. type: Plain text
 #: 400.en.adoc:5
@@ -1810,7 +1810,7 @@ msgstr ""
 #: 400.en.adoc:11
 #, no-wrap
 msgid "FAIR camera trap data"
-msgstr ""
+msgstr "Datos FAIR de cámara trampa"
 
 #. type: Plain text
 #: 400.en.adoc:14
@@ -1826,13 +1826,13 @@ msgstr ""
 #: 400.en.adoc:18
 #, no-wrap
 msgid "Preparing data"
-msgstr ""
+msgstr "Preparar datos"
 
 #. type: Title ====
 #: 400.en.adoc:21
 #, no-wrap
 msgid "Stable unique identifiers"
-msgstr ""
+msgstr "Identificadores únicos estables"
 
 #. type: Plain text
 #: 400.en.adoc:24
@@ -1863,7 +1863,7 @@ msgstr ""
 #: 400.en.adoc:32
 #, no-wrap
 msgid "Sensitive information"
-msgstr ""
+msgstr "Información sensible"
 
 #. type: Plain text
 #: 400.en.adoc:35
@@ -1874,7 +1874,7 @@ msgstr ""
 #: 400.en.adoc:37
 #, no-wrap
 msgid "Personal data"
-msgstr ""
+msgstr "Datos personales"
 
 #. type: Plain text
 #: 400.en.adoc:40
@@ -1890,7 +1890,7 @@ msgstr ""
 #: 400.en.adoc:44
 #, no-wrap
 msgid "Sensitive media files"
-msgstr ""
+msgstr "Archivos multimedia sensibles"
 
 #. type: Plain text
 #: 400.en.adoc:47
@@ -1906,7 +1906,7 @@ msgstr ""
 #: 400.en.adoc:51
 #, no-wrap
 msgid "Sensitive location information"
-msgstr ""
+msgstr "Información de ubicación sensible"
 
 #. type: Plain text
 #: 400.en.adoc:54
@@ -1970,7 +1970,7 @@ msgstr ""
 #: 400.en.adoc:108
 #, no-wrap
 msgid "Other sensitive information"
-msgstr ""
+msgstr "Otra información sensible"
 
 #. type: Plain text
 #: 400.en.adoc:111
@@ -1981,7 +1981,7 @@ msgstr ""
 #: 400.en.adoc:113
 #, no-wrap
 msgid "Camtrap DP"
-msgstr ""
+msgstr "Camptrap DP"
 
 #. type: Plain text
 #: 400.en.adoc:116
@@ -2007,13 +2007,13 @@ msgstr ""
 #: 400.en.adoc:127
 #, no-wrap
 msgid "Darwin Core Archive"
-msgstr ""
+msgstr "Archivo Darwin Core"
 
 #. type: Title ====
 #: 400.en.adoc:130
 #, no-wrap
 msgid "Why not a sampling event dataset?"
-msgstr ""
+msgstr "¿Por qué no un conjunto de datos de eventos de muestreo?"
 
 #. type: Plain text
 #: 400.en.adoc:133
@@ -2194,7 +2194,7 @@ msgstr ""
 #: 400.en.adoc:282
 #, no-wrap
 msgid "Occurrence core"
-msgstr ""
+msgstr "Núcleo de registro"
 
 #. type: Plain text
 #: 400.en.adoc:285
@@ -2344,7 +2344,7 @@ msgstr ""
 #: 400.en.adoc:458 400.en.adoc:822
 #, no-wrap
 msgid "type"
-msgstr ""
+msgstr "tipo"
 
 #. type: Plain text
 #: 400.en.adoc:461
@@ -2360,7 +2360,7 @@ msgstr ""
 #: 400.en.adoc:465
 #, no-wrap
 msgid "license"
-msgstr ""
+msgstr "licencia"
 
 #. type: Plain text
 #: 400.en.adoc:468
@@ -2376,7 +2376,7 @@ msgstr ""
 #: 400.en.adoc:472
 #, no-wrap
 msgid "rightsHolder"
-msgstr ""
+msgstr "Titular de derechos"
 
 #. type: Plain text
 #: 400.en.adoc:475
@@ -2408,7 +2408,7 @@ msgstr ""
 #: 400.en.adoc:486
 #, no-wrap
 msgid "collectionCode"
-msgstr ""
+msgstr "códigoDeLaColección"
 
 #. type: Plain text
 #: 400.en.adoc:489
@@ -2424,7 +2424,7 @@ msgstr ""
 #: 400.en.adoc:493
 #, no-wrap
 msgid "basisOfRecord"
-msgstr ""
+msgstr "baseDelRegistro"
 
 #. type: Plain text
 #: 400.en.adoc:496
@@ -2440,7 +2440,7 @@ msgstr ""
 #: 400.en.adoc:500
 #, no-wrap
 msgid "dataGeneralizations"
-msgstr ""
+msgstr "generalizacionesDeLosDatos"
 
 #. type: Plain text
 #: 400.en.adoc:503
@@ -2456,7 +2456,7 @@ msgstr ""
 #: 400.en.adoc:507 400.en.adoc:591 400.en.adoc:627 400.en.adoc:698
 #: 400.en.adoc:720
 msgid "Examples:"
-msgstr ""
+msgstr "Ejemplos:"
 
 #. type: delimited block -
 #: 400.en.adoc:511
@@ -2469,7 +2469,7 @@ msgstr ""
 #: 400.en.adoc:514 400.en.adoc:808
 #, no-wrap
 msgid "occurrenceID"
-msgstr ""
+msgstr "identficadorDelRegistro"
 
 #. type: Plain text
 #: 400.en.adoc:517 400.en.adoc:811
@@ -2485,7 +2485,7 @@ msgstr ""
 #: 400.en.adoc:521
 #, no-wrap
 msgid "individualCount"
-msgstr ""
+msgstr "conteoIndividual"
 
 #. type: Plain text
 #: 400.en.adoc:524
@@ -2501,7 +2501,7 @@ msgstr ""
 #: 400.en.adoc:528
 #, no-wrap
 msgid "sex"
-msgstr ""
+msgstr "sexo"
 
 #. type: Plain text
 #: 400.en.adoc:531
@@ -2517,7 +2517,7 @@ msgstr ""
 #: 400.en.adoc:535
 #, no-wrap
 msgid "lifeStage"
-msgstr ""
+msgstr "etapa de vida"
 
 #. type: Plain text
 #: 400.en.adoc:538
@@ -2533,7 +2533,7 @@ msgstr ""
 #: 400.en.adoc:542
 #, no-wrap
 msgid "behavior"
-msgstr ""
+msgstr "comportamiento"
 
 #. type: Plain text
 #: 400.en.adoc:545
@@ -2549,7 +2549,7 @@ msgstr ""
 #: 400.en.adoc:549
 #, no-wrap
 msgid "occurrenceStatus"
-msgstr ""
+msgstr "estadoDelRegistro"
 
 #. type: Plain text
 #: 400.en.adoc:552
@@ -2565,7 +2565,7 @@ msgstr ""
 #: 400.en.adoc:556
 #, no-wrap
 msgid "occurrenceRemarks"
-msgstr ""
+msgstr "comentariosSobreElRegistro"
 
 #. type: Plain text
 #: 400.en.adoc:559
@@ -2581,7 +2581,7 @@ msgstr ""
 #: 400.en.adoc:563
 #, no-wrap
 msgid "organismID"
-msgstr ""
+msgstr "ID de organismo"
 
 #. type: Plain text
 #: 400.en.adoc:566
@@ -2597,7 +2597,7 @@ msgstr ""
 #: 400.en.adoc:570
 #, no-wrap
 msgid "eventID"
-msgstr ""
+msgstr "identificadorDelEvento"
 
 #. type: Plain text
 #: 400.en.adoc:573
@@ -2613,7 +2613,7 @@ msgstr ""
 #: 400.en.adoc:577
 #, no-wrap
 msgid "parentEventID"
-msgstr ""
+msgstr "IDdeEventoOriginal"
 
 #. type: Plain text
 #: 400.en.adoc:580
@@ -2629,7 +2629,7 @@ msgstr ""
 #: 400.en.adoc:584
 #, no-wrap
 msgid "eventDate"
-msgstr ""
+msgstr "fechaDelEvento"
 
 #. type: Plain text
 #: 400.en.adoc:587
@@ -2653,7 +2653,7 @@ msgstr ""
 #: 400.en.adoc:599
 #, no-wrap
 msgid "habitat"
-msgstr ""
+msgstr "hábitat"
 
 #. type: Plain text
 #: 400.en.adoc:602
@@ -2669,7 +2669,7 @@ msgstr ""
 #: 400.en.adoc:606
 #, no-wrap
 msgid "samplingProtocol"
-msgstr ""
+msgstr "protocoloDeMuestreo"
 
 #. type: Plain text
 #: 400.en.adoc:609
@@ -2685,7 +2685,7 @@ msgstr ""
 #: 400.en.adoc:613
 #, no-wrap
 msgid "samplingEffort"
-msgstr ""
+msgstr "esfuerzoDeMuestreo"
 
 #. type: Plain text
 #: 400.en.adoc:616
@@ -2701,7 +2701,7 @@ msgstr ""
 #: 400.en.adoc:620
 #, no-wrap
 msgid "eventRemarks"
-msgstr ""
+msgstr "comentariosSobreElEvento"
 
 #. type: Plain text
 #: 400.en.adoc:623
@@ -2725,7 +2725,7 @@ msgstr ""
 #: 400.en.adoc:635
 #, no-wrap
 msgid "locationID"
-msgstr ""
+msgstr "identificadorDeLaUbicación"
 
 #. type: Plain text
 #: 400.en.adoc:638
@@ -2741,12 +2741,12 @@ msgstr ""
 #: 400.en.adoc:642
 #, no-wrap
 msgid "locality"
-msgstr ""
+msgstr "localidad"
 
 #. type: Plain text
 #: 400.en.adoc:645
 msgid "term:dwc[dwc:locality]"
-msgstr ""
+msgstr "término:dwc[dwc:locality] (Localidad)"
 
 #. type: Plain text
 #: 400.en.adoc:647
@@ -2805,12 +2805,12 @@ msgstr ""
 #: 400.en.adoc:670
 #, no-wrap
 msgid "geodeticDatum"
-msgstr ""
+msgstr "dátumGeodésico"
 
 #. type: Plain text
 #: 400.en.adoc:673
 msgid "term:dwc[dwc:geodeticDatum]"
-msgstr ""
+msgstr "term:dwc[dwc:geodeticDatum] (Dato geodésico)"
 
 #. type: Plain text
 #: 400.en.adoc:675
@@ -2821,12 +2821,12 @@ msgstr ""
 #: 400.en.adoc:677
 #, no-wrap
 msgid "coordinateUncertaintyInMeters"
-msgstr ""
+msgstr "incertidumbreDeLaCoordenadaEnMetros"
 
 #. type: Plain text
 #: 400.en.adoc:680
 msgid "term:dwc[dwc:coordinateUncertaintyInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:coordinateUncertaintyInMeters] (Incertidumbre de las coordenadas en metros)"
 
 #. type: Plain text
 #: 400.en.adoc:682
@@ -2837,12 +2837,12 @@ msgstr ""
 #: 400.en.adoc:684
 #, no-wrap
 msgid "coordinatePrecision"
-msgstr ""
+msgstr "precisiónDeLaCoordenada"
 
 #. type: Plain text
 #: 400.en.adoc:687
 msgid "term:dwc[dwc:coordinatePrecision]"
-msgstr ""
+msgstr "term:dwc[dwc:coordinatePrecision] (Precisión de las coordenadas)"
 
 #. type: Plain text
 #: 400.en.adoc:689
@@ -2853,7 +2853,7 @@ msgstr ""
 #: 400.en.adoc:691
 #, no-wrap
 msgid "identifiedBy"
-msgstr ""
+msgstr "identificadoPor"
 
 #. type: Plain text
 #: 400.en.adoc:694
@@ -2877,7 +2877,7 @@ msgstr ""
 #: 400.en.adoc:706
 #, no-wrap
 msgid "dateIdentified"
-msgstr ""
+msgstr "fechaIdentificada"
 
 #. type: Plain text
 #: 400.en.adoc:709
@@ -2893,7 +2893,7 @@ msgstr ""
 #: 400.en.adoc:713
 #, no-wrap
 msgid "identificationRemarks"
-msgstr ""
+msgstr "comentariosSobreLaIdentificación"
 
 #. type: Plain text
 #: 400.en.adoc:716
@@ -2916,7 +2916,7 @@ msgstr ""
 #: 400.en.adoc:727
 #, no-wrap
 msgid "taxonID"
-msgstr ""
+msgstr "ID de taxón"
 
 #. type: Plain text
 #: 400.en.adoc:730
@@ -2932,7 +2932,7 @@ msgstr ""
 #: 400.en.adoc:734
 #, no-wrap
 msgid "scientificName"
-msgstr ""
+msgstr "scientificName"
 
 #. type: Plain text
 #: 400.en.adoc:737
@@ -2948,7 +2948,7 @@ msgstr ""
 #: 400.en.adoc:741
 #, no-wrap
 msgid "kingdom"
-msgstr ""
+msgstr "reino"
 
 #. type: Plain text
 #: 400.en.adoc:744
@@ -2964,7 +2964,7 @@ msgstr ""
 #: 400.en.adoc:748
 #, no-wrap
 msgid "Audubon Media Description extension"
-msgstr ""
+msgstr "Extensión de Descripción Multimedia de Audubon"
 
 #. type: Plain text
 #: 400.en.adoc:751
@@ -3032,7 +3032,7 @@ msgstr ""
 #: 400.en.adoc:815
 #, no-wrap
 msgid "identifier"
-msgstr ""
+msgstr "identificador"
 
 #. type: Plain text
 #: 400.en.adoc:818
@@ -3058,7 +3058,7 @@ msgstr ""
 #: 400.en.adoc:829
 #, no-wrap
 msgid "comments"
-msgstr ""
+msgstr "comentarios"
 
 #. type: Plain text
 #: 400.en.adoc:832
@@ -3074,7 +3074,7 @@ msgstr ""
 #: 400.en.adoc:836
 #, no-wrap
 msgid "rights"
-msgstr ""
+msgstr "derechos"
 
 #. type: Plain text
 #: 400.en.adoc:839
@@ -3090,7 +3090,7 @@ msgstr ""
 #: 400.en.adoc:843
 #, no-wrap
 msgid "CreateDate"
-msgstr ""
+msgstr "fechaDeCreación"
 
 #. type: Plain text
 #: 400.en.adoc:846
@@ -3106,7 +3106,7 @@ msgstr ""
 #: 400.en.adoc:850
 #, no-wrap
 msgid "captureDevice"
-msgstr ""
+msgstr "dispositivoDeCaptura"
 
 #. type: Plain text
 #: 400.en.adoc:853
@@ -3122,7 +3122,7 @@ msgstr ""
 #: 400.en.adoc:857
 #, no-wrap
 msgid "resourceCreationTechnique"
-msgstr ""
+msgstr "técnicaDeCreaciónDeRecurso"
 
 #. type: Plain text
 #: 400.en.adoc:860
@@ -3138,7 +3138,7 @@ msgstr ""
 #: 400.en.adoc:864
 #, no-wrap
 msgid "accessURI"
-msgstr ""
+msgstr "accesoURI"
 
 #. type: Plain text
 #: 400.en.adoc:867
@@ -3154,7 +3154,7 @@ msgstr ""
 #: 400.en.adoc:871
 #, no-wrap
 msgid "serviceExpectation"
-msgstr ""
+msgstr "expectativaDeServicio"
 
 #. type: Plain text
 #: 400.en.adoc:874
@@ -3170,7 +3170,7 @@ msgstr ""
 #: 400.en.adoc:878
 #, no-wrap
 msgid "format"
-msgstr ""
+msgstr "formato"
 
 #. type: Plain text
 #: 400.en.adoc:881
@@ -3186,7 +3186,7 @@ msgstr ""
 #: afterword.en.adoc:2
 #, no-wrap
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Reconocimientos"
 
 #. type: Plain text
 #: afterword.en.adoc:5
@@ -3197,7 +3197,7 @@ msgstr ""
 #: glossary.en.adoc:2
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "Glosario"
 
 #. type: Labeled list
 #: glossary.en.adoc:4
@@ -3467,7 +3467,7 @@ msgstr ""
 #: glossary.en.adoc:52
 #, no-wrap
 msgid "[[event]]event"
-msgstr ""
+msgstr "[[evento]]evento"
 
 #. type: Plain text
 #: glossary.en.adoc:53
@@ -3571,13 +3571,13 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:71
 msgid "Distinct organism, typically an animal."
-msgstr ""
+msgstr "Organismo perceptible, normalmente un animal."
 
 #. type: Labeled list
 #: glossary.en.adoc:72
 #, no-wrap
 msgid "[[location]]location"
-msgstr ""
+msgstr "[[ubicación]]ubicación"
 
 #. type: Plain text
 #: glossary.en.adoc:73
@@ -3808,7 +3808,7 @@ msgstr ""
 #: glossary.en.adoc:114
 #, no-wrap
 msgid "[[UUID]]UUID"
-msgstr ""
+msgstr "[[UUID]]UUID"
 
 #. type: Plain text
 #: glossary.en.adoc:115
@@ -3830,5 +3830,5 @@ msgstr ""
 #: bibliography.en.adoc:2
 #, no-wrap
 msgid "References"
-msgstr ""
+msgstr "Referencias"
 
