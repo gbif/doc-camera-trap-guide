@@ -1,6 +1,6 @@
 [#references]
-== References
+== Referencias
 
-bibliography::[]
+bibliografía::[]
 
 <<<
