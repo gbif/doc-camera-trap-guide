@@ -1,0 +1,97 @@
+[#section-2]
+== The use of camera traps
+
+[#section-what-are-camera-traps]
+=== What are camera traps?
+
+Camera traps are recording devices that are deployed in the field to automatically capture images or videos of wildlife activity. They are also known as game cameras, trail cameras or scouting cameras. They can record media at a regular interval (time lapse) or when triggered by the activity of an animal. Traditionally, camera traps refer to those designed to record medium-to-large-sized terrestrial mammals with a passive infrared (PIR) <<sensor>> cite:[hobbs-2017], but other types exist for e.g. the marine environment or insects. Just like satellites, drones, GPS trackers or acoustic sensors, camera traps collect **machine observations**. Acoustic sensors in particular are quite similar to camera traps, using audio rather than image/video to monitor the surrounding ecosystem. All these technologies have the benefit that they can collect data at a scale and frequency that would be challenging to obtain through human observations, and typically suffer less from human bias, interpretation or interference.
+
+[#section-why-are-camera-traps-used]
+=== Why are camera traps used?
+
+In the past decades camera traps have been increasingly used to collect biodiversity data in a non-invasive manner with minimal disturbance of wildlife. As early as in the 1890’s, George Siras was the first to develop a method using tripwire and a flash system in which wild animals photographed themselves cite:[kucera-2011]. The first scientific camera trap studies date back to the beginning of the 20th century cite:[chapman-1927]. Since those pioneering days, technological advances in digital photography and infrared sensors have led to cost-effective, non-invasive detections of elusive wildlife cite:[burton-2015]. Camera traps have become popular research tools. They are easy to install, relatively cheap and do not require special permissions or training and are therefore being used by professional researchers and hobbyists at a very broad scale. Consequently, the number of annual publications concerning camera trap studies has grown more than 80-fold since the 1990’s. Camera trap technology is used to sample communities of medium-to-large-sized mammal and bird species inhabiting freshwater, terrestrial, fossorial, arboreal and marine habitats and have proven to be excellent tools to help biodiversity monitoring initiatives cite:[delisle-2021].
+
+The most frequently studied animal taxa include ungulates, carnivores, primates and birds, although the most innovative sensors allow the detection of small mammals, amphibians, reptiles, fish and invertebrates as well cite:[hobbs-2017]. Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies. “Bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains.
+
+[#table-aims]
+.Aims and outputs of camera trap studies as taken from citenp:[wearn-2017].
+[%header, cols=3*]
+|===
+|Study Aim
+|Output
+|Key references
+
+|abundance
+|density
+|citenp:[sollmann-2012,tobler-2013,rowcliffe-2008,rowcliffe-2016]
+
+|abundance
+|relative abundance
+|citenp:[rowcliffe-2008,wearn-2013,cusack-2015]
+
+|分布
+|occupancy
+|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]
+
+|diversity
+|beta-diversity
+.3+|citenp:[tobler-2008,cusack-2015]
+
+|diversity
+|diversity indices
+
+|diversity
+|richness
+
+|species presence
+|species checklist
+|citenp:[tobler-2008,wearn-2013]
+|===
+
+[#section-camera-trap-project-life-cycle]
+=== Camera trap project life cycle
+
+The full life cycle of camera trap research includes the planning phase, the deployment of the camera traps in the field, the collection, management, analysis and sharing of data. This guide is not intended to cover all aspects of the camera trap project life cycle. The focus in this best practice guide lies on the management and publishing of the data. For readers interested in a general review of camera trap research, the planning phase, the deployment of camera traps in the field, we here provide an overview of the available resources (see <<table-topics>>).
+
+[#table-topics]
+.Stages in the camera trap life cycle and key references.
+[%header, cols=3*]
+|===
+|トピック
+|What
+|参考資料
+
+|Full camera trapping life cycle
+|General state of the art +
+Future developments and camera trap constraints
+|citenp:[cadman-2014,rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]
+
+|Planning
+|How to design a camera trap study? +
+What type of camera traps to choose?
+|citenp:[wearn-2017,rovero-2010,sunarto-2013,meek-2014,kays-2020,caravaggi-2020,hobbs-2017,mcintyre-2020]
+
+|Deployment and collection
+|Where and how to mount your camera? +
+Camera trap storage and maintenance +
+Baits and lures +
+Combating theft and vandalism +
+Set-up in different environments
+|citenp:[wearn-2017,rovero-2010,rovero-2013,meek-2014]
+
+|Data management and sharing
+|Data management considerations +
+From field to hard-disk +
+Annotating camera trap data +
+Software for data management +
+Sharing and publishing camera trap data
+|<<section-3>> and <<section-4>> of this guide
+
+|Analysis
+|Software for analysing data
+|citenp:[sunarto-2013]
+|===
+
+For a camera trap dataset to be useful, you should clearly define the aim and objectives in the planning phase: what would you like to know from which species groups? Each aim brings along its own key characteristics to consider, such as camera height and direction, seasonality, bait usage, detection zone features, camera settings, trigger and flash type. These characteristics must be included in the published dataset in order to be useful in consequent analyses. We recommend consulting the key references in <<table-aims>> for readers interested in this topic. Additionally, citenp:[wearn-2017] provides a comprehensive overview of more general, camera trap survey design aspects.
+
+<<<
