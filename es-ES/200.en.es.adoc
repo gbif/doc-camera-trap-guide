@@ -1,0 +1,97 @@
+[#section-2]
+== El uso de cámaras trampa
+
+[#section-what-are-camera-traps]
+=== ¿Qué son las cámaras trampa?
+
+Las cámaras trampa son dispositivos de grabación desplegados en el campo para capturar automáticamente imágenes o vídeos de la actividad de la vida silvestre. También se les conoce como cámaras de fototrampeo. Pueden grabar medios en un intervalo regular (lapso de tiempo) o cuando se activa por la actividad de un animal. Traditionally, camera traps refer to those designed to record medium-to-large-sized terrestrial mammals with a passive infrared (PIR) <<sensor>> cite:[hobbs-2017], but other types exist for e.g. the marine environment or insects. Just like satellites, drones, GPS trackers or acoustic sensors, camera traps collect **machine observations**. Los sensores acústicos en particular son bastante similares a las cámaras trampa, que utilizan audio en lugar de imágen/video para observar el ecosistema circundante. Todas estas tecnologías tienen el beneficio de poder recopilar datos a una escala y frecuencia que serían difíciles de obtener a través de observaciones humanas, y normalmente sufren menos de prejuicio, interpretación o interferencia humana.
+
+[#section-why-are-camera-traps-used]
+=== ¿Por qué se utilizan las cámaras trampa?
+
+In the past decades camera traps have been increasingly used to collect biodiversity data in a non-invasive manner with minimal disturbance of wildlife. As early as in the 1890’s, George Siras was the first to develop a method using tripwire and a flash system in which wild animals photographed themselves cite:[kucera-2011]. The first scientific camera trap studies date back to the beginning of the 20th century cite:[chapman-1927]. Since those pioneering days, technological advances in digital photography and infrared sensors have led to cost-effective, non-invasive detections of elusive wildlife cite:[burton-2015]. Las cámaras trampa se han convertido en herramientas de investigación populares. Son fáciles de instalar, son relativamente baratas y no requieren permisos especiales ni formación y, por lo tanto, están siendo utilizadas por investigadores profesionales y aficionados a una escala muy amplia. En consecuencia, el número de publicaciones anuales relacionadas con los estudios de cámaras trampa se ha multiplicado por más de 80 veces desde los 1990. Camera trap technology is used to sample communities of medium-to-large-sized mammal and bird species inhabiting freshwater, terrestrial, fossorial, arboreal and marine habitats and have proven to be excellent tools to help biodiversity monitoring initiatives cite:[delisle-2021].
+
+The most frequently studied animal taxa include ungulates, carnivores, primates and birds, although the most innovative sensors allow the detection of small mammals, amphibians, reptiles, fish and invertebrates as well cite:[hobbs-2017]. Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Además, las cámaras trampa no son selectivas en las observaciones de las especies y, por lo tanto, a menudo se utilizan en estudios de interacción de especies. Los datos de "captura adicional" de los estudios de especies objetivo podrían ser útiles también para otros estudios. A menudo se utilizan para vigilar especies raras, amenazadas y en peligro de extinción en terrenos remotos e inaccesibles.
+
+[#table-aims]
+.Aims and outputs of camera trap studies as taken from citenp:[wearn-2017].
+[%header, cols=3*]
+|===
+|Objetivo del estudio
+|Salida
+|Referencias clave
+
+|abundancia
+|densidad
+|citenp:[sollmann-2012,tobler-2013,rowcliffe-2008,rowcliffe-2016]
+
+|abundancia
+|abundancia relativa
+|citenp:[rowcliffe-2008,wearn-2013,cusack-2015]
+
+|distribución
+|ocupación
+|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]
+
+|diversidad
+|diversidad-beta
+.3+|citenp:[tobler-2008,cusack-2015]
+
+|diversidad
+|índices de diversidad
+
+|diversidad
+|riqueza
+
+|presencia de especies
+|lista de especies
+|citenp:[tobler-2008,wearn-2013]
+|===
+
+[#section-camera-trap-project-life-cycle]
+=== Ciclo de vida de la cámara trampa
+
+El ciclo de vida completo de la investigación de cámaras trampa incluye la fase de planificación, el despliegue de las cámaras trampa en el campo, la recolección, la gestión, el análisis y el intercambio de datos. Esta guía no pretende cubrir todos los aspectos del ciclo de vida del proyecto de cámara trampa. El enfoque en esta guía de buenas prácticas radica en la gestión y publicación de los datos. For readers interested in a general review of camera trap research, the planning phase, the deployment of camera traps in the field, we here provide an overview of the available resources (see <<table-topics>>).
+
+[#table-topics]
+.Etapas en el ciclo de vida de la cámara trampa y referencias clave.
+[%header, cols=3*]
+|===
+|Tema
+|Qué
+|Referencia
+
+|Ciclo de vida de captura de cámara completa
+|General state of the art +
+Future developments and camera trap constraints
+|citenp:[cadman-2014,rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]
+
+|Planificación
+|¿Cómo diseñar un estudio de cámara trampa? +
+What type of camera traps to choose?
+|citenp:[wearn-2017,rovero-2010,sunarto-2013,meek-2014,kays-2020,caravaggi-2020,hobbs-2017,mcintyre-2020]
+
+|Despliegue y recolección
+|¿Dónde y cómo montar su cámara? +
+Camera trap storage and maintenance +
+Baits and lures +
+Combating theft and vandalism +
+Set-up in different environments
+|citenp:[wearn-2017,rovero-2010,rovero-2013,meek-2014]
+
+|Gestión e intercambio de datos
+|Data management considerations +
+From field to hard-disk +
+Annotating camera trap data +
+Software for data management +
+Sharing and publishing camera trap data
+|<<section-3>> and <<section-4>> of this guide
+
+|Análisis
+|Software para analizar datos
+|citenp:[sunarto-2013]
+|===
+
+Para que el conjunto de datos de una cámara sea útil, debería definir claramente el objetivo y los objetivos en la fase de planificación: ¿qué le gustaría saber de qué grupos de especies? Cada objetivo trae consigo sus propias características clave, como la altura y dirección de la cámara, estacionalidad, uso de cebo, características de zona de detección, ajustes de cámara, activación y tipo de flash. Estas características deben incluirse en el conjunto de datos publicado con el fin de ser útiles en los análisis subsiguientes. We recommend consulting the key references in <<table-aims>> for readers interested in this topic. Additionally, citenp:[wearn-2017] provides a comprehensive overview of more general, camera trap survey design aspects.
+
+<<<
