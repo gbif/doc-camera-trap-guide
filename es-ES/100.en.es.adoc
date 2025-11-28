@@ -1,0 +1,36 @@
+[#section-1]
+== Introducción
+
+[#section-why-this-guide]
+=== ¿Qué es esta guía?
+
+Las cámaras trampa han surgido como una tecnología poderosa para la observación semiautomatizada de ecosistemas naturales. Su éxito ha llevado a un crecimiento exponencial de los datos de cámaras trampa en todo el mundo. En el presente se encuentra un gran desafío: grandes volúmenes de datos están a la espera de ser clasificados, interpretados y archivados. La gestión de datos, más que la recopilación de datos, se ha convertido en un factor limitante para la investigación de cámaras trampa. The proliferation of camera trap projects has also led to a diversity of terminologies, classification methods and data management practices, which impedes transparency, interoperability, cross-project collaboration or meta-analyses. Una gran red interconectada de cámaras remotas podría actuar como un instrumento para la gestión de la biodiversidad en tiempo real y la toma de decisiones fiable, pero si no somos capaces de combinar datos, la investigación de cámaras trampa perderá todo su máximo potencial. This is why camera trap data needs to be open and FAIR (findable, accessible, interoperable and reusable, see citenp:[wilkinson-2016]), so that both humans and machines can use this valuable data for present and future applications.
+
+Para optimizar la (re)utilización de los datos de cámaras trampa, hay una necesidad de mejores pautas de prácticas. Several guides exist that tackle one or more elements of the camera trap research life cycle: planning, technology and techniques, study design, data collection, analysis, data management methods and data publication cite:[oconnell-2011,rovero-2013,meek-2014,cadman-2014,burton-2015,wearn-2017]. Desde entonces, la comunidad de cámaras trampa ha hecho progresos significativos:
+
+* Las plataformas especializadas de gestión de datos ahora se utilizan principalmente para gestionar proyectos y datos
+* <<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media
+* Data exchange is now facilitated by Camtrap DP, a <<data-exchange-format,data exchange format>> developed under Biodiversity Information Standards (TDWG). There is increased awareness of open science, <<FAIR>> data cite:[wilkinson-2016] and privacy regulations
+
+No hay guías actualizadas disponibles que se centren únicamente en la gestión y publicación de los datos de las cámaras trampa. Esta guía apunta a llenar ese vacío.
+
+[#section-target-audience]
+=== Público objetivo
+
+Esta guía está pensada para ser útil para cualquier persona que administre un estudio de trampas de cámara. El enfoque específico en la gestión y publicación de datos hace que esta guía de buenas prácticas sea más útil para perfiles como administradores de datos, editores de datos, gestores de bases de datos y de información y estudiantes que trabajan con informática de la biodiversidad.
+
+The authors of this guide have experience with traditional camera traps (designed for medium-to-large-sized terrestrial mammals), but many of the recommendations, as well as the <<camtrap-dp,Camtrap DP>> standard, should be applicable to data from other types of camera traps.
+
+[#section-what-this-guide-is-not-about]
+=== De qué no trata esta guía
+
+Esta guía se centra principalmente en la gestión, el control de calidad, la mejora y la publicación de datos de cámaras trampa. Los siguientes temas están fuera del alcance:
+
+* Planear un estudio de cámaras trampa: tipos de cámaras trampa, diseño de estudio, etc.
+* Distribución y recolección de cámaras trampa: trabajo de campo, cebos y señuelos, recuperación de datos, etc.
+* Análisis: software de análisis, modelado ecológico, corrección de prejuicios, etc.
+* Datos de las cámaras móviles: robots submarinos, cámaras montadas en vehículos, drones, etc.
+
+Ya están disponibles muchas guías extensas sobre estos temas. See <<table-aims>> and <<table-topics>> for a brief overview.
+
+<<<
