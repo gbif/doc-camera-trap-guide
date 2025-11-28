@@ -124,7 +124,7 @@ At the time of writing, GBIF does not yet support the publication of Camtrap DP 
 Not all information in a published Camtrap DP is currently harvested by GBIF. The GBIF data model requires it to be transformed to Darwin Core before ingestion. This process is provided by the https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] function in the R software package camtraptor cite:[camtraptor]. This function implements the <<section-darwin-core-archive,recommendations>> suggested in this document. GBIF will be able to process more information from a published Camtrap DP once it has implemented a new data model cite:[gbif-2022].
 
 [#section-darwin-core-archive]
-=== Darwin Core Archive
+=== ダーウィンコアアーカイブ
 
 [#section-why-not-a-sampling-event-dataset]
 ==== Why not a sampling event dataset?
@@ -239,11 +239,11 @@ Term recommendations for the {occurrence-core} and {ac-extension} are provided i
 [%header, cols=6*]
 |===
 |occurrenceID
-|identifier
+|識別子
 |accessURI
 |CreateDate
 |captureDevice
-|rights
+|権利
 
 |e68deaed_2
 |[.red]#e68deaed#
@@ -289,8 +289,8 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 .Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source].
 [%header, cols=3*]
 |===
-|Term
-|Status
+|用語
+|状況
 |Example value
 
 |<<section-type,type>>
@@ -318,7 +318,7 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 |Sample from: MICA - Muskrat and coypu camera trap observations in Belgium, the Netherlands and Germany
 
 |<<section-basisofrecord,basisOfRecord>>
-|Required
+|必須
 |MachineObservation
 
 |<<section-datageneralizations,dataGeneralizations>>
@@ -326,7 +326,7 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 |coordinates rounded to 0.001 degree
 
 |<<section-occurrenceid,occurrenceID>>
-|Required
+|必須
 |05230014
 
 |<<section-individualcount,individualCount>>
@@ -347,7 +347,7 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 
 |<<section-occurrencestatus,occurrenceStatus>>
 |Strongly recommended
-|present
+|存在
 
 |<<section-occurrenceremarks,occurrenceRemarks>>
 |Share if available
@@ -366,7 +366,7 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 |00a2c20d
 
 |<<section-eventdate,eventDate>>
-|Required
+|必須
 |[.break-all]#2020-06-12T04:04:29Z/2020-06-12T04:04:55Z#
 
 |<<section-habitat,habitat>>
@@ -446,23 +446,23 @@ Note that the {occurrence-core} should only contain <<observation-type,animal ob
 |[.break-all]#https://www.checklistbank.org/dataset/COL2023/taxon/GCHS#
 
 |<<section-scientificname,scientificName>>
-|Required
+|必須
 |Ardea cinerea
 
 |<<section-kingdom,kingdom>>
 |Strongly recommended
-|Animalia
+|動物界
 |===
 
 [#section-type]
-===== type
+===== タイプ
 
 https://dwc.tdwg.org/list/#dc_type[dc:type]
 
 The nature of the resource. Use `StillImage` if the record is based on an image or sequence of images, `MovingImage` if based on a video. One can also use the broader term `Image` for all records.
 
 [#section-license]
-===== license
+===== ライセンス
 
 https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]
 
@@ -503,7 +503,7 @@ term:dwc[dwc:dataGeneralizations]
 
 The actions taken to make the published data less specific or complete than in its original form. We recommend succinctly describing here what <<section-sensitive-information,sensitive information>> of the record was generalized and how. Note that this information can be provided at record level and does not need to apply to the whole dataset. If important information was omitted altogether, use term:dwc[dwc:informationWithheld].
 
-Examples:
+例:
 
 ----
 coordinates rounded to 0.001 degree
@@ -525,7 +525,7 @@ term:dwc[dwc:individualCount]
 The number of observed <<individual,individuals>>. Note that this number is dependent on the <<table-classification-precision,precision>> of the identifications. In Camtrap DP, this term corresponds with {observations-count}.
 
 [#section-sex]
-===== sex
+===== 性別
 
 term:dwc[dwc:sex]
 
@@ -539,7 +539,7 @@ term:dwc[dwc:lifeStage]
 The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the https://registry.gbif.org/vocabulary/LifeStage[GBIF LifeStage vocabulary]. In Camtrap DP, this term corresponds with {observations-lifeStage}.
 
 [#section-behavior]
-===== behavior
+===== 行動
 
 term:dwc[dwc:behavior]
 
@@ -587,7 +587,7 @@ term:dwc[dwc:eventDate]
 
 The date, date-time or date-time interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media-based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event-based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal.
 
-Examples:
+例:
 
 ----
 2020-07-29T05:38:55Z/2020-07-29T05:39:00Z
@@ -596,7 +596,7 @@ Examples:
 ----
 
 [#section-habitat]
-===== habitat
+===== 生息地
 
 term:dwc[dwc:habitat]
 
@@ -623,7 +623,7 @@ term:dwc[dwc:eventRemarks]
 
 The comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments} and relates to {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}.
 
-Examples:
+例:
 
 ----
 camera trap with bait near burrow
@@ -639,7 +639,7 @@ term:dwc[dwc:locationID]
 An identifier for the <<location>>. This identifier allows users to find all observations (and media) for a specific location (across deployments). Use a <<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap DP, this term corresponds with {deployments-locationID}.
 
 [#section-locality]
-===== locality
+===== 採集地・観測地
 
 term:dwc[dwc:locality]
 
@@ -694,7 +694,7 @@ term:dwc[dwc:identifiedBy]
 
 The person or <<AI,species classification model>> that identified the observed <<individual,individual(s)>> and assigned the <<section-scientificname,scientificName>>. We recommend providing a single name: that of the person or model that made the (most recent) classification. Although <<classification,classifying>> can be broader than assigning a scientific name, it is likely to involve that aspect for <<observation-type,animal observations>>. Note that this term contains <<section-personal-data,personal data>>. In Camtrap DP, this term corresponds with {observations-classifiedBy}.
 
-Examples:
+例:
 
 ----
 Peter Desmet
@@ -716,7 +716,7 @@ term:dwc[dwc:identificationRemarks]
 
 The comments or notes about the identification. We recommend using this term to provide information on whether the <<classification>> was made by a human or <<AI,species classification model>> as well as the degree of certainty if available (often recorded for AI classification). In Camtrap DP, this term relates to {observations-classificationMethod} and {observations-classificationProbability}.
 
-Examples:
+例:
 
 ----
 classified by a human
@@ -738,7 +738,7 @@ term:dwc[dwc:scientificName]
 The scientific name of the observed <<individual,individual(s)>>. In Camtrap DP, this term corresponds with {observations-scientificName}.
 
 [#section-kingdom]
-===== kingdom
+===== 界
 
 term:dwc[dwc:kingdom]
 
@@ -755,12 +755,12 @@ Note that the {ac-extension} can contain duplicates, an important difference wit
 .Recommended terms to use when expressing camera trap data as an {ac-extension}. <<figure-example-image,Source>>.
 [%header, cols=3*]
 |===
-|Term
-|Status
+|用語
+|状況
 |Example value
 
 |<<section-ac-occurrenceid,occurrenceID>>
-|Required
+|必須
 |05230014
 
 |<<section-ac-identifier,identifier>>
@@ -792,7 +792,7 @@ Note that the {ac-extension} can contain duplicates, an important difference wit
 |motion detection
 
 |<<section-ac-accessuri,accessURI>>
-|Required
+|必須
 |[.break-all]#https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file#
 
 |<<section-ac-format,format>>
@@ -812,28 +812,28 @@ term:dwc[dwc:occurrenceID]
 A foreign key to the <<section-occurrenceid,occurrenceID>> in the {occurrence-core}, to indicate the relation between the <<observation>> and the <<media-file,media file(s)>> on which it is based. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {observations-observationID}, but the relationship between {observations} and {media} can be established in several ways: either directly via {observations-mediaID} or by selecting media that have the same {media-deploymentID} as the observation and a {media-timestamp} that falls between the {observations-eventStart} and {observations-eventEnd} of the observation.
 
 [#section-ac-identifier]
-===== identifier
+===== 識別子
 
 https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]
 
 An identifier for the <<media-file,media file>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {media-mediaID}.
 
 [#section-ac-type]
-===== type
+===== タイプ
 
 https://ac.tdwg.org/termlist/#dc_type[dc:type]
 
 The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage` for <<video,videos>>. Do not use https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type], because that term expects a URL value.
 
 [#section-ac-comments]
-===== comments
+===== コメント
 
 https://ac.tdwg.org/termlist/#ac_comments[ac:comments]
 
 The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceremarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favorite}.
 
 [#section-ac-rights]
-===== rights
+===== 権利
 
 https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]
 
@@ -875,7 +875,7 @@ https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]
 The service expectations users may have of the <<section-ac-accessuri,accessURI>>. We recommend using the controlled values `online` for media files that are publicly accessible over http/https and `authenticate` for media files that are kept private over http/https (see <<section-sensitive-media-files>>). In Camtrap DP, these values related to `TRUE` and `FALSE` respectively in {media-filePublic}.
 
 [#section-ac-format]
-===== format
+===== フォーマット
 
 https://ac.tdwg.org/termlist/#dc_format[dc:format]
 
