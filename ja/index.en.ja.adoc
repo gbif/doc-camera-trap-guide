@@ -1,4 +1,4 @@
-= Best Practices for Managing and Publishing Camera Trap Data
+= カメラトラップデータの管理および公開のベストプラクティス
 :authorcount: 3
 :author_1: Lien Reyserhove
 :author_2: Ben Norton
