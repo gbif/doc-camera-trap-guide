@@ -34,13 +34,13 @@ Project metadata document a camera trap project/study as a whole. Who was involv
 
 When published, project metadata are a substantial part of the dataset metadata (see <<figure-example-metadata>>), allowing others to discover your dataset when searching for certain keywords and to assess if it fits their research needs. When describing your project, think about what others would need to understand it. We recommend to cover the following aspects (but do not let perfection be the enemy of good):
 
-* Title
+* タイトル
 * Identifier and/or acronym
 * Description (including rationale)
 * Contributors and their roles (including organizations)
 * Link to website
-* Keywords
-* Funding
+* キーワード
+* 資金
 * Sampling design (simple random, systematic random, etc.)
 * Resulting geographic scope
 * Capture method (type of sensor, motion detection and/or time lapse)
@@ -76,7 +76,7 @@ A <<participant>> is a person associated with a camera trap project. Information
 |Agouti cite:[agouti]
 |Wildlife Insights cite:[wildlife-insights]
 
-|contact
+|連絡先
 |ProjectContact
 |Project Coordinator
 |ContactPerson
@@ -92,7 +92,7 @@ ProjectManager +
 Supervisor
 |Owner +
 Principal Investigator
-|Principal investigator
+|主任研究員
 |Project Owner
 
 |rightsHolder
@@ -103,16 +103,16 @@ Principal Investigator
 |
 |
 
-|publisher
+|出版者
 |
 |
-|Distributor
+|発行責任者
 |Distributor
 Publisher
 |
 |
 
-|contributor
+|貢献者
 |sequenceIdentifiedBy +
 PhotoTypeIdentifiedBy
 |Crew Member +
@@ -138,7 +138,7 @@ Project Tagger +
 |
 |
 |
-|Other
+|その他
 |User
 Processor
 Reviewer
@@ -329,7 +329,7 @@ Data management systems typically organize media files and the associated metada
 [%header, cols=2*]
 |===
 |Property
-|Value
+|値
 
 |File type
 |JPEG
@@ -435,7 +435,7 @@ Data management systems typically organize deployments into the following classe
 [%header, cols=2*]
 |===
 |Property
-|Value
+|値
 
 |Deployment ID
 |00a2c20d
@@ -446,19 +446,19 @@ Data management systems typically organize deployments into the following classe
 |End date/time
 |2020-07-01T11:41:41+02:00 (= 2020-07-01T09:41:41Z)
 
-|Location ID
+|採集地ID
 |e254a13c
 
 |Location name
 |B_HS_val 2_processiepark
 
-|Latitude
+|緯度
 |51.496
 
-|Longitude
+|経度
 |4.774
 
-|Coordinate uncertainty
+|座標の不確実性
 |187 m
 
 |Other location information
@@ -492,12 +492,12 @@ Data management systems typically organize deployments into the following classe
 |3.20 m
 
 |Timestamp issues
-|false
+|いいえ
 
 |Bait use
-|false
+|いいえ
 
-|Habitat
+|生息地
 |Campine area with a number of river valleys with valuable grasslands
 |===
 
@@ -536,7 +536,7 @@ camera_height_meter_double
 [%header, cols=6*]
 |===
 |Column name
-|Definition
+|用語の定義
 |Notes
 |Unit
 |Data type
@@ -547,53 +547,53 @@ camera_height_meter_double
 |This identifier is auto-generated.
 |
 |string
-|yes
+|はい
 
 |deploymentStart
 |Date and time at which the deployment started.
 |Formatted as `YYYY-MM-DDTHH:MM:SSZ`.
 |
 |datetime
-|yes
+|はい
 
 |deploymentEnd
 |Date and time at which the deployment ended.
 |Formatted as `YYYY-MM-DDTHH:MM:SSZ`.
 |
 |datetime
-|yes
+|はい
 
-|latitude
+|緯度
 |Latitude of the deployment location.
 |Uses the WGS84 datum.
 |decimal degrees
 |number
-|yes
+|はい
 
-|longitude
+|経度
 |Longitude of the deployment location.
 |Uses the WGS84 datum.
 |decimal degrees
 |number
-|yes
+|はい
 
 |cameraHeight
 |Height at which the camera was deployed.
 |
 |meters
 |number
-|no
+|いいえ
 
 |cameraHeading
 |Angle at which the camera was deployed in the horizontal plane.
 |Values (0-360) start clockwise from north, so 0 = north, 90 = east, 180 = south, 270 = west.
 |decimal degrees
 |number
-|no
+|いいえ
 |===
 
 [#section-location]
-==== Location
+==== 場所
 
 A <<location>> is the physical place where a camera is located during a deployment. It can be described with a name, identifier and/or description, but we recommend always to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[geographical coordinates]. Those are most commonly expressed as latitude and longitude in decimal degrees, using the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84] datum.
 
@@ -657,7 +657,7 @@ Observations are best recorded in a <<data-management-system,data management sys
 [%header, cols=2*]
 |===
 |Property
-|Value
+|値
 
 |Observation ID
 |05230014
@@ -665,20 +665,20 @@ Observations are best recorded in a <<data-management-system,data management sys
 |Observation type
 |animal
 
-|Taxon ID
+|分類群ID
 |GCHS
 
-|Scientific name
+|学名
 |Ardea cinerea
 
-|Count
+|件数
 |1
 
-|Life stage
+|ライフ ステージ
 |adult
 
 |Classification method
-|human
+|人
 
 |Classified by
 |Peter Desmet
@@ -688,7 +688,7 @@ Observations are best recorded in a <<data-management-system,data management sys
 |===
 
 [#section-classification]
-==== Classification
+==== 分類
 
 Unfortunately, camera traps do not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:
 
@@ -706,9 +706,9 @@ Classification can be done by humans and/or machines. These actors (experts, vol
 [%header, cols=4*]
 |===
 |scientificName
-|sex
-|count
-|behavior
+|性別
+|件数
+|行動
 
 |Anatidae
 |
@@ -731,7 +731,7 @@ Classification can be done by humans and/or machines. These actors (experts, vol
 |
 
 |Anas platyrhynchos
-|male
+|オス
 |1
 |foraging
 
@@ -742,7 +742,7 @@ Classification can be done by humans and/or machines. These actors (experts, vol
 |===
 
 [#section-citizen-science]
-==== Citizen science
+==== 市民科学
 
 <<citizen-science,Citizen scientists>> are volunteers from the non-scientific community that help scientists in their work. They can contribute to camera trap studies in a number of ways, such as placing cameras and collecting/swapping memory cards. In a practice called crowdsourcing, researchers can also distribute the task of  <<classification,classifying>> media, by presenting these online to a community of citizen scientists. Each classification helps to confirm or improve the community's opinion on the observed species cite:[swanson-2015,hsing-2018].
 
@@ -773,12 +773,12 @@ The list of scientific names that are available for <<classification>> in a proj
 .Selection of sources for scientific names, common names and taxonomic information.
 [%header, cols=3*]
 |===
-|Source
-|Taxonomic coverage
+|参照元
+|生物分類学的範囲
 |Use for
 
 |https://www.checklistbank.org/dataset/9893/names[Catalogue of Life] cite:[col-2023]
-|All
+|すべて
 |Scientific names +
 Common names (select languages) +
 Taxonomy
@@ -790,7 +790,7 @@ Common names (many languages) +
 Taxonomy
 
 |https://en.wikipedia.org/[Wikipedia] (English and other language versions)
-|All
+|すべて
 |Common names (many languages)
 
 |Clements Checklist of Birds of the World cite:[clements-2022]
@@ -886,27 +886,27 @@ WildTrax is a good choice for organizations who want a free service based in Can
 |Tiered subscription model (incl. free)
 
 |**Open source**
-|No
-|Yes
-|Yes
-|No
+|いいえ
+|はい
+|はい
+|いいえ
 
 |**Supported media types**
 |Image, Video
-|Image
+|画像
 |Image, Video
-|Image
+|画像
 
 |**Multiple users roles**
-|Yes
+|はい
 |Yes (limited)
-|Yes
-|Yes
+|はい
+|はい
 
 |**Supported languages**
 |English, Croatian, Dutch, French, German, Polish, Spanish
-|English
-|English
+|英語
+|英語
 |Many (via Google translate)
 
 |**Media- or event-based classification**
@@ -917,21 +917,21 @@ WildTrax is a good choice for organizations who want a free service based in Can
 
 |**AI classification**
 |Yes (species classification)
-|No
+|いいえ
 |Yes (species classification)
 |Yes (species classification)
 
 |**Integration with crowdsourcing platform**
 |Yes (Zooniverse)
-|No
-|Yes
-|No
+|いいえ
+|はい
+|いいえ
 
 |**Project portal**
-|Yes
-|No
-|No
-|Yes
+|はい
+|いいえ
+|いいえ
+|はい
 
 |**Data storage**
 |University infrastructure
@@ -941,21 +941,21 @@ WildTrax is a good choice for organizations who want a free service based in Can
 
 |**Data rights granted to system**
 |Minimal
-|None
-|None
+|なし
+|なし
 |Some (e.g. for training AI and summary data products)
 
 |**Open data requirement**
 |No (but recommended)
-|No
+|いいえ
 |No (but recommended)
 |Yes (data can be kept private for 48 months, project metadata are always public)
 
 |**Media hosting**
-|Yes
-|No
-|Yes
-|Yes
+|はい
+|いいえ
+|はい
+|はい
 
 |**Export format**
 |Camtrap DP
