@@ -1,6 +1,6 @@
 [#references]
-== References
+== 引用文献
 
-bibliography::[]
+文献::[]
 
 <<<
