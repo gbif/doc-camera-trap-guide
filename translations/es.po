@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2025-11-28 15:20\n"
+"PO-Revision-Date: 2025-12-01 12:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -59,7 +59,7 @@ msgstr "Autores"
 #. type: Plain text
 #: colophon.en.adoc:15
 msgid "https://orcid.org/0000-0001-7484-9267[Lien Reyserhove], https://orcid.org/0000-0002-5819-9134[Ben Norton] & https://orcid.org/0000-0002-8442-8025[Peter Desmet]"
-msgstr ""
+msgstr "https://orcid.org/0000-0001-7484-9267[Lien Reyserhove], https://orcid.org/0000-0002-5819-9134[Ben Norton] & https://orcid.org/0000-0002-8442-8025[Peter Desmet]"
 
 #. type: Title ===
 #: colophon.en.adoc:16
