@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2025-12-11 16:34\n"
+"PO-Revision-Date: 2025-12-11 18:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -44,7 +44,7 @@ msgstr "Colofón"
 #: colophon.en.adoc:8
 #, no-wrap
 msgid "Suggested citation"
-msgstr "Citación sugerida"
+msgstr "Cita sugerida"
 
 #. type: Plain text
 #: colophon.en.adoc:11
