@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2025-12-01 12:51\n"
+"PO-Revision-Date: 2025-12-11 16:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,7 +20,8 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Best Practices for Managing and Publishing Camera Trap Data"
-msgstr ""
+msgstr "Buenas prácticas para gestionar y \n"
+"publicar datos de cámaras trampa"
 
 #. type: Plain text
 #: index.en.adoc:132
@@ -48,7 +49,8 @@ msgstr "Citación sugerida"
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid "Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-0qzp-2x37"
-msgstr ""
+msgstr "Reyserhove L, Norton B & Desmet P (2023) Buenas prácticas para gestionar y publicar datos de cámaras\n"
+"trampa. Secretaría de GBIF: Copenhague. https://doi.org/10.35035/doc-0qzp-2x37\n"
 
 #. type: Title ===
 #: colophon.en.adoc:12
@@ -70,7 +72,7 @@ msgstr "Colaboradores"
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "https://orcid.org/0000-0002-3129-6196[Tanja Milotic] and https://orcid.org/0000-0002-6658-6062[Pieter Huybrechts] contributed to the introduction and figures."
-msgstr ""
+msgstr "https://orcid.org/0000-0002-3129-6196[Tanja Milotic] y https://orcid.org/0000-0002-6658-6062[Pieter Huybrechts] contribuyeron a la introducción y las figuras."
 
 #. type: Title ===
 #: colophon.en.adoc:20
@@ -81,7 +83,7 @@ msgstr "Licencia"
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "The document _Best Practices for Managing and Publishing Camera Trap Data_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr ""
+msgstr "El documento _Buenas prácticas para gestionar y publicar datos de cámaras trampa_ tiene licencia bajo https://creativecommons.org/licenses/by-sa/4.0/deed.es[Atribución/Reconocimiento-CompartirIgual 4.0 Internacional]."
 
 #. type: Title ===
 #: colophon.en.adoc:24
