@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2025-12-26 13:09\n"
+"PO-Revision-Date: 2025-12-31 14:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -50,7 +50,7 @@ msgstr "Cita sugerida"
 #: colophon.en.adoc:11
 msgid "Reyserhove L, Norton B & Desmet P (2023) Best Practices for Managing and Publishing Camera Trap Data. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-0qzp-2x37"
 msgstr "Reyserhove L, Norton B & Desmet P (2023) Buenas prácticas para gestionar y publicar datos de cámaras\n"
-"trampa. Secretaría de GBIF: Copenhague. https://doi.org/10.35035/doc-0qzp-2x37\n"
+"trampa. Secretaría de GBIF: Copenhague. https://doi.org/10.35035/doc-0qzp-2x37"
 
 #. type: Title ===
 #: colophon.en.adoc:12
