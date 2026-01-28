@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-01-28 19:57\n"
+"PO-Revision-Date: 2026-01-28 21:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -160,12 +160,12 @@ msgstr "<<La inteligencia artificial>> (IA) y <<la computación en la nube>> se 
 #. type: Plain text
 #: 100.en.adoc:14
 msgid "Data exchange is now facilitated by Camtrap DP, a <<data-exchange-format,data exchange format>> developed under Biodiversity Information Standards (TDWG). There is increased awareness of open science, <<FAIR>> data cite:[wilkinson-2016] and privacy regulations"
-msgstr "El intercambio de datos ahora se facilita por Camtrap DP, <<un formato de intercambio de datos,formato de intercambio de datos>> desarrollado bajo los Estándares de Información sobre la Biodiversidad (TDWG). Hay una mayor conciencia de la ciencia abierta, datos <<FAIR>> (Wilkinson et al. 2016) y normas de privacidad"
+msgstr "El intercambio de datos ahora se facilita por Camtrap DP, <<un formato de intercambio de datos,formato de intercambio de datos>> desarrollado bajo los Estándares de Información sobre la Biodiversidad (TDWG). Hay una mayor conciencia de la ciencia abierta, datos <<FAIR>> data cite:[Wilkinson-2016] y normas de privacidad"
 
 #. type: Plain text
 #: 100.en.adoc:16
 msgid "No up-to-date guidelines are available that focus on camera trap data management and publication only. This guide aims to fill that gap."
-msgstr ""
+msgstr "No hay guías actualizadas disponibles que se centren únicamente en la gestión y publicación de los datos de las cámaras trampa. Esta guía pretende cubrir ese vacío."
 
 #. type: Title ===
 #: 100.en.adoc:18
@@ -176,12 +176,12 @@ msgstr "Público objetivo"
 #. type: Plain text
 #: 100.en.adoc:21
 msgid "This guide is intended to be useful for anyone managing a camera trap study. The specific focus on data management and publication makes this best practice guide extra useful for profiles such as data stewards, data publishers, database and information managers and students working with biodiversity informatics."
-msgstr ""
+msgstr "Esta guía está pensada para ser útil para cualquier persona que gestione un estudio con cámaras trampa. El enfoque específico en la gestión y publicación de datos hace que esta guía de buenas prácticas sea más útil para perfiles como administradores de datos, publicadores de datos, gestores de bases de datos y de información y estudiantes que trabajan con informática de la biodiversidad."
 
 #. type: Plain text
 #: 100.en.adoc:23
 msgid "The authors of this guide have experience with traditional camera traps (designed for medium-to-large-sized terrestrial mammals), but many of the recommendations, as well as the <<camtrap-dp,Camtrap DP>> standard, should be applicable to data from other types of camera traps."
-msgstr ""
+msgstr "Los autores de esta guía tienen experiencia con las cámaras trampa tradicionales (diseñadas para mamíferos terrestres de tamaño mediano a grande), pero muchas de las recomendaciones, así como el estándar <<camtrap-dp,Camtrap DP>>, podrían ser aplicables a datos de otros tipos de cámaras trampa."
 
 #. type: Title ===
 #: 100.en.adoc:25
@@ -192,7 +192,7 @@ msgstr "De qué no trata esta guía"
 #. type: Plain text
 #: 100.en.adoc:28
 msgid "This guide primarily focuses on the management, quality control, enhancement and publication of camera trap data. The following topics are out of scope:"
-msgstr ""
+msgstr "Esta guía se centra principalmente en la gestión, el control de calidad, la mejora y la publicación de datos de cámaras trampa. Los siguientes temas están fuera del alcance:"
 
 #. type: Plain text
 #: 100.en.adoc:30
@@ -217,7 +217,7 @@ msgstr "Datos de las cámaras móviles: robots submarinos, cámaras montadas en 
 #. type: Plain text
 #: 100.en.adoc:35
 msgid "Many extensive guides on these topics are already available. See <<table-aims>> and <<table-topics>> for a brief overview."
-msgstr ""
+msgstr "Ya están disponibles muchas guías extensas sobre estos temas. Vea la <<table-aims>> y la <<table-topics>> para una breve vista general."
 
 #. type: Title ==
 #: 200.en.adoc:2
@@ -234,7 +234,7 @@ msgstr "¿Qué son las cámaras trampa?"
 #. type: Plain text
 #: 200.en.adoc:8
 msgid "Camera traps are recording devices that are deployed in the field to automatically capture images or videos of wildlife activity. They are also known as game cameras, trail cameras or scouting cameras. They can record media at a regular interval (time lapse) or when triggered by the activity of an animal. Traditionally, camera traps refer to those designed to record medium-to-large-sized terrestrial mammals with a passive infrared (PIR) <<sensor>> cite:[hobbs-2017], but other types exist for e.g. the marine environment or insects. Just like satellites, drones, GPS trackers or acoustic sensors, camera traps collect **machine observations**. Acoustic sensors in particular are quite similar to camera traps, using audio rather than image/video to monitor the surrounding ecosystem. All these technologies have the benefit that they can collect data at a scale and frequency that would be challenging to obtain through human observations, and typically suffer less from human bias, interpretation or interference."
-msgstr ""
+msgstr "Las cámaras trampa son dispositivos de grabación desplegados en el campo para capturar automáticamente imágenes o videos de la actividad de la vida silvestre. También se les conoce como cámaras de fototrampeo. Pueden grabar archivos multimedia en un intervalo regular (lapso de tiempo) o cuando se activa por la actividad de un animal. Tradicionalmente, \"cámaras trampa\" se refiere a aquellas diseñadas para grabar mamíferos terrestres de tamaño medio a grande con un <<sensor>> infrarrojo pasivo (PIR) cite:[hobbs-2017], pero existen otros tipos, p. ej., para medio marino o para insectos. Al igual que satélites, drones, rastreadores GPS o sensores acústicos, las cámaras trampa recolectan **observaciones mecánicas**. Los sensores acústicos en particular son bastante similares a las cámaras trampa, que utilizan audio en lugar de imagen/video para observar el ecosistema circundante. Todas estas tecnologías tienen el beneficio de poder recopilar datos a una escala y frecuencia que serían difíciles de obtener a través de observaciones humanas, suelen sufrir menos del sesgo por interpretación o interferencia humana."
 
 #. type: Title ===
 #: 200.en.adoc:10
@@ -245,18 +245,18 @@ msgstr "¿Por qué se utilizan las cámaras trampa?"
 #. type: Plain text
 #: 200.en.adoc:13
 msgid "In the past decades camera traps have been increasingly used to collect biodiversity data in a non-invasive manner with minimal disturbance of wildlife. As early as in the 1890’s, George Siras was the first to develop a method using tripwire and a flash system in which wild animals photographed themselves cite:[kucera-2011]. The first scientific camera trap studies date back to the beginning of the 20th century cite:[chapman-1927]. Since those pioneering days, technological advances in digital photography and infrared sensors have led to cost-effective, non-invasive detections of elusive wildlife cite:[burton-2015]. Camera traps have become popular research tools. They are easy to install, relatively cheap and do not require special permissions or training and are therefore being used by professional researchers and hobbyists at a very broad scale. Consequently, the number of annual publications concerning camera trap studies has grown more than 80-fold since the 1990’s. Camera trap technology is used to sample communities of medium-to-large-sized mammal and bird species inhabiting freshwater, terrestrial, fossorial, arboreal and marine habitats and have proven to be excellent tools to help biodiversity monitoring initiatives cite:[delisle-2021]."
-msgstr ""
+msgstr "En las últimas décadas, las cámaras trampa se han utilizado cada vez más para recopilar datos de biodiversidad de forma no invasiva con una mínima perturbación de la vida silvestre. Ya en los años 1890, George Siras fue el primero en desarrollar un método que utilizaba un hilo disparador (tripwire) y flash, mediante el cual los animales salvajes se fotografiaron a sí mismos cite:[kucera-2011]. Los primeros estudios científicos de cámaras trampa se remontan a principios del siglo XX cite:[chapman-1927]. Desde aquellos días de innovación, los avances tecnológicos en fotografía digital y sensores infrarrojos han conducido a la detección rentable y no invasiva de la esquiva vida salvaje cite:[burton-2015]. Las cámaras trampa se han convertido en herramientas de investigación populares: son fáciles de instalar, son relativamente baratas y no requieren permisos especiales ni formación y, por lo tanto, están siendo utilizadas por investigadores profesionales y aficionados a una escala muy amplia. En consecuencia, el número de publicaciones anuales relacionadas con estudios con cámaras trampa se ha multiplicado por más de 80 veces desde los años 1990. La tecnología de las cámaras trampa se utiliza para muestrear comunidades de mamíferos de tamaño mediano a grande, y especies de aves que habitan agua dulce, terrestres, fosoriales, arbóreas y marinas y han demostrado ser excelentes herramientas para ayudar a las iniciativas de observación de la biodiversidad cite:[delisle-2021]."
 
 #. type: Plain text
 #: 200.en.adoc:15
 msgid "The most frequently studied animal taxa include ungulates, carnivores, primates and birds, although the most innovative sensors allow the detection of small mammals, amphibians, reptiles, fish and invertebrates as well cite:[hobbs-2017]. Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies. “Bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains."
-msgstr ""
+msgstr "Los taxones de animales más frecuentemente estudiados incluyen ungulados, carnívoros, primates y aves, aunque los sensores más innovadores también permiten la detección de pequeños mamíferos, anfibios, reptiles, peces e invertebrados cite:[hobbs-2017]. La tecnología de las cámaras trampa es adecuada para recoger datos de presencia, así como abundancia, densidad, diversidad y distribución de especies (<<table-aims>>) y para responder preguntas conductuales como patrones de actividad y respuestas a la perturbación humana. Además, las cámaras trampa no son selectivas en las observaciones de las especies y, por lo tanto, a menudo se utilizan en estudios de interacción de especies. Los datos de \"captura adicional\" de los estudios de especies objetivo podrían ser útiles también para otros estudios. A menudo se utilizan para vigilar especies raras, amenazadas y en peligro de extinción en terrenos remotos e inaccesibles."
 
 #. type: Block title
 #: 200.en.adoc:17
 #, no-wrap
 msgid "Aims and outputs of camera trap studies as taken from citenp:[wearn-2017]."
-msgstr ""
+msgstr "Objetivos y resultados de estudios de cámaras trampa tomados de [wearn-2017]."
 
 #. type: Table
 #: 200.en.adoc:38
@@ -275,18 +275,31 @@ msgid "|Study Aim\n"
 "|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]\n\n"
 "|diversity\n"
 "|beta-diversity\n"
-msgstr ""
+msgstr "|Objetivo del estudio\n"
+"|Resultado\n"
+"|Referencias clave\n\n"
+"|abundancia\n"
+"|densidad\n"
+"citenp:[sollmann-2012,tobler-2013,rowcliffe-2008,rowcliffe-2016]\n\n"
+"|abundancia\n"
+"|abundancia relativa\n"
+"|citenp:[rowcliffe-2008,wearn-2013,cusack-2015]\n\n"
+"|distribución\n"
+"|ocupación\n"
+"|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]\n\n"
+"|diversidad\n"
+"|diversidad-beta"
 
 #. type: Block title
 #: 200.en.adoc:38
 #, no-wrap
 msgid "3+|citenp:[tobler-2008,cusack-2015]"
-msgstr ""
+msgstr "3+|citenp:[tobler-2008,cusack-2015]"
 
 #. type: Table
 #: 200.en.adoc:49
 msgid "|diversity |diversity indices |diversity |richness |species presence |species checklist |citenp:[tobler-2008,wearn-2013]"
-msgstr ""
+msgstr "|diversidad |índices de diversidad |diversidad |riqueza |presencia de especies |lista de especies |citenp:[tobler-2008,wearn-2013]"
 
 #. type: Title ===
 #: 200.en.adoc:52
@@ -297,7 +310,7 @@ msgstr "Ciclo de vida de la cámara trampa"
 #. type: Plain text
 #: 200.en.adoc:55
 msgid "The full life cycle of camera trap research includes the planning phase, the deployment of the camera traps in the field, the collection, management, analysis and sharing of data. This guide is not intended to cover all aspects of the camera trap project life cycle. The focus in this best practice guide lies on the management and publishing of the data. For readers interested in a general review of camera trap research, the planning phase, the deployment of camera traps in the field, we here provide an overview of the available resources (see <<table-topics>>)."
-msgstr ""
+msgstr "El ciclo de vida completo de la investigación con cámaras trampa incluye la fase de planificación, la instalación de las cámaras trampa en el campo, la recolección, la gestión, el análisis y el intercambio de datos. Esta guía no pretende cubrir todos los aspectos del ciclo de vida del proyecto con cámaras trampa. El enfoque en esta guía de buenas prácticas radica en la gestión y publicación de los datos. Para los lectores interesados en una revisión general de la investigación con cámaras trampa, la fase de planificación, la instalación de cámaras trampa en el campo, aquí proporcionamos una visión general de los recursos disponibles (ver <<table-topics>>)."
 
 #. type: Block title
 #: 200.en.adoc:57
@@ -336,12 +349,39 @@ msgid "|Topic\n"
 "|Analysis\n"
 "|Software for analysing data\n"
 "|citenp:[sunarto-2013]\n"
-msgstr ""
+msgstr "|Tema\n"
+"|Qué\n"
+"|Referencia\n\n"
+"|Ciclo de vida completo de captura de cámara \n"
+"|Estado general de la técnica +\n"
+"Desarrollo futuro y restricciones de la cámara trampa\n"
+"|citenp:[cadman-2014,rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]\n\n"
+"|Planificación\n"
+"|¿Cómo diseñar un estudio con cámaras trampa? +\n"
+"¿Qué tipo de cámaras trampa elegir?\n"
+"|citenp:[wearn-2017,rovero-2010,sunarto-2013,meek-2014,kays-2020,caravaggi-2020,hobbs-2017,mcintyre-2020]\n\n"
+"|Instalación y recolección\n"
+"|¿Dónde y cómo montar su cámara? +\n"
+"Almacenamiento y mantenimiento de la cámara trampa +\n"
+"Cebos y señuelos +\n"
+"Combatir el robo y el vandalismo +\n"
+"SConfiguración en diferentes ambientes\n"
+"|citenp:[wearn-2017,rovero-2010,rovero-2013,meek-2014]\n\n"
+"|Gestión e intercambio de datos\n"
+"|Consideraciones de gestión de datos +\n"
+"del campo al disco duro +\n"
+"Anotación de datos de cámaras trampa +\n"
+"Software para gestión de datos +\n"
+"Compartir y publicar datos de cámaras trampa\n"
+"|<<section-3>> y <<section-4>> de esta guía\n\n"
+"|Análisis\n"
+"|Software para analizar datos\n"
+"|citenp:[sunarto-2013]"
 
 #. type: Plain text
 #: 200.en.adoc:96
 msgid "For a camera trap dataset to be useful, you should clearly define the aim and objectives in the planning phase: what would you like to know from which species groups? Each aim brings along its own key characteristics to consider, such as camera height and direction, seasonality, bait usage, detection zone features, camera settings, trigger and flash type. These characteristics must be included in the published dataset in order to be useful in consequent analyses. We recommend consulting the key references in <<table-aims>> for readers interested in this topic. Additionally, citenp:[wearn-2017] provides a comprehensive overview of more general, camera trap survey design aspects."
-msgstr ""
+msgstr "Para que el conjunto de datos de una cámara sea útil, debería definir claramente el propósito y los objetivos en la fase de planificación: ¿qué le gustaría saber de qué grupos de especies? Cada propósito trae consigo sus propias características clave, como la altura y dirección de la cámara, estacionalidad, uso de cebo, características de zona de detección, ajustes de cámara, activación y tipo de flash. Estas características deben incluirse en el conjunto de datos publicado con el fin de ser útiles en los análisis subsiguientes. Recomendamos consultar las referencias clave en <<table-aims>> para lectores interesados en este tema. Adicionalmente, citenp:[wearn-2017] proporciona una visión global de los aspectos generales de diseño de encuestas de cámaras trampa."
 
 #. type: Title ==
 #: 300.en.adoc:2
