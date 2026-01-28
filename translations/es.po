@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-01-28 21:12\n"
+"PO-Revision-Date: 2026-01-28 22:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -392,22 +392,22 @@ msgstr "Gestión de datos de cámaras trampa"
 #. type: Plain text
 #: 300.en.adoc:5
 msgid "Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the time frame of the project. Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. The content of the images needs interpretation or annotation, either manually or facilitated by technology. All these steps are considered in the data management process."
-msgstr ""
+msgstr "Una vez que una cámara trampa está operando en el campo puede generar centenas, miles o incluso millones de fotos o videos en el marco temporal del proyecto. En última instancia, es necesario analizar estos datos. Pero primero, es necesario recuperar, almacenar, organizar y etiquetar los datos. El contenido de las imágenes necesita interpretación o anotación, ya sea manualmente o con ayuda de tecnología. Todas estas etapas se consideran en el proceso de gestión de datos."
 
 #. type: Plain text
 #: 300.en.adoc:7
 msgid "Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of human effort and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there is often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of non-target species provide valuable data for other research objectives. If all data, including non-target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017]."
-msgstr ""
+msgstr "La gestión de datos es uno de los verdaderos cuellos de botella en la investigación con cámaras trampa. La enorme cantidad de información almacenada en las tarjetas de memoria requiere una alta inversión en términos de esfuerzo humano y tiempo. Si el almacenamiento y la clasificación de datos se quedan rezagados, grandes volúmenes de datos permanecerán sin utilizar y se perderán eventualmente. La extracción, la organización y el etiquetado manuales pueden introducir errores humanos y provocar la pérdida de datos. Además, a menudo existe más información en la imagen o el video que la correspondiente únicamente a la especie (o grupo) objetivo o tema que constituye el foco del proyecto. Las cámaras trampa inherentemente detectan múltiples especies, y las observaciones de especies no objetivo proporcionan datos valiosos para otros objetivos de investigación. Si se anotaran todos los datos, incluidas las especies no objetivo, se podrían generar resultados más relevantes para los fondos cite:[young-2018,wearn-2017]."
 
 #. type: Plain text
 #: 300.en.adoc:9
 msgid "To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data."
-msgstr ""
+msgstr "Para concluir, cada investigador debe prestar atención a la calidad de los datos. La idea subyacente es: es mejor tener diez elementos bien documentados en lugar de cien elementos mal documentados. Sólo de esta manera podremos convertir la cacofonía de los datos provenientes de imágenes en bruto en datos cuantitativos útiles."
 
 #. type: Plain text
 #: 300.en.adoc:11
 msgid "In this section, we introduce a number of general conventions for sound data management data. We zoom deeper into what camera trap data exactly is. For each type of camera trap data (<<section-project-metadata,metadata>>, <<section-media-files,media>>, <<section-deployments,deployments>>, <<section-observations,observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so."
-msgstr ""
+msgstr "En esta sección introducimos una serie de convenciones generales para la gestión adecuada de los datos. Nos acercamos más a qué son exactamente los datos de las cámaras trampa. Nos centramos en cómo gestionar de la mejor manera y qué plataformas de gestión de datos se pueden utilizar para facilitar el proceso para cada tipo de datos de cámara trampa (<<section-project-metadata,metadata>>, <<section-media-files,media>>, <<section-deployments,deployments>>, <<section-observations,observations>>)."
 
 #. type: Title ===
 #: 300.en.adoc:13
@@ -418,7 +418,7 @@ msgstr "Qué son las cámaras trampa"
 #. type: Plain text
 #: 300.en.adoc:16
 msgid "Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. But to be able to use these for research they need to be documented with additional information. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved."
-msgstr ""
+msgstr "Intuitivamente, asociamos los datos de las cámaras trampa con los <<media>> capturados por las <<camera,cameras>>. Pero para poder utilizarlos para la investigación necesitan estar documentados con información adicional. Los archivos multimedia deben ser <<classification, classified>> para saber qué especies fueron observadas. La información sobre el <<deployment>>, la duración, la <<location>>, la <<alignment>> y la metodología de muestreo de la cámara se necesita para saber cuándo, dónde y qué tan probable era que se observaran esas especies. Finalmente, necesitamos información sobre el <<project,project/study>> en su conjunto para conocer el alcance y quién estaba involucrado."
 
 #. type: Plain text
 #: 300.en.adoc:18
@@ -429,13 +429,13 @@ msgstr "En general, podemos distinguir cuatro tipos de datos de cámaras trampa:
 #: 300.en.adoc:20
 #, no-wrap
 msgid "**Project metadata:** information about the camera trap project/study as a whole\n"
-msgstr ""
+msgstr "**Metadatos del proyecto:** información sobre el proyecto/estudio de la cámara trampa como un todo"
 
 #. type: Plain text
 #: 300.en.adoc:21
 #, no-wrap
 msgid "**Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata\n"
-msgstr ""
+msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cameras>>, incluyendo sus metadatos <<EXIF>>"
 
 #. type: Plain text
 #: 300.en.adoc:22
