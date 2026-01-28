@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-01-28 22:08\n"
+"PO-Revision-Date: 2026-01-28 23:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -441,36 +441,36 @@ msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturad
 #: 300.en.adoc:22
 #, no-wrap
 msgid "**Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.\n"
-msgstr ""
+msgstr "**Despliegues:** información sobre la <<location>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara."
 
 #. type: Plain text
 #: 300.en.adoc:23
 #, no-wrap
 msgid "**Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.\n"
-msgstr ""
+msgstr "**Observaciones:** información sobre lo que se puede ver u oír en los archivos multimedia (es decir, objetos de interés), como animales, seres humanos o vehículos. El objetivo normalmente es registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento."
 
 #. type: Plain text
 #: 300.en.adoc:25
 msgid "These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see <<figure-class-diagram>>). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation."
-msgstr ""
+msgstr "Estos datos pueden organizarse de diferentes maneras, basándose en la preferencia personal o en qué <<data-management-system,data management system>> se utiliza. Sin embargo, podemos identificar una serie de conceptos básicos, más adelante denominados como clases, que constituyen un \"modelo\" para los datos de cámaras trampa (ver la <<figure-class-diagram>>). Estas clases son proyecto, organización, participante, despliegue, ubicación, dispositivos, multimedios, secuencia y observación."
 
 #. type: Block title
 #: 300.en.adoc:26
 #, no-wrap
 msgid "Class diagram for camera trap data, constituting of different classes (boxes) and relationships (lines). Mandatory classes are dark blue, optional classes light blue. The line ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment."
-msgstr ""
+msgstr "Diagrama de clases para datos de cámaras trampa, constituido por diferentes clases (cajas) y relaciones (líneas). Las clases obligatorias son de color azul oscuro, las clases opcionales de celeste. Los extremos de la línea representan la cardinalidad de la relación, con `0|` cero o uno, `0<` cero a muchos, `|<` uno a muchos, y `||` exactamente uno. Un despliegue por ejemplo tiene cero para muchos medios, mientras que un medio pertenece exactamente a un despliegue."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: 300.en.adoc:28
 #, no-wrap
 msgid "Class diagram"
-msgstr ""
+msgstr "Diagrama de clase"
 
 #. type: Target for macro image
 #: 300.en.adoc:28
 #, no-wrap
 msgid "img/web/class-diagram.svg"
-msgstr ""
+msgstr "img/web/class-diagram.svg"
 
 #. type: Title ===
 #: 300.en.adoc:31
