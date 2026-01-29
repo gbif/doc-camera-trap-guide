@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-01-28 23:13\n"
+"PO-Revision-Date: 2026-01-29 00:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -140,7 +140,7 @@ msgstr "¿Qué es esta guía?"
 #. type: Plain text
 #: 100.en.adoc:8
 msgid "Camera traps have emerged as a powerful technology for the semi-automated monitoring of natural ecosystems. Their success has led to an exponential growth of camera trap data worldwide. Herein lies a major challenge: large volumes of data are waiting to be classified, interpreted and archived. Data management, rather than data collection, has become a limiting factor for camera trap research. The proliferation of camera trap projects has also led to a diversity of terminologies, classification methods and data management practices, which impedes transparency, interoperability, cross-project collaboration or meta-analyses. A large, interconnected network of remote cameras could act as an instrument for reliable, real-time biodiversity management and decision making, but if we are not able to combine data, camera trap research will lose its full potential. This is why camera trap data needs to be open and FAIR (findable, accessible, interoperable and reusable, see citenp:[wilkinson-2016]), so that both humans and machines can use this valuable data for present and future applications."
-msgstr "Las cámaras trampa han surgido como una tecnología poderosa para la observación semiautomatizada de ecosistemas naturales. Su éxito ha llevado a un crecimiento exponencial de los datos de cámaras trampa en todo el mundo. Esto trae un gran desafío: grandes volúmenes de datos están a la espera de ser clasificados, interpretados y archivados. La gestión de datos, más que la recopilación de datos, se ha convertido en un factor limitante para la investigación con cámaras trampa. La proliferación de proyectos de cámaras trampa también ha llevado a una diversidad de terminologías, métodos de clasificación y prácticas de gestión de datos, que impiden transparencia, interoperabilidad, colaboración cruzada de proyectos o meta análisis. Una gran red interconectada de cámaras remotas podría actuar como un instrumento para la gestión de la biodiversidad en tiempo real y la toma de decisiones fiable, pero si no somos capaces de combinar datos, la investigación con cámaras trampa perderá su máximo potencial. Esta es la razón por la que los datos de las cámaras trampa deben estar abiertos y FAIR (localizable, accesible, interoperable y reutilizable, por sus siglas en inglés, ver (Wilkinson et al. (2016))), para que tanto humanos como máquinas puedan utilizar estos valiosos datos para aplicaciones presentes y futuras."
+msgstr "Las cámaras trampa han surgido como una tecnología poderosa para la observación semiautomatizada de ecosistemas naturales. Su éxito ha llevado a un crecimiento exponencial de los datos de cámaras trampa en todo el mundo. Esto trae un gran desafío: grandes volúmenes de datos están a la espera de ser clasificados, interpretados y archivados. La gestión de datos, más que la recopilación de datos, se ha convertido en un factor limitante para la investigación con cámaras trampa. La proliferación de proyectos de cámaras trampa también ha llevado a una diversidad de terminologías, métodos de clasificación y prácticas de gestión de datos, que impiden transparencia, interoperabilidad, colaboración cruzada de proyectos o meta análisis. Una gran red interconectada de cámaras remotas podría actuar como un instrumento para la gestión de la biodiversidad en tiempo real y la toma de decisiones fiable, pero si no somos capaces de combinar datos, la investigación con cámaras trampa perderá su máximo potencial. Esta es la razón por la que los datos de las cámaras trampa deben estar abiertos y FAIR (localizable, accesible, interoperable y reutilizable, por sus siglas en inglés, ver (Wilkinson et al. (2016)), para que tanto humanos como máquinas puedan utilizar estos valiosos datos para aplicaciones presentes y futuras."
 
 #. type: Plain text
 #: 100.en.adoc:10
@@ -155,7 +155,7 @@ msgstr "Las plataformas especializadas de gestión de datos ahora se utilizan pr
 #. type: Plain text
 #: 100.en.adoc:13
 msgid "<<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media"
-msgstr "<<La inteligencia artificial>> (IA) y <<la computación en la nube>> se utilizan cada vez más para automatizar el <<reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
+msgstr "La <<inteligencia artificial>> (IA) y la <<computación en la nube>> se utilizan cada vez más para automatizar el <<reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
 
 #. type: Plain text
 #: 100.en.adoc:14
@@ -481,12 +481,12 @@ msgstr "Metadatos del proyecto"
 #. type: Plain text
 #: 300.en.adoc:34
 msgid "Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? Is it easy to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<section-4>>)."
-msgstr ""
+msgstr "Los metadatos del proyecto documentan un proyecto/estudio de la cámara trampa como un todo. ¿Quién estaba implicado, cuál era la razón, qué métodos de muestreo se utilizaron y cuál era el alcance? Los proyectos pueden variar mucho en tamaño y a veces son parte de meta-estudios o se subdividen en subproyectos para gestionar mejor sus cientos o miles de despliegues (p. ej., https://www.snapshot-usa.org/[Snapshot USA]). Describa los proyectos a un nivel que tenga sentido. ¿Es posible identificar a una persona que puede tomar decisiones o responder preguntas sobre el proyecto? ¿Es fácil describir la metodología? Si la respuesta a estas preguntas es no, entonces sería mejor considerar esos proyectos como separados. Tenga también en cuenta que recomendamos fuertemente publicar datos a nivel del proyecto, es decir, un conjunto de datos por proyecto (ver la <<section-4>>)."
 
 #. type: Plain text
 #: 300.en.adoc:36
 msgid "When published, project metadata are a substantial part of the dataset metadata (see <<figure-example-metadata>>), allowing others to discover your dataset when searching for certain keywords and to assess if it fits their research needs. When describing your project, think about what others would need to understand it. We recommend to cover the following aspects (but do not let perfection be the enemy of good):"
-msgstr ""
+msgstr "Cuando se publican, los metadatos del proyecto son una parte sustancial de los metadatos del conjunto de datos (ver la <<figure-example-metadata>>), permitiendo que otros descubran su conjunto de datos cuando buscan ciertas palabras clave y evalúen si se ajusta a sus necesidades de investigación. Cuando describa su proyecto, piense en qué necesitarían los demás para entenderlo. Recomendamos cubrir los siguientes aspectos (pero no dejar que lo perfecto sea enemigo de lo bueno):"
 
 #. type: Plain text
 #: 300.en.adoc:38
@@ -556,7 +556,7 @@ msgstr "Alcance temporal resultante"
 #. type: Plain text
 #: 300.en.adoc:51
 msgid "Classification method (experts, <<section-citizen-science,crowdsourcing>>, <<section-artificial-intelligence,AI>>)"
-msgstr ""
+msgstr "Método de clasificación (expertos, <<section-citizen-science,crowdsourcing>>, <<section-artificial-intelligence,AI>>)"
 
 #. type: Plain text
 #: 300.en.adoc:52
@@ -571,24 +571,24 @@ msgstr "Alcance taxonómico resultante"
 #. type: Plain text
 #: 300.en.adoc:54
 msgid "Data filtering before <<section-4,publication>>"
-msgstr ""
+msgstr "Filtración de datos antes de la <<section-4,publication>>"
 
 #. type: Plain text
 #: 300.en.adoc:57
 msgid "Data management systems typically organize this information into the following classes: <<project>>, <<subproject>>, <<organization>> and <<participant>> (see <<figure-class-diagram>>)."
-msgstr ""
+msgstr "Los sistemas de gestión de datos normalmente organizan esta información en las siguientes clases: <<project>>, <<subproject>>, <<organization>> y <<participant>> (ver la <<figure-class-diagram>>)."
 
 #. type: Block title
 #: 300.en.adoc:58
 #, no-wrap
 msgid "Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. A substantial part of its metadata are derived from the project metadata."
-msgstr ""
+msgstr "Captura de pantalla de un https://www.gbif.org/es/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[conjunto de datos de cámara trampa] publicado en GBIF cite:[mica-dataset]. Una parte importante de sus metadatos se deriva de los metadatos del proyecto."
 
 #. type: Target for macro image
 #: 300.en.adoc:60
 #, no-wrap
 msgid "img/web/example-metadata.png"
-msgstr ""
+msgstr "img/web/example-metadata.png"
 
 #. type: Title ====
 #: 300.en.adoc:63
@@ -599,7 +599,7 @@ msgstr "Participantes y roles"
 #. type: Plain text
 #: 300.en.adoc:66
 msgid "A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles (see <<table-roles>>). We recommend simplifying those to a limited set of controlled values (e.g. {package-contributors-role}) when publishing data."
-msgstr ""
+msgstr "Un <<participant>> es una persona asociada a un proyecto de cámaras trampa. La información que se captura sobre un participante normalmente es su nombre, apellido, correo electrónico y ORCID. Los roles de un participante se definen en relación al proyecto (p. ej. investigador principal, persona de contacto) y organización (p. ej., investigador) (ver la <<figure-class-diagram>>). Se utilizan diferentes nombres para roles similares (ver la <<table-roles>>). Recomendamos simplificarlos a un conjunto limitado de valores controlados (p. ej., {package-contributors-role}) al publicar datos."
 
 #. type: Block title
 #: 300.en.adoc:68
@@ -683,7 +683,79 @@ msgid "|Camtrap DP\n"
 "Dummy\n"
 "Awaiting access\n"
 "|Project Viewer\n"
-msgstr ""
+msgstr "|Camtrap DP\n"
+"|CTMS cite:[ctms]\n"
+"|Protocolo de metadatos de cámara de vida silvestre cite:[risc-2019]\n"
+"|DataCite cite:[datacite]\n"
+"|EML cite:[eml-2015]\n"
+"|Agouti cite:[agouti]\n"
+"|Wildlife Insights cite:[wildlife-insights]\n\n"
+"|Contacto\n"
+"|Contacto del proyecto\n"
+"|Coordinador del proyecto\n"
+"|Persona de contacto\n"
+"|Punto de contacto\n"
+"|Coordinador del proyecti\n"
+"|Dueño del proyecto\n\n"
+"|Investigador principal\n"
+"|Investigador principal\n"
+"|\n"
+"|Líder del proyecto +\n"
+"Gestor del proyecto +\n"
+"Supervisor\n"
+"|Dueño +\n"
+"Investigador principal\n"
+"|Investigador principal\n"
+"|Dueño del proyecto\n\n"
+"|Titular de derechos\n"
+"|\n"
+"|\n"
+"|Titular de derechos\n"
+"|\n"
+"|\n"
+"|\n\n"
+"|publicador\n"
+"|\n"
+"|\n"
+"|Distribuidor\n"
+"|Distribuidor\n"
+"Publicador\n"
+"|\n"
+"|\n\n"
+"|contribuidor\n"
+"|Secuencia identificada por +\n"
+"Tipo de fotografía identificada por\n"
+"|Miembro del equipo +\n"
+"Topógrafo\n"
+"|Gestor de datos +\n"
+"Curador de datos +\n"
+"Recolector de datos +\n"
+"Miembro del proyecto +\n"
+"Investigador\n"
+"|Curador +\n"
+"Editor +\n"
+"Autor +\n"
+"Proveedor de contenido +\n"
+"Originador +\n"
+"|Administrador +\n"
+"Experto taxonómico +\n"
+"Procesador de fotografía +\n"
+"Voluntario\n"
+"|Editor del proyecto +\n"
+"Contribuidor del proyecto +\n"
+"Etiquetador del proyecto +\n\n"
+"|\n"
+"|\n"
+"|\n"
+"|Otro\n"
+"|Usuario\n"
+"Procesador\n"
+"Revisor\n"
+"Proveedor de metadatos\n"
+"|Solo vista\n"
+"Simulado\n"
+"Esperando acceso\n"
+"|Visor de proyecto"
 
 #. type: Title ===
 #: 300.en.adoc:153
@@ -694,30 +766,30 @@ msgstr "Archivos multimedia"
 #. type: Plain text
 #: 300.en.adoc:156
 msgid "<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process."
-msgstr ""
+msgstr "Los <<media-file,Media files>> son los datos crudos que recolecta una cámara trampa. Para la mayoría de los estudios de cámaras trampa, estas serán <<image,images>> (ver la <<figure-example-image>> para un ejemplo), pero las cámaras trampa modernas también pueden grabar otros tipos de medios, tal como <<video>> o sonido. Los videos pueden capturar el comportamiento animal con más detalle que las imágenes y a menudo son adecuados para su divulgación, pero requieren más energía de batería, archivos de mayor tamaño y son más difíciles de procesar."
 
 #. type: Plain text
 #: 300.en.adoc:158
 msgid "An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single <<sequence>>/<<event>> (see <<table-sequence>>)."
-msgstr ""
+msgstr "Un compromiso utilizado a menudo es tomar una serie de imágenes cuando se activa una cámara (por ejemplo, 10 imágenes, 1 segundo de separación). Cuando se procesan los archivos multimedia, esas imágenes relacionadas se pueden combinar en una <<sequence>>. Una secuencia no solo combina imágenes resultantes de un solo <<trigger>>, también combina desencadenadores consecutivos que caen dentro de un <<independence-interval,independence interval>> preestablecido (p. ej., 120s). De esa manera, la <<activity>> continuada se capturó en un solo <<sequence>>/<<event>> (ver la <<table-sequence>>)."
 
 #. type: Block title
 #: 300.en.adoc:159
 #, no-wrap
 msgid "An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source]."
-msgstr ""
+msgstr "Una imagen capturada por una cámara trampa desplegada como parte del proyecto MICA cite:[mica-project]. Es la quinta de una serie de diez imágenes e indica fecha, hora y temperatura. Se trata de una foto en blanco y negro de un arroyo habitado por tres aves: una garza real (Ardea cinerea) en el primer plano y una hembra y un macho de ánade real (Anas platyrhynchos) en segundo plano. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source]."
 
 #. type: Target for macro image
 #: 300.en.adoc:161
 #, no-wrap
 msgid "img/web/example-image.jpg"
-msgstr ""
+msgstr "img/web/example-image.jpg"
 
 #. type: Block title
 #: 300.en.adoc:164
 #, no-wrap
 msgid "A series of images, resulting from 3 consecutive triggers and captured in one sequence. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "Una serie de imágenes, resultantes de 3 disparos consecutivos y capturados en una secuencia. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
 
 #. type: Table
 #: 300.en.adoc:322
@@ -846,23 +918,146 @@ msgid "|Trigger\n"
 "|54c5d869\n"
 "|2020-06-12T04:04:55Z\n"
 "|https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72\n"
-msgstr ""
+msgstr "|Disparador\n"
+"|ID de media\n"
+"|Fecha y hora\n"
+"|Ruta del archivo\n\n"
+"|1\n"
+"|e68deaed\n"
+"|2020-06-12T04:04:29Z\n"
+"|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file\n\n"
+"|1\n"
+"|c5efbcb3\n"
+"|2020-06-12T04:04:30Z\n"
+"|https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file\n\n"
+"|1\n"
+"|07eee194\n"
+"|2020-06-12T04:04:31Z\n"
+"|https://multimedia.agouti.eu/assets/07eee194-85c7-4586-96be-7b42ff6f1132/file\n\n"
+"|1\n"
+"|479a93c4\n"
+"|2020-06-12T04:04:31Z\n"
+"|https://multimedia.agouti.eu/assets/479a93c4-bc70-4e91-9ab5-b058df232ed0/file\n\n"
+"|1\n"
+"|6d65f3e4\n"
+"|2020-06-12T04:04:32Z\n"
+"|https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file\n\n"
+"|1\n"
+"|5ba57018\n"
+"|2020-06-12T04:04:32Z\n"
+"|https://multimedia.agouti.eu/assets/5ba57018-fd06-4319-bc80-ba6efa076c7c/file\n\n"
+"|1\n"
+"|c39a0749\n"
+"|2020-06-12T04:04:33Z\n"
+"|https://multimedia.agouti.eu/assets/c39a0749-b8db-4853-81c4-32b9a99868ca/file\n\n"
+"|1\n"
+"|d2ed4389\n"
+"|2020-06-12T04:04:34Z\n"
+"|https://multimedia.agouti.eu/assets/d2ed4389-14e6-45d7-b67d-b52d3cffd0fb/file\n\n"
+"|1\n"
+"|51549c25\n"
+"|2020-06-12T04:04:35Z\n"
+"|https://multimedia.agouti.eu/assets/51549c25-e565-4ece-a26e-12442ccc3fcb/file\n\n"
+"|1\n"
+"|b78bb29f\n"
+"|2020-06-12T04:04:35Z\n"
+"|https://multimedia.agouti.eu/assets/b78bb29f-fbf3-49b0-911b-ca4e5a95d801/file\n\n"
+"|2\n"
+"|d6785b65\n"
+"|2020-06-12T04:04:41Z\n"
+"|https://multimedia.agouti.eu/assets/d6785b65-24fa-4663-8539-e5fb261d069d/file\n\n"
+"|2\n"
+"|2b860458\n"
+"|2020-06-12T04:04:42Z\n"
+"|https://multimedia.agouti.eu/assets/2b860458-742b-4fca-937c-2a27742dccb0/file\n\n"
+"|2\n"
+"|d45648b9\n"
+"|2020-06-12T04:04:43Z\n"
+"|https://multimedia.agouti.eu/assets/d45648b9-76d1-4500-898c-dd3c3f31a0b8/file\n\n"
+"|2\n"
+"|eecd8ce1\n"
+"|2020-06-12T04:04:43Z\n"
+"|https://multimedia.agouti.eu/assets/eecd8ce1-2b13-49b7-bcec-c0056848aa62/file\n\n"
+"|2\n"
+"|48d26ebc\n"
+"|2020-06-12T04:04:44Z\n"
+"|https://multimedia.agouti.eu/assets/48d26ebc-ba6e-4245-8f52-c2cc1d64ef1f/file\n\n"
+"|2\n"
+"|4afd0344\n"
+"|2020-06-12T04:04:44Z\n"
+"|https://multimedia.agouti.eu/assets/4afd0344-3cec-4942-987b-96b69da75e6b/file\n\n"
+"|2\n"
+"|916964ac\n"
+"|2020-06-12T04:04:45Z\n"
+"|https://multimedia.agouti.eu/assets/916964ac-6389-4d06-8853-2eac6c36d8e7/file\n\n"
+"|2\n"
+"|3e8e355a\n"
+"|2020-06-12T04:04:46Z\n"
+"|https://multimedia.agouti.eu/assets/3e8e355a-6253-4a5f-a950-2f934821b7f7/file\n\n"
+"|2\n"
+"|b7792672\n"
+"|2020-06-12T04:04:46Z\n"
+"|https://multimedia.agouti.eu/assets/b7792672-6a31-484a-a97b-e19e34657021/file\n\n"
+"|2\n"
+"|1683dd3b\n"
+"|2020-06-12T04:04:47Z\n"
+"|https://multimedia.agouti.eu/assets/1683dd3b-7791-493a-84c6-1bb50541fd97/file\n\n"
+"|3\n"
+"|e6c63f88\n"
+"|2020-06-12T04:04:49Z\n"
+"|https://multimedia.agouti.eu/assets/e6c63f88-a31f-4f06-9410-3213baed08ab/file\n\n"
+"|3\n"
+"|91a1ba54\n"
+"|2020-06-12T04:04:50Z\n"
+"|https://multimedia.agouti.eu/assets/91a1ba54-5e19-4f18-88f8-8dd0dd3ef836/file\n\n"
+"|3\n"
+"|233a2f40\n"
+"|2020-06-12T04:04:51Z\n"
+"|https://multimedia.agouti.eu/assets/233a2f40-b0c5-4b93-90e4-e254d2e148f5/file\n\n"
+"|3\n"
+"|5e01e638\n"
+"|2020-06-12T04:04:51Z\n"
+"|https://multimedia.agouti.eu/assets/5e01e638-d36f-4ca2-957d-7bbdc76dcc89/file\n\n"
+"|3\n"
+"|dadf1718\n"
+"|2020-06-12T04:04:52Z\n"
+"|https://multimedia.agouti.eu/assets/dadf1718-90bd-438e-8649-3663f226072f/file\n\n"
+"|3\n"
+"|643d63a4\n"
+"|2020-06-12T04:04:52Z\n"
+"|https://multimedia.agouti.eu/assets/643d63a4-dd46-4b9d-b3de-665fe2a46754/file\n\n"
+"|3\n"
+"|19744c44\n"
+"|2020-06-12T04:04:53Z\n"
+"|https://multimedia.agouti.eu/assets/19744c44-03ea-438f-9dc7-927e6e494ee1/file\n\n"
+"|3\n"
+"|edc345bc\n"
+"|2020-06-12T04:04:54Z\n"
+"|https://multimedia.agouti.eu/assets/edc345bc-b58a-4c0d-8659-89132449cc3c/file\n\n"
+"|3\n"
+"|b6e435f8\n"
+"|2020-06-12T04:04:54Z\n"
+"|https://multimedia.agouti.eu/assets/b6e435f8-b22b-4916-8275-5fbff2d84a76/file\n\n"
+"|3\n"
+"|54c5d869\n"
+"|2020-06-12T04:04:55Z\n"
+"|https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72"
 
 #. type: Plain text
 #: 300.en.adoc:325
 msgid "A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Metadata for videos is less standardized, although some formats like AVI and MOV support EXIF."
-msgstr ""
+msgstr "Una cámara también graba metadatos al crear un archivo multimedia. Esto puede incluir fecha y hora, ajustes de la cámara (como velocidad de obturación, nivel de exposición, estado del flash) y otras propiedades. Para imágenes, esta información se almacena como parte del archivo y se expresa en el Formato de Archivo de Imagen Intercambiable (<<EXIF>>) (ver la <<table-exif>>). Los metadatos para videos son menos estandarizados, aunque algunos formatos como AVI y MOV soportan EXIF."
 
 #. type: Plain text
 #: 300.en.adoc:327
 msgid "Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>)."
-msgstr ""
+msgstr "Los sistemas de gestión de datos normalmente organizan archivos multimedia y los metadatos asociados en las siguientes clases: <<media>>, <<media-type,media type>> y <<sequence>> (ver<<figure-class-diagram>>)."
 
 #. type: Block title
 #: 300.en.adoc:329
 #, no-wrap
 msgid "Selected properties included in the EXIF metadata of the image in <<figure-example-image>>."
-msgstr ""
+msgstr "Propiedades seleccionadas incluidas en los metadatos EXIF de la imagen en la <<figure-example-image>>."
 
 #. type: Table
 #: 300.en.adoc:388
@@ -905,7 +1100,44 @@ msgid "|Property\n"
 "|Manual\n\n"
 "|Scene capture type\n"
 "|Standard\n"
-msgstr ""
+msgstr "|Propiedad\n"
+"|Valor\n\n"
+"|Tipo de archivo\n"
+"|JPEG\n\n"
+"|Tipo MIME \n"
+"|imagen/jpeg\n\n"
+"|Ancho de imagen\n"
+"|2048 pixels\n\n"
+"|Altura de imagen\n"
+"|1440 pixels\n\n"
+"|Resolución horizontal\n"
+"|72 dpi\n\n"
+"|Resolución vertical\n"
+"|72 dpi\n\n"
+"|Versión de EXIF\n"
+"|0220\n\n"
+"|Marca\n"
+"|RECONYX\n\n"
+"|Modelo\n"
+"|HYPERFIRE 2 COVERT\n\n"
+"|Fecha y hora original\n"
+"|2020:06:12T06:04:32Z\n\n"
+"|Desplazamiento de la zona horaria\n"
+"|N/D\n\n"
+"|Tiempo de exposición / velocidad de obturación\n"
+"|1/85\n\n"
+"|ISO\n"
+"|200\n\n"
+"|Gama de color\n"
+"|sRGB\n\n"
+"|Flash\n"
+"|Auto, activado\n\n"
+"|Modo de exposición\n"
+"|Auto\n\n"
+"|Balance de blancos\n"
+"|Manual\n\n"
+"|Tipo de captura de escena\n"
+"|Estándar"
 
 #. type: Title ====
 #: 300.en.adoc:391
@@ -916,7 +1148,7 @@ msgstr "Fecha y hora"
 #. type: Plain text
 #: 300.en.adoc:394
 msgid "The date and time a media file was recorded is the most important aspect of its metadata. This information is used to assess when animals were observed and cannot be derived later (in contrast with e.g. <<location>>). Since this information is derived from the camera’s internal clock, it is critical to verify it is set correctly. We recommend setting the clock to https://en.wikipedia.org/wiki/Coordinated_Universal_Time[Coordinated Universal Time (UTC)] or local winter time. Disable automatic switching to summer time and record the used time zone as part of the <<deployment>>."
-msgstr ""
+msgstr "La fecha y hora en que se registró un archivo multimedia es el aspecto más importante de sus metadatos. Esta información se utiliza para evaluar cuándo se observaron animales y no es posible encontrarlos más tarde (en contraste con, p. ej., la <<location>>). Dado que esta información se deriva del reloj interno de la cámara, es fundamental verificar que está configurado correctamente. Recomendamos ajustar el reloj a https://en.wikipedia.org/wiki/Coordinated_Universal_Time[Coordinated Universal Time (UTC)] o la hora local de invierno. Desactive el cambio automático al horario de verano y registre la zona horaria utilizada como parte del <<deployment>>."
 
 #. type: Title ====
 #: 300.en.adoc:396
@@ -927,12 +1159,12 @@ msgstr "Nombre de archivo"
 #. type: Plain text
 #: 300.en.adoc:399
 msgid "Media files are best managed by a <<data-management-system,data management system>>. If you manage your media files yourself, then we recommend the following file and directory naming conventions:"
-msgstr ""
+msgstr "Los archivos multimedia son administrados mejor por un <<data-management-system,data management system>>. Si usted mismo administra sus archivos multimedia, le recomendamos las siguientes convenciones de nombres de archivos y directorios:"
 
 #. type: Plain text
 #: 300.en.adoc:401
 msgid "Avoid renaming media file names. Rather, organize media files in one directory for each <<deployment>>. This also prevents raw file names from overlapping across cameras. Note that file paths may be used as identifiers in <<classification>> data."
-msgstr ""
+msgstr "Evite renombrar los nombres de los archivos multimedia. En su lugar, organice archivos multimedia en un directorio para cada <<deployment>>. Esto también evita que los nombres de archivos crudos se superpongan de una cámara a otra. Tenga en cuenta que las rutas de archivos pueden ser utilizadas como identificadores en datos de <<classification>>."
 
 #. type: Plain text
 #: 300.en.adoc:402
