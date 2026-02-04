@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-04 02:46\n"
+"PO-Revision-Date: 2026-02-04 12:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1374,7 +1374,7 @@ msgstr "Evite abreviaturas para mitigar el riesgo de confusión, excepto con pal
 #. type: Plain text
 #: 300.en.adoc:514
 msgid "Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values (see <<table-readme>>)."
-msgstr ""
+msgstr "Evite incluir unidades y tipos de datos. Describa estos datos en otras partes (p. ej., en una hoja separada, documento README o https://specs.frictionlessdata.io/table-schema/[Table Schema]), junto con la definición de la columna y los valores controlados (ver la <<table-readme>>)."
 
 #. type: delimited block -
 #: 300.en.adoc:521
@@ -1382,28 +1382,33 @@ msgstr ""
 msgid "# Good\n"
 "scientificName\n"
 "deployment_group\n"
-msgstr ""
+msgstr "# Bien\n"
+"nombreCientífico\n"
+"despligue_grupo"
 
 #. type: delimited block -
 #: 300.en.adoc:524
 #, no-wrap
 msgid "# Bad: contains spaces\n"
 "scientific name\n"
-msgstr ""
+msgstr "# Mal: contiene espacios\n"
+"nombre científico"
 
 #. type: delimited block -
 #: 300.en.adoc:527
 #, no-wrap
 msgid "# Bad: abbreviated\n"
 "dep_gr\n"
-msgstr ""
+msgstr "# Mal: abreviado\n"
+"desp_gr"
 
 #. type: delimited block -
 #: 300.en.adoc:530
 #, no-wrap
 msgid "# Bad: inconsistent naming\n"
 "latitude & coordinatesLongitude\n"
-msgstr ""
+msgstr "# Mal: nombres inconsistentes\n"
+"latitud y longitudcoordenadas"
 
 #. type: delimited block -
 #: 300.en.adoc:533
