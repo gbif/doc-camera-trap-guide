@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-01-29 00:44\n"
+"PO-Revision-Date: 2026-02-04 01:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1169,17 +1169,17 @@ msgstr "Evite renombrar los nombres de los archivos multimedia. En su lugar, org
 #. type: Plain text
 #: 300.en.adoc:402
 msgid "Make sure that ordering files alphabetically also sorts them chronologically. This is likely already the case for sequentially assigned file names (e.g. `IMG_4545.jpg`). Otherwise, start the name with the date (`YYYYMMDD`) or date-time (`YYYYMMDD_HHMMSS`). This can also be useful for directory names."
-msgstr ""
+msgstr "Asegúrese de que ordenar los archivos alfabéticamente también los ordene cronológicamente. Este es ya probablemente el caso de nombres de archivo asignados secuencialmente (p. ej., `IMG_4545.jpg`). De lo contrario, inicie el nombre con la fecha (`AAAAMMDD`) o fecha y hora (`AAAAMMDD_HHMMSS`). Esto también puede ser útil para nombres de directorios."
 
 #. type: Plain text
 #: 300.en.adoc:403
 msgid "If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than white space (`image 1`). Avoid special characters."
-msgstr ""
+msgstr "Si está nombrando archivos, use snake case [caso de serpiente] (`imagen_1`), hyphen case [caso de guión] (`imagen-1`) o camel case [caso de camello] (`imagen1` o `archivoVideo1`) en lugar de espacio en blanco (`imagen 1`). Evite los caracteres especiales."
 
 #. type: Plain text
 #: 300.en.adoc:404
 msgid "Do not store <<classification>> information as part of the media file name."
-msgstr ""
+msgstr "No guarde información de <<clasificación>> como parte del nombre del archivo multimedia."
 
 #. type: Plain text
 #: 300.en.adoc:405 300.en.adoc:515
@@ -1192,21 +1192,25 @@ msgstr "Sea consistente."
 msgid "# Good\n"
 "PICT0001.JPG\n"
 "20200709_093352.JPG\n"
-msgstr ""
+msgstr "# Bien\n"
+"PICT0001.JPG\n"
+"20200709_093352.JPG"
 
 #. type: delimited block -
 #: 300.en.adoc:414
 #, no-wrap
 msgid "# Bad: can't be sorted chronologically\n"
 "09072020_093352.JPG\n"
-msgstr ""
+msgstr "# Mal: no puede ser ordenado cronológicamente\n"
+"09072020_093352. JPG"
 
 #. type: delimited block -
 #: 300.en.adoc:417
 #, no-wrap
 msgid "# Bad: contains classification information\n"
 "20200709_093352_Ardea_alba_1_Anas_platyrhynchos_male_female.jpg\n"
-msgstr ""
+msgstr "# Mal: contiene información de clasificación\n"
+"20200709_093352_Ardea_alba_1_Anas_platyrhynelig_macho_hembra.jpg"
 
 #. type: delimited block -
 #: 300.en.adoc:420
