@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-04 12:44\n"
+"PO-Revision-Date: 2026-02-04 15:01\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1415,7 +1415,8 @@ msgstr "# Mal: nombres inconsistentes\n"
 #, no-wrap
 msgid "# Bad: includes unit or data type\n"
 "camera_height_meter_double\n"
-msgstr ""
+msgstr "# Mal: incluye unidades o tipos de datos\n"
+"altura_cámara_metros_doble"
 
 #. type: Block title
 #: 300.en.adoc:536
@@ -1474,7 +1475,54 @@ msgid "|Column name\n"
 "|decimal degrees\n"
 "|number\n"
 "|no\n"
-msgstr ""
+msgstr "|Nombre de columna\n"
+"|Definición\n"
+"|Notas\n"
+"|Unidad\n"
+"|Tipo de datos\n"
+"|Requerido (s/n)\n\n"
+"|deploymentID\n"
+"|Identificador único del despliegue.\n"
+"|Este identificador se genera automáticamente.\n"
+"|\n"
+"|cadena\n"
+"|sí\n\n"
+"|deploymentStart\n"
+"|Fecha y hora en que comenzó el despliegue.\n"
+"|Formateado como  `AAAA-MM-DDTHH:MM:SSZ`.\n"
+"|\n"
+"|fecha y hora\n"
+"|sí\n\n"
+"|deploymentEnd\n"
+"|Fecha y hora en que finalizó el despliegue.\n"
+"|Formateado como `AAAA-MM-DDTHH:MM:SSZ`.\n"
+"|\n"
+"|fecha y hora\n"
+"|sí\n\n"
+"|latitude\n"
+"|Latitud de la ubicación de despliegue.\n"
+"|Usa el datum WGS84.\n"
+"|grados decimales\n"
+"|número\n"
+"|sí\n\n"
+"|longitude\n"
+"|Longitud de la ubicación de despliegue.\n"
+"|Usa el dato WGS84.\n"
+"|grados decimales\n"
+"|número\n"
+"|sí\n\n"
+"|cameraHeight\n"
+"|Altura a la que se desplegó la cámara.\n"
+"|\n"
+"|metros\n"
+"|número\n"
+"|no\n\n"
+"|cameraHeading\n"
+"|Ángulo en el que la cámara fue desplegada en el plano horizontal.\n"
+"|Los valores (0-360) comienzan en sentido horario desde el norte, por lo que 0 = norte, 90 = este, 180 = sur, 270 = oeste.\n"
+"|grados decimales\n"
+"|número\n"
+"|no"
 
 #. type: Title ====
 #: 300.en.adoc:597
@@ -1485,22 +1533,22 @@ msgstr "Localización"
 #. type: Plain text
 #: 300.en.adoc:600
 msgid "A <<location>> is the physical place where a camera is located during a deployment. It can be described with a name, identifier and/or description, but we recommend always to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[geographical coordinates]. Those are most commonly expressed as latitude and longitude in decimal degrees, using the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84] datum."
-msgstr ""
+msgstr "Una <<location>> es el lugar físico donde se encuentra una cámara durante un despliegue. Se puede describir con un nombre, identificador y/o descripción, pero recomendamos siempre registrar las coordenadas geográficas https://docs.gbif.org/georeferencing-best-practices/1.0/es/#coordinates-geographic-coordinates[geographical coordinates]. Estas se expresan más comúnmente como latitud y longitud en grados decimales, usando el datum WGS84 https://docs.gbif.org/georeferencing-best-practices/1.0/es/#WGS84[WGS84]."
 
 #. type: Plain text
 #: 300.en.adoc:602
 msgid "The coordinates are best determined using a GPS receiver at the location itself. If this is not possible, use (online) resources and georeferencing best practices cite:[chapman-wieczorek-2020] to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:"
-msgstr ""
+msgstr "Las coordenadas se determinan mejor mediante un receptor GPS en la propia ubicación. Si esto no es posible, utilice recursos (en línea) y buenas prácticas de georeferenciación cite:[chapman-wieczorek-2020] para obtenerlos. Además de las coordenadas y el datum geodésico (p. ej., WGS84) es importante registrar la incertidumbre de las coordenadas https://docs.gbif.org/georeferencing-best-practices/1.0/es/#calculando-incertidumbres[uncertainty of the coordinates], que se ve afectada por varios factores:"
 
 #. type: Plain text
 #: 300.en.adoc:604
 msgid "The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location[extent] of the location. Note that for camera traps this includes the <<detection-distance,detection distance>>, which is typically between 5 and 20 m."
-msgstr ""
+msgstr "La extensión https://docs.gbif.org/georeferencing-best-practices/1.0/es/#extensi%C3%B3n-de-una-ubicaci%C3%B3n[extent] de la ubicación. Tenga en cuenta que para las cámaras trampa esto incluye la <<detection-distance,detection distance>>, que normalmente está entre 5 y 20 metros."
 
 #. type: Plain text
 #: 300.en.adoc:605
 msgid "The accuracy of the GPS receiver or georeferencing resource. Most GPS receivers obtain an accuracy of 5 metres in open areas when using four or more satellites cite:[chapman-wieczorek-2020]. Forest canopy or limited satellite connection can reduce accuracy. Google Maps or Open Street Maps have an accuracy of 8m cite:[chapman-wieczorek-2020]."
-msgstr ""
+msgstr "La precisión del receptor GPS o recurso de georreferencia. La mayoría de los receptores GPS tienen una precisión de 5 metros en áreas abiertas cuando utilizan cuatro o más satélites cite:[chapman-wieczorek-2020]. El dosel del bosque o la conexión satelital limitada pueden reducir la precisión. Google Maps u Open Street Maps tienen una precisión de 8m cite:[chapman-wieczorek-2020]."
 
 #. type: Plain text
 #: 300.en.adoc:606
