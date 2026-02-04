@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-04 01:49\n"
+"PO-Revision-Date: 2026-02-04 02:46\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1179,7 +1179,7 @@ msgstr "Si está nombrando archivos, use snake case [caso de serpiente] (`imagen
 #. type: Plain text
 #: 300.en.adoc:404
 msgid "Do not store <<classification>> information as part of the media file name."
-msgstr "No guarde información de <<clasificación>> como parte del nombre del archivo multimedia."
+msgstr "No guarde información de <<classification>> como parte del nombre del archivo multimedia."
 
 #. type: Plain text
 #: 300.en.adoc:405 300.en.adoc:515
@@ -1217,7 +1217,8 @@ msgstr "# Mal: contiene información de clasificación\n"
 #, no-wrap
 msgid "# Bad: contains spaces and special characters\n"
 "dep 2021 't WAD\n"
-msgstr ""
+msgstr "# Mal: contiene espacios y caracteres especiales \n"
+"dep 2021 't WAD"
 
 #. type: Title ====
 #: 300.en.adoc:423
@@ -1228,7 +1229,7 @@ msgstr "Almacenamiento"
 #. type: Plain text
 #: 300.en.adoc:426
 msgid "Due to the large volume of generated data, it is not trivial to securely store, backup and manage media files. Cloud services or well managed institutional services are recommended, but these come at a substantial cost. We recommend the use of an online <<data-management-system,data management system>> to store your media files. Some offer this storage for free. It is also very useful if your data storage system can serve media files over http/https, using allows <<section-stable-unique-identifiers,stable URLs>> and optionally authentication. This allows you to directly reference/hotlink media files in a published dataset (see <<section-ac-accessuri,accessURI>>). Such a service is provided by e.g. Agouti cite:[agouti] (through `+https://multimedia.agouti.eu/assets/+`), https://www.flickr.com/[Flickr] (through `https://www.flickr.com/services/api/`) and to far lesser extent https://zenodo.org/[Zenodo] (limited to 100 files through the undocumented `+https://zenodo.org/record/{record_id}/files/{file}+`)."
-msgstr ""
+msgstr "Debido al gran volumen de datos generados, no es trivial almacenar, respaldar y gestionar archivos multimedia de forma segura. Se recomiendan servicios en la nube o servicios institucionales bien administrados, pero estos tienen un costo considerable. Recomendamos el uso de un <<data-management-system,data management system>> en línea para almacenar sus archivos multimedia. Algunos ofrecen este almacenamiento de forma gratuita. También es muy útil si su sistema de almacenamiento de datos puede servir archivos multimedia sobre http/https, usando <<section-stable-unique-identifiers,stable URLs>> y opcionalmente autenticación. Esto le permite referenciar/enlazar directamente archivos multimedia en un conjunto de datos publicado (ver <<section-ac-accessuri,accessURI>>). Este servicio es proporcionado, por ejemplo, por Agouti (Casaer et al. 2019) (a través de https://multimedia.agouti.eu/assets/), Flickr [https://www.flickr.com/] (a través de https://www.flickr. om/servicios/api/) y en menor medida Zenodo [https://zenodo.org/] (limitado a 100 archivos a través del indocumentado https://zenodo.org/record/{record_id}/files/{file})."
 
 #. type: Title ===
 #: 300.en.adoc:428
@@ -1239,18 +1240,18 @@ msgstr "Despliegues"
 #. type: Plain text
 #: 300.en.adoc:431
 msgid "A <<deployment>> is the spatial and temporal placement of a <<camera>>. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. The resulting <<media-file,media files>> are all associated with that deployment and are best organized as such. Deployment information includes camera <<location>>, duration, <<alignment>> and settings and other <<covariates>> such as bait use, feature type, habitat, canopy cover, etc. (see <<table-deployment>>). This information is not captured by the camera and needs to be recorded manually. Note that even the duration can be longer than the timestamp of the first and last captured media file."
-msgstr ""
+msgstr "Un <<deployment>> es la colocación espacial y temporal de una <<camera>>. Los despliegues finalizan retirando o reemplazando la cámara, cambiando su posición o cambiando su tarjeta de memoria. Los <<media-file,media files>> resultantes están asociados con ese despliegue y están mejor organizados como tal. La información de despliegue incluye <<location>>, duración, <<alignment>> y ajustes de cámara y otras <<covariates>> como uso de cebo, tipo de características, hábitat, cobertura de dosel arbóreo, etc. (ver la <<table-deployment>>). Esta información no es capturada por la cámara y debe registrarse manualmente. Tenga en cuenta que incluso la duración puede ser más larga que la fecha y hora del primer y último archivo de medios capturado."
 
 #. type: Plain text
 #: 300.en.adoc:433
 msgid "Data management systems typically organize deployments into the following classes: <<deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>)."
-msgstr ""
+msgstr "Los sistemas de gestión de datos normalmente organizan despliegues en las siguientes clases: <deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> y <<subproject>> (ver la <<figure-class-diagram>>)."
 
 #. type: Block title
 #: 300.en.adoc:435
 #, no-wrap
 msgid "Recorded information for the deployment that generated the image in <<figure-example-image>>. https://camtrap-dp.tdwg.org/example/00a2c20d/[Source]."
-msgstr ""
+msgstr "Información registrada para el despliegue que generó la imagen en la <<figure-example-image>>. Fuente [https://camtrap-dp.tdwg.org/example/00a2c20d/]."
 
 #. type: Table
 #: 300.en.adoc:503
@@ -1299,7 +1300,50 @@ msgid "|Property\n"
 "|false\n\n"
 "|Habitat\n"
 "|Campine area with a number of river valleys with valuable grasslands\n"
-msgstr ""
+msgstr "|Propiedad\n"
+"|Valor\n\n"
+"|ID de despliegue\n"
+"|00a2c20d\n\n"
+"|Fecha/hora de inicio\n"
+"|2020-05-30T04:57:37+02:00 (= 2020-05-30T02:57:37Z)\n\n"
+"|Fecha/hora de fin\n"
+"|2020-07-01T11:41:41+02:00 (= 2020-07-01T09:41:41Z)\n\n"
+"|ID de ubicación\n"
+"|e254a13c\n\n"
+"|Nombre de ubicación\n"
+"|B_HS_val 2_processiepark\n\n"
+"|Latitud\n"
+"|51.496\n\n"
+"|Longitud\n"
+"|4.774\n\n"
+"|Incertidumbre de coordenadas\n"
+"|187 m\n\n"
+"|Otra información de ubicación\n"
+"|posición:arriba de arroyo\n\n"
+"|Cámara configurada por\n"
+"|anonimizado:3eb30aa\n\n"
+"|ID de cámara\n"
+"|320\n\n"
+"|Modelo de cámara\n"
+"|Reconyx-HF2X\n\n"
+"|Retraso de cámara\n"
+"|0 s\n\n"
+"|Peso de cámara\n"
+"|1,30 m\n\n"
+"|Profundidad de la cámara\n"
+"|\n\n"
+"|Inclinación de la cámara\n"
+"|-15 °\n\n"
+"|Dirección de la cámara\n"
+"|285 °\n\n"
+"|Distancia de detección\n"
+"|3,20 m\n\n"
+"|Problemas de fecha y hora\n"
+"|falso\n\n"
+"|Uso de cebo\n"
+"|falso\n\n"
+"|Hábitat\n"
+"|Región de Campine con una serie de valles fluviales con praderas valiosas"
 
 #. type: Title ====
 #: 300.en.adoc:506
@@ -1310,7 +1354,7 @@ msgstr "Nombre de columna"
 #. type: Plain text
 #: 300.en.adoc:509
 msgid "Deployment information is best recorded in a <<data-management-system,data management system>>. If you manage your deployment information elsewhere (e.g. a spreadsheet), then we recommend the following column naming conventions:"
-msgstr ""
+msgstr "La información de despliegue se registra mejor en un <<data-management-system,data management system>>. Si administra su información de despliegue en otros lugares (por ejemplo, una hoja de cálculo), le recomendamos las siguientes convenciones para nombrar las columnas:"
 
 #. type: Plain text
 #: 300.en.adoc:511
@@ -1320,12 +1364,12 @@ msgstr "Utilice nombres descriptivos, para que los usuarios tienen una idea de q
 #. type: Plain text
 #: 300.en.adoc:512
 msgid "Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than white space (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camel case is most often used in data standards."
-msgstr ""
+msgstr "Separar palabras usando snake case (`ubicación_despliegue_1`), hyphen case `(despliegue-ubicación-1`) o camel case (`despliegueUbicación1`) en lugar de espacios (`ubicación de despliegue 1`). El snake case garantiza el nivel de interoperabilidad más alto entre sistemas, el camel case se utiliza con mayor frecuencia en los estándares de datos."
 
 #. type: Plain text
 #: 300.en.adoc:513
 msgid "Avoid abbreviations to mitigate the risk of confusion, except for well-known words like `ID` for identifier."
-msgstr ""
+msgstr "Evite abreviaturas para mitigar el riesgo de confusión, excepto con palabras conocidas como ID para identificador."
 
 #. type: Plain text
 #: 300.en.adoc:514
