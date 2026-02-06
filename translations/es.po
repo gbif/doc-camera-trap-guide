@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-06 17:22\n"
+"PO-Revision-Date: 2026-02-06 18:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3737,29 +3737,29 @@ msgstr "Profundidad de la cámara (bajo el agua), un componente de la <<alignmen
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[camera-height]]camera height"
-msgstr ""
+msgstr "[[camera-height]]altura de la cámara"
 
 #. type: Plain text
 #: glossary.en.adoc:19
 msgid "Height of the camera above the ground, a component of camera <<alignment>>. Can be expressed in meters above the ground or as a categorical description (`knee height` ~ 0.5m, `chest height` ~ 1.5m, `canopy` ~ 3+m in citenp:[wildlife-insights]). {deployments-cameraHeight} in Camtrap DP."
-msgstr ""
+msgstr "Altura de la cámara sobre el suelo, un componente de la <<alignment>> de la cámara. Se puede expresar en metros sobre el suelo o como una descripción categórica (`altura de la rodilla` ~ 0,5m, `altura del pecho` ~ 1,5m, `dosel` ~ 3+m en citenp:[wildlife-insights]). {deployments-cameraHeight} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:20
 #, no-wrap
 msgid "[[camera-tilt]]camera tilt"
-msgstr ""
+msgstr "[[camera-tilt]]inclinación de la cámara"
 
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Up or down orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees or as a categorical description (`parallel` = 0°, `pointed downward` = -90° in citenp:[wildlife-insights]). {deployments-cameraTilt} in Camtrap DP."
-msgstr ""
+msgstr "Orientación hacia arriba o hacia abajo de la cámara, un componente de la <<alignment>> de la cámara. Se puede expresar en grados o como una descripción categórica (`paralelo` = 0°, `apunta hacia abajo` = -90° en citenp:[wildlife-insights]). {deployments-cameraTilt} en Camtrap DP.\n"
 
 #. type: Labeled list
 #: glossary.en.adoc:22
 #, no-wrap
 msgid "[[camera-heading]]camera heading"
-msgstr ""
+msgstr "[[camera-heading]]dirección de cámara"
 
 #. type: Plain text
 #: glossary.en.adoc:23
