@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-04 15:01\n"
+"PO-Revision-Date: 2026-02-06 15:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1553,12 +1553,13 @@ msgstr "La precisión del receptor GPS o recurso de georreferencia. La mayoría 
 #. type: Plain text
 #: 300.en.adoc:606
 msgid "The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157 m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-wieczorek-2020])."
-msgstr ""
+msgstr "La precisión de las coordenadas https://docs.gbif.org/georeferencing-best-practices/1.0/es/#incertidumbre-relacionada-con-la-precisi%C3%B3n-de-las-coordenadas[coordinate precision]. Cuanto menos precisa (y más cerca del ecuador) mayor es la incertidumbre, p.ej., las coordenadas WGS84 con una precisión de 0,001 grados tienen una incertidumbre de 157 metros en el ecuador\n"
+"(ver la Tabla 3 https://docs.gbif.org/georeferencing-best-practices/1.0/es/#table-uncertainty[Table 3] en citenp:[chapman-wieczorek-2020]).\n"
 
 #. type: Plain text
 #: 300.en.adoc:607
 msgid "An https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-from-unknown-datum[unknown datum]. This can range from centimetres to kilometres cite:[chapman-wieczorek-2020], so it is important to always record the datum used by the GPS receiver or georeferencing resource (WGS84 for Google Maps or Open Street Maps)."
-msgstr ""
+msgstr "Un https://docs.gbif.org/georeferencing-best-practices/1.0/es/#incertidumbre-debido-a-un-datum-desconocido[unknown datum]. Esto puede ir de centímetros a kilómetros cite:[chapman-wieczorek-2020], por lo que siempre es importante registrar el datum utilizado por el receptor GPS o el recurso de georeferenciación (WGS84 para Google Maps u Open Street Maps)."
 
 #. type: Plain text
 #: 300.en.adoc:608
@@ -1568,7 +1569,7 @@ msgstr "La incertidumbre máxima combinada se expresa de forma más conveniente 
 #. type: Plain text
 #: 300.en.adoc:610
 msgid "The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method[point-radius-method]."
-msgstr ""
+msgstr "La incertidumbre máxima combinada se expresa de forma más conveniente como una incertidumbre de coordenada en metros, permitiendo que la ubicación se describa con el método punto-radio https://docs.gbif.org/georeferencing-best-practices/1.0/es/#m%C3%A9todo-radio-punto[point-radius-method]."
 
 #. type: Plain text
 #: 300.en.adoc:612
@@ -1584,7 +1585,7 @@ msgstr "Modelo de cámara, ajustes y alineación"
 #. type: Plain text
 #: 300.en.adoc:617
 msgid "Since a deployment relates to the placement of a <<camera>>, it is important to capture information regarding its model, settings and alignment. The model consists of the manufacturer and model name (e.g. `Reconyx-PC800`). Except for the <<quiet-period,quiet period>>, most camera settings are typically automatically recorded as part of the <<EXIF>> metadata. The <<detection-distance,detection distance>> can vary a lot depending on terrain and vegetation and is best measured in the field by having someone move in front of the camera at different distances. The <<alignment>> is the physical placement of a <<camera>> in 3D space. It consists of <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>."
-msgstr ""
+msgstr "Dado que un despliegue se relaciona con la colocación de una <<camera>>, es importante registrar información sobre su modelo, configuración y alineación. El modelo consiste en nombre del fabricante y el nombre del modelo (p. ej., `Reconyx-PC800`). Excepto para el <<quiet-period,quiet period>>, la mayoría de los ajustes de la cámara normalmente se registran automáticamente como parte de los metadatos  <<EXIF>>. La <<detection-distance,detection distance>>  puede variar mucho dependiendo del terreno y la vegetación, y se mide mejor en el campo haciendo que alguien se mueva delante de la cámara a diferentes distancias. La <<alignment>>  es la colocación física de una <<camera>> en espacio 3D. Consiste en <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> y <<camera-heading,camera heading>>."
 
 #. type: Title ====
 #: 300.en.adoc:619
@@ -1595,19 +1596,19 @@ msgstr "Grupos de despliegue"
 #. type: Plain text
 #: 300.en.adoc:623
 msgid "It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see <<figure-deployment-groups>>). A single deployment can belong to zero or more deployment groups.  <<subproject,Subprojects>> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. This facilitates their management. A single deployment can belong to a single subproject."
-msgstr ""
+msgstr "Puede ser útil categorizar despliegues en <<deployment-group,deployment groups>> para facilitar su gestión y análisis de datos. Un grupo de despliegue puede ser temático (p. ej., despliegue emparejado), espacial (p. ej. tierra privada, bosque abierto) o temporal (por ejemplo, verano de 2005) en la naturaleza (ver la <<figure-deployment-groups>>). Un solo despliegue puede pertenecer a cero o más grupos de despliegue. Los <<subproject,Subprojects>> son un tipo especial de grupo de despliegue utilizado para subdividir proyectos muy grandes que contienen muchos miles de despliegues. Esto facilita su gestión. Un solo despliegue puede pertenecer a un solo subproyecto."
 
 #. type: Block title
 #: 300.en.adoc:624
 #, no-wrap
 msgid "Map showing a selection of deployments from the NC Candid Critters project cite:[candid-critters-project]. Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Left (A): deployment groups representing site type (forested area, open area, residential yard, trail), right (B): deployment groups representing property type (private, public). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure)."
-msgstr ""
+msgstr "Mapa que muestra una selección de despliegues del proyecto NC Candid Critters cite:[candid-critters-project]. Los despliegues se pueden categorizar de manera diferente con base en los <<deployment-group,deployment group(s)>> a los que pertenecen. Izquierda (A): grupos de despliegue que representan el tipo de sitio (área boscosa, área abierta, patio residencial, sendero), a la derecha (B): grupos de despliegue que representan el tipo de propiedad (privada, pública). El proyecto también utilizó <<subproject,subprojects>> para desplegar grupos por condado (no mostrado en la figura)."
 
 #. type: Target for macro image
 #: 300.en.adoc:626
 #, no-wrap
 msgid "img/web/deployment-groups.png"
-msgstr ""
+msgstr "img/web/deployment-groups.png"
 
 #. type: Title ====
 #: 300.en.adoc:629
@@ -1618,12 +1619,12 @@ msgstr "Covariantes"
 #. type: Plain text
 #: 300.en.adoc:632
 msgid "Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:"
-msgstr ""
+msgstr "Las covariantes son variables que pueden afectar el comportamiento y, por tanto, la detección de animales. Registrar estas variables es importante para un análisis más profundo de los datos. <<bait,Bait>>,  <<feature-type,feature type>> y <<habitat-type,habitat type>> son covariables comúnmente registradas. El qué y el cómo registrar covariantes debe ser consistente dentro de un proyecto, pero normalmente no es así entre proyectos, a menos que formen parte de un estudio de investigación más amplio y bien coordinado. Para facilitar la interoperabilidad, recomendamos hacer uso de los sistemas de clasificación existentes para registrar covariables:"
 
 #. type: Plain text
 #: 300.en.adoc:634
 msgid "Biomes/ecoregions cite:[dinerstein-2017]"
-msgstr ""
+msgstr "Biomas/ecorregiones cite:[dinerstein-2017]"
 
 #. type: Plain text
 #: 300.en.adoc:635
@@ -1633,17 +1634,17 @@ msgstr "Características ecológicas:"
 #. type: Plain text
 #: 300.en.adoc:636
 msgid "COMBINE cite:[soria-2021]"
-msgstr ""
+msgstr "COMBINE cite:[soria-2021]"
 
 #. type: Plain text
 #: 300.en.adoc:637
 msgid "PanTHERIA cite:[jones-2009]"
-msgstr ""
+msgstr "PanTHERIA cite:[jones-2009]"
 
 #. type: Plain text
 #: 300.en.adoc:638
 msgid "EltonTraits cite:[wilman-2014]"
-msgstr ""
+msgstr "EltonTraits cite:[wilman-2014]"
 
 #. type: Plain text
 #: 300.en.adoc:639
