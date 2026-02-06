@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-06 15:09\n"
+"PO-Revision-Date: 2026-02-06 17:22\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1649,52 +1649,52 @@ msgstr "EltonTraits cite:[wilman-2014]"
 #. type: Plain text
 #: 300.en.adoc:639
 msgid "AmphiBIO cite:[oliveira-2017]"
-msgstr ""
+msgstr "AmphiBIO cite:[oliveira-2017]"
 
 #. type: Plain text
 #: 300.en.adoc:640
 msgid "GlobTherm cite:[bennett-2018]"
-msgstr ""
+msgstr "GlobTherm cite:[bennett-2018]"
 
 #. type: Plain text
 #: 300.en.adoc:641
 msgid "AVONET cite:[tobias-2022]"
-msgstr ""
+msgstr "AVONET cite:[tobias-2022]"
 
 #. type: Plain text
 #: 300.en.adoc:642
 msgid "https://opentraits.org/datasets.html[Open Traits Network]"
-msgstr ""
+msgstr "https://opentraits.org/datasets.html[Open Traits Network]"
 
 #. type: Plain text
 #: 300.en.adoc:643
 msgid "Habitat classification cite:[jung-2020]"
-msgstr ""
+msgstr "Clasificación de hábitat cite:[jung-2020]"
 
 #. type: Plain text
 #: 300.en.adoc:644
 msgid "Land cover products cite:[yang-2017,amatulli-2018] (http://www.earthenv.org)"
-msgstr ""
+msgstr "Productos de cobertura del suelo cite:[yang-2017,amatulli-2018] (http://www.earthenv.org)"
 
 #. type: Plain text
 #: 300.en.adoc:645
 msgid "Land cover type cite:[buchhorn-2020]"
-msgstr ""
+msgstr "Tipo de cobertura del suelo cite:[buchhorn-2020]"
 
 #. type: Plain text
 #: 300.en.adoc:646
 msgid "Leaf Area Index cite:[law-2008]"
-msgstr ""
+msgstr "Índice de área foliar cite:[law-2008]"
 
 #. type: Plain text
 #: 300.en.adoc:647
 msgid "Primary productivity cite:[zhao-2005]"
-msgstr ""
+msgstr "Producción primaria cite:[zhao-2005]"
 
 #. type: Plain text
 #: 300.en.adoc:648
 msgid "Terrain ruggedness index (TRI) cite:[riley-1999]"
-msgstr ""
+msgstr "Índice de rigidez del terreno (TRI) cite:[riley-1999]"
 
 #. type: Title ===
 #: 300.en.adoc:650
@@ -1705,18 +1705,18 @@ msgstr "Observaciones"
 #. type: Plain text
 #: 300.en.adoc:653
 msgid "<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>)."
-msgstr ""
+msgstr "Las <<observation,Observations>> son una interpretación de lo que se puede ver u oír en <<media-file,media files>>. Estas no se limitan a observaciones de especies, sino que también pueden indicar si el archivo de multimedia contiene un vehículo, un humano o un objeto desconocido, o que no se observó nada de interés (<<blank,blanks>>). Por eso a veces también se les llama clasificaciones, anotaciones o identificaciones. El objetivo es típicamente registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento (ver la <<table-observation>>)."
 
 #. type: Plain text
 #: 300.en.adoc:655
 msgid "Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type,observation type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<section-column-naming,column naming conventions>> as for deployments."
-msgstr ""
+msgstr "Las observaciones se registran de mejor manera en un <<data-management-system,data management system>>, que típicamente organiza observaciones en las siguientes clases: <<observation>>, <<observation-type,observation type>> y <<sequence>> (ver la <<figure-class-diagram>>). Si administra su información de observación en otros lugares (p. ej., una hoja de cálculo), le recomendamos seguir las mismas <<section-column-naming,column naming conventions>> para los despliegues."
 
 #. type: Block title
 #: 300.en.adoc:657
 #, no-wrap
 msgid "Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "Información registrada para una de las observaciones que se basa en la imagen en la <<figure-example-image>>. Está clasificado a nivel de eventos (secuencia) en el sistema de gestión de cámara trampa Agouti. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
 
 #. type: Table
 #: 300.en.adoc:689
@@ -1741,7 +1741,26 @@ msgid "|Property\n"
 "|Peter Desmet\n\n"
 "|Classification timestamp\n"
 "|2023-02-02T13:57:58Z\n"
-msgstr ""
+msgstr "|Propiedad\n"
+"|Valor\n\n"
+"|ID de observación\n"
+"|05230014\n\n"
+"|Tipo de observación\n"
+"|animal\n\n"
+"|ID de taxón\n"
+"|GCHS\n\n"
+"|Nombre científico\n"
+"|Ardea cinerea\n\n"
+"|Conteo\n"
+"|1\n\n"
+"|Etapa de vida\n"
+"|adulto\n\n"
+"|Método de clasificación\n"
+"|humano\n\n"
+"|Clasificado por\n"
+"|Peter Desmet\n\n"
+"|Fecha y hora de clasificación\n"
+"|2023-02-02T13:57:58Z\n"
 
 #. type: Title ====
 #: 300.en.adoc:692
@@ -1752,12 +1771,12 @@ msgstr "Clasificación"
 #. type: Plain text
 #: 300.en.adoc:695
 msgid "Unfortunately, camera traps do not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:"
-msgstr ""
+msgstr "Desafortunadamente, las cámaras trampa no proporcionan observaciones directamente. Los archivos multimedia necesitan ser <<classification,classified>> para obtener observaciones. Este proceso se puede realizar en diferentes etapas y con diferentes niveles de precisión y granularidad:"
 
 #. type: Plain text
 #: 300.en.adoc:697
 msgid "Media does or <<blank,does not>> contain object(s) of interest."
-msgstr ""
+msgstr "El medio contiene o <<blank,does not>> objetos de interés."
 
 #. type: Plain text
 #: 300.en.adoc:698
@@ -1772,7 +1791,7 @@ msgstr "El objeto de interés es un animal, identificado a un nivel taxonómico 
 #. type: Plain text
 #: 300.en.adoc:700
 msgid "Animal is identified at species or subspecies level (e.g. _Sus scrofa_)."
-msgstr ""
+msgstr "Un animal se identifica a nivel de especie o subespecie (p. ej., _Sus scrofa_)."
 
 #. type: Plain text
 #: 300.en.adoc:701
@@ -1787,13 +1806,13 @@ msgstr "Se registran otras propiedades del animal, como el tamaño del grupo, la
 #. type: Plain text
 #: 300.en.adoc:704
 msgid "Classification can be done by humans and/or machines. These actors (experts, volunteers, AI) can reach different levels of precision (see <<table-classification-precision>>), based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used."
-msgstr ""
+msgstr "La clasificación puede ser hecha por humanos y/o máquinas. Estos actores (expertos, voluntarios, IA) pueden alcanzar diferentes niveles de precisión (ver la <<table-classification-precision>>), en base a su experiencia (¿puedo llegar a tal precisión?) y esfuerzo (¿quiero llegar a tal precisión?). Dado que la clasificación puede ser muy intensiva en mano de obra para estudios más grandes, es mejor utilizar un enfoque que produzca los datos necesarios de manera eficiente. La ciencia ciudadana, la inteligencia artificial y/o los <<event,events>> de clasificación, más que los archivos <<media>> individuales son los que pueden ayudar a acelerar el proceso cite:[green-2020]. Cualquiera que sea la técnica, recomendamos siempre registrar quién hizo la clasificación y qué tipo de técnica (humana vs máquina) fue utilizada."
 
 #. type: Block title
 #: 300.en.adoc:706
 #, no-wrap
 msgid "Observation records for four observed ducks, but provided at different levels of precision. Row one is the result of a classification at a high taxonomic level (family _Anatidae_). Row two is the result of a classification at species level (_Anas platyrhynchos_), but no further characteristics were recorded. Rows three and four are the result of a classification that further specified one duck to be male and showing foraging behaviour. https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[Source]."
-msgstr ""
+msgstr "Los registros de observación de cuatro patos observados, pero provistos en distintos niveles de precisión. La primera fila es el resultado de una clasificación a un nivel taxonómico alto (familia _Anatidae_). La segunda fila es el resultado de una clasificación a nivel de especies (_Anas platyrhynchos_), pero no se registraron más características. Las filas tres y cuatro son el resultado de una clasificación que más tarde se especificó que un pato era macho y que mostró un comportamiento de búsqueda de alimento. https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[Source]."
 
 #. type: Table
 #: 300.en.adoc:743
@@ -1826,7 +1845,34 @@ msgid "|scientificName\n"
 "|\n"
 "|3\n"
 "|\n"
-msgstr ""
+msgstr "|Nombre científico\n"
+"|sexo\n"
+"|conteo\n"
+"|comportamiento\n\n"
+"|Anatidae\n"
+"|\n"
+"|4\n"
+"|\n\n"
+"|\n"
+"|\n"
+"|\n"
+"|\n\n"
+"|Anas platyrhynchos\n"
+"|\n"
+"|4\n"
+"|\n\n"
+"|\n"
+"|\n"
+"|\n"
+"|\n\n"
+"|Anas platyrhynchos\n"
+"|macho\n"
+"|1\n"
+"|foraging\n\n"
+"|Anas platyrhynchos\n"
+"|\n"
+"|3\n"
+"|\n"
 
 #. type: Title ====
 #: 300.en.adoc:746
@@ -1837,12 +1883,12 @@ msgstr "Ciencia ciudadana"
 #. type: Plain text
 #: 300.en.adoc:749
 msgid "<<citizen-science,Citizen scientists>> are volunteers from the non-scientific community that help scientists in their work. They can contribute to camera trap studies in a number of ways, such as placing cameras and collecting/swapping memory cards. In a practice called crowdsourcing, researchers can also distribute the task of <<classification,classifying>> media, by presenting these online to a community of citizen scientists. Each classification helps to confirm or improve the community's opinion on the observed species cite:[swanson-2015,hsing-2018]."
-msgstr ""
+msgstr "Los <<citizen-science,Citizen scientists>> son voluntarios de la comunidad no científica que ayudan a los científicos en su trabajo. Pueden contribuir a los estudios de cámaras trampa de diversas maneras, como la colocación de cámaras y el cambio de tarjetas de memoria. En una práctica llamada colaboración abierta, los investigadores también pueden distribuir la tarea de <<classification,classifying>> archivos multimedia, compartiéndolos en línea a una comunidad de científicos ciudadanos. Cada clasificación ayuda a confirmar o mejorar la opinión de la comunidad sobre las especies observadas cite:[swanson-2015,hsing-2018]."
 
 #. type: Plain text
 #: 300.en.adoc:751
 msgid "Most projects use established online platforms for crowdsourcing cite:[forston-2012,swanson-2015], (https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] or DoeDat cite:[groom-2018]. These platforms give access to large, already existing volunteer bases, which is particularly important if classifications are needed within a short time frame. Note however that managing a citizen science project takes time and might be more beneficial for larger studies. In addition to uploading media to a platform, waiting for classifications, downloading consensus observations and dealing with non-consensus observations, you need to keep the community engaged and/or attract new members. It is also important to exclude <<section-sensitive-information,sensitive media>> from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in cite:[weinstein-2018]."
-msgstr ""
+msgstr "La mayoría de los proyectos utilizan plataformas en línea establecidas para la colaboración abierta cite:[forston-2012,swanson-2015],\t(Chimp&See \t[https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see?language=es]), \ttal \tcomo Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] o DoeDat cite:[groom-2018]. Estas plataformas dan acceso a grandes bases de voluntariado ya existentes, lo que es especialmente importante si se necesitan clasificaciones en un plazo breve. Tenga en cuenta, sin embargo, que la gestión de un proyecto de ciencia ciudadana lleva tiempo y podría ser más conveniente para estudios más grandes. Además de subir archivos multimedia a una plataforma, esperar clasificaciones, descargar observaciones consensuadas y tratar con observaciones no consensuadas, necesita mantener a la comunidad comprometida y/o atraer nuevos miembros. También es importante excluir <<section-sensitive-information,sensitive media>> del proceso, tales como los archivos multimedia que contienen humanos (para proteger su privacidad) y especies raras. Esto requerirá algún tipo de preprocesamiento, que es donde entra la inteligencia artificial (IA) cite:[weinstein-2018]."
 
 #. type: Title ====
 #: 300.en.adoc:753
@@ -1853,12 +1899,12 @@ msgstr "Inteligencia artificial"
 #. type: Plain text
 #: 300.en.adoc:756
 msgid "In the context of camera trap research, artificial intelligence (AI) typically refers to the use of <<computer-vision,computer vision>> for <<classification>>. These computer models are <<machine-learning,trained>> with already classified datasets and can process millions of media in a fraction of a time it would take a human cite:[norouzzadeh-2020]. The field has seen significant advancements in recent years and models are now able to filter out <<blank,blanks>> and media containing humans, recognize species, count or track individuals, as well as recognize individual animals cite:[price-tack-2016,gomez-villa-2017,nguyen-2017,brides-2018,norouzzadeh-2020,yousif-2018]. New models are coming out every year, but especially their incorporation in <<data-management-system,data management systems>> will increase their use, especially by users that have no experience in machine learning. As such, computer vision will likely become the dominant technique to classify camera trap data in the near future."
-msgstr ""
+msgstr "En el contexto de la investigación con cámaras trampa, la inteligencia artificial (IA) normalmente se refiere al uso de <<computer-vision,computer vision>> para la <<classification>>. Estos modelos de computadora son <<machine-learning,trained>> con conjuntos de datos ya clasificados y pueden procesar millones de archivos multimedia en una fracción del tiempo que le tomaría a un humano cite:[norouzzadeh-2020]. El campo ha sido testigo de avances significativos en los últimos años y ahora los modelos pueden filtrar registros en <<blank,blanks>> y archivos multimedia que contienen humanos, reconocer especies, contar o rastrear individuos, así como reconocer animales individuales cite:[price-tack-2016,gomez-villa-2017,nguyen-2017,brides-2018,norouzzadeh-2020,yousif-2018. Salen modelos nuevos todos los años, pero es especialmente su incorporación en <<data-management-system,data management systems>> lo que aumentará su uso, especialmente por usuarios que no tienen experiencia en el aprendizaje automático. Como tal, es probable que la visión de computadora se convierta en la técnica dominante para clasificar los datos de las cámaras trampa en un futuro próximo."
 
 #. type: Plain text
 #: 300.en.adoc:758
 msgid "Still, computer vision will not entirely replace human <<classification>>, since a large and diverse number of preprocessed data are needed to train the models. Unbalanced training datasets may produce low performance of the models, such as training datasets with a highly variable number of images of each species, or small and geographically limited datasets. Additionally, the accuracy of computer vision classification is currently still secondary to that of a human expert. A combination of AI-aided preprocessing and human verification is therefore recommended."
-msgstr ""
+msgstr "Aun así, la visión informática no reemplazará por completo la <<classification>> humana, ya que se necesita un número grande y diverso de datos preprocesados para entrenar los modelos. Los conjuntos de datos de entrenamiento desequilibrados pueden producir un bajo rendimiento de los modelos, tales como conjuntos de datos de capacitación con un número muy variable de imágenes de cada especie, o pequeños conjuntos de datos geográficamente limitados. Además, la precisión de la clasificación de la visión informática sigue siendo actualmente secundaria a la de un experto humano. Por lo tanto, se recomienda una combinación de preprocesamiento con ayuda de la IA y verificación humana."
 
 #. type: Title ====
 #: 300.en.adoc:760
@@ -1869,12 +1915,12 @@ msgstr "Clasificación basada en archivos multimedia o en eventos"
 #. type: Plain text
 #: 300.en.adoc:763
 msgid "Classifications can be based on a single media file (typically an <<image>>) or an <<event>> (typically a <<sequence>> of images). In the latter technique, all media files that belong to the <<event>> are assessed as a whole to determine the species and their number of individuals. This is less time consuming for human classifiers and can lead to better estimates of group size, since the number of individuals passing by a camera can be larger than those that can be seen in a single image. The disadvantage of event-based classification is that it is not possible to split the classification into events that are shorter than the one that is assessed (the same is true for videos classified as a whole). Nor can those classifications be used to train computer models, which require media-based training datasets."
-msgstr ""
+msgstr "Las clasificaciones pueden basarse en un único archivo multimedia (normalmente una <<image>>) o un <<event>> (normalmente una <<sequence>> de imágenes). En esta última técnica, todos los archivos multimedia que pertenecen al <<event>> se evalúan como un todo para determinar la especie y su número de individuos. Esto consume menos tiempo para las clasificaciones humanas y puede dar lugar a mejores estimaciones del tamaño del grupo, ya que el número de individuos que pasan por una cámara puede ser mayor que los que se pueden ver en una sola imagen. La desventaja de la clasificación basada en eventos es que no es posible dividir la clasificación en eventos más cortos que el que se evalúa (lo mismo puede decirse de los vídeos clasificados como un todo). Estas clasificaciones tampoco pueden utilizarse para entrenar modelos informáticos, que requieren conjuntos de datos de entrenamiento basados en archivos multimedia."
 
 #. type: Plain text
 #: 300.en.adoc:765
 msgid "As a result, <<data-management-system,data management systems>> may favour one technique over the other, or offer both. Resulting datasets can include media-based, event-based or both types of classifications."
-msgstr ""
+msgstr "Como resultado, los <<data-management-system,data management systems>> pueden favorecer una técnica sobre la otra, u ofrecer ambas. Los conjuntos de datos resultantes pueden incluir clasificaciones basadas en medios, basadas en eventos o ambos tipos de estas."
 
 #. type: Title ====
 #: 300.en.adoc:767
@@ -1885,12 +1931,12 @@ msgstr "Nombres comunes o científicos"
 #. type: Plain text
 #: 300.en.adoc:770
 msgid "Media can be classified using common (e.g. roe deer) or scientific names (e.g. _Capreolus capreolus_) for taxa. Common (or vernacular) names are easier to remember and allow for better public engagement. The downside is that they are subject to translation, can vary regionally, sometimes refer to different species (e.g. “elk” in North America refers to _Cervus canadensis_, while in Europe it is used for _Alces alces_) and might not exist for every species or language combination. Scientific names on the other hand follow strict nomenclatural rules, are globally consistent and are not subject to translation. We therefore recommend to always store the scientific name as part of the observation, even if only common names are presented to the user."
-msgstr ""
+msgstr "Los archivos multimedia pueden clasificarse usando nombres comunes (p. ej., zorro gris) o científicos (por ejemplo, _Lycalopex gymnocercus_) para taxones. Los nombres comunes (o vernáculos) son más fáciles de recordar y permiten una mejor participación del público. El inconveniente es que están sujetos a la traducción, pueden variar a nivel regional, a veces referirse a diferentes especies (p. ej. \"elk\" en Norteamérica se refiere a _Cervus canadensis_, mientras que en Europa se utiliza para _Alces alces_) y podría no existir para cada especie o combinación de lenguajes. Por otra parte, los nombres científicos siguen estrictas reglas nomenclaturales, son globalmente consistentes y no están sujetos a traducción. Por lo tanto, recomendamos siempre almacenar el nombre científico como parte de la observación, incluso si sólo se presentan nombres comunes al usuario."
 
 #. type: Plain text
 #: 300.en.adoc:772
 msgid "The list of scientific names that are available for <<classification>> in a project is best maintained in a single reference table. This facilitates the management of taxonomic classification and associated common names, and allows to restrict classification options to those species that are likely to occur. More taxa can be added if needed, but only after verification. This practice is used by most <<data-management-system,data management systems>>. To populate such a reference table, we recommend using an authorative source (see <<table-taxon-reference-sources>>) and storing the taxon identifiers used by that source as reference."
-msgstr ""
+msgstr "La lista de nombres científicos disponibles para la <<classification>> en un proyecto se mantiene mejor en una única tabla de referencia. Esto facilita el manejo de la clasificación taxonómica y los nombres comunes asociados, y permite restringir las opciones de clasificación a aquellas especies que sea probable que aparezcan. Se pueden añadir más taxones si es necesario, pero sólo después de la verificación. Esta práctica es utilizada por la mayoría de los <<data-management-system,data management systems>>. Para completar la tabla de referencia, recomendamos utilizar una fuente autorizada (ver la <<table-taxon-reference-sources>>) y almacenar los identificadores de taxón utilizados por esa fuente como referencia."
 
 #. type: Block title
 #: 300.en.adoc:774
@@ -1932,7 +1978,37 @@ msgid "|Source\n"
 "|Scientific names +\n"
 "Common names (English) +\n"
 "Taxonomy\n"
-msgstr ""
+msgstr "|Fuente\n"
+"|Covertura taxonómica\n"
+"|Usar para\n\n"
+"|https://www.checklistbank.org/dataset/9893/names[Catálogo de la vida] cite:[col-2023]\n"
+"|Todos\n"
+"|Nombres científicos+\n"
+"Nombres comunes (seleccionar idiomas) +\n"
+"Taxonomía\n\n"
+"|https://www.marinespecies.org/[Registro Mundial de Especies Marinas (WoRMS)] cite:[worms-2023]\n"
+"Especies marinas (no exclusivamente)\n"
+"|Nombres científicos +\n"
+"Nombres comunes (muchos idiomas) +\n"
+"Taxonomía\n\n"
+"|https://en.wikipedia.org/[Wikipedia] (versiones en inglés y en otros idiomas)\n"
+"|Todos\n"
+"|Nombres comunes (muchos idiomas)\n\n"
+"|Lista de Clements de aves del mundo cite:[clements-2022]\n"
+"|Aves\n"
+"|Nombres científicos +\n"
+"Nombres comunes (Inglés) +\n"
+"Taxonomía\n\n"
+"|https://www.iucnredlist.org/[Lista Roja de Especies en amenazadas de la UICN]\n"
+"|Mamíferos\n"
+"|Nombres científicos +\n"
+"Nombres comunes (seleccionar idiomas) +\n"
+"Taxonomía\n\n"
+"|https://www.mammaldiversity.org/[ Base de datos de diversidad de mamíferos de la American Society of Mammalogists]\n"
+"|Mamíferos\n"
+"|Nombres científicos +\n"
+"Nombres comunes (Inglés) +\n"
+"Taxonomía\n"
 
 #. type: Title ===
 #: 300.en.adoc:817
@@ -1943,7 +2019,7 @@ msgstr "Sistemas de gestión de datos"
 #. type: Plain text
 #: 300.en.adoc:820
 msgid "Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data management cite:[young-2018]. These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:"
-msgstr ""
+msgstr "La gestión de los datos de las cámaras trampa puede ser abrumadora, especialmente para proyectos más grandes. Afortunadamente, se han desarrollado varias herramientas de software y plataformas para ayudar a los investigadores con algunos o todos los aspectos de la gestión de datos de cámaras trampa cite:[young-2018]. Estas iniciativas a menudo fueron comenzadas por equipos de investigación para facilitar sus propias necesidades, pero algunos han llegado a ser sistemas completos que pueden ser utilizados por cualquiera. Discutimos y recomendamos cinco de ellos a continuación (ver la <<table-data-management-systems>> para una visión general de sus características). Soportan todo el ciclo de vida de la gestión de datos de cámara trampa:"
 
 #. type: Plain text
 #: 300.en.adoc:822
@@ -1953,7 +2029,7 @@ msgstr "Crean uno o más proyectos"
 #. type: Plain text
 #: 300.en.adoc:823
 msgid "Invite <<participant,collaborators>> with different levels of access"
-msgstr ""
+msgstr "Invitan a <<participant,collaborators>> con distintos niveles de acceso"
 
 #. type: Plain text
 #: 300.en.adoc:824
@@ -1963,7 +2039,7 @@ msgstr "Subir medios y crear despliegues"
 #. type: Plain text
 #: 300.en.adoc:825
 msgid "<<classification,Classify>> media to observations, optionally supported by <<computer-vision,AI>> and <<citizen-science,citizen science>>"
-msgstr ""
+msgstr "<<classification,Classify>> archivos multimedia para observaciones, apoyados opcionalmente por <<computer-vision,AI>> y <<citizen-science,citizen science>>"
 
 #. type: Plain text
 #: 300.en.adoc:826
@@ -1978,12 +2054,12 @@ msgstr "Incorporan al público haciendo que algunos o todos los metadatos del pr
 #. type: Plain text
 #: 300.en.adoc:828
 msgid "Export data in a standardized format for further analysis and data publication"
-msgstr ""
+msgstr "Exportan datos en un formato estandarizado para análisis y publicación de datos"
 
 #. type: Plain text
 #: 300.en.adoc:829
 msgid "Archive data, including media files"
-msgstr ""
+msgstr "Archivan datos, incluyendo archivos multimedia"
 
 #. type: Title ====
 #: 300.en.adoc:831
@@ -1994,12 +2070,12 @@ msgstr "Agouti"
 #. type: Plain text
 #: 300.en.adoc:834
 msgid "Agouti cite:[agouti] (https://agouti.eu) is an online system for managing camera trap data. It is maintained by Wageningen University & Research and the Research Institute for Nature and Forest (INBO), based respectively in the Netherlands and Belgium. Agouti is mainly used by European projects and is free to use."
-msgstr ""
+msgstr "Agouti cite:[agouti] (https://agouti.eu) es un sistema en línea para gestionar los datos de las cámaras trampa. Es mantenido por la Wageningen University & Research y el Instituto de Investigación para la Naturaleza y los Bosques (INBO), con sede respectiva en los Países Bajos y Bélgica. Agouti es utilizado principalmente por proyectos europeos y es de uso gratuito."
 
 #. type: Plain text
 #: 300.en.adoc:836
 msgid "Classification is event-based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. AI classification is possible, using a dedicated species classification model that is updated regularly. Media containing humans are always hidden from the public. Data are stored on university infrastructure, which also offers long-term archival and hot-linking to media. Project metadata can be made available via a public portal. Data can be exported as <<camtrap-dp,Camtrap DP>>."
-msgstr ""
+msgstr "La clasificación se basa en eventos, pero las posiciones de los animales se pueden registrar a nivel del archivo multimedia, permitiendo registrar los datos necesarios para los análisis a distancia cite:[howe-2017] y el modelado de encuentros aleatorios cite:[rowcliffe-2011]. La clasificación con IA es posible, utilizando un modelo específico de clasificación de especies que se actualiza regularmente. Los archivos multimedia que contienen seres humanos siempre están ocultos al público. Los datos se almacenan en la infraestructura universitaria, que también ofrece archivos a largo plazo y enlaces directos a los archivos multimedia. Los metadatos del proyecto pueden estar disponibles a través de un portal público. Los datos pueden ser exportados como <<camtrap-dp,Camtrap DP>>."
 
 #. type: Plain text
 #: 300.en.adoc:838
@@ -2015,7 +2091,7 @@ msgstr "Camelot"
 #. type: Plain text
 #: 300.en.adoc:843
 msgid "Camelot cite:[camelot] (https://camelotproject.org/) is a local system for managing camera trap data. It is maintained as a volunteer initiative based in Australia. Camelot is free to use, open source, available for all major operating systems and requires installation. It is typically used as a local desktop application, but can be set up on a server allowing multiple users to connect via their browser. Classification is media-based with the option to classify multiple media at once. AI classification is not offered. Data can be exported in a custom format."
-msgstr ""
+msgstr "Camelot cite:[camelot] (https://camelotproject.org/) es un sistema local para gestionar los datos de las cámaras trampa. Se mantiene como una iniciativa de voluntariado con sede en Australia. Camelot es de uso gratuito, de código abierto, disponible para todos los principales sistemas operativos y requiere instalación. Normalmente se utiliza como una aplicación de escritorio local, pero puede configurarse en un servidor que permite a varios usuarios conectarse a través de su navegador. La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. No se ofrece clasificación por IA. Los datos pueden ser exportados en un formato personalizado."
 
 #. type: Plain text
 #: 300.en.adoc:845
@@ -2031,7 +2107,7 @@ msgstr "TRAPPER"
 #. type: Plain text
 #: 300.en.adoc:850
 msgid "TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. It is maintained by the Open Science Conservation Fund, based in Poland. TRAPPER is mainly used by European projects and is free to use. The software is open source and requires installation and hosting. Classification is media-based with the option to classify multiple media at once. AI classification is possible, using existing species classification models. Data can be exported as <<camtrap-dp,Camtrap DP>>."
-msgstr ""
+msgstr "TRAPPER  cite:[trapper] (https://os-conservation.org/projects/trapper) es un sistema en línea para gestionar los datos de las cámara trampa. Es mantenido por el Open Science Conservation Fund, radicado en Polonia. TRAPPER es utilizado principalmente por proyectos europeos y es de uso gratuito. El software es de código abierto y requiere instalación y alojamiento. La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación por IA es posible, utilizando modelos de clasificación de especies existentes. Los datos pueden ser exportados como <<camtrap-dp,Camtrap DP>>."
 
 #. type: Plain text
 #: 300.en.adoc:852
@@ -2746,7 +2822,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:470
 msgid "The licence under which the data record is shared. Very likely this will be the same licence as the one used for the dataset as a whole, but it is possible to deviate cite:[waller-2020]. To enable wide use, we recommend publishing data under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode`. In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `data` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
-msgstr ""
+msgstr "La licencia bajo la cual se comparte el registro de datos. Probablemente esta será la misma licencia que la utilizada para el conjunto de datos pero es posible desviar cite:[waller-2020]. Para permitir un uso amplio, recomendamos publicar datos bajo una https://creativecommons.org/publicdomain/zero/1.0/[exención Creative Commons Zero] y proporcionarlo como una URL: `https://creativecommons.org/publicodomain/cero/1.0/legalcode`. En Camtrap DP, este término corresponde a la `ruta` de la licencia que tiene los `datos` del ámbito en el {package-licenses}, aunque allí se especifica para el conjunto de datos en lugar de por registro."
 
 #. type: Title =====
 #: 400.en.adoc:472
@@ -2757,28 +2833,28 @@ msgstr "Titular de derechos"
 #. type: Plain text
 #: 400.en.adoc:475
 msgid "https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]"
-msgstr ""
+msgstr "https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]"
 
 #. type: Plain text
 #: 400.en.adoc:477
 msgid "The person or organization (i.e. <<participant>>) owning or managing rights over the resource. In all likeness the organization that decided under what license the data are published and/or the publisher of the data (i.e. the organization selected as publisher when registering a dataset with GBIF). Use an acronym if the organization has one. In Camtrap DP, this term corresponds with the `title` of the collaborator that has the role `rightsHolder` in {package-contributors}."
-msgstr ""
+msgstr "La persona u organización (es decir, <<participant>>) que posee o gestiona los derechos sobre el recurso. Con toda probabilidad, la organización que decidió bajo qué licencia se publican los datos y/o el editor de los datos (es decir, la organización seleccionada como editora al registrar un conjunto de datos con GBIF). Utilice un acrónimo si la organización tiene uno. En Camtrap DP, este término corresponde con el `título` del colaborador que tiene el rol `tendedordeDerechos` en {package-contributors}."
 
 #. type: Title =====
 #: 400.en.adoc:479
 #, no-wrap
 msgid "datasetID & datasetName"
-msgstr ""
+msgstr "datasetID & datasetName"
 
 #. type: Plain text
 #: 400.en.adoc:482
 msgid "term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]"
-msgstr ""
+msgstr "term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]"
 
 #. type: Plain text
 #: 400.en.adoc:484
 msgid "Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (`https://doi.org/10.15468/5tb6ze`), study URL (`http://n2t.net/ark:/63614/w12001317`), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI). term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}."
-msgstr ""
+msgstr "Respectivamente el identificador y el nombre del conjunto de datos. Para term:dwc[dwc:datasetID] recomendamos usar una URL o identificador estable que permita a los usuarios encontrar información sobre el conjunto de datos/estudio de origen. En orden de preferencia: conjunto de datos DOI (`https://doi.org/10. 5468/5tb6ze`), estudio URL (`http://n2t. et/ark:/63614/ w12001317`), o identificador de estudio utilizado por el <<data-management-system,data management system>>. En Camtrap DP, este término corresponde con {package-id}, a menos que haya un identificador mejor disponible (p. ej., un DOI). term:dwc[dwc:datasetName] debe referirse al título del conjunto de datos/estudio como se refiere por term:dwc[dwc:datasetID]. Recomendamos usar el mismo valor para el título en los metadatos. En Camtrap DP, este término corresponde con {package-title}."
 
 #. type: Title =====
 #: 400.en.adoc:486
@@ -2789,12 +2865,12 @@ msgstr "códigoDeLaColección"
 #. type: Plain text
 #: 400.en.adoc:489
 msgid "term:dwc[dwc:collectionCode]"
-msgstr ""
+msgstr "term:dwc[dwc:collectionCode]"
 
 #. type: Plain text
 #: 400.en.adoc:491
 msgid "The name or acronym identifying the collection or dataset the record was derived from. Traditionally used to indicate a physical collection, we recommend to provide the name of the <<data-management-system,data management system>> (i.e. virtual collection) the record was derived from. This allows users to search for records from the same data management system across datasets. Recommended values: `Agouti`, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. In Camtrap DP, this term corresponds with the `title` of the (applicable) source in {package-sources}."
-msgstr ""
+msgstr "El nombre o acrónimo que identifica la recolección o conjunto de datos de los que se derivó el registro. Tradicionalmente se utiliza para indicar una colección física, recomendamos proporcionar el nombre del <<data-management-system,data management system>> (es decir, colección virtual) de la que derivó el registro. Esto permite a los usuarios buscar registros del mismo sistema de gestión de datos a través de conjuntos de datos. Valores recomendados: `Agouti`, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. En Camtrap DP, este término corresponde al `título` de la fuente (aplicable) en {package-sources}."
 
 #. type: Title =====
 #: 400.en.adoc:493
@@ -2805,12 +2881,12 @@ msgstr "baseDelRegistro"
 #. type: Plain text
 #: 400.en.adoc:496
 msgid "term:dwc[dwc:basisOfRecord]"
-msgstr ""
+msgstr "term:dwc[dwc:basisOfRecord]"
 
 #. type: Plain text
 #: 400.en.adoc:498
 msgid "The specific nature of the record. Set to `MachineObservation` for all records. While humans decide when and were to deploy a camera trap, and humans or machines (AI) can <<classification,classify>> media, the capturing of the record is done by a machine responding to a sensor. This is critically different from human observations, where a human is actively in control of the decision whether to record an organism or not."
-msgstr ""
+msgstr "La naturaleza específica del registro. Establecer en `MachineObservation` para todos los registros. Mientras que los humanos deciden cuándo y cuándo desplegar una cámara trampa, y los humanos o las máquinas (IA) pueden <<classification,classify>> archivos, la captura del registro es realizada por una máquina que responde a un sensor. Esto es críticamente diferente de las observaciones humanas, donde un humano controla activamente la decisión de registrar o no un organismo."
 
 #. type: Title =====
 #: 400.en.adoc:500
@@ -2821,12 +2897,12 @@ msgstr "generalizacionesDeLosDatos"
 #. type: Plain text
 #: 400.en.adoc:503
 msgid "term:dwc[dwc:dataGeneralizations]"
-msgstr ""
+msgstr "term:dwc[dwc:dataGeneralizations]"
 
 #. type: Plain text
 #: 400.en.adoc:505
 msgid "The actions taken to make the published data less specific or complete than in its original form. We recommend succinctly describing here what <<section-sensitive-information,sensitive information>> of the record was generalized and how. Note that this information can be provided at record level and does not need to apply to the whole dataset. If important information was omitted altogether, use term:dwc[dwc:informationWithheld]."
-msgstr ""
+msgstr "Las acciones emprendidas para hacer que los datos publicados sean menos específicos o completos que en su forma original. Recomendamos describir concisamente aquí qué <<section-sensitive-information,sensitive information>> del registro fue generalizada y cómo. Tenga en cuenta que esta información se puede proporcionar a nivel de registro y no necesita aplicarse a todo el conjunto de datos. Si la información importante fue omitida por completo, utilice term:dwc[dwc:informationWithheld]."
 
 #. type: Plain text
 #: 400.en.adoc:507 400.en.adoc:591 400.en.adoc:627 400.en.adoc:698
@@ -2839,7 +2915,8 @@ msgstr "Ejemplos:"
 #, no-wrap
 msgid "coordinates rounded to 0.001 degree\n"
 "scientific name generalized to genus\n"
-msgstr ""
+msgstr "coordenadas redondeadas a 0,001 grados\n"
+"nombre científico generalizado a género "
 
 #. type: Title =====
 #: 400.en.adoc:514 400.en.adoc:808
@@ -2850,12 +2927,12 @@ msgstr "identficadorDelRegistro"
 #. type: Plain text
 #: 400.en.adoc:517 400.en.adoc:811
 msgid "term:dwc[dwc:occurrenceID]"
-msgstr ""
+msgstr "term:dwc[dwc:occurrenceID]"
 
 #. type: Plain text
 #: 400.en.adoc:519
 msgid "An identifier for the <<observation>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap DP, this term corresponds with {observations-observationID}."
-msgstr ""
+msgstr "Un identificador para la <<observation>>. Utilice un i<<section-stable-unique-identifiers,stable unique identifier>>. En Camtrap DP, este término se corresponde con {observations-observationID}."
 
 #. type: Title =====
 #: 400.en.adoc:521
@@ -2866,12 +2943,12 @@ msgstr "conteoIndividual"
 #. type: Plain text
 #: 400.en.adoc:524
 msgid "term:dwc[dwc:individualCount]"
-msgstr ""
+msgstr "term:dwc[dwc:individualCount]"
 
 #. type: Plain text
 #: 400.en.adoc:526
 msgid "The number of observed <<individual,individuals>>. Note that this number is dependent on the <<table-classification-precision,precision>> of the identifications. In Camtrap DP, this term corresponds with {observations-count}."
-msgstr ""
+msgstr "El número de <<individual,individuals>>. Tenga en cuenta que este número depende de la <<table-classification-precision,precision>>. En Camtrap DP, este término corresponde con {observations-count}."
 
 #. type: Title =====
 #: 400.en.adoc:528
@@ -2882,12 +2959,12 @@ msgstr "sexo"
 #. type: Plain text
 #: 400.en.adoc:531
 msgid "term:dwc[dwc:sex]"
-msgstr ""
+msgstr "term:dwc[dwc:sex]"
 
 #. type: Plain text
 #: 400.en.adoc:533
 msgid "The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIF Sex vocabulary]. In Camtrap DP, this term corresponds with {observations-sex}."
-msgstr ""
+msgstr "El sexo de los <<individual>>s observados. Recomendamos usar los valores controlados `macho` y `hembra`, que se basan en el Camtrap DP y son compatibles con el vocabulario de sexo GBIF [https://rs. bif.org/ vocabulary/gbif/sex.xml]. En Camtrap DP, este término corresponde con https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIF Sex vocabulary]. In Camtrap DP, this term corresponds with {observations-sex}."
 
 #. type: Title =====
 #: 400.en.adoc:535
@@ -2898,12 +2975,12 @@ msgstr "etapa de vida"
 #. type: Plain text
 #: 400.en.adoc:538
 msgid "term:dwc[dwc:lifeStage]"
-msgstr ""
+msgstr "term:dwc[dwc:lifeStage]"
 
 #. type: Plain text
 #: 400.en.adoc:540
 msgid "The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the https://registry.gbif.org/vocabulary/LifeStage[GBIF LifeStage vocabulary]. In Camtrap DP, this term corresponds with {observations-lifeStage}."
-msgstr ""
+msgstr "La etapa de vida de los <<individual>>s observados. Recomendamos utilizar los valores controlados `adulto`, `subadulto` y `juvenil`, que se basan en el Camtrap DP y son compatibles con el https://registry.gbif.org/vocabulary/LifeStage[vocabulario GBIF LifeStage]. En Camtrap DP, este término se corresponde con {observations-lifeStage}."
 
 #. type: Title =====
 #: 400.en.adoc:542
@@ -2914,12 +2991,12 @@ msgstr "comportamiento"
 #. type: Plain text
 #: 400.en.adoc:545
 msgid "term:dwc[dwc:behavior]"
-msgstr ""
+msgstr "term:dwc[dwc:behavior]"
 
 #. type: Plain text
 #: 400.en.adoc:547
 msgid "The dominant behaviour of the observed <<individual>>(s). We recommend using existing or your own controlled values (e.g. grazing, browsing, rooting, vigilance, running, walking). In Camtrap DP, this term corresponds with {observations-behavior}."
-msgstr ""
+msgstr "El comportamiento dominante de los <<individual>>s observados. Recomendamos el uso de valores controlados existentes o los suyos propios (por ejemplo, pastando, paciendo, hocicando, vigilando, corriendo, caminando). En Camtrap DP, este término corresponde con {observations-behavior}."
 
 #. type: Title =====
 #: 400.en.adoc:549
@@ -2930,12 +3007,12 @@ msgstr "estadoDelRegistro"
 #. type: Plain text
 #: 400.en.adoc:552
 msgid "term:dwc[dwc:occurrenceStatus]"
-msgstr ""
+msgstr "term:dwc[dwc:occurrenceStatus]"
 
 #. type: Plain text
 #: 400.en.adoc:554
 msgid "A statement about the presence or absence of the taxon at a location. When reduced to species observations (filtering out <<blank,blanks>>, etc.), camera trap data only contain presence records. Set to `present` for all records."
-msgstr ""
+msgstr "Una declaración acerca de la presencia o ausencia del taxón en una ubicación. Cuando se reduce a observaciones de especies (filtrando <<blank,blanks>>, etc.), los datos de la cámara trampa solo contienen registros de presencia. Establecer en `presentar` para todos los registros."
 
 #. type: Title =====
 #: 400.en.adoc:556
@@ -2946,12 +3023,12 @@ msgstr "comentariosSobreElRegistro"
 #. type: Plain text
 #: 400.en.adoc:559
 msgid "term:dwc[dwc:occurrenceRemarks]"
-msgstr ""
+msgstr "term:dwc[dwc:occurrenceRemarks]"
 
 #. type: Plain text
 #: 400.en.adoc:561
 msgid "The comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. In Camtrap DP, this term corresponds with {observations-observationComments}."
-msgstr ""
+msgstr "Los comentarios o notas sobre la <<observation>>. Estas normalmente son notas (a veces en el idioma nativo del autor) sobre la observación y/o el <<individual>> observado que no fue o no pudo ser registrado en otro campo. Esta información es potencialmente útil para publicar, pero puede contener <<section-other-sensitive-information,sensitive information>>. En Camtrap DP, este término se corresponde con {observations-observationComments}."
 
 #. type: Title =====
 #: 400.en.adoc:563
@@ -2962,12 +3039,12 @@ msgstr "ID de organismo"
 #. type: Plain text
 #: 400.en.adoc:566
 msgid "term:dwc[dwc:organismID]"
-msgstr ""
+msgstr "term:dwc[dwc:organismID]"
 
 #. type: Plain text
 #: 400.en.adoc:568
 msgid "An identifier for an observed and known <<individual>> that was recognized by colour ring, ear tag, skin pattern or other characteristics. Observations with term:dwc[dwc:organismID] typically have term:dwc[dwc:individualCount] of 1, unless the term:dwc[dwc:organismID] refers to a known group. Unless a globally unique identifier is available and known for the individual, we recommend using the code/identifier assigned within the camera trap study to the individual, allowing users to find all observations of this individual within the dataset. In Camtrap DP, this term corresponds with {observations-individualID}."
-msgstr ""
+msgstr "Un identificador para un <<individual>> observado y conocido que fue reconocido por el anillo de colores, la etiqueta del oído, el patrón de la piel u otras características. Las observaciones con term:dwc[dwc:organismID] normalmente tienen term:dwc[dwc:individualCount] de 1, a menos que el term:dwc[dwc:organismID] se refiera a un grupo conocido. A menos que un identificador único esté disponible y sea conocido por el individuo recomendamos usar el código/identificador asignado dentro del estudio de cámaras trampa al individuo, permitiendo a los usuarios encontrar todas las observaciones de este individuo dentro del conjunto de datos. En Camtrap DP, este término corresponde con {observations-individualID}."
 
 #. type: Title =====
 #: 400.en.adoc:570
@@ -2978,12 +3055,12 @@ msgstr "identificadorDelEvento"
 #. type: Plain text
 #: 400.en.adoc:573
 msgid "term:dwc[dwc:eventID]"
-msgstr ""
+msgstr "term:dwc[dwc:eventID]"
 
 #. type: Plain text
 #: 400.en.adoc:575
 msgid "An identifier for the event the observation belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event-based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}."
-msgstr ""
+msgstr "Un identificador para el evento al que pertenece la observación. Recomendamos proporcionar el identificador para el <<event>> (normalmente una <<sequence>>) como se usa para una <<section-media-or-event-based-classification,event-based classification>>. Usando un Núcleo de ocurrencia, los eventos no tendrán sus propios registros, pero proporcionar su identificador en term:dwc[dwc:eventID] permite a los usuarios encontrar todas las observaciones (y medios) para un evento específico. Utilice un <<section-stable-unique-identifiers,stable unique identifier>>. Tenga en cuenta que GBIF.org agrupará automáticamente observaciones con el mismo term:dwc[dwc:eventID] que pertenecen juntos. En Camtrap, este \ttérmino\t se corresponde \tcon \t{observations-eventID}."
 
 #. type: Title =====
 #: 400.en.adoc:577
@@ -2994,12 +3071,12 @@ msgstr "IDdeEventoOriginal"
 #. type: Plain text
 #: 400.en.adoc:580
 msgid "term:dwc[dwc:parentEventID]"
-msgstr ""
+msgstr "term:dwc[dwc:parentEventID]"
 
 #. type: Plain text
 #: 400.en.adoc:582
 msgid "An identifier for a broader event then those identified by <<section-eventid,eventID>>. We recommend providing the identifier of the <<deployment>>. Using an Occurrence core, deployments will not have their own records, but providing their identifier in term:dwc[dwc:parentEventID] allows users to find all observations (and media) for a specific deployment. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:parentEventID] as belonging together. In Camtrap DP, this term corresponds with {observations-deploymentID}."
-msgstr ""
+msgstr "Un identificador para un evento más amplio que los identificados por <<section-eventid,eventID>>. Recomendamos proporcionar el identificador del <<deployment>>. Usando un Núcleo de ocurrencia, los despliegues no tendrán sus propios registros, pero proporcionar su identificador en term:dwc[dwc:parentEventID] permite a los usuarios encontrar todas las observaciones (y archivos multimedia) para un despliegue específico. Utilice un <<section-stable-unique-identifiers,stable unique identifier>>. Tenga en cuenta que GBIF.org agrupará automáticamente observaciones con el mismo term:dwc[dwc:parentEventID] que pertenecen juntos. En Camtrap DP, este término se corresponde \tcon\t {observations-deploymentID}."
 
 #. type: Title =====
 #: 400.en.adoc:584
@@ -3010,12 +3087,12 @@ msgstr "fechaDelEvento"
 #. type: Plain text
 #: 400.en.adoc:587
 msgid "term:dwc[dwc:eventDate]"
-msgstr ""
+msgstr "term:dwc[dwc:eventDate]"
 
 #. type: Plain text
 #: 400.en.adoc:589
 msgid "The date, date-time or date-time interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media-based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event-based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal."
-msgstr ""
+msgstr "La fecha, la fecha-hora o el intervalo fecha-hora durante el que ocurrió el <<event>>. Recomendamos utilizar una única marca de tiempo para <<section-media-or-event-based-classification,media-based classifications>> y un intervalo que consista en las marcas de tiempo del inicio y del final del <<event>> como se identifica por la <<section-eventid,eventID>> para <<section-media-or-event-based-classification,event-based classifications>>. Escriba las marcas de tiempo en formato ISO 8601 (`AAAA-MM-DDTHH:MM:SS`), utilice `/` para indicar un intervalo e incluir la zona horaria (`+02:00`) o convertir e indicar como UTC (`Z`). En Camtrap DP, este término corresponde a {observations-eventStart} y {observations-eventEnd}, u {observations-eventStart} si ambos son iguales."
 
 #. type: delimited block -
 #: 400.en.adoc:596
@@ -3023,7 +3100,9 @@ msgstr ""
 msgid "2020-07-29T05:38:55Z/2020-07-29T05:39:00Z\n"
 "2020-07-29T05:38:55Z\n"
 "2020-07-29T07:38:55+02:00\n"
-msgstr ""
+msgstr "2020-07-29T05:38:55Z/2020-07-29T05:39:00Z\n"
+"2020-07-29T05:38:55Z\n"
+"2020-07-29T07:38:55+02:00\n"
 
 #. type: Title =====
 #: 400.en.adoc:599
@@ -3034,12 +3113,12 @@ msgstr "hábitat"
 #. type: Plain text
 #: 400.en.adoc:602
 msgid "term:dwc[dwc:habitat]"
-msgstr ""
+msgstr "term:dwc[dwc:habitat]"
 
 #. type: Plain text
 #: 400.en.adoc:604
 msgid "A category or description of the habitat in which the <<event>> occurred. This is typically the habitat at the time of deployment, with values repeated for all records of this deployment. Values can be controlled, ideally using an existing classification system, or free-text descriptions. In Camtrap DP, this term corresponds with {deployments-habitat}."
-msgstr ""
+msgstr "Una categoría o descripción del hábitat en el que ocurrió el <<event>>. Este es normalmente el hábitat en el momento de la despliegue, con valores repetidos para todos los registros de este despliegue. Los valores pueden ser controlados, idealmente utilizando un sistema de clasificación existente o descripciones de texto libre. En Camtrap DP, este término corresponde con {deployments-habitat}."
 
 #. type: Title =====
 #: 400.en.adoc:606
@@ -3050,12 +3129,12 @@ msgstr "protocoloDeMuestreo"
 #. type: Plain text
 #: 400.en.adoc:609
 msgid "term:dwc[dwc:samplingProtocol]"
-msgstr ""
+msgstr "term:dwc[dwc:samplingProtocol]"
 
 #. type: Plain text
 #: 400.en.adoc:611
 msgid "The method(s) or protocol(s) used during the <<event>>. We recommend using the controlled value `camera trap`. This allows users to search for records with this protocol across datasets."
-msgstr ""
+msgstr "Los métodos o protocolos utilizados durante el <<event>>. Recomendamos utilizar el valor controlado `cámara trampa`. Esto permite a los usuarios buscar registros con este protocolo a través de conjuntos de datos."
 
 #. type: Title =====
 #: 400.en.adoc:613
@@ -3066,12 +3145,12 @@ msgstr "esfuerzoDeMuestreo"
 #. type: Plain text
 #: 400.en.adoc:616
 msgid "term:dwc[dwc:samplingEffort]"
-msgstr ""
+msgstr "term:dwc[dwc:samplingEffort]"
 
 #. type: Plain text
 #: 400.en.adoc:618
 msgid "The amount of effort expanded during the <<event>>. We recommend providing the date-time interval the camera trap was deployed, using the same formatting conventions as <<section-eventdate,eventDate>>. In Camtrap DP, this term corresponds with {deployments-deploymentStart} and {deployments-deploymentEnd}."
-msgstr ""
+msgstr "La cantidad de esfuerzo aumentó durante el <<event>>. Recomendamos proporcionar el intervalo de fecha y hora que se desplegó la cámara trampa, utilizando las mismas convenciones de formato que <<section-eventdate,eventDate>>. En Camtrap DP, este término corresponde a {deployments-deploymentStart} y {deployments-deploymentEnd}]."
 
 #. type: Title =====
 #: 400.en.adoc:620
@@ -3082,12 +3161,12 @@ msgstr "comentariosSobreElEvento"
 #. type: Plain text
 #: 400.en.adoc:623
 msgid "term:dwc[dwc:eventRemarks]"
-msgstr ""
+msgstr "term:dwc[dwc:eventRemarks]"
 
 #. type: Plain text
 #: 400.en.adoc:625
 msgid "The comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments} and relates to {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}."
-msgstr ""
+msgstr "Los comentarios o notas sobre el <<event>>. Estas normalmente son notas (a veces en el idioma nativo del autor) sobre el <<deployment>> que no fue o no pudo ser registrado en otro campo. Esta información es potencialmente útil para publicar, pero puede contener <<section-other-sensitive-information,sensitive information>>. También recomendamos este término para proporcionar otra información (estructurada) asociada al despliegue, tales como uso de <<bait>>, <<feature-type,feature type>> o etiquetas, como valores separados por barras verticales (`|`). En Camtrap DP, este término corresponde con {deployments-deploymentComments} y se relaciona con {deployments-baitUse}, {deployments-featureType} y {deployments-deploymentTags}."
 
 #. type: delimited block -
 #: 400.en.adoc:632
@@ -3095,7 +3174,9 @@ msgstr ""
 msgid "camera trap with bait near burrow\n"
 "camera trap without bait | tags: position:above stream\n"
 "camera malfunction on 29/06/2020\n"
-msgstr ""
+msgstr "cámara trampa con cebo cerca de madriguera\n"
+"cámara trampa sin cebo | etiquetas: posición:sobre arroyo\n"
+"mal funcionamiento de cámara el 29/06/2020"
 
 #. type: Title =====
 #: 400.en.adoc:635
@@ -3106,12 +3187,12 @@ msgstr "identificadorDeLaUbicación"
 #. type: Plain text
 #: 400.en.adoc:638
 msgid "term:dwc[dwc:locationID]"
-msgstr ""
+msgstr "term:dwc[dwc:locationID]"
 
 #. type: Plain text
 #: 400.en.adoc:640
 msgid "An identifier for the <<location>>. This identifier allows users to find all observations (and media) for a specific location (across deployments). Use a <<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap DP, this term corresponds with {deployments-locationID}."
-msgstr ""
+msgstr "Un identificador para la <<location>>. Este identificador permite a los usuarios encontrar todas las observaciones (y archivos multimedia) para una ubicación específica (a través de despliegues). Utilice un <<section-stable-unique-identifiers,stable unique identifier>>. En Camtrap DP, este término corresponde con {deployments-locationID}."
 
 #. type: Title =====
 #: 400.en.adoc:642
@@ -3127,18 +3208,18 @@ msgstr "término:dwc[dwc:locality] (Localidad)"
 #. type: Plain text
 #: 400.en.adoc:647
 msgid "The name of the <<location>>. This is typically a name or code assigned within the camera trap study. In Camtrap DP, this term corresponds with {deployments-locationName}."
-msgstr ""
+msgstr "El nombre de la <<location>>. Este es típicamente un nombre o código asignado dentro del estudio de la cámara trampa. En Camtrap DP, este término corresponde a {deployments-locationName}."
 
 #. type: Title =====
 #: 400.en.adoc:649
 #, no-wrap
 msgid "minimumDepthInMeters & maximumDepthInMeters"
-msgstr ""
+msgstr "minimumDepthInMeters & maximumDepthInMeters"
 
 #. type: Plain text
 #: 400.en.adoc:652
 msgid "term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]"
 
 #. type: Plain text
 #: 400.en.adoc:654
@@ -3579,78 +3660,78 @@ msgstr "Glosario"
 #: glossary.en.adoc:4
 #, no-wrap
 msgid "[[activity]]activity"
-msgstr ""
+msgstr "[[activity]]actividad"
 
 #. type: Plain text
 #: glossary.en.adoc:5
 msgid "Movement in front of a <<camera>>. Movement can cause a <<trigger>> when certain conditions are met (e.g. within the <<detection-zone,detection zone>> and outside the <<quiet-period,quiet period>>). Camera traps are typically <<deployment,deployed>> to capture wildlife activity, but may also record movements of humans, vehicles or vegetation."
-msgstr ""
+msgstr "Movimiento delante de una <<camera>>. El movimiento puede provocar un <<trigger>> cuando se cumplen ciertas condiciones (p. ej. dentro de la <<detection-zone,detection zone>> y fuera del <<quiet-period,quiet period>>). Las cámaras trampa son típicamente <<deployment,deployed>> para capturar la actividad de la vida silvestre, pero también pueden registrar movimientos de humanos, vehículos o vegetación."
 
 #. type: Labeled list
 #: glossary.en.adoc:6
 #, no-wrap
 msgid "[[alignment]]alignment"
-msgstr ""
+msgstr "[[alignment]]alineación"
 
 #. type: Plain text
 #: glossary.en.adoc:7
 msgid "Physical placement of a <<camera>>. Consists of <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>."
-msgstr ""
+msgstr "Colocación física de una <<camera>>. Consiste en <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> y <<camera-heading,camera heading>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:8
 #, no-wrap
 msgid "[[AI]]artificial intelligence"
-msgstr ""
+msgstr "[[AI]]inteligencia artificial"
 
 #. type: Plain text
 #: glossary.en.adoc:9
 msgid "Ability to perceive, synthesize and infer information as demonstrated by machines, as opposed to humans/animals. In camera trap research, AI is mainly applied as <<machine-learning,machine learning>> to perform <<computer-vision,computer vision>> tasks. See also <<section-artificial-intelligence>>."
-msgstr ""
+msgstr "Capacidad de las máquinas para percibir e inferir información, en lugar de los humanos/animales. En la investigación de cámaras trampa, la IA se aplica principalmente como <<machine-learning,machine learning>> para realizar tareas de <<computer-vision,computer vision>>. Vea también la <<section-artificial-intelligence>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[bait]]bait"
-msgstr ""
+msgstr "[[bait]]cebo"
 
 #. type: Plain text
 #: glossary.en.adoc:11
 msgid "Attractant used to encourage animals to investigate a <<location>> or specific point within the <<detection-zone,detection zone>>. Baits may be auditory, olfactory, visual, or some combination of these in nature. Whether bait was used for a <<deployment>> is useful to know for analyses, as it can alter the natural behaviour of animals. Can be expressed as a categorical description (e.g. `acoustic`, `visual`, `scent`) or a boolean. Also referred to as `lure` cite:[meek-2014]. {deployments-baitUse} in Camtrap DP."
-msgstr ""
+msgstr "Atrayente utilizado para animar a los animales a investigar una <<location>> o un punto específico dentro de la <<detection-zone,detection zone>>. Los cebos pueden ser auditivos, olfativos, visuales, o alguna combinación de estas. Es útil saber que se utilizó un cebo en un <<deployment>> para realizar los análisis, ya que puede alterar el comportamiento natural de los animales. Se puede expresar como una descripción categórica (p. ej., `acústica`, `visual`, `aroma`) o un booleano. También se conoce como señuelo cite:[meek-2014]. {deployments-baitUse} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:12
 #, no-wrap
 msgid "[[blank]]blank"
-msgstr ""
+msgstr "[[blank]]en blanco"
 
 #. type: Plain text
 #: glossary.en.adoc:13
 msgid "<<media,Media>> without objects of interest. Blanks are typically the result of false <<trigger,triggers>> such as moving vegetation or fluctuating light. Marked as such when <<classification,classifying>> to facilitate excluding them from queries."
-msgstr ""
+msgstr "<<media,Media>> sin objetos de interés. Los \"en blanco\" a menudo son el resultado de <<trigger,triggers>> falsos como movimientos de la vegetación o luz fluctuante. Marcado como tal cuando se <<classification,classifying>> para facilitar excluirlos de las consultas."
 
 #. type: Labeled list
 #: glossary.en.adoc:14
 #, no-wrap
 msgid "[[camera]]camera"
-msgstr ""
+msgstr "[[camera]]cámara"
 
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Device designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion. Of a certain make and model and uniquely identifiable by e.g. by serial number. Also referred to as `camera trap`, `game camera`, `trail camera`, `scouting camera` or `device`."
-msgstr ""
+msgstr "Dispositivo diseñado para capturar automáticamente <<media>> de actividad (salvaje), normalmente <<trigger,triggered>> por una combinación de calor y movimiento. De una cierta marca y modelo y singularmente identificable por ejemplo, por número de serie. También se la conoce como `cámara trampa`, `cámara de caza`, `cámara de sendero`, `cámara de exploración` o `dispositivo`."
 
 #. type: Labeled list
 #: glossary.en.adoc:16
 #, no-wrap
 msgid "[[camera-depth]]camera depth"
-msgstr ""
+msgstr "[[camera-depth]]profundidad de la cámara"
 
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "Depth of the (underwater) camera, a component of camera <<alignment>>. Typically expressed in meters below the local water surface. {deployments-cameraDepth} in Camtrap DP."
-msgstr ""
+msgstr "Profundidad de la cámara (bajo el agua), un componente de la <<alignment>> de la cámara. Normalmente se expresa en metros bajo la superficie de agua local. {deployments-cameraDepth} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:18
