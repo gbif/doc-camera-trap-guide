@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-07 15:02\n"
+"PO-Revision-Date: 2026-02-07 16:01\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2338,7 +2338,7 @@ msgstr "Antes de publicar a través de GBIF, debe preparar (ver la <<section-pre
 #. type: Plain text
 #: 400.en.adoc:9
 msgid "We strongly recommend publishing camera trap data at project level, i.e. one dataset for one project. This makes it easier to describe the scope, methodology, contributors, funding sources, etc. in the metadata. For a general overview on how to publish data to GBIF, see citenp:[gbif-2018]."
-msgstr ""
+msgstr "Recomendamos encarecidamente publicar datos de cámaras trampa a nivel de proyecto, es decir, un conjunto de datos por proyecto. Esto hace más fácil describir el alcance, la metodología, los colaboradores, las fuentes de financiación, etc. en los metadatos. Para obtener una visión general sobre cómo publicar datos a GBIF, consulte citenp:[gbif-2018]."
 
 #. type: Title ===
 #: 400.en.adoc:11
@@ -2349,12 +2349,12 @@ msgstr "Datos FAIR de cámara trampa"
 #. type: Plain text
 #: 400.en.adoc:14
 msgid "Imagine you need to aggregate all observations of muskrats recorded in Belgium in 2023. Doing so is hard if the data are scattered across sources and use different access protocols, field names and languages. Making these data sources FAIR means organizing them in such a way that everyone (humans and machines) can find, use, understand and combine them."
-msgstr ""
+msgstr "Imagínese que necesita añadir todas las observaciones de ratas almizcleras registradas en Bélgica en 2023. Hacerlo es difícil si los datos se encuentran dispersos en distintas fuentes y utilizan diferentes protocolos, nombres de campo e idiomas. Hacer estas fuentes de datos FAIR significa organizarlas de tal manera que todos (humanos y máquinas) puedan encontrarlas, usarlas, entenderlas y combinarlas."
 
 #. type: Plain text
 #: 400.en.adoc:16
 msgid "The easiest way to make a dataset **findable** is by providing meaningful metadata (e.g. title, description and keywords) and depositing it in a research repository (such as the IPT cite:[robertson-2014] in combination with GBIF). Repositories provide cross-dataset search functionalities and will assign each dataset a <<section-stable-unique-identifiers,unique identifier>> so that it can be uniquely referenced and **accessed**. Adding an open <<section-license,license>> to the dataset will allow users to access and **reuse** the data (in addition to the metadata), while <<#section-project-metadata,rich metadata>> (e.g. methodology) will enable users to determine if the dataset is fit for their purpose. The most challenging aspect is to make a dataset **interoperable** so that it can easily be integrated with other data. This can be achieved by using standards: research repositories will standardize metadata and <<camtrap-dp,Camtrap DP>> can be used to standardize the data. See also citenp:[bubnicki-2023] (section \"Is Camtrap DP FAIR?\") for more information on how Camtrap DP enables FAIR data exchange."
-msgstr ""
+msgstr "La forma más fácil de hacer un conjunto de datos **localizable** es proporcionando metadatos significativos (p. ej. título, descripción y palabras clave) y depositarlo en un repositorio de investigación (como el IPT de GBIF cite:[robertson-2014]). Los repositorios proporcionan funcionalidades de búsqueda de conjuntos de datos cruzados y asignarán a cada conjunto de datos un <<section-stable-unique-identifiers,unique identifier>> para que pueda ser referenciado únicamente y **accedido**. Agregar una <<section-license,license>> abierta al conjunto de datos permitirá que los usuarios puedan acceder y **reutilizar** los datos (además de los metadatos), mientras que los <<#section-project-metadata,rich metadata>> (p. ej., metodología) permitirán a los usuarios determinar si el conjunto de datos es adecuado para su propósito. El aspecto más desafiante es hacer un conjunto de datos **interoperable** para que pueda integrarse fácilmente con otros datos. Esto puede lograrse mediante el uso de estándares: repositorios de datos estandarizarán los metadatos y se puede utilizar <<camtrap-dp,Camtrap DP>> para estandarizar los datos. Ver también citenp:[bubnicki-2023] (sección \"Is Camtrap DP FAIR?\") para más información sobre cómo Camtrap DP permite el intercambio de datos FAIR."
 
 #. type: Title ===
 #: 400.en.adoc:18
@@ -2371,27 +2371,27 @@ msgstr "Identificadores únicos estables"
 #. type: Plain text
 #: 400.en.adoc:24
 msgid "Terms like {deployments-deploymentID} or term:dwc[dwc:occurrenceID] expect an identifier that is:"
-msgstr ""
+msgstr "Términos como {deployments-deploymentID} o dwc:occurrenceID [dwc:IDocurrencia] esperan un identificador que:"
 
 #. type: Plain text
 #: 400.en.adoc:26
 msgid "Required to be **unique**, i.e. it uniquely refers to a record or concept."
-msgstr ""
+msgstr "Se requiere que sea **único**, es decir, se refiere de forma única a un registro o concepto."
 
 #. type: Plain text
 #: 400.en.adoc:27
 msgid "Strongly recommended to be **stable**/persistent, i.e. it does not change over time and can safely be referenced."
-msgstr ""
+msgstr "Se recomienda firmemente que sea **estable**/persistente, es decir, no cambia con el tiempo y puede ser referenciado con seguridad."
 
 #. type: Plain text
 #: 400.en.adoc:28
 msgid "Recommended to be **globally unique**, i.e. it uniquely refers to a record or concept in a global context."
-msgstr ""
+msgstr "Se recomienda que sea **único globalmente**, es decir, se refiera de forma única a un registro o concepto en un contexto global."
 
 #. type: Plain text
 #: 400.en.adoc:30
 msgid "If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. These identifiers will be unique, most likely stable, and sometimes globally unique (e.g. a <<UUID,UUID>>). They also allow users (with access) to look up the record in the data management system. We advice against appending elements to the identifier to make it globally unique, since this makes it more prone to change. Since datasets can be uniquely identified (e.g. with a DOI), it is sufficient if the identifier is unique within the dataset."
-msgstr ""
+msgstr "Si está disponible, recomendamos utilizar el identificador asignado por el <<data-management-system,data management system>>, tal como esté. Estos identificadores serán únicos, muy probablemente estables, y a veces únicos a nivel global (por ejemplo, un <<UUID,UUID>>). También permiten a los usuarios (con acceso) buscar el registro en el sistema de gestión de datos. Recomendamos no añadir elementos al identificador para hacerlo único globalmente, ya que esto lo hace más propenso al cambio. Dado que los conjuntos de datos pueden ser identificados de forma única (p. ej., con un DOI), es suficiente si el identificador es único dentro del conjunto de datos."
 
 #. type: Title ====
 #: 400.en.adoc:32
@@ -2402,7 +2402,7 @@ msgstr "Información sensible"
 #. type: Plain text
 #: 400.en.adoc:35
 msgid "Camera trap data may contain sensitive information, such as personal information (e.g. names or images of living persons), the occurrence of sensitive (e.g. rare or endangered) species, the locations of actively managed cameras, or even notes and comments not intended for the public. We recommend following the best practices in citenp:[chapman-2020], which favour generalization over restriction of the record as a whole."
-msgstr ""
+msgstr "Los datos de las cámaras trampa pueden contener información sensible, como información personal (p. ej., nombres o imágenes de personas vivas), la ocurrencia de las especies sensibles (p. ej., raras o en peligro de extinción), las ubicaciones de cámaras gestionadas de manera activa, o incluso notas y comentarios no destinados al público. Recomendamos seguir las buenas prácticas en citenp:[chapman-2020], que favorecen la generalización sobre la restricción del registro en su conjunto."
 
 #. type: Title =====
 #: 400.en.adoc:37
@@ -2413,12 +2413,12 @@ msgstr "Datos personales"
 #. type: Plain text
 #: 400.en.adoc:40
 msgid "Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participant,participants>>, their email addresses and the whereabouts of participants who setup the camera (identifiable by combining the name with the deployment date-time and <<location>>). In <<camtrap-dp,Camtrap DP>>, person names can appear in {package-contributors}, {package-bibliographicCitation}, {deployments-setupBy} and {observations-classifiedBy}. In a <<darwin-core-archive,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy]."
-msgstr ""
+msgstr "Los datos personales son cualquier información relacionada con una persona viva identificada o identificable. Esta información está sujeta a regulaciones como <<GDPR>>. En los datos de la cámara trampa, los datos personales son los nombres de los <<participant,participants>>, sus direcciones de correo electrónico y el lugar donde están los participantes que configuraron la cámara (identificable combinando el nombre con la fecha de despliegue y la <<location>>). En <<camtrap-dp,Camtrap DP>>, los nombres de las personas pueden aparecer en {package-contributors}, {package-bibliographicCitation}, {deployments-setupBy} y {observations-classifiedBy}. En <<darwin-core-archive,Darwin Core Archive>>, los nombres de las personas pueden aparecer en los metadatos y términos como term:dwc[dwc:identifiedBy]."
 
 #. type: Plain text
 #: 400.en.adoc:42
 msgid "We recommend contacting participants to ask if their personal information can be made public and to anonymize (e.g. `anonymized:3eb30aa`) or exclude it when they prefer not to. Some <<data-management-system,data management system>> (such as citenp:[agouti]) allow users to indicate their preferences and automatically anonymize their personal data in exports. Note that it may not be possible to permanently remove personal information from older versions of an already published dataset."
-msgstr ""
+msgstr "Recomendamos contactar a los participantes para preguntar si su información personal puede hacerse pública y anonimizarla (p. ej., `anonymized:3eb30aa`) o excluirlo cuando prefieran no hacerlo. Algunos <<data-management-system,data management system>> (como citenp:[agouti]) permite a los usuarios indicar sus preferencias y anonimizar automáticamente sus datos personales en las exportaciones. Tenga en cuenta que puede no ser posible eliminar permanentemente información personal de versiones antiguas de un conjunto de datos ya publicado."
 
 #. type: Title =====
 #: 400.en.adoc:44
@@ -2429,12 +2429,12 @@ msgstr "Archivos multimedia sensibles"
 #. type: Plain text
 #: 400.en.adoc:47
 msgid "<<media-file,Media files>> containing identifiable persons is a form of <<section-personal-data,personal data>> that should be identified and kept private in order to protect the privacy of the persons. The same may be necessary for media files containing vehicles or picturing camera <<setup>>. Media files containing sensitive species may need to be kept private if they allow to identify the location."
-msgstr ""
+msgstr "Los <<media-file,Media files>> que contienen personas identificables son una forma de <<section-personal-data,personal data>> que deben ser identificados y mantenidos privados para proteger la privacidad de las personas. Esto puede ser necesario para archivos multimedia que contienen vehículos o la <<setup>> de la imagen de cámara. Es posible que los archivos multimedia que contienen especies sensibles deban mantenerse privados si se puede identificar la ubicación."
 
 #. type: Plain text
 #: 400.en.adoc:49
 msgid "We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level (e.g. `https://multimedia.agouti.eu/assets/813bafb2-befe-45fa-b0e3-080f1f019a70/file`). The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in a <<darwin-core-archive,Darwin Core Archive>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded."
-msgstr ""
+msgstr "Recomendamos proporcionar la URL a todos los archivos multimedia (en {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]), pero regulando su acceso a nivel de proveedor (p. ej., `https://multimedia.agouti.eu/assets/813bafb2-befe-45fa-b0e3080f1f019a70/file`). El acceso esperado puede describirse en {media-filePublic} o ac:serviceExpectation https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Tenga en cuenta que en un <<darwin-core-archive,Darwin Core Archive>>, las observaciones (y los archivos multimedia) de los humanos, los vehículos, la configuración, etc. son típicamente excluidos."
 
 #. type: Title =====
 #: 400.en.adoc:51
@@ -2445,7 +2445,7 @@ msgstr "Información de ubicación sensible"
 #. type: Plain text
 #: 400.en.adoc:54
 msgid "Camera trap data may contain <<location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization."
-msgstr ""
+msgstr "Los datos de la cámara trampa pueden contener información de <<location>> de especies sensibles. Las ubicaciones de cámaras gestionadas de forma activa también pueden ser sensibles al vandalismo y el robo. Recomendamos seguir a citenp:[chapman-2020] para determinar la sensibilidad (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Capítulo 2]) y elegir una generalización apropiada."
 
 #. type: delimited block =
 #: 400.en.adoc:58
