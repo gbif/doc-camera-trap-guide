@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-07 13:43\n"
+"PO-Revision-Date: 2026-02-07 15:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2123,7 +2123,7 @@ msgstr "Wildlife Insights"
 #. type: Plain text
 #: 300.en.adoc:857
 msgid "Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS cite:[ctms]."
-msgstr ""
+msgstr "Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) es un sistema en línea para gestionar los datos de las cámaras trampa. Es mantenido por Conservación Internacional, Google y otros socios, con sede en los Estados Unidos. Wildlife Insights se utiliza principalmente en proyectos en América y utiliza un modelo de suscripción por categorías (incluyendo niveles gratuitos). Los archivos multimedia subidos se clasifican automáticamente a nivel de multimedia por IA, utilizando un modelo de clasificación específico desarrollado por Google. Los archivos multimedia que contienen seres humanos siempre están ocultos al público. La clasificación adicional tiene la opción de clasificar varios archivos a la vez. Los datos se almacenan en la nube, puede ser utilizado por Wildlife Insights para entrenar IA y debe hacerse público después de un período máximo de embargo de 48 meses. Los metadatos del proyecto siempre están disponibles a través de un portal público. Los datos pueden exportarse en un formato personalizado, basado en CTMS cite:[ctms]."
 
 #. type: Plain text
 #: 300.en.adoc:859
@@ -2139,7 +2139,7 @@ msgstr "WildTrax"
 #. type: Plain text
 #: 300.en.adoc:864
 msgid "WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. It is maintained by the University of Alberta, based in Canada. WildTrax is mainly used by Canadian projects and is free to use (except for very large projects). Classification is media-based with the option to classify multiple media at once. AI classification is possible, but only at a broad level (blanks, animals, vehicles), species classification is not (yet) offered. Data are stored in the cloud. Project metadata can be made available via a public portal. Data can be exported in a custom format (with associated R package)."
-msgstr ""
+msgstr "WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) es un sistema en línea para gestionar los datos de las cámaras trampa. Es mantenido por la Universidad de Alberta, con sede en Canadá. WildTrax es utilizado principalmente por proyectos canadienses y es de uso gratuito (excepto para proyectos muy grandes). La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación por IA es posible, pero sólo a un nivel amplio (blancos, animales, vehículos), la clasificación de especies (todavía) no se ofrece. Los datos se almacenan en la nube. Los metadatos del proyecto pueden estar disponibles a través de un portal público. Los datos pueden ser exportados en un formato personalizado (con el paquete R asociado)."
 
 #. type: Plain text
 #: 300.en.adoc:866
@@ -2150,7 +2150,7 @@ msgstr "WildTrax es una buena elección para organizaciones que quieren un servi
 #: 300.en.adoc:868
 #, no-wrap
 msgid "Comparison of features offered by five data management systems. Features that are the same for all systems are not shown."
-msgstr ""
+msgstr "Comparación de características ofrecidas por cinco sistemas de gestión de datos. No se muestran las características que son las mismas para todos los sistemas."
 
 #. type: Table
 #: 300.en.adoc:967
@@ -2235,7 +2235,89 @@ msgid "|Feature\n"
 "|Custom format\n"
 "|Camtrap DP\n"
 "|Custom format\n"
-msgstr ""
+msgstr "|Característica\n"
+"|Agouti\n"
+"|Camelot\n"
+"|TRAPPER\n"
+"|Wildlife Insights\n\n"
+"|**Proporcionado como**\n"
+"|Servicio\n"
+"|Software\n"
+"|Software\n"
+"|Servicio\n\n"
+"|**Costo**\n"
+"|Gratuito\n"
+"|Gratuito\n"
+"|Gratuito\n"
+"|Modelo de suscripción en niveles (incl. gratuito)\n\n"
+"|**Código abierto**\n"
+"|No\n"
+"|Sí\n"
+"|Sí\n"
+"|No\n\n"
+"|**Supported media types**\n"
+"|Image, Video\n"
+"|Image\n"
+"|Image, Video\n"
+"|Image\n\n"
+"|**Tipos de archivos soportados**\n"
+"|Sí\n"
+"|Sí (limitado)\n"
+"|Sí\n"
+"|Sí\n\n"
+"|**Idiomas soportados**\n"
+"|Inglés, croata,\n"
+"neerlandés, francés\n"
+"alemán, polaco\n"
+"español\n"
+"|Inglés\n"
+"|Inglés\n"
+"|Muchos (a través del traductor de Google)\n\n"
+"|**Clasificación basada en archivos multimedia o eventos**\n"
+"|Basada en eventos\n"
+"|Basada en archivos\n"
+"|Basada en archivos\n"
+"|Basada en archivos\n\n"
+"|**Clasificación IA**\n"
+"|Sí (clasificación de especies)\n"
+"|No\n"
+"|Sí (clasificación de especies)\n"
+"|Sí (clasificación de especies)\n\n"
+"|**Integración con plataforma de colaboración abierta**\n"
+"|Sí (Zooniverse)\n"
+"|No\n"
+"|Sí\n"
+"|No\n\n"
+"|**Portal del proyecto**\n"
+"|Sí\n"
+"|No\n"
+"|No\n"
+"|Sí\n\n"
+"|**Almacenamiento de datos**\n"
+"|Infraestructura universitaria\n"
+"|Servidor propio\n"
+"|Servidor propio o nube\n"
+"|Nube (Google Cloud Platform)\n\n"
+"|**Derechos de datos otorgados al sistema**\n"
+"|Mínimo\n"
+"|Ninguno\n"
+"|Ninguno\n"
+"|Algunos (p. ej., para del entrenamiento de la IA y productos de datos resumidos)\n\n"
+"|**Requisito de datos abiertos**\n"
+"|No (pero recomendado)\n"
+"|No\n"
+"|No (pero recomendado)\n"
+"|Sí (los datos pueden mantenerse privados durante 48 meses, los metadatos del proyecto son siempre públicos)\n\n"
+"|**Servidor multimedia**\n"
+"|Sí\n"
+"|No\n"
+"|Sí\n"
+"|Sí\n\n"
+"|**Formato de exportación**\n"
+"|Camtrap DP\n"
+"|Formato personalizado\n"
+"|Camtrap DP\n"
+"|Formato personalizado\n"
 
 #. type: Title ==
 #: 400.en.adoc:2
@@ -2246,12 +2328,12 @@ msgstr "Publicación de datos de cámaras trampa"
 #. type: Plain text
 #: 400.en.adoc:5
 msgid "Data publication is the process of making biodiversity data open and <<FAIR>> cite:[wilkinson-2016]. Adopting the FAIR principles guarantees that your camera trap data can be found, accessed, integrated and reused (see <<section-fair-camera-trap-data>>) for many applications, from biological use cases (species distribution modeling, population density estimation, etc.) to providing training data for <<machine-learning,machine learning>> model development. We recommend the use of the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014] to do so. It facilitates data publication and registration with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)], an international network and data infrastructure for biodiversity data."
-msgstr ""
+msgstr "La publicación de datos es el proceso de abrir los datos de biodiversidad y <<FAIR>> cite:[wilkinson-2016]. La adopción de los principios FAIR garantiza que los datos de sus cámaras trampa puedan encontrarse, consultarse, integrarse y reutilizarse (ver la <<section-fair-camera-trap-data>>) para muchas aplicaciones, desde casos de uso biológico (modelo de distribución de especies, estimación de densidad de población, etc.) hasta proporcionar datos de capacitación para el desarrollo de modelos de <<machine-learning,machine learning>>. Recomendamos el uso de la https://www.gbif.org/ipt[Herramienta para la publicación integrada de datos (IPT) GBIF] cite:[robertson-2014] para hacerlo. Facilita la publicación de datos y el registro en el https://www.gbif.org/es[Centro de Información sobre la Biodiversidad Global (GBIF)], una red internacional e infraestructura de datos para datos de biodiversidad."
 
 #. type: Plain text
 #: 400.en.adoc:7
 msgid "Before you publish through GBIF, you must prepare (see <<section-preparing-data>>) and standardize your data. Data standardization is the transformation of data to a specific <<data-exchange-format,data exchange format>> so it becomes interoperable with other data at GBIF. GBIF supports <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>> as the data exchange formats for camera trap data. Recommendations for these formats are provided in <<section-camtrap-dp>> and <<section-darwin-core-archive>> respectively."
-msgstr ""
+msgstr "Antes de publicar a través de GBIF, debe preparar (ver la <<section-preparing-data>>) y normalizar sus datos. La estandarización de datos es la transformación de datos a un <<data-exchange-format,data exchange format>> específico para que se vuelva interoperable con otros datos en GBIF. GBIF soporta <<camtrap-dp,Camtrap DP>> y <<darwin-core-archive,Darwin Core Archive>> como los formatos de intercambio de datos de cámaras trampa. Las recomendaciones para estos formatos se proporcionan en la <<section-camtrap-dp>> y la <<section-darwin-core-archive>> respectivamente."
 
 #. type: Plain text
 #: 400.en.adoc:9
@@ -3815,111 +3897,111 @@ msgstr "Realizar tareas informáticas en una infraestructura informática distri
 #: glossary.en.adoc:32
 #, no-wrap
 msgid "[[computer-vision]]computer vision"
-msgstr ""
+msgstr "[[computer-vision]]visión informática"
 
 #. type: Plain text
 #: glossary.en.adoc:33
 msgid "Processing, analysing and understanding of <<media>> by machines to aid <<classification>>, from object tracking to species identification. A form of artificial intelligence, typically trained with <<machine-learning,machine learning>>."
-msgstr ""
+msgstr "Procesamiento, análisis y comprensión de archivos <<media>> por máquinas para ayudar a la <<classification>>, desde seguimiento de objetos hasta identificación de especies. Una forma de inteligencia artificial, normalmente entrenada con <<machine-learning,machine learning>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:34
 #, no-wrap
 msgid "[[covariates]]covariates"
-msgstr ""
+msgstr "[[covariates]]covariables"
 
 #. type: Plain text
 #: glossary.en.adoc:35
 msgid "Ecological variables that may affect the behaviour and detection of animals (e.g. <<bait,bait use>>, <<feature-type,feature type>>, <<habitat-type,habitat>>, canopy cover). Recording covariates is important for further analysis of the data. See also <<section-covariates>>."
-msgstr ""
+msgstr "Variables ecológicas que pueden afectar el comportamiento y la detección de animales (p.ej. <<bait,bait use>>, <<feature-type,feature type>>, <<habitat-type,habitat>>, cubierta de dosel). El registro de las covariables es importante para un análisis más profundo de los datos. Ver también la <<section-covariates>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:36
 #, no-wrap
 msgid "[[data-exchange-format]]data exchange format"
-msgstr ""
+msgstr "[[data-exchange-format]]formato de intercambio de datos"
 
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "Format used to exchange data between systems (e.g. <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>>). Requires data transformation from the source system to the format and from the format to the target system. Well designed data exchange formats facilitate <<FAIR>> data exchange, use open formats and provide clear definitions. Also referred to as `data standard` (when approved through a ratification process)."
-msgstr ""
+msgstr "Formato utilizado para intercambiar datos entre sistemas (p. ej., <<camtrap-dp,Camtrap DP>> y <<darwin-core-archive,Darwin Core Archive>>). Requiere transformación de datos del sistema fuente al formato y del formato al sistema de destino. Formatos de intercambio de datos bien diseñados facilitan un intercambio de datos <<FAIR>>, utilizan formatos abiertos y proporcionan definiciones claras. También se conoce como `estándar de datos` (cuando se aprueba a través de un proceso de ratificación)."
 
 #. type: Labeled list
 #: glossary.en.adoc:38
 #, no-wrap
 msgid "[[data-management-system]]data management system"
-msgstr ""
+msgstr "[[data-management-system]]sistema de gestión de datos"
 
 #. type: Plain text
 #: glossary.en.adoc:39
 msgid "Online or desktop application to manage camera trap data. Typically includes functionality to upload <<media>>, add <<deployment>> information, <<classification,classify>> images, export data, invite <<participant,participants>> and manage a <<project>>. See also <<section-data-management-systems>>."
-msgstr ""
+msgstr "Aplicación de escritorio o en línea para gestionar los datos de las cámaras trampa. Normalmente incluye la funcionalidad de subir <<media>>, añadir información de <<deployment>>, <<classification,classify>> imágenes, exportar datos, invitar <<participant,participants>> y gestionar un <<project>>. Ver también la <<section-data-management-systems>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:40
 #, no-wrap
 msgid "[[data-repository]]data repository"
-msgstr ""
+msgstr "[[data-repository]]repositorio de datos"
 
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "Online system for the long-term archival of (research) data (e.g. https://zenodo.org[Zenodo], https://datadryad.org/[Dryad] and the GBIF https://www.gbif.org/ipt[IPT]). Different from a <<data-management-system,data management system>> which is designed for the management (and not necessarily long-term archival) of data."
-msgstr ""
+msgstr "Sistema en línea para el archivo a largo plazo de datos (investigación) (p. ej., https://zenodo.org[Zenodo], https://datadryad.org/[Dryad] y el GBIF https://www.gbif.org/ipt[IPT]). Diferente de un <<data-management-system,data management system>> que está diseñado para la gestión (y no necesariamente para el archivo a largo plazo) de datos."
 
 #. type: Labeled list
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[darwin-core-archive]]Darwin Core Archive"
-msgstr ""
+msgstr "[[darwin-core-archive]]Darwin Core Archive"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Standardized and widely supported <<data-exchange-format,data exchange format>> for biodiversity data, maintained by Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-darwin-core-archive>> and the https://dwc.tdwg.org/text/[Darwin Core text guide]."
-msgstr ""
+msgstr "Un <<data-exchange-format,data exchange format>> estandarizado y ampliamente respaldado para datos de biodiversidad mantenido conforme a los Estándares de Información de Biodiversidad (https://www.tdwg.org[TDWG]). Ver también la <<section-darwin-core-archive>> y la https://dwc.tdwg.org/text/[Guía de texto de Darwin Core]."
 
 #. type: Labeled list
 #: glossary.en.adoc:44
 #, no-wrap
 msgid "[[deployment]]deployment"
-msgstr ""
+msgstr "[[deployment]]despliegue"
 
 #. type: Plain text
 #: glossary.en.adoc:45
 msgid "Spatial and temporal placement of a <<camera>> to sample wildlife images. A camera placed at a location between 1 and 15 January 2020 is a different deployment than the same (or different) camera placed at the same location between 15 and 30 January 2020. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. Also referred to as `sampling point` cite:[wearn-2017], `trap station session` cite:[camelot] or `visit` cite:[newkirk-2016]. {deployments} in Camtrap DP. See also <<section-deployments>>."
-msgstr ""
+msgstr "Colocación espacial y temporal de una <<camera>> para muestrear imágenes de vida salvaje. Una cámara situada en una ubicación entre el 1 y el 15 de enero de 2020 es un despliegue diferente que la misma (o diferente) cámara situada en la misma ubicación entre el 15 y el 30 de enero de 2020. Los despliegues finalizan eliminando o reemplazando la cámara, cambiando su posición o cambiando su tarjeta de memoria. También se denomina `punto de muestreo` cite:[wearn-2017], `sesión de la estación trampa` cite:[camelot] o `visita` cite:[newkirk-2016]. {deployments} en Camtrap DP. Ver también la <<section-deployments>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:46
 #, no-wrap
 msgid "[[deployment-group]]deployment group"
-msgstr ""
+msgstr "[[deployment-group]]grupo de despliegue"
 
 #. type: Plain text
 #: glossary.en.adoc:47
 msgid "Logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` cite:[oconnor-2017], `camera trap array` cite:[meek-2014], `cluster` cite:[risc-2019], `paired deployment` cite:[kolowski-2017], `site` and `strata` cite:[sun-2021] are spatial deployment groups. `sampling campaign` cite:[lamelas-2020], `sampling event` cite:[fegraus-2011] and `session` are temporal deployment groups. `subproject` cite:[emammal-design], `survey` cite:[risc-2019,camerabase] and `tags` are thematic deployment groups. `study areas` cite:[newkirk-2016] can be considered a deployment group or <<project>> in its own right. {deployments-deploymentGroups} in Camtrap DP. See also <<section-deployment-groups>>."
-msgstr ""
+msgstr "Agrupación lógica de <<deployment,deployments>>, basada en criterios espaciales, temporales o temáticos. Un despliegue puede pertenecer a múltiples grupos de despliegue. `array` cite:[oconnor-2017], `despliegue de cámara trampa` cite:[meek-2014], `clúster` cite:[risc-2019], `despliegues emparejados` cite:[kolowski-2017, `sitio` y `estratos` cite:[sun-2021] son grupos de despliegue espacial. `campaña de muestreo` cite:[lamelas-2020], `evento de muestreo` cite:[fegraus-2011] y `sesión` son grupos de despliegue temporal. `subproyecto` cite:[emammal-design], `encuesta` cite:[risc-2019,camerabase] y `etiquetas` son grupos de despliegue temáticos. `áreas de estudio` cite:[newkirk-2016] pueden considerarse un grupo de despliegue o <<project>> por derecho propio. {deployments-deploymentGroups} en Camtrap DP. Ver también la <<section-deployment-groups>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:48
 #, no-wrap
 msgid "[[detection-distance]]detection distance"
-msgstr ""
+msgstr "[[detection-distance]]distancia de detección"
 
 #. type: Plain text
 #: glossary.en.adoc:49
 msgid "Furthest distance in the <<detection-zone,detection zone>> at which the <<camera>> detects <<activity>>. {deployments-detectionDistance} in Camtrap DP."
-msgstr ""
+msgstr "La distancia más lejana en la <<detection-zone,detection zone>> en la que la <<camera>> detecta <<activity>>. d{deployments-detectionDistance} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:50
 #, no-wrap
 msgid "[[detection-zone]]detection zone"
-msgstr ""
+msgstr "[[detection-zone]]zona de detección"
 
 #. type: Plain text
 #: glossary.en.adoc:51
 msgid "Area of a <<location>> in which a camera <<sensor>> is able to detect <<activity>>."
-msgstr ""
+msgstr "Área de una <<location>> en la que un <<sensor>> de cámara es capaz de detectar <<activity>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:52
@@ -3930,13 +4012,13 @@ msgstr "[[evento]]evento"
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "Action that occurs at a specific <<location>> for a specific duration. In camera trap research, events typically refer to animal <<activity>> recorded through one or more <<trigger,triggers>> and forming a <<sequence>>, but other definitions might be used when analysing data. Events can be indicated with {observations-eventID}, {observations-eventStart} and {observations-eventEnd} in Camtrap DP. In a <<darwin-core-archive,Darwin Core Archive>>, <<deployment,deployments>> can also be considered events."
-msgstr ""
+msgstr "Acción que ocurre en una <<location>> específica por una duración específica. En investigación de cámaras trampa los eventos normalmente se refieren a <<activity>> animal grabada a través de una o más <<trigger,triggers>> y formando una <<sequence>>, pero otras definiciones pueden ser utilizadas al analizar datos. Los eventos se pueden indicar con {observations-eventID}, {observations-eventStart} y {observations-eventEnd} en Camtrap DP. En un <<darwin-core-archive,Darwin Core Archive>>, los <<deployment,deployments>> también pueden considerarse eventos."
 
 #. type: Labeled list
 #: glossary.en.adoc:54
 #, no-wrap
 msgid "[[EXIF]]EXIF"
-msgstr ""
+msgstr "[[EXIF]]EXIF"
 
 #. type: Plain text
 #: glossary.en.adoc:55
@@ -4227,40 +4309,40 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:107
 msgid "Geographic area containing multiple <<location,locations>>."
-msgstr ""
+msgstr "Área geográfica que contiene múltiples <<location,locations>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:108
 #, no-wrap
 msgid "[[species-recognition]]species recognition"
-msgstr ""
+msgstr "[[species-recognition]]reconocimiento de especies"
 
 #. type: Plain text
 #: glossary.en.adoc:109
 msgid "Automated identification and <<classification>> of different animal species based on visual or auditory data captured by camera traps."
-msgstr ""
+msgstr "Identificación automática y <<classification>> de diferentes especies animales basada en datos visuales o auditivos capturados por cámaras trampa."
 
 #. type: Labeled list
 #: glossary.en.adoc:110
 #, no-wrap
 msgid "[[subproject]]subproject"
-msgstr ""
+msgstr "[[subproject]]subproyecto"
 
 #. type: Plain text
 #: glossary.en.adoc:111
 msgid "Type of <<deployment-group,deployment group>> used to subdivide very large projects into more manageable units."
-msgstr ""
+msgstr "Tipo de <<deployment-group,deployment group>> utilizado para subdividir proyectos muy grandes en unidades más manejables."
 
 #. type: Labeled list
 #: glossary.en.adoc:112
 #, no-wrap
 msgid "[[trigger]]trigger"
-msgstr ""
+msgstr "[[trigger]]disparo"
 
 #. type: Plain text
 #: glossary.en.adoc:113
 msgid "<<sensor,Sensor>> condition that prompts a <<camera>> to activate and capture <<media>>. Also used to indicate the series of consecutive <<media-file,media files>> resulting from that trigger. One or more triggers form a <<sequence>>. Also referred to as `burst`."
-msgstr ""
+msgstr "Condición de <<sensor,Sensor>> que hace que una <<camera>> se active y capture <<media>>. También se utiliza para indicar la serie de <<media-file,media files>> consecutivos resultantes de ese disparo. Uno o más disparos forman una <<sequence>>. También se denomina `ráfaga`."
 
 #. type: Labeled list
 #: glossary.en.adoc:114
@@ -4271,18 +4353,18 @@ msgstr "[[UUID]]UUID"
 #. type: Plain text
 #: glossary.en.adoc:115
 msgid "Universally Unique Identifier (UUID). A type of globally unique identifier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`."
-msgstr ""
+msgstr "Identificador único universal (UUID). Un tipo de identificador único globalmente que se puede generar sin una autoridad central de registro. Ejemplo: `6d65f3e4-4770-407b-b2bf-878983bf9872`."
 
 #. type: Labeled list
 #: glossary.en.adoc:116
 #, no-wrap
 msgid "[[video]]video"
-msgstr ""
+msgstr "[[video]]video"
 
 #. type: Plain text
 #: glossary.en.adoc:117
 msgid "Moving <<media-file,media file>> recorded by a <<camera>>. Has a specific duration and can include audio."
-msgstr ""
+msgstr "<<media-file,media file>> en movimiento grabado por una <<camera>>. Tiene una duración específica y puede incluir audio."
 
 #. type: Title ==
 #: bibliography.en.adoc:2
