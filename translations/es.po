@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-07 16:01\n"
+"PO-Revision-Date: 2026-02-07 18:15\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2450,18 +2450,18 @@ msgstr "Los datos de la cámara trampa pueden contener información de <<locatio
 #. type: delimited block =
 #: 400.en.adoc:58
 msgid "Note that camera trap location information is often the same across multiple <<deployment,deployments>>. Generalizing the coordinates of the deployment with associated sensitive information is likely not sufficient to prevent correlational analyses. A {deployments-locationID} shared by multiple deployments for example can lead to deductions of localities/records that are generalized. Make sure to generalize the coordinates for the <<location>> across deployments."
-msgstr ""
+msgstr "Tenga en cuenta que la información de ubicación de las cámaras trampa es a menudo la misma a través de múltiples <<deployment,deployments>>. Generalizar las coordenadas del despliegue con información sensible asociada probablemente no es suficiente para prevenir análisis correlacionales. Una {deployments-locationID} compartida por múltiples despliegues, por ejemplo, puede llevar a deducciones de localidades/registros que están generalizados. Asegúrese de generalizar las coordenadas para la <<location>> a través de despliegues."
 
 #. type: Plain text
 #: 400.en.adoc:61
 msgid "Whatever the selected level of generalization, document it in the dataset metadata and appropriate terms, so that users are aware. See <<table-generalization>> for an example."
-msgstr ""
+msgstr "Cualquiera que sea el nivel seleccionado de generalización, documéntelo en los metadatos del conjunto de datos y términos apropiados, de modo que los usuarios estén al tanto. Ver la <<table-generalization>> para un ejemplo."
 
 #. type: Block title
 #: 400.en.adoc:63
 #, no-wrap
 msgid "How to express non-generalized vs generalized location information in Camtrap DP and Darwin Core. The generalized example assumes a sensitivity of https://docs.gbif.org/sensitive-species-best-practices/master/en/#cat4[Category 4]. The coordinate uncertainty of 187 meter is the sum of the GPS precision (30 m) and maximum uncertainty associated with coordinates that have a precision of 0.001 degree (157 m)."
-msgstr ""
+msgstr "Cómo expresar la información de ubicación no generalizada vs generalizada en Camtrap DP y Darwin Core. El ejemplo generalizado asume una sensibilidad de https://docs.gbif.org/sensitive-species-best-practices/master/es/#cat4][Categoría 4]. La incertidumbre de coordenadas de 187 metros es la suma de la precisión GPS (30 m) y la máxima incertidumbre asociada con coordenadas que tienen una precisión de 0,001 grados (157 m)."
 
 #. type: Table
 #: 400.en.adoc:105
@@ -2498,7 +2498,38 @@ msgid "|Camtrap DP term\n"
 "|term:dwc[dwc:dataGeneralizations]\n"
 "|\n"
 "|coordinates rounded to 0.001 degree\n"
-msgstr ""
+msgstr "|Término de Camtrap DP\n"
+"|Término de Darwin Core\n"
+"|No generalizado\n"
+"|Generalizado\n\n"
+"|{deployments-latitude}\n"
+"|term:dwc[dwc:decimalLatitude]\n"
+"|51.18061\n"
+"|51.181\n\n"
+"|{deployments-longitude}\n"
+"|term:dwc[dwc:decimalLongitude]\n"
+"|5.65490\n"
+"|5.655\n\n"
+"|implícito\n"
+"|term:dwc[dwc:geodeticDatum]\n"
+"|EPSG:4326\n"
+"|EPSG:4326\n\n"
+"|{deployments-coordinateUncertainty}\n"
+"|term:dwc[dwc:coordinateUncertaintyInMeters]\n"
+"|30\n"
+"|187\n\n"
+"|{package-coordinatePrecision}\n"
+"|term:dwc[dwc:coordinatePrecision]\n"
+"|0.00001\n"
+"|0.001\n\n"
+"|\n"
+"|term:dwc[dwc:georeferenceRemarks]\n"
+"|fuente asumida como GPS, incertidumbre predeterminada a 30 m\n"
+"|fuente asumida como GPS, incertidumbre predeterminada a 30 m\n\n"
+"|\n"
+"|term:dwc[dwc:dataGeneralizations]\n"
+"|\n"
+"|coordenadas redondeadas a 0,001 grados\n"
 
 #. type: Title =====
 #: 400.en.adoc:108
