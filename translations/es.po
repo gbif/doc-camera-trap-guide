@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-06 18:53\n"
+"PO-Revision-Date: 2026-02-07 13:43\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3764,51 +3764,52 @@ msgstr "[[camera-heading]]dirección de cámara"
 #. type: Plain text
 #: glossary.en.adoc:23
 msgid "Horizontal cardinal orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees from North or as cardinal directions (N, NW, etc.). {deployments-cameraHeading} in Camtrap DP."
-msgstr ""
+msgstr "Orientación cardinal horizontal de la cámara, un componente de la <<alignment>> de la cámara. Se puede expresar en grados desde el norte o como direcciones cardinales (N, NO, etc.). {deployments-cameraHeading}\n"
+" en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:24
 #, no-wrap
 msgid "[[camtrap-dp]]Camtrap DP"
-msgstr ""
+msgstr "[[camtrap-dp]]Camtrap DP"
 
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Camera Trap Data Package. A community developed <<data-exchange-format,data exchange format>> for camera trap data, maintained under Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-camtrap-dp>>, citenp:[bubnicki-2023] and the https://camtrap-dp.tdwg.org[Camtrap DP website]."
-msgstr ""
+msgstr "Paquete de datos de cámaras trampa. Un <<data-exchange-format,data exchange format>> de cámaras trampa desarrollado comunitariamente, mantenido bajo los Estándares de Información de Biodiversidad (https://www.tdwg.org[TDWG]). Ver también <<section-camtrap-dp>>, citenp:[bubnicki-2023] y el https://camtrap-dp.tdwg.org[sitio web de Camtrap DP]."
 
 #. type: Labeled list
 #: glossary.en.adoc:26
 #, no-wrap
 msgid "[[classification]]classification"
-msgstr ""
+msgstr "[[classification]]clasificación"
 
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "The act of classifying camera trap <<media>>, resulting in <<observation,observations>>. Not to be confused with taxonomic classification. Can be performed in different steps and with different levels of precision, e.g. 1. media does/does not contain object(s) of interest (i.e. <<blank>>), 2. object of interest is human/vehicle/animal or unknown, 3. animal is member of certain taxon (e.g. Sus scrofa, Rodentia), 4. animal is of certain sex/life stage, is known <<individual>> x or shows certain behaviour. Classification is typically labour intensive and therefore often aided by <<computer-vision,computer vision>>, <<citizen-science,volunteers>> and/or classifying <<sequence,sequences>> rather than individual <<media-file,media files>>. Also referred to as `image classification`, `annotation` or `identification`. See also <<section-classification>>."
-msgstr ""
+msgstr "El acto de clasificar archivos <<media>> de cámaras trampa resulta en <<observation,observations>>. No debe confundirse con la clasificación taxonómica. Se puede realizar en diferentes etapas y con diferentes niveles de precisión p. ej., 1. El archivo no contiene objetos de interés (es decir, <<blank>>), 2. el objeto de interés es humano/vehículo/animal o desconocido, 3. el animal es miembro de ciertos taxones (p. ej., Sus scrofa, Rodentia), 4. el animal es de cierto sexo/etapa de vida, se conoce al <<individual>> x o muestra determinado comportamiento. La clasificación suele ser un trabajo intensivo y, por lo tanto, a menudo asistido por <<computer-vision,computer vision>>, <<citizen-science,volunteers>> y/o <<sequence,sequences>> de clasificación, en lugar de <<media-file,media files>> individuales. También referido como `clasificación de imágenes`, `anotación` o `identificación`. Ver también la <<section-classification>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:28
 #, no-wrap
 msgid "[[citizen-science]]citizen science"
-msgstr ""
+msgstr "[[citizen-science]]ciencia ciudadana"
 
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "Scientific research conducted with participation from the public. Also referred to as `community science`, `crowd science`, `crowdsourcing`, or `volunteer monitoring`. In camera trap research, citizen scientists can participate in camera trap <<deployment>> and <<classification>>. See also <<section-citizen-science>>."
-msgstr ""
+msgstr "Investigación científica realizada con la participación del público. También referido como `ciencia comunitaria`, `participación`, `colaboración abierta`, o `monitoreo voluntario`. En la investigación de cámaras trampa, los científicos pueden participar en el <<deployment>> y <<classification>>. Ver también la <<section-citizen-science>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[cloud-computing]]cloud computing"
-msgstr ""
+msgstr "[[cloud-computing]]computación en la nube"
 
 #. type: Plain text
 #: glossary.en.adoc:31
 msgid "Performing computing tasks on a distributed IT infrastructure (“cloud service”). Typically at a cost (“pay as you go”) in return for better performance and less maintenance."
-msgstr ""
+msgstr "Realizar tareas informáticas en una infraestructura informática distribuida (“servicio en la nube”). Normalmente a un costo (“pago por uso\") a cambio de un mejor rendimiento y menor mantenimiento."
 
 #. type: Labeled list
 #: glossary.en.adoc:32
