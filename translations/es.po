@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-07 18:15\n"
+"PO-Revision-Date: 2026-02-07 20:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2540,7 +2540,8 @@ msgstr "Otra información sensible"
 #. type: Plain text
 #: 400.en.adoc:111
 msgid "Text fields such as comments and notes (e.g. {deployments-deploymentComments} or term:dwc[dwc:occurrenceRemarks]) may contain sensitive information such as <<section-personal-data,person names>>, <<section-sensitive-location-information,sensitive location information>> or information not intended for the public. We recommend verifying values and generalizing where necessary (see https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[Chapter 3] in citenp:[chapman-2020])."
-msgstr ""
+msgstr "Los campos de texto como comentarios y notas (p. ej., {deployments-deploymentComments} o term:dwc[dwc:occurrenceRemarks]) pueden contener información sensible como <<section-personal-data,person names>>, <<section-sensitive-location-information,sensitive location information>> o información no destinada al público. Recomendamos verificar valores y generalizar donde sea necesario (ver \n"
+"https://docs.gbif.org/sensitive-species-best-practices/master/es/#generalizaci%C3%B3n-de-la-informaci%C3%B3n-textual[Capítulo 3] en citenp:[chapman-2020]).\n"
 
 #. type: Title ===
 #: 400.en.adoc:113
@@ -2551,12 +2552,12 @@ msgstr "Camptrap DP"
 #. type: Plain text
 #: 400.en.adoc:116
 msgid "We recommend the use of <<camtrap-dp,Camera Trap Data Package (Camtrap DP)>> to publish camera trap data. It is specifically designed for this type of data and can retain more information than a <<darwin-core-archive,Darwin Core Archive>> cite:[bubnicki-2023]. Some <<data-management-system,data management systems>> directly support it as an export format (see <<table-data-management-systems>>), reducing the need for data transformation when publishing through GBIF."
-msgstr ""
+msgstr "Recomendamos el uso del <<camtrap-dp,Camera Trap Data Package (Camtrap DP)>> para publicar datos de cámaras trampa. Está diseñado específicamente para este tipo de datos y puede retener más información que un <<darwin-core-archive,Darwin Core Archive>> cite:[bubnicki-2023]. Algunos <<data-management-system,data management systems>> lo soportan directamente como formato de exportación (ver la <<table-data-management-systems>>), lo que reduce la necesidad de transformación de datos al publicar a través de GBIF."
 
 #. type: Plain text
 #: 400.en.adoc:118
 msgid "See the https://camtrap-dp.tdwg.org[Camtrap DP website] for term definitions, recommendations and examples."
-msgstr ""
+msgstr "Consulte el https://camtrap-dp.tdwg.org[sitio web de Camtrap DP] para ver definiciones de términos, recomendaciones y ejemplos."
 
 #. type: delimited block =
 #: 400.en.adoc:122
