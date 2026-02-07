@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-07 20:45\n"
+"PO-Revision-Date: 2026-02-07 21:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2562,12 +2562,12 @@ msgstr "Consulte el https://camtrap-dp.tdwg.org[sitio web de Camtrap DP] para ve
 #. type: delimited block =
 #: 400.en.adoc:122
 msgid "At the time of writing, GBIF does not yet support the publication of Camtrap DP in their production environment. It will be released as a feature in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT])."
-msgstr ""
+msgstr "En el momento de la escritura, GBIF aún no apoya la publicación de Camtrap DP en su entorno de producción. Se publicará como una característica en la versión 3 de la Herramienta de publicación integrada (https://www.gbif.org/ipt[IPT])."
 
 #. type: Plain text
 #: 400.en.adoc:125
 msgid "Not all information in a published Camtrap DP is currently harvested by GBIF. The GBIF data model requires it to be transformed to Darwin Core before ingestion. This process is provided by the https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] function in the R software package camtraptor cite:[camtraptor]. This function implements the <<section-darwin-core-archive,recommendations>> suggested in this document. GBIF will be able to process more information from a published Camtrap DP once it has implemented a new data model cite:[gbif-2022]."
-msgstr ""
+msgstr "No toda la información en un Camtrap DP publicado está actualmente cosechada por GBIF. El modelo de datos GBIF requiere que se transforme a Darwin Core antes de la ingesta. Este proceso es proporcionado por la función https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] en el paquete de software R camtraptor cite:[camtraptor]. Esta función implementa las <<section-darwin-core-archive,recommendations>> sugeridas en este documento. GBIF podrá procesar más información a partir de un Camtrap DP publicado una vez que haya implementado un nuevo modelo de datos cite:[gbif-2022]."
 
 #. type: Title ===
 #: 400.en.adoc:127
