@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 13:15\n"
+"PO-Revision-Date: 2026-02-08 14:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3767,13 +3767,13 @@ msgstr "Como se describe <<section-why-not-a-sampling-event-dataset,anteriorment
 #. type: Plain text
 #: 400.en.adoc:753
 msgid "Note that the {ac-extension} can contain duplicates, an important difference with Camtrap DP's {media} where each file is only listed once. Repeated <<section-ac-occurrenceid,occurrenceID>> are the result of a single <<section-media-or-event-based-classification,event-based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated <<section-ac-identifier,identifiers>> are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media file `e68deaed` in <<table-ac-extension>>). The extension should however contain unique <<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>> combinations."
-msgstr ""
+msgstr "Tenga en cuenta que la {ac-extension} puede contener duplicados, una diferencia importante con los archivos multimedia de Camtrap DP {media} donde cada archivo sólo aparece una vez. La <<section-ac-occurrenceid,IDdeOcurrencia>> repetida es el resultado de una única observación <<section-media-or-event-based-classification,basada en eventos>> que se relaciona con múltiples archivos multimedia (p. ej., la observación `05230014` en la <<table-ac-extension>). Los <<section-ac-identifier,identificadores>> repetidos son el resultado de que un archivo multimedia sea la fuente para múltiples observaciones (p. ej., múltiples especies observadas en la misma imagen, tal como en el archivo multimedia `e68deaed` en la <<table-ac-extension>>). Sin embargo, la extensión debe contener combinaciones de <<section-ac-occurrenceid,IDdeOcurrencia>>+<<section-ac-identifier,identificador>>."
 
 #. type: Block title
 #: 400.en.adoc:755
 #, no-wrap
 msgid "Recommended terms to use when expressing camera trap data as an {ac-extension}. <<figure-example-image,Source>>."
-msgstr ""
+msgstr "Términos recomendados para usar al expresar los datos de las cámaras trampa como una {ac-extension}. <<figure-example-image,Fuente>>."
 
 #. type: Table
 #: 400.en.adoc:805
@@ -3814,12 +3814,47 @@ msgid "|Term\n"
 "|<<section-ac-serviceexpectation,serviceExpectation>>\n"
 "|Share if available\n"
 "|online\n"
-msgstr ""
+msgstr "|Término\n"
+"|Estatus\n"
+"|Valor de ejemplo\n\n"
+"|<<section-ac-occurrenceid,occurrenceID>>\n"
+"|Requerido\n"
+"|05230014\n\n"
+"|<<section-ac-identifier,identifier>>\n"
+"|Compartir si está disponible\n"
+"|6d65f3e4\n\n"
+"|<<section-ac-type,type>>\n"
+"|Compartir si está disponible\n"
+"|Imágen estática\n\n"
+"|<<section-ac-comments,comments>>\n"
+"|Compartir si está disponible\n"
+"|marcado como favorito\n\n"
+"|<<section-ac-rights,rights>> \n"
+"|Muy recomendado\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n\n"
+"|<<section-ac-createdate,CreateDate>>\n"
+"|Compartir si está disponible\n"
+"|2020-06-12T06:04:32+02:00\n\n"
+"|<<section-ac-capturedevice,captureDevice>>\n"
+"|Compartir si está disponible\n"
+"|Reconyx-HF2X\n\n"
+"|<<section-ac-resourcecreationtechnique,resourceCreationTechnique>>\n"
+"|Compartir si está disponible\n"
+"|detección de movimiento\n\n"
+"|<<section-ac-accessuri,accessURI>>\n"
+"|Requerido\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file#\n\n"
+"|<<section-ac-format,format>>\n"
+"|Compartir si está disponible\n"
+"|imagen/jpeg\n\n"
+"|<<section-ac-serviceexpectation,serviceExpectation>>\n"
+"|Compartir si está disponible\n"
+"|en línea\n"
 
 #. type: Plain text
 #: 400.en.adoc:813
 msgid "A foreign key to the <<section-occurrenceid,occurrenceID>> in the {occurrence-core}, to indicate the relation between the <<observation>> and the <<media-file,media file(s)>> on which it is based. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {observations-observationID}, but the relationship between {observations} and {media} can be established in several ways: either directly via {observations-mediaID} or by selecting media that have the same {media-deploymentID} as the observation and a {media-timestamp} that falls between the {observations-eventStart} and {observations-eventEnd} of the observation."
-msgstr ""
+msgstr "Una clave foránea para el <<section-occurrenceid,IDdeOcurrencia>> en el {occurrence-core}, para indicar la relación entre la <<observation,observación >> y los <<media-file,archivos multimedia>> en los que se basa. Este término puede contener duplicados, ya que esta es una relación de muchos-a-muchos (ver nota en la <<section-ac-extension>>). En Camtrap DP, este término se corresponde con {observations-observationID}, pero la relación entre {observations} y {media} puede establecerse de varias maneras: ya sea directamente a través de {observations-mediaID} o seleccionando archivos que tienen el mismo {media-deploymentID} como la observación y un {media-timestamp} que cae entre las {observations-eventStart} and {observations-eventEnd} de la observación."
 
 #. type: Title =====
 #: 400.en.adoc:815
@@ -3835,7 +3870,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:820
 msgid "An identifier for the <<media-file,media file>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {media-mediaID}."
-msgstr ""
+msgstr "Un identificador para el <<media-file,archivo multimedia>>. Utilice un <<section-stable-unique-identifiers,identificador único estable>>. Este término puede contener duplicados, ya que esta es una relación de muchos-a-muchos (ver nota en la <<section-ac-extension>>). En Camtrap DP, este término se corresponde con {media-mediaID}."
 
 #. type: Plain text
 #: 400.en.adoc:825
@@ -3845,7 +3880,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:827
 msgid "The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage` for <<video,videos>>. Do not use https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type], because that term expects a URL value."
-msgstr ""
+msgstr "La naturaleza del recurso. Utilice `StillImage` para <<image,imágenes>>, `MovingImage` para <<video,videos>>. No utilice https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type], porque ese término espera un valor URL."
 
 #. type: Title =====
 #: 400.en.adoc:829
