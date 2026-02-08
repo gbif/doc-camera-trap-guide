@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 15:23\n"
+"PO-Revision-Date: 2026-02-08 16:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4510,7 +4510,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:91
 msgid "Function carried out by a <<participant>> in a <<project>>, such as project lead, data manager or volunteer <<classification,classifying>> media. Participants can have multiple roles and roles are typically associated with different rights in a <<data-management-system,data management system>> (e.g. the right to invite new participants). Also referred to as `participant type`. {package-contributors-role} in Camtrap DP. See also <<section-participants-and-roles>>."
-msgstr ""
+msgstr "Función llevada a cabo por un <<participant,participante>> en un <<project,proyecto>>, por ejemplo, un líder de proyecto, gestor de datos o voluntario que <<classification,clasificó>> los medios. Los participantes pueden tener múltiples roles y los roles se asocian normalmente con diferentes derechos en un <<data-management-system,sistema de gestión de datos>> (p. ej., el derecho de invitar a nuevos participantes). También se conoce como `tipo de participante`. {package-contributors-role} en Camtrap DP. Ver también la <<section-participants-and-roles>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:92
@@ -4521,7 +4521,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:93
 msgid "Scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. {package-project} in Camtrap DP, where a dataset is associated with one and only one project. See also <<section-project-metadata>>."
-msgstr ""
+msgstr "Investigación científica realizada por un número de <<participant,participantes>>, con un objetivo, metodología y alcance taxonómico, espacial y temporal definidos. El objetivo de los proyectos de cámaras trampa es normalmente estudiar y entender la vida salvaje. También nombrado `estudio`. {package-project} en Camtrap DP, donde un conjunto de datos está asociado con un y sólo un proyecto. Ver también la <<section-project-metadata>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:94
@@ -4532,7 +4532,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:95
 msgid "Predefined duration after a <<trigger>> when <<activity>> detected by the camera sensor is ignored. {deployments-cameraDelay} in Camtrap DP."
-msgstr ""
+msgstr "Duración predefinida después de un <<trigger,disparo>> cuando la <<activity,actividad>> detectada por el sensor de la cámara es ignorada. {deployments-cameraDelay} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:96
