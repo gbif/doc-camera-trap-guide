@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 02:49\n"
+"PO-Revision-Date: 2026-02-08 03:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -155,7 +155,7 @@ msgstr "Las plataformas especializadas de gestión de datos ahora se utilizan pr
 #. type: Plain text
 #: 100.en.adoc:13
 msgid "<<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media"
-msgstr "La <<inteligencia artificial>> (IA) y la <<computación en la nube>> se utilizan cada vez más para automatizar el <<reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
+msgstr "La <<AI,inteligencia artificial>> (IA) y la <<cloud-computingcomputación en la nube>> se utilizan cada vez más para automatizar el <<species-recognition,reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
 
 #. type: Plain text
 #: 100.en.adoc:14
@@ -3654,7 +3654,7 @@ msgstr "term:dwc[dwc:identifiedBy]"
 #. type: Plain text
 #: 400.en.adoc:696
 msgid "The person or <<AI,species classification model>> that identified the observed <<individual,individual(s)>> and assigned the <<section-scientificname,scientificName>>. We recommend providing a single name: that of the person or model that made the (most recent) classification. Although <<classification,classifying>> can be broader than assigning a scientific name, it is likely to involve that aspect for <<observation-type,animal observations>>. Note that this term contains <<section-personal-data,personal data>>. In Camtrap DP, this term corresponds with {observations-classifiedBy}."
-msgstr ""
+msgstr "La persona o <<AI,modelo de clasificación de especie>> que identificó a los <<individual,individuos>> observados y le asignó el <section-scientificname,nombreCientífico>>. Recomendamos proporcionar un nombre único: el de la persona o modelo que hizo la clasificación (más reciente). Aunque <<classification,clasificar>> puede ser más amplio que asignar un nombre científico, es probable que involucre ese aspecto para <<observation-type,observaciones animales>>. Tenga en cuenta que este término contiene <<section-personal-data,datos personales>>. En Camtrap DP, este término corresponde a {observations-classifiedBy}."
 
 #. type: delimited block -
 #: 400.en.adoc:703
@@ -3662,7 +3662,9 @@ msgstr ""
 msgid "Peter Desmet\n"
 "Western Europe species model Version 1\n"
 "anonymized:3eb30aa\n"
-msgstr ""
+msgstr "Peter Desmet\n"
+"Modelo de especies de Europa occidental versión 1\n"
+"anonimizado:3eb30aa\n"
 
 #. type: Title =====
 #: 400.en.adoc:706
@@ -3673,7 +3675,7 @@ msgstr "fechaIdentificada"
 #. type: Plain text
 #: 400.en.adoc:709
 msgid "term:dwc[dwc:dateIdentified]"
-msgstr ""
+msgstr "term:dwc[dwc:dateIdentified]"
 
 #. type: Plain text
 #: 400.en.adoc:711
