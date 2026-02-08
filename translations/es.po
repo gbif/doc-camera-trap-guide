@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 14:24\n"
+"PO-Revision-Date: 2026-02-08 15:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3896,7 +3896,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:834
 msgid "The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceremarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favorite}."
-msgstr ""
+msgstr "Los comentarios o las notas sobre el archivo multimedia. En contraste con <<section-eventremarks,observacionesDelEvento>> y <<section-occurrenceremarks,observacionesDeOcurrencia>>, las notas sobre los propios archivos multimedia rara vez se registran en <<data-management-system,sistemas de gestión de datos>>. El término podría utilizarse para indicar si un archivo multimedia fue marcado como favorito o digno de atención. En Camtrap DP, este término corresponde a {media-mediaComments} y se relaciona con {media-favorite}."
 
 #. type: Title =====
 #: 400.en.adoc:836
@@ -3912,7 +3912,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:841
 msgid "The licence under which the media file is shared. Note that this applies to file referenced in <<section-ac-accessuri,accessURI>>, not the data in the {ac-extension} (these fall under the dataset license). We recommend using the same license for all media files. To enable wide use, we recommend publishing media files under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] or https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International license] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode` or `https://creativecommons.org/licenses/by/4.0/legalcode` respectively. Do not use https://ac.tdwg.org/termlist/#dc_rights[**dc**:rights], because that term expects a literal value (the full-text copyright statement). In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `media` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
-msgstr ""
+msgstr "La licencia bajo la cual se comparte el archivo multimedia. Tenga en cuenta que esto aplica al archivo referenciado en <<section-ac-accessuri,accessURI>>, no los datos en la {ac-extension} (estos caen bajo la licencia de conjunto de datos). Recomendamos utilizar la misma licencia para todos los archivos multimedia. Para permitir un uso amplio, recomendamos publicar archivos multimedia bajo una exención https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Cero] o https://creativecommons.org/licenses/by/4.0/[Creative Commons Atribution 4.0 Internacional license] y proporcionarla como una URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode` o https://creativecommons.org/licenses/by/4.0/legalcode respectivamente. No utilizar https://ac. dwg.org/termlist/#dc_rights[**dc**:rights], ya que ese término espera un valor literal (la declaración de derechos de autor de texto completo). En Camtrap DP, este término corresponde a la `ruta` de la licencia que tiene el `multimedia` del ámbito en el {package-licenses}, aunque allí se especifica para el conjunto de datos en lugar de por registro."
 
 #. type: Title =====
 #: 400.en.adoc:843
@@ -3928,7 +3928,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:848
 msgid "The date-time on which the media file was created. This information is typically extracted from the <<EXIF>> metadata by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {media-timestamp}."
-msgstr ""
+msgstr "La fecha-hora en la que se creó el archivo multimedia. Esta información normalmente se extrae de los metadatos <<EXIF>> por el <<data-management-system,sistema de gestión de datos>>. Escriba las marcas de tiempo en formato ISO 8601 (`AAAA-MM-DDTHH:MM:SS`), e incluya la zona horaria (`+02:00`) o convierta e indique como UTC (`Z`). En Camtrap DP, este término corresponde con {media-timestamp}."
 
 #. type: Title =====
 #: 400.en.adoc:850
@@ -3944,7 +3944,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:855
 msgid "The device(s) used to create the media file. We recommend providing the <<camera>> make and model (e.g. `Reconyx-HF2X`). In Camtrap DP, this term corresponds with {deployments-cameraModel}."
-msgstr ""
+msgstr "Los dispositivos utilizados para crear el archivo multimedia. Recomendamos proporcionar la marca y el modelo de la <<camera,cámara>> (p. ej., `Reconyx-HF2X`). En Camtrap DP, este término corresponde con {deployments-cameraModel}."
 
 #. type: Title =====
 #: 400.en.adoc:857
@@ -3960,7 +3960,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:862
 msgid "The method(s) used to create or alter the media file. We recommend using this term to provide the <<trigger>> method that was used to capture the media file, as controlled values: `activity detection` or `time lapse`. In Camtrap DP, this term corresponds with {media-captureMethod}."
-msgstr ""
+msgstr "Los métodos utilizados para crear o alterar el archivo multimedia. Recomendamos usar este término para proporcionar el método <<trigger,disparador>> que fue usado para capturar el archivo multimedia, como valores controlados: `detección de actividad` o `intervalo de tiempo`. En Camtrap DP, este término corresponde con {media-captureMethod}."
 
 #. type: Title =====
 #: 400.en.adoc:864
@@ -3976,7 +3976,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:869
 msgid "The URI (Uniform Resource Identifier) that provides access to the media file. Although the term allows to point to relative <<file-path,file paths>> or offline storage, we strongly recommend to provide the http/https URL that serves the media file, if available (see <<section-storage>>). Use a http/https URL that serves the media file directly (not a HTML page embedding it), so it can be displayed on occurrence pages at GBIF.org. Camera trap images are typically small enough that it is not necessary to serve a reduced version of the file. In Camtrap DP, this term corresponds with {media-filePath}."
-msgstr ""
+msgstr "El URI (Identificador Uniforme de Recursos) que proporciona acceso al archivo multimedia. Aunque el término permite apuntar a las <<file-path,rutas de archivos>> relativa o almacenamiento sin conexión, recomendamos encarecidamente proporcionar la URL de http/https que sirve el archivo multimedia, si está disponible (ver la <<section-storage>>). Utilice una URL http/https que sirva el archivo multimedia directamente (no una página HTML que lo incruste), para que se pueda mostrar en las páginas de ocurrencia en GBIF.org. Las imágenes de cámaras trampa son típicamente lo suficientemente pequeñas como para que no sea necesario servir una versión reducida del archivo. En Camtrap DP, este término corresponde a {media-filePath}."
 
 #. type: Title =====
 #: 400.en.adoc:871
@@ -3992,7 +3992,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:876
 msgid "The service expectations users may have of the <<section-ac-accessuri,accessURI>>. We recommend using the controlled values `online` for media files that are publicly accessible over http/https and `authenticate` for media files that are kept private over http/https (see <<section-sensitive-media-files>>). In Camtrap DP, these values related to `TRUE` and `FALSE` respectively in {media-filePublic}."
-msgstr ""
+msgstr "Las expectativas de servicio que los usuarios pueden tener del <<section-ac-accessuri,accessURI>>. Recomendamos utilizar los valores controlados `en línea` para archivos multimedia accesibles públicamente a través de http/https y `autenticar` para archivos multimedia que se mantienen privados sobre http/https (ver la <<section-sensitive-media-files>>). En Camtrap DP, estos valores relacionados con `TRUE [Verdadero]` y `FALSE [Falso]` respectivamente en {media-filePublic}."
 
 #. type: Title =====
 #: 400.en.adoc:878
@@ -4312,7 +4312,7 @@ msgstr "[[EXIF]]EXIF"
 #. type: Plain text
 #: glossary.en.adoc:55
 msgid "Exchangeable Image File Format. A format for storing metadata about a <<media-file,media file>> (e.g. creation date and time, format, resolution, shutter speed, exposure level, camera model), typically stored as part of the media file. {media-exifData} in Camtrap DP."
-msgstr ""
+msgstr "Formato de archivo de imagen intercambiable. Un formato para almacenar metadatos sobre un <<media-file,archivo multimedia>> (p. ej., fecha y hora de creación, formato, resolución, velocidad de obturación, nivel de exposición, modelo de cámara), normalmente almacenado como parte del archivo multimedia. {media-exifData} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:56
@@ -4356,7 +4356,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:63
 msgid "General Data Protection Regulation. A https://gdpr-info.eu/[European Union regulation] on information privacy, designed to enhance individuals' control and rights over their personal information. See <<section-personal-data>>."
-msgstr ""
+msgstr "Regulación General de Protección de Datos. Una https://gdpr-info.eu/[regulación de la Unión Europea] sobre la privacidad de la información, diseñada para mejorar el control y los derechos de las personas sobre su información personal. Vea la <<section-personal-data>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:64
@@ -4367,7 +4367,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:65
 msgid "Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat cite:[eunis-habitat,iucn-habitat] or vegetation type cite:[us-vegetation]. {deployments-habitat} in Camtrap DP."
-msgstr ""
+msgstr "Descripción categórica del medio ambiente y vegetación de una <<location,ubicación>>. Existen sistemas de clasificación para expresar hábitat cite:[eunis-habitat,iucn-habitat] o tipo de vegetación cite:[us-vegetation]. {deployments-habitat} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:66
@@ -4378,7 +4378,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:67
 msgid "Static <<media-file,media file>> recorded by a <<camera>>. Has no significant duration or audio."
-msgstr ""
+msgstr "<<media-file,Archivo multimedia>> estático grabado por una <<camera,cámara>>. No tiene duración significativa ni audio."
 
 #. type: Labeled list
 #: glossary.en.adoc:68
@@ -4389,7 +4389,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:69
 msgid "Minimum duration between consecutive <<trigger,triggers>> to be considered belonging to separate <<sequence,sequences>>. This duration (e.g. 120 seconds) can be defined in a <<data-management-system>> to automatically group <<media>> into sequences. This is different from the <<quiet-period,quiet period>>, which is a camera setting."
-msgstr ""
+msgstr "Duración mínima entre los <<trigger,disparos>> consecutivos para ser considerados pertenecientes a <<sequence,secuencias>> separadas. Esta duración (p. ej., 120 segundos) se puede definir en un <<data-management-system,sistema de gestión de datos>> para agrupar automáticamente <<media,archivos multimedia>> en secuencias. Esto es diferente del <<quiet-period,período de silencio>>, que es un ajuste de la cámara."
 
 #. type: Labeled list
 #: glossary.en.adoc:70
@@ -4411,7 +4411,7 @@ msgstr "[[ubicación]]ubicación"
 #. type: Plain text
 #: glossary.en.adoc:73
 msgid "Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` cite:[newkirk-2016], `station` cite:[berkel-2014,camera-trap-manager], `project station` cite:[wildcam-project] or `trap station` cite:[camelot]. Deployment location with a {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, and {deployments-coordinateUncertainty} in Camtrap DP. See also <<section-location>>."
-msgstr ""
+msgstr "Lugar físico donde se encuentra una <<camera,cámara>> <<deployment,desplegada>>. Una ubicación puede ser descrita con un nombre y/o identificador y coordenadas en un sistema de referencia determinado (por ejemplo, latitud y longitud decimal en WGS84). También conocido como `ubicación de la cámara` cite:[newkirk-2016], `estación` cite:[berkel-2014,camera-trap-manager], `estación de proyectos` cite:[wildcam-project] o `estación de trampas` cite:[camelot]. Ubicación de despliegue con un {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, y {deployments-coordinateUncertainty} en Camtrap DP. Ver también la <<section-location>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:74
@@ -4433,7 +4433,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:77
 msgid "<<media-file,Media files>> (plural) captured by a <<camera>>. Also referred to as `photos` cite:[newkirk-2016]. {media} in Camtrap DP."
-msgstr ""
+msgstr "<<media-file,Archivos multimedia>> (plural) capturados por una <<camera,cámara>>. También se conoce como `fotos` cite:[newkirk-2016]. {media} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:78
@@ -4444,7 +4444,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:79
 msgid "A (audio)visual file captured by a <<camera>>. Can be an <<image>> or <<video>>. A media file typically has an identifier, file name, timestamp when it was created and associated metadata (e.g. <<EXIF>>). To access a media file, one needs to know its <<file-path,file path>> and have the required access rights. Media with {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} in Camtrap DP. See also <<section-media-files>>."
-msgstr ""
+msgstr "Un archivo (audio)visual capturado por una <<camera,cámara>>. Puede ser una <<image,imagen>> o un <video>>. Un archivo multimedia normalmente tiene un identificador, nombre de archivo, marca de tiempo cuando fue creado y metadatos asociados (p. ej., <<EXIF>>). Para acceder a un archivo multimedia, uno necesita conocer su <<file-path,ruta de archivo>> y tener los derechos de acceso necesarios. Multimedia con {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} en Camtrap DP. Ver también la <<section-media-files>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:80
@@ -4455,7 +4455,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:81
 msgid "Standardized expression of a file format (e.g. `image/jpeg` for an <<image>>). Formerly known as MIME type. {media-fileMediatype} in Camtrap DP."
-msgstr ""
+msgstr "Expresión estandarizada de un formato de archivo (p. ej., `imagen/jpeg` para una <<image,imagen>>). Anteriormente conocido como tipo MIME. {media-fileMediatype} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:82
@@ -4466,7 +4466,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:83
 msgid "Result of a <<classification>>, i.e. a record of what can be seen or heard on <<media-file,media-files>>. Has an <<observation-type,observation type>> to differentiate between animal and other observations. {observations} in Camtrap DP. See also <<section-observations>>."
-msgstr ""
+msgstr "Resultado de una <<classification,clasificación>>, es decir, un registro de lo que se puede ver o escuchar en <<media-file,archivos multimedia>>. Tiene un <<observation-type,tipo de observación>> para diferenciar entre animales y otras observaciones. {observations} en Camtrap DP. Ver también la <<section-observations>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:84
@@ -4477,7 +4477,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:85
 msgid "Categorical description of the type of <<observation>>. Recorded as part of the <<classification>>, allowing to differentiate between <<blank,blanks>>, observations of humans or vehicles and animal observations. {observations-observationType} in Camtrap DP."
-msgstr ""
+msgstr "Descripción categórica del tipo de <<observation,observación>>. Registrado como parte de la <<classification,clasificación>>, permitiendo diferenciar entre <<blank,espacios en blanco>>, observaciones de seres humanos o vehículos y observaciones animales. {observations-observationType} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:86
@@ -4488,7 +4488,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:87
 msgid "Entity comprising one or more people that share a particular purpose, such as a company, institution, association or partnership. Organizations can be directly associated with a <<project>> (e.g. as rights holder, publisher) or indirectly via the affiliation of the project <<participant,participants>>. An organization is a {package-contributors} in Camtrap DP."
-msgstr ""
+msgstr "Entidad compuesta por una o más personas que comparten un propósito particular, como empresa, institución, asociación o sociedad. Las organizaciones se pueden asociar directamente con un <<project,proyecto>> (p. ej., como tenedor de derechos, publicista) o indirectamente a través de la afiliación de los <<participant,participantes>> del proyecto. Una organización es un {package-contributors} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:88
@@ -4499,7 +4499,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:89
 msgid "Person associated with a <<project>>, performing out one or more <<role,roles>>. Participant information typically includes name and contact information and is subject to <<GDPR>>. <<organization,Organizations>> can also be considered participants. Also referred to as `contributor`, sometimes `user`. A participant is a {package-contributors} in Camtrap DP. See also <<section-participants-and-roles>>."
-msgstr ""
+msgstr "Persona asociada con un <<project,proyecto>>, realizando uno o más <<role,roles>>. La información del participante normalmente incluye el nombre y la información de contacto y está sujeta a <<GDPR,RGPD>>. Las <<organization,organizaciones>> también pueden ser consideradas participantes. También nombrado `contribuidor`, a veces `usuario`. Un participante es un {package-contributors} en Camtrap DP. Ver también la <<section-participants-and-roles>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:90
