@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 21:37\n"
+"PO-Revision-Date: 2026-02-08 23:36\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -556,7 +556,7 @@ msgstr "Alcance temporal resultante"
 #. type: Plain text
 #: 300.en.adoc:51
 msgid "Classification method (experts, <<section-citizen-science,crowdsourcing>>, <<section-artificial-intelligence,AI>>)"
-msgstr "Método de clasificación (expertos, <<section-citizen-science,crowdsourcing>>, <<section-artificial-intelligence,AI>>)"
+msgstr "Método de clasificación (expertos, <<section-citizen-science,colaboración abierta>>, <<section-artificial-intelligence,IA>>)"
 
 #. type: Plain text
 #: 300.en.adoc:52
