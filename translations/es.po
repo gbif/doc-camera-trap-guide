@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 01:49\n"
+"PO-Revision-Date: 2026-02-08 02:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3589,7 +3589,7 @@ msgstr "term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]"
 #. type: Plain text
 #: 400.en.adoc:668
 msgid "The geographic latitude and longitude of the <<location>>, in decimal degrees. Latitude values lie between -90 and 90, longitude values between -180 and 180. For camera trap studies, these are typically obtained by GPS and recorded in the <<data-management-system,data management system>>. We recommend providing the coordinates as stored in the data management system, unless they need to be rounded/generalization to protect <<section-sensitive-location-information,sensitive information>>. In Camtrap DP, these terms correspond with {deployments-latitude} and {deployments-longitude} respectively."
-msgstr ""
+msgstr "La latitud y longitud geográfica de la <<location>>, en grados decimales. Los valores de latitud están entre -90 y 90, valores de longitud están entre -180 y 180. Para los estudios de cámaras trampa, estos se obtienen normalmente por GPS y se registran en el <<data-management-system,data management system>>. Recomendamos proporcionar las coordenadas almacenadas en el sistema de gestión de datos, a menos que necesiten redondearse/generalizarse para proteger <<section-sensitive-location-information,sensitive information>>. En Camtrap DP, estos términos corresponden a {deployments-latitude} y {deployments-longitude} respectivamente."
 
 #. type: Title =====
 #: 400.en.adoc:670
@@ -3605,7 +3605,7 @@ msgstr "term:dwc[dwc:geodeticDatum] (Dato geodésico)"
 #. type: Plain text
 #: 400.en.adoc:675
 msgid "The spatial reference system used for the geographic <<section-decimallatitude-decimallongitude,coordinates>>. For coordinates obtained by GPS this is typically `EPSG:4326` (i.e. `WGS84`) cite:[chapman-wieczorek-2020]. In Camtrap DP, WGS84 is implied for the terms {deployments-latitude} and {deployments-longitude}."
-msgstr ""
+msgstr "El sistema de referencia espacial utilizado para las <<section-decimallatitude-decimallongitude,coordinates>> geográficas. Para las coordenadas obtenidas por GPS, esto es normalmente `EPSG:4326` (es decir, `WGS84`) cite:[chapman-wieczorek-2020]. En Camtrap DP, WGS84 se implica para los términos {deployments-latitude} y {deployments-longitude}."
 
 #. type: Title =====
 #: 400.en.adoc:677
@@ -3621,7 +3621,8 @@ msgstr "term:dwc[dwc:coordinateUncertaintyInMeters] (Incertidumbre de las coorde
 #. type: Plain text
 #: 400.en.adoc:682
 msgid "The horizontal distance (in metres) from the geographic <<section-decimallatitude-decimallongitude,coordinates>> describing the smallest circle containing the <<location>>. We recommend `30` meters as reasonable lower limit for coordinates obtained by GPS, but see <<section-location>> for details on what elements contribute to the uncertainty. <<section-sensitive-location-information,Generalized/rounded>> coordinates in particular will increase the term:dwc[dwc:coordinateUncertaintyInMeters]. In Camtrap DP, this term corresponds with {deployments-coordinateUncertainty}."
-msgstr ""
+msgstr "La distancia horizontal (en metros) desde las <<section-decimallatitude-decimallongitude,coordinates>> geográficas describen el círculo más pequeño que contiene la <<location>>. Recomendamos `30` metros como límite inferior razonable para las coordenadas obtenidas por GPS, pero consulte <<section-location>> para detalles sobre qué elementos contribuyen a la incertidumbre. Las coordenadas <<section-sensitive-location-information,Generalized/rounded>> en particular aumentarán la term:dwc[dwc:coordinateUncertaintyInMeters].\n"
+"En Camtrap DP, este término se corresponde con {deployments-coordinateUncertainty}."
 
 #. type: Title =====
 #: 400.en.adoc:684
@@ -3637,7 +3638,7 @@ msgstr "term:dwc[dwc:coordinatePrecision] (Precisión de las coordenadas)"
 #. type: Plain text
 #: 400.en.adoc:689
 msgid "The decimal precision of the geographic <<section-decimallatitude-decimallongitude,coordinates>>>, if known. This information is known and we recommend providing it for <<section-sensitive-location-information,generalized/rounded>> coordinates (e.g. `0.001` for coordinates that were rounded to 3 decimals). In Camtrap DP, this term corresponds with {package-coordinatePrecision}, although there it is specified for the dataset as whole, rather than per record."
-msgstr ""
+msgstr "La precisión decimal de las <<section-decimallatitude-decimallongitude,coordinates>>> geográficas, si se conoce. Esta información es conocida y recomendamos proporcionarla para coordenadas <<section-sensitive-location-information,generalized/rounded>> (p. ej., `0,001` para las coordenadas que fueron redondeadas a 3 decimales). En Camtrap DP, este término se corresponde con {package-coordinatePrecision}, aunque allí se especifica para el conjunto de datos en lugar de por registro."
 
 #. type: Title =====
 #: 400.en.adoc:691
@@ -3648,7 +3649,7 @@ msgstr "identificadoPor"
 #. type: Plain text
 #: 400.en.adoc:694
 msgid "term:dwc[dwc:identifiedBy]"
-msgstr ""
+msgstr "term:dwc[dwc:identifiedBy]"
 
 #. type: Plain text
 #: 400.en.adoc:696
