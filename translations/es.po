@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 18:09\n"
+"PO-Revision-Date: 2026-02-08 19:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3691,7 +3691,7 @@ msgstr "comentariosSobreLaIdentificación"
 #. type: Plain text
 #: 400.en.adoc:716
 msgid "term:dwc[dwc:identificationRemarks]"
-msgstr ""
+msgstr "term:dwc[dwc:identificationRemarks]"
 
 #. type: Plain text
 #: 400.en.adoc:718
@@ -3703,7 +3703,8 @@ msgstr "Los comentarios o notas sobre la identificación. Recomendamos utilizar 
 #, no-wrap
 msgid "classified by a human\n"
 "classified by a machine with a degree of certainty of 89%\n"
-msgstr ""
+msgstr "clasificado por un humano\n"
+"clasificado por una máquina con un grado de certeza de 89%"
 
 #. type: Title =====
 #: 400.en.adoc:727
@@ -3714,7 +3715,7 @@ msgstr "ID de taxón"
 #. type: Plain text
 #: 400.en.adoc:730
 msgid "term:dwc[dwc:taxonID]"
-msgstr ""
+msgstr "term:dwc[dwc:taxonID]"
 
 #. type: Plain text
 #: 400.en.adoc:732
@@ -3730,7 +3731,7 @@ msgstr "scientificName"
 #. type: Plain text
 #: 400.en.adoc:737
 msgid "term:dwc[dwc:scientificName]"
-msgstr ""
+msgstr "term:dwc[dwc:scientificName]"
 
 #. type: Plain text
 #: 400.en.adoc:739
@@ -3746,7 +3747,7 @@ msgstr "reino"
 #. type: Plain text
 #: 400.en.adoc:744
 msgid "term:dwc[dwc:kingdom]"
-msgstr ""
+msgstr "term:dwc[dwc:kingdom]"
 
 #. type: Plain text
 #: 400.en.adoc:746
@@ -3865,7 +3866,7 @@ msgstr "identificador"
 #. type: Plain text
 #: 400.en.adoc:818
 msgid "https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]"
 
 #. type: Plain text
 #: 400.en.adoc:820
@@ -3875,7 +3876,7 @@ msgstr "Un identificador para el <<media-file,archivo multimedia>>. Utilice un <
 #. type: Plain text
 #: 400.en.adoc:825
 msgid "https://ac.tdwg.org/termlist/#dc_type[dc:type]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#dc_type[dc:type]"
 
 #. type: Plain text
 #: 400.en.adoc:827
@@ -3891,7 +3892,7 @@ msgstr "comentarios"
 #. type: Plain text
 #: 400.en.adoc:832
 msgid "https://ac.tdwg.org/termlist/#ac_comments[ac:comments]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_comments[ac:comments]"
 
 #. type: Plain text
 #: 400.en.adoc:834
@@ -3907,7 +3908,7 @@ msgstr "derechos"
 #. type: Plain text
 #: 400.en.adoc:839
 msgid "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
 
 #. type: Plain text
 #: 400.en.adoc:841
@@ -3923,7 +3924,7 @@ msgstr "fechaDeCreación"
 #. type: Plain text
 #: 400.en.adoc:846
 msgid "https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]"
 
 #. type: Plain text
 #: 400.en.adoc:848
@@ -3939,7 +3940,7 @@ msgstr "dispositivoDeCaptura"
 #. type: Plain text
 #: 400.en.adoc:853
 msgid "https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]"
 
 #. type: Plain text
 #: 400.en.adoc:855
@@ -3955,7 +3956,7 @@ msgstr "técnicaDeCreaciónDeRecurso"
 #. type: Plain text
 #: 400.en.adoc:860
 msgid "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]"
 
 #. type: Plain text
 #: 400.en.adoc:862
@@ -3971,7 +3972,7 @@ msgstr "accesoURI"
 #. type: Plain text
 #: 400.en.adoc:867
 msgid "https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]"
 
 #. type: Plain text
 #: 400.en.adoc:869
@@ -3987,7 +3988,7 @@ msgstr "expectativaDeServicio"
 #. type: Plain text
 #: 400.en.adoc:874
 msgid "https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]"
 
 #. type: Plain text
 #: 400.en.adoc:876
@@ -4003,7 +4004,7 @@ msgstr "formato"
 #. type: Plain text
 #: 400.en.adoc:881
 msgid "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
 
 #. type: Plain text
 #: 400.en.adoc:883
@@ -4587,7 +4588,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:105
 msgid "The act of deploying a <<camera>> in the field. Involves <<alignment>>, defining the camera settings and securing the camera to ensure optimal data captures. {observations-cameraSetupType} in Camtrap DP."
-msgstr ""
+msgstr "El acto de desplegar una <<camera,cámara>> en el campo. Involucra <<alignment,alineación>>, define los ajustes de la cámara y asegura la cámara para asegurar capturas de datos óptimas {observations-cameraSetupType} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:106
