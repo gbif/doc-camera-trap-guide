@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 00:21\n"
+"PO-Revision-Date: 2026-02-08 01:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3557,34 +3557,34 @@ msgstr "term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]"
 #. type: Plain text
 #: 400.en.adoc:654
 msgid "The depth (in meters) below the local surface. For (marine) camera trap studies, this is the <<camera-depth,depth>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraDepth}."
-msgstr ""
+msgstr "La profundidad (en metros) debajo de la superficie local. Para estudios de cámara trampa (marinos), esta es la <<camera-depth,depth>> a la que se despliega la <<camera>>. Recomendamos proporcionar una <<camera-depth,camera depth> o <<camera-height,camera height>>, no ambos. En Camtrap DP, este término corresponde a {deployments-cameraDepth}."
 
 #. type: Title =====
 #: 400.en.adoc:656
 #, no-wrap
 msgid "minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters"
-msgstr ""
+msgstr "minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters"
 
 #. type: Plain text
 #: 400.en.adoc:659
 msgid "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]"
 
 #. type: Plain text
 #: 400.en.adoc:661
 msgid "The height (in meters) above a reference surface. For camera trap studies, this is the <<camera-height,height>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraHeight}."
-msgstr ""
+msgstr "La altura (en metros) sobre una superficie de referencia. Para estudios de cámara trampa, esta es la <<camera-height,height>> a la que se despliega la <<camera>>. Recomendamos proporcionar una <<camera-depth,camera depth>> o <<camera-height,camera height>>, no ambos. En Camtrap DP, este término corresponde a {deployments-cameraHeight}."
 
 #. type: Title =====
 #: 400.en.adoc:663
 #, no-wrap
 msgid "decimalLatitude & decimalLongitude"
-msgstr ""
+msgstr "decimalLatitude & decimalLongitude"
 
 #. type: Plain text
 #: 400.en.adoc:666
 msgid "term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]"
-msgstr ""
+msgstr "term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]"
 
 #. type: Plain text
 #: 400.en.adoc:668
