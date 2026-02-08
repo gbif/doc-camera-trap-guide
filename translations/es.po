@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 20:10\n"
+"PO-Revision-Date: 2026-02-08 21:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4324,35 +4324,35 @@ msgstr "[[FAIR]]FAIR"
 #. type: Plain text
 #: glossary.en.adoc:57
 msgid "FAIR (meta)data are (meta)data that meet the principles of findability, accessibility, interoperability and reusability. The FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. See citenp:[wilkinson-2016]."
-msgstr ""
+msgstr "Los (meta)datos FAIR son (meta)datos que cumplen con los principios de ser localizables, accesibles, interoperables y reutilizables. Los principios FAIR ponen especial énfasis en mejorar la capacidad de las máquinas para encontrar y utilizar automáticamente los datos además de apoyar su reutilización por individuos. Ver citenp:[wilkinson-2016]."
 
 #. type: Labeled list
 #: glossary.en.adoc:58
 #, no-wrap
 msgid "[[feature-type]]feature type"
-msgstr ""
+msgstr "[[feature-type]]tipo de característica"
 
 #. type: Plain text
 #: glossary.en.adoc:59
 msgid "Categorical description of a particular physical feature targeted during the deployment, such as burrow, nest site, or water source. {deployments-featureType} in Camtrap DP."
-msgstr ""
+msgstr "Descripción categórica de una característica física específica durante el despliegue, como madriguera, sitio de anidación o fuente de agua. {deployments-featureType} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:60
 #, no-wrap
 msgid "[[file-path]]file path"
-msgstr ""
+msgstr "[[file-path]]ruta del archivo"
 
 #. type: Plain text
 #: glossary.en.adoc:61
 msgid "String describing the location of a file in a storage system (e.g. `data/deployments.csv`). When served over http/https, the domain name and file path constitute the file URL (e.g. `https://raw.githubusercontent.com/tdwg/camtrap-dp/main/example/deployments.csv`)."
-msgstr ""
+msgstr "Serie que describe la ubicación de un archivo en un sistema de almacenamiento (p. ej., `data/deployments.csv`). Cuando se proporciona a través de http/https, el nombre de dominio y la ruta del archivo constituyen la URL del archivo (por ejemplo, `https://raw.githubusercontent.com/tdwg/camtrap-dp/main/example/deployments.csv`)."
 
 #. type: Labeled list
 #: glossary.en.adoc:62
 #, no-wrap
 msgid "[[GDPR]]GDPR"
-msgstr ""
+msgstr "[[GDPR]]RGPD"
 
 #. type: Plain text
 #: glossary.en.adoc:63
@@ -4363,7 +4363,7 @@ msgstr "Regulación General de Protección de Datos. Una https://gdpr-info.eu/[r
 #: glossary.en.adoc:64
 #, no-wrap
 msgid "[[habitat-type]]habitat type"
-msgstr ""
+msgstr "[[habitat-type]]tipo de hábitat"
 
 #. type: Plain text
 #: glossary.en.adoc:65
@@ -4374,7 +4374,7 @@ msgstr "Descripción categórica del medio ambiente y vegetación de una <<locat
 #: glossary.en.adoc:66
 #, no-wrap
 msgid "[[image]]image"
-msgstr ""
+msgstr "[[image]]imagen"
 
 #. type: Plain text
 #: glossary.en.adoc:67
@@ -4385,7 +4385,7 @@ msgstr "<<media-file,Archivo multimedia>> estático grabado por una <<camera,cá
 #: glossary.en.adoc:68
 #, no-wrap
 msgid "[[independence-interval]]independence interval"
-msgstr ""
+msgstr "[[independence-interval]]intervalo de independencia"
 
 #. type: Plain text
 #: glossary.en.adoc:69
@@ -4396,7 +4396,7 @@ msgstr "Duración mínima entre los <<trigger,disparos>> consecutivos para ser c
 #: glossary.en.adoc:70
 #, no-wrap
 msgid "[[individual]]individual"
-msgstr ""
+msgstr "[[individual]]individuo"
 
 #. type: Plain text
 #: glossary.en.adoc:71
@@ -4418,18 +4418,18 @@ msgstr "Lugar físico donde se encuentra una <<camera,cámara>> <<deployment,des
 #: glossary.en.adoc:74
 #, no-wrap
 msgid "[[machine-learning]]machine learning"
-msgstr ""
+msgstr "[[machine-learning]]aprendizaje automático"
 
 #. type: Plain text
 #: glossary.en.adoc:75
 msgid "Computational technique that makes use of (training) data (e.g. https://lila.science/) and algorithms to imitate the way that humans learn, gradually improving accuracy."
-msgstr ""
+msgstr "Técnica computacional que hace uso de datos (entrenamiento) (p. ej., https://lila.science/) y algoritmos para imitar la manera en que los humanos aprenden, mejorando gradualmente la precisión."
 
 #. type: Labeled list
 #: glossary.en.adoc:76
 #, no-wrap
 msgid "[[media]]media"
-msgstr ""
+msgstr "[[media]]multimedia"
 
 #. type: Plain text
 #: glossary.en.adoc:77
@@ -4440,7 +4440,7 @@ msgstr "<<media-file,Archivos multimedia>> (plural) capturados por una <<camera,
 #: glossary.en.adoc:78
 #, no-wrap
 msgid "[[media-file]]media file"
-msgstr ""
+msgstr "[[media-file]]archivo multimedia"
 
 #. type: Plain text
 #: glossary.en.adoc:79
@@ -4451,7 +4451,7 @@ msgstr "Un archivo (audio)visual capturado por una <<camera,cámara>>. Puede ser
 #: glossary.en.adoc:80
 #, no-wrap
 msgid "[[media-type]]media type"
-msgstr ""
+msgstr "[[media-type]]tipo de medio"
 
 #. type: Plain text
 #: glossary.en.adoc:81
@@ -4462,7 +4462,7 @@ msgstr "Expresión estandarizada de un formato de archivo (p. ej., `imagen/jpeg`
 #: glossary.en.adoc:82
 #, no-wrap
 msgid "[[observation]]observation"
-msgstr ""
+msgstr "[[observation]]observación"
 
 #. type: Plain text
 #: glossary.en.adoc:83
@@ -4473,7 +4473,7 @@ msgstr "Resultado de una <<classification,clasificación>>, es decir, un registr
 #: glossary.en.adoc:84
 #, no-wrap
 msgid "[[observation-type]]observation type"
-msgstr ""
+msgstr "[[observation-type]]tipo de observación"
 
 #. type: Plain text
 #: glossary.en.adoc:85
@@ -4484,7 +4484,7 @@ msgstr "Descripción categórica del tipo de <<observation,observación>>. Regis
 #: glossary.en.adoc:86
 #, no-wrap
 msgid "[[organization]]organization"
-msgstr ""
+msgstr "[[organization]]organización"
 
 #. type: Plain text
 #: glossary.en.adoc:87
@@ -4495,7 +4495,7 @@ msgstr "Entidad compuesta por una o más personas que comparten un propósito pa
 #: glossary.en.adoc:88
 #, no-wrap
 msgid "[[participant]]participant"
-msgstr ""
+msgstr "[[participant]]participante"
 
 #. type: Plain text
 #: glossary.en.adoc:89
@@ -4506,7 +4506,7 @@ msgstr "Persona asociada con un <<project,proyecto>>, realizando uno o más <<ro
 #: glossary.en.adoc:90
 #, no-wrap
 msgid "[[role]]role"
-msgstr ""
+msgstr "[[role]]rol"
 
 #. type: Plain text
 #: glossary.en.adoc:91
@@ -4517,7 +4517,7 @@ msgstr "Función llevada a cabo por un <<participant,participante>> en un <<proj
 #: glossary.en.adoc:92
 #, no-wrap
 msgid "[[project]]project"
-msgstr ""
+msgstr "[[project]]proyecto"
 
 #. type: Plain text
 #: glossary.en.adoc:93
@@ -4528,7 +4528,7 @@ msgstr "Investigación científica realizada por un número de <<participant,par
 #: glossary.en.adoc:94
 #, no-wrap
 msgid "[[quiet-period]]quiet period"
-msgstr ""
+msgstr "[[quiet-period]]período de silencio"
 
 #. type: Plain text
 #: glossary.en.adoc:95
@@ -4539,18 +4539,18 @@ msgstr "Duración predefinida después de un <<trigger,disparo>> cuando la <<act
 #: glossary.en.adoc:96
 #, no-wrap
 msgid "[[sampling-design]]sampling design"
-msgstr ""
+msgstr "[[sampling-design]]diseño de muestreo"
 
 #. type: Plain text
 #: glossary.en.adoc:97
 msgid "Strategy for deploying cameras to facilitate a certain research purpose. Can be expressed as a categorical description (e.g. `simple random`, `systematic random`, `opportunistic`). {package-project-samplingDesign} in Camtrap DP."
-msgstr ""
+msgstr "Estrategia de despliegue de cámaras para facilitar un determinado propósito de investigación. Se puede expresar como una descripción categórica (p. ej., `simple aleatorio`, `sistemático aleatorio`, `oportunista`). {package-project-samplingDesign} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:98
 #, no-wrap
 msgid "[[sensitivity]]sensitivity"
-msgstr ""
+msgstr "[[sensitivity]]sensibilidad"
 
 #. type: Plain text
 #: glossary.en.adoc:99
@@ -4561,7 +4561,7 @@ msgstr "configuración de sensibilidad de <<trigger,activación>> utilizado en u
 #: glossary.en.adoc:100
 #, no-wrap
 msgid "[[sensor]]sensor"
-msgstr ""
+msgstr "[[sensor]]sensor"
 
 #. type: Plain text
 #: glossary.en.adoc:101
@@ -4572,7 +4572,7 @@ msgstr "Dispositivo que detecta cambios en el entorno, tales como movimiento, ca
 #: glossary.en.adoc:102
 #, no-wrap
 msgid "[[sequence]]sequence"
-msgstr ""
+msgstr "[[sequence]]secuencia"
 
 #. type: Plain text
 #: glossary.en.adoc:103
@@ -4583,7 +4583,7 @@ msgstr "Una serie de <<media-file,archivos multimedia>> tomados en rápida suces
 #: glossary.en.adoc:104
 #, no-wrap
 msgid "[[setup]]setup"
-msgstr ""
+msgstr "[[setup]]configuración"
 
 #. type: Plain text
 #: glossary.en.adoc:105
@@ -4594,7 +4594,7 @@ msgstr "El acto de desplegar una <<camera,cámara>> en el campo. Involucra <<ali
 #: glossary.en.adoc:106
 #, no-wrap
 msgid "[[site]]site"
-msgstr ""
+msgstr "[[site]]sitio"
 
 #. type: Plain text
 #: glossary.en.adoc:107
