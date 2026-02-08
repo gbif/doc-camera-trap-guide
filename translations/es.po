@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 16:57\n"
+"PO-Revision-Date: 2026-02-08 18:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4554,7 +4554,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:99
 msgid "<<trigger>> sensitivity setting used on a camera sensor."
-msgstr ""
+msgstr "configuración de sensibilidad de <<trigger,activación>> utilizado en un sensor de cámara."
 
 #. type: Labeled list
 #: glossary.en.adoc:100
@@ -4565,7 +4565,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:101
 msgid "Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli. Modern camera traps typically use an integrated passive infrared (PIR) sensor that is designed to detect <<activity>> based on a combination of heat and motion."
-msgstr ""
+msgstr "Dispositivo que detecta cambios en el entorno, tales como movimiento, calor, luz, sonido u otros estímulos. Las cámaras trampa modernas suelen usar un sensor integrado de infrarrojos pasivos (PIR) diseñado para detectar <<activity,actividad>> basado en una combinación de calor y movimiento."
 
 #. type: Labeled list
 #: glossary.en.adoc:102
@@ -4576,7 +4576,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:103
 msgid "Series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of an <<event>>. Also referred to as `series` cite:[wildtrax]."
-msgstr ""
+msgstr "Una serie de <<media-file,archivos multimedia>> tomados en rápida sucesión pero separados por un intervalo de tiempo menor que el <<independence-interval,intervalo de independencia>> establecido y que forma un registro animado de un <<event,evento>>. También se conoce como `serie` cite:[wildtrax]."
 
 #. type: Labeled list
 #: glossary.en.adoc:104
