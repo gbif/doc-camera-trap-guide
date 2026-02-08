@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 03:45\n"
+"PO-Revision-Date: 2026-02-08 13:15\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3680,7 +3680,7 @@ msgstr "term:dwc[dwc:dateIdentified]"
 #. type: Plain text
 #: 400.en.adoc:711
 msgid "The date or date-time on which the identification was made. We recommend providing a single timestamp: that of the <<classification>> made by the person or model indicated in <<section-identifiedby,identifiedBy>>. This information is typically recorded by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-classificationTimestamp}."
-msgstr ""
+msgstr "La fecha o fecha-hora en la que se realizó la identificación. Recomendamos proporcionar una única marca de tiempo: la de la <<classification,clasificación>> hecha por la persona o modelo indicados en <<section-identifiedby,identificado por>>. Esta información es normalmente registrada por el <<data-management-system,sistema de gestión de datos>>. Escriba las marcas de tiempo en formato ISO 8601 (`AAAA-MM-DDTHH:MM:SS`), e incluya la zona horaria (`+02:00`) o convierta e indique como UTC (`Z`). En Camtrap DP, este término corresponde con {observations-classificationTimestamp}."
 
 #. type: Title =====
 #: 400.en.adoc:713
@@ -3696,7 +3696,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:718
 msgid "The comments or notes about the identification. We recommend using this term to provide information on whether the <<classification>> was made by a human or <<AI,species classification model>> as well as the degree of certainty if available (often recorded for AI classification). In Camtrap DP, this term relates to {observations-classificationMethod} and {observations-classificationProbability}."
-msgstr ""
+msgstr "Los comentarios o notas sobre la identificación. Recomendamos utilizar este término para proporcionar información sobre si la <<classification,clasificación>> se hizo por un humano o <<AI,modelo de clasificación de especie>> así como el grado de seguridad si está disponible (a menudo registrado para clasificación de IA). En Camtrap DP, este término se relaciona \tcon {observations-classificationMethod} y {observations-classificationProbability}."
 
 #. type: delimited block -
 #: 400.en.adoc:724
@@ -3719,7 +3719,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:732
 msgid "An identifier for <<section-scientificname,scientificName>>. This identifier allows users to find all observations (and media) for a specific taxon. Use a <<section-stable-unique-identifiers,stable unique identifier>>, preferably one assigned by an <<table-taxon-reference-sources,authorative source>>. In Camtrap DP, this term corresponds with the `taxonID` of the corresponding taxon in {package-taxonomic}."
-msgstr ""
+msgstr "Un identificador para <<section-scientificname,nombreCientífico>>. Este identificador permite a los usuarios encontrar todas las observaciones (y archivos multimedia) para un taxón específico. Utilice un <<section-stable-unique-identifiers,identificador único estable>>, preferentemente uno asignado por una <<table-taxon-reference-sources,fuente autoritativa>>. En Camtrap DP, este término corresponde a la `IDdeTaxón` del taxón correspondiente en {package-taxonomic}."
 
 #. type: Title =====
 #: 400.en.adoc:734
@@ -3735,7 +3735,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:739
 msgid "The scientific name of the observed <<individual,individual(s)>>. In Camtrap DP, this term corresponds with {observations-scientificName}."
-msgstr ""
+msgstr "El nombre científico de los <<individual,individuos>> observados. En Camtrap DP, este término corresponde con {observations-scientificName}."
 
 #. type: Title =====
 #: 400.en.adoc:741
@@ -3751,7 +3751,7 @@ msgstr ""
 #. type: Plain text
 #: 400.en.adoc:746
 msgid "The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classifications>> of plants, fungi or other kingdoms."
-msgstr ""
+msgstr "El reino en el que el taxón con el que se clasifica el <<section-scientificname,nombreCientífico>>. Permite que servicios como https://www.gbif.org/developer/species[coincidencias de nombres de especies de GBIF] se desambigüen entre homónimos. Probablemente `Animalia` para todos los registros, ya que las cámaras trampa casi nunca contienen <<classification,clasificaciones>> de plantas, hongos u otros reinos."
 
 #. type: Title ====
 #: 400.en.adoc:748
@@ -3762,7 +3762,7 @@ msgstr "Extensión de Descripción Multimedia de Audubon"
 #. type: Plain text
 #: 400.en.adoc:751
 msgid "As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {ac-extension} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-ac-extension-terms>> for term recommendations."
-msgstr ""
+msgstr "Como se describe <<section-why-not-a-sampling-event-dataset,anteriormente>>, recomendamos usar una {ac-extension} para expresar los datos de la cámara trampa como un <<darwin-core-archive,Darwin Core Archive>>. Ver la <<table-ac-extension-terms>> para recomendaciones de términos."
 
 #. type: Plain text
 #: 400.en.adoc:753
