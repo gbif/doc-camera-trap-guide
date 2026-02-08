@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-07 23:20\n"
+"PO-Revision-Date: 2026-02-08 00:21\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2589,13 +2589,13 @@ msgstr "Con sus eventos jerárquicos (<<deployment,deployments>>, <<sequence,seq
 #. type: Plain text
 #: 400.en.adoc:135
 msgid "It unfortunately also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the {occurrence-extension} with an {ac-extension}. It is technically possible to link the {ac-extension} with the {event-core}, but the media would then not be linked to the occurrences and not appear on occurrence pages at GBIF.org. The only available option to express information about the media at an occurrence level would be to use term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s). License, media type, capture method, bounding boxes, etc. cannot be provided."
-msgstr ""
+msgstr "Desafortunadamente también **nos impide expresar información sobre los archivos <<media>> como una extensión**, ya que el diseño de un esquema estrella de <<darwin-core-archive,Darwin Core Archive>> no permite relacionar la {occurrence-extension} con una {ac-extension}. Es técnicamente posible vincular la {ac-extension} con el {event-core}, pero los archivos no estarían enlazados a las ocurrencias y no aparecerían en páginas de ocurrencia en GBIF.org. La única opción disponible para expresar información sobre los medios en un nivel de ocurrencia sería utilizar term:dwc[dwc:associatedMedia], que lo reduciría a una (lista de) URL. No se puede proporcionar licencia, tipo multimedia, método de captura, cajas de delimitación, etc."
 
 #. type: Block title
 #: 400.en.adoc:137
 #, no-wrap
 msgid "{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "{event-core} con datos de cámara trampa. Contiene tres tipos de eventos: un <<deployment>> (con una duración de días), una <<sequence>> (con una duración de segundos) y dos eventos basados en archivos  <<media>> (con una única marca de tiempo). Tenga en cuenta que la información de la ubicación es la misma para todos los eventos. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Fuente]."
 
 #. type: Table
 #: 400.en.adoc:171
@@ -2627,13 +2627,39 @@ msgid "|eventType\n"
 "|[.lime]#79204343#\n"
 "|2020-06-12T04:04:30Z\n"
 "|51.496, 4.774\n"
-msgstr ""
+msgstr "|eventType\n"
+"|eventID\n"
+"|parentEventID\n"
+"|eventDate\n"
+"|Location information\n\n"
+"|despliegue\n"
+"|[.aqua]#00a2c20d#\n"
+"|\n"
+"|2020-05-30T02:57:37Z/\n"
+"2020-07-01T09:41:41Z\n"
+"|51.496, 4.774\n\n"
+"|secuencia\n"
+"|[.lime]#79204343#\n"
+"|[.aqua]#00a2c20d#\n"
+"|2020-06-12T04:04:29Z/\n"
+"2020-06-12T04:04:55Z\n"
+"|51.496, 4.774\n\n"
+"|multimedia\n"
+"|[.red]#e68deaed#\n"
+"|[.lime]#79204343#\n"
+"|2020-06-12T04:04:29Z\n"
+"|51.496, 4.774\n\n"
+"|multimedia\n"
+"|[.fuchsia]#c5efbcb3#\n"
+"|[.lime]#79204343#\n"
+"|2020-06-12T04:04:30Z\n"
+"|51.496, 4.774\n"
 
 #. type: Block title
 #: 400.en.adoc:174
 #, no-wrap
 msgid "{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media-based>> classifications of _Anas platyrhynchos_ and one event-based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "{occurrence-extension} con datos de cámara trampa. Contiene tres observaciones: dos clasificaciones <<#section-media-or-event-based-classification,media-based>> de _Anas platyrhynchos_ y una clasificación basada en eventos de Ardea cinerea. La información sobre los archivos multimedia sólo se puede proporcionar en term:dwc[dwc:associatedMedia]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Fuente]."
 
 #. type: Table
 #: 400.en.adoc:197
@@ -2655,23 +2681,39 @@ msgid "|occurrenceID\n"
 "|Ardea cinerea\n"
 "|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \\|\n"
 "https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
-msgstr ""
+msgstr "|occurrenceID\n"
+"|eventID\n"
+"|scientificName\n"
+"|associatedMedia\n\n"
+"|e68deaed_2\n"
+"|[.red]#e68deaed#\n"
+"|Anas platyrhynchos\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file#\n\n"
+"|c5efbcb3_2\n"
+"|[.fuchsia]#c5efbcb3#\n"
+"|Anas platyrhynchos\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n\n"
+"|05230014\n"
+"|[.lime]#79204343#\n"
+"|Ardea cinerea\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \\|\n"
+"https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
 
 #. type: Plain text
 #: 400.en.adoc:200
 msgid "We therefore recommend expressing camera trap data as an Occurrence dataset with an {occurrence-core} and an {ac-extension} (see <<table-occurrence-core>> and <<table-ac-extension>>). This treats **media as primary data records**, which is important given that they are the evidence on which the observations are based. Event hierarchy can largely be retained as well, since the {occurrence-core} allows to group occurrences into events (term:dwc[dwc:eventID]) and parent events (term:dwc[dwc:parentEventID]). By providing the <<event>>/sequence identifier in term:dwc[dwc:eventID] and <<deployment>> identifier in term:dwc[dwc:parentEventID], observations can be grouped just like they would in an {event-core} and GBIF.org will automatically create event pages for those (see <<figure-example-event-page>>). Event duration information however cannot be provided, but <<section-eventdate,eventDate>> and <<section-samplingeffort,samplingEffort>> can retain most of it. Information about the deployment location, habitat, sampling protocol, etc. is repeated for every observation in the deployment."
-msgstr ""
+msgstr "Por lo tanto, recomendamos expresar los datos de las cámaras trampa como un conjunto de datos de Ocurrencia con un {occurrence-core} y una {ac-extension} (ver la <<table-occurrence-core>> y la <<table-ac-extension>>). Esto trata a los **archivos multimedia como registros de datos primarios**, que es importante dado que son la evidencia en la que se basan las observaciones. La jerarquía de eventos también se puede retener en gran medida, ya que el {occurrence-core} permite agrupar ocurrencias en eventos (term:dwc[dwc:eventID]) y eventos originales (term:dwc[dwc:parentEventID]). Al proporcionar el identificador <<event>>/secuencia en term:dwc[dwc:eventID] e identificador de <<deployment>> en term:dwc[dwc:parentEventID], las observaciones pueden agruparse como lo harían en un {event-core} y GBIF.org creará automáticamente páginas de eventos para ellos (ver la <<figure-example-event-page>>). Sin embargo, la información sobre la duración del evento no se puede proporcionar, pero la <<section-eventdate,eventDate>> y el <<section-samplingeffort,samplingEffort>> pueden retener la mayor parte de ella. La información sobre la ubicación de despliegue, el hábitat, el protocolo de muestreo, etc. se repite para cada observación en el despliegue."
 
 #. type: Plain text
 #: 400.en.adoc:202
 msgid "Term recommendations for the {occurrence-core} and {ac-extension} are provided in <<section-occurrence-core>> and <<section-ac-extension>> respectively."
-msgstr ""
+msgstr "Recomendaciones de términos para el {occurrence-core} y {ac-extension} se proporcionan en la <<section-occurrence-core>> y en la <<section-ac-extension>> respectivamente."
 
 #. type: Block title
 #: 400.en.adoc:204
 #, no-wrap
 msgid "{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "{occurrence-core} con datos de cámara trampa. Contiene las mismas tres observaciones que en la <<table-occurrence-extension>>. El identificador de evento/secuencia se proporciona en term:dwc[dwc:eventID], el identificador de despliegue en term:dwc[dwc:parentEventID]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Fuente]."
 
 #. type: Table
 #: 400.en.adoc:235
@@ -2701,13 +2743,37 @@ msgid "|occurrenceID\n"
 "|2020-06-12T04:04:29Z/\n"
 "2020-06-12T04:04:55Z\n"
 "|51.496, 4.774\n"
-msgstr ""
+msgstr "|occurrenceID\n"
+"|eventID\n"
+"|parentEventID\n"
+"|scientificName\n"
+"|eventDate\n"
+"|Location information\n\n"
+"|e68deaed_2\n"
+"|[.lime]#79204343#\n"
+"|[.aqua]#00a2c20d#\n"
+"|Anas platyrhynchos\n"
+"|2020-06-12T04:04:29Z\n"
+"|51.496, 4.774\n\n"
+"|c5efbcb3_2\n"
+"|[.lime]#79204343#\n"
+"|[.aqua]#00a2c20d#\n"
+"|Anas platyrhynchos\n"
+"|2020-06-12T04:04:30Z\n"
+"|51.496, 4.774\n\n"
+"|05230014\n"
+"|[.lime]#79204343#\n"
+"|[.aqua]#00a2c20d#\n"
+"|Ardea cinerea\n"
+"|2020-06-12T04:04:29Z/\n"
+"2020-06-12T04:04:55Z\n"
+"|51.496, 4.774\n"
 
 #. type: Block title
 #: 400.en.adoc:238
 #, no-wrap
 msgid "{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "La {ac-extension} con datos de la cámara trampa. Contiene los mismos dos archivos multimedia referenciados en la <<table-occurrence-extension>>, pero ahora permite compartir más información por archivo. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Fuente]."
 
 #. type: Table
 #: 400.en.adoc:275
@@ -2742,19 +2808,48 @@ msgid "|occurrenceID\n"
 "|2020-06-12T04:04:30Z\n"
 "|Reconyx-HF2X\n"
 "|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n"
-msgstr ""
+msgstr "|occurrenceID\n"
+"|identifier\n"
+"|accessURI\n"
+"|CreateDate\n"
+"|captureDevice\n"
+"|rights\n\n"
+"|e68deaed_2\n"
+"|[.red]#e68deaed#\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
+"|2020-06-12T04:04:29Z\n"
+"|Reconyx-HF2X\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n\n"
+"|c5efbcb3_2\n"
+"|[.fuchsia]#c5efbcb3#\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
+"|2020-06-12T04:04:30Z\n"
+"|Reconyx-HF2X\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n\n"
+"|05230014\n"
+"|[.red]#e68deaed#\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
+"|2020-06-12T04:04:29Z\n"
+"|Reconyx-HF2X\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n\n"
+"|05230014\n"
+"|[.fuchsia]#c5efbcb3#\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
+"|2020-06-12T04:04:30Z\n"
+"|Reconyx-HF2X\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n"
 
 #. type: Block title
 #: 400.en.adoc:277
 #, no-wrap
 msgid "Screenshot of an https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[event page] created by GBIF.org from information provided in an {occurrence-core} (based on row 3 in <<table-occurrence-core>>). Notice the event ID (a sequence) and parent event ID (a deployment)."
-msgstr ""
+msgstr "Captura de pantalla de una https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[página del evento] creada por GBIF.org a partir de la información proporcionada en un {occurrence-core} (basado en la fila 3 en la <<table-occurrence-core>>). Observe el ID de evento (una secuencia) y el ID de evento original (un despliegue)."
 
 #. type: Target for macro image
 #: 400.en.adoc:279
 #, no-wrap
 msgid "img/web/example-event-page.png"
-msgstr ""
+msgstr "img/web/example-event-page.png"
 
 #. type: Title ====
 #: 400.en.adoc:282
@@ -2765,18 +2860,18 @@ msgstr "Núcleo de registro"
 #. type: Plain text
 #: 400.en.adoc:285
 msgid "As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {occurrence-core} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-occurrence-core-terms>> for term recommendations. These recommendations align with the GBIF quality requirements for Occurrence datasets cite:[gbif-2020] and use the same terminology (Required, Strongly recommended, Share if available)."
-msgstr ""
+msgstr "Como se describe <<section-why-not-a-sampling-event-dataset,above>>, recomendamos usar un {occurrence-core} para expresar los datos de cámaras trampa como un <<darwin-core-archive,Darwin Core Archive>>. Ver la <<table-occurrence-core-terms>> para recomendaciones de términos. Estas recomendaciones se alinean con los requisitos de calidad de GBIF para los conjuntos de datos de Ocurrencia cite:[gbif-2020] y utilizan la misma terminología (Requerido, Muy recomendable, Compartir si está disponible)."
 
 #. type: Plain text
 #: 400.en.adoc:287
 msgid "Note that the {occurrence-core} should only contain <<observation-type,animal observations>>, so classifications of <<blank,blanks>>, vehicles and preferably <<section-sensitive-media-files,humans>> should be filtered out. The number of records will depend on the size of the study, the classification effort (are all media classified?), the classification precision (see <<table-classification-precision>>) and whether <<section-media-or-event-based-classification,media- or event-based classification>> was used. Especially media-based classifications can substantially increase the number of occurrences, with little added benefit for ecological research. <<camtrap-dp,Camtrap DP>> is designed for both, but when publishing as a Darwin Core Archive, we recommend only providing event-based observations if available."
-msgstr ""
+msgstr "Tenga en cuenta que el {occurrence-core} sólo debe contener <<observation-type,animal observations>>, de modo que las clasificaciones <<blank,blanks>>, vehículos y preferiblemente los <<section-sensitive-media-files,humans>> sean filtradas. El número de registros dependerá del tamaño del estudio, el esfuerzo de clasificación (¿todos los archivos están clasificados?), la precisión de clasificación (ver la <<table-classification-precision>>) y si se utilizó una <<section-media-or-event-based-classification,media- or event-based classification>>. Especialmente las clasificaciones basadas en los archivos multimedia pueden aumentar sustancialmente el número de ocurrencias con pocos beneficios adicionales para la investigación ecológica. <<camtrap-dp,Camtrap DP>> está diseñado para ambos, pero al publicar como un Darwin Core Archive, solo recomendamos proporcionar observaciones basadas en eventos si están disponibles."
 
 #. type: Block title
 #: 400.en.adoc:289
 #, no-wrap
 msgid "Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "Términos recomendados para utilizar cuando se expresan datos de cámaras trampa como un {occurrence-core}. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Fuente]."
 
 #. type: Table
 #: 400.en.adoc:455
@@ -2904,7 +2999,131 @@ msgid "|Term\n"
 "|<<section-kingdom,kingdom>>\n"
 "|Strongly recommended\n"
 "|Animalia\n"
-msgstr ""
+msgstr "|Término\n"
+"|Estado\n"
+"|Valor de ejemplo\n\n"
+"|<<section-type,type>>\n"
+"|Compartir si está disponible\n"
+"|Imagen estática\n\n"
+"|<<section-license,license>>\n"
+"|Compartir si está disponible\n"
+"|[.break-all]#https://creativecommons.org/publicdomain/zero/1.0/legalcode#\n\n"
+"|<<section-rightsholder,rightsHolder>>\n"
+"|Compartir si está disponible\n"
+"|INBO\n\n"
+"|<<section-datasetid-datasetname,datasetID>>\n"
+"|Compartir si está disponible\n"
+"|[.break-all]#7cca70f5-ef8c-4f86-85fb-8f070937d7ab#\n\n"
+"|<<section-collectioncode,collectionCode>>\n"
+"|Compartir si está disponible\n"
+"|Agouti\n\n"
+"|<<section-datasetid-datasetname,datasetName>>\n"
+"|Compartir si está disponible\n"
+"|Muestra de: MICA - Observaciones de las cámaras trampa sobre ratas almizcleras y nutrias en Bélgica, Países Bajos y Alemania\n\n"
+"|<<section-basisofrecord,basisOfRecord>>\n"
+"|Requerido\n"
+"|MachineObservation\n\n"
+"|<<section-datageneralizations,dataGeneralizations>>\n"
+"|Compartir si está disponible\n"
+"|coordinates rounded to 0.001 degree\n\n"
+"|<<section-occurrenceid,occurrenceID>>\n"
+"|Requerido\n"
+"|05230014\n\n"
+"|<<section-individualcount,individualCount>>\n"
+"|Muy recomendado\n"
+"|1\n\n"
+"|<<section-sex,sex>>\n"
+"|Compartir si está disponible\n"
+"|\n\n"
+"|<<section-lifestage,lifeStage>>\n"
+"|Compartir si está disponible\n"
+"|adulto\n\n"
+"|<<section-behavior,behavior>>\n"
+"|Compartir si está disponible\n"
+"|\n\n"
+"|<<section-occurrencestatus,occurrenceStatus>>\n"
+"|Muy recomendado\n"
+"|presente\n\n"
+"|<<section-occurrenceremarks,occurrenceRemarks>>\n"
+"|Compartir si está disponible\n"
+"|\n\n"
+"|<<section-organismid,organismID>>\n"
+"|Compartir si está disponible\n"
+"|\n\n"
+"|<<section-eventid,eventID>>\n"
+"|Muy recomendado\n"
+"|79204343\n\n"
+"|<<section-parenteventid,parentEventID>>\n"
+"|Muy recomendado\n"
+"|00a2c20d\n\n"
+"|<<section-eventdate,eventDate>>\n"
+"|Requerido\n"
+"|[.break-all]#2020-06-12T04:04:29Z/2020-06-12T04:04:55Z#\n\n"
+"|<<section-habitat,habitat>>\n"
+"|Compartir si está disponible\n"
+"|Área de Campine con una serie de valles fluviales con praderas valiosas\n\n"
+"|<<section-samplingprotocol,samplingProtocol>>\n"
+"|Muy recomendado\n"
+"|cámara trampa\n\n"
+"|<<section-samplingeffort,samplingEffort>>\n"
+"|Compartir si está disponible\n"
+"|[.break-all]#2020-05-30T02:57:37Z/2020-07-01T09:41:41Z#\n\n"
+"|<<section-eventremarks,eventRemarks>>\n"
+"|Compartir si está disponible\n"
+"|cámara trampa sin cebo cerca\n"
+"sendero de animales | etiquetas:posición:arriba\n"
+"arroyo\n\n"
+"|<<section-locationid,locationID>>\n"
+"|Compartir si está disponible\n"
+"|e254a13c\n\n"
+"|<<section-locality,locality>>\n"
+"|Compartir si está disponible\n"
+"|B_HS_val 2_processiepark\n\n"
+"|<<section-minimumdepthinmeters-maximumdepthinmeters,minimumDepthInMeters>>\n"
+"|Compartir si está disponible\n"
+"|\n\n"
+"|<<section-minimumdepthinmeters-maximumdepthinmeters,maximumDepthInMeters>>\n"
+"|Compartir si está disponible\n"
+"|\n\n"
+"|<<section-minimumdistanceabovesurfaceinmeters-maximumdistanceabovesurfaceinmeters,minimumDistanceAboveSurfaceInMeters>>\n"
+"|Compartir si está disponible\n"
+"|1.30\n\n"
+"|<<section-minimumdistanceabovesurfaceinmeters-maximumdistanceabovesurfaceinmeters,maximumDistanceAboveSurfaceInMeters>>\n"
+"|Compartir si está disponible\n"
+"|1.30\n\n"
+"|<<section-decimallatitude-decimallongitude,decimalLatitude>>\n"
+"|Muy recomendado\n"
+"|51.496\n\n"
+"|<<section-decimallatitude-decimallongitude,decimalLongitude>>\n"
+"|Muy recomendado\n"
+"|4.774\n\n"
+"|<<section-geodeticdatum,geodeticDatum>>\n"
+"|Muy recomendado\n"
+"|EPSG:4326\n\n"
+"|<<section-coordinateuncertaintyinmeters,coordinateUncertaintyInMeters>>\n"
+"|Muy recomendado\n"
+"|187\n\n"
+"|<<section-coordinateprecision,coordinatePrecision>>\n"
+"|Compartir si está disponible\n"
+"|0.001\n\n"
+"|<<section-identifiedby,identifiedBy>>\n"
+"|Compartir si está disponible\n"
+"|Peter Desmet\n\n"
+"|<<section-dateidentified,dateIdentified>>\n"
+"|Compartir si está disponible\n"
+"|2023-02-02T13:57:58Z\n\n"
+"|<<section-identificationremarks,identificationRemarks>>\n"
+"|Compartir si está disponible\n"
+"|clasificado por un humano\n\n"
+"|<<section-taxonid,taxonID>>\n"
+"|Compartir si está disponible\n"
+"|[.break-all]#https://www.checklistbank.org/dataset/COL2023/taxon/GCHS#\n\n"
+"|<<section-scientificname,scientificName>>\n"
+"|Requerido\n"
+"|Ardea cinerea\n\n"
+"|<<section-kingdom,kingdom>>\n"
+"|Muy recomendado\n"
+"|Animalia\n"
 
 #. type: Title =====
 #: 400.en.adoc:458 400.en.adoc:822
@@ -2915,12 +3134,12 @@ msgstr "tipo"
 #. type: Plain text
 #: 400.en.adoc:461
 msgid "https://dwc.tdwg.org/list/#dc_type[dc:type]"
-msgstr ""
+msgstr "https://dwc.tdwg.org/list/#dc_type[dc:type]"
 
 #. type: Plain text
 #: 400.en.adoc:463
 msgid "The nature of the resource. Use `StillImage` if the record is based on an image or sequence of images, `MovingImage` if based on a video. One can also use the broader term `Image` for all records."
-msgstr ""
+msgstr "La naturaleza del recurso. Utilice `StillImage` si el registro se basa en una imagen o secuencia de imágenes, `MovingImage` si se basa en un video. Uno también puede usar el término más amplio `Imagen` para todos los registros."
 
 #. type: Title =====
 #: 400.en.adoc:465
@@ -2931,7 +3150,7 @@ msgstr "licencia"
 #. type: Plain text
 #: 400.en.adoc:468
 msgid "https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]"
-msgstr ""
+msgstr "https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]"
 
 #. type: Plain text
 #: 400.en.adoc:470
