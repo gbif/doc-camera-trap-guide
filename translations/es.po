@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-09 17:58\n"
+"PO-Revision-Date: 2026-02-09 19:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3409,7 +3409,7 @@ msgstr "term:dwc[dwc:parentEventID]"
 #. type: Plain text
 #: 400.en.adoc:582
 msgid "An identifier for a broader event then those identified by <<section-eventid,eventID>>. We recommend providing the identifier of the <<deployment>>. Using an Occurrence core, deployments will not have their own records, but providing their identifier in term:dwc[dwc:parentEventID] allows users to find all observations (and media) for a specific deployment. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:parentEventID] as belonging together. In Camtrap DP, this term corresponds with {observations-deploymentID}."
-msgstr "Un identificador para un evento más amplio que los identificados por <<section-eventid,eventID>>. Recomendamos proporcionar el identificador del <<deployment>>. Usando un Núcleo de ocurrencia, los despliegues no tendrán sus propios registros, pero proporcionar su identificador en term:dwc[dwc:parentEventID] permite a los usuarios encontrar todas las observaciones (y archivos multimedia) para un despliegue específico. Utilice un <<section-stable-unique-identifiers,stable unique identifier>>. Tenga en cuenta que GBIF.org agrupará automáticamente observaciones con el mismo term:dwc[dwc:parentEventID] que pertenecen juntos. En Camtrap DP, este término se corresponde \tcon\t {observations-deploymentID}."
+msgstr "Un identificador para un evento más amplio que los identificados por <<section-eventid,eventID>>. Recomendamos proporcionar el identificador del <<deployment,despliegue>>. Usando un Ocurrence core, los despliegues no tendrán sus propios registros, pero proporcionar su identificador en term:dwc[dwc:parentEventID] permite a los usuarios encontrar todas las observaciones (y archivos multimedia) para un despliegue específico. Utilice un <<section-stable-unique-identifiers,identificador único estable>>. Tenga en cuenta que GBIF.org agrupará automáticamente observaciones con el mismo term:dwc[dwc:parentEventID] que pertenecen juntos. En Camtrap DP, este término se corresponde \tcon\t {observations-deploymentID}."
 
 #. type: Title =====
 #: 400.en.adoc:584
@@ -3826,7 +3826,7 @@ msgstr "|Término\n"
 "|6d65f3e4\n\n"
 "|<<section-ac-type,type>>\n"
 "|Compartir si está disponible\n"
-"|Imágen estática\n\n"
+"|StillImage\n\n"
 "|<<section-ac-comments,comments>>\n"
 "|Compartir si está disponible\n"
 "|marcado como favorito\n\n"
