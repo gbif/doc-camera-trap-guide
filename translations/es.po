@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-09 00:52\n"
+"PO-Revision-Date: 2026-02-09 03:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4654,7 +4654,7 @@ msgstr "[[video]]video"
 #. type: Plain text
 #: glossary.en.adoc:117
 msgid "Moving <<media-file,media file>> recorded by a <<camera>>. Has a specific duration and can include audio."
-msgstr "<<media-file,media file>> en movimiento grabado por una <<camera>>. Tiene una duración específica y puede incluir audio."
+msgstr "<<media-file,Archivo multimedia>> en movimiento grabado por una <<camera,cámara>>. Tiene una duración específica y puede incluir audio."
 
 #. type: Title ==
 #: bibliography.en.adoc:2
