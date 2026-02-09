@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-08 23:36\n"
+"PO-Revision-Date: 2026-02-09 00:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2584,7 +2584,7 @@ msgstr "¿Por qué no un conjunto de datos de eventos de muestreo?"
 #. type: Plain text
 #: 400.en.adoc:133
 msgid "With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observation,observations>>, it seems logical to express camera trap data as https://www.gbif.org/sampling-event-data[Sampling-event data] with an {event-core} (see <<table-event-core>>) and an {occurrence-extension} (see <<table-occurrence-extension>>). It allows us to provide detailed (though repeated) information about each type of event and offers the possibility to add a {mof-extension} with <<alignment>> and other information (mostly relevant for the deployments)."
-msgstr "Con sus eventos jerárquicos (<<deployment,deployments>>, <<sequence,sequences>>) y <<observation,observations>> resultantes, parece lógico para expresar datos de cámara trampa como https://www. bif.org/sampling-event-data[Datos de muestreo de evento] con un {event-core} (ver la <<table-event-core>>) y una {occurrence-extension} (ver la <<table-occurrence-extension>>). Nos permite proporcionar información detallada (aunque repetida) sobre cada tipo de evento y ofrece la posibilidad de añadir una {mof-extension} con <<alignment>> y otra información (principalmente pertinente para el despliegue)."
+msgstr "Con sus eventos jerárquicos (<<deployment,despliegues>>, <<sequence,secuencias>>) y <<observation,observaciones>> resultantes, parece lógico para expresar datos de cámara trampa como https://www. bif.org/sampling-event-data[Datos de muestreo de evento] con un {event-core} (ver la <<table-event-core>>) y una {occurrence-extension} (ver la <<table-occurrence-extension>>). Nos permite proporcionar información detallada (aunque repetida) sobre cada tipo de evento y ofrece la posibilidad de añadir una {mof-extension} con <<alignment,alineación>> y otra información (principalmente pertinente para el despliegue)."
 
 #. type: Plain text
 #: 400.en.adoc:135
