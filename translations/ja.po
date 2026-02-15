@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2025-07-07 07:49\n"
+"PO-Revision-Date: 2026-02-15 22:59\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -114,7 +114,7 @@ msgstr "要約"
 #. type: Plain text
 #: colophon.en.adoc:35
 msgid "Camera traps have emerged as important tools for monitoring the state of biodiversity and natural ecosystems. The proliferation of data from such sensors has made data management, rather than data collection, the limiting factor in camera trap-related research. This guide provides recommendations for camera trap data management and publication to GBIF. It is intended for anyone running a camera trap study, in particular data stewards, data publishers, and others working in biodiversity informatics."
-msgstr ""
+msgstr "カメラトラップは、生物多様性や自然生態系の状態をモニタリングするために重要なツールとして普及しました。このようなセンサーからのデータの増加により、データ収集よりもデータ管理がカメラトラップ関連の研究における制約要因となっています。このガイドでは、カメラトラップデータの管理とGBIFでの公開に関する推奨事項を記載しています。カメラトラップ研究を実施する人すべてを対象とし、特にデータ管理者、データ出版者、および生物多様性情報学に携わる人々を想定しています。"
 
 #. type: Plain text
 #: colophon.en.adoc:36 100.en.adoc:36 200.en.adoc:97 300.en.adoc:969
@@ -138,90 +138,90 @@ msgstr "なぜこのガイドブックを作成したか"
 #. type: Plain text
 #: 100.en.adoc:8
 msgid "Camera traps have emerged as a powerful technology for the semi-automated monitoring of natural ecosystems. Their success has led to an exponential growth of camera trap data worldwide. Herein lies a major challenge: large volumes of data are waiting to be classified, interpreted and archived. Data management, rather than data collection, has become a limiting factor for camera trap research. The proliferation of camera trap projects has also led to a diversity of terminologies, classification methods and data management practices, which impedes transparency, interoperability, cross-project collaboration or meta-analyses. A large, interconnected network of remote cameras could act as an instrument for reliable, real-time biodiversity management and decision making, but if we are not able to combine data, camera trap research will lose its full potential. This is why camera trap data needs to be open and FAIR (findable, accessible, interoperable and reusable, see citenp:[wilkinson-2016]), so that both humans and machines can use this valuable data for present and future applications."
-msgstr ""
+msgstr "カメラトラップは、自然生態系の半自動モニタリングのための強力な技術として普及しました。その成功により、世界中でカメラトラップデータが急増しています。ここで直面する課題は、大量のデータが分類、解釈、アーカイブの順番待ちになっていることです。データ収集よりもデータ管理がカメラトラップ研究の制約要因となっています。カメラトラップのプロジェクトが増加したことで、用語、分類方法、データ管理の実践が多様化し、透明性、相互運用性、プロジェクト間の協力やメタ分析の分野が遅れをとっています。大規模で相互接続されたリモートカメラのネットワークは、信頼性の高いリアルタイムの生物多様性モニタリングと意思決定のための手段として役立つものですが、データを統合できない限り、カメラトラップ研究の本領を発揮できません。カメラトラップデータがオープンでFAIR（見つけられる、アクセスできる、相互運用できる、再利用できる、citenp:[wilkinson-2016]を参照）であることを求められるのは、このためです。そうすることで、現在および将来に応用できる貴重なデータとして、人間も機械も利用できるようになります。"
 
 #. type: Plain text
 #: 100.en.adoc:10
 msgid "To optimize the (re)use of camera trap data, there is a need for best practice guidelines. Several guides exist that tackle one or more elements of the camera trap research life cycle: planning, technology and techniques, study design, data collection, analysis, data management methods and data publication cite:[oconnell-2011,rovero-2013,meek-2014,cadman-2014,burton-2015,wearn-2017]. Since then, the camera trapping community has made significant progress:"
-msgstr ""
+msgstr "カメラトラップデータの最適な（再）利用のためには、ベスト・プラクティスのガイドラインが必要です。カメラトラップ研究のライフサイクルの一部または複数の要素（計画、技術と手法、研究デザイン、データ収集、分析、データ管理方法、データ公開）を扱うガイドがいくつか存在します[oconnell-2011,rovero-2013,meek-2014,cadman-2014,burton-2015,wearn-2017]。ガイドが出版されてからこれまでの間に、カメラトラップのコミュニティは大きな進歩を遂げました："
 
 #. type: Plain text
 #: 100.en.adoc:12
 msgid "Specialized data management platforms are now primarily used to manage projects and data"
-msgstr ""
+msgstr "主にプロジェクトとデータの管理のため、専用のデータ管理プラットフォームが使用されるようになりました。"
 
 #. type: Plain text
 #: 100.en.adoc:13
 msgid "<<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media"
-msgstr ""
+msgstr "<<AI,人工知能>>（AI）と<<cloud-computing,クラウド・コンピューティング>>が<<species-recognition,種の自動判別>>に使用されることが増えています。いずれは、ほとんどの記録メディアに適用されるでしょう。"
 
 #. type: Plain text
 #: 100.en.adoc:14
 msgid "Data exchange is now facilitated by Camtrap DP, a <<data-exchange-format,data exchange format>> developed under Biodiversity Information Standards (TDWG). There is increased awareness of open science, <<FAIR>> data cite:[wilkinson-2016] and privacy regulations"
-msgstr ""
+msgstr "Biodiversity Information Standards（TDWG）の下で開発された<<data-exchange-format,データ交換形式>> Camtrap DPによって、データ変換が促進されています。オープンサイエンス、<<FAIR>>データcite:[wilkinson-2016]、およびプライバシー規制に対する意識向上が見られます。"
 
 #. type: Plain text
 #: 100.en.adoc:16
 msgid "No up-to-date guidelines are available that focus on camera trap data management and publication only. This guide aims to fill that gap."
-msgstr ""
+msgstr "カメラトラップデータの管理と公開にのみ焦点を当てた最新のガイドラインは存在しません。このガイドは、そのギャップを埋めることを目的としています。"
 
 #. type: Title ===
 #: 100.en.adoc:18
 #, no-wrap
 msgid "Target audience"
-msgstr ""
+msgstr "読者の対象"
 
 #. type: Plain text
 #: 100.en.adoc:21
 msgid "This guide is intended to be useful for anyone managing a camera trap study. The specific focus on data management and publication makes this best practice guide extra useful for profiles such as data stewards, data publishers, database and information managers and students working with biodiversity informatics."
-msgstr ""
+msgstr "このガイドは、カメラトラップ研究の管理に携わる全ての方に役立つことを意図しています。特にデータ管理と公開に焦点を当てるため、データ管理者、データ出版者、データベースおよび情報管理者、また、生物多様性情報学に携わる学生などにとって非常に有用です。"
 
 #. type: Plain text
 #: 100.en.adoc:23
 msgid "The authors of this guide have experience with traditional camera traps (designed for medium-to-large-sized terrestrial mammals), but many of the recommendations, as well as the <<camtrap-dp,Camtrap DP>> standard, should be applicable to data from other types of camera traps."
-msgstr ""
+msgstr "このガイドの著者は、主に中型から大型の陸生哺乳類を対象とした従来のカメラトラップの経験を持ちますが、多くの推奨事項や<<camtrap-dp,Camtrap DP>>標準は、他のタイプのカメラトラップのデータにも適用できるはずです。"
 
 #. type: Title ===
 #: 100.en.adoc:25
 #, no-wrap
 msgid "What this guide is not about"
-msgstr ""
+msgstr "このガイドで扱わないもの"
 
 #. type: Plain text
 #: 100.en.adoc:28
 msgid "This guide primarily focuses on the management, quality control, enhancement and publication of camera trap data. The following topics are out of scope:"
-msgstr ""
+msgstr "このガイドは主に、カメラトラップデータの管理、品質管理、強化、および公開に焦点を当てています。以下のトピックは対象外です："
 
 #. type: Plain text
 #: 100.en.adoc:30
 msgid "Planning a camera trap study: types of camera traps, study design, etc."
-msgstr ""
+msgstr "カメラトラップ研究の計画：カメラトラップの種類、研究デザインなど"
 
 #. type: Plain text
 #: 100.en.adoc:31
 msgid "Camera trap deployment and collection: field work, baits and lures, data retrieval, etc."
-msgstr ""
+msgstr "カメラトラップの設置と収集：フィールドワーク、餌やおとり、データの取得など"
 
 #. type: Plain text
 #: 100.en.adoc:32
 msgid "Analysis: software for analysis, ecological modelling, bias correction, etc."
-msgstr ""
+msgstr "分析：分析用ソフトウェア、生態学的モデリング、バイアス補正など"
 
 #. type: Plain text
 #: 100.en.adoc:33
 msgid "Data from moving cameras: underwater robots, vehicle-mounted cameras, drones, etc."
-msgstr ""
+msgstr "動くカメラからのデータ：水中ロボット、車両搭載カメラ、ドローンなど"
 
 #. type: Plain text
 #: 100.en.adoc:35
 msgid "Many extensive guides on these topics are already available. See <<table-aims>> and <<table-topics>> for a brief overview."
-msgstr ""
+msgstr "これらのトピックに関する詳細なガイドはすでに多数存在します。概要については、<<table-aims>>および<<table-topics>>を参照してください。"
 
 #. type: Title ==
 #: 200.en.adoc:2
 #, no-wrap
 msgid "The use of camera traps"
-msgstr ""
+msgstr "カメラトラップの利用"
 
 #. type: Title ===
 #: 200.en.adoc:5
