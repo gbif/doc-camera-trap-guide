@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-09 19:09\n"
+"PO-Revision-Date: 2026-02-16 23:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1174,7 +1174,7 @@ msgstr "Asegúrese de que ordenar los archivos alfabéticamente también los ord
 #. type: Plain text
 #: 300.en.adoc:403
 msgid "If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than white space (`image 1`). Avoid special characters."
-msgstr "Si está nombrando archivos, use snake case [caso de serpiente] (`imagen_1`), hyphen case [caso de guión] (`imagen-1`) o camel case [caso de camello] (`imagen1` o `archivoVideo1`) en lugar de espacio en blanco (`imagen 1`). Evite los caracteres especiales."
+msgstr "Si está nombrando archivos, use separación con guión bajo [snake case] (`imagen_1`), separación con guión [hyphen case] (`imagen-1`) o separación por mayúsculas [camel case] (`imagen1` o `archivoVideo1`) en lugar de espacio en blanco (`imagen 1`). Evite los caracteres especiales."
 
 #. type: Plain text
 #: 300.en.adoc:404
@@ -1364,7 +1364,7 @@ msgstr "Utilice nombres descriptivos, para que los usuarios tienen una idea de q
 #. type: Plain text
 #: 300.en.adoc:512
 msgid "Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than white space (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camel case is most often used in data standards."
-msgstr "Separar palabras usando guión bajo (`ubicación_despliegue_1`), guión `(despliegue-ubicación-1`) o mayúsculas (`despliegueUbicación1`) en lugar de espacios (`ubicación de despliegue 1`). El uso del guión bajo garantiza el nivel de interoperabilidad más alto entre sistemas, el uso de la separación por mayúsculas se utiliza con mayor frecuencia en los estándares de datos."
+msgstr "Separar palabras usando guión bajo [snake case] (`ubicación_despliegue_1`), guión [hyphen case] `(despliegue-ubicación-1`) o mayúsculas [camel case] (`despliegueUbicación1`) en lugar de espacios (`ubicación de despliegue 1`). El uso del guión bajo garantiza el nivel de interoperabilidad más alto entre sistemas, el uso de la separación por mayúsculas se utiliza con mayor frecuencia en los estándares de datos."
 
 #. type: Plain text
 #: 300.en.adoc:513
