@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-20 05:11\n"
+"PO-Revision-Date: 2026-02-20 06:23\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -243,12 +243,12 @@ msgstr "なぜカメラトラップが使用されるのか？"
 #. type: Plain text
 #: 200.en.adoc:13
 msgid "In the past decades camera traps have been increasingly used to collect biodiversity data in a non-invasive manner with minimal disturbance of wildlife. As early as in the 1890’s, George Siras was the first to develop a method using tripwire and a flash system in which wild animals photographed themselves cite:[kucera-2011]. The first scientific camera trap studies date back to the beginning of the 20th century cite:[chapman-1927]. Since those pioneering days, technological advances in digital photography and infrared sensors have led to cost-effective, non-invasive detections of elusive wildlife cite:[burton-2015]. Camera traps have become popular research tools. They are easy to install, relatively cheap and do not require special permissions or training and are therefore being used by professional researchers and hobbyists at a very broad scale. Consequently, the number of annual publications concerning camera trap studies has grown more than 80-fold since the 1990’s. Camera trap technology is used to sample communities of medium-to-large-sized mammal and bird species inhabiting freshwater, terrestrial, fossorial, arboreal and marine habitats and have proven to be excellent tools to help biodiversity monitoring initiatives cite:[delisle-2021]."
-msgstr "野生動物への影響を最小限に抑えた非侵襲的な方法で生物多様性データを収集するため、過去数十年にカメラトラップの利用が拡大してきました。初期の1890年代には、ジョージ・シラスがトリップワイヤーとフラッシュシステムを開発し、野生動物が自分自身を撮影する方法を最初に考案しました[kucera-2011]。最初の科学的なカメラトラップ研究は20世紀初頭にさかのぼります[chapman-1927]。これらの先駆的な時を経て、デジタル写真と赤外線センサーの技術革新により、費用対効果が高く、捕獲しにくい野生動物の非侵襲的検出が可能になりました[burton-2015]。カメラトラップは人気のある研究ツールとなり、設置が簡単で比較的安価であり、特別な許可や訓練を必要としないため、専門家の研究者や愛好家によって非常に広範囲で使用されています。その結果、カメラトラップ研究に関する年間の出版物の数は1990年代以来80倍以上に増加しました。カメラトラップ技術は、淡水、陸上、地下、樹上、海洋のハビタットに生息する中型から大型の哺乳類や鳥類の個体群をサンプリングするために使用されており、生物多様性モニタリングの取り組みを支援するツールとして優れていることが証明されています[delisle-2021]。"
+msgstr "野生動物への影響を最小限に抑えた非侵襲的な方法で生物多様性データを収集するため、過去数十年にカメラトラップの利用が拡大してきました。初期の1890年代には、ジョージ・シラスがトリップワイヤーとフラッシュシステムを開発し、野生動物が自分自身を撮影する方法を最初に考案しましたcite:[kucera-2011]。最初の科学的なカメラトラップ研究は20世紀初頭にさかのぼりますcite:[chapman-1927]。これらの先駆的な時を経て、デジタル写真と赤外線センサーの技術革新により、費用対効果が高く、捕獲しにくい野生動物の非侵襲的検出が可能になりましたcite:[burton-2015]。カメラトラップは人気のある研究ツールとなり、設置が簡単で比較的安価であり、特別な許可や訓練を必要としないため、専門家の研究者や愛好家によって非常に広範囲で使用されています。その結果、カメラトラップ研究に関する年間の出版物の数は1990年代以来80倍以上に増加しました。カメラトラップ技術は、淡水、陸上、地下、樹上、海洋のハビタットに生息する中型から大型の哺乳類や鳥類の個体群をサンプリングするために使用されており、生物多様性モニタリングの取り組みを支援するツールとして優れていることが証明されていますcite:[delisle-2021]。"
 
 #. type: Plain text
 #: 200.en.adoc:15
 msgid "The most frequently studied animal taxa include ungulates, carnivores, primates and birds, although the most innovative sensors allow the detection of small mammals, amphibians, reptiles, fish and invertebrates as well cite:[hobbs-2017]. Camera trap technology is suitable to gather occurrence data, as well as abundance, density, diversity and distribution of species (<<table-aims>>) and to answer behavioural questions such as activity patterns and responses to human disturbance. Furthermore, camera traps are unselective in species observations and are therefore often used in species interaction studies. “Bycatch” data from target species studies could be useful for other studies as well. They are often used to monitor rare, threatened and endangered species in remote and inaccessible terrains."
-msgstr ""
+msgstr "最も頻繁に研究される動物分類群は、有蹄類、肉食動物、霊長類、鳥類などが挙げられますが、最も革新的なセンサーでは、小型哺乳類、両生類、爬虫類、魚類、無脊椎動物の検出も可能ですcite:[hobbs-2017]。カメラトラップ技術は、オカレンスデータや、種のアバンダンス、密度、多様性、および分布（<<table-aims>>）のデータを収集すること、また、活動パターンや人間の干渉に対する反応など、行動に関する質問に答えることに適しています。さらに、カメラトラップは種の観察において選択的ではないため、種間相互作用の研究によく使用されます。特定の種を対象とした研究で得られた「混獲」データは、他の研究にも役立つ可能性があります。また、カメラトラップは、遠隔地やアクセスが困難な地域における希少種および絶滅危惧種のモニタリングによく使用されます。"
 
 #. type: Block title
 #: 200.en.adoc:17
