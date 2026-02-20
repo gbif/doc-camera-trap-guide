@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-15 22:59\n"
+"PO-Revision-Date: 2026-02-20 05:11\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -227,23 +227,23 @@ msgstr "カメラトラップの利用"
 #: 200.en.adoc:5
 #, no-wrap
 msgid "What are camera traps?"
-msgstr ""
+msgstr "カメラトラップとは？"
 
 #. type: Plain text
 #: 200.en.adoc:8
 msgid "Camera traps are recording devices that are deployed in the field to automatically capture images or videos of wildlife activity. They are also known as game cameras, trail cameras or scouting cameras. They can record media at a regular interval (time lapse) or when triggered by the activity of an animal. Traditionally, camera traps refer to those designed to record medium-to-large-sized terrestrial mammals with a passive infrared (PIR) <<sensor>> cite:[hobbs-2017], but other types exist for e.g. the marine environment or insects. Just like satellites, drones, GPS trackers or acoustic sensors, camera traps collect **machine observations**. Acoustic sensors in particular are quite similar to camera traps, using audio rather than image/video to monitor the surrounding ecosystem. All these technologies have the benefit that they can collect data at a scale and frequency that would be challenging to obtain through human observations, and typically suffer less from human bias, interpretation or interference."
-msgstr ""
+msgstr "カメラトラップは、野生動物の活動の静止画（images）や動画（videos）を自動的に撮影するためにフィールドに設置される記録装置です。ゲームカメラ、トレイルカメラ、スカウティングカメラとも呼ばれます。メディアへの記録は、定期的な間隔（タイムラプス）、または動物の活動を感知して行われます。従来のカメラトラップは人感赤外線（PIR）<<センサー>> cite:[hobbs-2017]を使用して中型から大型の陸生哺乳類を記録するために設計されたものを指しますが、その他のタイプとして、海洋環境や昆虫などを記録するためのカメラトラップも存在します。衛星、ドローン、GPSトラッカー、音響センサーと同様に、カメラトラップは**機械による観測**を行います。特に音響センサーは、静止画や動画ではなく音声を使用して周囲の生態系をモニタリングする点で、カメラトラップと非常に似ています。これらの技術は全て、人間による観察では困難な規模と頻度でデータを収集できるという利点があり、通常、人間によるバイアス、解釈および干渉の影響を受けにくいです。"
 
 #. type: Title ===
 #: 200.en.adoc:10
 #, no-wrap
 msgid "Why are camera traps used?"
-msgstr ""
+msgstr "なぜカメラトラップが使用されるのか？"
 
 #. type: Plain text
 #: 200.en.adoc:13
 msgid "In the past decades camera traps have been increasingly used to collect biodiversity data in a non-invasive manner with minimal disturbance of wildlife. As early as in the 1890’s, George Siras was the first to develop a method using tripwire and a flash system in which wild animals photographed themselves cite:[kucera-2011]. The first scientific camera trap studies date back to the beginning of the 20th century cite:[chapman-1927]. Since those pioneering days, technological advances in digital photography and infrared sensors have led to cost-effective, non-invasive detections of elusive wildlife cite:[burton-2015]. Camera traps have become popular research tools. They are easy to install, relatively cheap and do not require special permissions or training and are therefore being used by professional researchers and hobbyists at a very broad scale. Consequently, the number of annual publications concerning camera trap studies has grown more than 80-fold since the 1990’s. Camera trap technology is used to sample communities of medium-to-large-sized mammal and bird species inhabiting freshwater, terrestrial, fossorial, arboreal and marine habitats and have proven to be excellent tools to help biodiversity monitoring initiatives cite:[delisle-2021]."
-msgstr ""
+msgstr "野生動物への影響を最小限に抑えた非侵襲的な方法で生物多様性データを収集するため、過去数十年にカメラトラップの利用が拡大してきました。初期の1890年代には、ジョージ・シラスがトリップワイヤーとフラッシュシステムを開発し、野生動物が自分自身を撮影する方法を最初に考案しました[kucera-2011]。最初の科学的なカメラトラップ研究は20世紀初頭にさかのぼります[chapman-1927]。これらの先駆的な時を経て、デジタル写真と赤外線センサーの技術革新により、費用対効果が高く、捕獲しにくい野生動物の非侵襲的検出が可能になりました[burton-2015]。カメラトラップは人気のある研究ツールとなり、設置が簡単で比較的安価であり、特別な許可や訓練を必要としないため、専門家の研究者や愛好家によって非常に広範囲で使用されています。その結果、カメラトラップ研究に関する年間の出版物の数は1990年代以来80倍以上に増加しました。カメラトラップ技術は、淡水、陸上、地下、樹上、海洋のハビタットに生息する中型から大型の哺乳類や鳥類の個体群をサンプリングするために使用されており、生物多様性モニタリングの取り組みを支援するツールとして優れていることが証明されています[delisle-2021]。"
 
 #. type: Plain text
 #: 200.en.adoc:15
