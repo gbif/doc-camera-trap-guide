@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-23 12:22\n"
+"PO-Revision-Date: 2026-02-23 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -288,7 +288,7 @@ msgstr "|Objetivo del estudio\n"
 "|ocupación\n"
 "|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]\n\n"
 "|diversidad\n"
-"|diversidad-beta"
+"|diversidad-beta\n"
 
 #. type: Block title
 #: 200.en.adoc:38
@@ -376,7 +376,7 @@ msgstr "|Tema\n"
 "|<<section-3>> y <<section-4>> de esta guía\n\n"
 "|Análisis\n"
 "|Software para analizar datos\n"
-"|citenp:[sunarto-2013]"
+"|citenp:[sunarto-2013]\n"
 
 #. type: Plain text
 #: 200.en.adoc:96
@@ -429,25 +429,25 @@ msgstr "En general, podemos distinguir cuatro tipos de datos de cámaras trampa:
 #: 300.en.adoc:20
 #, no-wrap
 msgid "**Project metadata:** information about the camera trap project/study as a whole\n"
-msgstr "**Metadatos del proyecto:** información sobre el proyecto/estudio de la cámara trampa como un todo"
+msgstr "**Metadatos del proyecto:** información sobre el proyecto/estudio de la cámara trampa como un todo\n"
 
 #. type: Plain text
 #: 300.en.adoc:21
 #, no-wrap
 msgid "**Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata\n"
-msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cameras>>, incluyendo sus metadatos <<EXIF>>"
+msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cameras>>, incluyendo sus metadatos <<EXIF>>\n"
 
 #. type: Plain text
 #: 300.en.adoc:22
 #, no-wrap
 msgid "**Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.\n"
-msgstr "**Despliegues:** información sobre la <<location>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara."
+msgstr "**Despliegues:** información sobre la <<location>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara.\n"
 
 #. type: Plain text
 #: 300.en.adoc:23
 #, no-wrap
 msgid "**Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.\n"
-msgstr "**Observaciones:** información sobre lo que se puede ver u oír en los archivos multimedia (es decir, objetos de interés), como animales, seres humanos o vehículos. El objetivo normalmente es registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento."
+msgstr "**Observaciones:** información sobre lo que se puede ver u oír en los archivos multimedia (es decir, objetos de interés), como animales, seres humanos o vehículos. El objetivo normalmente es registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento.\n"
 
 #. type: Plain text
 #: 300.en.adoc:25
@@ -755,7 +755,7 @@ msgstr "|Camtrap DP\n"
 "|Solo vista\n"
 "Simulado\n"
 "Esperando acceso\n"
-"|Visor de proyecto"
+"|Visor de proyecto\n"
 
 #. type: Title ===
 #: 300.en.adoc:153
@@ -1041,7 +1041,7 @@ msgstr "|Disparador\n"
 "|3\n"
 "|54c5d869\n"
 "|2020-06-12T04:04:55Z\n"
-"|https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72"
+"|https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72\n"
 
 #. type: Plain text
 #: 300.en.adoc:325
@@ -1137,7 +1137,7 @@ msgstr "|Propiedad\n"
 "|Balance de blancos\n"
 "|Manual\n\n"
 "|Tipo de captura de escena\n"
-"|Estándar"
+"|Estándar\n"
 
 #. type: Title ====
 #: 300.en.adoc:391
@@ -1194,7 +1194,7 @@ msgid "# Good\n"
 "20200709_093352.JPG\n"
 msgstr "# Bien\n"
 "PICT0001.JPG\n"
-"20200709_093352.JPG"
+"20200709_093352.JPG\n"
 
 #. type: delimited block -
 #: 300.en.adoc:414
@@ -1202,7 +1202,7 @@ msgstr "# Bien\n"
 msgid "# Bad: can't be sorted chronologically\n"
 "09072020_093352.JPG\n"
 msgstr "# Mal: no puede ser ordenado cronológicamente\n"
-"09072020_093352. JPG"
+"09072020_093352. JPG\n"
 
 #. type: delimited block -
 #: 300.en.adoc:417
@@ -1210,7 +1210,7 @@ msgstr "# Mal: no puede ser ordenado cronológicamente\n"
 msgid "# Bad: contains classification information\n"
 "20200709_093352_Ardea_alba_1_Anas_platyrhynchos_male_female.jpg\n"
 msgstr "# Mal: contiene información de clasificación\n"
-"20200709_093352_Ardea_alba_1_Anas_platyrhynelig_macho_hembra.jpg"
+"20200709_093352_Ardea_alba_1_Anas_platyrhynelig_macho_hembra.jpg\n"
 
 #. type: delimited block -
 #: 300.en.adoc:420
@@ -1218,7 +1218,7 @@ msgstr "# Mal: contiene información de clasificación\n"
 msgid "# Bad: contains spaces and special characters\n"
 "dep 2021 't WAD\n"
 msgstr "# Mal: contiene espacios y caracteres especiales \n"
-"dep 2021 't WAD"
+"dep 2021 't WAD\n"
 
 #. type: Title ====
 #: 300.en.adoc:423
@@ -1343,7 +1343,7 @@ msgstr "|Propiedad\n"
 "|Uso de cebo\n"
 "|falso\n\n"
 "|Hábitat\n"
-"|Región de Campine con una serie de valles fluviales con praderas valiosas"
+"|Región de Campine con una serie de valles fluviales con praderas valiosas\n"
 
 #. type: Title ====
 #: 300.en.adoc:506
@@ -1384,7 +1384,7 @@ msgid "# Good\n"
 "deployment_group\n"
 msgstr "# Bien\n"
 "nombreCientífico\n"
-"despligue_grupo"
+"despligue_grupo\n"
 
 #. type: delimited block -
 #: 300.en.adoc:524
@@ -1392,7 +1392,7 @@ msgstr "# Bien\n"
 msgid "# Bad: contains spaces\n"
 "scientific name\n"
 msgstr "# Mal: contiene espacios\n"
-"nombre científico"
+"nombre científico\n"
 
 #. type: delimited block -
 #: 300.en.adoc:527
@@ -1400,7 +1400,7 @@ msgstr "# Mal: contiene espacios\n"
 msgid "# Bad: abbreviated\n"
 "dep_gr\n"
 msgstr "# Mal: abreviado\n"
-"desp_gr"
+"desp_gr\n"
 
 #. type: delimited block -
 #: 300.en.adoc:530
@@ -1408,7 +1408,7 @@ msgstr "# Mal: abreviado\n"
 msgid "# Bad: inconsistent naming\n"
 "latitude & coordinatesLongitude\n"
 msgstr "# Mal: nombres inconsistentes\n"
-"latitud y longitudcoordenadas"
+"latitud y longitudcoordenadas\n"
 
 #. type: delimited block -
 #: 300.en.adoc:533
@@ -1416,7 +1416,7 @@ msgstr "# Mal: nombres inconsistentes\n"
 msgid "# Bad: includes unit or data type\n"
 "camera_height_meter_double\n"
 msgstr "# Mal: incluye unidades o tipos de datos\n"
-"altura_cámara_metros_doble"
+"altura_cámara_metros_doble\n"
 
 #. type: Block title
 #: 300.en.adoc:536
@@ -1522,7 +1522,7 @@ msgstr "|Nombre de columna\n"
 "|Los valores (0-360) comienzan en sentido horario desde el norte, por lo que 0 = norte, 90 = este, 180 = sur, 270 = oeste.\n"
 "|grados decimales\n"
 "|número\n"
-"|no"
+"|no\n"
 
 #. type: Title ====
 #: 300.en.adoc:597
@@ -1554,7 +1554,7 @@ msgstr "La precisión del receptor GPS o recurso de georreferencia. La mayoría 
 #: 300.en.adoc:606
 msgid "The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157 m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-wieczorek-2020])."
 msgstr "La precisión de las coordenadas https://docs.gbif.org/georeferencing-best-practices/1.0/es/#incertidumbre-relacionada-con-la-precisi%C3%B3n-de-las-coordenadas[coordinate precision]. Cuanto menos precisa (y más cerca del ecuador) mayor es la incertidumbre, p.ej., las coordenadas WGS84 con una precisión de 0,001 grados tienen una incertidumbre de 157 metros en el ecuador\n"
-"(ver la Tabla 3 https://docs.gbif.org/georeferencing-best-practices/1.0/es/#table-uncertainty[Table 3] en citenp:[chapman-wieczorek-2020]).\n"
+"(ver la Tabla 3 https://docs.gbif.org/georeferencing-best-practices/1.0/es/#table-uncertainty[Table 3] en citenp:[chapman-wieczorek-2020])."
 
 #. type: Plain text
 #: 300.en.adoc:607
@@ -2541,7 +2541,7 @@ msgstr "Otra información sensible"
 #: 400.en.adoc:111
 msgid "Text fields such as comments and notes (e.g. {deployments-deploymentComments} or term:dwc[dwc:occurrenceRemarks]) may contain sensitive information such as <<section-personal-data,person names>>, <<section-sensitive-location-information,sensitive location information>> or information not intended for the public. We recommend verifying values and generalizing where necessary (see https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[Chapter 3] in citenp:[chapman-2020])."
 msgstr "Los campos de texto como comentarios y notas (p. ej., {deployments-deploymentComments} o term:dwc[dwc:occurrenceRemarks]) pueden contener información sensible como <<section-personal-data,person names>>, <<section-sensitive-location-information,sensitive location information>> o información no destinada al público. Recomendamos verificar valores y generalizar donde sea necesario (ver \n"
-"https://docs.gbif.org/sensitive-species-best-practices/master/es/#generalizaci%C3%B3n-de-la-informaci%C3%B3n-textual[Capítulo 3] en citenp:[chapman-2020]).\n"
+"https://docs.gbif.org/sensitive-species-best-practices/master/es/#generalizaci%C3%B3n-de-la-informaci%C3%B3n-textual[Capítulo 3] en citenp:[chapman-2020])."
 
 #. type: Title ===
 #: 400.en.adoc:113
@@ -3249,7 +3249,7 @@ msgstr "Ejemplos:"
 msgid "coordinates rounded to 0.001 degree\n"
 "scientific name generalized to genus\n"
 msgstr "coordenadas redondeadas a 0,001 grados\n"
-"nombre científico generalizado a género "
+"nombre científico generalizado a género\n"
 
 #. type: Title =====
 #: 400.en.adoc:514 400.en.adoc:808
@@ -3509,7 +3509,7 @@ msgid "camera trap with bait near burrow\n"
 "camera malfunction on 29/06/2020\n"
 msgstr "cámara trampa con cebo cerca de madriguera\n"
 "cámara trampa sin cebo | etiquetas: posición:sobre arroyo\n"
-"mal funcionamiento de cámara el 29/06/2020"
+"mal funcionamiento de cámara el 29/06/2020\n"
 
 #. type: Title =====
 #: 400.en.adoc:635
@@ -3704,7 +3704,7 @@ msgstr "Los comentarios o notas sobre la identificación. Recomendamos utilizar 
 msgid "classified by a human\n"
 "classified by a machine with a degree of certainty of 89%\n"
 msgstr "clasificado por un humano\n"
-"clasificado por una máquina con un grado de certeza de 89%"
+"clasificado por una máquina con un grado de certeza de 89%\n"
 
 #. type: Title =====
 #: 400.en.adoc:727
@@ -4125,7 +4125,7 @@ msgstr "[[camera-tilt]]inclinación de la cámara"
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Up or down orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees or as a categorical description (`parallel` = 0°, `pointed downward` = -90° in citenp:[wildlife-insights]). {deployments-cameraTilt} in Camtrap DP."
-msgstr "Orientación hacia arriba o hacia abajo de la cámara, un componente de la <<alignment>> de la cámara. Se puede expresar en grados o como una descripción categórica (`paralelo` = 0°, `apunta hacia abajo` = -90° en citenp:[wildlife-insights]). {deployments-cameraTilt} en Camtrap DP.\n"
+msgstr "Orientación hacia arriba o hacia abajo de la cámara, un componente de la <<alignment>> de la cámara. Se puede expresar en grados o como una descripción categórica (`paralelo` = 0°, `apunta hacia abajo` = -90° en citenp:[wildlife-insights]). {deployments-cameraTilt} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:22
