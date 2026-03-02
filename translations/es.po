@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-03-02 17:53\n"
+"PO-Revision-Date: 2026-03-02 19:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -116,7 +116,7 @@ msgstr "Resumen"
 #. type: Plain text
 #: colophon.en.adoc:35
 msgid "Camera traps have emerged as important tools for monitoring the state of biodiversity and natural ecosystems. The proliferation of data from such sensors has made data management, rather than data collection, the limiting factor in camera trap-related research. This guide provides recommendations for camera trap data management and publication to GBIF. It is intended for anyone running a camera trap study, in particular data stewards, data publishers, and others working in biodiversity informatics."
-msgstr "Las cámaras trampa han surgido como herramientas importantes para observar el estado de la biodiversidad y los ecosistemas naturales. La proliferación de datos de estos sensores ha hecho que la gestión de datos, más que la recopilación de datos, sea el factor limitante en la investigación relacionada con las cámaras trampa. Esta guía proporciona recomendaciones para la gestión de datos de cámara trampa y su publicación a GBIF. Está dirigida a cualquier personas que lleve a cabo un estudio conde cámaras trampa, en particular administradores de datos, editores de datos y otras que trabajen en la informática de la biodiversidad."
+msgstr "Las cámaras trampa han surgido como herramientas importantes para monitorear el estado de la biodiversidad y los ecosistemas naturales. La proliferación de datos de estos sensores ha hecho que la gestión de datos, más que la recopilación de datos, sea el factor limitante en la investigación relacionada con las cámaras trampa. Esta guía proporciona recomendaciones para la gestión de datos de cámara trampa y su publicación en GBIF. Está dirigida a cualquier persona que lleve a cabo un estudio con cámaras trampa, en particular administradores de datos, editores de datos y otras que trabajen en la informática de la biodiversidad."
 
 #. type: Plain text
 #: colophon.en.adoc:36 100.en.adoc:36 200.en.adoc:97 300.en.adoc:969
@@ -155,7 +155,7 @@ msgstr "Las plataformas especializadas de gestión de datos ahora se utilizan pr
 #. type: Plain text
 #: 100.en.adoc:13
 msgid "<<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media"
-msgstr "La <<AI,inteligencia artificial>> (IA) y la <<cloud-computing,computación en la nube>> se utilizan cada vez más para automatizar el <<species-recognition,reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
+msgstr "La <<AI,inteligencia artificial>> (IA) y la <<cloud-computingcomputación en la nube>> se utilizan cada vez más para automatizar el <<species-recognition,reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
 
 #. type: Plain text
 #: 100.en.adoc:14
