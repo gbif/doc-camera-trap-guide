@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-23 14:41\n"
+"PO-Revision-Date: 2026-03-02 17:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -155,7 +155,7 @@ msgstr "Las plataformas especializadas de gestión de datos ahora se utilizan pr
 #. type: Plain text
 #: 100.en.adoc:13
 msgid "<<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media"
-msgstr "La <<AI,inteligencia artificial>> (IA) y la <<cloud-computingcomputación en la nube>> se utilizan cada vez más para automatizar el <<species-recognition,reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
+msgstr "La <<AI,inteligencia artificial>> (IA) y la <<cloud-computing,computación en la nube>> se utilizan cada vez más para automatizar el <<species-recognition,reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
 
 #. type: Plain text
 #: 100.en.adoc:14
