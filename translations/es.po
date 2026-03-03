@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-03-02 20:50\n"
+"PO-Revision-Date: 2026-03-03 21:15\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -316,7 +316,7 @@ msgstr "El ciclo de vida completo de la investigación con cámaras trampa inclu
 #: 200.en.adoc:57
 #, no-wrap
 msgid "Stages in the camera trap life cycle and key references."
-msgstr "Etapas en el ciclo de vida de la cámara trampa y referencias clave."
+msgstr "Etapas en el ciclo de vida de proyectos con cámaras trampa y referencias clave."
 
 #. type: Table
 #: 200.en.adoc:93
@@ -381,7 +381,7 @@ msgstr "|Tema\n"
 #. type: Plain text
 #: 200.en.adoc:96
 msgid "For a camera trap dataset to be useful, you should clearly define the aim and objectives in the planning phase: what would you like to know from which species groups? Each aim brings along its own key characteristics to consider, such as camera height and direction, seasonality, bait usage, detection zone features, camera settings, trigger and flash type. These characteristics must be included in the published dataset in order to be useful in consequent analyses. We recommend consulting the key references in <<table-aims>> for readers interested in this topic. Additionally, citenp:[wearn-2017] provides a comprehensive overview of more general, camera trap survey design aspects."
-msgstr "Para que el conjunto de datos de una cámara sea útil, debería definir claramente el propósito y los objetivos en la fase de planificación: ¿qué le gustaría saber de qué grupos de especies? Cada propósito trae consigo sus propias características clave, como la altura y dirección de la cámara, estacionalidad, uso de cebo, características de zona de detección, ajustes de cámara, activación y tipo de flash. Estas características deben incluirse en el conjunto de datos publicado con el fin de ser útiles en los análisis subsiguientes. Recomendamos consultar las referencias clave en <<table-aims>> para lectores interesados en este tema. Adicionalmente, citenp:[wearn-2017] proporciona una visión global de los aspectos generales de diseño de encuestas de cámaras trampa."
+msgstr "Para que el conjunto de datos de una cámara sea útil, debería definir claramente el propósito y los objetivos en la fase de planificación: ¿qué le gustaría saber de qué grupos de especies? Cada propósito trae consigo sus propias características clave a considerar, como la altura y dirección de la cámara, estacionalidad, uso de cebo, características de zona de detección, ajustes de cámara, activación y tipo de flash. Estas características deben incluirse en el conjunto de datos publicado con el fin de ser útiles en los análisis subsiguientes. Recomendamos consultar las referencias clave en <<table-aims>> para lectores interesados en este tema. Adicionalmente, citenp:[wearn-2017] proporciona una visión global de los aspectos generales de diseño de relevamientos con cámaras trampa."
 
 #. type: Title ==
 #: 300.en.adoc:2
@@ -413,7 +413,7 @@ msgstr "En esta sección introducimos una serie de convenciones generales para l
 #: 300.en.adoc:13
 #, no-wrap
 msgid "What are camera trap data"
-msgstr "Qué son las cámaras trampa"
+msgstr "Qué son los datos de las cámaras trampa"
 
 #. type: Plain text
 #: 300.en.adoc:16
