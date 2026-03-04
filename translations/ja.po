@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-02-20 06:23\n"
+"PO-Revision-Date: 2026-03-04 01:55\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -254,7 +254,7 @@ msgstr "最も頻繁に研究される動物分類群は、有蹄類、肉食動
 #: 200.en.adoc:17
 #, no-wrap
 msgid "Aims and outputs of camera trap studies as taken from citenp:[wearn-2017]."
-msgstr ""
+msgstr "citenp:[wearn-2017]より抜粋した、カメラトラップ研究の目的および結果"
 
 #. type: Table
 #: 200.en.adoc:38
@@ -273,24 +273,37 @@ msgid "|Study Aim\n"
 "|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]\n\n"
 "|diversity\n"
 "|beta-diversity\n"
-msgstr ""
+msgstr "|研究目的\n"
+"|結果\n"
+"|主要な文献\n\n"
+"|アバンダンス\n"
+"|密度\n"
+"|citenp:[sollmann-2012,tobler-2013,rowcliffe-2008,rowcliffe-2016]\n\n"
+"|アバンダンス\n"
+"|相対的なアバンダンス\n"
+"|citenp:[rowcliffe-2008,wearn-2013,cusack-2015]\n\n"
+"|分布\n"
+"|占有率\n"
+"|citenp:[mackenzie-2005,guillera-2010,obrien-2010,shannon-2014]\n\n"
+"|多様性\n"
+"|ベータ多様性\n"
 
 #. type: Block title
 #: 200.en.adoc:38
 #, no-wrap
 msgid "3+|citenp:[tobler-2008,cusack-2015]"
-msgstr ""
+msgstr "3+|citenp:[tobler-2008,cusack-2015]"
 
 #. type: Table
 #: 200.en.adoc:49
 msgid "|diversity |diversity indices |diversity |richness |species presence |species checklist |citenp:[tobler-2008,wearn-2013]"
-msgstr ""
+msgstr "|多様性 |多様度指数 |多様性 |豊富さ |種の在データ |種のチェックリスト |citenp:[tobler-2008,wearn-2013]"
 
 #. type: Title ===
 #: 200.en.adoc:52
 #, no-wrap
 msgid "Camera trap project life cycle"
-msgstr ""
+msgstr "カメラトラッププロジェクトのライフサイクル"
 
 #. type: Plain text
 #: 200.en.adoc:55
