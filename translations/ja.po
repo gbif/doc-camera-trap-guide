@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-03-04 01:55\n"
+"PO-Revision-Date: 2026-03-04 02:58\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -308,13 +308,13 @@ msgstr "カメラトラッププロジェクトのライフサイクル"
 #. type: Plain text
 #: 200.en.adoc:55
 msgid "The full life cycle of camera trap research includes the planning phase, the deployment of the camera traps in the field, the collection, management, analysis and sharing of data. This guide is not intended to cover all aspects of the camera trap project life cycle. The focus in this best practice guide lies on the management and publishing of the data. For readers interested in a general review of camera trap research, the planning phase, the deployment of camera traps in the field, we here provide an overview of the available resources (see <<table-topics>>)."
-msgstr ""
+msgstr "カメラトラップ研究の全ライフサイクルには、計画段階、フィールドでのカメラトラップの設置、データの収集、管理、分析および共有が含まれます。このガイドの目的は、カメラトラッププロジェクトのライフサイクルの側面を全て網羅することではありません。このベストプラクティスガイドは、データの管理と公開に焦点を当てています。カメラトラップ研究の一般的なレビュー、計画段階、フィールドでのカメラトラップの設置に興味がある読者のために、利用可能なリソースの概要を提供しています（<<table-topics>>を参照）。"
 
 #. type: Block title
 #: 200.en.adoc:57
 #, no-wrap
 msgid "Stages in the camera trap life cycle and key references."
-msgstr ""
+msgstr "カメラトラップのライフサイクルの段階と主要な文献"
 
 #. type: Table
 #: 200.en.adoc:93
@@ -347,236 +347,263 @@ msgid "|Topic\n"
 "|Analysis\n"
 "|Software for analysing data\n"
 "|citenp:[sunarto-2013]\n"
-msgstr ""
+msgstr "|トピック\n"
+"|内容\n"
+"|文献\n\n"
+"|カメラトラップのライフサイクル全般\n"
+"|一般的な最新技術 +\n"
+"将来の開発とカメラトラップの制約\n"
+"|citenp:[cadman-2014,rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]\n\n"
+"|計画\n"
+"|どのようにカメラトラップ研究をデザインするか？ +\n"
+"どの種類のカメラトラップを選択するか？\n"
+"|citenp:[wearn-2017,rovero-2010,sunarto-2013,meek-2014,kays-2020,caravaggi-2020,hobbs-2017,mcintyre-2020]\n\n"
+"|設置と収集\n"
+"|どこにどのようにカメラを取り付けるか？ +\n"
+"カメラトラップのストレージとメンテナンス +\n"
+"餌およびおとり +\n"
+"盗難と破壊行為への対策 +\n"
+"さまざまな環境でのセットアップ\n"
+"|citenp:[wearn-2017,rovero-2010,rovero-2013,meek-2014]\n\n"
+"|データ管理および共有\n"
+"|データ管理の検討事項 +\n"
+"フィールドからハードディスクへ +\n"
+"カメラトラップデータのアノテーション +\n"
+"データ管理のソフトウェア +\n"
+"カメラトラップデータの共有と公開\n"
+"|本ガイドの<<section-3>>および<<section-4>>\n\n"
+"|分析\n"
+"|データ分析のソフトウェア\n"
+"|citenp:[sunarto-2013]\n"
 
 #. type: Plain text
 #: 200.en.adoc:96
 msgid "For a camera trap dataset to be useful, you should clearly define the aim and objectives in the planning phase: what would you like to know from which species groups? Each aim brings along its own key characteristics to consider, such as camera height and direction, seasonality, bait usage, detection zone features, camera settings, trigger and flash type. These characteristics must be included in the published dataset in order to be useful in consequent analyses. We recommend consulting the key references in <<table-aims>> for readers interested in this topic. Additionally, citenp:[wearn-2017] provides a comprehensive overview of more general, camera trap survey design aspects."
-msgstr ""
+msgstr "カメラトラップのデータセットを有用にするためには、計画段階で目的と目標を明確に定義する必要があります：どの生物種グループから何を知りたいのか？目的によって考慮すべき特性が決まります。具体的には、カメラの高さと方向、季節性、餌の使用、検出ゾーンの特徴、カメラの設定、トリガーとフラッシュの種類などです。これらの特性は、後続する分析に有用となるように、公開されたデータセットに含める必要があります。このトピックに興味がある読者には、<<table-aims>>の主要な参考文献を参照することを推奨します。さらに、citenp:[wearn-2017]は、より一般的なカメラトラップ調査デザインの側面について包括的な概要を提供しています。"
 
 #. type: Title ==
 #: 300.en.adoc:2
 #, no-wrap
 msgid "Managing camera trap data"
-msgstr ""
+msgstr "カメラトラップデータの管理"
 
 #. type: Plain text
 #: 300.en.adoc:5
 msgid "Once a camera trap is operative in the field, it can generate hundreds, thousands or even millions of pictures or videos in the time frame of the project. Ultimately, these data need to be analysed. But first, data need to be retrieved, stored, organized and labelled. The content of the images needs interpretation or annotation, either manually or facilitated by technology. All these steps are considered in the data management process."
-msgstr ""
+msgstr "カメラトラップがフィールドで稼働すると、プロジェクトの期間中に数百、数千、さらには数百万枚の写真（静止画）や動画を生成することができます。最終的には、これらのデータを分析する必要があります。しかし、最初にデータを取り出し、保存し、整理し、ラベル付けする必要があります。静止画の内容は、手動または機械的に、解釈やアノテーションを付ける必要があります。これらの全てのステップがデータ管理のプロセスに含まれます。"
 
 #. type: Plain text
 #: 300.en.adoc:7
 msgid "Data management is one of the real bottlenecks in camera trap research. The massive amount of information stored on memory cards requires a high investment in terms of human effort and time. If data storage and classification is lagging behind, large volumes of data will remain unused and will get lost eventually. Manual extraction, organization and labelling can introduce human errors and can lead to data loss. In addition, there is often more information in the image or video than the sole target species (group) or topic that is the focus of the project. Camera traps inherently detect multiple species and observations of non-target species provide valuable data for other research objectives. If all data, including non-target species, were annotated, more relevant outcomes to funds could be generated cite:[young-2018,wearn-2017]."
-msgstr ""
+msgstr "データ管理はカメラトラップ研究で現実に生じるボトルネックの一つです。メモリーカードに保存された膨大な情報を扱うには、人間の労力と時間の面でたくさんの投資が必要です。データの保存と分類が遅れると、大量のデータが未使用のままになり、最終的には失われてしまいます。手動での抽出、整理、ラベル付けは人為的ミスを引き起こし、データの損失につながる可能性があります。さらに、プロジェクトの焦点である単一の対象種（グループ）やトピックよりも、多くの情報が静止画や動画に含まれていることがよくあります。カメラトラップは本質的に複数の種を検出するものであり、非対象種の観察記録は他の研究目的に価値のあるデータを提供します。非対象種を含む全てのデータにアノテーションが付けば、より投資に見合った成果を得ることができますcite:[young-2018,wearn-2017]。"
 
 #. type: Plain text
 #: 300.en.adoc:9
 msgid "To conclude, every researcher should pay attention to data hygiene. The underlying idea is: rather have ten well-documented elements, rather than a hundred poorly documented ones. Only in this way can we turn the cacophony of raw image data into useful quantitative data."
-msgstr ""
+msgstr "結論として、全ての研究者はデータ衛生に注意を払うべきです。基本的な考え方は、文書化が不十分な100件よりも、よく文書化された10件がよい、ということです。このようにして初めて、カオス状態の生の静止画データを、有用な定量データに変えることができます。"
 
 #. type: Plain text
 #: 300.en.adoc:11
 msgid "In this section, we introduce a number of general conventions for sound data management data. We zoom deeper into what camera trap data exactly is. For each type of camera trap data (<<section-project-metadata,metadata>>, <<section-media-files,media>>, <<section-deployments,deployments>>, <<section-observations,observations>>), we focus on how to best manage these, and what data management platforms you can use to facilitate you in doing so."
-msgstr ""
+msgstr "このセクションでは、データ管理データに関する一般的な規則を紹介します。カメラトラップデータとは何かを詳しく掘り下げます。カメラトラップデータの各タイプ（<<section-project-metadata,メタデータ>>、<<section-media-files,メディア>>、<<section-deployments,設置>>、<<section-observations,観察>>）を最適に管理する方法と、その支援のために使用できるデータ管理プラットフォームに焦点を当てます。"
 
 #. type: Title ===
 #: 300.en.adoc:13
 #, no-wrap
 msgid "What are camera trap data"
-msgstr ""
+msgstr "カメラトラップデータとは何か"
 
 #. type: Plain text
 #: 300.en.adoc:16
 msgid "Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. But to be able to use these for research they need to be documented with additional information. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved."
-msgstr ""
+msgstr "直感的に、カメラトラップデータは<<camera,カメラ>>によって撮影された<<media,メディア>>ファイルと関連付けられます。しかし、これらを研究に使用するためには、追加情報と共に文書化する必要があります。観察された種を知るためにメディアファイルを<<classification, 分類>>する必要があります。いつ、どこで、その種がどれくらい観察されやすいかを知るために、カメラの<<deployment,設置>>、期間、<<location,場所>>、<<alignment,アライメント>>、サンプリング方法に関する情報が必要です。最後に、研究の範囲や携わった人物を知るため、<<project,プロジェクト／研究全体>>の情報が必要です。 "
 
 #. type: Plain text
 #: 300.en.adoc:18
 msgid "Overall, we can distinguish four types of camera trap data:"
-msgstr ""
+msgstr "まとめると、カメラトラップデータには以下の4つのタイプがあります："
 
 #. type: Plain text
 #: 300.en.adoc:20
 #, no-wrap
 msgid "**Project metadata:** information about the camera trap project/study as a whole\n"
-msgstr ""
+msgstr "**プロジェクトメタデータ：** カメラトラッププロジェクト／研究全体に関する情報"
 
 #. type: Plain text
 #: 300.en.adoc:21
 #, no-wrap
 msgid "**Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata\n"
-msgstr ""
+msgstr "**メディアファイル：** <<camera,カメラ>>によって撮影された静止画、動画、音声ファイル、およびそれらの<<EXIF>>メタデータ"
 
 #. type: Plain text
 #: 300.en.adoc:22
 #, no-wrap
 msgid "**Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.\n"
-msgstr ""
+msgstr "**設置：** カメラの<<location,場所>>と<<alignment,アライメント>>、サンプリング期間、および <<covariates,共変量>>に関する情報。通常、カメラによって自動的に登録されることはありません。 "
 
 #. type: Plain text
 #: 300.en.adoc:23
 #, no-wrap
 msgid "**Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.\n"
-msgstr ""
+msgstr "**観察：** メディアファイルによって見えるまたは聞こえるもの（すなわち、興味の対象）に関する情報。例えば、動物、人間、車両などを指します。通常、観察された動物種を記録することを目的とし、オプションとしてグループサイズ、ライフステージ、性別、行動に関する情報も含みます。\n"
 
 #. type: Plain text
 #: 300.en.adoc:25
 msgid "These data can be organized in different ways, based on personal preference or what <<data-management-system,data management system>> is used. We can however identify a number of core concepts, hereafter referred to as classes, that constitute a “model” for camera trap data (see <<figure-class-diagram>>). Those classes are project, organization, participant, deployment, location, device, media, sequence and observation."
-msgstr ""
+msgstr "これらのデータは、個人の好みや使用する<<data-management-system,データ管理システム>>に基づき、さまざまな方法で整理されますが、カメラトラップデータの「モデル」を構成する、いくつかのコアとなる概念（以下、クラスと呼ぶ）を特定することができます（<<figure-class-diagram>>参照）。これらのクラスは、プロジェクト、組織、参加者、設置、場所、デバイス、メディア、シーケンス、観察です。"
 
 #. type: Block title
 #: 300.en.adoc:26
 #, no-wrap
 msgid "Class diagram for camera trap data, constituting of different classes (boxes) and relationships (lines). Mandatory classes are dark blue, optional classes light blue. The line ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment."
-msgstr ""
+msgstr "カメラトラップデータのクラス図は、異なるクラス（ボックス）とリレーションシップ（ライン）で構成される。必須クラスは濃い青、オプションクラスは薄い青で示される。ラインの端はリレーションシップの多重度を表しており、0| はゼロまたは1つ、0< はゼロから多数、|< は1つから多数、|| はちょうど1つを意味する。例えば、deploymentにはゼロから多数のmediaがあり、mediaはちょうど1つのdeploymentに属す。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: 300.en.adoc:28
 #, no-wrap
 msgid "Class diagram"
-msgstr ""
+msgstr "クラス図"
 
 #. type: Target for macro image
 #: 300.en.adoc:28
 #, no-wrap
 msgid "img/web/class-diagram.svg"
-msgstr ""
+msgstr "img/web/class-diagram.svg"
 
 #. type: Title ===
 #: 300.en.adoc:31
 #, no-wrap
 msgid "Project Metadata"
-msgstr ""
+msgstr "プロジェクトのメタデータ"
 
 #. type: Plain text
 #: 300.en.adoc:34
 msgid "Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? Is it easy to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<section-4>>)."
-msgstr ""
+msgstr "プロジェクトメタデータは、カメラトラッププロジェクト／研究全体を文書化します。誰が関わったのか、何が根拠であったのか、どのようなサンプリング方法が使用されたのか、そして研究範囲は何であったか？プロジェクトはさまざまな規模で実施され、時にはメタ研究の一部であったり、数十万もの設置をより適切に管理するためのサブプロジェクトに分割されていたりします（例：https://www.snapshot-usa.org/[Snapshot USA]）。意味が伝わるレベルで、プロジェクトを記述してください。プロジェクトに関する決定を下したり、質問に答えたりすることのできる人物は特定できますか？方法論を簡単に説明できますか？これらの質問に対する答えが「いいえ」の場合、それらを別々のプロジェクトと見なす方が良いかもしれません。また、プロジェクトレベルでデータ公開することを強く推奨します。すなわち、1つのプロジェクトに対して1つのデータセットです（<<section-4>>参照）。"
 
 #. type: Plain text
 #: 300.en.adoc:36
 msgid "When published, project metadata are a substantial part of the dataset metadata (see <<figure-example-metadata>>), allowing others to discover your dataset when searching for certain keywords and to assess if it fits their research needs. When describing your project, think about what others would need to understand it. We recommend to cover the following aspects (but do not let perfection be the enemy of good):"
-msgstr ""
+msgstr "公開されると、プロジェクトメタデータはデータセットメタデータの重要な部分になります（<<figure-example-metadata>>参照）。これによって、他の人が特定のキーワードで検索した際に、データセットを見つけ、その人の研究ニーズに適しているかどうかを見極めることができます。プロジェクトを説明する際には、他の人が理解するために何が必要かを考えてください。以下の側面をカバーすることを推奨します（ただし、完璧主義に陥らないように）："
 
 #. type: Plain text
 #: 300.en.adoc:38
 msgid "Title"
-msgstr ""
+msgstr "タイトル"
 
 #. type: Plain text
 #: 300.en.adoc:39
 msgid "Identifier and/or acronym"
-msgstr ""
+msgstr "識別子および/または略語"
 
 #. type: Plain text
 #: 300.en.adoc:40
 msgid "Description (including rationale)"
-msgstr ""
+msgstr "説明（根拠を含む）"
 
 #. type: Plain text
 #: 300.en.adoc:41
 msgid "Contributors and their roles (including organizations)"
-msgstr ""
+msgstr "貢献者と役割（組織を含む）"
 
 #. type: Plain text
 #: 300.en.adoc:42
 msgid "Link to website"
-msgstr ""
+msgstr "ウェブサイトへのリンク"
 
 #. type: Plain text
 #: 300.en.adoc:43
 msgid "Keywords"
-msgstr ""
+msgstr "キーワード"
 
 #. type: Plain text
 #: 300.en.adoc:44
 msgid "Funding"
-msgstr ""
+msgstr "資金提供"
 
 #. type: Plain text
 #: 300.en.adoc:45
 msgid "Sampling design (simple random, systematic random, etc.)"
-msgstr ""
+msgstr "サンプリングデザイン（単純な無作為、規則的な無作為など）"
 
 #. type: Plain text
 #: 300.en.adoc:46
 msgid "Resulting geographic scope"
-msgstr ""
+msgstr "結果としての地理的範囲"
 
 #. type: Plain text
 #: 300.en.adoc:47
 msgid "Capture method (type of sensor, motion detection and/or time lapse)"
-msgstr ""
+msgstr "撮影方法（センサーの種類、動作検出および/またはタイムラプス）"
 
 #. type: Plain text
 #: 300.en.adoc:48
 msgid "Capture schedules (continuous, nightly, etc.)"
-msgstr ""
+msgstr "撮影スケジュール（連続、夜間など）"
 
 #. type: Plain text
 #: 300.en.adoc:49
 msgid "Capture outages and unplanned events"
-msgstr ""
+msgstr "撮影の中断および予期しないイベント"
 
 #. type: Plain text
 #: 300.en.adoc:50
 msgid "Resulting temporal scope"
-msgstr ""
+msgstr "結果としての時間的範囲"
 
 #. type: Plain text
 #: 300.en.adoc:51
 msgid "Classification method (experts, <<section-citizen-science,crowdsourcing>>, <<section-artificial-intelligence,AI>>)"
-msgstr ""
+msgstr "分類方法（専門家、<<section-citizen-science,クラウドソーシング>>、<<section-artificial-intelligence,AI>>）"
 
 #. type: Plain text
 #: 300.en.adoc:52
 msgid "Classification granularity and scope (i.e. which detectable organisms were classified: all animals, mammals only, known individuals only, etc.)"
-msgstr ""
+msgstr "分類の粒度と範囲（すなわち、検出できた生物でどの生物が分類されたのか：全ての動物、哺乳類のみ、知っている個体のみ、など）"
 
 #. type: Plain text
 #: 300.en.adoc:53
 msgid "Resulting taxonomic scope"
-msgstr ""
+msgstr "結果としての分類学的範囲"
 
 #. type: Plain text
 #: 300.en.adoc:54
 msgid "Data filtering before <<section-4,publication>>"
-msgstr ""
+msgstr "<<section-4,公開>>前のデータ抽出"
 
 #. type: Plain text
 #: 300.en.adoc:57
 msgid "Data management systems typically organize this information into the following classes: <<project>>, <<subproject>>, <<organization>> and <<participant>> (see <<figure-class-diagram>>)."
-msgstr ""
+msgstr "データ管理システムは通常、この情報を以下のクラスに整理します：<<project,プロジェクト>>、<<subproject,サブプロジェクト>>、<<organization,組織>>、<<participant,参加者>>（<<figure-class-diagram>>参照）。"
 
 #. type: Block title
 #: 300.en.adoc:58
 #, no-wrap
 msgid "Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. A substantial part of its metadata are derived from the project metadata."
-msgstr ""
+msgstr "GBIFで公開されているカメラトラップデータセット https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd [camera trap dataset]cite:[mica-dataset]のスクリーンショット。"
 
 #. type: Target for macro image
 #: 300.en.adoc:60
 #, no-wrap
 msgid "img/web/example-metadata.png"
-msgstr ""
+msgstr "img/web/example-metadata.png"
 
 #. type: Title ====
 #: 300.en.adoc:63
 #, no-wrap
 msgid "Participants and roles"
-msgstr ""
+msgstr "参加者と役割"
 
 #. type: Plain text
 #: 300.en.adoc:66
 msgid "A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles (see <<table-roles>>). We recommend simplifying those to a limited set of controlled values (e.g. {package-contributors-role}) when publishing data."
-msgstr ""
+msgstr "<<participant,参加者>>とは、カメラトラッププロジェクトに関連する人物のことです。参加者に関して通常記録される情報には、名前、姓、メールアドレス、ORCIDが含まれます。参加者の役割は、プロジェクト（例：主任研究員、問い合わせ先）および組織（例：研究者）に関連して定義されます（<<figure-class-diagram>>参照）。同様の役割に対して異なる名称が使用されることがあります（<<table-roles>>参照）。データを公開する際には、あらかじめ決められた一連の制御値に簡略化することを推奨します（例：{package-contributors-role}）。"
 
 #. type: Block title
 #: 300.en.adoc:68
 #, no-wrap
 msgid "Participant roles in camera trap studies, as defined by different formats and data management systems."
-msgstr ""
+msgstr "カメラトラップ研究における参加者の役割は、異なるフォーマットやデータ管理システムによって定義されている。"
 
 #. type: Table
 #: 300.en.adoc:150
@@ -654,23 +681,95 @@ msgid "|Camtrap DP\n"
 "Dummy\n"
 "Awaiting access\n"
 "|Project Viewer\n"
-msgstr ""
+msgstr "|Camtrap DP\n"
+"|CTMS cite:[ctms]\n"
+"|Wildlife camera metadata protocol cite:[risc-2019]\n"
+"|DataCite cite:[datacite]\n"
+"|EML cite:[eml-2015]\n"
+"|Agouti cite:[agouti]\n"
+"|Wildlife Insights cite:[wildlife-insights]\n\n"
+"|問い合わせ先\n"
+"|ProjectContact\n"
+"|Project Coordinator\n"
+"|ContactPerson\n"
+"|Point of Contact\n"
+"|Project coordinator\n"
+"|Project Owner\n\n"
+"|主任研究員\n"
+"|PrincipalInvestigator\n"
+"|\n"
+"|ProjectLeader +\n"
+"ProjectManager +\n"
+"Supervisor\n"
+"|Owner +\n"
+"Principal Investigator\n"
+"|Principal investigator\n"
+"|Project Owner\n\n"
+"|権利者\n"
+"|\n"
+"|\n"
+"|RightsHolder\n"
+"|\n"
+"|\n"
+"|\n\n"
+"|出版者\n"
+"|\n"
+"|\n"
+"|Distributor\n"
+"|Distributor\n"
+"Publisher\n"
+"|\n"
+"|\n\n"
+"|貢献者\n"
+"|sequenceIdentifiedBy +\n"
+"PhotoTypeIdentifiedBy\n"
+"|Crew Member +\n"
+"Surveyor\n"
+"|DataManager +\n"
+"DataCurator +\n"
+"DataCollector +\n"
+"ProjectMember +\n"
+"Researcher\n"
+"|Curator +\n"
+"Editor +\n"
+"Author +\n"
+"Content Provider +\n"
+"Originator +\n"
+"|Admin +\n"
+"Taxonomic expert +\n"
+"Photo processor +\n"
+"Volunteer\n"
+"|Project Editor +\n"
+"Project Contributor +\n"
+"Project Tagger +\n\n"
+"|\n"
+"|\n"
+"|\n"
+"|Other\n"
+"|User\n"
+"Processor\n"
+"Reviewer\n"
+"Metadata Provider\n"
+"|View only\n"
+"Dummy\n"
+"Awaiting access\n"
+"|Project Viewer\n"
 
 #. type: Title ===
 #: 300.en.adoc:153
 #, no-wrap
 msgid "Media files"
-msgstr ""
+msgstr "メディアファイル"
 
 #. type: Plain text
 #: 300.en.adoc:156
 msgid "<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process."
-msgstr ""
+msgstr "<<media-file,メディアファイル>>は、カメラトラップが収集する生データです。ほとんどのカメラトラップ研究では、<<image,静止画>>を指しますが（例えば、<<figure-example-image>>の通り）、最新のカメラトラップは動画や音声など他のタイプのメディアも記録できます。<<video,動画>>は、静止画よりも動物の行動を詳細に捉えることができ、アウトリーチに適していますが、多くのバッテリー電力を必要とし、ファイルサイズも大きく、処理が難しいです。"
 
 #. type: Plain text
 #: 300.en.adoc:158
 msgid "An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single <<sequence>>/<<event>> (see <<table-sequence>>)."
-msgstr ""
+msgstr "よく使われる妥協策は、カメラがトリガーされたときに一連の静止画を撮影することです（例：1秒間隔で10枚の静止画）。メディアファイルを処理する際に、関連する静止画を<<sequence,シーケンス>>にまとめることができます。シーケンスは、単一の<<trigger,トリガー>>から生じる静止画だけでなく、<<independence-interval,設定した独立間隔>>（例：120秒）内に収まる連続したトリガーもまとめられます。このようにして、継続的な行動が単一の<<sequence,シーケンス>>/<<event,イベント>>/に撮影されます（<<table-sequence>>参照）。"
 
 #. type: Block title
 #: 300.en.adoc:159
