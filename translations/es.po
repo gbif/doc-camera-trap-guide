@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-03-05 15:40\n"
+"PO-Revision-Date: 2026-03-05 21:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -435,19 +435,19 @@ msgstr "**Metadatos del proyecto:** información sobre el proyecto/estudio cómo
 #: 300.en.adoc:21
 #, no-wrap
 msgid "**Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata\n"
-msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cameras>>, incluyendo sus metadatos <<EXIF>>\n"
+msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cameras>>, incluyendo sus metadatos <<EXIF>>"
 
 #. type: Plain text
 #: 300.en.adoc:22
 #, no-wrap
 msgid "**Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.\n"
-msgstr "**Despliegues:** información sobre la <<location>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara.\n"
+msgstr "**Despliegues:** información sobre la <<location>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara."
 
 #. type: Plain text
 #: 300.en.adoc:23
 #, no-wrap
 msgid "**Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.\n"
-msgstr "**Observaciones:** información sobre lo que se puede ver u oír en los archivos multimedia (es decir, objetos de interés), como animales, seres humanos o vehículos. El objetivo normalmente es registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento.\n"
+msgstr "**Observaciones:** información sobre lo que se puede ver u oír en los archivos multimedia (es decir, objetos de interés), como animales, seres humanos o vehículos. El objetivo normalmente es registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento."
 
 #. type: Plain text
 #: 300.en.adoc:25
@@ -481,7 +481,7 @@ msgstr "Metadatos del proyecto"
 #. type: Plain text
 #: 300.en.adoc:34
 msgid "Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? Is it easy to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<section-4>>)."
-msgstr "Los metadatos del proyecto documentan un proyecto/estudio de la cámara trampa como un todo. ¿Quién estaba implicado, cuál era la razón, qué métodos de muestreo se utilizaron y cuál era el alcance? Los proyectos pueden variar mucho en tamaño y a veces son parte de meta-estudios o se subdividen en subproyectos para gestionar mejor sus cientos o miles de despliegues (p. ej., https://www.snapshot-usa.org/[Snapshot USA]). Describa los proyectos a un nivel que tenga sentido. ¿Es posible identificar a una persona que puede tomar decisiones o responder preguntas sobre el proyecto? ¿Es fácil describir la metodología? Si la respuesta a estas preguntas es no, entonces sería mejor considerar esos proyectos como separados. Tenga también en cuenta que recomendamos fuertemente publicar datos a nivel del proyecto, es decir, un conjunto de datos por proyecto (ver la <<section-4>>)."
+msgstr "Los metadatos del proyecto documentan un proyecto/estudio con cámaras trampa como un todo. ¿Quién estaba implicado?, ¿cuál era la razón?, ¿qué métodos de muestreo se utilizaron? y ¿cuál era el alcance? Los proyectos pueden variar mucho en tamaño y a veces son parte de meta-estudios o se subdividen en subproyectos para gestionar mejor sus cientos o miles de despliegues (p. ej., https://www.snapshot-usa.org/[Snapshot USA]). Describa los proyectos a un nivel que tenga sentido. ¿Es posible identificar a una persona que puede tomar decisiones o responder preguntas sobre el proyecto? ¿Es fácil describir la metodología? Si la respuesta a estas preguntas es no, entonces sería mejor considerar esos proyectos como separados. Tenga también en cuenta que recomendamos fuertemente publicar datos a nivel del proyecto, es decir, un conjunto de datos por proyecto (ver la <<section-4>>)."
 
 #. type: Plain text
 #: 300.en.adoc:36
