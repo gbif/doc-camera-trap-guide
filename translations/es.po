@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-03-03 21:15\n"
+"PO-Revision-Date: 2026-03-05 15:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -418,7 +418,7 @@ msgstr "Qué son los datos de las cámaras trampa"
 #. type: Plain text
 #: 300.en.adoc:16
 msgid "Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. But to be able to use these for research they need to be documented with additional information. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved."
-msgstr "Intuitivamente, asociamos los datos de las cámaras trampa con los <<media>> capturados por las <<camera,cameras>>. Pero para poder utilizarlos para la investigación necesitan estar documentados con información adicional. Los archivos multimedia deben ser <<classification, classified>> para saber qué especies fueron observadas. La información sobre el <<deployment>>, la duración, la <<location>>, la <<alignment>> y la metodología de muestreo de la cámara se necesita para saber cuándo, dónde y qué tan probable era que se observaran esas especies. Finalmente, necesitamos información sobre el <<project,project/study>> en su conjunto para conocer el alcance y quién estaba involucrado."
+msgstr "Intuitivamente, asociamos los datos de las cámaras trampa con los <<media>> capturados por las <<camera,cameras>>. Pero para poder utilizarlos para la investigación necesitan estar documentados con información adicional. Los archivos multimedia deben ser <<classification, classified>> para saber qué especies fueron observadas. La información sobre el <<deployment>>, la duración, la <<location>>, la <<alignment>> y la metodología de muestreo, es necesaria para saber cuándo, dónde y qué tan probable era que se observaran esas especies. Finalmente, necesitamos información sobre el <<project,project/study>> en su conjunto para conocer el alcance y quién estaba involucrado."
 
 #. type: Plain text
 #: 300.en.adoc:18
@@ -429,7 +429,7 @@ msgstr "En general, podemos distinguir cuatro tipos de datos de cámaras trampa:
 #: 300.en.adoc:20
 #, no-wrap
 msgid "**Project metadata:** information about the camera trap project/study as a whole\n"
-msgstr "**Metadatos del proyecto:** información sobre el proyecto/estudio de la cámara trampa como un todo\n"
+msgstr "**Metadatos del proyecto:** información sobre el proyecto/estudio cómo un todo\n"
 
 #. type: Plain text
 #: 300.en.adoc:21
