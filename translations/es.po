@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-03-05 21:57\n"
+"PO-Revision-Date: 2026-03-05 23:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -605,7 +605,7 @@ msgstr "Un <<participant>> es una persona asociada a un proyecto de cámaras tra
 #: 300.en.adoc:68
 #, no-wrap
 msgid "Participant roles in camera trap studies, as defined by different formats and data management systems."
-msgstr "Funciones participativas en los estudios de trampas de cámara, definidas por diferentes formatos y sistemas de gestión de datos."
+msgstr "Funciones participativas en los estudios de cámara trampa, definidas por diferentes formatos y sistemas de gestión de datos."
 
 #. type: Table
 #: 300.en.adoc:150
@@ -766,7 +766,7 @@ msgstr "Archivos multimedia"
 #. type: Plain text
 #: 300.en.adoc:156
 msgid "<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process."
-msgstr "Los <<media-file,Media files>> son los datos crudos que recolecta una cámara trampa. Para la mayoría de los estudios de cámaras trampa, estas serán <<image,images>> (ver la <<figure-example-image>> para un ejemplo), pero las cámaras trampa modernas también pueden grabar otros tipos de medios, tal como <<video>> o sonido. Los videos pueden capturar el comportamiento animal con más detalle que las imágenes y a menudo son adecuados para su divulgación, pero requieren más energía de batería, archivos de mayor tamaño y son más difíciles de procesar."
+msgstr "Los <<media-file,Media files>> son los datos crudos que recolecta una cámara trampa. Para la mayoría de los estudios de cámaras trampa, estas serán <<image,images>> (ver la <<figure-example-image>> para un ejemplo), pero las cámaras trampa modernas también pueden grabar otros tipos de medios, tal como <<video>> o sonido. Los videos pueden capturar el comportamiento animal con más detalle que las imágenes y a menudo son adecuados para su divulgación, pero requieren más batería, archivos de mayor tamaño y son más difíciles de procesar."
 
 #. type: Plain text
 #: 300.en.adoc:158
