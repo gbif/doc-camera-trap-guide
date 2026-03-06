@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-03-04 02:58\n"
+"PO-Revision-Date: 2026-03-06 07:55\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -775,19 +775,19 @@ msgstr "よく使われる妥協策は、カメラがトリガーされたとき
 #: 300.en.adoc:159
 #, no-wrap
 msgid "An image captured by a camera trap deployed as part of the MICA project cite:[mica-project]. It is the fifth of a series of ten images and indicates the date, time and temperature. It is a black and white photo of a creek occupied by three birds: a grey heron (Ardea cinerea) in the foreground and a female and male mallard (Anas platyrhynchos) in the background. https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Source]."
-msgstr ""
+msgstr "MICAプロジェクト cite:[mica-project] の一環として設置されたカメラトラップによって撮影された静止画。10枚の連続撮影静止画のうちの5枚目で、日付、時間、温度を示している。3羽の鳥がいる小川の白黒写真で、前にアオサギ（Ardea cinerea）、後ろにマガモ（Anas platyrhynchos）のオスとメスが写っている。 https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[出典]。"
 
 #. type: Target for macro image
 #: 300.en.adoc:161
 #, no-wrap
 msgid "img/web/example-image.jpg"
-msgstr ""
+msgstr "img/web/example-image.jpg"
 
 #. type: Block title
 #: 300.en.adoc:164
 #, no-wrap
 msgid "A series of images, resulting from 3 consecutive triggers and captured in one sequence. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "3つの連続したトリガーからできた一つのシーケンスで撮影された一連の静止画。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]。"
 
 #. type: Table
 #: 300.en.adoc:322
@@ -916,23 +916,146 @@ msgid "|Trigger\n"
 "|54c5d869\n"
 "|2020-06-12T04:04:55Z\n"
 "|https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72\n"
-msgstr ""
+msgstr "|トリガー\n"
+"|メディアID\n"
+"|タイムスタンプ\n"
+"|ファイルパス\n\n"
+"|1\n"
+"|e68deaed\n"
+"|2020-06-12T04:04:29Z\n"
+"|https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file\n\n"
+"|1\n"
+"|c5efbcb3\n"
+"|2020-06-12T04:04:30Z\n"
+"|https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file\n\n"
+"|1\n"
+"|07eee194\n"
+"|2020-06-12T04:04:31Z\n"
+"|https://multimedia.agouti.eu/assets/07eee194-85c7-4586-96be-7b42ff6f1132/file\n\n"
+"|1\n"
+"|479a93c4\n"
+"|2020-06-12T04:04:31Z\n"
+"|https://multimedia.agouti.eu/assets/479a93c4-bc70-4e91-9ab5-b058df232ed0/file\n\n"
+"|1\n"
+"|6d65f3e4\n"
+"|2020-06-12T04:04:32Z\n"
+"|https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file\n\n"
+"|1\n"
+"|5ba57018\n"
+"|2020-06-12T04:04:32Z\n"
+"|https://multimedia.agouti.eu/assets/5ba57018-fd06-4319-bc80-ba6efa076c7c/file\n\n"
+"|1\n"
+"|c39a0749\n"
+"|2020-06-12T04:04:33Z\n"
+"|https://multimedia.agouti.eu/assets/c39a0749-b8db-4853-81c4-32b9a99868ca/file\n\n"
+"|1\n"
+"|d2ed4389\n"
+"|2020-06-12T04:04:34Z\n"
+"|https://multimedia.agouti.eu/assets/d2ed4389-14e6-45d7-b67d-b52d3cffd0fb/file\n\n"
+"|1\n"
+"|51549c25\n"
+"|2020-06-12T04:04:35Z\n"
+"|https://multimedia.agouti.eu/assets/51549c25-e565-4ece-a26e-12442ccc3fcb/file\n\n"
+"|1\n"
+"|b78bb29f\n"
+"|2020-06-12T04:04:35Z\n"
+"|https://multimedia.agouti.eu/assets/b78bb29f-fbf3-49b0-911b-ca4e5a95d801/file\n\n"
+"|2\n"
+"|d6785b65\n"
+"|2020-06-12T04:04:41Z\n"
+"|https://multimedia.agouti.eu/assets/d6785b65-24fa-4663-8539-e5fb261d069d/file\n\n"
+"|2\n"
+"|2b860458\n"
+"|2020-06-12T04:04:42Z\n"
+"|https://multimedia.agouti.eu/assets/2b860458-742b-4fca-937c-2a27742dccb0/file\n\n"
+"|2\n"
+"|d45648b9\n"
+"|2020-06-12T04:04:43Z\n"
+"|https://multimedia.agouti.eu/assets/d45648b9-76d1-4500-898c-dd3c3f31a0b8/file\n\n"
+"|2\n"
+"|eecd8ce1\n"
+"|2020-06-12T04:04:43Z\n"
+"|https://multimedia.agouti.eu/assets/eecd8ce1-2b13-49b7-bcec-c0056848aa62/file\n\n"
+"|2\n"
+"|48d26ebc\n"
+"|2020-06-12T04:04:44Z\n"
+"|https://multimedia.agouti.eu/assets/48d26ebc-ba6e-4245-8f52-c2cc1d64ef1f/file\n\n"
+"|2\n"
+"|4afd0344\n"
+"|2020-06-12T04:04:44Z\n"
+"|https://multimedia.agouti.eu/assets/4afd0344-3cec-4942-987b-96b69da75e6b/file\n\n"
+"|2\n"
+"|916964ac\n"
+"|2020-06-12T04:04:45Z\n"
+"|https://multimedia.agouti.eu/assets/916964ac-6389-4d06-8853-2eac6c36d8e7/file\n\n"
+"|2\n"
+"|3e8e355a\n"
+"|2020-06-12T04:04:46Z\n"
+"|https://multimedia.agouti.eu/assets/3e8e355a-6253-4a5f-a950-2f934821b7f7/file\n\n"
+"|2\n"
+"|b7792672\n"
+"|2020-06-12T04:04:46Z\n"
+"|https://multimedia.agouti.eu/assets/b7792672-6a31-484a-a97b-e19e34657021/file\n\n"
+"|2\n"
+"|1683dd3b\n"
+"|2020-06-12T04:04:47Z\n"
+"|https://multimedia.agouti.eu/assets/1683dd3b-7791-493a-84c6-1bb50541fd97/file\n\n"
+"|3\n"
+"|e6c63f88\n"
+"|2020-06-12T04:04:49Z\n"
+"|https://multimedia.agouti.eu/assets/e6c63f88-a31f-4f06-9410-3213baed08ab/file\n\n"
+"|3\n"
+"|91a1ba54\n"
+"|2020-06-12T04:04:50Z\n"
+"|https://multimedia.agouti.eu/assets/91a1ba54-5e19-4f18-88f8-8dd0dd3ef836/file\n\n"
+"|3\n"
+"|233a2f40\n"
+"|2020-06-12T04:04:51Z\n"
+"|https://multimedia.agouti.eu/assets/233a2f40-b0c5-4b93-90e4-e254d2e148f5/file\n\n"
+"|3\n"
+"|5e01e638\n"
+"|2020-06-12T04:04:51Z\n"
+"|https://multimedia.agouti.eu/assets/5e01e638-d36f-4ca2-957d-7bbdc76dcc89/file\n\n"
+"|3\n"
+"|dadf1718\n"
+"|2020-06-12T04:04:52Z\n"
+"|https://multimedia.agouti.eu/assets/dadf1718-90bd-438e-8649-3663f226072f/file\n\n"
+"|3\n"
+"|643d63a4\n"
+"|2020-06-12T04:04:52Z\n"
+"|https://multimedia.agouti.eu/assets/643d63a4-dd46-4b9d-b3de-665fe2a46754/file\n\n"
+"|3\n"
+"|19744c44\n"
+"|2020-06-12T04:04:53Z\n"
+"|https://multimedia.agouti.eu/assets/19744c44-03ea-438f-9dc7-927e6e494ee1/file\n\n"
+"|3\n"
+"|edc345bc\n"
+"|2020-06-12T04:04:54Z\n"
+"|https://multimedia.agouti.eu/assets/edc345bc-b58a-4c0d-8659-89132449cc3c/file\n\n"
+"|3\n"
+"|b6e435f8\n"
+"|2020-06-12T04:04:54Z\n"
+"|https://multimedia.agouti.eu/assets/b6e435f8-b22b-4916-8275-5fbff2d84a76/file\n\n"
+"|3\n"
+"|54c5d869\n"
+"|2020-06-12T04:04:55Z\n"
+"|https://multimedia.agouti.eu/assets/54c5d869-8492-4b16-a72\n"
 
 #. type: Plain text
 #: 300.en.adoc:325
 msgid "A camera also records metadata when creating a media file. This can include date and time, camera settings (like shutter speed, exposure level, flash status) and other properties. For images, this information is stored as part of the file and is expressed in the Exchangeable Image File Format (<<EXIF>>) (see <<table-exif>>). Metadata for videos is less standardized, although some formats like AVI and MOV support EXIF."
-msgstr ""
+msgstr "カメラはメディアファイルを作成する際にメタデータも記録します。これには、日付と時間、カメラの設定（シャッタースピード、露出レベル、フラッシュの状態など）およびその他のプロパティが含まれます。静止画の場合、この情報はファイルの一部として保存され、Exchangeable Image File Format（<<EXIF>>）で表現されます（<<table-exif>>参照）。動画のメタデータはあまり標準化されていませんが、AVIやMOVなどの形式はEXIFをサポートしています。"
 
 #. type: Plain text
 #: 300.en.adoc:327
 msgid "Data management systems typically organize media files and the associated metadata into the following classes: <<media>>, <<media-type,media type>> and <<sequence>> (see <<figure-class-diagram>>)."
-msgstr ""
+msgstr "データ管理システムは通常、メディアファイルと関連するメタデータを以下のクラスに整理します：<<media,メディア>>、<<media-type,メディアタイプ>>、<<sequence,シーケンス>>（<<figure-class-diagram>>参照）。"
 
 #. type: Block title
 #: 300.en.adoc:329
 #, no-wrap
 msgid "Selected properties included in the EXIF metadata of the image in <<figure-example-image>>."
-msgstr ""
+msgstr "<<figure-example-image>>の静止画のEXIFメタデータに含まれる選択済みプロパティ。"
 
 #. type: Table
 #: 300.en.adoc:388
@@ -975,54 +1098,91 @@ msgid "|Property\n"
 "|Manual\n\n"
 "|Scene capture type\n"
 "|Standard\n"
-msgstr ""
+msgstr "|プロパティ\n"
+"|値\n\n"
+"|ファイルタイプ\n"
+"|JPEG\n\n"
+"|MIMEタイプ\n"
+"|image/jpeg\n\n"
+"|静止画の幅\n"
+"|2048 pixels\n\n"
+"|静止画の高さ\n"
+"|1440 pixels\n\n"
+"|水平解像度\n"
+"|72 dpi\n\n"
+"|垂直解像度\n"
+"|72 dpi\n\n"
+"|EXIFバージョン\n"
+"|0220\n\n"
+"|メーカー\n"
+"|RECONYX\n\n"
+"|モデル\n"
+"|HYPERFIRE 2 COVERT\n\n"
+"|日時オリジナル\n"
+"|2020:06:12T06:04:32Z\n\n"
+"|タイムゾーンのオフセット\n"
+"|N/A\n\n"
+"|露光時間 / シャッタースピード\n"
+"|1/85\n\n"
+"|ISO\n"
+"|200\n\n"
+"|カラースペース\n"
+"|sRGB\n\n"
+"|フラッシュ\n"
+"|Auto, Fired\n\n"
+"|露出モード\n"
+"|Auto\n\n"
+"|ホワイトバランス\n"
+"|Manual\n\n"
+"|シーン撮影タイプ\n"
+"|Standard\n"
 
 #. type: Title ====
 #: 300.en.adoc:391
 #, no-wrap
 msgid "Timestamps"
-msgstr ""
+msgstr "タイムスタンプ"
 
 #. type: Plain text
 #: 300.en.adoc:394
 msgid "The date and time a media file was recorded is the most important aspect of its metadata. This information is used to assess when animals were observed and cannot be derived later (in contrast with e.g. <<location>>). Since this information is derived from the camera’s internal clock, it is critical to verify it is set correctly. We recommend setting the clock to https://en.wikipedia.org/wiki/Coordinated_Universal_Time[Coordinated Universal Time (UTC)] or local winter time. Disable automatic switching to summer time and record the used time zone as part of the <<deployment>>."
-msgstr ""
+msgstr "メディアファイルが記録された日付と時間は、そのメタデータの最も重要な側面です。この情報は動物が観察された時期を評価するために使用され、後で導き出すことはできません（例：<<location,場所>>とは対照的に）。この情報はカメラの内部時計から取得されるため、正しく設定されているか確認することが重要です。時計を https://en.wikipedia.org/wiki/CoordinatedUniversalTime [協定世界時 (UTC)] または現地の冬時間に設定することを推奨します。サマータイムへの自動切り替えを無効にし、使用したタイムゾーンを<<deployment,設置>>の一部として記録してください。"
 
 #. type: Title ====
 #: 300.en.adoc:396
 #, no-wrap
 msgid "File naming"
-msgstr ""
+msgstr "ファイル名"
 
 #. type: Plain text
 #: 300.en.adoc:399
 msgid "Media files are best managed by a <<data-management-system,data management system>>. If you manage your media files yourself, then we recommend the following file and directory naming conventions:"
-msgstr ""
+msgstr "メディアファイルは<<data-management-system,データ管理システム>>で管理するのが最適です。もし自分でメディアファイルを管理する場合、以下のファイルおよびディレクトリの命名規則を推奨します："
 
 #. type: Plain text
 #: 300.en.adoc:401
 msgid "Avoid renaming media file names. Rather, organize media files in one directory for each <<deployment>>. This also prevents raw file names from overlapping across cameras. Note that file paths may be used as identifiers in <<classification>> data."
-msgstr ""
+msgstr "メディアのファイル名の変更は避けてください。むしろ、<<deployment,設置>>ごとに1つのディレクトリを用意し、その中でメディアファイルを整理してください。これにより、カメラ間でRAWファイル名が重複するのを防ぎます。ファイルパスが<<classification,分類>>データの識別子として使用されることがあることに注意してください。"
 
 #. type: Plain text
 #: 300.en.adoc:402
 msgid "Make sure that ordering files alphabetically also sorts them chronologically. This is likely already the case for sequentially assigned file names (e.g. `IMG_4545.jpg`). Otherwise, start the name with the date (`YYYYMMDD`) or date-time (`YYYYMMDD_HHMMSS`). This can also be useful for directory names."
-msgstr ""
+msgstr "ファイルをアルファベット順に並べ、さらに時間順に並べてください。これは、順次割り当てられたファイル名において、すでにそうなっている可能性があります（例：`IMG_4545.jpg`）。そうでない場合、名前を日付（`YYYYMMDD`）または日時（`YYYYMMDD_HHMMSS`）で始めてください。これはディレクトリ名にも有用です。"
 
 #. type: Plain text
 #: 300.en.adoc:403
 msgid "If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than white space (`image 1`). Avoid special characters."
-msgstr ""
+msgstr "ファイル名を付ける場合は、スネークケース（`image_1`）、ハイフンケース（`image-1`）、またはキャメルケース（`image1`または`videoFile1`）を使用し、空白（`image 1`）は避けてください。特殊文字も避けてください。"
 
 #. type: Plain text
 #: 300.en.adoc:404
 msgid "Do not store <<classification>> information as part of the media file name."
-msgstr ""
+msgstr "保存する際に、<<classification,分類>>情報をメディアファイル名の一部として使用しないでください。"
 
 #. type: Plain text
 #: 300.en.adoc:405 300.en.adoc:515
 msgid "Be consistent."
-msgstr ""
+msgstr "一貫性を保ってください。"
 
 #. type: delimited block -
 #: 300.en.adoc:411
@@ -1030,34 +1190,39 @@ msgstr ""
 msgid "# Good\n"
 "PICT0001.JPG\n"
 "20200709_093352.JPG\n"
-msgstr ""
+msgstr "# 良い\n"
+"PICT0001.JPG\n"
+"20200709_093352.JPG\n"
 
 #. type: delimited block -
 #: 300.en.adoc:414
 #, no-wrap
 msgid "# Bad: can't be sorted chronologically\n"
 "09072020_093352.JPG\n"
-msgstr ""
+msgstr "# 悪い: 時系列で保存できない\n"
+"09072020_093352.JPG\n"
 
 #. type: delimited block -
 #: 300.en.adoc:417
 #, no-wrap
 msgid "# Bad: contains classification information\n"
 "20200709_093352_Ardea_alba_1_Anas_platyrhynchos_male_female.jpg\n"
-msgstr ""
+msgstr "# 悪い: 分類情報が含まれる\n"
+"20200709_093352_Ardea_alba_1_Anas_platyrhynchos_male_female.jpg\n"
 
 #. type: delimited block -
 #: 300.en.adoc:420
 #, no-wrap
 msgid "# Bad: contains spaces and special characters\n"
 "dep 2021 't WAD\n"
-msgstr ""
+msgstr "# 悪い: スペースおよび特殊文字が含まれる\n"
+"dep 2021 't WAD\n"
 
 #. type: Title ====
 #: 300.en.adoc:423
 #, no-wrap
 msgid "Storage"
-msgstr ""
+msgstr "ストレージ"
 
 #. type: Plain text
 #: 300.en.adoc:426
