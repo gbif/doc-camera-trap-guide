@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2025-07-07 07:42+0000\n"
-"PO-Revision-Date: 2026-03-11 07:26\n"
+"PO-Revision-Date: 2026-03-11 09:50\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -1531,53 +1531,53 @@ msgstr "場所"
 #. type: Plain text
 #: 300.en.adoc:600
 msgid "A <<location>> is the physical place where a camera is located during a deployment. It can be described with a name, identifier and/or description, but we recommend always to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[geographical coordinates]. Those are most commonly expressed as latitude and longitude in decimal degrees, using the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84] datum."
-msgstr ""
+msgstr "<<location,場所>>とは、設置中にカメラが配置される物理的な場所のことです。名前、識別子、および（または）説明で記述できますが、常にhttps://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[地理座標]を記録することを推奨します。これらは通常、https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84]測地系を使用して、10進度の緯度と経度として表現されます。"
 
 #. type: Plain text
 #: 300.en.adoc:602
 msgid "The coordinates are best determined using a GPS receiver at the location itself. If this is not possible, use (online) resources and georeferencing best practices cite:[chapman-wieczorek-2020] to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:"
-msgstr ""
+msgstr "座標は、正に設置する場所でGPS受信機を使用して決定するのが最適です。これが不可能な場合は、（オンライン）リソースとジオリファレンスのベストプラクティスcite:[chapman-wieczorek-2020] を使用して取得してください。座標と測地系（例：WGS84）に加えて、https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[座標の不確実性]を記録することが重要です。これはいくつかの要因によって影響を受けます："
 
 #. type: Plain text
 #: 300.en.adoc:604
 msgid "The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location[extent] of the location. Note that for camera traps this includes the <<detection-distance,detection distance>>, which is typically between 5 and 20 m."
-msgstr ""
+msgstr "場所のhttps://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location[範囲]。カメラトラップの場合、<<detection-distance,検出距離>>（通常は5〜20メートル）が含まれることに注意して下さい。"
 
 #. type: Plain text
 #: 300.en.adoc:605
 msgid "The accuracy of the GPS receiver or georeferencing resource. Most GPS receivers obtain an accuracy of 5 metres in open areas when using four or more satellites cite:[chapman-wieczorek-2020]. Forest canopy or limited satellite connection can reduce accuracy. Google Maps or Open Street Maps have an accuracy of 8m cite:[chapman-wieczorek-2020]."
-msgstr ""
+msgstr "GPS受信機またはジオリファレンスリソースの精度。ほとんどのGPS受信機は、4つ以上の衛星を使用して、開けた場所で5メートルの精度が得られますcite:[chapman-wieczorek-2020]。森林の樹冠や衛星接続が制限されたときは精度を低下させる可能性があります。GoogleマップやOpen Street Mapsの精度は8メートルですcite:[chapman-wieczorek-2020]。"
 
 #. type: Plain text
 #: 300.en.adoc:606
 msgid "The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157 m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-wieczorek-2020])."
-msgstr ""
+msgstr "https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[座標の精度]。精度が低いほど（赤道に近いほど）不確実性が高くなります。例えば、精度が0.001度のWGS84座標は、赤道で157メートルの不確実性があります（citenp:[chapman-wieczorek-2020]のhttps://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3]参照）。"
 
 #. type: Plain text
 #: 300.en.adoc:607
 msgid "An https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-from-unknown-datum[unknown datum]. This can range from centimetres to kilometres cite:[chapman-wieczorek-2020], so it is important to always record the datum used by the GPS receiver or georeferencing resource (WGS84 for Google Maps or Open Street Maps)."
-msgstr ""
+msgstr "https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-from-unknown-datum[不明な測地系]。これはセンチメートルからキロメートルまでの範囲があり得るため cite:[chapman-wieczorek-2020]、GPS受信機またはジオリファレンスリソースが使用する測地系（GoogleマップやOpen Street Mapsの場合はWGS84）を常に記録することが重要です。"
 
 #. type: Plain text
 #: 300.en.adoc:608
 msgid "The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the point-radius-method."
-msgstr ""
+msgstr "統合された最大の不確実性は、メートル単位の座標不確実性として表現するのが最も便利であり、ポイント-半径法を使用して場所を記述することができます。"
 
 #. type: Plain text
 #: 300.en.adoc:610
 msgid "The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method[point-radius-method]."
-msgstr ""
+msgstr "統合された最大の不確実性は、メートル単位の座標不確実性として表現するのが最も便利であり、https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method[ポイント-半径法]を使用して場所を記述することができます。"
 
 #. type: Plain text
 #: 300.en.adoc:612
 msgid "Most other properties associated with a location such as country and state, but even elevation, slope, land cover or leaf area index, can be derived from the coordinates using an online resource."
-msgstr ""
+msgstr "その他の場所に関連する特性の多くは（国や州、標高、傾斜、土地被覆、葉面積指数など）、オンラインリソースを使用して座標から導き出すことができます。"
 
 #. type: Title ====
 #: 300.en.adoc:614
 #, no-wrap
 msgid "Camera model, settings and alignment"
-msgstr ""
+msgstr "カメラモデル、設定およびアライメント"
 
 #. type: Plain text
 #: 300.en.adoc:617
