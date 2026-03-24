@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-03-12 12:41\n"
+"PO-Revision-Date: 2026-03-24 02:33\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -1593,51 +1593,51 @@ msgstr "カメラモデル、設定およびアライメント"
 #. type: Plain text
 #: 300.en.adoc:617
 msgid "Since a deployment relates to the placement of a <<camera>>, it is important to capture information regarding its model, settings and alignment. The model consists of the manufacturer and model name (e.g. `Reconyx-PC800`). Except for the <<quiet-period,quiet period>>, most camera settings are typically automatically recorded as part of the <<EXIF>> metadata. The <<detection-distance,detection distance>> can vary a lot depending on terrain and vegetation and is best measured in the field by having someone move in front of the camera at different distances. The <<alignment>> is the physical placement of a <<camera>> in 3D space. It consists of <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>."
-msgstr ""
+msgstr "設置は<<camera,カメラ>>の配置に関連するため、そのモデル、設定、およびアライメントに関する情報を記録することが重要です。モデルには製造元とモデル名（例. `Reconyx-PC800`）が含まれます。<<quiet-period,静止期間>>を除き、ほとんどのカメラ設定は、通常<<EXIF>>メタデータの一部として自動的に記録されます。<<detection-distance,検出距離>>は地形や植生によって大きく異なることがあり、カメラの前でさまざまな距離で人が動いてみて、現場で測定するのが最適です。<<alignment,アライメント>>は<<camera,カメラ>>の3D空間での物理的な配置を指します。これには<<camera-height,カメラの高さ>>、<<camera-depth,カメラの深さ>>、<<camera-tilt,カメラの傾き>>、および<<camera-heading,カメラの向き>>が含まれます。"
 
 #. type: Title ====
 #: 300.en.adoc:619
 #, no-wrap
 msgid "Deployment groups"
-msgstr ""
+msgstr "設置グループ"
 
 #. type: Plain text
 #: 300.en.adoc:623
 msgid "It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see <<figure-deployment-groups>>). A single deployment can belong to zero or more deployment groups.  <<subproject,Subprojects>> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. This facilitates their management. A single deployment can belong to a single subproject."
-msgstr ""
+msgstr "設置を<<deployment-group,設置グループ>>に分類することは、データの管理と分析を容易にするために役立ちます。設置グループは、本質的に、テーマ別（例：ペアでの設置）、空間別（例：私有地、開放林地）、または時間別（例：2005年夏）に分類できます（<<figure-deployment-groups>>参照）。単一の設置は、0個以上の設置グループに属することができます。<<subproject,サブプロジェクト>>は、何千もの設置を含む非常に大規模なプロジェクトを細分化するために使用される特別な種類の設置グループです。これにより、管理が容易になります。単一の設置は、単一のサブプロジェクトに属することができます。"
 
 #. type: Block title
 #: 300.en.adoc:624
 #, no-wrap
 msgid "Map showing a selection of deployments from the NC Candid Critters project cite:[candid-critters-project]. Deployments can be categorized differently based on the <<deployment-group,deployment group(s)>> they belong to. Left (A): deployment groups representing site type (forested area, open area, residential yard, trail), right (B): deployment groups representing property type (private, public). The project also used <<subproject,subprojects>> to group deployments per county (not show on figure)."
-msgstr ""
+msgstr "NC Candid Crittersプロジェクト cite:[candid-critters-project] の設置を選択し、マップ上に示した。設置は、所属する<<deployment-group,設置グループ>>に基づいて異なるカテゴリに分類できる。左（A）：サイトタイプ（森林地帯、開放地帯、住宅の庭、小道）を表す設置グループ、右（B）：プロパティタイプ（私有地、公有地）を表す設置グループ。プロジェクトでは、郡ごとに設置をグループ化するために<<subproject,サブプロジェクト>>も使用した（図には表示されていない）。"
 
 #. type: Target for macro image
 #: 300.en.adoc:626
 #, no-wrap
 msgid "img/web/deployment-groups.png"
-msgstr ""
+msgstr "img/web/deployment-groups.png"
 
 #. type: Title ====
 #: 300.en.adoc:629
 #, no-wrap
 msgid "Covariates"
-msgstr ""
+msgstr "共変量"
 
 #. type: Plain text
 #: 300.en.adoc:632
 msgid "Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:"
-msgstr ""
+msgstr "共変量は、動物の行動に影響することで、動物の検出にも影響を与える可能性のある変数です。これらを記録することは、データのさらなる分析に重要です。<<bait,餌>>、<<feature-type,特徴タイプ>>、および<<habitat-type,ハビタットタイプ>>は、一般的に記録される共変量です。共変量の記録方法と内容はプロジェクト内で一貫しているべきですが、プロジェクト間では通常異なります。ただし、よく調整された大規模な研究の一部である場合は例外です。相互運用性を支援するために、既存の分類システムを使用して共変量を記録することを推奨します："
 
 #. type: Plain text
 #: 300.en.adoc:634
 msgid "Biomes/ecoregions cite:[dinerstein-2017]"
-msgstr ""
+msgstr "バイオーム/エコリージョン cite:[dinerstein-2017]"
 
 #. type: Plain text
 #: 300.en.adoc:635
 msgid "Ecological traits:"
-msgstr ""
+msgstr "生態学的形質："
 
 #. type: Plain text
 #: 300.en.adoc:636
