@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-03-24 02:33\n"
+"PO-Revision-Date: 2026-03-27 06:52\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -76,7 +76,7 @@ msgstr "https://orcid.org/0000-0002-3129-6196[Tanja Milotic] と https://orcid.o
 #: colophon.en.adoc:20
 #, no-wrap
 msgid "Translations"
-msgstr ""
+msgstr "翻訳"
 
 #. type: Plain text
 #: colophon.en.adoc:23
@@ -1642,89 +1642,89 @@ msgstr "生態学的形質："
 #. type: Plain text
 #: 300.en.adoc:636
 msgid "COMBINE cite:[soria-2021]"
-msgstr ""
+msgstr "COMBINE cite:[soria-2021]"
 
 #. type: Plain text
 #: 300.en.adoc:637
 msgid "PanTHERIA cite:[jones-2009]"
-msgstr ""
+msgstr "PanTHERIA cite:[jones-2009]"
 
 #. type: Plain text
 #: 300.en.adoc:638
 msgid "EltonTraits cite:[wilman-2014]"
-msgstr ""
+msgstr "EltonTraits cite:[wilman-2014]"
 
 #. type: Plain text
 #: 300.en.adoc:639
 msgid "AmphiBIO cite:[oliveira-2017]"
-msgstr ""
+msgstr "AmphiBIO cite:[oliveira-2017]"
 
 #. type: Plain text
 #: 300.en.adoc:640
 msgid "GlobTherm cite:[bennett-2018]"
-msgstr ""
+msgstr "GlobTherm cite:[bennett-2018]"
 
 #. type: Plain text
 #: 300.en.adoc:641
 msgid "AVONET cite:[tobias-2022]"
-msgstr ""
+msgstr "AVONET cite:[tobias-2022]"
 
 #. type: Plain text
 #: 300.en.adoc:642
 msgid "https://opentraits.org/datasets.html[Open Traits Network]"
-msgstr ""
+msgstr "https://opentraits.org/datasets.html[Open Traits Network]"
 
 #. type: Plain text
 #: 300.en.adoc:643
 msgid "Habitat classification cite:[jung-2020]"
-msgstr ""
+msgstr "ハビタット分類 cite:[jung-2020]"
 
 #. type: Plain text
 #: 300.en.adoc:644
 msgid "Land cover products cite:[yang-2017,amatulli-2018] (http://www.earthenv.org)"
-msgstr ""
+msgstr "土地被覆プロダクト cite:[yang-2017,amatulli-2018] (http://www.earthenv.org)"
 
 #. type: Plain text
 #: 300.en.adoc:645
 msgid "Land cover type cite:[buchhorn-2020]"
-msgstr ""
+msgstr "土地被覆タイプ cite:[buchhorn-2020]"
 
 #. type: Plain text
 #: 300.en.adoc:646
 msgid "Leaf Area Index cite:[law-2008]"
-msgstr ""
+msgstr "葉面積指数 cite:[law-2008]"
 
 #. type: Plain text
 #: 300.en.adoc:647
 msgid "Primary productivity cite:[zhao-2005]"
-msgstr ""
+msgstr "一次生産量 cite:[zhao-2005]"
 
 #. type: Plain text
 #: 300.en.adoc:648
 msgid "Terrain ruggedness index (TRI) cite:[riley-1999]"
-msgstr ""
+msgstr "地形の起伏度 (TRI) cite:[riley-1999]"
 
 #. type: Title ===
 #: 300.en.adoc:650
 #, no-wrap
 msgid "Observations"
-msgstr ""
+msgstr "観察"
 
 #. type: Plain text
 #: 300.en.adoc:653
 msgid "<<observation,Observations>> are an interpretation of what can be seen or heard on <<media-file,media files>>. These are not limited to species observations, but can also indicate whether the media file contains a vehicle, human or unknown object, or that nothing of interest was observed (<<blank,blanks>>). That is why they are sometimes also called classifications, annotations or identifications. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour (see <<table-observation>>)."
-msgstr ""
+msgstr "<<observation,観察>>は、<<media-file,メディアファイル>>上で見えるまたは聞こえるものの解釈です。種の観察に限定されず、車両、人間、未知の物体がメディアファイルに含まれているか、または興味の対象が観察されなかったか（<<blank,ブランク>>）、を示すこともできます。そのため、分類、アノテーション、または識別と呼ばれることもあります。目的は通常、観察された動物種を記録することであり、オプションでグループサイズ、ライフステージ、性別、および行動に関する情報を含めることができます（<<table-observation>>参照）。"
 
 #. type: Plain text
 #: 300.en.adoc:655
 msgid "Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type,observation type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<section-column-naming,column naming conventions>> as for deployments."
-msgstr ""
+msgstr "観察は<<data-management-system,データ管理システム>>に記録するのが最適であり、通常、観察を次のクラスに整理します：<<observation,観察>>、<<observation-type,観察タイプ>>、およびシーケンス<<sequence>>（<<figure-class-diagram>>参照）。観察情報を他の場所（例：スプレッドシート）で管理する場合は、設置と同じ<<section-column-naming,列名命名規則>>に従うことを推奨します。"
 
 #. type: Block title
 #: 300.en.adoc:657
 #, no-wrap
 msgid "Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "<<figure-example-image>>の静止画に基づく観察の記録情報の一つ。カメラトラップ管理システムAgoutiでは、イベントレベル（シーケンス）として分類される。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
 
 #. type: Table
 #: 300.en.adoc:689
@@ -1749,18 +1749,37 @@ msgid "|Property\n"
 "|Peter Desmet\n\n"
 "|Classification timestamp\n"
 "|2023-02-02T13:57:58Z\n"
-msgstr ""
+msgstr "|プロパティ\n"
+"|値\n\n"
+"|Observation ID\n"
+"|05230014\n\n"
+"|Observation type\n"
+"|animal\n\n"
+"|Taxon ID\n"
+"|GCHS\n\n"
+"|Scientific name\n"
+"|Ardea cinerea\n\n"
+"|Count\n"
+"|1\n\n"
+"|Life stage\n"
+"|adult\n\n"
+"|Classification method\n"
+"|human\n\n"
+"|Classified by\n"
+"|Peter Desmet\n\n"
+"|Classification timestamp\n"
+"|2023-02-02T13:57:58Z\n"
 
 #. type: Title ====
 #: 300.en.adoc:692
 #, no-wrap
 msgid "Classification"
-msgstr ""
+msgstr "分類"
 
 #. type: Plain text
 #: 300.en.adoc:695
 msgid "Unfortunately, camera traps do not provide observations directly. Media need to be <<classification,classified>> to obtain observations. This process can be performed in different steps and with different levels of precision and granularity:"
-msgstr ""
+msgstr "残念ながら、カメラトラップは直接観察を提供しません。観察情報を得るためには、メディアを<<classification,分類する>>必要があります。このプロセスは、異なるステップと異なるレベルの精度および粒度で実行できます："
 
 #. type: Plain text
 #: 300.en.adoc:697
