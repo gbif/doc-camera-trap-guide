@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-03-27 06:52\n"
+"PO-Revision-Date: 2026-03-27 08:15\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -1784,43 +1784,43 @@ msgstr "残念ながら、カメラトラップは直接観察を提供しませ
 #. type: Plain text
 #: 300.en.adoc:697
 msgid "Media does or <<blank,does not>> contain object(s) of interest."
-msgstr ""
+msgstr "メディアに興味のあるオブジェクトが含まれているか、<<blank,含まれていないか>>。"
 
 #. type: Plain text
 #: 300.en.adoc:698
 msgid "Object(s) of interest is a human or vehicle, or cannot be identified."
-msgstr ""
+msgstr "興味の対象が人間または車両であるか、それとも識別できないか。"
 
 #. type: Plain text
 #: 300.en.adoc:699
 msgid "Object(s) of interest is an animal, identified at a high taxonomic level (e.g. a rodent)."
-msgstr ""
+msgstr "興味の対象が動物であり、高次分類群レベルで識別される（例：げっ歯類）。"
 
 #. type: Plain text
 #: 300.en.adoc:700
 msgid "Animal is identified at species or subspecies level (e.g. _Sus scrofa_)."
-msgstr ""
+msgstr "動物が種または亜種レベルで識別される（例：_Sus scrofa_）。"
 
 #. type: Plain text
 #: 300.en.adoc:701
 msgid "Animal is identified as a known individual (e.g. wolf Noëlla)."
-msgstr ""
+msgstr "動物が既知の個体として識別される（例：オオカミのNoëlla）。"
 
 #. type: Plain text
 #: 300.en.adoc:702
 msgid "Other properties of the animal are recorded, such as group size, life stage, sex, and behaviour."
-msgstr ""
+msgstr "動物の他の特性（グループサイズ、ライフステージ、性別、行動など）が記録される。"
 
 #. type: Plain text
 #: 300.en.adoc:704
 msgid "Classification can be done by humans and/or machines. These actors (experts, volunteers, AI) can reach different levels of precision (see <<table-classification-precision>>), based on their expertise (can I reach such a precision?) and effort (do I want to reach such a precision?). Since classification can be very labour intensive for larger studies, it is best to use an approach that yields the necessary data efficiently. Citizen scientists, artificial intelligence and/or classifying <<event,events>> rather than individual <<media>> can help to speed up the process cite:[green-2020]. Whatever the technique, we recommend to always record who made the classification and what type of technique (human vs machine) was used."
-msgstr ""
+msgstr "分類は人間および/または機械によって行うことができます。実行者（専門家、ボランティア、AI）は、専門知識（その精度に達することができるか？）と努力（その精度に達したいか？）に基づき、それぞれ異なるレベルの精度に到達することができます（<<table-classification-precision>>参照）。分類は大規模な研究では非常に労力がかかるため、必要なデータを効率的に得るための手段を用いることが最適です。市民科学者、人工知能、および/または、個々の<<media,メディア>>よりも<<event,イベント>>を分類することが、プロセスを迅速化するのに役立ちます cite:[green-2020]。どの技術を使用する場合も、分類した人と使用した技術（人間 対 機械）を常に記録することを推奨します。"
 
 #. type: Block title
 #: 300.en.adoc:706
 #, no-wrap
 msgid "Observation records for four observed ducks, but provided at different levels of precision. Row one is the result of a classification at a high taxonomic level (family _Anatidae_). Row two is the result of a classification at species level (_Anas platyrhynchos_), but no further characteristics were recorded. Rows three and four are the result of a classification that further specified one duck to be male and showing foraging behaviour. https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[Source]."
-msgstr ""
+msgstr "4羽のカモに関する観察記録について、異なるレベルの精度で提供した。1行目は高次分類群レベル（科 _Anatidae_）の分類結果。2行目は種レベル（_Anas platyrhynchos_）の分類結果だが、それ以上の特徴は記録されなかった。3行目と4行目は、さらに特定した分類結果であり、1羽のカモがオスであり、採餌行動を示したことが記載されている。https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[出典]"
 
 #. type: Table
 #: 300.en.adoc:743
@@ -1853,29 +1853,56 @@ msgid "|scientificName\n"
 "|\n"
 "|3\n"
 "|\n"
-msgstr ""
+msgstr "|学名\n"
+"|性別\n"
+"|個体数\n"
+"|行動\n\n"
+"|Anatidae\n"
+"|\n"
+"|4\n"
+"|\n\n"
+"|\n"
+"|\n"
+"|\n"
+"|\n\n"
+"|Anas platyrhynchos\n"
+"|\n"
+"|4\n"
+"|\n\n"
+"|\n"
+"|\n"
+"|\n"
+"|\n\n"
+"|Anas platyrhynchos\n"
+"|male\n"
+"|1\n"
+"|foraging\n\n"
+"|Anas platyrhynchos\n"
+"|\n"
+"|3\n"
+"|\n"
 
 #. type: Title ====
 #: 300.en.adoc:746
 #, no-wrap
 msgid "Citizen science"
-msgstr ""
+msgstr "市民科学"
 
 #. type: Plain text
 #: 300.en.adoc:749
 msgid "<<citizen-science,Citizen scientists>> are volunteers from the non-scientific community that help scientists in their work. They can contribute to camera trap studies in a number of ways, such as placing cameras and collecting/swapping memory cards. In a practice called crowdsourcing, researchers can also distribute the task of <<classification,classifying>> media, by presenting these online to a community of citizen scientists. Each classification helps to confirm or improve the community's opinion on the observed species cite:[swanson-2015,hsing-2018]."
-msgstr ""
+msgstr "<<citizen-science,市民科学者>>は、科学コミュニティ外のボランティアであり、科学者の仕事を支援します。彼らは、カメラトラップ研究において、カメラの設置やメモリーカードの収集/交換など、さまざまな方法で貢献できます。クラウドソーシングと呼ばれる手法では、研究者はメディアの<<classification,分類>>作業を市民科学者に分担してもらうことができます。その際には研究者が市民科学者のコミュニティにオンラインで提示することになります。各分類情報は、観察された種に関するコミュニティの意見を確認または改善するのに役立ちます cite:[swanson-2015,hsing-2018]。"
 
 #. type: Plain text
 #: 300.en.adoc:751
 msgid "Most projects use established online platforms for crowdsourcing cite:[forston-2012,swanson-2015], (https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] or DoeDat cite:[groom-2018]. These platforms give access to large, already existing volunteer bases, which is particularly important if classifications are needed within a short time frame. Note however that managing a citizen science project takes time and might be more beneficial for larger studies. In addition to uploading media to a platform, waiting for classifications, downloading consensus observations and dealing with non-consensus observations, you need to keep the community engaged and/or attract new members. It is also important to exclude <<section-sensitive-information,sensitive media>> from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in cite:[weinstein-2018]."
-msgstr ""
+msgstr "ほとんどのプロジェクトは、クラウドソーシングのために確立されたオンラインプラットフォームを使用しています cite:[forston-2012,swanson-2015]、（https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]）、例えばZooniverse cite:[simpson-2014]、MammalWeb cite:[bradley-2017]、Digivol cite:[alony-2020]、またはDoeDat cite:[groom-2018]などです。これらのプラットフォームは、既存の大規模なボランティアベースにアクセスできるため、短期間で分類が必要な場合に特に重要です。ただし、市民科学プロジェクトの管理には時間がかかることから、大規模な研究の方が有益である可能性があります。メディアをプラットフォームにアップロードし、分類されるのを待ち、合意された観察結果をダウンロードし、合意されていない観察結果に対処するだけでなく、コミュニティの活動を維持し、新しいメンバーを惹きつける必要があります。また、人間（プライバシーを保護するため）や希少種が含まれるメディアのような、<<section-sensitive-information,機密性の高いメディア>>をその工程で除外することも重要です。何らかの前処理が必要となり、ここで人工知能（AI）が登場します cite:[weinstein-2018]。"
 
 #. type: Title ====
 #: 300.en.adoc:753
 #, no-wrap
 msgid "Artificial intelligence"
-msgstr ""
+msgstr "人工知能"
 
 #. type: Plain text
 #: 300.en.adoc:756
