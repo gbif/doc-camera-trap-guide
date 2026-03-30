@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-03-30 05:11\n"
+"PO-Revision-Date: 2026-03-30 06:21\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -1912,45 +1912,45 @@ msgstr "カメラトラップ研究の文脈では、人工知能（AI）は通�
 #. type: Plain text
 #: 300.en.adoc:758
 msgid "Still, computer vision will not entirely replace human <<classification>>, since a large and diverse number of preprocessed data are needed to train the models. Unbalanced training datasets may produce low performance of the models, such as training datasets with a highly variable number of images of each species, or small and geographically limited datasets. Additionally, the accuracy of computer vision classification is currently still secondary to that of a human expert. A combination of AI-aided preprocessing and human verification is therefore recommended."
-msgstr ""
+msgstr "それでも、コンピュータビジョンは完全に人間による<<classification,分類>>を置き換えることはありません。モデルを訓練するためには、大量で多様な前処理済みデータが必要です。不均衡な教師データセットは、モデルのパフォーマンスを低下させる可能性があります。具体的には、各生物種の静止画数が非常に変動するデータセットや、小規模で地理的に限定されたデータセットなどです。さらに、現時点においても、コンピュータビジョンの分類の精度は人間の専門家に比べると、二番手です。それゆえ、AI支援の前処理と人間による検証を組み合わせることが推奨されます。"
 
 #. type: Title ====
 #: 300.en.adoc:760
 #, no-wrap
 msgid "Media- or event-based classification"
-msgstr ""
+msgstr "メディアまたはイベント毎の分類"
 
 #. type: Plain text
 #: 300.en.adoc:763
 msgid "Classifications can be based on a single media file (typically an <<image>>) or an <<event>> (typically a <<sequence>> of images). In the latter technique, all media files that belong to the <<event>> are assessed as a whole to determine the species and their number of individuals. This is less time consuming for human classifiers and can lead to better estimates of group size, since the number of individuals passing by a camera can be larger than those that can be seen in a single image. The disadvantage of event-based classification is that it is not possible to split the classification into events that are shorter than the one that is assessed (the same is true for videos classified as a whole). Nor can those classifications be used to train computer models, which require media-based training datasets."
-msgstr ""
+msgstr "分類は、単一のメディアファイル（通常は<<image,静止画>>）または<<event,イベント>> （通常は静止画<<sequence,シーケンス>> ）に基づいて行うことができます。後者の手法では、<<event,イベント>>に属する全てのメディアファイルを全体として評価し、種と個体数を決定します。この手法は分類する人にとって時間の節約になり、カメラの前を通過する個体数が単一の静止画で見られるものよりも多いことがありうるため、より適切なグループサイズの推定につながる可能性があります。イベントベースの分類の欠点は、評価対象のイベントよりも短いイベントに分類を分割できないことです（動画を全体として分類する場合も同様です）。また、メディアベースの教師データセットを必要とするコンピュータモデルの訓練には、その分類を使用できません。"
 
 #. type: Plain text
 #: 300.en.adoc:765
 msgid "As a result, <<data-management-system,data management systems>> may favour one technique over the other, or offer both. Resulting datasets can include media-based, event-based or both types of classifications."
-msgstr ""
+msgstr "結果として、<<data-management-system,データ管理システム>>は一方の技術を他方より優先する場合もありますし、両方に対応している場合もあります。出来上がったデータセットは、メディアベース、イベントベース、またはその両方に応じた分類が含まれることになるでしょう。"
 
 #. type: Title ====
 #: 300.en.adoc:767
 #, no-wrap
 msgid "Common or scientific names"
-msgstr ""
+msgstr "コモンネームまたは学名"
 
 #. type: Plain text
 #: 300.en.adoc:770
 msgid "Media can be classified using common (e.g. roe deer) or scientific names (e.g. _Capreolus capreolus_) for taxa. Common (or vernacular) names are easier to remember and allow for better public engagement. The downside is that they are subject to translation, can vary regionally, sometimes refer to different species (e.g. “elk” in North America refers to _Cervus canadensis_, while in Europe it is used for _Alces alces_) and might not exist for every species or language combination. Scientific names on the other hand follow strict nomenclatural rules, are globally consistent and are not subject to translation. We therefore recommend to always store the scientific name as part of the observation, even if only common names are presented to the user."
-msgstr ""
+msgstr "メディアは、分類群の一般名（例：ノロジカ）または学名（例：_Capreolus capreolus_）を使用して分類できます。一般名（または現地名）は覚えやすく、市民参加を促すにはよいでしょう。欠点としては、一般名が翻訳の対象であり、地域によって異なり、時には異なる種を指すことがあることです（例：北アメリカでは「elk」は_Cervus canadensis_を指しますが、ヨーロッパでは_Alces alces_を指します）。また、一般名は全ての種や言語に対して存在するわけではありません。一方、学名は厳格な命名規則に従い、世界的に一貫しており、翻訳の対象にはなりません。そのため、ユーザーに一般名のみを提示する場合でも、観察情報の一部として学名を常に保存することを推奨します。"
 
 #. type: Plain text
 #: 300.en.adoc:772
 msgid "The list of scientific names that are available for <<classification>> in a project is best maintained in a single reference table. This facilitates the management of taxonomic classification and associated common names, and allows to restrict classification options to those species that are likely to occur. More taxa can be added if needed, but only after verification. This practice is used by most <<data-management-system,data management systems>>. To populate such a reference table, we recommend using an authorative source (see <<table-taxon-reference-sources>>) and storing the taxon identifiers used by that source as reference."
-msgstr ""
+msgstr "プロジェクトで<<classification,分類>>に利用できる学名のリストは、単一の参照テーブルで管理するのが最適です。これにより、分類学的分類と関連する一般名の管理が容易になり、分類の候補を、出現する可能性のある種に制限できます。必要に応じて分類群を追加できますが、検証後のみ可能です。この方法は、ほとんどの<<data-management-system,データ管理システム>>で使用されています。このような参照テーブルを作成するために、権威ある情報源（<<table-taxon-reference-sources>>参照）を引用し、出典を示した上で、使用されている分類IDを保存することを推奨します。"
 
 #. type: Block title
 #: 300.en.adoc:774
 #, no-wrap
 msgid "Selection of sources for scientific names, common names and taxonomic information."
-msgstr ""
+msgstr "学名、一般名および分類学的情報の出典元の選択"
 
 #. type: Table
 #: 300.en.adoc:814
@@ -1986,149 +1986,179 @@ msgid "|Source\n"
 "|Scientific names +\n"
 "Common names (English) +\n"
 "Taxonomy\n"
-msgstr ""
+msgstr "|出典元\n"
+"|分類学的範囲\n"
+"|用途\n\n"
+"|https://www.checklistbank.org/dataset/9893/names[Catalogue of Life] cite:[col-2023]\n"
+"|全て\n"
+"|学名 +\n"
+"一般名（言語を選択）+\n"
+"分類\n\n"
+"|https://www.marinespecies.org/[World Register of Marine Species (WoRMS)] cite:[worms-2023]\n"
+"|海洋生物（限定ではない）\n"
+"|学名 +\n"
+"一般名（多言語）+\n"
+"分類\n\n"
+"|https://en.wikipedia.org/[Wikipedia] (English and other language versions)\n"
+"|全て\n"
+"|一般名（多言語）\n\n"
+"|Clements Checklist of Birds of the World cite:[clements-2022]\n"
+"|鳥類\n"
+"|学名 +\n"
+"一般名（英語）+\n"
+"分類\n\n"
+"|https://www.iucnredlist.org/[IUCN Red List of Endangered Species]\n"
+"|哺乳類\n"
+"|学名 +\n"
+"一般名（言語を選択）+\n"
+"分類\n\n"
+"|https://www.mammaldiversity.org/[American Society of Mammalogists Mammal Diversity Database]\n"
+"|哺乳類\n"
+"|学名 +\n"
+"一般名（英語）+\n"
+"分類\n"
 
 #. type: Title ===
 #: 300.en.adoc:817
 #, no-wrap
 msgid "Data management systems"
-msgstr ""
+msgstr "データ管理システム"
 
 #. type: Plain text
 #: 300.en.adoc:820
 msgid "Managing camera trap data can be daunting, especially for larger projects. Luckily, a number of software tools and platforms have been developed to help researchers with some or all of the aspects of camera trap data management cite:[young-2018]. These initiatives were often started by research teams to facilitate their own needs, but some have grown to mature systems that can be used by anyone. We discuss and recommend five of those below (see <<table-data-management-systems>> for an overview of their features). They support the entire life cycle of camera trap data management:"
-msgstr ""
+msgstr "カメラトラップデータの管理は、特に大規模なプロジェクトでは気が遠くなるような作業です。幸いなことに、研究者を支援するため、カメラトラップデータ管理の一部または全ての側面において多くのソフトウェアツールやプラットフォームが開発されています　cite:[young-2018]。このような取り組みは、研究チームが自分たちのニーズを満たすために開始されることが多いですが、誰でも使用できる成熟したシステムに成長したものもあります。そのうち、以下に示す5つのシステムについて議論し、推奨します（機能の概要については<<table-data-management-systems>>を参照）。これらのシステムはカメラトラップデータ管理のライフサイクル全体をサポートします："
 
 #. type: Plain text
 #: 300.en.adoc:822
 msgid "Create one or more projects"
-msgstr ""
+msgstr "1つ以上のプロジェクトを作成"
 
 #. type: Plain text
 #: 300.en.adoc:823
 msgid "Invite <<participant,collaborators>> with different levels of access"
-msgstr ""
+msgstr "異なるアクセスレベルを持つ<<participant,共同作業者>>を招待"
 
 #. type: Plain text
 #: 300.en.adoc:824
 msgid "Upload media and creating deployments"
-msgstr ""
+msgstr "メディアをアップロードし、設置を作成"
 
 #. type: Plain text
 #: 300.en.adoc:825
 msgid "<<classification,Classify>> media to observations, optionally supported by <<computer-vision,AI>> and <<citizen-science,citizen science>>"
-msgstr ""
+msgstr "オプションとして<<computer-vision,AI>>や<<citizen-science,市民科学>>の支援を受けてメディアを観察に<<classification,分類>>"
 
 #. type: Plain text
 #: 300.en.adoc:826
 msgid "Manage reference lists of species, locations, covariates, etc."
-msgstr ""
+msgstr "種、場所、共変量などの引用リストを管理"
 
 #. type: Plain text
 #: 300.en.adoc:827
 msgid "Engage the public by making some or all project metadata available on a website"
-msgstr ""
+msgstr "プロジェクトメタデータの一部または全部をウェブサイトで公開して市民と協働する"
 
 #. type: Plain text
 #: 300.en.adoc:828
 msgid "Export data in a standardized format for further analysis and data publication"
-msgstr ""
+msgstr "データを標準化された形式でエクスポートして、さらなる分析やデータ公開に使用"
 
 #. type: Plain text
 #: 300.en.adoc:829
 msgid "Archive data, including media files"
-msgstr ""
+msgstr "メディアファイルを含むデータをアーカイブ"
 
 #. type: Title ====
 #: 300.en.adoc:831
 #, no-wrap
 msgid "Agouti"
-msgstr ""
+msgstr "Agouti"
 
 #. type: Plain text
 #: 300.en.adoc:834
 msgid "Agouti cite:[agouti] (https://agouti.eu) is an online system for managing camera trap data. It is maintained by Wageningen University & Research and the Research Institute for Nature and Forest (INBO), based respectively in the Netherlands and Belgium. Agouti is mainly used by European projects and is free to use."
-msgstr ""
+msgstr "Agouti cite:[agouti]（https://agouti.eu）は、カメラトラップデータを管理するためのオンラインシステムです。オランダのWageningen University & ResearchとベルギーのResearch Institute for Nature and Forest（INBO）によって維持されています。Agoutiは主にヨーロッパのプロジェクトで使用され、無料で利用できます。"
 
 #. type: Plain text
 #: 300.en.adoc:836
 msgid "Classification is event-based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. AI classification is possible, using a dedicated species classification model that is updated regularly. Media containing humans are always hidden from the public. Data are stored on university infrastructure, which also offers long-term archival and hot-linking to media. Project metadata can be made available via a public portal. Data can be exported as <<camtrap-dp,Camtrap DP>>."
-msgstr ""
+msgstr "分類はイベントベースですが、動物の位置はメディアレベルで記録できるため、距離分析 cite:[howe-2017]やランダムエンカウンターモデリング  cite:[rowcliffe-2011]に必要なデータを記録できます。定期的に更新される専用の種分類モデルを利用することで、AI分類が可能です。人間を含むメディアは常に非公開になります。データは大学の基盤に保存されるため、長期アーカイブとメディアへのホットリンクも提供可能です。プロジェクトのメタデータは公共ポータルを通じて公開することができます。データは<<camtrap-dp,Camtrap DP>>形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:838
 msgid "Agouti is a good choice for organizations who want a free full-feature European based service."
-msgstr ""
+msgstr "Agoutiは、無料かつフル機能のヨーロッパを拠点とするサービスを求める組織にとって良い選択です。"
 
 #. type: Title ====
 #: 300.en.adoc:840
 #, no-wrap
 msgid "Camelot"
-msgstr ""
+msgstr "Camelot"
 
 #. type: Plain text
 #: 300.en.adoc:843
 msgid "Camelot cite:[camelot] (https://camelotproject.org/) is a local system for managing camera trap data. It is maintained as a volunteer initiative based in Australia. Camelot is free to use, open source, available for all major operating systems and requires installation. It is typically used as a local desktop application, but can be set up on a server allowing multiple users to connect via their browser. Classification is media-based with the option to classify multiple media at once. AI classification is not offered. Data can be exported in a custom format."
-msgstr ""
+msgstr "Camelot cite:[camelot]（https://camelotproject.org/）は、カメラトラップデータを管理するためのローカルシステムです。オーストラリアを拠点とするボランティアの取り組みとして維持されています。Camelotは無料で利用でき、オープンソースであり、主要なオペレーティングシステムに全て対応しており、インストールが必要です。通常はローカルデスクトップアプリケーションとして使用されますが、サーバーにセットアップして複数のユーザーがブラウザ経由で接続できるようにすることもできます。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。AI分類は提供されていません。データはカスタム形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:845
 msgid "Camelot is a good choice for organizations and individuals who want a light-weigh solution they can manage themselves."
-msgstr ""
+msgstr "Camelotは、自分たちで管理できる軽量なツールを求める組織や個人にとって良い選択です。"
 
 #. type: Title ====
 #: 300.en.adoc:847
 #, no-wrap
 msgid "TRAPPER"
-msgstr ""
+msgstr "TRAPPER"
 
 #. type: Plain text
 #: 300.en.adoc:850
 msgid "TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. It is maintained by the Open Science Conservation Fund, based in Poland. TRAPPER is mainly used by European projects and is free to use. The software is open source and requires installation and hosting. Classification is media-based with the option to classify multiple media at once. AI classification is possible, using existing species classification models. Data can be exported as <<camtrap-dp,Camtrap DP>>."
-msgstr ""
+msgstr "TRAPPER cite:[trapper]（https://os-conservation.org/projects/trapper）は、カメラトラップデータを管理するためのオンラインシステムです。ポーランドに拠点を置くOpen Science Conservation Fundによって維持されています。TRAPPERは主にヨーロッパのプロジェクトで使用され、無料で利用できます。このソフトウェアはオープンソースであり、インストールとホスティングが必要です。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。既存の種分類モデルを利用することで、AI分類が可能です。データは<<camtrap-dp,Camtrap DP>>形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:852
 msgid "TRAPPER is a good choice for organizations who want control over the software and where their data are stored."
-msgstr ""
+msgstr "TRAPPERは、ソフトウェアとデータの保存場所を管理したい組織にとって良い選択です。"
 
 #. type: Title ====
 #: 300.en.adoc:854
 #, no-wrap
 msgid "Wildlife Insights"
-msgstr ""
+msgstr "Wildlife Insights"
 
 #. type: Plain text
 #: 300.en.adoc:857
 msgid "Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS cite:[ctms]."
-msgstr ""
+msgstr "Wildlife Insights  cite:[wildlife-insights]（https://www.wildlifeinsights.org）は、カメラトラップデータを管理するためのオンラインシステムです。アメリカ合衆国に拠点を置くConservation International、Google、およびその他のパートナーによって維持されています。Wildlife Insightsは主にアメリカ大陸のプロジェクトで使用されており、段階的なサブスクリプションモデル（無料プランを含む）を採用しています。アップロードされたメディアは、Googleが開発した専用の種分類モデルを使用して、AIによってメディアレベルで自動的に分類されます。人間を含むメディアは常に非公開になります。さらに、複数のメディアを一度に分類するオプションもあります。データはクラウドに保存され、Wildlife InsightsによってAIの訓練に使用されることがあり、最大48か月のエンバーゴ期間後に公開されます。プロジェクトのメタデータは公共ポータルを通じて常に利用可能です。データはCTMS cite:[ctms]に基づき、カスタム形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:859
 msgid "Wildlife Insights is a good choice for organizations who want a full-feature service with powerful AI and open data requirements."
-msgstr ""
+msgstr "Wildlife Insightsは、強力なAIとオープンデータ要件を備えたフル機能のサービスを求める組織にとって良い選択です。"
 
 #. type: Title ====
 #: 300.en.adoc:861
 #, no-wrap
 msgid "WildTrax"
-msgstr ""
+msgstr "WildTrax"
 
 #. type: Plain text
 #: 300.en.adoc:864
 msgid "WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. It is maintained by the University of Alberta, based in Canada. WildTrax is mainly used by Canadian projects and is free to use (except for very large projects). Classification is media-based with the option to classify multiple media at once. AI classification is possible, but only at a broad level (blanks, animals, vehicles), species classification is not (yet) offered. Data are stored in the cloud. Project metadata can be made available via a public portal. Data can be exported in a custom format (with associated R package)."
-msgstr ""
+msgstr "WildTrax cite:[wildtrax]（https://www.wildtrax.ca/）は、カメラトラップデータを管理するためのオンラインシステムです。カナダに拠点を置くUniversity of Albertaによって維持されています。WildTraxは主にカナダのプロジェクトで使用されており、非常に大規模なプロジェクトを除き、無料で利用できます。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。AI分類も可能ですが、広範なレベル（ブランク、動物、車両）のみで、種の分類は（まだ）提供されていません。データはクラウドに保存されます。プロジェクトのメタデータは公共ポータルを通じて公開することができます。データはカスタム形式（関連するRパッケージ付き）でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:866
 msgid "WildTrax is a good choice for organizations who want a free service based in Canada."
-msgstr ""
+msgstr "WildTraxは、カナダに拠点を置く無料のサービスを求める組織にとって良い選択です。"
 
 #. type: Block title
 #: 300.en.adoc:868
 #, no-wrap
 msgid "Comparison of features offered by five data management systems. Features that are the same for all systems are not shown."
-msgstr ""
+msgstr "5つのデータ管理システムが提供する機能の比較。全システムに共通する機能は記載していない。"
 
 #. type: Table
 #: 300.en.adoc:967
