@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-03-27 08:15\n"
+"PO-Revision-Date: 2026-03-30 05:11\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -1907,7 +1907,7 @@ msgstr "人工知能"
 #. type: Plain text
 #: 300.en.adoc:756
 msgid "In the context of camera trap research, artificial intelligence (AI) typically refers to the use of <<computer-vision,computer vision>> for <<classification>>. These computer models are <<machine-learning,trained>> with already classified datasets and can process millions of media in a fraction of a time it would take a human cite:[norouzzadeh-2020]. The field has seen significant advancements in recent years and models are now able to filter out <<blank,blanks>> and media containing humans, recognize species, count or track individuals, as well as recognize individual animals cite:[price-tack-2016,gomez-villa-2017,nguyen-2017,brides-2018,norouzzadeh-2020,yousif-2018]. New models are coming out every year, but especially their incorporation in <<data-management-system,data management systems>> will increase their use, especially by users that have no experience in machine learning. As such, computer vision will likely become the dominant technique to classify camera trap data in the near future."
-msgstr ""
+msgstr "カメラトラップ研究の文脈では、人工知能（AI）は通常、<<classification,分類>>のための<<computer-vision,コンピュータビジョン>>の使用を指します。コンピュータモデルは、既に分類されたデータセットで<<machine-learning,訓練>>されており、人間が処理するよりもずっと短時間で処理できます cite:[norouzzadeh-2020]。この分野は近年大きな進歩を遂げており、モデルは、<<blank,ブランク>>や人間を含むメディアを除外し、種を認識し、個体を数えたり追跡したり、動物個体を認識できるようになっています cite:[price-tack-2016,gomez-villa-2017,nguyen-2017,brides-2018,norouzzadeh-2020,yousif-2018]。毎年新しいモデルが登場していますが、<<data-management-system,データ管理システム>>に組み込まれることによって、特に多く利用されるようになります。中でも、機械学習の経験がないユーザーによる使用が増加するでしょう。このようにして、コンピュータビジョンは近い将来、カメラトラップデータを分類する主要な技術になる可能性があります。"
 
 #. type: Plain text
 #: 300.en.adoc:758
