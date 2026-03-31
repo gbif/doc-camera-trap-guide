@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-03-31 04:17\n"
+"PO-Revision-Date: 2026-03-31 05:26\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2359,114 +2359,114 @@ msgstr "ベルギーで2023年に記録されたマスクラットの全ての�
 #. type: Plain text
 #: 400.en.adoc:16
 msgid "The easiest way to make a dataset **findable** is by providing meaningful metadata (e.g. title, description and keywords) and depositing it in a research repository (such as the IPT cite:[robertson-2014] in combination with GBIF). Repositories provide cross-dataset search functionalities and will assign each dataset a <<section-stable-unique-identifiers,unique identifier>> so that it can be uniquely referenced and **accessed**. Adding an open <<section-license,license>> to the dataset will allow users to access and **reuse** the data (in addition to the metadata), while <<#section-project-metadata,rich metadata>> (e.g. methodology) will enable users to determine if the dataset is fit for their purpose. The most challenging aspect is to make a dataset **interoperable** so that it can easily be integrated with other data. This can be achieved by using standards: research repositories will standardize metadata and <<camtrap-dp,Camtrap DP>> can be used to standardize the data. See also citenp:[bubnicki-2023] (section \"Is Camtrap DP FAIR?\") for more information on how Camtrap DP enables FAIR data exchange."
-msgstr ""
+msgstr "データセットを**見つけやすく**する最も簡単な方法は、意味のあるメタデータ（例：タイトル、説明、キーワード）を提供し、研究リポジトリ（例えば、GBIF の場合は、IPT cite:[robertson-2014]）に格納することです。リポジトリはデータセット横断検索機能を提供し、各データセットに<<section-stable-unique-identifiers,一意の識別子>>を割り当てるため、データセットを一意に参照および**アクセス**できます。データセットにオープン<<section-license,ライセンス>>を付与することで、ユーザーはメタデータに加えてデータにアクセスして**再利用**できるようになります。<<#section-project-metadata,豊富なメタデータ>>（例：方法論）は、データセットが目的に適しているかどうかをユーザーが判断するのに役立ちます。最も難しい側面は、データセットを他のデータと簡単に統合できるように**相互運用可能**にすることです。これは標準を使用することで達成できます。研究リポジトリはメタデータを標準化し、データを標準化するために<<camtrap-dp,Camtrap DP>>が使用できます。Camtrap DPがどのようにしてFAIRデータ交換を可能にするか、に関する詳細は、citenp:[bubnicki-2023]（「Is Camtrap DP FAIR?」のセクション）も参照してください。"
 
 #. type: Title ===
 #: 400.en.adoc:18
 #, no-wrap
 msgid "Preparing data"
-msgstr ""
+msgstr "データの準備"
 
 #. type: Title ====
 #: 400.en.adoc:21
 #, no-wrap
 msgid "Stable unique identifiers"
-msgstr ""
+msgstr "安定した一意な識別子"
 
 #. type: Plain text
 #: 400.en.adoc:24
 msgid "Terms like {deployments-deploymentID} or term:dwc[dwc:occurrenceID] expect an identifier that is:"
-msgstr ""
+msgstr " {deployments-deploymentID}  や  term:dwc[dwc:occurrenceID] のような用語は、以下のような識別子であることが求められます："
 
 #. type: Plain text
 #: 400.en.adoc:26
 msgid "Required to be **unique**, i.e. it uniquely refers to a record or concept."
-msgstr ""
+msgstr "必須事項として、**一意**であること。すなわち、レコードや概念を一意に参照する。"
 
 #. type: Plain text
 #: 400.en.adoc:27
 msgid "Strongly recommended to be **stable**/persistent, i.e. it does not change over time and can safely be referenced."
-msgstr ""
+msgstr "強い推奨事項として、**安定**/永続的である。すなわち、時間が経っても変わらず、安全に参照できる。"
 
 #. type: Plain text
 #: 400.en.adoc:28
 msgid "Recommended to be **globally unique**, i.e. it uniquely refers to a record or concept in a global context."
-msgstr ""
+msgstr "推奨事項として、グローバルに**一意**である。すなわち、グローバルな文脈でレコードや概念を一意に参照する。"
 
 #. type: Plain text
 #: 400.en.adoc:30
 msgid "If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. These identifiers will be unique, most likely stable, and sometimes globally unique (e.g. a <<UUID,UUID>>). They also allow users (with access) to look up the record in the data management system. We advice against appending elements to the identifier to make it globally unique, since this makes it more prone to change. Since datasets can be uniquely identified (e.g. with a DOI), it is sufficient if the identifier is unique within the dataset."
-msgstr ""
+msgstr "できれば、<<data-management-system,データ管理システム>>によって割り当てられた識別子をそのまま使用することを推奨します。これらの識別子は一意であり、ほとんどの場合安定しており、時にはグローバルに一意です（例：<<UUID,UUID>>）。また、（アクセス権を持つ）ユーザーがデータ管理システムでレコードを検索することもできます。要素を追加してグルーバルに一意な識別子を作成することは推奨しません。なぜなら、変更される可能性が高いからです。データセットは一意に識別できるため（例：DOI）、識別子がデータセット内で一意であれば十分です。). "
 
 #. type: Title ====
 #: 400.en.adoc:32
 #, no-wrap
 msgid "Sensitive information"
-msgstr ""
+msgstr "機密情報"
 
 #. type: Plain text
 #: 400.en.adoc:35
 msgid "Camera trap data may contain sensitive information, such as personal information (e.g. names or images of living persons), the occurrence of sensitive (e.g. rare or endangered) species, the locations of actively managed cameras, or even notes and comments not intended for the public. We recommend following the best practices in citenp:[chapman-2020], which favour generalization over restriction of the record as a whole."
-msgstr ""
+msgstr "カメラトラップデータには、個人情報（例：生きている人の名前や静止画）、センシティブな種（例：希少種や絶滅危惧種）のオカレンス、積極的に管理されているカメラの位置、または公開を意図しないメモやコメントなどの機密情報が含まれている場合があります。citenp:[chapman-2020]のベストプラクティスに従い、レコード全体の制限よりも情報の一般化を推奨します。"
 
 #. type: Title =====
 #: 400.en.adoc:37
 #, no-wrap
 msgid "Personal data"
-msgstr ""
+msgstr "個人情報"
 
 #. type: Plain text
 #: 400.en.adoc:40
 msgid "Personal data is any information that relates to an identified or identifiable living person. This information is subject to regulations such as <<GDPR>>. In camera trap data, personal data are the names of <<participant,participants>>, their email addresses and the whereabouts of participants who setup the camera (identifiable by combining the name with the deployment date-time and <<location>>). In <<camtrap-dp,Camtrap DP>>, person names can appear in {package-contributors}, {package-bibliographicCitation}, {deployments-setupBy} and {observations-classifiedBy}. In a <<darwin-core-archive,Darwin Core Archive>>, person names can appear in the metadata and terms like term:dwc[dwc:identifiedBy]."
-msgstr ""
+msgstr "個人データとは、生きている人を特定または特定可能な関連情報を全て指します。この情報は、<<GDPR>>などの規制対象となります。カメラトラップデータにおいて、個人データには<<participant,参加者>>の名前、メールアドレス、およびカメラを設置した参加者の所在（名前と設置日時および<<location,場所>>を組み合わせることで識別可能）が含まれます。<<camtrap-dp,Camtrap DP>>では、個人名は{package-contributors}、{package-bibliographicCitation}、{deployments-setupBy}、および{observations-classifiedBy}に表示されることがあります。<<darwin-core-archive,Darwin Core Archive>>では、個人名はメタデータやterm:dwc[dwc:identifiedBy]のような用語に表示されることがあります。"
 
 #. type: Plain text
 #: 400.en.adoc:42
 msgid "We recommend contacting participants to ask if their personal information can be made public and to anonymize (e.g. `anonymized:3eb30aa`) or exclude it when they prefer not to. Some <<data-management-system,data management system>> (such as citenp:[agouti]) allow users to indicate their preferences and automatically anonymize their personal data in exports. Note that it may not be possible to permanently remove personal information from older versions of an already published dataset."
-msgstr ""
+msgstr "参加者に連絡して、個人情報を公開してもよいかどうかを確認し、公開を希望しない場合は匿名化（例：`anonymized:3eb30aa`）または除外することを推奨します。いくつかの<<data-management-system,データ管理システム>>（例：citenp:[agouti]）では、ユーザーが設定を指定でき、エクスポート時に自動的に個人データを匿名化することができます。既に公開されたデータセットの古いバージョンから個人情報を完全に削除することはできない場合があることに注意してください。"
 
 #. type: Title =====
 #: 400.en.adoc:44
 #, no-wrap
 msgid "Sensitive media files"
-msgstr ""
+msgstr "機密情報を含むメディアファイル"
 
 #. type: Plain text
 #: 400.en.adoc:47
 msgid "<<media-file,Media files>> containing identifiable persons is a form of <<section-personal-data,personal data>> that should be identified and kept private in order to protect the privacy of the persons. The same may be necessary for media files containing vehicles or picturing camera <<setup>>. Media files containing sensitive species may need to be kept private if they allow to identify the location."
-msgstr ""
+msgstr "識別可能な人物が含まれる<<media-file,メディアファイル>>は、<<section-personal-data,個人データ>>の一形態であり、個人のプライバシーを保護するために、識別され、非公開にされるべきです。同様に、車両が含まれるメディアファイルやカメラの<<setup,設定>>を写したメディアファイルについても、非公開にする必要がある場合があります。センシティブな種が含まれるメディアファイルは、撮影場所を特定できる場合、非公開にする必要があるかもしれません。"
 
 #. type: Plain text
 #: 400.en.adoc:49
 msgid "We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level (e.g. `https://multimedia.agouti.eu/assets/813bafb2-befe-45fa-b0e3-080f1f019a70/file`). The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in a <<darwin-core-archive,Darwin Core Archive>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded."
-msgstr ""
+msgstr "全てのメディアファイルについてURL（{media-filePath} または https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] に記載）を提供することを推奨します。ただし、アクセスはプロバイダーレベルで規制します（例：`https://multimedia.agouti.eu/assets/813bafb2-befe-45fa-b0e3-080f1f019a70/file`）。想定されるアクセスは、{media-filePublic} または https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]に記載できます。<<darwin-core-archive,Darwin Core Archive>>では、人間、車両、設置状況などの観察（およびメディア）は、通常除外されることに注意してください。"
 
 #. type: Title =====
 #: 400.en.adoc:51
 #, no-wrap
 msgid "Sensitive location information"
-msgstr ""
+msgstr "機密情報を含む位置情報"
 
 #. type: Plain text
 #: 400.en.adoc:54
 msgid "Camera trap data may contain <<location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization."
-msgstr ""
+msgstr "カメラトラップデータには、センシティブな種の<<location,位置>>情報が含まれている場合があります。積極的に管理されているカメラの位置も、破壊行為や盗難に対してセンシティブな内容を含むでしょう。citenp:[chapman-2020]に従い、機密情報の格付けを決定し（https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]）、適切な一般化を選択することを推奨します。"
 
 #. type: delimited block =
 #: 400.en.adoc:58
 msgid "Note that camera trap location information is often the same across multiple <<deployment,deployments>>. Generalizing the coordinates of the deployment with associated sensitive information is likely not sufficient to prevent correlational analyses. A {deployments-locationID} shared by multiple deployments for example can lead to deductions of localities/records that are generalized. Make sure to generalize the coordinates for the <<location>> across deployments."
-msgstr ""
+msgstr "カメラトラップの位置情報は通常、複数の<<deployment,設置>>で共通することに注意してください。機密情報に関連付く設置の座標を一般化するだけでは、相関分析を防ぐのに十分ではない可能性があります。例えば、複数の設置情報で共有される{deployments-locationID}は、一般化された調査地/レコードの推測につながる可能性があります。設置全体で<<location,位置>>座標を一般化するようにしてください。"
 
 #. type: Plain text
 #: 400.en.adoc:61
 msgid "Whatever the selected level of generalization, document it in the dataset metadata and appropriate terms, so that users are aware. See <<table-generalization>> for an example."
-msgstr ""
+msgstr "一般化のレベルの選択に関係なく、データセットのメタデータと適切な用語において文書化し、ユーザーが認識できるようにしてください。例については<<table-generalization>>を参照してください。"
 
 #. type: Block title
 #: 400.en.adoc:63
 #, no-wrap
 msgid "How to express non-generalized vs generalized location information in Camtrap DP and Darwin Core. The generalized example assumes a sensitivity of https://docs.gbif.org/sensitive-species-best-practices/master/en/#cat4[Category 4]. The coordinate uncertainty of 187 meter is the sum of the GPS precision (30 m) and maximum uncertainty associated with coordinates that have a precision of 0.001 degree (157 m)."
-msgstr ""
+msgstr "Camtrap DPおよびDarwin Coreにおける非一般化および一般化された位置情報の表現方法。一般化された例は、機密情報の格付けのhttps://docs.gbif.org/sensitive-species-best-practices/master/en/#cat4[カテゴリ4]を想定しています。座標の不確実性を表す187メートルは、GPSの精度（30メートル）と、精度が0.001度の座標に関連する最大不確実性（157メートル）の合計です。"
 
 #. type: Table
 #: 400.en.adoc:105
@@ -2503,50 +2503,81 @@ msgid "|Camtrap DP term\n"
 "|term:dwc[dwc:dataGeneralizations]\n"
 "|\n"
 "|coordinates rounded to 0.001 degree\n"
-msgstr ""
+msgstr "|Camtrap DP 用語\n"
+"|Darwin Core用語\n"
+"|非一般化\n"
+"|一般化\n\n"
+"|{deployments-latitude}\n"
+"|term:dwc[dwc:decimalLatitude]\n"
+"|51.18061\n"
+"|51.181\n\n"
+"|{deployments-longitude}\n"
+"|term:dwc[dwc:decimalLongitude]\n"
+"|5.65490\n"
+"|5.655\n\n"
+"|implied\n"
+"|term:dwc[dwc:geodeticDatum]\n"
+"|EPSG:4326\n"
+"|EPSG:4326\n\n"
+"|{deployments-coordinateUncertainty}\n"
+"|term:dwc[dwc:coordinateUncertaintyInMeters]\n"
+"|30\n"
+"|187\n\n"
+"|{package-coordinatePrecision}\n"
+"|term:dwc[dwc:coordinatePrecision]\n"
+"|0.00001\n"
+"|0.001\n\n"
+"|\n"
+"|term:dwc[dwc:georeferenceRemarks]\n"
+"|source assumed to be GPS, uncertainty defaulted to 30 m\n"
+"|source assumed to be GPS, uncertainty defaulted to 30 m\n\n"
+"|\n"
+"|term:dwc[dwc:dataGeneralizations]\n"
+"|\n"
+"|coordinates rounded to 0.001 degree\n"
 
 #. type: Title =====
 #: 400.en.adoc:108
 #, no-wrap
 msgid "Other sensitive information"
-msgstr ""
+msgstr "その他の機密情報"
 
 #. type: Plain text
 #: 400.en.adoc:111
 msgid "Text fields such as comments and notes (e.g. {deployments-deploymentComments} or term:dwc[dwc:occurrenceRemarks]) may contain sensitive information such as <<section-personal-data,person names>>, <<section-sensitive-location-information,sensitive location information>> or information not intended for the public. We recommend verifying values and generalizing where necessary (see https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[Chapter 3] in citenp:[chapman-2020])."
-msgstr ""
+msgstr "コメントやメモなどのテキストフィールド（例：{deployments-deploymentComments} または term:dwc[dwc:occurrenceRemarks]）には、<<section-personal-data,個人名>>、<<section-sensitive-location-information,機密性の高い位置情報>> 、または公開を意図しない情報などの機密情報が含まれている場合があります。値を確認し、必要に応じて一般化することを推奨します（citenp:[chapman-2020]の https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[3章]参照）。"
 
 #. type: Title ===
 #: 400.en.adoc:113
 #, no-wrap
 msgid "Camtrap DP"
-msgstr ""
+msgstr "Camtrap DP"
 
 #. type: Plain text
 #: 400.en.adoc:116
 msgid "We recommend the use of <<camtrap-dp,Camera Trap Data Package (Camtrap DP)>> to publish camera trap data. It is specifically designed for this type of data and can retain more information than a <<darwin-core-archive,Darwin Core Archive>> cite:[bubnicki-2023]. Some <<data-management-system,data management systems>> directly support it as an export format (see <<table-data-management-systems>>), reducing the need for data transformation when publishing through GBIF."
-msgstr ""
+msgstr "カメラトラップデータを公開するために、<<camtrap-dp,Camera Trap Data Package (Camtrap DP)>>の使用を推奨します。これはこのタイプのデータ専用に設計されており、<<darwin-core-archive,Darwin Core Archive>>よりも多くの情報を保持できます cite:[bubnicki-2023]。一部の<<data-management-system,データ管理システム>> は、エクスポート形式として直接サポートしているため（<<table-data-management-systems>>を参照）、GBIFを通じて公開する際のデータ変換の必要性が軽減されます。"
 
 #. type: Plain text
 #: 400.en.adoc:118
 msgid "See the https://camtrap-dp.tdwg.org[Camtrap DP website] for term definitions, recommendations and examples."
-msgstr ""
+msgstr "用語の定義、推奨事項、および例については、https://camtrap-dp.tdwg.org[Camtrap DPのウェブサイト]  を参照してください。"
 
 #. type: delimited block =
 #: 400.en.adoc:122
 msgid "At the time of writing, GBIF does not yet support the publication of Camtrap DP in their production environment. It will be released as a feature in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT])."
-msgstr ""
+msgstr "執筆時点では、GBIFはまだCamtrap DPの公開を本番環境でサポートしていません。これは、https://www.gbif.org/ipt[IPT]のバージョン3の機能としてリリースされる予定です。"
 
 #. type: Plain text
 #: 400.en.adoc:125
 msgid "Not all information in a published Camtrap DP is currently harvested by GBIF. The GBIF data model requires it to be transformed to Darwin Core before ingestion. This process is provided by the https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] function in the R software package camtraptor cite:[camtraptor]. This function implements the <<section-darwin-core-archive,recommendations>> suggested in this document. GBIF will be able to process more information from a published Camtrap DP once it has implemented a new data model cite:[gbif-2022]."
-msgstr ""
+msgstr "公開されたCamtrap DPの全ての情報が現在GBIFによって収集されるわけではないことに注意してください。GBIFのデータモデルでは、取り込み前にDarwin Coreに変換する必要があります。このプロセスは、Rソフトウェアパッケージcamtraptorのhttps://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] 関数によって提供されます cite:[camtraptor]。この関数は、この文書で推奨されている<<section-darwin-core-archive,推奨事項>>を実装しています。GBIFが新しいデータモデルを実装すると、公開されたCamtrap DPからより多くの情報を処理できるようになります cite:[gbif-2022]。"
 
 #. type: Title ===
 #: 400.en.adoc:127
 #, no-wrap
 msgid "Darwin Core Archive"
-msgstr ""
+msgstr "Darwin Core Archive"
 
 #. type: Title ====
 #: 400.en.adoc:130
