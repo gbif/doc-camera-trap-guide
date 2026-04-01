@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-03-31 05:26\n"
+"PO-Revision-Date: 2026-04-01 09:08\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2583,17 +2583,17 @@ msgstr "Darwin Core Archive"
 #: 400.en.adoc:130
 #, no-wrap
 msgid "Why not a sampling event dataset?"
-msgstr ""
+msgstr "なぜサンプリングイベントデータセットではないのか？"
 
 #. type: Plain text
 #: 400.en.adoc:133
 msgid "With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observation,observations>>, it seems logical to express camera trap data as https://www.gbif.org/sampling-event-data[Sampling-event data] with an {event-core} (see <<table-event-core>>) and an {occurrence-extension} (see <<table-occurrence-extension>>). It allows us to provide detailed (though repeated) information about each type of event and offers the possibility to add a {mof-extension} with <<alignment>> and other information (mostly relevant for the deployments)."
-msgstr ""
+msgstr "階層的なイベント（<<deployment,設置>>、<<sequence,シーケンス>>）とそれに伴う<<observation,観察>>結果を持つカメラトラップデータを、https://www.gbif.org/sampling-event-data[サンプリングイベントデータ]として、つまり{event-core}イベントコア（<<table-event-core>>参照）と{occurrence-extension}オカレンス拡張（<<table-occurrence-extension>>参照）を使用して表現するのが論理的に思えます。これにより、各タイプのイベントに関する詳細な（ただし繰り返しの）情報を提供し、{mof-extension}Measurement Or Facts拡張を追加することで<<alignment,アライメント>>やその他の（主に設置に関連した）情報を含めて提供することが可能となります。"
 
 #. type: Plain text
 #: 400.en.adoc:135
 msgid "It unfortunately also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the {occurrence-extension} with an {ac-extension}. It is technically possible to link the {ac-extension} with the {event-core}, but the media would then not be linked to the occurrences and not appear on occurrence pages at GBIF.org. The only available option to express information about the media at an occurrence level would be to use term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s). License, media type, capture method, bounding boxes, etc. cannot be provided."
-msgstr ""
+msgstr "残念ながら、<<darwin-core-archive,Darwin Core Archive>>のスター・スキーマ設計では、{occurrence-extension}オカレンス拡張と{ac-extension}Audubon Media Description拡張を関連付けることができないため、**<<media,メディア>>に関する情報を拡張形式で表現することができません**。技術的には、{ac-extension}Audubon Media Description拡張を{event-core}イベントコアと関連付けできますが、その場合、メディアはオカレンスにリンクされず、GBIF.orgのオカレンスページに表示されません。オカレンスレベルでメディアに関する情報を表現する唯一の方法は、term:dwc[dwc:associatedMedia]を使用することですが、提供可能な情報はURLのリストに限定されます。ライセンス、メディアタイプ、撮影方法、バウンディングボックスなどは提供できません。"
 
 #. type: Block title
 #: 400.en.adoc:137
@@ -4400,5 +4400,5 @@ msgstr ""
 #: bibliography.en.adoc:2
 #, no-wrap
 msgid "References"
-msgstr ""
+msgstr "引用文献"
 
