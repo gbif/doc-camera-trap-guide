@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-02 01:58\n"
+"PO-Revision-Date: 2026-04-02 03:03\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2717,7 +2717,7 @@ msgstr "{occurrence-core}オカレンスコアと{ac-extension}Audubon Media Des
 #: 400.en.adoc:204
 #, no-wrap
 msgid "{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "カメラトラップデータを含むオカレンスコア{occurrence-core} 。これには<<table-occurrence-extension>>と同じ3つの観察が含まれる。イベント/シーケンスの識別子はterm:dwc[dwc:eventID]に、設置の識別子はterm:dwc[dwc:parentEventID]に提供される。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
 
 #. type: Table
 #: 400.en.adoc:235
@@ -2747,13 +2747,37 @@ msgid "|occurrenceID\n"
 "|2020-06-12T04:04:29Z/\n"
 "2020-06-12T04:04:55Z\n"
 "|51.496, 4.774\n"
-msgstr ""
+msgstr "|occurrenceID\n"
+"|eventID\n"
+"|parentEventID\n"
+"|scientificName\n"
+"|eventDate\n"
+"|Location information\n\n"
+"|e68deaed_2\n"
+"|[.lime]#79204343#\n"
+"|[.aqua]#00a2c20d#\n"
+"|Anas platyrhynchos\n"
+"|2020-06-12T04:04:29Z\n"
+"|51.496, 4.774\n\n"
+"|c5efbcb3_2\n"
+"|[.lime]#79204343#\n"
+"|[.aqua]#00a2c20d#\n"
+"|Anas platyrhynchos\n"
+"|2020-06-12T04:04:30Z\n"
+"|51.496, 4.774\n\n"
+"|05230014\n"
+"|[.lime]#79204343#\n"
+"|[.aqua]#00a2c20d#\n"
+"|Ardea cinerea\n"
+"|2020-06-12T04:04:29Z/\n"
+"2020-06-12T04:04:55Z\n"
+"|51.496, 4.774\n"
 
 #. type: Block title
 #: 400.en.adoc:238
 #, no-wrap
 msgid "{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "カメラトラップデータを含む{ac-extension}Audubon Media Description拡張。これには<<table-occurrence-extension>>で参照されているものと同じ2つのメディアファイルが含まれるが、ファイル毎により多くの情報を共有できるようになる。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
 
 #. type: Table
 #: 400.en.adoc:275
@@ -2788,41 +2812,70 @@ msgid "|occurrenceID\n"
 "|2020-06-12T04:04:30Z\n"
 "|Reconyx-HF2X\n"
 "|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n"
-msgstr ""
+msgstr "|occurrenceID\n"
+"|identifier\n"
+"|accessURI\n"
+"|CreateDate\n"
+"|captureDevice\n"
+"|rights\n\n"
+"|e68deaed_2\n"
+"|[.red]#e68deaed#\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
+"|2020-06-12T04:04:29Z\n"
+"|Reconyx-HF2X\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n\n"
+"|c5efbcb3_2\n"
+"|[.fuchsia]#c5efbcb3#\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
+"|2020-06-12T04:04:30Z\n"
+"|Reconyx-HF2X\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n\n"
+"|05230014\n"
+"|[.red]#e68deaed#\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
+"|2020-06-12T04:04:29Z\n"
+"|Reconyx-HF2X\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n\n"
+"|05230014\n"
+"|[.fuchsia]#c5efbcb3#\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
+"|2020-06-12T04:04:30Z\n"
+"|Reconyx-HF2X\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n"
 
 #. type: Block title
 #: 400.en.adoc:277
 #, no-wrap
 msgid "Screenshot of an https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[event page] created by GBIF.org from information provided in an {occurrence-core} (based on row 3 in <<table-occurrence-core>>). Notice the event ID (a sequence) and parent event ID (a deployment)."
-msgstr ""
+msgstr "GBIF.orgが{occurrence-core}オカレンスコアに提供された情報から作成したhttps://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[イベントページ]のスクリーンショット （<<table-occurrence-core>>の3行目に基づく）。イベントID（シーケンス）と親イベントID（設置）に注目してほしい。"
 
 #. type: Target for macro image
 #: 400.en.adoc:279
 #, no-wrap
 msgid "img/web/example-event-page.png"
-msgstr ""
+msgstr "img/web/example-event-page.png"
 
 #. type: Title ====
 #: 400.en.adoc:282
 #, no-wrap
 msgid "Occurrence core"
-msgstr ""
+msgstr "オカレンスコア"
 
 #. type: Plain text
 #: 400.en.adoc:285
 msgid "As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {occurrence-core} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-occurrence-core-terms>> for term recommendations. These recommendations align with the GBIF quality requirements for Occurrence datasets cite:[gbif-2020] and use the same terminology (Required, Strongly recommended, Share if available)."
-msgstr ""
+msgstr "<<section-why-not-a-sampling-event-dataset,上述>>の通り、カメラトラップデータを<<darwin-core-archive,Darwin Core Archive>>として表現するために、{occurrence-core}オカレンスコアを使用することを推奨します。用語の推奨事項については<<table-occurrence-core-terms>>を参照してください。これらの推奨事項は、GBIFのオカレンスデータセットに対する品質要件cite:[gbif-2020]と一致しており、同じ用語（必須、強く推奨、できれば共有）を使用しています。"
 
 #. type: Plain text
 #: 400.en.adoc:287
 msgid "Note that the {occurrence-core} should only contain <<observation-type,animal observations>>, so classifications of <<blank,blanks>>, vehicles and preferably <<section-sensitive-media-files,humans>> should be filtered out. The number of records will depend on the size of the study, the classification effort (are all media classified?), the classification precision (see <<table-classification-precision>>) and whether <<section-media-or-event-based-classification,media- or event-based classification>> was used. Especially media-based classifications can substantially increase the number of occurrences, with little added benefit for ecological research. <<camtrap-dp,Camtrap DP>> is designed for both, but when publishing as a Darwin Core Archive, we recommend only providing event-based observations if available."
-msgstr ""
+msgstr "なお、{occurrence-core}オカレンスコア には<<observation-type,動物の観察>>のみを含めるべきであり、<<blank,ブランク>>、車両や（できれば）<<section-sensitive-media-files,人間>>に分類される情報は除外する必要があります。レコード数は、研究の規模、分類の努力（全てのメディアが分類されているか？）、分類の精度（<<table-classification-precision>>参照）、および<<section-media-or-event-based-classification,メディアベースまたはイベントベースの分類>>が使用されたかどうかに依存します。特にメディアベースの分類は、オカレンスの数を大幅に増加させる可能性があり、生態学的研究にほとんど有益ではありません。<<camtrap-dp,Camtrap DP>>は両方に対応していますが、Darwin Core Archiveとして公開する場合は、できればイベントベースの観察のみを提供することを推奨します。"
 
 #. type: Block title
 #: 400.en.adoc:289
 #, no-wrap
 msgid "Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "カメラトラップデータを{occurrence-core}オカレンスコアとして記述する場合の推奨事項。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
 
 #. type: Table
 #: 400.en.adoc:455
@@ -2950,87 +3003,209 @@ msgid "|Term\n"
 "|<<section-kingdom,kingdom>>\n"
 "|Strongly recommended\n"
 "|Animalia\n"
-msgstr ""
+msgstr "|用語\n"
+"|ステータス\n"
+"|入力例\n\n"
+"|<<section-type,type>>\n"
+"|できれば共有\n"
+"|StillImage\n\n"
+"|<<section-license,license>>\n"
+"|できれば共有\n"
+"|[.break-all]#https://creativecommons.org/publicdomain/zero/1.0/legalcode#\n\n"
+"|<<section-rightsholder,rightsHolder>>\n"
+"|できれば共有\n"
+"|INBO\n\n"
+"|<<section-datasetid-datasetname,datasetID>>\n"
+"|できれば共有\n"
+"|[.break-all]#7cca70f5-ef8c-4f86-85fb-8f070937d7ab#\n\n"
+"|<<section-collectioncode,collectionCode>>\n"
+"|できれば共有\n"
+"|Agouti\n\n"
+"|<<section-datasetid-datasetname,datasetName>>\n"
+"|できれば共有\n"
+"|Sample from: MICA - Muskrat and coypu camera trap observations in Belgium, the Netherlands and Germany\n\n"
+"|<<section-basisofrecord,basisOfRecord>>\n"
+"|必須\n"
+"|MachineObservation\n\n"
+"|<<section-datageneralizations,dataGeneralizations>>\n"
+"|できれば共有\n"
+"|coordinates rounded to 0.001 degree\n\n"
+"|<<section-occurrenceid,occurrenceID>>\n"
+"|必須\n"
+"|05230014\n\n"
+"|<<section-individualcount,individualCount>>\n"
+"|強く推奨\n"
+"|1\n\n"
+"|<<section-sex,sex>>\n"
+"|できれば共有\n"
+"|\n\n"
+"|<<section-lifestage,lifeStage>>\n"
+"|できれば共有\n"
+"|adult\n\n"
+"|<<section-behavior,behavior>>\n"
+"|できれば共有\n"
+"|\n\n"
+"|<<section-occurrencestatus,occurrenceStatus>>\n"
+"|強く推奨\n"
+"|present\n\n"
+"|<<section-occurrenceremarks,occurrenceRemarks>>\n"
+"|できれば共有\n"
+"|\n\n"
+"|<<section-organismid,organismID>>\n"
+"|できれば共有\n"
+"|\n\n"
+"|<<section-eventid,eventID>>\n"
+"|強く推奨\n"
+"|79204343\n\n"
+"|<<section-parenteventid,parentEventID>>\n"
+"|強く推奨\n"
+"|00a2c20d\n\n"
+"|<<section-eventdate,eventDate>>\n"
+"|必須\n"
+"|[.break-all]#2020-06-12T04:04:29Z/2020-06-12T04:04:55Z#\n\n"
+"|<<section-habitat,habitat>>\n"
+"|できれば共有\n"
+"|Campine area with a number of river valleys with valuable grasslands\n\n"
+"|<<section-samplingprotocol,samplingProtocol>>\n"
+"|強く推奨\n"
+"|camera trap\n\n"
+"|<<section-samplingeffort,samplingEffort>>\n"
+"|できれば共有\n"
+"|[.break-all]#2020-05-30T02:57:37Z/2020-07-01T09:41:41Z#\n\n"
+"|<<section-eventremarks,eventRemarks>>\n"
+"|できれば共有\n"
+"|camera trap without bait near game trail \\| tags: position:above stream\n\n"
+"|<<section-locationid,locationID>>\n"
+"|できれば共有\n"
+"|e254a13c\n\n"
+"|<<section-locality,locality>>\n"
+"|できれば共有\n"
+"|B_HS_val 2_processiepark\n\n"
+"|<<section-minimumdepthinmeters-maximumdepthinmeters,minimumDepthInMeters>>\n"
+"|できれば共有\n"
+"|\n\n"
+"|<<section-minimumdepthinmeters-maximumdepthinmeters,maximumDepthInMeters>>\n"
+"|できれば共有\n"
+"|\n\n"
+"|<<section-minimumdistanceabovesurfaceinmeters-maximumdistanceabovesurfaceinmeters,minimumDistanceAboveSurfaceInMeters>>\n"
+"|できれば共有\n"
+"|1.30\n\n"
+"|<<section-minimumdistanceabovesurfaceinmeters-maximumdistanceabovesurfaceinmeters,maximumDistanceAboveSurfaceInMeters>>\n"
+"|できれば共有\n"
+"|1.30\n\n"
+"|<<section-decimallatitude-decimallongitude,decimalLatitude>>\n"
+"|強く推奨\n"
+"|51.496\n\n"
+"|<<section-decimallatitude-decimallongitude,decimalLongitude>>\n"
+"|強く推奨\n"
+"|4.774\n\n"
+"|<<section-geodeticdatum,geodeticDatum>>\n"
+"|強く推奨\n"
+"|EPSG:4326\n\n"
+"|<<section-coordinateuncertaintyinmeters,coordinateUncertaintyInMeters>>\n"
+"|強く推奨\n"
+"|187\n\n"
+"|<<section-coordinateprecision,coordinatePrecision>>\n"
+"|できれば共有\n"
+"|0.001\n\n"
+"|<<section-identifiedby,identifiedBy>>\n"
+"|できれば共有\n"
+"|Peter Desmet\n\n"
+"|<<section-dateidentified,dateIdentified>>\n"
+"|できれば共有\n"
+"|2023-02-02T13:57:58Z\n\n"
+"|<<section-identificationremarks,identificationRemarks>>\n"
+"|できれば共有\n"
+"|classified by a human\n\n"
+"|<<section-taxonid,taxonID>>\n"
+"|できれば共有\n"
+"|[.break-all]#https://www.checklistbank.org/dataset/COL2023/taxon/GCHS#\n\n"
+"|<<section-scientificname,scientificName>>\n"
+"|必須\n"
+"|Ardea cinerea\n\n"
+"|<<section-kingdom,kingdom>>\n"
+"|強く推奨\n"
+"|Animalia\n"
 
 #. type: Title =====
 #: 400.en.adoc:458 400.en.adoc:822
 #, no-wrap
 msgid "type"
-msgstr ""
+msgstr "type"
 
 #. type: Plain text
 #: 400.en.adoc:461
 msgid "https://dwc.tdwg.org/list/#dc_type[dc:type]"
-msgstr ""
+msgstr "https://dwc.tdwg.org/list/#dc_type[dc:type]"
 
 #. type: Plain text
 #: 400.en.adoc:463
 msgid "The nature of the resource. Use `StillImage` if the record is based on an image or sequence of images, `MovingImage` if based on a video. One can also use the broader term `Image` for all records."
-msgstr ""
+msgstr "リソースの性質。レコードが静止画または静止画のシーケンスに基づいている場合は`StillImage`を使用し、動画に基づいている場合は`MovingImage`を使用します。全てのレコードに対してより広い用語`Image` を使用することもできます。"
 
 #. type: Title =====
 #: 400.en.adoc:465
 #, no-wrap
 msgid "license"
-msgstr ""
+msgstr "license"
 
 #. type: Plain text
 #: 400.en.adoc:468
 msgid "https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]"
-msgstr ""
+msgstr "https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]"
 
 #. type: Plain text
 #: 400.en.adoc:470
 msgid "The licence under which the data record is shared. Very likely this will be the same licence as the one used for the dataset as a whole, but it is possible to deviate cite:[waller-2020]. To enable wide use, we recommend publishing data under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode`. In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `data` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
-msgstr ""
+msgstr "共有されるデータレコードのライセンス。データセット全体に使用されるライセンスと同じライセンスである可能性が高いですが、そうではない可能性もあります cite:[waller-2020]。広く活用されるため、データをhttps://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]の下で公開し、URLとして提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`。Camtrap DPでは、この用語はライセンスの`path`に相当し、 {package-licenses}の`data`のスコープがあります。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:472
 #, no-wrap
 msgid "rightsHolder"
-msgstr ""
+msgstr "rightsHolder"
 
 #. type: Plain text
 #: 400.en.adoc:475
 msgid "https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]"
-msgstr ""
+msgstr "https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]"
 
 #. type: Plain text
 #: 400.en.adoc:477
 msgid "The person or organization (i.e. <<participant>>) owning or managing rights over the resource. In all likeness the organization that decided under what license the data are published and/or the publisher of the data (i.e. the organization selected as publisher when registering a dataset with GBIF). Use an acronym if the organization has one. In Camtrap DP, this term corresponds with the `title` of the collaborator that has the role `rightsHolder` in {package-contributors}."
-msgstr ""
+msgstr "リソースの権利を所有または管理する個人または組織（すなわち、<<participant,参加者>>）。データがどのライセンスの下で公開されるかを決定した組織、および/またはデータ出版機関（すなわち、GBIFにデータセットを登録する際に出版者として選択された組織）である可能性が高いです。組織に略称がある場合はそれを使用します。Camtrap DPでは、この用語は{package-contributors}の`rightsHolder`の役割を持つ共同作業者の`title`に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:479
 #, no-wrap
 msgid "datasetID & datasetName"
-msgstr ""
+msgstr "datasetID & datasetName"
 
 #. type: Plain text
 #: 400.en.adoc:482
 msgid "term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]"
-msgstr ""
+msgstr "term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]"
 
 #. type: Plain text
 #: 400.en.adoc:484
 msgid "Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (`https://doi.org/10.15468/5tb6ze`), study URL (`http://n2t.net/ark:/63614/w12001317`), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI). term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}."
-msgstr ""
+msgstr "データセットの識別子と名前です。term:dwc[dwc:datasetID]には、ユーザーがソースであるデータセット/研究に関する情報を見つけられるように、永続的なURLまたは識別子を使用することを推奨します。優先順位としては、データセットのDOI（`https://doi.org/10.15468/5tb6ze`）、研究のURL（`http://n2t.net/ark:/63614/w12001317`）、または<<data-management-system,データ管理システム>>で使用される研究識別子の順です。Camtrap DPでは、この用語は{package-id} に相当しますが、より良い識別子（例：DOI）が利用可能な場合はそれを使用します。term:dwc[dwc:datasetName] は、term:dwc[dwc:datasetID]で参照されるデータセット/研究のタイトルを入れましょう。メタデータのタイトルには同じ値を使用することを推奨します。Camtrap DPでは、この用語は{package-title}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:486
 #, no-wrap
 msgid "collectionCode"
-msgstr ""
+msgstr "collectionCode"
 
 #. type: Plain text
 #: 400.en.adoc:489
 msgid "term:dwc[dwc:collectionCode]"
-msgstr ""
+msgstr "term:dwc[dwc:collectionCode]"
 
 #. type: Plain text
 #: 400.en.adoc:491
 msgid "The name or acronym identifying the collection or dataset the record was derived from. Traditionally used to indicate a physical collection, we recommend to provide the name of the <<data-management-system,data management system>> (i.e. virtual collection) the record was derived from. This allows users to search for records from the same data management system across datasets. Recommended values: `Agouti`, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. In Camtrap DP, this term corresponds with the `title` of the (applicable) source in {package-sources}."
-msgstr ""
+msgstr "記録が由来するコレクションまたはデータセットを識別する名前または略語です。従来は物理的なコレクションを示しましたが、記録が由来する<<data-management-system,データ管理システム>>（すなわち、仮想コレクション）の名前を提供することを推奨します。これにより、ユーザーは同じデータ管理システムからの記録をデータセット全体で検索できます。推奨値：`Agouti`、`Camelot`、`eMammal`、`Trapper`、`Wildlife Insights`など。Camtrap DPでは、この用語は{package-sources}の（該当する）ソースのタイトルに相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:493
