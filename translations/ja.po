@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-01 09:08\n"
+"PO-Revision-Date: 2026-04-02 01:58\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2599,7 +2599,7 @@ msgstr "残念ながら、<<darwin-core-archive,Darwin Core Archive>>のスタ�
 #: 400.en.adoc:137
 #, no-wrap
 msgid "{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "カメラトラップデータを含む{event-core}イベントコア。3種類のイベントが含まれる：1つの<<deployment,設置>>（期間は日単位）、1つの<<sequence,シーケンス,シーケンス>> （期間は秒単位）、および2つのメディアベースのイベント（単一のタイムスタンプ）。全てのイベントについて位置情報が同じであることに注意。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]。 "
 
 #. type: Table
 #: 400.en.adoc:171
@@ -2631,13 +2631,39 @@ msgid "|eventType\n"
 "|[.lime]#79204343#\n"
 "|2020-06-12T04:04:30Z\n"
 "|51.496, 4.774\n"
-msgstr ""
+msgstr "|eventType\n"
+"|eventID\n"
+"|parentEventID\n"
+"|eventDate\n"
+"|Location information\n\n"
+"|deployment\n"
+"|[.aqua]#00a2c20d#\n"
+"|\n"
+"|2020-05-30T02:57:37Z/\n"
+"2020-07-01T09:41:41Z\n"
+"|51.496, 4.774\n\n"
+"|sequence\n"
+"|[.lime]#79204343#\n"
+"|[.aqua]#00a2c20d#\n"
+"|2020-06-12T04:04:29Z/\n"
+"2020-06-12T04:04:55Z\n"
+"|51.496, 4.774\n\n"
+"|media\n"
+"|[.red]#e68deaed#\n"
+"|[.lime]#79204343#\n"
+"|2020-06-12T04:04:29Z\n"
+"|51.496, 4.774\n\n"
+"|media\n"
+"|[.fuchsia]#c5efbcb3#\n"
+"|[.lime]#79204343#\n"
+"|2020-06-12T04:04:30Z\n"
+"|51.496, 4.774\n"
 
 #. type: Block title
 #: 400.en.adoc:174
 #, no-wrap
 msgid "{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media-based>> classifications of _Anas platyrhynchos_ and one event-based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr ""
+msgstr "表14. カメラトラップデータを含む {occurrence-extension}オカレンス拡張。３種類の観察記録が含まれる：2つの<<#section-media-or-event-based-classification,メディアベース>>の_Anas platyrhynchos_ の分類、1つのイベントベースの_Ardea cinerea_の分類。メディアファイルに関する情報は、dwc:associatedMedia にのみ記述することができる。：https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
 
 #. type: Table
 #: 400.en.adoc:197
@@ -2659,17 +2685,33 @@ msgid "|occurrenceID\n"
 "|Ardea cinerea\n"
 "|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \\|\n"
 "https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
-msgstr ""
+msgstr "|occurrenceID\n"
+"|eventID\n"
+"|scientificName\n"
+"|associatedMedia\n\n"
+"|e68deaed_2\n"
+"|[.red]#e68deaed#\n"
+"|Anas platyrhynchos\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file#\n\n"
+"|c5efbcb3_2\n"
+"|[.fuchsia]#c5efbcb3#\n"
+"|Anas platyrhynchos\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n\n"
+"|05230014\n"
+"|[.lime]#79204343#\n"
+"|Ardea cinerea\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/e68deaed-a64e-4999-87a3-9aa0edf5970d/file  \\|\n"
+"https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
 
 #. type: Plain text
 #: 400.en.adoc:200
 msgid "We therefore recommend expressing camera trap data as an Occurrence dataset with an {occurrence-core} and an {ac-extension} (see <<table-occurrence-core>> and <<table-ac-extension>>). This treats **media as primary data records**, which is important given that they are the evidence on which the observations are based. Event hierarchy can largely be retained as well, since the {occurrence-core} allows to group occurrences into events (term:dwc[dwc:eventID]) and parent events (term:dwc[dwc:parentEventID]). By providing the <<event>>/sequence identifier in term:dwc[dwc:eventID] and <<deployment>> identifier in term:dwc[dwc:parentEventID], observations can be grouped just like they would in an {event-core} and GBIF.org will automatically create event pages for those (see <<figure-example-event-page>>). Event duration information however cannot be provided, but <<section-eventdate,eventDate>> and <<section-samplingeffort,samplingEffort>> can retain most of it. Information about the deployment location, habitat, sampling protocol, etc. is repeated for every observation in the deployment."
-msgstr ""
+msgstr "したがって、カメラトラップデータをオカレンスデータセットとして表現することを推奨します。{occurrence-core} オカレンスコアと{ac-extension}Audubon Media Description拡張を使用します（<<table-occurrence-core>> および<<table-ac-extension>>を参照）。**メディアを主要なデータレコードとして**扱います。このことは、メディアが観察の証拠であることからも重要です。{occurrence-core}オカレンスコアは、オカレンスをイベント（term:dwc[dwc:eventID]）および親イベント（term:dwc[dwc:parentEventID]）にグループ化することが可能なため、<<event,イベント>>の階層構造も大部分が保持されます。term:dwc[dwc:eventID]に<<event,イベント>>/シーケンスの識別子を、term:dwc[dwc:parentEventID]に<<deployment,設置>>の識別子を提供することで、{event-core}Eventコア と同様に観察情報をグループ化でき、GBIF.orgで自動的にイベントページが作成されます（<<figure-example-event-page>>参照）。イベントの期間情報は提供できませんが、<<section-eventdate,eventDate>>と<<section-samplingeffort,samplingEffort>>でほとんどの情報を保持できます。設置場所、ハビタット、サンプリング手順などの情報は、設置に関連付く全ての観察に対して繰り返されます。"
 
 #. type: Plain text
 #: 400.en.adoc:202
 msgid "Term recommendations for the {occurrence-core} and {ac-extension} are provided in <<section-occurrence-core>> and <<section-ac-extension>> respectively."
-msgstr ""
+msgstr "{occurrence-core}オカレンスコアと{ac-extension}Audubon Media Description拡張の用語の推奨事項は、それぞれ<<section-occurrence-core>>および<<section-ac-extension>>に記載されています。"
 
 #. type: Block title
 #: 400.en.adoc:204
