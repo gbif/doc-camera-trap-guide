@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-02 03:03\n"
+"PO-Revision-Date: 2026-04-06 06:32\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3211,12 +3211,12 @@ msgstr "記録が由来するコレクションまたはデータセットを識
 #: 400.en.adoc:493
 #, no-wrap
 msgid "basisOfRecord"
-msgstr ""
+msgstr "basisOfRecord"
 
 #. type: Plain text
 #: 400.en.adoc:496
 msgid "term:dwc[dwc:basisOfRecord]"
-msgstr ""
+msgstr "term:dwc[dwc:basisOfRecord]"
 
 #. type: Plain text
 #: 400.en.adoc:498
