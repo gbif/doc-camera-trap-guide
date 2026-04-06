@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-06 06:32\n"
+"PO-Revision-Date: 2026-04-06 07:44\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3221,164 +3221,165 @@ msgstr "term:dwc[dwc:basisOfRecord]"
 #. type: Plain text
 #: 400.en.adoc:498
 msgid "The specific nature of the record. Set to `MachineObservation` for all records. While humans decide when and were to deploy a camera trap, and humans or machines (AI) can <<classification,classify>> media, the capturing of the record is done by a machine responding to a sensor. This is critically different from human observations, where a human is actively in control of the decision whether to record an organism or not."
-msgstr ""
+msgstr "レコードの特性。全てのレコードに対して`MachineObservation`を入力します。人間がカメラトラップをいつどこに設置するかを決定し、人間または機械（AI）がメディアを<<classification,分類>>しますが、レコード収集はセンサーに応答する機械によって行われます。これは、人間が積極的に生物を記録するかどうかを決定する、人間の観察とは本質的に異なります。"
 
 #. type: Title =====
 #: 400.en.adoc:500
 #, no-wrap
 msgid "dataGeneralizations"
-msgstr ""
+msgstr "dataGeneralizations"
 
 #. type: Plain text
 #: 400.en.adoc:503
 msgid "term:dwc[dwc:dataGeneralizations]"
-msgstr ""
+msgstr "term:dwc[dwc:dataGeneralizations]"
 
 #. type: Plain text
 #: 400.en.adoc:505
 msgid "The actions taken to make the published data less specific or complete than in its original form. We recommend succinctly describing here what <<section-sensitive-information,sensitive information>> of the record was generalized and how. Note that this information can be provided at record level and does not need to apply to the whole dataset. If important information was omitted altogether, use term:dwc[dwc:informationWithheld]."
-msgstr ""
+msgstr "元の形よりも特定されにくく、不完全なデータとして公開するための措置。記録のどの<<section-sensitive-information,機密情報>>がどのように一般化されたかを簡潔に説明することを推奨します。この情報はレコードレベルで提供でき、データセット全体に適用する必要はありません。重要な情報が完全に省略された場合は、term:dwc[dwc:informationWithheld]を使用してください。"
 
 #. type: Plain text
 #: 400.en.adoc:507 400.en.adoc:591 400.en.adoc:627 400.en.adoc:698
 #: 400.en.adoc:720
 msgid "Examples:"
-msgstr ""
+msgstr "例："
 
 #. type: delimited block -
 #: 400.en.adoc:511
 #, no-wrap
 msgid "coordinates rounded to 0.001 degree\n"
 "scientific name generalized to genus\n"
-msgstr ""
+msgstr "coordinates rounded to 0.001 degree\n"
+"scientific name generalized to genus\n"
 
 #. type: Title =====
 #: 400.en.adoc:514 400.en.adoc:808
 #, no-wrap
 msgid "occurrenceID"
-msgstr ""
+msgstr "occurrenceID"
 
 #. type: Plain text
 #: 400.en.adoc:517 400.en.adoc:811
 msgid "term:dwc[dwc:occurrenceID]"
-msgstr ""
+msgstr "term:dwc[dwc:occurrenceID]"
 
 #. type: Plain text
 #: 400.en.adoc:519
 msgid "An identifier for the <<observation>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap DP, this term corresponds with {observations-observationID}."
-msgstr ""
+msgstr "<<observation,観察>>の識別子。<<section-stable-unique-identifiers,安定した一意の識別子>>を使用します。Camtrap DPでは、この用語は{observations-observationID}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:521
 #, no-wrap
 msgid "individualCount"
-msgstr ""
+msgstr "individualCount"
 
 #. type: Plain text
 #: 400.en.adoc:524
 msgid "term:dwc[dwc:individualCount]"
-msgstr ""
+msgstr "term:dwc[dwc:individualCount]"
 
 #. type: Plain text
 #: 400.en.adoc:526
 msgid "The number of observed <<individual,individuals>>. Note that this number is dependent on the <<table-classification-precision,precision>> of the identifications. In Camtrap DP, this term corresponds with {observations-count}."
-msgstr ""
+msgstr "観察された<<individual,個体数>>。この数は同定の<<table-classification-precision,精度>>に依存することに注意してください。Camtrap DPでは、この用語は{observations-count}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:528
 #, no-wrap
 msgid "sex"
-msgstr ""
+msgstr "sex"
 
 #. type: Plain text
 #: 400.en.adoc:531
 msgid "term:dwc[dwc:sex]"
-msgstr ""
+msgstr "term:dwc[dwc:sex]"
 
 #. type: Plain text
 #: 400.en.adoc:533
 msgid "The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIF Sex vocabulary]. In Camtrap DP, this term corresponds with {observations-sex}."
-msgstr ""
+msgstr "観察された<<individual,個体>>の性別。Camtrap DPに基づき、https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIFの性別語彙]と互換性のある制御値である、`male`および`female`を使用することを推奨します。Camtrap DPでは、この用語は{observations-sex}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:535
 #, no-wrap
 msgid "lifeStage"
-msgstr ""
+msgstr "lifeStage"
 
 #. type: Plain text
 #: 400.en.adoc:538
 msgid "term:dwc[dwc:lifeStage]"
-msgstr ""
+msgstr "term:dwc[dwc:lifeStage]"
 
 #. type: Plain text
 #: 400.en.adoc:540
 msgid "The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the https://registry.gbif.org/vocabulary/LifeStage[GBIF LifeStage vocabulary]. In Camtrap DP, this term corresponds with {observations-lifeStage}."
-msgstr ""
+msgstr "観察された<<individual,個体>>の生活史。Camtrap DPに基づき、https://registry.gbif.org/vocabulary/LifeStage[GBIFの生活史語彙]と互換性のある制御値である、`adult`、`subadult`、および`juvenile`を使用することを推奨します。Camtrap DPでは、この用語は{observations-lifeStage}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:542
 #, no-wrap
 msgid "behavior"
-msgstr ""
+msgstr "behavior"
 
 #. type: Plain text
 #: 400.en.adoc:545
 msgid "term:dwc[dwc:behavior]"
-msgstr ""
+msgstr "term:dwc[dwc:behavior]"
 
 #. type: Plain text
 #: 400.en.adoc:547
 msgid "The dominant behaviour of the observed <<individual>>(s). We recommend using existing or your own controlled values (e.g. grazing, browsing, rooting, vigilance, running, walking). In Camtrap DP, this term corresponds with {observations-behavior}."
-msgstr ""
+msgstr "観察された<<individual,個体>>の主な行動。既存の制御値または独自の制御値（例：grazing、browsing、rooting、vigilance、running、walking）を使用することを推奨します。Camtrap DPでは、この用語は{observations-behavior}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:549
 #, no-wrap
 msgid "occurrenceStatus"
-msgstr ""
+msgstr "occurrenceStatus"
 
 #. type: Plain text
 #: 400.en.adoc:552
 msgid "term:dwc[dwc:occurrenceStatus]"
-msgstr ""
+msgstr "term:dwc[dwc:occurrenceStatus]"
 
 #. type: Plain text
 #: 400.en.adoc:554
 msgid "A statement about the presence or absence of the taxon at a location. When reduced to species observations (filtering out <<blank,blanks>>, etc.), camera trap data only contain presence records. Set to `present` for all records."
-msgstr ""
+msgstr "特定の場所での分類群の存在または不在に関する言及。種の観察に絞り込まれた場合（<<blank,ブランク>>などを除外など）、カメラトラップデータには存在記録のみが含まれます。全てのレコードに対して`present`を入力します。"
 
 #. type: Title =====
 #: 400.en.adoc:556
 #, no-wrap
 msgid "occurrenceRemarks"
-msgstr ""
+msgstr "occurrenceRemarks"
 
 #. type: Plain text
 #: 400.en.adoc:559
 msgid "term:dwc[dwc:occurrenceRemarks]"
-msgstr ""
+msgstr "term:dwc[dwc:occurrenceRemarks]"
 
 #. type: Plain text
 #: 400.en.adoc:561
 msgid "The comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. In Camtrap DP, this term corresponds with {observations-observationComments}."
-msgstr ""
+msgstr "<<observation,観察>>に関するコメントやメモ。これらは通常、他のデータフィールドに記録されなかった、または記録できなかった観察および/または観察された<<individual,個体>>に関する（時には著者の母国語による）メモです。この情報は公開するのに有用かもしれませんが、<<section-other-sensitive-information,機密情報>>を含む可能性があります。Camtrap DPでは、この用語は{observations-observationComments}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:563
 #, no-wrap
 msgid "organismID"
-msgstr ""
+msgstr "organismID"
 
 #. type: Plain text
 #: 400.en.adoc:566
 msgid "term:dwc[dwc:organismID]"
-msgstr ""
+msgstr "term:dwc[dwc:organismID]"
 
 #. type: Plain text
 #: 400.en.adoc:568
 msgid "An identifier for an observed and known <<individual>> that was recognized by colour ring, ear tag, skin pattern or other characteristics. Observations with term:dwc[dwc:organismID] typically have term:dwc[dwc:individualCount] of 1, unless the term:dwc[dwc:organismID] refers to a known group. Unless a globally unique identifier is available and known for the individual, we recommend using the code/identifier assigned within the camera trap study to the individual, allowing users to find all observations of this individual within the dataset. In Camtrap DP, this term corresponds with {observations-individualID}."
-msgstr ""
+msgstr "カラーリング、耳タグ、皮膚パターンなどの特徴によって認識された観察された既知の<<individual,個体>>識別子。term:dwc[dwc:organismID]が既知のグループを指す場合を除き、term:dwc[dwc:organismID]を持つ観察は、通常、term:dwc[dwc:individualCount]が1です。個体に対して、グローバルに一意の識別子が割り当てられていることを把握しているのでなければ、カメラトラップ研究内で個体に割り当てられたコード/識別子を使用することを推奨します。これにより、ユーザーはデータセット内で特定の個体に関する観察を全て見つけることができます。Camtrap DPでは、この用語は{observations-individualID}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:570
