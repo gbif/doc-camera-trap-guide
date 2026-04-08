@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-08 04:51\n"
+"PO-Revision-Date: 2026-04-08 06:10\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3464,44 +3464,44 @@ msgstr "samplingProtocol"
 #. type: Plain text
 #: 400.en.adoc:609
 msgid "term:dwc[dwc:samplingProtocol]"
-msgstr ""
+msgstr "term:dwc[dwc:samplingProtocol]"
 
 #. type: Plain text
 #: 400.en.adoc:611
 msgid "The method(s) or protocol(s) used during the <<event>>. We recommend using the controlled value `camera trap`. This allows users to search for records with this protocol across datasets."
-msgstr ""
+msgstr "<<event,イベント>>中に使用された方法またはプロトコル。制御値として`camera trap`を使用することを推奨します。これにより、ユーザーはこのプロトコルを持つ記録をデータセット全体で検索できます。"
 
 #. type: Title =====
 #: 400.en.adoc:613
 #, no-wrap
 msgid "samplingEffort"
-msgstr ""
+msgstr "samplingEffort"
 
 #. type: Plain text
 #: 400.en.adoc:616
 msgid "term:dwc[dwc:samplingEffort]"
-msgstr ""
+msgstr "term:dwc[dwc:samplingEffort]"
 
 #. type: Plain text
 #: 400.en.adoc:618
 msgid "The amount of effort expanded during the <<event>>. We recommend providing the date-time interval the camera trap was deployed, using the same formatting conventions as <<section-eventdate,eventDate>>. In Camtrap DP, this term corresponds with {deployments-deploymentStart} and {deployments-deploymentEnd}."
-msgstr ""
+msgstr "<<event,イベント>>に費やした努力量。カメラトラップが設置された日時の期間を提供することを推奨します。<<section-eventdate,eventDate>>と同じフォーマット規則を使用します。Camtrap DPでは、この用語は{deployments-deploymentStart}および{deployments-deploymentEnd}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:620
 #, no-wrap
 msgid "eventRemarks"
-msgstr ""
+msgstr "eventRemarks"
 
 #. type: Plain text
 #: 400.en.adoc:623
 msgid "term:dwc[dwc:eventRemarks]"
-msgstr ""
+msgstr "term:dwc[dwc:eventRemarks]"
 
 #. type: Plain text
 #: 400.en.adoc:625
 msgid "The comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments} and relates to {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}."
-msgstr ""
+msgstr "<<event,イベント>>に関するコメントやメモ。これらは通常、他のデータフィールドに記録されなかった、または記録できなかった<<deployment,設置>>に関する（時には著者の母国語による）メモです。この情報は公開すると有用かもしれませんが、<<section-other-sensitive-information,機密情報>>を含む可能性があります。また、<<bait,餌>>の使用、<<feature-type,特徴タイプ>>、タグなど、設置に関連する他の（構造化された）情報を提供するために、この項目を使用することを推奨します。その際はパイプ（`|`）で区切られた値を入力します。Camtrap DPでは、この用語は{deployments-deploymentComments}に相当し、{deployments-baitUse}、{deployments-featureType}および{deployments-deploymentTags}に相当します。"
 
 #. type: delimited block -
 #: 400.en.adoc:632
@@ -3509,151 +3509,153 @@ msgstr ""
 msgid "camera trap with bait near burrow\n"
 "camera trap without bait | tags: position:above stream\n"
 "camera malfunction on 29/06/2020\n"
-msgstr ""
+msgstr "camera trap with bait near burrow\n"
+"camera trap without bait | tags: position:above stream\n"
+"camera malfunction on 29/06/2020\n"
 
 #. type: Title =====
 #: 400.en.adoc:635
 #, no-wrap
 msgid "locationID"
-msgstr ""
+msgstr "locationID"
 
 #. type: Plain text
 #: 400.en.adoc:638
 msgid "term:dwc[dwc:locationID]"
-msgstr ""
+msgstr "term:dwc[dwc:locationID]"
 
 #. type: Plain text
 #: 400.en.adoc:640
 msgid "An identifier for the <<location>>. This identifier allows users to find all observations (and media) for a specific location (across deployments). Use a <<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap DP, this term corresponds with {deployments-locationID}."
-msgstr ""
+msgstr "<<location,場所>>の識別子。この識別子により、ユーザーは（設置全体で）特定の場所の観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用してください。Camtrap DPでは、この用語は{deployments-locationID}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:642
 #, no-wrap
 msgid "locality"
-msgstr ""
+msgstr "locality"
 
 #. type: Plain text
 #: 400.en.adoc:645
 msgid "term:dwc[dwc:locality]"
-msgstr ""
+msgstr "term:dwc[dwc:locality]"
 
 #. type: Plain text
 #: 400.en.adoc:647
 msgid "The name of the <<location>>. This is typically a name or code assigned within the camera trap study. In Camtrap DP, this term corresponds with {deployments-locationName}."
-msgstr ""
+msgstr "<<location,場所>>の名前。これは通常、カメラトラップ研究内で割り当てられた名前またはコードです。Camtrap DPでは、この用語は{deployments-locationName}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:649
 #, no-wrap
 msgid "minimumDepthInMeters & maximumDepthInMeters"
-msgstr ""
+msgstr "minimumDepthInMeters & maximumDepthInMeters"
 
 #. type: Plain text
 #: 400.en.adoc:652
 msgid "term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]"
 
 #. type: Plain text
 #: 400.en.adoc:654
 msgid "The depth (in meters) below the local surface. For (marine) camera trap studies, this is the <<camera-depth,depth>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraDepth}."
-msgstr ""
+msgstr "地表からの深さ（メートル単位）。（海洋）カメラトラップ研究では、これは<<camera,カメラ>>が設置された<<camera-depth,深さ>>です。<<camera-depth,カメラの深さ>>または<<camera-height,カメラの高さ>>のいずれかを提供することを推奨します。両方を提供しないでください。Camtrap DPでは、この用語は{deployments-cameraDepth}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:656
 #, no-wrap
 msgid "minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters"
-msgstr ""
+msgstr "minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters"
 
 #. type: Plain text
 #: 400.en.adoc:659
 msgid "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]"
 
 #. type: Plain text
 #: 400.en.adoc:661
 msgid "The height (in meters) above a reference surface. For camera trap studies, this is the <<camera-height,height>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraHeight}."
-msgstr ""
+msgstr "基準面からの高さ（メートル単位）。カメラトラップ研究では、これは<<camera,カメラ>>が設置された<<camera-height,高さ>>です。<<camera-depth,カメラの深さ>>または<<camera-height,カメラの高さ>>のいずれかを提供することを推奨します。両方を提供しないでください。Camtrap DPでは、この用語は{deployments-cameraHeight}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:663
 #, no-wrap
 msgid "decimalLatitude & decimalLongitude"
-msgstr ""
+msgstr "decimalLatitude & decimalLongitude"
 
 #. type: Plain text
 #: 400.en.adoc:666
 msgid "term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]"
-msgstr ""
+msgstr "term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]"
 
 #. type: Plain text
 #: 400.en.adoc:668
 msgid "The geographic latitude and longitude of the <<location>>, in decimal degrees. Latitude values lie between -90 and 90, longitude values between -180 and 180. For camera trap studies, these are typically obtained by GPS and recorded in the <<data-management-system,data management system>>. We recommend providing the coordinates as stored in the data management system, unless they need to be rounded/generalization to protect <<section-sensitive-location-information,sensitive information>>. In Camtrap DP, these terms correspond with {deployments-latitude} and {deployments-longitude} respectively."
-msgstr ""
+msgstr "10進法による、<<location,場所>>の地理的緯度と経度。緯度の値は-90から90の間、経度の値は-180から180の間です。カメラトラップ研究では、これらは通常GPSで取得され、<<data-management-system,データ管理システム>>に記録されます。データ管理システムに保存されている座標を提供することを推奨します。ただし、<<section-sensitive-location-information,機密情報>>を保護するために丸める/一般化する必要がある場合を除きます。Camtrap DPでは、これらの用語はそれぞれ{deployments-latitude}および{deployments-longitude}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:670
 #, no-wrap
 msgid "geodeticDatum"
-msgstr ""
+msgstr "geodeticDatum"
 
 #. type: Plain text
 #: 400.en.adoc:673
 msgid "term:dwc[dwc:geodeticDatum]"
-msgstr ""
+msgstr "term:dwc[dwc:geodeticDatum]"
 
 #. type: Plain text
 #: 400.en.adoc:675
 msgid "The spatial reference system used for the geographic <<section-decimallatitude-decimallongitude,coordinates>>. For coordinates obtained by GPS this is typically `EPSG:4326` (i.e. `WGS84`) cite:[chapman-wieczorek-2020]. In Camtrap DP, WGS84 is implied for the terms {deployments-latitude} and {deployments-longitude}."
-msgstr ""
+msgstr "地理<<section-decimallatitude-decimallongitude,座標>>に使用される空間参照システム。GPSで取得された座標の場合、通常は`EPSG:4326`（すなわち、`WGS84`）です cite:[chapman-wieczorek-2020]。Camtrap DPでは、WGS84は{deployments-latitude}および{deployments-longitude}の用語の定義に示されています。"
 
 #. type: Title =====
 #: 400.en.adoc:677
 #, no-wrap
 msgid "coordinateUncertaintyInMeters"
-msgstr ""
+msgstr "coordinateUncertaintyInMeters"
 
 #. type: Plain text
 #: 400.en.adoc:680
 msgid "term:dwc[dwc:coordinateUncertaintyInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:coordinateUncertaintyInMeters]"
 
 #. type: Plain text
 #: 400.en.adoc:682
 msgid "The horizontal distance (in metres) from the geographic <<section-decimallatitude-decimallongitude,coordinates>> describing the smallest circle containing the <<location>>. We recommend `30` meters as reasonable lower limit for coordinates obtained by GPS, but see <<section-location>> for details on what elements contribute to the uncertainty. <<section-sensitive-location-information,Generalized/rounded>> coordinates in particular will increase the term:dwc[dwc:coordinateUncertaintyInMeters]. In Camtrap DP, this term corresponds with {deployments-coordinateUncertainty}."
-msgstr ""
+msgstr "地理<<section-decimallatitude-decimallongitude,座標>>から、<<location,場所>>を含む最小の円までの、水平距離（メートル単位）。GPSで取得された座標の合理的な下限として`30`メートルを推奨しますが、不確実性に寄与する要素の詳細については<<section-location>>を参照してください。特に<<section-sensitive-location-information,一般化/丸められた>>座標はdwc:coordinateUncertaintyInMetersを増加させます。Camtrap DPでは、この用語は{deployments-coordinateUncertainty}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:684
 #, no-wrap
 msgid "coordinatePrecision"
-msgstr ""
+msgstr "coordinatePrecision"
 
 #. type: Plain text
 #: 400.en.adoc:687
 msgid "term:dwc[dwc:coordinatePrecision]"
-msgstr ""
+msgstr "term:dwc[dwc:coordinatePrecision]"
 
 #. type: Plain text
 #: 400.en.adoc:689
 msgid "The decimal precision of the geographic <<section-decimallatitude-decimallongitude,coordinates>>>, if known. This information is known and we recommend providing it for <<section-sensitive-location-information,generalized/rounded>> coordinates (e.g. `0.001` for coordinates that were rounded to 3 decimals). In Camtrap DP, this term corresponds with {package-coordinatePrecision}, although there it is specified for the dataset as whole, rather than per record."
-msgstr ""
+msgstr "地理<<section-decimallatitude-decimallongitude,座標>>>の小数点以下の精度（既知の場合）。この情報が既知である場合、<<section-sensitive-location-information,一般化/丸められた>>座標に対して提供することを推奨します（例：小数点以下3桁に丸められた座標の場合は`0.001`）。Camtrap DPでは、この用語は{package-coordinatePrecision}に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:691
 #, no-wrap
 msgid "identifiedBy"
-msgstr ""
+msgstr "identifiedBy"
 
 #. type: Plain text
 #: 400.en.adoc:694
 msgid "term:dwc[dwc:identifiedBy]"
-msgstr ""
+msgstr "term:dwc[dwc:identifiedBy]"
 
 #. type: Plain text
 #: 400.en.adoc:696
 msgid "The person or <<AI,species classification model>> that identified the observed <<individual,individual(s)>> and assigned the <<section-scientificname,scientificName>>. We recommend providing a single name: that of the person or model that made the (most recent) classification. Although <<classification,classifying>> can be broader than assigning a scientific name, it is likely to involve that aspect for <<observation-type,animal observations>>. Note that this term contains <<section-personal-data,personal data>>. In Camtrap DP, this term corresponds with {observations-classifiedBy}."
-msgstr ""
+msgstr "観察された<<individual,個体>>を識別し、<<section-scientificname,scientificName>>を割り当てた人物または<<AI,種分類モデル>>。最新の分類を行った人物またはモデルの名前を1つ提供することを推奨します。<<classification,分類>>は学名の割り当てよりも広範である可能性がありますが、<<observation-type,動物の観察>>に関してはその側面が関与する可能性が高いです。この用語には<<section-personal-data,個人データ>>が含まれていることに注意してください。Camtrap DPでは、この用語は{observations-classifiedBy}に相当します。"
 
 #. type: delimited block -
 #: 400.en.adoc:703
@@ -3661,116 +3663,119 @@ msgstr ""
 msgid "Peter Desmet\n"
 "Western Europe species model Version 1\n"
 "anonymized:3eb30aa\n"
-msgstr ""
+msgstr "Peter Desmet\n"
+"Western Europe species model Version 1\n"
+"anonymized:3eb30aa\n"
 
 #. type: Title =====
 #: 400.en.adoc:706
 #, no-wrap
 msgid "dateIdentified"
-msgstr ""
+msgstr "dateIdentified"
 
 #. type: Plain text
 #: 400.en.adoc:709
 msgid "term:dwc[dwc:dateIdentified]"
-msgstr ""
+msgstr "term:dwc[dwc:dateIdentified]"
 
 #. type: Plain text
 #: 400.en.adoc:711
 msgid "The date or date-time on which the identification was made. We recommend providing a single timestamp: that of the <<classification>> made by the person or model indicated in <<section-identifiedby,identifiedBy>>. This information is typically recorded by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-classificationTimestamp}."
-msgstr ""
+msgstr "識別が行われた日付または日時。<<section-identifiedby,identifiedBy>>で示された人物またはモデルによって行われた<<classification,分類>>のタイムスタンプを1つ提供することを推奨します。この情報は通常、<<data-management-system,データ管理システム>>によって記録されます。タイムスタンプはISO 8601形式（`YYYY-MM-DDTHH:MM:SS`）で記述し、タイムゾーン（`+02:00`）を含めるか、UTC（`Z`）に変換して示します。Camtrap DPでは、この用語は{observations-classificationTimestamp}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:713
 #, no-wrap
 msgid "identificationRemarks"
-msgstr ""
+msgstr "identificationRemarks"
 
 #. type: Plain text
 #: 400.en.adoc:716
 msgid "term:dwc[dwc:identificationRemarks]"
-msgstr ""
+msgstr "term:dwc[dwc:identificationRemarks]"
 
 #. type: Plain text
 #: 400.en.adoc:718
 msgid "The comments or notes about the identification. We recommend using this term to provide information on whether the <<classification>> was made by a human or <<AI,species classification model>> as well as the degree of certainty if available (often recorded for AI classification). In Camtrap DP, this term relates to {observations-classificationMethod} and {observations-classificationProbability}."
-msgstr ""
+msgstr "識別に関するコメントやメモ。この用語を使用して、人間と<<AI,種分類モデル>>のどちらによって、<<classification,分類>>が行われたのか、また、できれば確実性の度合い（通常AI分類で記録される）を提供することを推奨します。Camtrap DPでは、この用語は{observations-classificationMethod}および{observations-classificationProbability}に相当します。"
 
 #. type: delimited block -
 #: 400.en.adoc:724
 #, no-wrap
 msgid "classified by a human\n"
 "classified by a machine with a degree of certainty of 89%\n"
-msgstr ""
+msgstr "classified by a human\n"
+"classified by a machine with a degree of certainty of 89%\n"
 
 #. type: Title =====
 #: 400.en.adoc:727
 #, no-wrap
 msgid "taxonID"
-msgstr ""
+msgstr "taxonID"
 
 #. type: Plain text
 #: 400.en.adoc:730
 msgid "term:dwc[dwc:taxonID]"
-msgstr ""
+msgstr "term:dwc[dwc:taxonID]"
 
 #. type: Plain text
 #: 400.en.adoc:732
 msgid "An identifier for <<section-scientificname,scientificName>>. This identifier allows users to find all observations (and media) for a specific taxon. Use a <<section-stable-unique-identifiers,stable unique identifier>>, preferably one assigned by an <<table-taxon-reference-sources,authorative source>>. In Camtrap DP, this term corresponds with the `taxonID` of the corresponding taxon in {package-taxonomic}."
-msgstr ""
+msgstr "<<section-scientificname,scientificName>>の識別子。この識別子により、ユーザーは特定の分類群の観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用し、できれば<<table-taxon-reference-sources,権威あるソース>>によって割り当てられたものを使用してください。Camtrap DPでは、この用語は{package-taxonomic}の分類群の`taxonID`に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:734
 #, no-wrap
 msgid "scientificName"
-msgstr ""
+msgstr "scientificName"
 
 #. type: Plain text
 #: 400.en.adoc:737
 msgid "term:dwc[dwc:scientificName]"
-msgstr ""
+msgstr "term:dwc[dwc:scientificName]"
 
 #. type: Plain text
 #: 400.en.adoc:739
 msgid "The scientific name of the observed <<individual,individual(s)>>. In Camtrap DP, this term corresponds with {observations-scientificName}."
-msgstr ""
+msgstr "観察された<<individual,個体>>の学名。Camtrap DPでは、この用語は{observations-scientificName}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:741
 #, no-wrap
 msgid "kingdom"
-msgstr ""
+msgstr "kingdom"
 
 #. type: Plain text
 #: 400.en.adoc:744
 msgid "term:dwc[dwc:kingdom]"
-msgstr ""
+msgstr "term:dwc[dwc:kingdom]"
 
 #. type: Plain text
 #: 400.en.adoc:746
 msgid "The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classifications>> of plants, fungi or other kingdoms."
-msgstr ""
+msgstr "<<section-scientificname,scientificName>>が属する分類群の界。これにより、https://www.gbif.org/developer/species[GBIFの種名マッチング] などのサービスが同名異種を区別することができます。カメラトラップデータには植物、菌類、その他の界の<<classification,分類>>がほとんど含まれないため、全てのレコードに`Animalia`を入力する可能性が高いです。"
 
 #. type: Title ====
 #: 400.en.adoc:748
 #, no-wrap
 msgid "Audubon Media Description extension"
-msgstr ""
+msgstr "Audubon Media Description extension"
 
 #. type: Plain text
 #: 400.en.adoc:751
 msgid "As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {ac-extension} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-ac-extension-terms>> for term recommendations."
-msgstr ""
+msgstr "<<section-why-not-a-sampling-event-dataset,上述>>の通り、カメラトラップデータを<<darwin-core-archive,Darwin Core Archive>>として表現するために、{ac-extension}を使用することを推奨します。用語の推奨事項については<<table-ac-extension-terms>>を参照してください。"
 
 #. type: Plain text
 #: 400.en.adoc:753
 msgid "Note that the {ac-extension} can contain duplicates, an important difference with Camtrap DP's {media} where each file is only listed once. Repeated <<section-ac-occurrenceid,occurrenceID>> are the result of a single <<section-media-or-event-based-classification,event-based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated <<section-ac-identifier,identifiers>> are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media file `e68deaed` in <<table-ac-extension>>). The extension should however contain unique <<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>> combinations."
-msgstr ""
+msgstr "{ac-extension}には重複が含まれる可能性があることに注意してください。各ファイルが一度だけリストアップされるCamtrap DPのメディア [https://camtrap-dp.tdwg.org/data/#media] との重要な違いです。同じ<<section-ac-occurrenceid,occurrenceID>>が繰り返し表れるのは、単一の<<section-media-or-event-based-classification,イベントベース>> の観察が複数のメディアファイルに関連している結果です（例：<<table-ac-extension>>の観察`05230014` ）。同じ<<section-ac-identifier,identifiers>>が繰り返し表れるのは、一つのメディアファイルが複数の観察の情報源であることの結果です（例：<<table-ac-extension>>のメディアファイル`e68deaed` のように、同じ静止画に複数の種が観察される場合）。ただし、拡張ファイルの<<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>>の組み合わせは一意である必要があります。"
 
 #. type: Block title
 #: 400.en.adoc:755
 #, no-wrap
 msgid "Recommended terms to use when expressing camera trap data as an {ac-extension}. <<figure-example-image,Source>>."
-msgstr ""
+msgstr "カメラトラップデータを{ac-extension}で表現する場合に推奨されるデータ項目。<<figure-example-image,出典>>"
 
 #. type: Table
 #: 400.en.adoc:805
@@ -3811,172 +3816,207 @@ msgid "|Term\n"
 "|<<section-ac-serviceexpectation,serviceExpectation>>\n"
 "|Share if available\n"
 "|online\n"
-msgstr ""
+msgstr "|用語\n"
+"|ステータス\n"
+"|入力例\n"
+"|<<section-ac-occurrenceid,occurrenceID>>\n"
+"|必須\n"
+"|05230014\n\n"
+"|<<section-ac-identifier,identifier>>\n"
+"|できれば共有\n"
+"|6d65f3e4\n\n"
+"|<<section-ac-type,type>>\n"
+"|できれば共有\n"
+"|StillImage\n\n"
+"|<<section-ac-comments,comments>>\n"
+"|できれば共有\n"
+"|marked as favourite\n\n"
+"|<<section-ac-rights,rights>> \n"
+"|強く推奨\n"
+"|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n\n"
+"|<<section-ac-createdate,CreateDate>>\n"
+"|できれば共有\n"
+"|2020-06-12T06:04:32+02:00\n\n"
+"|<<section-ac-capturedevice,captureDevice>>\n"
+"|できれば共有\n"
+"|Reconyx-HF2X\n\n"
+"|<<section-ac-resourcecreationtechnique,resourceCreationTechnique>>\n"
+"|できれば共有\n"
+"|motion detection\n\n"
+"|<<section-ac-accessuri,accessURI>>\n"
+"|必須\n"
+"|[.break-all]#https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file#\n\n"
+"|<<section-ac-format,format>>\n"
+"|できれば共有\n"
+"|image/jpeg\n\n"
+"|<<section-ac-serviceexpectation,serviceExpectation>>\n"
+"|できれば共有\n"
+"|online\n"
 
 #. type: Plain text
 #: 400.en.adoc:813
 msgid "A foreign key to the <<section-occurrenceid,occurrenceID>> in the {occurrence-core}, to indicate the relation between the <<observation>> and the <<media-file,media file(s)>> on which it is based. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {observations-observationID}, but the relationship between {observations} and {media} can be established in several ways: either directly via {observations-mediaID} or by selecting media that have the same {media-deploymentID} as the observation and a {media-timestamp} that falls between the {observations-eventStart} and {observations-eventEnd} of the observation."
-msgstr ""
+msgstr "{occurrence-core}の<<section-occurrenceid,occurrenceID>>への外部キーで、観察とそれに基づくメディアファイルとの関係を示します。この用語には重複が含まれる可能性があります。これは多対多の関係であるためです（<<section-ac-extension>>の注を参照）。Camtrap DPでは、この用語は{observations-observationID}に相当しますが、{observations}と{media}の関係は、以下のいずれかの方法で確立されます：{observations-mediaID}で直接関連付けする。または観察と同じ{media-deploymentID} を持ち、{media-timestamp}が観察の{observations-eventStart}と{observations-eventEnd}の間にあるメディアを選択する。"
 
 #. type: Title =====
 #: 400.en.adoc:815
 #, no-wrap
 msgid "identifier"
-msgstr ""
+msgstr "identifier"
 
 #. type: Plain text
 #: 400.en.adoc:818
 msgid "https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]"
 
 #. type: Plain text
 #: 400.en.adoc:820
 msgid "An identifier for the <<media-file,media file>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {media-mediaID}."
-msgstr ""
+msgstr "<<media-file,media file>>の識別子。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用します。多対多の関係であるため（<<section-ac-extension>>の注を参照）、この用語は重複する可能性があります。Camtrap DPでは、この用語は{media-mediaID}に相当します。"
 
 #. type: Plain text
 #: 400.en.adoc:825
 msgid "https://ac.tdwg.org/termlist/#dc_type[dc:type]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#dc_type[dc:type]"
 
 #. type: Plain text
 #: 400.en.adoc:827
 msgid "The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage` for <<video,videos>>. Do not use https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type], because that term expects a URL value."
-msgstr ""
+msgstr "リソースの性質。<<image,静止画>>には`StillImage`、<<video,動画>>には`MovingImage`を使用します。https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type]は、URL値を入力する決まりがあるため、使用しないでください。"
 
 #. type: Title =====
 #: 400.en.adoc:829
 #, no-wrap
 msgid "comments"
-msgstr ""
+msgstr "comments"
 
 #. type: Plain text
 #: 400.en.adoc:832
 msgid "https://ac.tdwg.org/termlist/#ac_comments[ac:comments]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_comments[ac:comments]"
 
 #. type: Plain text
 #: 400.en.adoc:834
 msgid "The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceremarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favorite}."
-msgstr ""
+msgstr "メディアファイルに関するコメントやメモ。<<section-eventremarks,eventRemarks>>や<<section-occurrenceremarks,occurrenceRemarks>>とは対照的に、メディアファイル自体に関するメモは<<data-management-system,データ管理システム>>に記録されることはほとんどありません。この用語は、メディアファイルが、お気に入りや注目としてマークされたかどうかを示すために使用できます。Camtrap DPでは、この用語は{media-mediaComments}に相当し、{media-favorite}に関連します。"
 
 #. type: Title =====
 #: 400.en.adoc:836
 #, no-wrap
 msgid "rights"
-msgstr ""
+msgstr "rights"
 
 #. type: Plain text
 #: 400.en.adoc:839
 msgid "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
 
 #. type: Plain text
 #: 400.en.adoc:841
 msgid "The licence under which the media file is shared. Note that this applies to file referenced in <<section-ac-accessuri,accessURI>>, not the data in the {ac-extension} (these fall under the dataset license). We recommend using the same license for all media files. To enable wide use, we recommend publishing media files under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] or https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International license] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode` or `https://creativecommons.org/licenses/by/4.0/legalcode` respectively. Do not use https://ac.tdwg.org/termlist/#dc_rights[**dc**:rights], because that term expects a literal value (the full-text copyright statement). In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `media` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
-msgstr ""
+msgstr "メディアファイルが共有されるライセンス。これは<<section-ac-accessuri,accessURI>>で参照されるファイルに適用され、{ac-extension}のデータには適用されません（データセットライセンスが適用されます）。全てのメディアファイルに同じライセンスを使用することを推奨します。広範な利用を可能にするために、メディアファイルをhttps://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]またはhttps://creativecommons.org/licenses/by/4.0/[クリエイティブ・コモンズ表示4.0国際ライセンス]の下で公開し、URLを提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`、または、`https://creativecommons.org/licenses/by/4.0/legalcode`。https://ac.tdwg.org/termlist/#dc_rights[**dc**:rights]は、文字列値（全文の著作権声明）を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{package-licenses}の`media`のスコープを持つライセンスの`path`に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:843
 #, no-wrap
 msgid "CreateDate"
-msgstr ""
+msgstr "CreateDate"
 
 #. type: Plain text
 #: 400.en.adoc:846
 msgid "https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]"
 
 #. type: Plain text
 #: 400.en.adoc:848
 msgid "The date-time on which the media file was created. This information is typically extracted from the <<EXIF>> metadata by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {media-timestamp}."
-msgstr ""
+msgstr "メディアファイルが作成された日時。この情報は通常、<<data-management-system,data management system,データ管理システム>>によって<<EXIF>>メタデータから抽出されます。タイムスタンプはISO 8601形式（`YYYY-MM-DDTHH:MM:SS`）で記述し、タイムゾーン（`+02:00`）を含めるか、UTC（`Z`）に変換して示します。Camtrap DPでは、この用語は{media-timestamp}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:850
 #, no-wrap
 msgid "captureDevice"
-msgstr ""
+msgstr "captureDevice"
 
 #. type: Plain text
 #: 400.en.adoc:853
 msgid "https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]"
 
 #. type: Plain text
 #: 400.en.adoc:855
 msgid "The device(s) used to create the media file. We recommend providing the <<camera>> make and model (e.g. `Reconyx-HF2X`). In Camtrap DP, this term corresponds with {deployments-cameraModel}."
-msgstr ""
+msgstr "メディアファイルを作成するために使用されたデバイス。<<camera,カメラ>>のメーカーとモデル（例：`Reconyx-HF2X`）を提供することを推奨します。Camtrap DPでは、この用語は{deployments-cameraModel}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:857
 #, no-wrap
 msgid "resourceCreationTechnique"
-msgstr ""
+msgstr "resourceCreationTechnique"
 
 #. type: Plain text
 #: 400.en.adoc:860
 msgid "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]"
 
 #. type: Plain text
 #: 400.en.adoc:862
 msgid "The method(s) used to create or alter the media file. We recommend using this term to provide the <<trigger>> method that was used to capture the media file, as controlled values: `activity detection` or `time lapse`. In Camtrap DP, this term corresponds with {media-captureMethod}."
-msgstr ""
+msgstr "メディアファイルを作成または変更するために使用された方法。この用語を使用して、メディアファイルを収集するために使用された<<trigger,トリガー>>方法を提供することを推奨します。制御値は`activity detection`または`time lapse`です。Camtrap DPでは、この用語は{media-captureMethod}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:864
 #, no-wrap
 msgid "accessURI"
-msgstr ""
+msgstr "accessURI"
 
 #. type: Plain text
 #: 400.en.adoc:867
 msgid "https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]"
 
 #. type: Plain text
 #: 400.en.adoc:869
 msgid "The URI (Uniform Resource Identifier) that provides access to the media file. Although the term allows to point to relative <<file-path,file paths>> or offline storage, we strongly recommend to provide the http/https URL that serves the media file, if available (see <<section-storage>>). Use a http/https URL that serves the media file directly (not a HTML page embedding it), so it can be displayed on occurrence pages at GBIF.org. Camera trap images are typically small enough that it is not necessary to serve a reduced version of the file. In Camtrap DP, this term corresponds with {media-filePath}."
-msgstr ""
+msgstr "メディアファイルにアクセスするためのURI（Uniform Resource Identifier）。この用語は相対<<file-path,ファイルパス>>やオフラインのストレージを指すことができますが、できればメディアファイルが掲載されているhttp/https URLを提供することを強く推奨します（<<section-storage>>参照）。メディアファイルを（埋め込みしたHTMLページではなく）直接掲載するhttp/https URLを使用してください。これにより、GBIF.orgのオカレンスページで表示できます。カメラトラップ静止画は通常小さいため、縮小したバージョンを掲載用ファイルとする必要はありません。Camtrap DPでは、この用語は{media-filePath}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:871
 #, no-wrap
 msgid "serviceExpectation"
-msgstr ""
+msgstr "serviceExpectation"
 
 #. type: Plain text
 #: 400.en.adoc:874
 msgid "https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]"
 
 #. type: Plain text
 #: 400.en.adoc:876
 msgid "The service expectations users may have of the <<section-ac-accessuri,accessURI>>. We recommend using the controlled values `online` for media files that are publicly accessible over http/https and `authenticate` for media files that are kept private over http/https (see <<section-sensitive-media-files>>). In Camtrap DP, these values related to `TRUE` and `FALSE` respectively in {media-filePublic}."
-msgstr ""
+msgstr "<<section-ac-accessuri,accessURI>>に対するユーザーのサービス期待値。制御値としては、http/httpsで公開されているメディアファイルには`online`を、http/httpsで非公開にされているメディアファイルには `authenticate`を使用することを推奨します（<<section-sensitive-media-files>>参照）。Camtrap DPでは、これらの値はそれぞれ{media-filePublic}の `TRUE`および`FALSE`に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:878
 #, no-wrap
 msgid "format"
-msgstr ""
+msgstr "format"
 
 #. type: Plain text
 #: 400.en.adoc:881
 msgid "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
-msgstr ""
+msgstr "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
 
 #. type: Plain text
 #: 400.en.adoc:883
 msgid "The file format of the media file. We recommend providing the media type (MIME type) using the controlled values `image/jpeg`, `video/mp4` or `video/mpeg` of the https://ac.tdwg.org/format/[Audiovisual Core Controlled Vocabulary for Dublin Core]. Do not use https://ac.tdwg.org/termlist/#dcterms_format[**dcterms**:format], because that term expects a URL value. In Camtrap DP, this term corresponds with {media-fileMediatype}."
-msgstr ""
+msgstr "メディアファイルのファイル形式。https://ac.tdwg.org/format/[Dublin CoreのAudiovisual Core Controlled Vocabulary]の制御値である、`image/jpeg`、`video/mp4`、または `video/mpeg`を使用して、メディアタイプ（MIMEタイプ）を提供することを推奨します。https://ac.tdwg.org/termlist/#dcterms_format[**dcterms**:format]は 、URL値を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{media-fileMediatype}に相当します。"
 
 #. type: Title ==
 #: afterword.en.adoc:2
 #, no-wrap
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Acknowledgements"
 
 #. type: Plain text
 #: afterword.en.adoc:5
