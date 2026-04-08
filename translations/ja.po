@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-06 07:44\n"
+"PO-Revision-Date: 2026-04-08 04:51\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3385,49 +3385,49 @@ msgstr "カラーリング、耳タグ、皮膚パターンなどの特徴によ
 #: 400.en.adoc:570
 #, no-wrap
 msgid "eventID"
-msgstr ""
+msgstr "eventID"
 
 #. type: Plain text
 #: 400.en.adoc:573
 msgid "term:dwc[dwc:eventID]"
-msgstr ""
+msgstr "term:dwc[dwc:eventID]"
 
 #. type: Plain text
 #: 400.en.adoc:575
 msgid "An identifier for the event the observation belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event-based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}."
-msgstr ""
+msgstr "観察が属する<<event,イベント>>の識別子。<<section-media-or-event-based-classification,イベントベースの分類>>に使用されるイベント（通常は<<sequence,シーケンス>>）の識別子を提供することを推奨します。オカレンスコアを使用する場合、イベントには独自のレコードがありませんが、term:dwc[dwc:eventID]に識別子を提供することで、ユーザーは特定のイベントにおける観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用してください。GBIF.orgは、同じterm:dwc[dwc:eventID]を持つ観察を自動的にグループ化して一緒に属するものとして扱います。Camtrap DPでは、この用語は{observations-eventID}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:577
 #, no-wrap
 msgid "parentEventID"
-msgstr ""
+msgstr "parentEventID"
 
 #. type: Plain text
 #: 400.en.adoc:580
 msgid "term:dwc[dwc:parentEventID]"
-msgstr ""
+msgstr "term:dwc[dwc:parentEventID]"
 
 #. type: Plain text
 #: 400.en.adoc:582
 msgid "An identifier for a broader event then those identified by <<section-eventid,eventID>>. We recommend providing the identifier of the <<deployment>>. Using an Occurrence core, deployments will not have their own records, but providing their identifier in term:dwc[dwc:parentEventID] allows users to find all observations (and media) for a specific deployment. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:parentEventID] as belonging together. In Camtrap DP, this term corresponds with {observations-deploymentID}."
-msgstr ""
+msgstr "<<section-eventid,eventID>>で識別されたイベントよりも広いイベントの識別子。<<deployment,設置>>の識別子を提供することを推奨します。オカレンスコアを使用する場合、設置には独自のレコードがありませんが、term:dwc[dwc:parentEventID]に識別子を提供することで、ユーザーは特定の設置における観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用してください。GBIF.orgは、同じterm:dwc[dwc:parentEventID]を持つ観察を自動的にグループ化して一緒に属するものとして扱います。Camtrap DPでは、この用語は{observations-deploymentID}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:584
 #, no-wrap
 msgid "eventDate"
-msgstr ""
+msgstr "eventDate"
 
 #. type: Plain text
 #: 400.en.adoc:587
 msgid "term:dwc[dwc:eventDate]"
-msgstr ""
+msgstr "term:dwc[dwc:eventDate]"
 
 #. type: Plain text
 #: 400.en.adoc:589
 msgid "The date, date-time or date-time interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media-based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event-based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal."
-msgstr ""
+msgstr "<<event,イベント>>が発生した日付、日時、または日時の期間。<<section-media-or-event-based-classification,メディアベースの分類>>には単一のタイムスタンプを使用し、<<section-media-or-event-based-classification,イベントベースの分類>>には期間を使用することを推奨します。期間は<<section-eventid,eventID>>で識別された<<event,イベント>>の開始と終了のタイムスタンプから構成されます。タイムスタンプはISO 8601形式（`YYYY-MM-DDTHH:MM:SS`）で記述し、期間を示すには`/`を使用し、タイムゾーン（`+02:00`）を含めるか、UTC（`Z`）に変換して示します。Camtrap DPでは、この用語は{observations-eventStart}および{observations-eventEnd}に相当します。両方の値が等しい場合は{observations-eventStart}です。"
 
 #. type: delimited block -
 #: 400.en.adoc:596
@@ -3435,29 +3435,31 @@ msgstr ""
 msgid "2020-07-29T05:38:55Z/2020-07-29T05:39:00Z\n"
 "2020-07-29T05:38:55Z\n"
 "2020-07-29T07:38:55+02:00\n"
-msgstr ""
+msgstr "2020-07-29T05:38:55Z/2020-07-29T05:39:00Z\n"
+"2020-07-29T05:38:55Z\n"
+"2020-07-29T07:38:55+02:00\n"
 
 #. type: Title =====
 #: 400.en.adoc:599
 #, no-wrap
 msgid "habitat"
-msgstr ""
+msgstr "habitat"
 
 #. type: Plain text
 #: 400.en.adoc:602
 msgid "term:dwc[dwc:habitat]"
-msgstr ""
+msgstr "term:dwc[dwc:habitat]"
 
 #. type: Plain text
 #: 400.en.adoc:604
 msgid "A category or description of the habitat in which the <<event>> occurred. This is typically the habitat at the time of deployment, with values repeated for all records of this deployment. Values can be controlled, ideally using an existing classification system, or free-text descriptions. In Camtrap DP, this term corresponds with {deployments-habitat}."
-msgstr ""
+msgstr "<<event,イベント>>が発生したハビタットのカテゴリまたは説明。これは通常、設置時のハビタットであり、この設置の全てのレコードに対して値が繰り返されます。値は制御され、理想的には既存の分類システムを使用するか、自由形式の説明を入力できます。Camtrap DPでは、この用語は{deployments-habitat}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:606
 #, no-wrap
 msgid "samplingProtocol"
-msgstr ""
+msgstr "samplingProtocol"
 
 #. type: Plain text
 #: 400.en.adoc:609
