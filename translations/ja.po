@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-10 01:51\n"
+"PO-Revision-Date: 2026-04-10 04:53\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -4066,7 +4066,7 @@ msgstr "人間および動物とは対照的に、機械によって情報を認
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[bait]]bait"
-msgstr ""
+msgstr "[[bait]]餌"
 
 #. type: Plain text
 #: glossary.en.adoc:11
