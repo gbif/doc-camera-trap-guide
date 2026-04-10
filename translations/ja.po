@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-10 00:51\n"
+"PO-Revision-Date: 2026-04-10 01:51\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -4033,34 +4033,34 @@ msgstr "用語集"
 #: glossary.en.adoc:4
 #, no-wrap
 msgid "[[activity]]activity"
-msgstr "[[activity]]activity"
+msgstr "[[activity]]活動"
 
 #. type: Plain text
 #: glossary.en.adoc:5
 msgid "Movement in front of a <<camera>>. Movement can cause a <<trigger>> when certain conditions are met (e.g. within the <<detection-zone,detection zone>> and outside the <<quiet-period,quiet period>>). Camera traps are typically <<deployment,deployed>> to capture wildlife activity, but may also record movements of humans, vehicles or vegetation."
-msgstr ""
+msgstr "<<camera,カメラ>>の前での動き。特定の条件が満たされると動きが<<trigger,トリガー>>を引き起こすことがあります（例：<<detection-zone,検出ゾーン>>内かつ<<quiet-period,静止期間>>外）。カメラトラップは通常、野生動物の活動を撮影するために<<deployment,設置>>されますが、人間、車両、または植生の動きを記録することもあります。"
 
 #. type: Labeled list
 #: glossary.en.adoc:6
 #, no-wrap
 msgid "[[alignment]]alignment"
-msgstr ""
+msgstr "[[alignment]]アライメント"
 
 #. type: Plain text
 #: glossary.en.adoc:7
 msgid "Physical placement of a <<camera>>. Consists of <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>."
-msgstr ""
+msgstr "<<camera,カメラ>>の物理的な配置。<<camera-height,カメラの高さ>>、<<camera-depth,カメラの深さ>>、<<camera-tilt,カメラの傾き>>、および<<camera-heading,カメラの向き>>で構成されます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:8
 #, no-wrap
 msgid "[[AI]]artificial intelligence"
-msgstr ""
+msgstr "[[AI]]人工知能"
 
 #. type: Plain text
 #: glossary.en.adoc:9
 msgid "Ability to perceive, synthesize and infer information as demonstrated by machines, as opposed to humans/animals. In camera trap research, AI is mainly applied as <<machine-learning,machine learning>> to perform <<computer-vision,computer vision>> tasks. See also <<section-artificial-intelligence>>."
-msgstr ""
+msgstr "人間および動物とは対照的に、機械によって情報を認識、合成、推論する能力。カメラトラップ研究では、AIは主に<<machine-learning,機械学習>>として<<computer-vision,コンピュータビジョン>>タスクを実行するために適用されます。<<section-artificial-intelligence>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:10
