@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-10 06:20\n"
+"PO-Revision-Date: 2026-04-10 07:16\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -4451,7 +4451,7 @@ msgstr "<<camera,カメラ>>によって録音された（音声）ビジュア�
 #: glossary.en.adoc:80
 #, no-wrap
 msgid "[[media-type]]media type"
-msgstr ""
+msgstr "[[media-type]]メディアタイプ"
 
 #. type: Plain text
 #: glossary.en.adoc:81
