@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-10 04:53\n"
+"PO-Revision-Date: 2026-04-10 06:20\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -4071,381 +4071,381 @@ msgstr "[[bait]]餌"
 #. type: Plain text
 #: glossary.en.adoc:11
 msgid "Attractant used to encourage animals to investigate a <<location>> or specific point within the <<detection-zone,detection zone>>. Baits may be auditory, olfactory, visual, or some combination of these in nature. Whether bait was used for a <<deployment>> is useful to know for analyses, as it can alter the natural behaviour of animals. Can be expressed as a categorical description (e.g. `acoustic`, `visual`, `scent`) or a boolean. Also referred to as `lure` cite:[meek-2014]. {deployments-baitUse} in Camtrap DP."
-msgstr ""
+msgstr "動物を<<detection-zone,検出ゾーン>>内の<<location,場所>>または特定のポイントに誘導するために使用される誘引物。餌は聴覚的、嗅覚的、視覚的、またはこれらの組み合わせであることがあります。<<deployment,設置>>に餌が使用されたかどうかは、動物の自然な行動を変える可能性があるため、分析に役立ちます。カテゴリカルな説明（例：acoustic、visual、scent）またはブール値として表現できます。lureとも呼ばれます cite:[meek-2014]。Camtrap DPでは、{deployments-baitUse}に対応します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:12
 #, no-wrap
 msgid "[[blank]]blank"
-msgstr ""
+msgstr "[[blank]]ブランク"
 
 #. type: Plain text
 #: glossary.en.adoc:13
 msgid "<<media,Media>> without objects of interest. Blanks are typically the result of false <<trigger,triggers>> such as moving vegetation or fluctuating light. Marked as such when <<classification,classifying>> to facilitate excluding them from queries."
-msgstr ""
+msgstr "興味の対象がない<<media,メディア>>。ブランクは通常、動く植生や変動する光などの誤った<<trigger,トリガー>>の結果です。クエリから除外しやすくするために<<classification,分類>>時にそのようにマークされます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:14
 #, no-wrap
 msgid "[[camera]]camera"
-msgstr ""
+msgstr "[[camera]]カメラ"
 
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Device designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion. Of a certain make and model and uniquely identifiable by e.g. by serial number. Also referred to as `camera trap`, `game camera`, `trail camera`, `scouting camera` or `device`."
-msgstr ""
+msgstr "（野生動物の）<<activity,活動>>の<<media,メディア>>を自動的に撮影するように設計されたデバイス。通常、熱と動きの組み合わせによって<<trigger,トリガー>>されます。特定のメーカーとモデルがあり、シリアル番号などで一意に識別できます。`camera trap`、`game camera`、`trail camera`、`scouting camera`、 または`device`とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:16
 #, no-wrap
 msgid "[[camera-depth]]camera depth"
-msgstr ""
+msgstr "[[camera-depth]]カメラの深さ"
 
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "Depth of the (underwater) camera, a component of camera <<alignment>>. Typically expressed in meters below the local water surface. {deployments-cameraDepth} in Camtrap DP."
-msgstr ""
+msgstr "（水中）カメラの深さ、カメラの<<alignment,アライメント>>の一部。通常、その土地の水面下のメートル単位で表現されます。Camtrap DPでは、{deployments-cameraDepth}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[camera-height]]camera height"
-msgstr ""
+msgstr "[[camera-height]]カメラの高さ"
 
 #. type: Plain text
 #: glossary.en.adoc:19
 msgid "Height of the camera above the ground, a component of camera <<alignment>>. Can be expressed in meters above the ground or as a categorical description (`knee height` ~ 0.5m, `chest height` ~ 1.5m, `canopy` ~ 3+m in citenp:[wildlife-insights]). {deployments-cameraHeight} in Camtrap DP."
-msgstr ""
+msgstr "地面からのカメラの高さ、カメラの<<alignment,アライメント>>の一部。地面からのメートル単位で表現するか、カテゴリによる説明（`knee height` ~ 0.5m、`chest height` ~ 1.5m、`canopy` ~ 3+m、citenp:[wildlife-insights]）で表現できます。Camtrap DPでは、{deployments-cameraHeight}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:20
 #, no-wrap
 msgid "[[camera-tilt]]camera tilt"
-msgstr ""
+msgstr "[[camera-tilt]]カメラの傾き"
 
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Up or down orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees or as a categorical description (`parallel` = 0°, `pointed downward` = -90° in citenp:[wildlife-insights]). {deployments-cameraTilt} in Camtrap DP."
-msgstr ""
+msgstr "カメラの上下の向き、カメラの<<alignment,アライメント>>の一部。度数で表現するか、カテゴリによる説明（`parallel` = 0°、`pointed downward` = -90°、citenp:[wildlife-insights]）で表現できます。Camtrap DPでは、{deployments-cameraTilt}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:22
 #, no-wrap
 msgid "[[camera-heading]]camera heading"
-msgstr ""
+msgstr "[[camera-heading]カメラの方位"
 
 #. type: Plain text
 #: glossary.en.adoc:23
 msgid "Horizontal cardinal orientation of the camera, a component of camera <<alignment>>. Can be expressed in degrees from North or as cardinal directions (N, NW, etc.). {deployments-cameraHeading} in Camtrap DP."
-msgstr ""
+msgstr "カメラの水平方位、カメラの<<alignment,アライメント>>の一部。北からの度数、または方位（N、NWなど）で表現できます。Camtrap DPでは、{deployments-cameraHeading}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:24
 #, no-wrap
 msgid "[[camtrap-dp]]Camtrap DP"
-msgstr ""
+msgstr "[[camtrap-dp]]Camtrap DP"
 
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Camera Trap Data Package. A community developed <<data-exchange-format,data exchange format>> for camera trap data, maintained under Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-camtrap-dp>>, citenp:[bubnicki-2023] and the https://camtrap-dp.tdwg.org[Camtrap DP website]."
-msgstr ""
+msgstr "カメラトラップデータパッケージ。コミュニティにより開発された、カメラトラップデータのための<<data-exchange-format,データ交換フォーマット>>で、Biodiversity Information Standards（https://www.tdwg.org[TDWG]）の下で維持されています。<<section-camtrap-dp>>、citenp:[bubnicki-2023]およびCamtrap DPウェブサイト [https://camtrap-dp.tdwg.org] も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:26
 #, no-wrap
 msgid "[[classification]]classification"
-msgstr ""
+msgstr "[[classification]]分類"
 
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "The act of classifying camera trap <<media>>, resulting in <<observation,observations>>. Not to be confused with taxonomic classification. Can be performed in different steps and with different levels of precision, e.g. 1. media does/does not contain object(s) of interest (i.e. <<blank>>), 2. object of interest is human/vehicle/animal or unknown, 3. animal is member of certain taxon (e.g. Sus scrofa, Rodentia), 4. animal is of certain sex/life stage, is known <<individual>> x or shows certain behaviour. Classification is typically labour intensive and therefore often aided by <<computer-vision,computer vision>>, <<citizen-science,volunteers>> and/or classifying <<sequence,sequences>> rather than individual <<media-file,media files>>. Also referred to as `image classification`, `annotation` or `identification`. See also <<section-classification>>."
-msgstr ""
+msgstr "カメラトラップ<<media,メディア>>を分類する行為で、<<observation,observations,観察結果>>をもたらします。分類学的分類とは混同しないでください。異なるステップと異なる精度レベルで実行できます。例：1. メディアに興味のあるオブジェクトが含まれている/含まれていない（すなわち、<<blank,ブランク>>）、2. 興味のあるオブジェクトが人間/車両/動物または不明、3. 動物が特定の分類群に属す（例：Sus scrofa、Rodentia）、4. 動物が特定の性別/ライフステージに属し、既知の<<individual,個体>>xであるか、特定の行動を示す。分類は通常、労働集約的であるため、<<computer-vision,コンピュータビジョン>>、<<citizen-science,ボランティア>>により支援され、さらに/または個々の<<media-file,media files>>ではなく<<sequence,シーケンス>>を分類するときに支援されます。`image classification`、`annotation`、または`identification`とも呼ばれます。<<section-classification>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:28
 #, no-wrap
 msgid "[[citizen-science]]citizen science"
-msgstr ""
+msgstr "[[citizen-science]]市民科学"
 
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "Scientific research conducted with participation from the public. Also referred to as `community science`, `crowd science`, `crowdsourcing`, or `volunteer monitoring`. In camera trap research, citizen scientists can participate in camera trap <<deployment>> and <<classification>>. See also <<section-citizen-science>>."
-msgstr ""
+msgstr "市民の参加を伴う科学研究。`community science`、`crowd science`、`crowdsourcing`、または`volunteer monitoring`とも呼ばれます。カメラトラップ研究では、市民科学者がカメラトラップの<<deployment,設置>>と<<classification,分類>>に参加できます。<<section-citizen-science>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[cloud-computing]]cloud computing"
-msgstr ""
+msgstr "[[cloud-computing]]クラウド・コンピューティング"
 
 #. type: Plain text
 #: glossary.en.adoc:31
 msgid "Performing computing tasks on a distributed IT infrastructure (“cloud service”). Typically at a cost (“pay as you go”) in return for better performance and less maintenance."
-msgstr ""
+msgstr "分散型ITインフラ（「クラウドサービス」）でコンピューターによるタスクを実行すること。通常、より良いパフォーマンスやメンテナンスの軽減と引き換えに、コストがかかります（「使った分だけ支払う」）。"
 
 #. type: Labeled list
 #: glossary.en.adoc:32
 #, no-wrap
 msgid "[[computer-vision]]computer vision"
-msgstr ""
+msgstr "[[computer-vision]]コンピューター・ビジョン"
 
 #. type: Plain text
 #: glossary.en.adoc:33
 msgid "Processing, analysing and understanding of <<media>> by machines to aid <<classification>>, from object tracking to species identification. A form of artificial intelligence, typically trained with <<machine-learning,machine learning>>."
-msgstr ""
+msgstr "機械によって、<<media,メディア>>を処理、分析、理解し、物体の追跡から種の同定までの<<classification,分類>>を支援すること。通常、<<machine-learning,機械学習>>で訓練された人工知能の一形態です。"
 
 #. type: Labeled list
 #: glossary.en.adoc:34
 #, no-wrap
 msgid "[[covariates]]covariates"
-msgstr ""
+msgstr "[[covariates]]共変量"
 
 #. type: Plain text
 #: glossary.en.adoc:35
 msgid "Ecological variables that may affect the behaviour and detection of animals (e.g. <<bait,bait use>>, <<feature-type,feature type>>, <<habitat-type,habitat>>, canopy cover). Recording covariates is important for further analysis of the data. See also <<section-covariates>>."
-msgstr ""
+msgstr "動物の行動と検出に影響を与える可能性のある生態学的変数（例：<<bait,餌の使用>>、<<feature-type,特徴タイプ>>、<<habitat-type,ハビタット>>、樹冠被覆率）。データのさらなる分析のために共変量を記録することが重要です。<<section-covariates>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:36
 #, no-wrap
 msgid "[[data-exchange-format]]data exchange format"
-msgstr ""
+msgstr "[[data-exchange-format]]データ交換フォーマット"
 
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "Format used to exchange data between systems (e.g. <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>>). Requires data transformation from the source system to the format and from the format to the target system. Well designed data exchange formats facilitate <<FAIR>> data exchange, use open formats and provide clear definitions. Also referred to as `data standard` (when approved through a ratification process)."
-msgstr ""
+msgstr "システム間でデータを交換するために使用されるフォーマット（例：<<camtrap-dp,Camtrap DP>>と<<darwin-core-archive,Darwin Core Archive>>）。提供元のシステムからあるフォーマットへのデータ変換と、そのフォーマットからターゲットとなるシステムへのデータ変換が必要です。よく設計されたデータ交換フォーマットは、<<FAIR>>データ交換を促進し、オープンフォーマットを使用し、明確な定義を提供します。承認プロセスを経て承認された場合、`data standard`とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:38
 #, no-wrap
 msgid "[[data-management-system]]data management system"
-msgstr ""
+msgstr "[[data-management-system]]データ管理システム"
 
 #. type: Plain text
 #: glossary.en.adoc:39
 msgid "Online or desktop application to manage camera trap data. Typically includes functionality to upload <<media>>, add <<deployment>> information, <<classification,classify>> images, export data, invite <<participant,participants>> and manage a <<project>>. See also <<section-data-management-systems>>."
-msgstr ""
+msgstr "カメラトラップデータを管理するためのオンラインまたはデスクトップアプリケーション。通常、<<media,メディア>>のアップロード、<<deployment,設置>>情報の追加、静止画の<<classification,分類>>、データのエクスポート、<<participant,参加者>>の招待、および<<project,プロジェクト>>の管理機能を含みます。<<section-data-management-systems>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:40
 #, no-wrap
 msgid "[[data-repository]]data repository"
-msgstr ""
+msgstr "[[data-repository]]データリポジトリ"
 
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "Online system for the long-term archival of (research) data (e.g. https://zenodo.org[Zenodo], https://datadryad.org/[Dryad] and the GBIF https://www.gbif.org/ipt[IPT]). Different from a <<data-management-system,data management system>> which is designed for the management (and not necessarily long-term archival) of data."
-msgstr ""
+msgstr "（研究）データの長期アーカイブのためのオンラインシステム（例：https://zenodo.org[Zenodo]、https://datadryad.org/[Dryad]、およびhttps://www.gbif.org/ipt[IPT]。（必ずしも長期アーカイブではない）データの管理を目的とした<<data-management-system,データ管理システム>>とは異なります。"
 
 #. type: Labeled list
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[darwin-core-archive]]Darwin Core Archive"
-msgstr ""
+msgstr "[[darwin-core-archive]]Darwin Core Archive"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Standardized and widely supported <<data-exchange-format,data exchange format>> for biodiversity data, maintained by Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-darwin-core-archive>> and the https://dwc.tdwg.org/text/[Darwin Core text guide]."
-msgstr ""
+msgstr "標準化され、広くサポートされている、生物多様性データのための<<data-exchange-format,データ交換フォーマット>>で、Biodiversity Information Standards（https://www.tdwg.org[TDWG]）によって維持管理されています。<<section-darwin-core-archive>>およびhttps://dwc.tdwg.org/text/[Darwin Coreテキストガイド] [https://dwc.tdwg.org/text/] も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:44
 #, no-wrap
 msgid "[[deployment]]deployment"
-msgstr ""
+msgstr "[[deployment]]設置"
 
 #. type: Plain text
 #: glossary.en.adoc:45
 msgid "Spatial and temporal placement of a <<camera>> to sample wildlife images. A camera placed at a location between 1 and 15 January 2020 is a different deployment than the same (or different) camera placed at the same location between 15 and 30 January 2020. Deployments end by removing or replacing the camera, changing their position or swapping their memory card. Also referred to as `sampling point` cite:[wearn-2017], `trap station session` cite:[camelot] or `visit` cite:[newkirk-2016]. {deployments} in Camtrap DP. See also <<section-deployments>>."
-msgstr ""
+msgstr "野生動物の静止画をサンプリングするための<<camera,カメラ>>の空間的および時間的配置。2020年1月1日から15日までの間に特定の場所に設置されたカメラは、同じ場所に2020年1月15日から30日までの間に設置された同じ（または異なる）カメラとは異なる設置です。設置は、カメラの取り外しや交換、位置の変更、メモリーカードの交換によって終了します。また、`sampling point` cite:[wearn-2017]、`trap station session` cite:[camelot]または `visit` cite:[newkirk-2016]とも呼ばれます。Camtrap DPでは、{deployments}に相当します。<<section-deployments>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:46
 #, no-wrap
 msgid "[[deployment-group]]deployment group"
-msgstr ""
+msgstr "[[deployment-group]]設置グループ"
 
 #. type: Plain text
 #: glossary.en.adoc:47
 msgid "Logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` cite:[oconnor-2017], `camera trap array` cite:[meek-2014], `cluster` cite:[risc-2019], `paired deployment` cite:[kolowski-2017], `site` and `strata` cite:[sun-2021] are spatial deployment groups. `sampling campaign` cite:[lamelas-2020], `sampling event` cite:[fegraus-2011] and `session` are temporal deployment groups. `subproject` cite:[emammal-design], `survey` cite:[risc-2019,camerabase] and `tags` are thematic deployment groups. `study areas` cite:[newkirk-2016] can be considered a deployment group or <<project>> in its own right. {deployments-deploymentGroups} in Camtrap DP. See also <<section-deployment-groups>>."
-msgstr ""
+msgstr "空間的、時間的、またはテーマ別の基準に基づく<<deployment,設置>>の論理的グループ化。設置は複数の設置グループに属することができます。`array` cite:[oconnor-2017]、`camera trap array` cite:[meek-2014]、`cluster` cite:[risc-2019]、`paired deployment` cite:[kolowski-2017]、`site`と`strata` cite:[sun-2021]は空間的な設置グループです。`sampling campaign` cite:[lamelas-2020]、`sampling event` cite:[fegraus-2011]および`session`は時間的な設置グループです。`subproject` cite:[emammal-design]、`survey` cite:[risc-2019,camerabase]および`tags`はテーマ別設置グループです。`study areas` cite:[newkirk-2016]は、それ自体が設置グループまたは <<project,プロジェクト>>と見なされることがあります。Camtrap DPでは、{deployments-deploymentGroups}に相当します。<<section-deployment-groups>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:48
 #, no-wrap
 msgid "[[detection-distance]]detection distance"
-msgstr ""
+msgstr "[[detection-distance]]検出距離"
 
 #. type: Plain text
 #: glossary.en.adoc:49
 msgid "Furthest distance in the <<detection-zone,detection zone>> at which the <<camera>> detects <<activity>>. {deployments-detectionDistance} in Camtrap DP."
-msgstr ""
+msgstr "<<camera,カメラ>>が<<activity,活動>>を検出する<<detection-zone,検出ゾーン>>の最遠距離。Camtrap DPでは、{deployments-detectionDistance}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:50
 #, no-wrap
 msgid "[[detection-zone]]detection zone"
-msgstr ""
+msgstr "[[detection-zone]]検出ゾーン"
 
 #. type: Plain text
 #: glossary.en.adoc:51
 msgid "Area of a <<location>> in which a camera <<sensor>> is able to detect <<activity>>."
-msgstr ""
+msgstr "カメラ<<sensor,センサー>>が<<activity,活動>>を検出できる<<location,場所>>の面積。"
 
 #. type: Labeled list
 #: glossary.en.adoc:52
 #, no-wrap
 msgid "[[event]]event"
-msgstr ""
+msgstr "[[event]]イベント"
 
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "Action that occurs at a specific <<location>> for a specific duration. In camera trap research, events typically refer to animal <<activity>> recorded through one or more <<trigger,triggers>> and forming a <<sequence>>, but other definitions might be used when analysing data. Events can be indicated with {observations-eventID}, {observations-eventStart} and {observations-eventEnd} in Camtrap DP. In a <<darwin-core-archive,Darwin Core Archive>>, <<deployment,deployments>> can also be considered events."
-msgstr ""
+msgstr "特定の<<location,場所>>で特定の期間に発生するアクション。カメラトラップ研究では、イベントは通常、1つ以上の<<trigger,トリガー>>を通じて記録され、<<sequence,シーケンス>>を形成する動物の<<activity,活動>>を指しますが、データを分析する際には他の定義が使用されることがあります。イベントは、Camtrap DPでは{observations-eventID}、{observations-eventStart}、および{observations-eventEnd}で示すことができます。Darwin Core Archiveでは、設置もイベントと見なすことができます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:54
 #, no-wrap
 msgid "[[EXIF]]EXIF"
-msgstr ""
+msgstr "[[EXIF]]EXIF"
 
 #. type: Plain text
 #: glossary.en.adoc:55
 msgid "Exchangeable Image File Format. A format for storing metadata about a <<media-file,media file>> (e.g. creation date and time, format, resolution, shutter speed, exposure level, camera model), typically stored as part of the media file. {media-exifData} in Camtrap DP."
-msgstr ""
+msgstr "交換可能な静止画ファイル形式。<<media-file,メディアファイル>>に関するメタデータ（例：作成日時、形式、解像度、シャッタースピード、露出レベル、カメラモデル）を保存するための形式で、通常はメディアファイルの一部として保存されます。Camtrap DPでは、{media-exifData}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:56
 #, no-wrap
 msgid "[[FAIR]]FAIR"
-msgstr ""
+msgstr "[[FAIR]]FAIR"
 
 #. type: Plain text
 #: glossary.en.adoc:57
 msgid "FAIR (meta)data are (meta)data that meet the principles of findability, accessibility, interoperability and reusability. The FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. See citenp:[wilkinson-2016]."
-msgstr ""
+msgstr "FAIR（メタ）データは、検索可能性、アクセス可能性、相互運用性、および再利用性の原則を満たす（メタ）データです。FAIR原則は、個人による再利用をサポートするだけでなく、機械がデータを自動的に検索して使用する性能を向上させることに特に重点を置いています。citenp:[wilkinson-2016]を参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:58
 #, no-wrap
 msgid "[[feature-type]]feature type"
-msgstr ""
+msgstr "[[feature-type]]特徴タイプ"
 
 #. type: Plain text
 #: glossary.en.adoc:59
 msgid "Categorical description of a particular physical feature targeted during the deployment, such as burrow, nest site, or water source. {deployments-featureType} in Camtrap DP."
-msgstr ""
+msgstr "設置において対象とする、特定の物理的特徴のカテゴリによる説明。例えば、巣穴、巣の場所、水源。Camtrap DPでは、{deployments-featureType}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:60
 #, no-wrap
 msgid "[[file-path]]file path"
-msgstr ""
+msgstr "[[file-path]]ファイルパス"
 
 #. type: Plain text
 #: glossary.en.adoc:61
 msgid "String describing the location of a file in a storage system (e.g. `data/deployments.csv`). When served over http/https, the domain name and file path constitute the file URL (e.g. `https://raw.githubusercontent.com/tdwg/camtrap-dp/main/example/deployments.csv`)."
-msgstr ""
+msgstr "ストレージ・システム内のファイルの場所を記述する文字列（例：`data/deployments.csv`）。http/httpsで提供される場合、ドメイン名とファイルパスがファイルURLを構成します（例：`https://raw.githubusercontent.com/tdwg/camtrap-dp/main/example/deployments.csv`）。"
 
 #. type: Labeled list
 #: glossary.en.adoc:62
 #, no-wrap
 msgid "[[GDPR]]GDPR"
-msgstr ""
+msgstr "[[GDPR]]GDPR"
 
 #. type: Plain text
 #: glossary.en.adoc:63
 msgid "General Data Protection Regulation. A https://gdpr-info.eu/[European Union regulation] on information privacy, designed to enhance individuals' control and rights over their personal information. See <<section-personal-data>>."
-msgstr ""
+msgstr "一般データ保護規則。個人情報に対する個人による制御と権利を強化するために設計された A https://gdpr-info.eu/[欧州連合の規則]。<<section-personal-data>>を参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:64
 #, no-wrap
 msgid "[[habitat-type]]habitat type"
-msgstr ""
+msgstr "[[habitat-type]]ハビタットタイプ"
 
 #. type: Plain text
 #: glossary.en.adoc:65
 msgid "Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat cite:[eunis-habitat,iucn-habitat] or vegetation type cite:[us-vegetation]. {deployments-habitat} in Camtrap DP."
-msgstr ""
+msgstr "<<location,場所>>の環境と植生に関するカテゴリによる説明。分類システムとして、ハビタット（European Environment Agency EEA 2021; IUCN 2019）または植生タイプ cite:[us-vegetation]が存在します。Camtrap DPでは、{deployments-habitat}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:66
 #, no-wrap
 msgid "[[image]]image"
-msgstr ""
+msgstr "[[image]]静止画"
 
 #. type: Plain text
 #: glossary.en.adoc:67
 msgid "Static <<media-file,media file>> recorded by a <<camera>>. Has no significant duration or audio."
-msgstr ""
+msgstr "<<camera,カメラ>>によって記録された<<media-file,静的メディアファイル>>。重要な期間や音声はありません。"
 
 #. type: Labeled list
 #: glossary.en.adoc:68
 #, no-wrap
 msgid "[[independence-interval]]independence interval"
-msgstr ""
+msgstr "[[independence-interval]]独立間隔"
 
 #. type: Plain text
 #: glossary.en.adoc:69
 msgid "Minimum duration between consecutive <<trigger,triggers>> to be considered belonging to separate <<sequence,sequences>>. This duration (e.g. 120 seconds) can be defined in a <<data-management-system>> to automatically group <<media>> into sequences. This is different from the <<quiet-period,quiet period>>, which is a camera setting."
-msgstr ""
+msgstr "連続する<<trigger,トリガー>>を別の<<sequence,シーケンス>>として扱うための最小時間間隔。この値（例：120秒）は、<<data-management-system,データ管理システム>>で定義され、<<media,メディア>>を自動的にシーケンスにグループ化するために使用されます。これは、カメラ設定である<<quiet-period,静止期間>>とは異なります。"
 
 #. type: Labeled list
 #: glossary.en.adoc:70
 #, no-wrap
 msgid "[[individual]]individual"
-msgstr ""
+msgstr "[[individual]]個体"
 
 #. type: Plain text
 #: glossary.en.adoc:71
 msgid "Distinct organism, typically an animal."
-msgstr ""
+msgstr "個別の生物、通常は動物。"
 
 #. type: Labeled list
 #: glossary.en.adoc:72
 #, no-wrap
 msgid "[[location]]location"
-msgstr ""
+msgstr "[[location]]場所"
 
 #. type: Plain text
 #: glossary.en.adoc:73
 msgid "Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` cite:[newkirk-2016], `station` cite:[berkel-2014,camera-trap-manager], `project station` cite:[wildcam-project] or `trap station` cite:[camelot]. Deployment location with a {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, and {deployments-coordinateUncertainty} in Camtrap DP. See also <<section-location>>."
-msgstr ""
+msgstr "<<deployment,設置された>> <<camera,カメラ>>が位置する物理的な場所。名前および/または識別子と特定の参照システム（例：WGS84の10進法の緯度と経度）で座標を記述できます。また、`camera location` cite:[newkirk-2016]、`station` cite:[berkel-2014,camera-trap-manager]、`project station` cite:[wildcam-project]、または`trap station` cite:[camelot]とも呼ばれます。Camtrap DPでは、{deployments-locationName}、{deployments-locationID}、{deployments-latitude}、{deployments-longitude}、および{deployments-coordinateUncertainty}に相当します。<<section-location>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:74
 #, no-wrap
 msgid "[[machine-learning]]machine learning"
-msgstr ""
+msgstr "[[machine-learning]]機械学習"
 
 #. type: Plain text
 #: glossary.en.adoc:75
 msgid "Computational technique that makes use of (training) data (e.g. https://lila.science/) and algorithms to imitate the way that humans learn, gradually improving accuracy."
-msgstr ""
+msgstr "（教師）データ（例：https://lila.science/）とアルゴリズムを使用して、人間が学習する方法を模倣し、徐々に精度を向上させる計算技術。"
 
 #. type: Labeled list
 #: glossary.en.adoc:76
 #, no-wrap
 msgid "[[media]]media"
-msgstr ""
+msgstr "[[media]]メディア"
 
 #. type: Plain text
 #: glossary.en.adoc:77
 msgid "<<media-file,Media files>> (plural) captured by a <<camera>>. Also referred to as `photos` cite:[newkirk-2016]. {media} in Camtrap DP."
-msgstr ""
+msgstr "<<camera,カメラ>>によって撮影された<<media-file,メディアファイル>>（複数形）。 `photos`とも呼ばれます cite:[newkirk-2016]。Camtrap DPでは、{media}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:78
 #, no-wrap
 msgid "[[media-file]]media file"
-msgstr ""
+msgstr "[[media-file]]メディアファイル"
 
 #. type: Plain text
 #: glossary.en.adoc:79
 msgid "A (audio)visual file captured by a <<camera>>. Can be an <<image>> or <<video>>. A media file typically has an identifier, file name, timestamp when it was created and associated metadata (e.g. <<EXIF>>). To access a media file, one needs to know its <<file-path,file path>> and have the required access rights. Media with {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} in Camtrap DP. See also <<section-media-files>>."
-msgstr ""
+msgstr "<<camera,カメラ>>によって録音された（音声）ビジュアルファイル。<<image,静止画>>または<<video,動画>>である可能性があります。メディアファイルには通常、識別子、ファイル名、作成時のタイムスタンプ、および関連するメタデータ（例：<<EXIF>>）が含まれます。メディアファイルにアクセスするには、その<<file-path,ファイルパス>>を知り、必要とされるアクセス権を持つ必要があります。Camtrap DPでは、{media-mediaID}、{media-timestamp}、{media-fileName}、{media-filePath}に相当します。<<section-media-files>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:80
