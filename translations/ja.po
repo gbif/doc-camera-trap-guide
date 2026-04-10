@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-08 07:06\n"
+"PO-Revision-Date: 2026-04-10 00:51\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -4033,7 +4033,7 @@ msgstr "用語集"
 #: glossary.en.adoc:4
 #, no-wrap
 msgid "[[activity]]activity"
-msgstr ""
+msgstr "[[activity]]activity"
 
 #. type: Plain text
 #: glossary.en.adoc:5
