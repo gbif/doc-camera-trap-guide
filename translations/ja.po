@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-13 01:52\n"
+"PO-Revision-Date: 2026-04-13 03:00\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -81,7 +81,7 @@ msgstr "翻訳"
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "Spanish: translated under the framework of the CESP Project \"Strengthening the publication of camera trap data through GBIF in the Latin American region\" (CESP2025-014)"
-msgstr ""
+msgstr "スペイン語訳：CESPプロジェクト「Strengthening the publication of camera trap data through GBIF in the Latin American region」 (CESP2025-014)の枠組みのもとで実施"
 
 #. type: Title ===
 #: colophon.en.adoc:24
@@ -4489,172 +4489,172 @@ msgstr "[[organization]]組織"
 #. type: Plain text
 #: glossary.en.adoc:87
 msgid "Entity comprising one or more people that share a particular purpose, such as a company, institution, association or partnership. Organizations can be directly associated with a <<project>> (e.g. as rights holder, publisher) or indirectly via the affiliation of the project <<participant,participants>>. An organization is a {package-contributors} in Camtrap DP."
-msgstr ""
+msgstr "特定の目的を共有する1人以上の人々で構成されるエンティティ。例えば、会社、機関、協会、またはパートナーシップ。組織は、<<project,プロジェクト>>に直接関連付けられることもあれば（例：権利保有者、出版者）、プロジェクト<<participant,参加者>>の所属を通じて間接的に関連付けられることもあります。Camtrap DPでは、{package-contributors}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:88
 #, no-wrap
 msgid "[[participant]]participant"
-msgstr ""
+msgstr "[[participant]]参加者"
 
 #. type: Plain text
 #: glossary.en.adoc:89
 msgid "Person associated with a <<project>>, performing out one or more <<role,roles>>. Participant information typically includes name and contact information and is subject to <<GDPR>>. <<organization,Organizations>> can also be considered participants. Also referred to as `contributor`, sometimes `user`. A participant is a {package-contributors} in Camtrap DP. See also <<section-participants-and-roles>>."
-msgstr ""
+msgstr "<<project,プロジェクト>>に関連する人物で、1つ以上の<<role,役割>>を果たします。参加者情報には通常、名前と連絡先の情報が含まれ、<<GDPR>>の対象となります。<<organization,組織>>も参加者と見なされることがあります。また、contributor、時にはuserとも呼ばれます。Camtrap DPでは、{package-contributors}に相当します。<<section-participants-and-roles>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:90
 #, no-wrap
 msgid "[[role]]role"
-msgstr ""
+msgstr "[[role]]役割"
 
 #. type: Plain text
 #: glossary.en.adoc:91
 msgid "Function carried out by a <<participant>> in a <<project>>, such as project lead, data manager or volunteer <<classification,classifying>> media. Participants can have multiple roles and roles are typically associated with different rights in a <<data-management-system,data management system>> (e.g. the right to invite new participants). Also referred to as `participant type`. {package-contributors-role} in Camtrap DP. See also <<section-participants-and-roles>>."
-msgstr ""
+msgstr "<<project,プロジェクト>>における<<participant,参加者>>の役割。例えば、プロジェクトリーダー、データマネージャー、メディアを<<classification,分類する>>ボランティア。参加者は複数の役割を持つことができ、役割は通常、<<data-management-system,データ管理システム内>>の異なる権利（例：新しい参加者を招待する権利）に関連付けられます。participant typeとも呼ばれます。Camtrap DPでは、{package-contributors-role}に相当します。<<section-participants-and-roles>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:92
 #, no-wrap
 msgid "[[project]]project"
-msgstr ""
+msgstr "[[project]]プロジェクト"
 
 #. type: Plain text
 #: glossary.en.adoc:93
 msgid "Scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. {package-project} in Camtrap DP, where a dataset is associated with one and only one project. See also <<section-project-metadata>>."
-msgstr ""
+msgstr "複数の<<participant,参加者>>による科学的調査で、定義された目的、方法論、および分類学的、空間的、時間的範囲を持ちます。カメラトラッププロジェクトの目的は通常、野生動物を研究し理解することです。また、`study`とも呼ばれます。Camtrap DPでは、{package-project}に相当し、データセットは1つのプロジェクトにのみ関連付けられます。<<section-project-metadata>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:94
 #, no-wrap
 msgid "[[quiet-period]]quiet period"
-msgstr ""
+msgstr "[[quiet-period]]静止期間（再検知無効期間）"
 
 #. type: Plain text
 #: glossary.en.adoc:95
 msgid "Predefined duration after a <<trigger>> when <<activity>> detected by the camera sensor is ignored. {deployments-cameraDelay} in Camtrap DP."
-msgstr ""
+msgstr "<<trigger,トリガー>>後にカメラセンサーが検出した<<activity,活動>>を無視するように事前に定義された期間。Camtrap DPでは、{deployments-cameraDelay}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:96
 #, no-wrap
 msgid "[[sampling-design]]sampling design"
-msgstr ""
+msgstr "[[sampling-design]]サンプリングデザイン"
 
 #. type: Plain text
 #: glossary.en.adoc:97
 msgid "Strategy for deploying cameras to facilitate a certain research purpose. Can be expressed as a categorical description (e.g. `simple random`, `systematic random`, `opportunistic`). {package-project-samplingDesign} in Camtrap DP."
-msgstr ""
+msgstr "特定の研究目的を促進するためのカメラ設置戦略。カテゴリによる説明で表現できる（例：`simple random`、`systematic random`、`opportunistic`）。Camtrap DPでは、{package-project-samplingDesign}に対応します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:98
 #, no-wrap
 msgid "[[sensitivity]]sensitivity"
-msgstr ""
+msgstr "[[sensitivity]]感度"
 
 #. type: Plain text
 #: glossary.en.adoc:99
 msgid "<<trigger>> sensitivity setting used on a camera sensor."
-msgstr ""
+msgstr "カメラセンサーで使用される<<trigger,トリガー>>感度設定。"
 
 #. type: Labeled list
 #: glossary.en.adoc:100
 #, no-wrap
 msgid "[[sensor]]sensor"
-msgstr ""
+msgstr "[[sensor]]センサー"
 
 #. type: Plain text
 #: glossary.en.adoc:101
 msgid "Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli. Modern camera traps typically use an integrated passive infrared (PIR) sensor that is designed to detect <<activity>> based on a combination of heat and motion."
-msgstr ""
+msgstr "環境の変化（例：動き、熱、光、音、その他の刺激）を検出するデバイス。現代のカメラトラップは通常、熱と動きの組み合わせに基づいて<<activity,活動>>を検出するように設計された人感赤外線（PIR）センサーを使用します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:102
 #, no-wrap
 msgid "[[sequence]]sequence"
-msgstr ""
+msgstr "[[sequence]]シークエンス"
 
 #. type: Plain text
 #: glossary.en.adoc:103
 msgid "Series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of an <<event>>. Also referred to as `series` cite:[wildtrax]."
-msgstr ""
+msgstr "設定された<<independence-interval,独立間隔>>よりも短い時間間隔で急速に連続撮影された<<media-file,メディアファイル>>のシリーズで、<<event,イベント>>のアニメーション記録を形成します。また、`series`とも呼ばれます cite:[wildtrax]。"
 
 #. type: Labeled list
 #: glossary.en.adoc:104
 #, no-wrap
 msgid "[[setup]]setup"
-msgstr ""
+msgstr "[[setup]]セットアップ"
 
 #. type: Plain text
 #: glossary.en.adoc:105
 msgid "The act of deploying a <<camera>> in the field. Involves <<alignment>>, defining the camera settings and securing the camera to ensure optimal data captures. {observations-cameraSetupType} in Camtrap DP."
-msgstr ""
+msgstr "フィールドで<<camera,カメラ>>を設置する行為。<<alignment,アライメント>>、カメラ設定の定義、および最適なデータ撮影記録を確保するためのカメラの固定が含まれます。Camtrap DPでは、{observations-cameraSetupType}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:106
 #, no-wrap
 msgid "[[site]]site"
-msgstr ""
+msgstr "[[site]]サイト"
 
 #. type: Plain text
 #: glossary.en.adoc:107
 msgid "Geographic area containing multiple <<location,locations>>."
-msgstr ""
+msgstr "複数の<<location,場所>>を含む地理的エリア。"
 
 #. type: Labeled list
 #: glossary.en.adoc:108
 #, no-wrap
 msgid "[[species-recognition]]species recognition"
-msgstr ""
+msgstr "[[species-recognition]]種の判別"
 
 #. type: Plain text
 #: glossary.en.adoc:109
 msgid "Automated identification and <<classification>> of different animal species based on visual or auditory data captured by camera traps."
-msgstr ""
+msgstr "カメラトラップによって撮影（記録）された視覚的または聴覚的データに基づいて、異なる動物種を自動的に識別および<<classification,分類>>すること。"
 
 #. type: Labeled list
 #: glossary.en.adoc:110
 #, no-wrap
 msgid "[[subproject]]subproject"
-msgstr ""
+msgstr "[[subproject]]サブプロジェクト"
 
 #. type: Plain text
 #: glossary.en.adoc:111
 msgid "Type of <<deployment-group,deployment group>> used to subdivide very large projects into more manageable units."
-msgstr ""
+msgstr "非常に大規模なプロジェクトをより管理しやすい単位に細分化するための<<deployment-group,設置グループ>>の一種。"
 
 #. type: Labeled list
 #: glossary.en.adoc:112
 #, no-wrap
 msgid "[[trigger]]trigger"
-msgstr ""
+msgstr "[[trigger]]トリガー"
 
 #. type: Plain text
 #: glossary.en.adoc:113
 msgid "<<sensor,Sensor>> condition that prompts a <<camera>> to activate and capture <<media>>. Also used to indicate the series of consecutive <<media-file,media files>> resulting from that trigger. One or more triggers form a <<sequence>>. Also referred to as `burst`."
-msgstr ""
+msgstr "<<camera,カメラ>>を起動して<<media,メディア>>を撮影する際の<<sensor,センサー>>条件。また、そのトリガーにより生じた連続する<<media-file,メディアファイル>>のシリーズを示すためにも使用されます。1つ以上のトリガーが<<sequence,シーケンス>>を形成します。また、`burst`とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:114
 #, no-wrap
 msgid "[[UUID]]UUID"
-msgstr ""
+msgstr "[[UUID]]UUID"
 
 #. type: Plain text
 #: glossary.en.adoc:115
 msgid "Universally Unique Identifier (UUID). A type of globally unique identifier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`."
-msgstr ""
+msgstr "ユニバーサル固有識別子（UUID）。中央登録機関なしで生成できるグローバルに一意の識別子の一種。例：`6d65f3e4-4770-407b-b2bf-878983bf9872`。"
 
 #. type: Labeled list
 #: glossary.en.adoc:116
 #, no-wrap
 msgid "[[video]]video"
-msgstr ""
+msgstr "[[video]]動画"
 
 #. type: Plain text
 #: glossary.en.adoc:117
 msgid "Moving <<media-file,media file>> recorded by a <<camera>>. Has a specific duration and can include audio."
-msgstr ""
+msgstr "<<camera,カメラ>>によって記録された動く<<media-file,メディアファイル>>。特定の期間があり、音声を含むことができます。"
 
 #. type: Title ==
 #: bibliography.en.adoc:2
