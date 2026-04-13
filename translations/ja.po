@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-03-12 12:37+0000\n"
-"PO-Revision-Date: 2026-04-10 07:16\n"
+"PO-Revision-Date: 2026-04-13 01:52\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -4456,35 +4456,35 @@ msgstr "[[media-type]]メディアタイプ"
 #. type: Plain text
 #: glossary.en.adoc:81
 msgid "Standardized expression of a file format (e.g. `image/jpeg` for an <<image>>). Formerly known as MIME type. {media-fileMediatype} in Camtrap DP."
-msgstr ""
+msgstr "ファイル形式の標準化された表現（例：<<image,静止画>>の場合は`image/jpeg` ）。以前はMIMEタイプとして知られていました。Camtrap DPでは、{media-fileMediatype}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:82
 #, no-wrap
 msgid "[[observation]]observation"
-msgstr ""
+msgstr "[[observation]]観察"
 
 #. type: Plain text
 #: glossary.en.adoc:83
 msgid "Result of a <<classification>>, i.e. a record of what can be seen or heard on <<media-file,media-files>>. Has an <<observation-type,observation type>> to differentiate between animal and other observations. {observations} in Camtrap DP. See also <<section-observations>>."
-msgstr ""
+msgstr "<<classification,分類>>の結果、すなわち、<<media-file,メディアファイル>>で見えるまたは聞こえるものの記録。動物の観察とその他の観察を区別するための<<observation-type,観察タイプ>>があります。Camtrap DPでは、{observations}に相当します。<<section-observations>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:84
 #, no-wrap
 msgid "[[observation-type]]observation type"
-msgstr ""
+msgstr "[[observation-type]]観察タイプ"
 
 #. type: Plain text
 #: glossary.en.adoc:85
 msgid "Categorical description of the type of <<observation>>. Recorded as part of the <<classification>>, allowing to differentiate between <<blank,blanks>>, observations of humans or vehicles and animal observations. {observations-observationType} in Camtrap DP."
-msgstr ""
+msgstr "<<observation,観察>>タイプのカテゴリによる説明。<<classification,分類>>の一部として記録され、<<blank,ブランク>>、人間または車両の観察、および動物の観察を区別することができます。Camtrap DPでは、{observations-observationType}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:86
 #, no-wrap
 msgid "[[organization]]organization"
-msgstr ""
+msgstr "[[organization]]組織"
 
 #. type: Plain text
 #: glossary.en.adoc:87
