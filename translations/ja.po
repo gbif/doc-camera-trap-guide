@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 10:44\n"
+"PO-Revision-Date: 2026-04-14 10:51\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -4264,7 +4264,7 @@ msgstr "[[darwin-core-archive]]Darwin Core Archive"
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Standardized and widely supported <<data-exchange-format,data exchange format>> for biodiversity data, maintained by Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-darwin-core-archive>> and the https://dwc.tdwg.org/text/[Darwin Core text guide]."
-msgstr "標準化され、広くサポートされている、生物多様性データのための<<data-exchange-format,データ交換フォーマット>>で、Biodiversity Information Standards（https://www.tdwg.org[TDWG]）によって維持管理されています。<<section-darwin-core-archive>>およびhttps://dwc.tdwg.org/text/[Darwin Coreテキストガイド] [https://dwc.tdwg.org/text/] も参照してください。"
+msgstr "標準化され、広くサポートされている、生物多様性データのための<<data-exchange-format,データ交換フォーマット>>で、Biodiversity Information Standards（link:++https://www.tdwg.org++[TDWG]）によって維持管理されています。<<section-darwin-core-archive>>および https://dwc.tdwg.org/text/[Darwin Coreテキストガイド]も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:44
