@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 07:49\n"
+"PO-Revision-Date: 2026-04-14 08:29\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -444,7 +444,7 @@ msgstr "カメラトラップデータとは何か"
 #. type: Plain text
 #: 300.en.adoc:16
 msgid "Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. But to be able to use these for research they need to be documented with additional information. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved."
-msgstr "直感的に、カメラトラップデータは<<camera,カメラ>>によって撮影された<<media,メディア>>ファイルと関連付けられます。しかし、これらを研究に使用するためには、追加情報と共に文書化する必要があります。観察された種を知るためにメディアファイルを<<classification, 分類>>する必要があります。いつ、どこで、その種がどれくらい観察されやすいかを知るために、カメラの<<deployment,設置>>、期間、<<location,場所>>、<<alignment,アライメント>>、サンプリング方法に関する情報が必要です。最後に、研究の範囲や携わった人物を知るため、<<project,プロジェクト／研究全体>>の情報が必要です。 "
+msgstr "直感的に、カメラトラップデータは<<camera,カメラ>>によって撮影された<<media,メディア>>ファイルと関連付けられます。しかし、これらを研究に使用するためには、追加情報と共に文書化する必要があります。観察された種を知るためにメディアファイルを<<classification, 分類>>する必要があります。いつ、どこで、その種がどれくらい観察されやすいかを知るために、カメラの<<deployment,設置>>、期間、<<location,場所>>、<<alignment,アライメント>>、サンプリング方法に関する情報が必要です。最後に、研究の範囲や携わった人物を知るため、<<project,プロジェクト／研究全体>>の情報が必要です。"
 
 #. type: Plain text
 #: 300.en.adoc:18
@@ -455,19 +455,19 @@ msgstr "まとめると、カメラトラップデータには以下の4つの�
 #: 300.en.adoc:20
 #, no-wrap
 msgid "**Project metadata:** information about the camera trap project/study as a whole\n"
-msgstr "**プロジェクトメタデータ：** カメラトラッププロジェクト／研究全体に関する情報"
+msgstr "**プロジェクトメタデータ：** カメラトラッププロジェクト／研究全体に関する情報\n"
 
 #. type: Plain text
 #: 300.en.adoc:21
 #, no-wrap
 msgid "**Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata\n"
-msgstr "**メディアファイル：** <<camera,カメラ>>によって撮影された静止画、動画、音声ファイル、およびそれらの<<EXIF>>メタデータ"
+msgstr "**メディアファイル：** <<camera,カメラ>>によって撮影された静止画、動画、音声ファイル、およびそれらの<<EXIF>>メタデータ\n"
 
 #. type: Plain text
 #: 300.en.adoc:22
 #, no-wrap
 msgid "**Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.\n"
-msgstr "**設置：** カメラの<<location,場所>>と<<alignment,アライメント>>、サンプリング期間、および <<covariates,共変量>>に関する情報。通常、カメラによって自動的に登録されることはありません。 "
+msgstr "**設置：** カメラの<<location,場所>>と<<alignment,アライメント>>、サンプリング期間、および <<covariates,共変量>>に関する情報。通常、カメラによって自動的に登録されることはありません。\n"
 
 #. type: Plain text
 #: 300.en.adoc:23
@@ -2100,7 +2100,7 @@ msgstr "Agouti cite:[agouti]（https://agouti.eu）は、カメラトラップ�
 #. type: Plain text
 #: 300.en.adoc:836
 msgid "Classification is event-based, but animal positions can be recorded at media level, allowing to record the necessary data for distance analyses cite:[howe-2017] and random encounter modelling cite:[rowcliffe-2011]. AI classification is possible, using a dedicated species classification model that is updated regularly. Media containing humans are always hidden from the public. Data are stored on university infrastructure, which also offers long-term archival and hot-linking to media. Project metadata can be made available via a public portal. Data can be exported as <<camtrap-dp,Camtrap DP>>."
-msgstr "分類はイベントベースですが、動物の位置はメディアレベルで記録できるため、距離分析 cite:[howe-2017]やランダムエンカウンターモデリング  cite:[rowcliffe-2011]に必要なデータを記録できます。定期的に更新される専用の種分類モデルを利用することで、AI分類が可能です。人間を含むメディアは常に非公開になります。データは大学の基盤に保存されるため、長期アーカイブとメディアへのホットリンクも提供可能です。プロジェクトのメタデータは公共ポータルを通じて公開することができます。データは<<camtrap-dp,Camtrap DP>>形式でエクスポートできます。"
+msgstr "分類はイベントベースですが、動物の位置はメディアレベルで記録できるため、距離分析 cite:[howe-2017]やランダムエンカウンターモデリング cite:[rowcliffe-2011]に必要なデータを記録できます。定期的に更新される専用の種分類モデルを利用することで、AI分類が可能です。人間を含むメディアは常に非公開になります。データは大学の基盤に保存されるため、長期アーカイブとメディアへのホットリンクも提供可能です。プロジェクトのメタデータは公共ポータルを通じて公開することができます。データは<<camtrap-dp,Camtrap DP>>形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:838
@@ -2148,7 +2148,7 @@ msgstr "Wildlife Insights"
 #. type: Plain text
 #: 300.en.adoc:857
 msgid "Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS cite:[ctms]."
-msgstr "Wildlife Insights  cite:[wildlife-insights]（https://www.wildlifeinsights.org）は、カメラトラップデータを管理するためのオンラインシステムです。アメリカ合衆国に拠点を置くConservation International、Google、およびその他のパートナーによって維持されています。Wildlife Insightsは主にアメリカ大陸のプロジェクトで使用されており、段階的なサブスクリプションモデル（無料プランを含む）を採用しています。アップロードされたメディアは、Googleが開発した専用の種分類モデルを使用して、AIによってメディアレベルで自動的に分類されます。人間を含むメディアは常に非公開になります。さらに、複数のメディアを一度に分類するオプションもあります。データはクラウドに保存され、Wildlife InsightsによってAIの訓練に使用されることがあり、最大48か月のエンバーゴ期間後に公開されます。プロジェクトのメタデータは公共ポータルを通じて常に利用可能です。データはCTMS cite:[ctms]に基づき、カスタム形式でエクスポートできます。"
+msgstr "Wildlife Insights cite:[wildlife-insights]（https://www.wildlifeinsights.org）は、カメラトラップデータを管理するためのオンラインシステムです。アメリカ合衆国に拠点を置くConservation International、Google、およびその他のパートナーによって維持されています。Wildlife Insightsは主にアメリカ大陸のプロジェクトで使用されており、段階的なサブスクリプションモデル（無料プランを含む）を採用しています。アップロードされたメディアは、Googleが開発した専用の種分類モデルを使用して、AIによってメディアレベルで自動的に分類されます。人間を含むメディアは常に非公開になります。さらに、複数のメディアを一度に分類するオプションもあります。データはクラウドに保存され、Wildlife InsightsによってAIの訓練に使用されることがあり、最大48か月のエンバーゴ期間後に公開されます。プロジェクトのメタデータは公共ポータルを通じて常に利用可能です。データはCTMS cite:[ctms]に基づき、カスタム形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:859
@@ -2393,7 +2393,7 @@ msgstr "安定した一意な識別子"
 #. type: Plain text
 #: 400.en.adoc:24
 msgid "Terms like {deployments-deploymentID} or term:dwc[dwc:occurrenceID] expect an identifier that is:"
-msgstr " {deployments-deploymentID}  や  term:dwc[dwc:occurrenceID] のような用語は、以下のような識別子であることが求められます："
+msgstr "{deployments-deploymentID} や term:dwc[dwc:occurrenceID] のような用語は、以下のような識別子であることが求められます："
 
 #. type: Plain text
 #: 400.en.adoc:26
@@ -2413,7 +2413,7 @@ msgstr "推奨事項として、グローバルに**一意**である。すな�
 #. type: Plain text
 #: 400.en.adoc:30
 msgid "If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. These identifiers will be unique, most likely stable, and sometimes globally unique (e.g. a <<UUID,UUID>>). They also allow users (with access) to look up the record in the data management system. We advice against appending elements to the identifier to make it globally unique, since this makes it more prone to change. Since datasets can be uniquely identified (e.g. with a DOI), it is sufficient if the identifier is unique within the dataset."
-msgstr "できれば、<<data-management-system,データ管理システム>>によって割り当てられた識別子をそのまま使用することを推奨します。これらの識別子は一意であり、ほとんどの場合安定しており、時にはグローバルに一意です（例：<<UUID,UUID>>）。また、（アクセス権を持つ）ユーザーがデータ管理システムでレコードを検索することもできます。要素を追加してグルーバルに一意な識別子を作成することは推奨しません。なぜなら、変更される可能性が高いからです。データセットは一意に識別できるため（例：DOI）、識別子がデータセット内で一意であれば十分です。). "
+msgstr "できれば、<<data-management-system,データ管理システム>>によって割り当てられた識別子をそのまま使用することを推奨します。これらの識別子は一意であり、ほとんどの場合安定しており、時にはグローバルに一意です（例：<<UUID,UUID>>）。また、（アクセス権を持つ）ユーザーがデータ管理システムでレコードを検索することもできます。要素を追加してグルーバルに一意な識別子を作成することは推奨しません。なぜなら、変更される可能性が高いからです。データセットは一意に識別できるため（例：DOI）、識別子がデータセット内で一意であれば十分です。"
 
 #. type: Title ====
 #: 400.en.adoc:32
@@ -2578,7 +2578,7 @@ msgstr "カメラトラップデータを公開するために、<<camtrap-dp,Ca
 #. type: Plain text
 #: 400.en.adoc:118
 msgid "See the https://camtrap-dp.tdwg.org[Camtrap DP website] for term definitions, recommendations and examples."
-msgstr "用語の定義、推奨事項、および例については、https://camtrap-dp.tdwg.org[Camtrap DPのウェブサイト]  を参照してください。"
+msgstr "用語の定義、推奨事項、および例については、https://camtrap-dp.tdwg.org[Camtrap DPのウェブサイト] を参照してください。"
 
 #. type: delimited block =
 #: 400.en.adoc:122
@@ -2616,7 +2616,7 @@ msgstr "残念ながら、<<darwin-core-archive,Darwin Core Archive>>のスタ�
 #: 400.en.adoc:137
 #, no-wrap
 msgid "{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "カメラトラップデータを含む{event-core}イベントコア。3種類のイベントが含まれる：1つの<<deployment,設置>>（期間は日単位）、1つの<<sequence,シーケンス,シーケンス>> （期間は秒単位）、および2つのメディアベースのイベント（単一のタイムスタンプ）。全てのイベントについて位置情報が同じであることに注意。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]。 "
+msgstr "カメラトラップデータを含む{event-core}イベントコア。3種類のイベントが含まれる：1つの<<deployment,設置>>（期間は日単位）、1つの<<sequence,シーケンス,シーケンス>> （期間は秒単位）、および2つのメディアベースのイベント（単一のタイムスタンプ）。全てのイベントについて位置情報が同じであることに注意。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]。"
 
 #. type: Table
 #: 400.en.adoc:171
