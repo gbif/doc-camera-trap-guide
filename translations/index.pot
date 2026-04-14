@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-12 12:37+0000\n"
+"POT-Creation-Date: 2026-04-14 07:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,14 +95,24 @@ msgid ""
 "region\" (CESP2025-014)"
 msgstr ""
 
+#. type: Plain text
+#: colophon.en.adoc:25
+msgid ""
+"Japanese: translated by https://orcid.org/0009-0004-0192-3904[Kumiko Totsu], "
+"https://orcid.org/0000-0002-9563-457X[Keita Fukasawa] and "
+"https://orcid.org/0000-0001-6935-7233[Kana Terayama] from the National "
+"Institute for Environmental Studies, Japan, in collaboration with the Japan "
+"Initiative for Biodiversity Information (JBIF)."
+msgstr ""
+
 #. type: Title ===
-#: colophon.en.adoc:24
+#: colophon.en.adoc:26
 #, no-wrap
 msgid "Licence"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:27
+#: colophon.en.adoc:29
 msgid ""
 "The document _Best Practices for Managing and Publishing Camera Trap Data_ "
 "is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative "
@@ -110,35 +120,35 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:28
+#: colophon.en.adoc:30
 #, no-wrap
 msgid "Persistent URI"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:31
+#: colophon.en.adoc:33
 msgid "https://doi.org/10.35035/doc-0qzp-2x37"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:32
+#: colophon.en.adoc:34
 #, no-wrap
 msgid "Document control"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:35
+#: colophon.en.adoc:37
 msgid "v1.0, December 2023"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:36
+#: colophon.en.adoc:38
 #, no-wrap
 msgid "Abstract"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:39
+#: colophon.en.adoc:41
 msgid ""
 "Camera traps have emerged as important tools for monitoring the state of "
 "biodiversity and natural ecosystems. The proliferation of data from such "
@@ -150,7 +160,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:40 100.en.adoc:36 200.en.adoc:97 300.en.adoc:969
+#: colophon.en.adoc:42 100.en.adoc:36 200.en.adoc:97 300.en.adoc:969
 #: 400.en.adoc:884 afterword.en.adoc:6 glossary.en.adoc:118
 #: bibliography.en.adoc:6
 msgid "<<<"
