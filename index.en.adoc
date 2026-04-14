@@ -8,6 +8,8 @@
 :numbered:
 :revnumber: 1.0
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+ifdef::git-metadata-tag[:revnumber: {git-metadata-tag}]
+ifndef::git-metadata-tag[:revnumber: {git-metadata-branch}-{git-metadata-sha-short}]
 :title-page-background-image: image:img/web/camtrap-guide-cover.png[position=top center,fit=none,pdfwidth=85%]
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 :xrefstyle: short
