@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 07:49\n"
+"PO-Revision-Date: 2026-04-14 08:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -463,19 +463,19 @@ msgstr "**Metadatos del proyecto:** información sobre el proyecto/estudio cómo
 #: 300.en.adoc:21
 #, no-wrap
 msgid "**Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata\n"
-msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cameras>>, incluyendo sus metadatos <<EXIF>>"
+msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cameras>>, incluyendo sus metadatos <<EXIF>>\n"
 
 #. type: Plain text
 #: 300.en.adoc:22
 #, no-wrap
 msgid "**Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.\n"
-msgstr "**Despliegues:** información sobre la <<location>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara."
+msgstr "**Despliegues:** información sobre la <<location>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara.\n"
 
 #. type: Plain text
 #: 300.en.adoc:23
 #, no-wrap
 msgid "**Observations:** information regarding what can be seen or heard on the media files (i.e. objects of interest), such as animals, humans or vehicles. The aim is typically to record what animal species were observed, optionally including information on their group size, life stage, sex and behaviour.\n"
-msgstr "**Observaciones:** información sobre lo que se puede ver u oír en los archivos multimedia (es decir, objetos de interés), como animales, seres humanos o vehículos. El objetivo normalmente es registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento."
+msgstr "**Observaciones:** información sobre lo que se puede ver u oír en los archivos multimedia (es decir, objetos de interés), como animales, seres humanos o vehículos. El objetivo normalmente es registrar qué especies animales fueron observadas, incluyendo opcionalmente información sobre el tamaño de su grupo, la etapa de vida, el sexo y el comportamiento.\n"
 
 #. type: Plain text
 #: 300.en.adoc:25
@@ -1613,7 +1613,7 @@ msgstr "Modelo de cámara, ajustes y alineación"
 #. type: Plain text
 #: 300.en.adoc:617
 msgid "Since a deployment relates to the placement of a <<camera>>, it is important to capture information regarding its model, settings and alignment. The model consists of the manufacturer and model name (e.g. `Reconyx-PC800`). Except for the <<quiet-period,quiet period>>, most camera settings are typically automatically recorded as part of the <<EXIF>> metadata. The <<detection-distance,detection distance>> can vary a lot depending on terrain and vegetation and is best measured in the field by having someone move in front of the camera at different distances. The <<alignment>> is the physical placement of a <<camera>> in 3D space. It consists of <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> and <<camera-heading,camera heading>>."
-msgstr "Dado que un despliegue se relaciona con la colocación de una <<camera>>, es importante registrar información sobre su modelo, configuración y alineación. El modelo consiste en nombre del fabricante y el nombre del modelo (p. ej., `Reconyx-PC800`). Excepto para el <<quiet-period,quiet period>>, la mayoría de los ajustes de la cámara normalmente se registran automáticamente como parte de los metadatos  <<EXIF>>. La <<detection-distance,detection distance>>  puede variar mucho dependiendo del terreno y la vegetación, y se mide mejor en el campo haciendo que alguien se mueva delante de la cámara a diferentes distancias. La <<alignment>>  es la colocación física de una <<camera>> en espacio 3D. Consiste en <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> y <<camera-heading,camera heading>>."
+msgstr "Dado que un despliegue se relaciona con la colocación de una <<camera>>, es importante registrar información sobre su modelo, configuración y alineación. El modelo consiste en nombre del fabricante y el nombre del modelo (p. ej., `Reconyx-PC800`). Excepto para el <<quiet-period,quiet period>>, la mayoría de los ajustes de la cámara normalmente se registran automáticamente como parte de los metadatos <<EXIF>>. La <<detection-distance,detection distance>> puede variar mucho dependiendo del terreno y la vegetación, y se mide mejor en el campo haciendo que alguien se mueva delante de la cámara a diferentes distancias. La <<alignment>> es la colocación física de una <<camera>> en espacio 3D. Consiste en <<camera-height,camera height>>, <<camera-depth,camera depth>>, <<camera-tilt,camera tilt>> y <<camera-heading,camera heading>>."
 
 #. type: Title ====
 #: 300.en.adoc:619
@@ -2135,7 +2135,7 @@ msgstr "TRAPPER"
 #. type: Plain text
 #: 300.en.adoc:850
 msgid "TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. It is maintained by the Open Science Conservation Fund, based in Poland. TRAPPER is mainly used by European projects and is free to use. The software is open source and requires installation and hosting. Classification is media-based with the option to classify multiple media at once. AI classification is possible, using existing species classification models. Data can be exported as <<camtrap-dp,Camtrap DP>>."
-msgstr "TRAPPER  cite:[trapper] (https://os-conservation.org/projects/trapper) es un sistema en línea para gestionar los datos de las cámara trampa. Es mantenido por el Open Science Conservation Fund, radicado en Polonia. TRAPPER es utilizado principalmente por proyectos europeos y es de uso gratuito. El software es de código abierto y requiere instalación y alojamiento. La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación por IA es posible, utilizando modelos de clasificación de especies existentes. Los datos pueden ser exportados como <<camtrap-dp,Camtrap DP>>."
+msgstr "TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) es un sistema en línea para gestionar los datos de las cámara trampa. Es mantenido por el Open Science Conservation Fund, radicado en Polonia. TRAPPER es utilizado principalmente por proyectos europeos y es de uso gratuito. El software es de código abierto y requiere instalación y alojamiento. La clasificación es basada en archivos multimedia con la opción de clasificar múltiples archivos a la vez. La clasificación por IA es posible, utilizando modelos de clasificación de especies existentes. Los datos pueden ser exportados como <<camtrap-dp,Camtrap DP>>."
 
 #. type: Plain text
 #: 300.en.adoc:852
@@ -2623,7 +2623,7 @@ msgstr "Desafortunadamente también **nos impide expresar información sobre los
 #: 400.en.adoc:137
 #, no-wrap
 msgid "{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "{event-core} con datos de cámara trampa. Contiene tres tipos de eventos: un <<deployment>> (con una duración de días), una <<sequence>> (con una duración de segundos) y dos eventos basados en archivos  <<media>> (con una única marca de tiempo). Tenga en cuenta que la información de la ubicación es la misma para todos los eventos. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Fuente]."
+msgstr "{event-core} con datos de cámara trampa. Contiene tres tipos de eventos: un <<deployment>> (con una duración de días), una <<sequence>> (con una duración de segundos) y dos eventos basados en archivos <<media>> (con una única marca de tiempo). Tenga en cuenta que la información de la ubicación es la misma para todos los eventos. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Fuente]."
 
 #. type: Table
 #: 400.en.adoc:171
