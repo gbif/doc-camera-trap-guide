@@ -19,9 +19,13 @@ https://orcid.org/0000-0002-3129-6196[Tanja Milotic] and https://orcid.org/0000-
 
 === Translations
 
-Spanish: translated under the framework of the CESP Project "Strengthening the publication of camera trap data through GBIF in the Latin American region" (CESP2025-014)
+==== Spanish
 
-Japanese: translated by https://orcid.org/0009-0004-0192-3904[Kumiko Totsu], https://orcid.org/0000-0002-9563-457X[Keita Fukasawa] and https://orcid.org/0000-0001-6935-7233[Kana Terayama] from the National Institute for Environmental Studies, Japan, in collaboration with the Japan Initiative for Biodiversity Information (JBIF).
+Translated under the framework of the CESP Project "Strengthening the publication of camera trap data through GBIF in the Latin American region" (CESP2025-014)
+
+==== Japanese
+
+Translated by https://orcid.org/0009-0004-0192-3904[Kumiko Totsu], https://orcid.org/0000-0002-9563-457X[Keita Fukasawa] and https://orcid.org/0000-0001-6935-7233[Kana Terayama] from the National Institute for Environmental Studies, Japan, in collaboration with the Japan Initiative for Biodiversity Information (JBIF).
 
 === Licence
 
