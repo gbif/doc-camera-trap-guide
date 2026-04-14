@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 09:17\n"
+"PO-Revision-Date: 2026-04-14 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -98,7 +98,7 @@ msgstr "日本語"
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "Translated by https://orcid.org/0009-0004-0192-3904[Kumiko Totsu], https://orcid.org/0000-0002-9563-457X[Keita Fukasawa] and https://orcid.org/0000-0001-6935-7233[Kana Terayama] from the National Institute for Environmental Studies, Japan, in collaboration with the Japan Initiative for Biodiversity Information (JBIF)."
-msgstr "日本生物多様性情報イニシアチブ（JBIF）との協働のもと、https://orcid.org/0009-0004-0192-3904[戸津久美子,window=_blank]、https://orcid.org/0000-0002-9563-457X[深澤圭太,window=_blank]、https://orcid.org/0000-0001-6935-7233[寺山佳奈,window=_blank]（国立環境研究所）が翻訳。"
+msgstr "日本生物多様性情報イニシアチブ（JBIF）との協働のもと、link:++https://orcid.org/0009-0004-0192-3904++[戸津久美子]、link:++https://orcid.org/0000-0002-9563-457X++[深澤圭太]、link:++https://orcid.org/0000-0001-6935-7233[++寺山佳奈]（国立環境研究所）が翻訳。"
 
 #. type: Title ===
 #: colophon.en.adoc:30
