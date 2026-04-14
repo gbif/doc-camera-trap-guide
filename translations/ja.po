@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 12:24\n"
+"PO-Revision-Date: 2026-04-14 23:29\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3786,7 +3786,7 @@ msgstr "<<section-why-not-a-sampling-event-dataset,上述>>の通り、カメラ
 #. type: Plain text
 #: 400.en.adoc:753
 msgid "Note that the {ac-extension} can contain duplicates, an important difference with Camtrap DP's {media} where each file is only listed once. Repeated <<section-ac-occurrenceid,occurrenceID>> are the result of a single <<section-media-or-event-based-classification,event-based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated <<section-ac-identifier,identifiers>> are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media file `e68deaed` in <<table-ac-extension>>). The extension should however contain unique <<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>> combinations."
-msgstr "{ac-extension}には重複が含まれる可能性があることに注意してください。各ファイルが一度だけリストアップされるCamtrap DPのメディア [https://camtrap-dp.tdwg.org/data/#media] との重要な違いです。同じ<<section-ac-occurrenceid,occurrenceID>>が繰り返し表れるのは、単一の<<section-media-or-event-based-classification,イベントベース>> の観察が複数のメディアファイルに関連している結果です（例：<<table-ac-extension>>の観察`05230014` ）。同じ<<section-ac-identifier,identifiers>>が繰り返し表れるのは、一つのメディアファイルが複数の観察の情報源であることの結果です（例：<<table-ac-extension>>のメディアファイル`e68deaed` のように、同じ静止画に複数の種が観察される場合）。ただし、拡張ファイルの<<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>>の組み合わせは一意である必要があります。"
+msgstr "{ac-extension}には重複が含まれる可能性があることに注意してください。各ファイルが一度だけリストアップされるCamtrap DPの {media}との重要な違いです。同じ<<section-ac-occurrenceid,occurrenceID>>が繰り返し表れるのは、単一の<<section-media-or-event-based-classification,イベントベース>> の観察が複数のメディアファイルに関連している結果です（例：<<table-ac-extension>>の観察`05230014` ）。同じ<<section-ac-identifier,identifiers>>が繰り返し表れるのは、一つのメディアファイルが複数の観察の情報源であることの結果です（例：<<table-ac-extension>>のメディアファイル`e68deaed` のように、同じ静止画に複数の種が観察される場合）。ただし、拡張ファイルの<<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>>の組み合わせは一意である必要があります。"
 
 #. type: Block title
 #: 400.en.adoc:755
