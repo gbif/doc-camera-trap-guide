@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 10:51\n"
+"PO-Revision-Date: 2026-04-14 12:24\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -1174,7 +1174,7 @@ msgstr "タイムスタンプ"
 #. type: Plain text
 #: 300.en.adoc:394
 msgid "The date and time a media file was recorded is the most important aspect of its metadata. This information is used to assess when animals were observed and cannot be derived later (in contrast with e.g. <<location>>). Since this information is derived from the camera’s internal clock, it is critical to verify it is set correctly. We recommend setting the clock to https://en.wikipedia.org/wiki/Coordinated_Universal_Time[Coordinated Universal Time (UTC)] or local winter time. Disable automatic switching to summer time and record the used time zone as part of the <<deployment>>."
-msgstr "メディアファイルが記録された日付と時間は、そのメタデータの最も重要な側面です。この情報は動物が観察された時期を評価するために使用され、後で導き出すことはできません（例：<<location,場所>>とは対照的に）。この情報はカメラの内部時計から取得されるため、正しく設定されているか確認することが重要です。時計を https://en.wikipedia.org/wiki/CoordinatedUniversalTime [協定世界時 (UTC)] または現地の冬時間に設定することを推奨します。サマータイムへの自動切り替えを無効にし、使用したタイムゾーンを<<deployment,設置>>の一部として記録してください。"
+msgstr "メディアファイルが記録された日付と時間は、そのメタデータの最も重要な側面です。この情報は動物が観察された時期を評価するために使用され、後で導き出すことはできません（例：<<location,場所>>とは対照的に）。この情報はカメラの内部時計から取得されるため、正しく設定されているか確認することが重要です。時計を https://en.wikipedia.org/wiki/CoordinatedUniversalTime[協定世界時 (UTC)] または現地の冬時間に設定することを推奨します。サマータイムへの自動切り替えを無効にし、使用したタイムゾーンを<<deployment,設置>>の一部として記録してください。"
 
 #. type: Title ====
 #: 300.en.adoc:396
@@ -1400,7 +1400,7 @@ msgstr "略語は混乱のリスクを軽減するために避けてください
 #. type: Plain text
 #: 300.en.adoc:514
 msgid "Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values (see <<table-readme>>)."
-msgstr "単位やデータ型を含めないでください。これらの情報は別の場所（例：別のシート、READMEドキュメント、またはhttps://specs.frictionlessdata.io/table-schema/[Table Schema]）で、列の定義や制御値と一緒に説明してください（<<table-readme>>参照）。"
+msgstr "単位やデータ型を含めないでください。これらの情報は別の場所（例：別のシート、READMEドキュメント、または https://specs.frictionlessdata.io/table-schema/[Table Schema]）で、列の定義や制御値と一緒に説明してください（<<table-readme>>参照）。"
 
 #. type: delimited block -
 #: 300.en.adoc:521
@@ -1913,7 +1913,7 @@ msgstr "<<citizen-science,市民科学者>>は、科学コミュニティ外の�
 #. type: Plain text
 #: 300.en.adoc:751
 msgid "Most projects use established online platforms for crowdsourcing cite:[forston-2012,swanson-2015], (https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]), such as Zooniverse cite:[simpson-2014], MammalWeb cite:[bradley-2017], Digivol cite:[alony-2020] or DoeDat cite:[groom-2018]. These platforms give access to large, already existing volunteer bases, which is particularly important if classifications are needed within a short time frame. Note however that managing a citizen science project takes time and might be more beneficial for larger studies. In addition to uploading media to a platform, waiting for classifications, downloading consensus observations and dealing with non-consensus observations, you need to keep the community engaged and/or attract new members. It is also important to exclude <<section-sensitive-information,sensitive media>> from the process, such as media containing humans (to protect their privacy) and rare species. This will require some type of preprocessing, which is where artificial intelligence (AI) comes in cite:[weinstein-2018]."
-msgstr "ほとんどのプロジェクトは、クラウドソーシングのために確立されたオンラインプラットフォームを使用しています cite:[forston-2012,swanson-2015]、（https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see[Chimp&See]）、例えばZooniverse cite:[simpson-2014]、MammalWeb cite:[bradley-2017]、Digivol cite:[alony-2020]、またはDoeDat cite:[groom-2018]などです。これらのプラットフォームは、既存の大規模なボランティアベースにアクセスできるため、短期間で分類が必要な場合に特に重要です。ただし、市民科学プロジェクトの管理には時間がかかることから、大規模な研究の方が有益である可能性があります。メディアをプラットフォームにアップロードし、分類されるのを待ち、合意された観察結果をダウンロードし、合意されていない観察結果に対処するだけでなく、コミュニティの活動を維持し、新しいメンバーを惹きつける必要があります。また、人間（プライバシーを保護するため）や希少種が含まれるメディアのような、<<section-sensitive-information,機密性の高いメディア>>をその工程で除外することも重要です。何らかの前処理が必要となり、ここで人工知能（AI）が登場します cite:[weinstein-2018]。"
+msgstr "ほとんどのプロジェクトは、クラウドソーシングのために確立されたオンラインプラットフォームを使用しています cite:[forston-2012,swanson-2015]、（link:++https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see++[Chimp&See]）、例えばZooniverse cite:[simpson-2014]、MammalWeb cite:[bradley-2017]、Digivol cite:[alony-2020]、またはDoeDat cite:[groom-2018]などです。これらのプラットフォームは、既存の大規模なボランティアベースにアクセスできるため、短期間で分類が必要な場合に特に重要です。ただし、市民科学プロジェクトの管理には時間がかかることから、大規模な研究の方が有益である可能性があります。メディアをプラットフォームにアップロードし、分類されるのを待ち、合意された観察結果をダウンロードし、合意されていない観察結果に対処するだけでなく、コミュニティの活動を維持し、新しいメンバーを惹きつける必要があります。また、人間（プライバシーを保護するため）や希少種が含まれるメディアのような、<<section-sensitive-information,機密性の高いメディア>>をその工程で除外することも重要です。何らかの前処理が必要となり、ここで人工知能（AI）が登場します cite:[weinstein-2018]。"
 
 #. type: Title ====
 #: 300.en.adoc:753
@@ -2483,7 +2483,7 @@ msgstr "一般化のレベルの選択に関係なく、データセットのメ
 #: 400.en.adoc:63
 #, no-wrap
 msgid "How to express non-generalized vs generalized location information in Camtrap DP and Darwin Core. The generalized example assumes a sensitivity of https://docs.gbif.org/sensitive-species-best-practices/master/en/#cat4[Category 4]. The coordinate uncertainty of 187 meter is the sum of the GPS precision (30 m) and maximum uncertainty associated with coordinates that have a precision of 0.001 degree (157 m)."
-msgstr "Camtrap DPおよびDarwin Coreにおける非一般化および一般化された位置情報の表現方法。一般化された例は、機密情報の格付けのhttps://docs.gbif.org/sensitive-species-best-practices/master/en/#cat4[カテゴリ4]を想定しています。座標の不確実性を表す187メートルは、GPSの精度（30メートル）と、精度が0.001度の座標に関連する最大不確実性（157メートル）の合計です。"
+msgstr "Camtrap DPおよびDarwin Coreにおける非一般化および一般化された位置情報の表現方法。一般化された例は、機密情報の格付けの https://docs.gbif.org/sensitive-species-best-practices/master/en/#cat4[カテゴリ4]を想定しています。座標の不確実性を表す187メートルは、GPSの精度（30メートル）と、精度が0.001度の座標に関連する最大不確実性（157メートル）の合計です。"
 
 #. type: Table
 #: 400.en.adoc:105
@@ -2588,7 +2588,7 @@ msgstr "執筆時点では、GBIFはまだCamtrap DPの公開を本番環境で�
 #. type: Plain text
 #: 400.en.adoc:125
 msgid "Not all information in a published Camtrap DP is currently harvested by GBIF. The GBIF data model requires it to be transformed to Darwin Core before ingestion. This process is provided by the https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] function in the R software package camtraptor cite:[camtraptor]. This function implements the <<section-darwin-core-archive,recommendations>> suggested in this document. GBIF will be able to process more information from a published Camtrap DP once it has implemented a new data model cite:[gbif-2022]."
-msgstr "公開されたCamtrap DPの全ての情報が現在GBIFによって収集されるわけではないことに注意してください。GBIFのデータモデルでは、取り込み前にDarwin Coreに変換する必要があります。このプロセスは、Rソフトウェアパッケージcamtraptorのhttps://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] 関数によって提供されます cite:[camtraptor]。この関数は、この文書で推奨されている<<section-darwin-core-archive,推奨事項>>を実装しています。GBIFが新しいデータモデルを実装すると、公開されたCamtrap DPからより多くの情報を処理できるようになります cite:[gbif-2022]。"
+msgstr "公開されたCamtrap DPの全ての情報が現在GBIFによって収集されるわけではないことに注意してください。GBIFのデータモデルでは、取り込み前にDarwin Coreに変換する必要があります。このプロセスは、Rソフトウェアパッケージcamtraptorの https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] 関数によって提供されます cite:[camtraptor]。この関数は、この文書で推奨されている<<section-darwin-core-archive,推奨事項>>を実装しています。GBIFが新しいデータモデルを実装すると、公開されたCamtrap DPからより多くの情報を処理できるようになります cite:[gbif-2022]。"
 
 #. type: Title ===
 #: 400.en.adoc:127
@@ -2864,7 +2864,7 @@ msgstr "|occurrenceID\n"
 #: 400.en.adoc:277
 #, no-wrap
 msgid "Screenshot of an https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[event page] created by GBIF.org from information provided in an {occurrence-core} (based on row 3 in <<table-occurrence-core>>). Notice the event ID (a sequence) and parent event ID (a deployment)."
-msgstr "GBIF.orgが{occurrence-core}オカレンスコアに提供された情報から作成したhttps://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[イベントページ]のスクリーンショット （<<table-occurrence-core>>の3行目に基づく）。イベントID（シーケンス）と親イベントID（設置）に注目してほしい。"
+msgstr "GBIF.orgが{occurrence-core}オカレンスコアに提供された情報から作成した https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[イベントページ]のスクリーンショット （<<table-occurrence-core>>の3行目に基づく）。イベントID（シーケンス）と親イベントID（設置）に注目してほしい。"
 
 #. type: Target for macro image
 #: 400.en.adoc:279
@@ -3174,7 +3174,7 @@ msgstr "https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]"
 #. type: Plain text
 #: 400.en.adoc:470
 msgid "The licence under which the data record is shared. Very likely this will be the same licence as the one used for the dataset as a whole, but it is possible to deviate cite:[waller-2020]. To enable wide use, we recommend publishing data under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode`. In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `data` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
-msgstr "共有されるデータレコードのライセンス。データセット全体に使用されるライセンスと同じライセンスである可能性が高いですが、そうではない可能性もあります cite:[waller-2020]。広く活用されるため、データをhttps://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]の下で公開し、URLとして提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`。Camtrap DPでは、この用語はライセンスの`path`に相当し、 {package-licenses}の`data`のスコープがあります。ただし、レコード単位ではなく、データセット全体を指定します。"
+msgstr "共有されるデータレコードのライセンス。データセット全体に使用されるライセンスと同じライセンスである可能性が高いですが、そうではない可能性もあります cite:[waller-2020]。広く活用されるため、データを https://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]の下で公開し、URLとして提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`。Camtrap DPでは、この用語はライセンスの`path`に相当し、 {package-licenses}の`data`のスコープがあります。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:472
@@ -3931,7 +3931,7 @@ msgstr "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
 #. type: Plain text
 #: 400.en.adoc:841
 msgid "The licence under which the media file is shared. Note that this applies to file referenced in <<section-ac-accessuri,accessURI>>, not the data in the {ac-extension} (these fall under the dataset license). We recommend using the same license for all media files. To enable wide use, we recommend publishing media files under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] or https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International license] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode` or `https://creativecommons.org/licenses/by/4.0/legalcode` respectively. Do not use https://ac.tdwg.org/termlist/#dc_rights[**dc**:rights], because that term expects a literal value (the full-text copyright statement). In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `media` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
-msgstr "メディアファイルが共有されるライセンス。これは<<section-ac-accessuri,accessURI>>で参照されるファイルに適用され、{ac-extension}のデータには適用されません（データセットライセンスが適用されます）。全てのメディアファイルに同じライセンスを使用することを推奨します。広範な利用を可能にするために、メディアファイルをhttps://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]またはhttps://creativecommons.org/licenses/by/4.0/[クリエイティブ・コモンズ表示4.0国際ライセンス]の下で公開し、URLを提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`、または、`https://creativecommons.org/licenses/by/4.0/legalcode`。link:++https://ac.tdwg.org/termlist/#dc_rights++[**dc**:rights]は、文字列値（全文の著作権声明）を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{package-licenses}の`media`のスコープを持つライセンスの`path`に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
+msgstr "メディアファイルが共有されるライセンス。これは<<section-ac-accessuri,accessURI>>で参照されるファイルに適用され、{ac-extension}のデータには適用されません（データセットライセンスが適用されます）。全てのメディアファイルに同じライセンスを使用することを推奨します。広範な利用を可能にするために、メディアファイルを https://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]または https://creativecommons.org/licenses/by/4.0/[クリエイティブ・コモンズ表示4.0国際ライセンス]の下で公開し、URLを提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`、または、`https://creativecommons.org/licenses/by/4.0/legalcode`。link:++https://ac.tdwg.org/termlist/#dc_rights++[**dc**:rights]は、文字列値（全文の著作権声明）を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{package-licenses}の`media`のスコープを持つライセンスの`path`に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:843
@@ -4027,7 +4027,7 @@ msgstr "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
 #. type: Plain text
 #: 400.en.adoc:883
 msgid "The file format of the media file. We recommend providing the media type (MIME type) using the controlled values `image/jpeg`, `video/mp4` or `video/mpeg` of the https://ac.tdwg.org/format/[Audiovisual Core Controlled Vocabulary for Dublin Core]. Do not use https://ac.tdwg.org/termlist/#dcterms_format[**dcterms**:format], because that term expects a URL value. In Camtrap DP, this term corresponds with {media-fileMediatype}."
-msgstr "メディアファイルのファイル形式。https://ac.tdwg.org/format/[Dublin CoreのAudiovisual Core Controlled Vocabulary]の制御値である、`image/jpeg`、`video/mp4`、または `video/mpeg`を使用して、メディアタイプ（MIMEタイプ）を提供することを推奨します。link:++https://ac.tdwg.org/termlist/#dcterms_format++[**dcterms**:format]は 、URL値を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{media-fileMediatype}に相当します。"
+msgstr "メディアファイルのファイル形式。link:++https://ac.tdwg.org/format/++[Dublin CoreのAudiovisual Core Controlled Vocabulary]の制御値である、`image/jpeg`、`video/mp4`、または `video/mpeg`を使用して、メディアタイプ（MIMEタイプ）を提供することを推奨します。link:++https://ac.tdwg.org/termlist/#dcterms_format++[**dcterms**:format]は 、URL値を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{media-fileMediatype}に相当します。"
 
 #. type: Title ==
 #: afterword.en.adoc:2
@@ -4165,7 +4165,7 @@ msgstr "[[camtrap-dp]]Camtrap DP"
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Camera Trap Data Package. A community developed <<data-exchange-format,data exchange format>> for camera trap data, maintained under Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-camtrap-dp>>, citenp:[bubnicki-2023] and the https://camtrap-dp.tdwg.org[Camtrap DP website]."
-msgstr "カメラトラップデータパッケージ。コミュニティにより開発された、カメラトラップデータのための<<data-exchange-format,データ交換フォーマット>>で、Biodiversity Information Standards（https://www.tdwg.org[TDWG]）の下で維持されています。<<section-camtrap-dp>>、citenp:[bubnicki-2023]および https://camtrap-dp.tdwg.org[Camtrap DPウェブサイト]も参照してください。"
+msgstr "カメラトラップデータパッケージ。コミュニティにより開発された、カメラトラップデータのための<<data-exchange-format,データ交換フォーマット>>で、Biodiversity Information Standards（link:++https://www.tdwg.org++[TDWG]）の下で維持されています。<<section-camtrap-dp>>、citenp:[bubnicki-2023]および https://camtrap-dp.tdwg.org[Camtrap DPウェブサイト]も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:26
@@ -4440,7 +4440,7 @@ msgstr "[[machine-learning]]機械学習"
 #. type: Plain text
 #: glossary.en.adoc:75
 msgid "Computational technique that makes use of (training) data (e.g. https://lila.science/) and algorithms to imitate the way that humans learn, gradually improving accuracy."
-msgstr "（教師）データ（例：link:++https://lila.science/++）とアルゴリズムを使用して、人間が学習する方法を模倣し、徐々に精度を向上させる計算技術。"
+msgstr "（教師）データ（例：link:++https://lila.science/++[https://lila.science/]）とアルゴリズムを使用して、人間が学習する方法を模倣し、徐々に精度を向上させる計算技術。"
 
 #. type: Labeled list
 #: glossary.en.adoc:76
