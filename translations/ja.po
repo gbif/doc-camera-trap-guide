@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
-"POT-Creation-Date: 2026-04-14 07:22+0000\n"
-"PO-Revision-Date: 2026-04-14 07:28\n"
+"POT-Creation-Date: 2026-04-14 07:27+0000\n"
+"PO-Revision-Date: 2026-04-14 07:49\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -23,7 +23,7 @@ msgid "Best Practices for Managing and Publishing Camera Trap Data"
 msgstr "カメラトラップデータの管理および公開のベストプラクティス"
 
 #. type: Plain text
-#: index.en.adoc:132
+#: index.en.adoc:134
 msgid "languageLinks:combined[]"
 msgstr "languageLinks:combined[]"
 
@@ -82,23 +82,23 @@ msgstr "翻訳"
 #: colophon.en.adoc:22
 #, no-wrap
 msgid "Spanish"
-msgstr ""
+msgstr "スペイン語"
 
 #. type: Plain text
 #: colophon.en.adoc:25
 msgid "Translated under the framework of the CESP Project \"Strengthening the publication of camera trap data through GBIF in the Latin American region\" (CESP2025-014)"
-msgstr ""
+msgstr "CESPプロジェクト「Strengthening the publication of camera trap data through GBIF in the Latin American region」 (CESP2025-014)の枠組みのもとで翻訳されました。"
 
 #. type: Title ====
 #: colophon.en.adoc:26
 #, no-wrap
 msgid "Japanese"
-msgstr ""
+msgstr "日本語"
 
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "Translated by https://orcid.org/0009-0004-0192-3904[Kumiko Totsu], https://orcid.org/0000-0002-9563-457X[Keita Fukasawa] and https://orcid.org/0000-0001-6935-7233[Kana Terayama] from the National Institute for Environmental Studies, Japan, in collaboration with the Japan Initiative for Biodiversity Information (JBIF)."
-msgstr ""
+msgstr "日本生物多様性情報イニシアチブ（JBIF）との協働のもと、https://orcid.org/0009-0004-0192-3904[戸津久美子]、https://orcid.org/0000-0002-9563-457X[深澤圭太]、https://orcid.org/0000-0001-6935-7233[寺山佳奈]（国立環境研究所）が翻訳。"
 
 #. type: Title ===
 #: colophon.en.adoc:30
@@ -130,8 +130,8 @@ msgstr "⽂書のバージョン管理"
 
 #. type: Plain text
 #: colophon.en.adoc:41
-msgid "v1.0, December 2023"
-msgstr "v1.0、2023年12月"
+msgid "{revnumber}, {revdate}"
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:42
