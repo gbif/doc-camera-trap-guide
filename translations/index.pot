@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-14 07:22+0000\n"
+"POT-Creation-Date: 2026-04-14 07:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Best Practices for Managing and Publishing Camera Trap Data"
 msgstr ""
 
 #. type: Plain text
-#: index.en.adoc:132
+#: index.en.adoc:134
 msgid "languageLinks:combined[]"
 msgstr ""
 
@@ -150,7 +150,7 @@ msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:41
-msgid "v1.0, December 2023"
+msgid "{revnumber}, {revdate}"
 msgstr ""
 
 #. type: Title ===
