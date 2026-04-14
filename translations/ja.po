@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 09:36\n"
+"PO-Revision-Date: 2026-04-14 10:44\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -98,7 +98,7 @@ msgstr "日本語"
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "Translated by https://orcid.org/0009-0004-0192-3904[Kumiko Totsu], https://orcid.org/0000-0002-9563-457X[Keita Fukasawa] and https://orcid.org/0000-0001-6935-7233[Kana Terayama] from the National Institute for Environmental Studies, Japan, in collaboration with the Japan Initiative for Biodiversity Information (JBIF)."
-msgstr "日本生物多様性情報イニシアチブ（JBIF）との協働のもと、link:++https://orcid.org/0009-0004-0192-3904++[戸津久美子]、link:++https://orcid.org/0000-0002-9563-457X++[深澤圭太]、link:++https://orcid.org/0000-0001-6935-7233[++寺山佳奈]（国立環境研究所）が翻訳。"
+msgstr "日本生物多様性情報イニシアチブ（JBIF）との協働のもと、link:++https://orcid.org/0009-0004-0192-3904++[戸津久美子]、link:++https://orcid.org/0000-0002-9563-457X++[深澤圭太]、link:++https://orcid.org/0000-0001-6935-7233++[寺山佳奈]（国立環境研究所）が翻訳。"
 
 #. type: Title ===
 #: colophon.en.adoc:30
@@ -507,7 +507,7 @@ msgstr "プロジェクトのメタデータ"
 #. type: Plain text
 #: 300.en.adoc:34
 msgid "Project metadata document a camera trap project/study as a whole. Who was involved, what was the rationale, what sampling methods were used and what was the scope? Projects can vary a lot in size and are sometimes part of meta-studies or subdivided in subprojects to better manage their hundreds of thousands of deployments (e.g. https://www.snapshot-usa.org/[Snapshot USA]). Describe projects at a level that makes sense. Is it possible to identify a person that can make decisions or answer questions about the project? Is it easy to describe the methodology? If the answer to those questions is no, then it might be better to consider those separate projects. Also note that we strongly recommend publishing data at project level, i.e. one dataset for one project (see <<section-4>>)."
-msgstr "プロジェクトメタデータは、カメラトラッププロジェクト／研究全体を文書化します。誰が関わったのか、何が根拠であったのか、どのようなサンプリング方法が使用されたのか、そして研究範囲は何であったか？プロジェクトはさまざまな規模で実施され、時にはメタ研究の一部であったり、数十万もの設置をより適切に管理するためのサブプロジェクトに分割されていたりします（例：https://www.snapshot-usa.org/[Snapshot USA]）。意味が伝わるレベルで、プロジェクトを記述してください。プロジェクトに関する決定を下したり、質問に答えたりすることのできる人物は特定できますか？方法論を簡単に説明できますか？これらの質問に対する答えが「いいえ」の場合、それらを別々のプロジェクトと見なす方が良いかもしれません。また、プロジェクトレベルでデータ公開することを強く推奨します。すなわち、1つのプロジェクトに対して1つのデータセットです（<<section-4>>参照）。"
+msgstr "プロジェクトメタデータは、カメラトラッププロジェクト／研究全体を文書化します。誰が関わったのか、何が根拠であったのか、どのようなサンプリング方法が使用されたのか、そして研究範囲は何であったか？プロジェクトはさまざまな規模で実施され、時にはメタ研究の一部であったり、数十万もの設置をより適切に管理するためのサブプロジェクトに分割されていたりします（例：link:++https://www.snapshot-usa.org/++[Snapshot USA]）。意味が伝わるレベルで、プロジェクトを記述してください。プロジェクトに関する決定を下したり、質問に答えたりすることのできる人物は特定できますか？方法論を簡単に説明できますか？これらの質問に対する答えが「いいえ」の場合、それらを別々のプロジェクトと見なす方が良いかもしれません。また、プロジェクトレベルでデータ公開することを強く推奨します。すなわち、1つのプロジェクトに対して1つのデータセットです（<<section-4>>参照）。"
 
 #. type: Plain text
 #: 300.en.adoc:36
@@ -608,7 +608,7 @@ msgstr "データ管理システムは通常、この情報を以下のクラス
 #: 300.en.adoc:58
 #, no-wrap
 msgid "Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. A substantial part of its metadata are derived from the project metadata."
-msgstr "GBIFで公開されているカメラトラップデータセット https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd [camera trap dataset]cite:[mica-dataset]のスクリーンショット。"
+msgstr "GBIFで公開されているカメラトラップデータセット https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] cite:[mica-dataset]のスクリーンショット。"
 
 #. type: Target for macro image
 #: 300.en.adoc:60
@@ -815,7 +815,7 @@ msgstr "img/web/example-image.jpg"
 #: 300.en.adoc:164
 #, no-wrap
 msgid "A series of images, resulting from 3 consecutive triggers and captured in one sequence. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "3つの連続したトリガーからできた一つのシーケンスで撮影された一連の静止画。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]。"
+msgstr "3つの連続したトリガーからできた一つのシーケンスで撮影された一連の静止画。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
 #: 300.en.adoc:322
@@ -1255,7 +1255,7 @@ msgstr "ストレージ"
 #. type: Plain text
 #: 300.en.adoc:426
 msgid "Due to the large volume of generated data, it is not trivial to securely store, backup and manage media files. Cloud services or well managed institutional services are recommended, but these come at a substantial cost. We recommend the use of an online <<data-management-system,data management system>> to store your media files. Some offer this storage for free. It is also very useful if your data storage system can serve media files over http/https, using allows <<section-stable-unique-identifiers,stable URLs>> and optionally authentication. This allows you to directly reference/hotlink media files in a published dataset (see <<section-ac-accessuri,accessURI>>). Such a service is provided by e.g. Agouti cite:[agouti] (through `+https://multimedia.agouti.eu/assets/+`), https://www.flickr.com/[Flickr] (through `https://www.flickr.com/services/api/`) and to far lesser extent https://zenodo.org/[Zenodo] (limited to 100 files through the undocumented `+https://zenodo.org/record/{record_id}/files/{file}+`)."
-msgstr "生成されるデータの量が多いため、メディアファイルを安全に保存、バックアップ、および管理することは容易ではありません。クラウドサービスや適切に管理された機関サービスが推奨されますが、かなりのコストがかかります。メディアファイルを保存するため、<<data-management-system,オンラインのデータ管理システム>>の使用を推奨します。一部のサービスはストレージを無料で提供しています。また、データストレージシステムにおいて、http/https経由でメディアファイルを提供できると、<<section-stable-unique-identifiers,安定したURL>> やオプションとしての認証が利用できるため、非常に便利です。これにより、公開されたデータセットの中で、直接メディアファイルを参照/ホットリンクすることができます（<<section-ac-accessuri,accessURI>>を参照）。このようなサービスは、例えばAgouti cite:[agouti] （`+https://multimedia.agouti.eu/assets/+`経由）、https://www.flickr.com/[Flickr] （`https://www.flickr.com/services/api/`経由）、およびhttps://zenodo.org/[Zenodo]（文書化されていない`+https://zenodo.org/record/{record_id}/files/{file}+`を用いる場合は最大100ファイルまで）によって提供されています。"
+msgstr "生成されるデータの量が多いため、メディアファイルを安全に保存、バックアップ、および管理することは容易ではありません。クラウドサービスや適切に管理された機関サービスが推奨されますが、かなりのコストがかかります。メディアファイルを保存するため、<<data-management-system,オンラインのデータ管理システム>>の使用を推奨します。一部のサービスはストレージを無料で提供しています。また、データストレージシステムにおいて、http/https経由でメディアファイルを提供できると、<<section-stable-unique-identifiers,安定したURL>> やオプションとしての認証が利用できるため、非常に便利です。これにより、公開されたデータセットの中で、直接メディアファイルを参照/ホットリンクすることができます（<<section-ac-accessuri,accessURI>>を参照）。このようなサービスは、例えばAgouti cite:[agouti] （`+https://multimedia.agouti.eu/assets/+`経由）、link:++https://www.flickr.com/++[Flickr] （`https://www.flickr.com/services/api/`経由）、および https://zenodo.org/[Zenodo]（文書化されていない`+https://zenodo.org/record/{record_id}/files/{file}+`を用いる場合は最大100ファイルまで）によって提供されています。"
 
 #. type: Title ===
 #: 300.en.adoc:428
@@ -1559,12 +1559,12 @@ msgstr "場所"
 #. type: Plain text
 #: 300.en.adoc:600
 msgid "A <<location>> is the physical place where a camera is located during a deployment. It can be described with a name, identifier and/or description, but we recommend always to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[geographical coordinates]. Those are most commonly expressed as latitude and longitude in decimal degrees, using the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84] datum."
-msgstr "<<location,場所>>とは、設置中にカメラが配置される物理的な場所のことです。名前、識別子、および（または）説明で記述できますが、常にhttps://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[地理座標]を記録することを推奨します。これらは通常、https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84[WGS84]測地系を使用して、10進度の緯度と経度として表現されます。"
+msgstr "<<location,場所>>とは、設置中にカメラが配置される物理的な場所のことです。名前、識別子、および（または）説明で記述できますが、常に https://docs.gbif.org/georeferencing-best-practices/1.0/en/#coordinates-geographic-coordinates[地理座標]を記録することを推奨します。これらは通常、link:++https://docs.gbif.org/georeferencing-best-practices/1.0/en/#WGS84++[WGS84]測地系を使用して、10進度の緯度と経度として表現されます。"
 
 #. type: Plain text
 #: 300.en.adoc:602
 msgid "The coordinates are best determined using a GPS receiver at the location itself. If this is not possible, use (online) resources and georeferencing best practices cite:[chapman-wieczorek-2020] to obtain those. In addition to the coordinates and geodetic datum (e.g. WGS84) it is important to record the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[uncertainty of the coordinates], which is affected by several factors:"
-msgstr "座標は、正に設置する場所でGPS受信機を使用して決定するのが最適です。これが不可能な場合は、（オンライン）リソースとジオリファレンスのベストプラクティスcite:[chapman-wieczorek-2020] を使用して取得してください。座標と測地系（例：WGS84）に加えて、https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties[座標の不確実性]を記録することが重要です。これはいくつかの要因によって影響を受けます："
+msgstr "座標は、正に設置する場所でGPS受信機を使用して決定するのが最適です。これが不可能な場合は、（オンライン）リソースとジオリファレンスのベストプラクティスcite:[chapman-wieczorek-2020] を使用して取得してください。座標と測地系（例：WGS84）に加えて、link:++https://docs.gbif.org/georeferencing-best-practices/1.0/en/#calculating-uncertainties++[座標の不確実性]を記録することが重要です。これはいくつかの要因によって影響を受けます："
 
 #. type: Plain text
 #: 300.en.adoc:604
@@ -1594,7 +1594,7 @@ msgstr "統合された最大の不確実性は、メートル単位の座標不
 #. type: Plain text
 #: 300.en.adoc:610
 msgid "The combined maximum uncertainty is most conveniently expressed as a coordinate uncertainty in metres, allowing the location to be described with the https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method[point-radius-method]."
-msgstr "統合された最大の不確実性は、メートル単位の座標不確実性として表現するのが最も便利であり、https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method[ポイント-半径法]を使用して場所を記述することができます。"
+msgstr "統合された最大の不確実性は、メートル単位の座標不確実性として表現するのが最も便利であり、link:++https://docs.gbif.org/georeferencing-best-practices/1.0/en/#point-radius-method++[ポイント-半径法]を使用して場所を記述することができます。"
 
 #. type: Plain text
 #: 300.en.adoc:612
@@ -1741,7 +1741,7 @@ msgstr "観察は<<data-management-system,データ管理システム>>に記録
 #: 300.en.adoc:657
 #, no-wrap
 msgid "Recorded information for one of the observations that is based on the image in <<figure-example-image>>. It is classified at event level (sequence) in the camera trap management system Agouti. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "<<figure-example-image>>の静止画に基づく観察の記録情報の一つ。カメラトラップ管理システムAgoutiでは、イベントレベル（シーケンス）として分類される。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
+msgstr "<<figure-example-image>>の静止画に基づく観察の記録情報の一つ。カメラトラップ管理システムAgoutiでは、イベントレベル（シーケンス）として分類される。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
 #: 300.en.adoc:689
@@ -1837,7 +1837,7 @@ msgstr "分類は人間および/または機械によって行うことがで�
 #: 300.en.adoc:706
 #, no-wrap
 msgid "Observation records for four observed ducks, but provided at different levels of precision. Row one is the result of a classification at a high taxonomic level (family _Anatidae_). Row two is the result of a classification at species level (_Anas platyrhynchos_), but no further characteristics were recorded. Rows three and four are the result of a classification that further specified one duck to be male and showing foraging behaviour. https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[Source]."
-msgstr "4羽のカモに関する観察記録について、異なるレベルの精度で提供した。1行目は高次分類群レベル（科 _Anatidae_）の分類結果。2行目は種レベル（_Anas platyrhynchos_）の分類結果だが、それ以上の特徴は記録されなかった。3行目と4行目は、さらに特定した分類結果であり、1羽のカモがオスであり、採餌行動を示したことが記載されている。https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2[出典]"
+msgstr "4羽のカモに関する観察記録について、異なるレベルの精度で提供した。1行目は高次分類群レベル（科 _Anatidae_）の分類結果。2行目は種レベル（_Anas platyrhynchos_）の分類結果だが、それ以上の特徴は記録されなかった。3行目と4行目は、さらに特定した分類結果であり、1羽のカモがオスであり、採餌行動を示したことが記載されている。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#14059fd2++[出典]。"
 
 #. type: Table
 #: 300.en.adoc:743
@@ -2350,7 +2350,7 @@ msgstr "カメラトラップデータの公開"
 #. type: Plain text
 #: 400.en.adoc:5
 msgid "Data publication is the process of making biodiversity data open and <<FAIR>> cite:[wilkinson-2016]. Adopting the FAIR principles guarantees that your camera trap data can be found, accessed, integrated and reused (see <<section-fair-camera-trap-data>>) for many applications, from biological use cases (species distribution modeling, population density estimation, etc.) to providing training data for <<machine-learning,machine learning>> model development. We recommend the use of the https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014] to do so. It facilitates data publication and registration with the https://www.gbif.org[Global Biodiversity Information Facility (GBIF)], an international network and data infrastructure for biodiversity data."
-msgstr "データ公開は、生物多様性データをオープンかつ<<FAIR>> cite:[wilkinson-2016]にするプロセスです。FAIR原則を採用することで、カメラトラップデータが見つかり、アクセスされ、統合され、再利用されることが保証されます（<<section-fair-camera-trap-data>>参照）。これにより、生物学的な使用例（種分布モデリング、個体数密度推定など）から<<machine-learning,機械学習>>モデル開発のための教師データの提供まで、幅広く応用されます。そのためには、https://www.gbif.org/ipt[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014]の使用を推奨します。https://www.gbif.org[地球規模生物多様性情報機構（Global Biodiversity Information Facility: GBIF）]は、生物多様性データのための国際ネットワークおよびデータ基盤であり、IPTを利用することで、GBIFでのデータ公開および登録を容易にします。"
+msgstr "データ公開は、生物多様性データをオープンかつ<<FAIR>> cite:[wilkinson-2016]にするプロセスです。FAIR原則を採用することで、カメラトラップデータが見つかり、アクセスされ、統合され、再利用されることが保証されます（<<section-fair-camera-trap-data>>参照）。これにより、生物学的な使用例（種分布モデリング、個体数密度推定など）から<<machine-learning,機械学習>>モデル開発のための教師データの提供まで、幅広く応用されます。そのためには、link:++https://www.gbif.org/ipt++[GBIF Integrated Publishing Toolkit (IPT)] cite:[robertson-2014]の使用を推奨します。link:++https://www.gbif.org++[地球規模生物多様性情報機構（Global Biodiversity Information Facility: GBIF）]は、生物多様性データのための国際ネットワークおよびデータ基盤であり、IPTを利用することで、GBIFでのデータ公開および登録を容易にします。"
 
 #. type: Plain text
 #: 400.en.adoc:7
@@ -2578,12 +2578,12 @@ msgstr "カメラトラップデータを公開するために、<<camtrap-dp,Ca
 #. type: Plain text
 #: 400.en.adoc:118
 msgid "See the https://camtrap-dp.tdwg.org[Camtrap DP website] for term definitions, recommendations and examples."
-msgstr "用語の定義、推奨事項、および例については、https://camtrap-dp.tdwg.org[Camtrap DPのウェブサイト] を参照してください。"
+msgstr "用語の定義、推奨事項、および例については、link:++https://camtrap-dp.tdwg.org++[Camtrap DPのウェブサイト] を参照してください。"
 
 #. type: delimited block =
 #: 400.en.adoc:122
 msgid "At the time of writing, GBIF does not yet support the publication of Camtrap DP in their production environment. It will be released as a feature in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT])."
-msgstr "執筆時点では、GBIFはまだCamtrap DPの公開を本番環境でサポートしていません。これは、https://www.gbif.org/ipt[IPT]のバージョン3の機能としてリリースされる予定です。"
+msgstr "執筆時点では、GBIFはまだCamtrap DPの公開を本番環境でサポートしていません。これは、link:++https://www.gbif.org/ipt++[IPT]のバージョン3の機能としてリリースされる予定です。"
 
 #. type: Plain text
 #: 400.en.adoc:125
@@ -2605,7 +2605,7 @@ msgstr "なぜサンプリングイベントデータセットではないのか
 #. type: Plain text
 #: 400.en.adoc:133
 msgid "With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observation,observations>>, it seems logical to express camera trap data as https://www.gbif.org/sampling-event-data[Sampling-event data] with an {event-core} (see <<table-event-core>>) and an {occurrence-extension} (see <<table-occurrence-extension>>). It allows us to provide detailed (though repeated) information about each type of event and offers the possibility to add a {mof-extension} with <<alignment>> and other information (mostly relevant for the deployments)."
-msgstr "階層的なイベント（<<deployment,設置>>、<<sequence,シーケンス>>）とそれに伴う<<observation,観察>>結果を持つカメラトラップデータを、https://www.gbif.org/sampling-event-data[サンプリングイベントデータ]として、つまり{event-core}イベントコア（<<table-event-core>>参照）と{occurrence-extension}オカレンス拡張（<<table-occurrence-extension>>参照）を使用して表現するのが論理的に思えます。これにより、各タイプのイベントに関する詳細な（ただし繰り返しの）情報を提供し、{mof-extension}Measurement Or Facts拡張を追加することで<<alignment,アライメント>>やその他の（主に設置に関連した）情報を含めて提供することが可能となります。"
+msgstr "階層的なイベント（<<deployment,設置>>、<<sequence,シーケンス>>）とそれに伴う<<observation,観察>>結果を持つカメラトラップデータを、link:++https://www.gbif.org/sampling-event-data++[サンプリングイベントデータ]として、つまり{event-core}イベントコア（<<table-event-core>>参照）と{occurrence-extension}オカレンス拡張（<<table-occurrence-extension>>参照）を使用して表現するのが論理的に思えます。これにより、各タイプのイベントに関する詳細な（ただし繰り返しの）情報を提供し、{mof-extension}Measurement Or Facts拡張を追加することで<<alignment,アライメント>>やその他の（主に設置に関連した）情報を含めて提供することが可能となります。"
 
 #. type: Plain text
 #: 400.en.adoc:135
@@ -2616,7 +2616,7 @@ msgstr "残念ながら、<<darwin-core-archive,Darwin Core Archive>>のスタ�
 #: 400.en.adoc:137
 #, no-wrap
 msgid "{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "カメラトラップデータを含む{event-core}イベントコア。3種類のイベントが含まれる：1つの<<deployment,設置>>（期間は日単位）、1つの<<sequence,シーケンス,シーケンス>> （期間は秒単位）、および2つのメディアベースのイベント（単一のタイムスタンプ）。全てのイベントについて位置情報が同じであることに注意。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]。"
+msgstr "カメラトラップデータを含む{event-core}イベントコア。3種類のイベントが含まれる：1つの<<deployment,設置>>（期間は日単位）、1つの<<sequence,シーケンス,シーケンス>> （期間は秒単位）、および2つのメディアベースのイベント（単一のタイムスタンプ）。全てのイベントについて位置情報が同じであることに注意。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
 #: 400.en.adoc:171
@@ -2680,7 +2680,7 @@ msgstr "|eventType\n"
 #: 400.en.adoc:174
 #, no-wrap
 msgid "{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media-based>> classifications of _Anas platyrhynchos_ and one event-based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "表14. カメラトラップデータを含む {occurrence-extension}オカレンス拡張。３種類の観察記録が含まれる：2つの<<#section-media-or-event-based-classification,メディアベース>>の_Anas platyrhynchos_ の分類、1つのイベントベースの_Ardea cinerea_の分類。メディアファイルに関する情報は、dwc:associatedMedia にのみ記述することができる。：https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
+msgstr "表14. カメラトラップデータを含む {occurrence-extension}オカレンス拡張。３種類の観察記録が含まれる：2つの<<#section-media-or-event-based-classification,メディアベース>>の_Anas platyrhynchos_ の分類、1つのイベントベースの_Ardea cinerea_の分類。メディアファイルに関する情報は、dwc:associatedMedia にのみ記述することができる。：link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
 #: 400.en.adoc:197
@@ -2734,7 +2734,7 @@ msgstr "{occurrence-core}オカレンスコアと{ac-extension}Audubon Media Des
 #: 400.en.adoc:204
 #, no-wrap
 msgid "{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "カメラトラップデータを含むオカレンスコア{occurrence-core} 。これには<<table-occurrence-extension>>と同じ3つの観察が含まれる。イベント/シーケンスの識別子はterm:dwc[dwc:eventID]に、設置の識別子はterm:dwc[dwc:parentEventID]に提供される。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
+msgstr "カメラトラップデータを含むオカレンスコア{occurrence-core} 。これには<<table-occurrence-extension>>と同じ3つの観察が含まれる。イベント/シーケンスの識別子はterm:dwc[dwc:eventID]に、設置の識別子はterm:dwc[dwc:parentEventID]に提供される。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
 #: 400.en.adoc:235
@@ -2794,7 +2794,7 @@ msgstr "|occurrenceID\n"
 #: 400.en.adoc:238
 #, no-wrap
 msgid "{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "カメラトラップデータを含む{ac-extension}Audubon Media Description拡張。これには<<table-occurrence-extension>>で参照されているものと同じ2つのメディアファイルが含まれるが、ファイル毎により多くの情報を共有できるようになる。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
+msgstr "カメラトラップデータを含む{ac-extension}Audubon Media Description拡張。これには<<table-occurrence-extension>>で参照されているものと同じ2つのメディアファイルが含まれるが、ファイル毎により多くの情報を共有できるようになる。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
 #: 400.en.adoc:275
@@ -2892,7 +2892,7 @@ msgstr "なお、{occurrence-core}オカレンスコア には<<observation-type
 #: 400.en.adoc:289
 #, no-wrap
 msgid "Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
-msgstr "カメラトラップデータを{occurrence-core}オカレンスコアとして記述する場合の推奨事項。https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[出典]"
+msgstr "カメラトラップデータを{occurrence-core}オカレンスコアとして記述する場合の推奨事項。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
 #: 400.en.adoc:455
@@ -3316,7 +3316,7 @@ msgstr "term:dwc[dwc:sex]"
 #. type: Plain text
 #: 400.en.adoc:533
 msgid "The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIF Sex vocabulary]. In Camtrap DP, this term corresponds with {observations-sex}."
-msgstr "観察された<<individual,個体>>の性別。Camtrap DPに基づき、https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIFの性別語彙]と互換性のある制御値である、`male`および`female`を使用することを推奨します。Camtrap DPでは、この用語は{observations-sex}に相当します。"
+msgstr "観察された<<individual,個体>>の性別。Camtrap DPに基づき、link:++https://rs.gbif.org/vocabulary/gbif/sex.xml++[GBIFの性別語彙]と互換性のある制御値である、`male`および`female`を使用することを推奨します。Camtrap DPでは、この用語は{observations-sex}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:535
@@ -3332,7 +3332,7 @@ msgstr "term:dwc[dwc:lifeStage]"
 #. type: Plain text
 #: 400.en.adoc:540
 msgid "The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the https://registry.gbif.org/vocabulary/LifeStage[GBIF LifeStage vocabulary]. In Camtrap DP, this term corresponds with {observations-lifeStage}."
-msgstr "観察された<<individual,個体>>の生活史。Camtrap DPに基づき、https://registry.gbif.org/vocabulary/LifeStage[GBIFの生活史語彙]と互換性のある制御値である、`adult`、`subadult`、および`juvenile`を使用することを推奨します。Camtrap DPでは、この用語は{observations-lifeStage}に相当します。"
+msgstr "観察された<<individual,個体>>の生活史。Camtrap DPに基づき、link:++https://registry.gbif.org/vocabulary/LifeStage++[GBIFの生活史語彙]と互換性のある制御値である、`adult`、`subadult`、および`juvenile`を使用することを推奨します。Camtrap DPでは、この用語は{observations-lifeStage}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:542
@@ -3770,7 +3770,7 @@ msgstr "term:dwc[dwc:kingdom]"
 #. type: Plain text
 #: 400.en.adoc:746
 msgid "The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classifications>> of plants, fungi or other kingdoms."
-msgstr "<<section-scientificname,scientificName>>が属する分類群の界。これにより、https://www.gbif.org/developer/species[GBIFの種名マッチング] などのサービスが同名異種を区別することができます。カメラトラップデータには植物、菌類、その他の界の<<classification,分類>>がほとんど含まれないため、全てのレコードに`Animalia`を入力する可能性が高いです。"
+msgstr "<<section-scientificname,scientificName>>が属する分類群の界。これにより、link:++https://www.gbif.org/developer/species++[GBIFの種名マッチング] などのサービスが同名異種を区別することができます。カメラトラップデータには植物、菌類、その他の界の<<classification,分類>>がほとんど含まれないため、全てのレコードに`Animalia`を入力する可能性が高いです。"
 
 #. type: Title ====
 #: 400.en.adoc:748
@@ -3899,7 +3899,7 @@ msgstr "https://ac.tdwg.org/termlist/#dc_type[dc:type]"
 #. type: Plain text
 #: 400.en.adoc:827
 msgid "The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage` for <<video,videos>>. Do not use https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type], because that term expects a URL value."
-msgstr "リソースの性質。<<image,静止画>>には`StillImage`、<<video,動画>>には`MovingImage`を使用します。https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type]は、URL値を入力する決まりがあるため、使用しないでください。"
+msgstr "リソースの性質。<<image,静止画>>には`StillImage`、<<video,動画>>には`MovingImage`を使用します。link:++https://ac.tdwg.org/termlist/#dcterms_type++[**dcterms**:type]は、URL値を入力する決まりがあるため、使用しないでください。"
 
 #. type: Title =====
 #: 400.en.adoc:829
@@ -3931,7 +3931,7 @@ msgstr "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
 #. type: Plain text
 #: 400.en.adoc:841
 msgid "The licence under which the media file is shared. Note that this applies to file referenced in <<section-ac-accessuri,accessURI>>, not the data in the {ac-extension} (these fall under the dataset license). We recommend using the same license for all media files. To enable wide use, we recommend publishing media files under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] or https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International license] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode` or `https://creativecommons.org/licenses/by/4.0/legalcode` respectively. Do not use https://ac.tdwg.org/termlist/#dc_rights[**dc**:rights], because that term expects a literal value (the full-text copyright statement). In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `media` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
-msgstr "メディアファイルが共有されるライセンス。これは<<section-ac-accessuri,accessURI>>で参照されるファイルに適用され、{ac-extension}のデータには適用されません（データセットライセンスが適用されます）。全てのメディアファイルに同じライセンスを使用することを推奨します。広範な利用を可能にするために、メディアファイルをhttps://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]またはhttps://creativecommons.org/licenses/by/4.0/[クリエイティブ・コモンズ表示4.0国際ライセンス]の下で公開し、URLを提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`、または、`https://creativecommons.org/licenses/by/4.0/legalcode`。https://ac.tdwg.org/termlist/#dc_rights[**dc**:rights]は、文字列値（全文の著作権声明）を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{package-licenses}の`media`のスコープを持つライセンスの`path`に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
+msgstr "メディアファイルが共有されるライセンス。これは<<section-ac-accessuri,accessURI>>で参照されるファイルに適用され、{ac-extension}のデータには適用されません（データセットライセンスが適用されます）。全てのメディアファイルに同じライセンスを使用することを推奨します。広範な利用を可能にするために、メディアファイルをhttps://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]またはhttps://creativecommons.org/licenses/by/4.0/[クリエイティブ・コモンズ表示4.0国際ライセンス]の下で公開し、URLを提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`、または、`https://creativecommons.org/licenses/by/4.0/legalcode`。link:++https://ac.tdwg.org/termlist/#dc_rights++[**dc**:rights]は、文字列値（全文の著作権声明）を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{package-licenses}の`media`のスコープを持つライセンスの`path`に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:843
@@ -4027,7 +4027,7 @@ msgstr "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
 #. type: Plain text
 #: 400.en.adoc:883
 msgid "The file format of the media file. We recommend providing the media type (MIME type) using the controlled values `image/jpeg`, `video/mp4` or `video/mpeg` of the https://ac.tdwg.org/format/[Audiovisual Core Controlled Vocabulary for Dublin Core]. Do not use https://ac.tdwg.org/termlist/#dcterms_format[**dcterms**:format], because that term expects a URL value. In Camtrap DP, this term corresponds with {media-fileMediatype}."
-msgstr "メディアファイルのファイル形式。https://ac.tdwg.org/format/[Dublin CoreのAudiovisual Core Controlled Vocabulary]の制御値である、`image/jpeg`、`video/mp4`、または `video/mpeg`を使用して、メディアタイプ（MIMEタイプ）を提供することを推奨します。https://ac.tdwg.org/termlist/#dcterms_format[**dcterms**:format]は 、URL値を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{media-fileMediatype}に相当します。"
+msgstr "メディアファイルのファイル形式。https://ac.tdwg.org/format/[Dublin CoreのAudiovisual Core Controlled Vocabulary]の制御値である、`image/jpeg`、`video/mp4`、または `video/mpeg`を使用して、メディアタイプ（MIMEタイプ）を提供することを推奨します。link:++https://ac.tdwg.org/termlist/#dcterms_format++[**dcterms**:format]は 、URL値を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{media-fileMediatype}に相当します。"
 
 #. type: Title ==
 #: afterword.en.adoc:2
@@ -4038,7 +4038,7 @@ msgstr "Acknowledgements"
 #. type: Plain text
 #: afterword.en.adoc:5
 msgid "We thank the following people for making suggestions to this guide and/or providing technical support: https://orcid.org/0000-0001-7418-1244[Stephen Formel], https://orcid.org/0000-0001-6492-4016[Donald Hobern], https://orcid.org/0000-0002-6590-599X[Kyle Copas], https://orcid.org/0000-0002-1920-5298[Laura Russell], https://orcid.org/0000-0003-0623-6682[Matt Blissett] and members of the https://camtrap-dp.tdwg.org[Camtrap DP Development Team]."
-msgstr "このガイドへの提案や技術支援をいただいた以下の人々に感謝を申し上げる：https://orcid.org/0000-0001-7418-1244[Stephen Formel], https://orcid.org/0000-0001-6492-4016[Donald Hobern], https://orcid.org/0000-0002-6590-599X[Kyle Copas], https://orcid.org/0000-0002-1920-5298[Laura Russell], https://orcid.org/0000-0003-0623-6682[Matt Blissett]、そしてhttps://camtrap-dp.tdwg.org[Camtrap DP Development Team]メンバーの皆様。"
+msgstr "このガイドへの提案や技術支援をいただいた以下の人々に感謝を申し上げる：link:++https://orcid.org/0000-0001-7418-1244++[Stephen Formel], https://orcid.org/0000-0001-6492-4016[Donald Hobern], https://orcid.org/0000-0002-6590-599X[Kyle Copas], https://orcid.org/0000-0002-1920-5298[Laura Russell], https://orcid.org/0000-0003-0623-6682[Matt Blissett]、そして https://camtrap-dp.tdwg.org[Camtrap DP Development Team]メンバーの皆様。"
 
 #. type: Title ==
 #: glossary.en.adoc:2
@@ -4165,7 +4165,7 @@ msgstr "[[camtrap-dp]]Camtrap DP"
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Camera Trap Data Package. A community developed <<data-exchange-format,data exchange format>> for camera trap data, maintained under Biodiversity Information Standards (https://www.tdwg.org[TDWG]). See also <<section-camtrap-dp>>, citenp:[bubnicki-2023] and the https://camtrap-dp.tdwg.org[Camtrap DP website]."
-msgstr "カメラトラップデータパッケージ。コミュニティにより開発された、カメラトラップデータのための<<data-exchange-format,データ交換フォーマット>>で、Biodiversity Information Standards（https://www.tdwg.org[TDWG]）の下で維持されています。<<section-camtrap-dp>>、citenp:[bubnicki-2023]およびCamtrap DPウェブサイト [https://camtrap-dp.tdwg.org] も参照してください。"
+msgstr "カメラトラップデータパッケージ。コミュニティにより開発された、カメラトラップデータのための<<data-exchange-format,データ交換フォーマット>>で、Biodiversity Information Standards（https://www.tdwg.org[TDWG]）の下で維持されています。<<section-camtrap-dp>>、citenp:[bubnicki-2023]および https://camtrap-dp.tdwg.org[Camtrap DPウェブサイト]も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:26
@@ -4253,7 +4253,7 @@ msgstr "[[data-repository]]データリポジトリ"
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "Online system for the long-term archival of (research) data (e.g. https://zenodo.org[Zenodo], https://datadryad.org/[Dryad] and the GBIF https://www.gbif.org/ipt[IPT]). Different from a <<data-management-system,data management system>> which is designed for the management (and not necessarily long-term archival) of data."
-msgstr "（研究）データの長期アーカイブのためのオンラインシステム（例：https://zenodo.org[Zenodo]、https://datadryad.org/[Dryad]、およびhttps://www.gbif.org/ipt[IPT]。（必ずしも長期アーカイブではない）データの管理を目的とした<<data-management-system,データ管理システム>>とは異なります。"
+msgstr "（研究）データの長期アーカイブのためのオンラインシステム（例：link:++https://zenodo.org++[Zenodo]、link:++https://datadryad.org/++[Dryad]、およびlink:++https://www.gbif.org/ipt++[IPT]。（必ずしも長期アーカイブではない）データの管理を目的とした<<data-management-system,データ管理システム>>とは異なります。"
 
 #. type: Labeled list
 #: glossary.en.adoc:42
@@ -4440,7 +4440,7 @@ msgstr "[[machine-learning]]機械学習"
 #. type: Plain text
 #: glossary.en.adoc:75
 msgid "Computational technique that makes use of (training) data (e.g. https://lila.science/) and algorithms to imitate the way that humans learn, gradually improving accuracy."
-msgstr "（教師）データ（例：https://lila.science/）とアルゴリズムを使用して、人間が学習する方法を模倣し、徐々に精度を向上させる計算技術。"
+msgstr "（教師）データ（例：link:++https://lila.science/++）とアルゴリズムを使用して、人間が学習する方法を模倣し、徐々に精度を向上させる計算技術。"
 
 #. type: Labeled list
 #: glossary.en.adoc:76
