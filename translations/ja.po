@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 23:29\n"
+"PO-Revision-Date: 2026-04-17 06:30\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -260,7 +260,7 @@ msgstr "カメラトラップとは？"
 #. type: Plain text
 #: 200.en.adoc:8
 msgid "Camera traps are recording devices that are deployed in the field to automatically capture images or videos of wildlife activity. They are also known as game cameras, trail cameras or scouting cameras. They can record media at a regular interval (time lapse) or when triggered by the activity of an animal. Traditionally, camera traps refer to those designed to record medium-to-large-sized terrestrial mammals with a passive infrared (PIR) <<sensor>> cite:[hobbs-2017], but other types exist for e.g. the marine environment or insects. Just like satellites, drones, GPS trackers or acoustic sensors, camera traps collect **machine observations**. Acoustic sensors in particular are quite similar to camera traps, using audio rather than image/video to monitor the surrounding ecosystem. All these technologies have the benefit that they can collect data at a scale and frequency that would be challenging to obtain through human observations, and typically suffer less from human bias, interpretation or interference."
-msgstr "カメラトラップは、野生動物の活動の静止画（images）や動画（videos）を自動的に撮影するためにフィールドに設置される記録装置です。ゲームカメラ、トレイルカメラ、スカウティングカメラとも呼ばれます。メディアへの記録は、定期的な間隔（タイムラプス）、または動物の活動を感知して行われます。従来のカメラトラップは人感赤外線（PIR）<<センサー>> cite:[hobbs-2017]を使用して中型から大型の陸生哺乳類を記録するために設計されたものを指しますが、その他のタイプとして、海洋環境や昆虫などを記録するためのカメラトラップも存在します。衛星、ドローン、GPSトラッカー、音響センサーと同様に、カメラトラップは**機械による観測**を行います。特に音響センサーは、静止画や動画ではなく音声を使用して周囲の生態系をモニタリングする点で、カメラトラップと非常に似ています。これらの技術は全て、人間による観察では困難な規模と頻度でデータを収集できるという利点があり、通常、人間によるバイアス、解釈および干渉の影響を受けにくいです。"
+msgstr "カメラトラップは、野生動物の活動の静止画（images）や動画（videos）を自動的に撮影するためにフィールドに設置される記録装置です。ゲームカメラ、トレイルカメラ、スカウティングカメラとも呼ばれます。メディアへの記録は、定期的な間隔（タイムラプス）、または動物の活動を感知して行われます。従来のカメラトラップは人感赤外線（PIR）<<sensor,センサー>> cite:[hobbs-2017]を使用して中型から大型の陸生哺乳類を記録するために設計されたものを指しますが、その他のタイプとして、海洋環境や昆虫などを記録するためのカメラトラップも存在します。衛星、ドローン、GPSトラッカー、音響センサーと同様に、カメラトラップは**機械による観測**を行います。特に音響センサーは、静止画や動画ではなく音声を使用して周囲の生態系をモニタリングする点で、カメラトラップと非常に似ています。これらの技術は全て、人間による観察では困難な規模と頻度でデータを収集できるという利点があり、通常、人間によるバイアス、解釈および干渉の影響を受けにくいです。"
 
 #. type: Title ===
 #: 200.en.adoc:10
