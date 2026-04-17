@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-17 08:16\n"
+"PO-Revision-Date: 2026-04-17 10:45\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3979,7 +3979,7 @@ msgstr "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCr
 #. type: Plain text
 #: 400.en.adoc:862
 msgid "The method(s) used to create or alter the media file. We recommend using this term to provide the <<trigger>> method that was used to capture the media file, as controlled values: `activity detection` or `time lapse`. In Camtrap DP, this term corresponds with {media-captureMethod}."
-msgstr "メディアファイルを作成または変更するために使用された方法。この用語を使用して、メディアファイルを収集するために使用された<<trigger,トリガー>>方法を提供することを推奨します。制御値は`activity detection`または`time lapse`です。Camtrap DPでは、この用語は{media-captureMethod}に相当します。"
+msgstr "メディアファイルを作成または変更するために使用された方法。この用語を使用して、メディアファイルを収集するために使用された<<trigger,トリガー>>方法を提供することを推奨します。制御値は `activity detection`または `time lapse`です。Camtrap DPでは、この用語は{media-captureMethod}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:864
@@ -4011,7 +4011,7 @@ msgstr "https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectatio
 #. type: Plain text
 #: 400.en.adoc:876
 msgid "The service expectations users may have of the <<section-ac-accessuri,accessURI>>. We recommend using the controlled values `online` for media files that are publicly accessible over http/https and `authenticate` for media files that are kept private over http/https (see <<section-sensitive-media-files>>). In Camtrap DP, these values related to `TRUE` and `FALSE` respectively in {media-filePublic}."
-msgstr "<<section-ac-accessuri,accessURI>>に対するユーザーのサービス期待値。制御値としては、http/httpsで公開されているメディアファイルには`online`を、http/httpsで非公開にされているメディアファイルには `authenticate`を使用することを推奨します（<<section-sensitive-media-files>>参照）。Camtrap DPでは、これらの値はそれぞれ{media-filePublic}の `TRUE`および`FALSE`に相当します。"
+msgstr "<<section-ac-accessuri,accessURI>>に対するユーザーのサービス期待値。制御値としては、http/httpsで公開されているメディアファイルには `online`を、http/httpsで非公開にされているメディアファイルには `authenticate`を使用することを推奨します（<<section-sensitive-media-files>>参照）。Camtrap DPでは、これらの値はそれぞれ{media-filePublic}の `TRUE`および `FALSE`に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:878
@@ -4027,7 +4027,7 @@ msgstr "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
 #. type: Plain text
 #: 400.en.adoc:883
 msgid "The file format of the media file. We recommend providing the media type (MIME type) using the controlled values `image/jpeg`, `video/mp4` or `video/mpeg` of the https://ac.tdwg.org/format/[Audiovisual Core Controlled Vocabulary for Dublin Core]. Do not use https://ac.tdwg.org/termlist/#dcterms_format[**dcterms**:format], because that term expects a URL value. In Camtrap DP, this term corresponds with {media-fileMediatype}."
-msgstr "メディアファイルのファイル形式。link:++https://ac.tdwg.org/format/++[Dublin CoreのAudiovisual Core Controlled Vocabulary]の制御値である、`image/jpeg`、`video/mp4`、または `video/mpeg`を使用して、メディアタイプ（MIMEタイプ）を提供することを推奨します。link:++https://ac.tdwg.org/termlist/#dcterms_format++[**dcterms**:format]は 、URL値を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{media-fileMediatype}に相当します。"
+msgstr "メディアファイルのファイル形式。link:++https://ac.tdwg.org/format/++[Dublin CoreのAudiovisual Core Controlled Vocabulary]の制御値である、 `image/jpeg`、 `video/mp4`、または `video/mpeg`を使用して、メディアタイプ（MIMEタイプ）を提供することを推奨します。link:++https://ac.tdwg.org/termlist/#dcterms_format++[**dcterms**:format]は 、URL値を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{media-fileMediatype}に相当します。"
 
 #. type: Title ==
 #: afterword.en.adoc:2
@@ -4110,7 +4110,7 @@ msgstr "[[camera]]カメラ"
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Device designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion. Of a certain make and model and uniquely identifiable by e.g. by serial number. Also referred to as `camera trap`, `game camera`, `trail camera`, `scouting camera` or `device`."
-msgstr "（野生動物の）<<activity,活動>>の<<media,メディア>>を自動的に撮影するように設計されたデバイス。通常、熱と動きの組み合わせによって<<trigger,トリガー>>されます。特定のメーカーとモデルがあり、シリアル番号などで一意に識別できます。`camera trap`、`game camera`、`trail camera`、`scouting camera`、 または`device`とも呼ばれます。"
+msgstr "（野生動物の）<<activity,活動>>の<<media,メディア>>を自動的に撮影するように設計されたデバイス。通常、熱と動きの組み合わせによって<<trigger,トリガー>>されます。特定のメーカーとモデルがあり、シリアル番号などで一意に識別できます。 `camera trap`、 `game camera`、 `trail camera`、 `scouting camera`、 または `device`とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:16
@@ -4176,7 +4176,7 @@ msgstr "[[classification]]分類"
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "The act of classifying camera trap <<media>>, resulting in <<observation,observations>>. Not to be confused with taxonomic classification. Can be performed in different steps and with different levels of precision, e.g. 1. media does/does not contain object(s) of interest (i.e. <<blank>>), 2. object of interest is human/vehicle/animal or unknown, 3. animal is member of certain taxon (e.g. Sus scrofa, Rodentia), 4. animal is of certain sex/life stage, is known <<individual>> x or shows certain behaviour. Classification is typically labour intensive and therefore often aided by <<computer-vision,computer vision>>, <<citizen-science,volunteers>> and/or classifying <<sequence,sequences>> rather than individual <<media-file,media files>>. Also referred to as `image classification`, `annotation` or `identification`. See also <<section-classification>>."
-msgstr "カメラトラップ<<media,メディア>>を分類する行為で、<<observation,observations,観察結果>>をもたらします。分類学的分類とは混同しないでください。異なるステップと異なる精度レベルで実行できます。例：1. メディアに興味のあるオブジェクトが含まれている/含まれていない（すなわち、<<blank,ブランク>>）、2. 興味のあるオブジェクトが人間/車両/動物または不明、3. 動物が特定の分類群に属す（例：Sus scrofa、Rodentia）、4. 動物が特定の性別/ライフステージに属し、既知の<<individual,個体>>xであるか、特定の行動を示す。分類は通常、労働集約的であるため、<<computer-vision,コンピュータビジョン>>、<<citizen-science,ボランティア>>により支援され、さらに/または個々の<<media-file,media files>>ではなく<<sequence,シーケンス>>を分類するときに支援されます。`image classification`、`annotation`、または`identification`とも呼ばれます。<<section-classification>>も参照してください。"
+msgstr "カメラトラップ<<media,メディア>>を分類する行為で、<<observation,観察結果>>をもたらします。分類学的分類とは混同しないでください。異なるステップと異なる精度レベルで実行できます。例：1. メディアに興味のあるオブジェクトが含まれている/含まれていない（すなわち、<<blank,ブランク>>）、2. 興味のあるオブジェクトが人間/車両/動物または不明、3. 動物が特定の分類群に属す（例：Sus scrofa、Rodentia）、4. 動物が特定の性別/ライフステージに属し、既知の<<individual,個体>>xであるか、特定の行動を示す。分類は通常、労働集約的であるため、<<computer-vision,コンピュータビジョン>>、<<citizen-science,ボランティア>>により支援され、さらに/または個々の<<media-file,media files>>ではなく<<sequence,シーケンス>>を分類するときに支援されます。 `image classification`、 `annotation`、または `identification`とも呼ばれます。<<section-classification>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:28
@@ -4187,7 +4187,7 @@ msgstr "[[citizen-science]]市民科学"
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "Scientific research conducted with participation from the public. Also referred to as `community science`, `crowd science`, `crowdsourcing`, or `volunteer monitoring`. In camera trap research, citizen scientists can participate in camera trap <<deployment>> and <<classification>>. See also <<section-citizen-science>>."
-msgstr "市民の参加を伴う科学研究。`community science`、`crowd science`、`crowdsourcing`、または`volunteer monitoring`とも呼ばれます。カメラトラップ研究では、市民科学者がカメラトラップの<<deployment,設置>>と<<classification,分類>>に参加できます。<<section-citizen-science>>も参照してください。"
+msgstr "市民の参加を伴う科学研究。 `community science`、 `crowd science`、 `crowdsourcing`、または `volunteer monitoring`とも呼ばれます。カメラトラップ研究では、市民科学者がカメラトラップの<<deployment,設置>>と<<classification,分類>>に参加できます。<<section-citizen-science>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:30
@@ -4231,7 +4231,7 @@ msgstr "[[data-exchange-format]]データ交換フォーマット"
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "Format used to exchange data between systems (e.g. <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>>). Requires data transformation from the source system to the format and from the format to the target system. Well designed data exchange formats facilitate <<FAIR>> data exchange, use open formats and provide clear definitions. Also referred to as `data standard` (when approved through a ratification process)."
-msgstr "システム間でデータを交換するために使用されるフォーマット（例：<<camtrap-dp,Camtrap DP>>と<<darwin-core-archive,Darwin Core Archive>>）。提供元のシステムからあるフォーマットへのデータ変換と、そのフォーマットからターゲットとなるシステムへのデータ変換が必要です。よく設計されたデータ交換フォーマットは、<<FAIR>>データ交換を促進し、オープンフォーマットを使用し、明確な定義を提供します。承認プロセスを経て承認された場合、`data standard`とも呼ばれます。"
+msgstr "システム間でデータを交換するために使用されるフォーマット（例：<<camtrap-dp,Camtrap DP>>と<<darwin-core-archive,Darwin Core Archive>>）。提供元のシステムからあるフォーマットへのデータ変換と、そのフォーマットからターゲットとなるシステムへのデータ変換が必要です。よく設計されたデータ交換フォーマットは、<<FAIR>>データ交換を促進し、オープンフォーマットを使用し、明確な定義を提供します。承認プロセスを経て承認された場合、 `data standard`とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:38
@@ -4286,7 +4286,7 @@ msgstr "[[deployment-group]]設置グループ"
 #. type: Plain text
 #: glossary.en.adoc:47
 msgid "Logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` cite:[oconnor-2017], `camera trap array` cite:[meek-2014], `cluster` cite:[risc-2019], `paired deployment` cite:[kolowski-2017], `site` and `strata` cite:[sun-2021] are spatial deployment groups. `sampling campaign` cite:[lamelas-2020], `sampling event` cite:[fegraus-2011] and `session` are temporal deployment groups. `subproject` cite:[emammal-design], `survey` cite:[risc-2019,camerabase] and `tags` are thematic deployment groups. `study areas` cite:[newkirk-2016] can be considered a deployment group or <<project>> in its own right. {deployments-deploymentGroups} in Camtrap DP. See also <<section-deployment-groups>>."
-msgstr "空間的、時間的、またはテーマ別の基準に基づく<<deployment,設置>>の論理的グループ化。設置は複数の設置グループに属することができます。`array` cite:[oconnor-2017]、`camera trap array` cite:[meek-2014]、`cluster` cite:[risc-2019]、`paired deployment` cite:[kolowski-2017]、`site`と`strata` cite:[sun-2021]は空間的な設置グループです。`sampling campaign` cite:[lamelas-2020]、`sampling event` cite:[fegraus-2011]および`session`は時間的な設置グループです。`subproject` cite:[emammal-design]、`survey` cite:[risc-2019,camerabase]および`tags`はテーマ別設置グループです。`study areas` cite:[newkirk-2016]は、それ自体が設置グループまたは <<project,プロジェクト>>と見なされることがあります。Camtrap DPでは、{deployments-deploymentGroups}に相当します。<<section-deployment-groups>>も参照してください。"
+msgstr "空間的、時間的、またはテーマ別の基準に基づく<<deployment,設置>>の論理的グループ化。設置は複数の設置グループに属することができます。 `array` cite:[oconnor-2017]、 `camera trap array` cite:[meek-2014]、 `cluster` cite:[risc-2019]、 `paired deployment` cite:[kolowski-2017]、 `site` と `strata` cite:[sun-2021]は空間的な設置グループです。 `sampling campaign` cite:[lamelas-2020]、 `sampling event` cite:[fegraus-2011]および `session` は時間的な設置グループです。 `subproject` cite:[emammal-design]、 `survey` cite:[risc-2019,camerabase]および `tags`はテーマ別設置グループです。 `study areas` cite:[newkirk-2016]は、それ自体が設置グループまたは <<project,プロジェクト>>と見なされることがあります。Camtrap DPでは、{deployments-deploymentGroups}に相当します。<<section-deployment-groups>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:48
@@ -4385,7 +4385,7 @@ msgstr "[[habitat-type]]ハビタットタイプ"
 #. type: Plain text
 #: glossary.en.adoc:65
 msgid "Categorical description of the environment and vegetation of a <<location>>. Classification systems exist to express habitat cite:[eunis-habitat,iucn-habitat] or vegetation type cite:[us-vegetation]. {deployments-habitat} in Camtrap DP."
-msgstr "<<location,場所>>の環境と植生に関するカテゴリによる説明。分類システムとして、ハビタット（European Environment Agency EEA 2021; IUCN 2019）または植生タイプ cite:[us-vegetation]が存在します。Camtrap DPでは、{deployments-habitat}に相当します。"
+msgstr "<<location,場所>>の環境と植生に関するカテゴリによる説明。分類システムとして、ハビタット cite:[eunis-habitat,iucn-habitat]または植生タイプ cite:[us-vegetation]が存在します。Camtrap DPでは、{deployments-habitat}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:66
@@ -4429,7 +4429,7 @@ msgstr "[[location]]場所"
 #. type: Plain text
 #: glossary.en.adoc:73
 msgid "Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` cite:[newkirk-2016], `station` cite:[berkel-2014,camera-trap-manager], `project station` cite:[wildcam-project] or `trap station` cite:[camelot]. Deployment location with a {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, and {deployments-coordinateUncertainty} in Camtrap DP. See also <<section-location>>."
-msgstr "<<deployment,設置された>> <<camera,カメラ>>が位置する物理的な場所。名前および/または識別子と特定の参照システム（例：WGS84の10進法の緯度と経度）で座標を記述できます。また、`camera location` cite:[newkirk-2016]、`station` cite:[berkel-2014,camera-trap-manager]、`project station` cite:[wildcam-project]、または`trap station` cite:[camelot]とも呼ばれます。Camtrap DPでは、{deployments-locationName}、{deployments-locationID}、{deployments-latitude}、{deployments-longitude}、および{deployments-coordinateUncertainty}に相当します。<<section-location>>も参照してください。"
+msgstr "<<deployment,設置された>> <<camera,カメラ>>が位置する物理的な場所。名前および/または識別子と特定の参照システム（例：WGS84の10進法の緯度と経度）で座標を記述できます。また、 `camera location` cite:[newkirk-2016]、 `station` cite:[berkel-2014,camera-trap-manager]、 `project station` cite:[wildcam-project]、または `trap station` cite:[camelot]とも呼ばれます。Camtrap DPでは、{deployments-locationName}、{deployments-locationID}、{deployments-latitude}、{deployments-longitude}、および{deployments-coordinateUncertainty}に相当します。<<section-location>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:74
@@ -4451,7 +4451,7 @@ msgstr "[[media]]メディア"
 #. type: Plain text
 #: glossary.en.adoc:77
 msgid "<<media-file,Media files>> (plural) captured by a <<camera>>. Also referred to as `photos` cite:[newkirk-2016]. {media} in Camtrap DP."
-msgstr "<<camera,カメラ>>によって撮影された<<media-file,メディアファイル>>（複数形）。 `photos`とも呼ばれます cite:[newkirk-2016]。Camtrap DPでは、{media}に相当します。"
+msgstr "<<camera,カメラ>>によって撮影された<<media-file,メディアファイル>>（複数形）。 `photos` とも呼ばれます cite:[newkirk-2016]。Camtrap DPでは、{media}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:78
@@ -4473,7 +4473,7 @@ msgstr "[[media-type]]メディアタイプ"
 #. type: Plain text
 #: glossary.en.adoc:81
 msgid "Standardized expression of a file format (e.g. `image/jpeg` for an <<image>>). Formerly known as MIME type. {media-fileMediatype} in Camtrap DP."
-msgstr "ファイル形式の標準化された表現（例：<<image,静止画>>の場合は`image/jpeg` ）。以前はMIMEタイプとして知られていました。Camtrap DPでは、{media-fileMediatype}に相当します。"
+msgstr "ファイル形式の標準化された表現（例：<<image,静止画>>の場合は `image/jpeg` ）。以前はMIMEタイプとして知られていました。Camtrap DPでは、{media-fileMediatype}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:82
@@ -4517,7 +4517,7 @@ msgstr "[[participant]]参加者"
 #. type: Plain text
 #: glossary.en.adoc:89
 msgid "Person associated with a <<project>>, performing out one or more <<role,roles>>. Participant information typically includes name and contact information and is subject to <<GDPR>>. <<organization,Organizations>> can also be considered participants. Also referred to as `contributor`, sometimes `user`. A participant is a {package-contributors} in Camtrap DP. See also <<section-participants-and-roles>>."
-msgstr "<<project,プロジェクト>>に関連する人物で、1つ以上の<<role,役割>>を果たします。参加者情報には通常、名前と連絡先の情報が含まれ、<<GDPR>>の対象となります。<<organization,組織>>も参加者と見なされることがあります。また、contributor、時にはuserとも呼ばれます。Camtrap DPでは、{package-contributors}に相当します。<<section-participants-and-roles>>も参照してください。"
+msgstr "<<project,プロジェクト>>に関連する人物で、1つ以上の<<role,役割>>を果たします。参加者情報には通常、名前と連絡先の情報が含まれ、<<GDPR>>の対象となります。<<organization,組織>>も参加者と見なされることがあります。また、 `contributor`、時には `user`とも呼ばれます。Camtrap DPでは、{package-contributors}に相当します。<<section-participants-and-roles>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:90
@@ -4528,7 +4528,7 @@ msgstr "[[role]]役割"
 #. type: Plain text
 #: glossary.en.adoc:91
 msgid "Function carried out by a <<participant>> in a <<project>>, such as project lead, data manager or volunteer <<classification,classifying>> media. Participants can have multiple roles and roles are typically associated with different rights in a <<data-management-system,data management system>> (e.g. the right to invite new participants). Also referred to as `participant type`. {package-contributors-role} in Camtrap DP. See also <<section-participants-and-roles>>."
-msgstr "<<project,プロジェクト>>における<<participant,参加者>>の役割。例えば、プロジェクトリーダー、データマネージャー、メディアを<<classification,分類する>>ボランティア。参加者は複数の役割を持つことができ、役割は通常、<<data-management-system,データ管理システム内>>の異なる権利（例：新しい参加者を招待する権利）に関連付けられます。participant typeとも呼ばれます。Camtrap DPでは、{package-contributors-role}に相当します。<<section-participants-and-roles>>も参照してください。"
+msgstr "<<project,プロジェクト>>における<<participant,参加者>>の役割。例えば、プロジェクトリーダー、データマネージャー、メディアを<<classification,分類する>>ボランティア。参加者は複数の役割を持つことができ、役割は通常、<<data-management-system,データ管理システム内>>の異なる権利（例：新しい参加者を招待する権利）に関連付けられます。 `participant type`とも呼ばれます。Camtrap DPでは、{package-contributors-role}に相当します。<<section-participants-and-roles>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:92
@@ -4539,7 +4539,7 @@ msgstr "[[project]]プロジェクト"
 #. type: Plain text
 #: glossary.en.adoc:93
 msgid "Scientific investigation by a number of <<participant,participants>>, with a defined objective, methodology, and taxonomical, spatial and temporal scope. The objective of camera trap projects is typically to study and understand wildlife. Also referred to as `study`. {package-project} in Camtrap DP, where a dataset is associated with one and only one project. See also <<section-project-metadata>>."
-msgstr "複数の<<participant,参加者>>による科学的調査で、定義された目的、方法論、および分類学的、空間的、時間的範囲を持ちます。カメラトラッププロジェクトの目的は通常、野生動物を研究し理解することです。また、`study`とも呼ばれます。Camtrap DPでは、{package-project}に相当し、データセットは1つのプロジェクトにのみ関連付けられます。<<section-project-metadata>>も参照してください。"
+msgstr "複数の<<participant,参加者>>による科学的調査で、定義された目的、方法論、および分類学的、空間的、時間的範囲を持ちます。カメラトラッププロジェクトの目的は通常、野生動物を研究し理解することです。また、 `study` とも呼ばれます。Camtrap DPでは、{package-project}に相当し、データセットは1つのプロジェクトにのみ関連付けられます。<<section-project-metadata>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:94
@@ -4594,7 +4594,7 @@ msgstr "[[sequence]]シークエンス"
 #. type: Plain text
 #: glossary.en.adoc:103
 msgid "Series of <<media-file,media files>> taken in rapid succession but separated by a time interval less than the set <<independence-interval,independence interval>> and forming an animated record of an <<event>>. Also referred to as `series` cite:[wildtrax]."
-msgstr "設定された<<independence-interval,独立間隔>>よりも短い時間間隔で急速に連続撮影された<<media-file,メディアファイル>>のシリーズで、<<event,イベント>>のアニメーション記録を形成します。また、`series`とも呼ばれます cite:[wildtrax]。"
+msgstr "設定された<<independence-interval,独立間隔>>よりも短い時間間隔で急速に連続撮影された<<media-file,メディアファイル>>のシリーズで、<<event,イベント>>のアニメーション記録を形成します。また、 `series`とも呼ばれます cite:[wildtrax]。"
 
 #. type: Labeled list
 #: glossary.en.adoc:104
