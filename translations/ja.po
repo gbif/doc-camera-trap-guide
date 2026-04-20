@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-17 10:45\n"
+"PO-Revision-Date: 2026-04-20 06:12\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -484,7 +484,7 @@ msgstr "これらのデータは、個人の好みや使用する<<data-manageme
 #: 300.en.adoc:26
 #, no-wrap
 msgid "Class diagram for camera trap data, constituting of different classes (boxes) and relationships (lines). Mandatory classes are dark blue, optional classes light blue. The line ends represent the cardinality of the relationship, with `0|` zero or one, `0<` zero to many, `|<` one to many, and `||` exactly one. A deployment for example has zero to many media, while a media belongs to exactly one deployment."
-msgstr "カメラトラップデータのクラス図は、異なるクラス（ボックス）とリレーションシップ（ライン）で構成される。必須クラスは濃い青、オプションクラスは薄い青で示される。ラインの端はリレーションシップの多重度を表しており、0| はゼロまたは1つ、0< はゼロから多数、|< は1つから多数、|| はちょうど1つを意味する。例えば、deploymentにはゼロから多数のmediaがあり、mediaはちょうど1つのdeploymentに属す。"
+msgstr "カメラトラップデータのクラス図は、異なるクラス（ボックス）とリレーションシップ（ライン）で構成される。必須クラスは濃い青、オプションクラスは薄い青で示される。ラインの端はリレーションシップの多重度を表しており、 `0|` はゼロまたは1つ、 `0<` はゼロから多数、 `|<` は1つから多数、 `||` はちょうど1つを意味する。例えば、deploymentにはゼロから多数のmediaがあり、mediaはちょうど1つのdeploymentに属す。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: 300.en.adoc:28
@@ -608,7 +608,7 @@ msgstr "データ管理システムは通常、この情報を以下のクラス
 #: 300.en.adoc:58
 #, no-wrap
 msgid "Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. A substantial part of its metadata are derived from the project metadata."
-msgstr "GBIFで公開されているlink++https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd++[カメラトラップデータセット] cite:[mica-dataset]のスクリーンショット。"
+msgstr "GBIFで公開されている link++https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd++[カメラトラップデータセット] cite:[mica-dataset]のスクリーンショット。"
 
 #. type: Target for macro image
 #: 300.en.adoc:60
@@ -1200,7 +1200,7 @@ msgstr "ファイルをアルファベット順に並べ、さらに時間順に
 #. type: Plain text
 #: 300.en.adoc:403
 msgid "If you are naming files, use snake case (`image_1`), hyphen case (`image-1`) or camel case (`image1` or `videoFile1`) rather than white space (`image 1`). Avoid special characters."
-msgstr "ファイル名を付ける場合は、スネークケース（`image_1`）、ハイフンケース（`image-1`）、またはキャメルケース（`image1`または`videoFile1`）を使用し、空白（`image 1`）は避けてください。特殊文字も避けてください。"
+msgstr "ファイル名を付ける場合は、スネークケース（ `image_1`）、ハイフンケース（ `image-1`）、またはキャメルケース（ `image1` または `videoFile1`）を使用し、空白（ `image 1`）は避けてください。特殊文字も避けてください。"
 
 #. type: Plain text
 #: 300.en.adoc:404
@@ -1395,7 +1395,7 @@ msgstr "単語を区切る際にはスネークケース（`deployment_location_
 #. type: Plain text
 #: 300.en.adoc:513
 msgid "Avoid abbreviations to mitigate the risk of confusion, except for well-known words like `ID` for identifier."
-msgstr "略語は混乱のリスクを軽減するために避けてください。ただし、識別子を示す`ID` のように、よく知られている単語は例外です。"
+msgstr "略語は混乱のリスクを軽減するために避けてください。ただし、識別子を示す `ID` のように、よく知られている単語は例外です。"
 
 #. type: Plain text
 #: 300.en.adoc:514
@@ -3222,7 +3222,7 @@ msgstr "term:dwc[dwc:collectionCode]"
 #. type: Plain text
 #: 400.en.adoc:491
 msgid "The name or acronym identifying the collection or dataset the record was derived from. Traditionally used to indicate a physical collection, we recommend to provide the name of the <<data-management-system,data management system>> (i.e. virtual collection) the record was derived from. This allows users to search for records from the same data management system across datasets. Recommended values: `Agouti`, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. In Camtrap DP, this term corresponds with the `title` of the (applicable) source in {package-sources}."
-msgstr "記録が由来するコレクションまたはデータセットを識別する名前または略語です。従来は物理的なコレクションを示しましたが、記録が由来する<<data-management-system,データ管理システム>>（すなわち、仮想コレクション）の名前を提供することを推奨します。これにより、ユーザーは同じデータ管理システムからの記録をデータセット全体で検索できます。推奨値：`Agouti`、`Camelot`、`eMammal`、`Trapper`、 `Wildlife Insights`など。Camtrap DPでは、この用語は{package-sources}の（該当する）ソースのタイトルに相当します。"
+msgstr "記録が由来するコレクションまたはデータセットを識別する名前または略語です。従来は物理的なコレクションを示しましたが、記録が由来する<<data-management-system,データ管理システム>>（すなわち、仮想コレクション）の名前を提供することを推奨します。これにより、ユーザーは同じデータ管理システムからの記録をデータセット全体で検索できます。推奨値： `Agouti`、 `Camelot`、 `eMammal`、 `Trapper`、 `Wildlife Insights`など。Camtrap DPでは、この用語は{package-sources}の（該当する）ソースのタイトルに相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:493
