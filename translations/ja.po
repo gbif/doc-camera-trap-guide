@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-20 06:12\n"
+"PO-Revision-Date: 2026-04-21 23:50\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -608,7 +608,7 @@ msgstr "データ管理システムは通常、この情報を以下のクラス
 #: 300.en.adoc:58
 #, no-wrap
 msgid "Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. A substantial part of its metadata are derived from the project metadata."
-msgstr "GBIFで公開されている link++https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd++[カメラトラップデータセット] cite:[mica-dataset]のスクリーンショット。"
+msgstr "GBIFで公開されている link:++https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd++[カメラトラップデータセット] cite:[mica-dataset]のスクリーンショット。"
 
 #. type: Target for macro image
 #: 300.en.adoc:60
