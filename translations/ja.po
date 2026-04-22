@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-20 06:12\n"
+"PO-Revision-Date: 2026-04-22 00:54\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -109,7 +109,7 @@ msgstr "ライセンス"
 #. type: Plain text
 #: colophon.en.adoc:33
 msgid "The document _Best Practices for Managing and Publishing Camera Trap Data_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr "カメラトラップデータの管理および公開のベストプラクティスは、link++https://creativecommons.org/licenses/by-sa/4.0++[クリエイティブ・コモンズの表示-継承 4.0 国際ライセンス]の下に提供される。"
+msgstr "カメラトラップデータの管理および公開のベストプラクティスは、link:++https://creativecommons.org/licenses/by-sa/4.0++[クリエイティブ・コモンズの表示-継承 4.0 国際ライセンス]の下に提供される。"
 
 #. type: Title ===
 #: colophon.en.adoc:34
@@ -608,7 +608,7 @@ msgstr "データ管理システムは通常、この情報を以下のクラス
 #: 300.en.adoc:58
 #, no-wrap
 msgid "Screenshot of a https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd[camera trap dataset] published on GBIF cite:[mica-dataset]. A substantial part of its metadata are derived from the project metadata."
-msgstr "GBIFで公開されている link++https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd++[カメラトラップデータセット] cite:[mica-dataset]のスクリーンショット。"
+msgstr "GBIFで公開されている link:++https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd++[カメラトラップデータセット] cite:[mica-dataset]のスクリーンショット。"
 
 #. type: Target for macro image
 #: 300.en.adoc:60
@@ -625,7 +625,7 @@ msgstr "参加者と役割"
 #. type: Plain text
 #: 300.en.adoc:66
 msgid "A <<participant>> is a person associated with a camera trap project. Information typically captured about a participant is their first name, last name, email, and ORCID. The role(s) of a participant is defined in relation to a project (e.g. principal investigator, contact person) and organization (e.g. researcher) (see <<figure-class-diagram>>). Different names are used for similar roles (see <<table-roles>>). We recommend simplifying those to a limited set of controlled values (e.g. {package-contributors-role}) when publishing data."
-msgstr "<<participant,参加者>>とは、カメラトラッププロジェクトに関連する人物のことです。参加者に関して通常記録される情報には、名前、姓、メールアドレス、ORCIDが含まれます。参加者の役割は、プロジェクト（例：主任研究員、問い合わせ先）および組織（例：研究者）に関連して定義されます（<<figure-class-diagram>>参照）。同様の役割に対して異なる名称が使用されることがあります（<<table-roles>>参照）。データを公開する際には、あらかじめ決められた一連の制御値に簡略化することを推奨します（例：{package-contributors-role}）。"
+msgstr "<<participant,参加者>>とは、カメラトラッププロジェクトに関連する人物のことです。参加者に関して通常記録される情報には、名前、姓、メールアドレス、ORCIDが含まれます。参加者の役割は、プロジェクト（例. 主任研究員、問い合わせ先）および組織（例. 研究者）に関連して定義されます（<<figure-class-diagram>>参照）。同様の役割に対して異なる名称が使用されることがあります（<<table-roles>>参照）。データを公開する際には、あらかじめ決められた一連の制御値に簡略化することを推奨します（例. {package-contributors-role}）。"
 
 #. type: Block title
 #: 300.en.adoc:68
@@ -797,7 +797,7 @@ msgstr "<<media-file,メディアファイル>>は、カメラトラップが収
 #. type: Plain text
 #: 300.en.adoc:158
 msgid "An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single <<sequence>>/<<event>> (see <<table-sequence>>)."
-msgstr "よく使われる妥協策は、カメラがトリガーされたときに一連の静止画を撮影することです（例：1秒間隔で10枚の静止画）。メディアファイルを処理する際に、関連する静止画を<<sequence,シーケンス>>にまとめることができます。シーケンスは、単一の<<trigger,トリガー>>から生じる静止画だけでなく、<<independence-interval,設定した独立間隔>>（例：120秒）内に収まる連続したトリガーもまとめられます。このようにして、継続的な行動が単一の<<sequence,シーケンス>>/<<event,イベント>>/に撮影されます（<<table-sequence>>参照）。"
+msgstr "よく使われる妥協策は、カメラがトリガーされたときに一連の静止画を撮影することです（例. 1秒間隔で10枚の静止画）。メディアファイルを処理する際に、関連する静止画を<<sequence,シーケンス>>にまとめることができます。シーケンスは、単一の<<trigger,トリガー>>から生じる静止画だけでなく、<<independence-interval,設定した独立間隔>>（例. 120秒）内に収まる連続したトリガーもまとめられます。このようにして、継続的な行動が単一の<<sequence,シーケンス>>/<<event,イベント>>/に撮影されます（<<table-sequence>>参照）。"
 
 #. type: Block title
 #: 300.en.adoc:159
@@ -1195,7 +1195,7 @@ msgstr "メディアのファイル名の変更は避けてください。むし
 #. type: Plain text
 #: 300.en.adoc:402
 msgid "Make sure that ordering files alphabetically also sorts them chronologically. This is likely already the case for sequentially assigned file names (e.g. `IMG_4545.jpg`). Otherwise, start the name with the date (`YYYYMMDD`) or date-time (`YYYYMMDD_HHMMSS`). This can also be useful for directory names."
-msgstr "ファイルをアルファベット順に並べ、さらに時間順に並べてください。これは、順次割り当てられたファイル名において、すでにそうなっている可能性があります（例：`IMG_4545.jpg`）。そうでない場合、名前を日付（`YYYYMMDD`）または日時（`YYYYMMDD_HHMMSS`）で始めてください。これはディレクトリ名にも有用です。"
+msgstr "ファイルをアルファベット順に並べ、さらに時間順に並べてください。これは、順次割り当てられたファイル名において、すでにそうなっている可能性があります（例. `IMG_4545.jpg`）。そうでない場合、名前を日付（`YYYYMMDD`）または日時（`YYYYMMDD_HHMMSS`）で始めてください。これはディレクトリ名にも有用です。"
 
 #. type: Plain text
 #: 300.en.adoc:403
@@ -1271,7 +1271,7 @@ msgstr "<<deployment, 設置>>とは<<camera,カメラ>>の空間的および時
 #. type: Plain text
 #: 300.en.adoc:433
 msgid "Data management systems typically organize deployments into the following classes: <<deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>)."
-msgstr "データ管理システムは通常、設置を以下のクラスに整理します：<<deployment,設置>>, <<location,場所>>, <<camera,カメラ>>, <<deployment-group,設置グループ>> and <<subproject,サブプロジェクト>> （<<figure-class-diagram>>参照）。"
+msgstr "データ管理システムは通常、設置を以下のクラスに整理します：<<deployment,設置>>、<<location,場所>>、<<camera,カメラ>>、<<deployment-group,設置グループ>>、<<subproject,サブプロジェクト>> （<<figure-class-diagram>>参照）。"
 
 #. type: Block title
 #: 300.en.adoc:435
@@ -1380,7 +1380,7 @@ msgstr "カラム名"
 #. type: Plain text
 #: 300.en.adoc:509
 msgid "Deployment information is best recorded in a <<data-management-system,data management system>>. If you manage your deployment information elsewhere (e.g. a spreadsheet), then we recommend the following column naming conventions:"
-msgstr "設置情報は<<data-management-system,データ管理システム>>に記録するのが最適です。もし他の場所（例：スプレッドシート）で設置情報を管理する場合、以下の列名の命名規則を推奨します："
+msgstr "設置情報は<<data-management-system,データ管理システム>>に記録するのが最適です。もし他の場所（例. スプレッドシート）で設置情報を管理する場合、以下の列名の命名規則を推奨します："
 
 #. type: Plain text
 #: 300.en.adoc:511
@@ -1400,7 +1400,7 @@ msgstr "略語は混乱のリスクを軽減するために避けてください
 #. type: Plain text
 #: 300.en.adoc:514
 msgid "Avoid including units and data types. Describe these elsewhere (e.g. in a separate sheet, README document or https://specs.frictionlessdata.io/table-schema/[Table Schema]), together with the column definition and controlled values (see <<table-readme>>)."
-msgstr "単位やデータ型を含めないでください。これらの情報は別の場所（例：別のシート、READMEドキュメント、または https://specs.frictionlessdata.io/table-schema/[テーブルスキーマ]）で、列の定義や制御値と一緒に説明してください（<<table-readme>>参照）。"
+msgstr "単位やデータ型を含めないでください。これらの情報は別の場所（例. 別のシート、READMEドキュメント、または https://specs.frictionlessdata.io/table-schema/[テーブルスキーマ]）で、列の定義や制御値と一緒に説明してください（<<table-readme>>参照）。"
 
 #. type: delimited block -
 #: 300.en.adoc:521
@@ -1569,7 +1569,7 @@ msgstr "座標は、正に設置する場所でGPS受信機を使用して決定
 #. type: Plain text
 #: 300.en.adoc:604
 msgid "The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location[extent] of the location. Note that for camera traps this includes the <<detection-distance,detection distance>>, which is typically between 5 and 20 m."
-msgstr "場所のlink++https://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location++[範囲]。カメラトラップの場合、<<detection-distance,検出距離>>（通常は5〜20メートル）が含まれることに注意して下さい。"
+msgstr "場所のhttps://docs.gbif.org/georeferencing-best-practices/1.0/en/#extent-of-a-location[範囲]。カメラトラップの場合、<<detection-distance,検出距離>>（通常は5〜20メートル）が含まれることに注意して下さい。"
 
 #. type: Plain text
 #: 300.en.adoc:605
@@ -1579,7 +1579,7 @@ msgstr "GPS受信機またはジオリファレンスリソースの精度。ほ
 #. type: Plain text
 #: 300.en.adoc:606
 msgid "The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157 m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-wieczorek-2020])."
-msgstr "https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[座標の精度]。精度が低いほど（赤道に近いほど）不確実性が高くなります。例えば、精度が0.001度のWGS84座標は、赤道で157メートルの不確実性があります（citenp:[chapman-wieczorek-2020]のlink++https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty++[表3]参照）。"
+msgstr "https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[座標の精度]。精度が低いほど（赤道に近いほど）不確実性が高くなります。例えば、精度が0.001度のWGS84座標は、赤道で157メートルの不確実性があります（citenp:[chapman-wieczorek-2020]のhttps://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3]参照）。"
 
 #. type: Plain text
 #: 300.en.adoc:607
@@ -1621,7 +1621,7 @@ msgstr "設置グループ"
 #. type: Plain text
 #: 300.en.adoc:623
 msgid "It can be useful to categorize deployments in <<deployment-group,deployment groups>> to facilitate their data management and analysis. A deployment group can be thematic (e.g. paired deployment), spatial (e.g. private land, open woodland) or temporal (e.g. summer 2005) in nature (see <<figure-deployment-groups>>). A single deployment can belong to zero or more deployment groups.  <<subproject,Subprojects>> are a special kind of deployment group used to subdivide very large projects containing many thousands of deployments. This facilitates their management. A single deployment can belong to a single subproject."
-msgstr "設置を<<deployment-group,設置グループ>>に分類することは、データの管理と分析を容易にするために役立ちます。設置グループは、本質的に、テーマ別（例：ペアでの設置）、空間別（例：私有地、開放林地）、または時間別（例：2005年夏）に分類できます（<<figure-deployment-groups>>参照）。単一の設置は、0個以上の設置グループに属することができます。<<subproject,サブプロジェクト>>は、何千もの設置を含む非常に大規模なプロジェクトを細分化するために使用される特別な種類の設置グループです。これにより、管理が容易になります。単一の設置は、単一のサブプロジェクトに属することができます。"
+msgstr "設置を<<deployment-group,設置グループ>>に分類することは、データの管理と分析を容易にするために役立ちます。設置グループは、本質的に、テーマ別（例. ペアでの設置）、空間別（例. 私有地、開放林地）、または時間別（例. 2005年夏）に分類できます（<<figure-deployment-groups>>参照）。単一の設置は、0個以上の設置グループに属することができます。<<subproject,サブプロジェクト>>は、何千もの設置を含む非常に大規模なプロジェクトを細分化するために使用される特別な種類の設置グループです。これにより、管理が容易になります。単一の設置は、単一のサブプロジェクトに属することができます。"
 
 #. type: Block title
 #: 300.en.adoc:624
@@ -1735,7 +1735,7 @@ msgstr "<<observation,観察>>は、<<media-file,メディアファイル>>上�
 #. type: Plain text
 #: 300.en.adoc:655
 msgid "Observations are best recorded in a <<data-management-system,data management system>>, which will typically organize observations into the following classes: <<observation>>, <<observation-type,observation type>> and <<sequence>> (see <<figure-class-diagram>>). If you manage your observation information elsewhere (e.g. a spreadsheet), then we recommend to follow the same <<section-column-naming,column naming conventions>> as for deployments."
-msgstr "観察は<<data-management-system,データ管理システム>>に記録するのが最適であり、通常、観察を次のクラスに整理します：<<observation,観察>>、<<observation-type,観察タイプ>>、およびシーケンス<<sequence>>（<<figure-class-diagram>>参照）。観察情報を他の場所（例：スプレッドシート）で管理する場合は、設置と同じ<<section-column-naming,列名命名規則>>に従うことを推奨します。"
+msgstr "観察は<<data-management-system,データ管理システム>>に記録するのが最適であり、通常、観察を次のクラスに整理します：<<observation,観察>>、<<observation-type,観察タイプ>>、およびシーケンス<<sequence>>（<<figure-class-diagram>>参照）。観察情報を他の場所（例. スプレッドシート）で管理する場合は、設置と同じ<<section-column-naming,列名命名規則>>に従うことを推奨します。"
 
 #. type: Block title
 #: 300.en.adoc:657
@@ -1811,17 +1811,17 @@ msgstr "興味の対象が人間または車両であるか、それとも識別
 #. type: Plain text
 #: 300.en.adoc:699
 msgid "Object(s) of interest is an animal, identified at a high taxonomic level (e.g. a rodent)."
-msgstr "興味の対象が動物であり、高次分類群レベルで識別される（例：げっ歯類）。"
+msgstr "興味の対象が動物であり、高次分類群レベルで識別される（例. げっ歯類）。"
 
 #. type: Plain text
 #: 300.en.adoc:700
 msgid "Animal is identified at species or subspecies level (e.g. _Sus scrofa_)."
-msgstr "動物が種または亜種レベルで識別される（例：_Sus scrofa_）。"
+msgstr "動物が種または亜種レベルで識別される（例. _Sus scrofa_）。"
 
 #. type: Plain text
 #: 300.en.adoc:701
 msgid "Animal is identified as a known individual (e.g. wolf Noëlla)."
-msgstr "動物が既知の個体として識別される（例：オオカミのNoëlla）。"
+msgstr "動物が既知の個体として識別される（例. オオカミのNoëlla）。"
 
 #. type: Plain text
 #: 300.en.adoc:702
@@ -1956,7 +1956,7 @@ msgstr "コモンネームまたは学名"
 #. type: Plain text
 #: 300.en.adoc:770
 msgid "Media can be classified using common (e.g. roe deer) or scientific names (e.g. _Capreolus capreolus_) for taxa. Common (or vernacular) names are easier to remember and allow for better public engagement. The downside is that they are subject to translation, can vary regionally, sometimes refer to different species (e.g. “elk” in North America refers to _Cervus canadensis_, while in Europe it is used for _Alces alces_) and might not exist for every species or language combination. Scientific names on the other hand follow strict nomenclatural rules, are globally consistent and are not subject to translation. We therefore recommend to always store the scientific name as part of the observation, even if only common names are presented to the user."
-msgstr "メディアは、分類群の一般名（例：ノロジカ）または学名（例：_Capreolus capreolus_）を使用して分類できます。一般名（または現地名）は覚えやすく、市民参加を促すにはよいでしょう。欠点としては、一般名が翻訳の対象であり、地域によって異なり、時には異なる種を指すことがあることです（例：北アメリカでは「elk」は_Cervus canadensis_を指しますが、ヨーロッパでは_Alces alces_を指します）。また、一般名は全ての種や言語に対して存在するわけではありません。一方、学名は厳格な命名規則に従い、世界的に一貫しており、翻訳の対象にはなりません。そのため、ユーザーに一般名のみを提示する場合でも、観察情報の一部として学名を常に保存することを推奨します。"
+msgstr "メディアは、分類群の一般名（例. ノロジカ）または学名（例. _Capreolus capreolus_）を使用して分類できます。一般名（または現地名）は覚えやすく、市民参加を促すにはよいでしょう。欠点としては、一般名が翻訳の対象であり、地域によって異なり、時には異なる種を指すことがあることです（例. 北アメリカでは「elk」は_Cervus canadensis_を指しますが、ヨーロッパでは_Alces alces_を指します）。また、一般名は全ての種や言語に対して存在するわけではありません。一方、学名は厳格な命名規則に従い、世界的に一貫しており、翻訳の対象にはなりません。そのため、ユーザーに一般名のみを提示する場合でも、観察情報の一部として学名を常に保存することを推奨します。"
 
 #. type: Plain text
 #: 300.en.adoc:772
@@ -2095,7 +2095,7 @@ msgstr "Agouti"
 #. type: Plain text
 #: 300.en.adoc:834
 msgid "Agouti cite:[agouti] (https://agouti.eu) is an online system for managing camera trap data. It is maintained by Wageningen University & Research and the Research Institute for Nature and Forest (INBO), based respectively in the Netherlands and Belgium. Agouti is mainly used by European projects and is free to use."
-msgstr "Agouti cite:[agouti]（link++https://agouti.eu++）は、カメラトラップデータを管理するためのオンラインシステムです。オランダのWageningen University & ResearchとベルギーのResearch Institute for Nature and Forest（INBO）によって維持されています。Agoutiは主にヨーロッパのプロジェクトで使用され、無料で利用できます。"
+msgstr "Agouti cite:[agouti]（link:++https://agouti.eu++）は、カメラトラップデータを管理するためのオンラインシステムです。オランダのWageningen University & ResearchとベルギーのResearch Institute for Nature and Forest（INBO）によって維持されています。Agoutiは主にヨーロッパのプロジェクトで使用され、無料で利用できます。"
 
 #. type: Plain text
 #: 300.en.adoc:836
@@ -2116,7 +2116,7 @@ msgstr "Camelot"
 #. type: Plain text
 #: 300.en.adoc:843
 msgid "Camelot cite:[camelot] (https://camelotproject.org/) is a local system for managing camera trap data. It is maintained as a volunteer initiative based in Australia. Camelot is free to use, open source, available for all major operating systems and requires installation. It is typically used as a local desktop application, but can be set up on a server allowing multiple users to connect via their browser. Classification is media-based with the option to classify multiple media at once. AI classification is not offered. Data can be exported in a custom format."
-msgstr "Camelot cite:[camelot]（link++https://camelotproject.org/++）は、カメラトラップデータを管理するためのローカルシステムです。オーストラリアを拠点とするボランティアの取り組みとして維持されています。Camelotは無料で利用でき、オープンソースであり、主要なオペレーティングシステムに全て対応しており、インストールが必要です。通常はローカルデスクトップアプリケーションとして使用されますが、サーバーにセットアップして複数のユーザーがブラウザ経由で接続できるようにすることもできます。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。AI分類は提供されていません。データはカスタム形式でエクスポートできます。"
+msgstr "Camelot cite:[camelot]（link:++https://camelotproject.org/++）は、カメラトラップデータを管理するためのローカルシステムです。オーストラリアを拠点とするボランティアの取り組みとして維持されています。Camelotは無料で利用でき、オープンソースであり、主要なオペレーティングシステムに全て対応しており、インストールが必要です。通常はローカルデスクトップアプリケーションとして使用されますが、サーバーにセットアップして複数のユーザーがブラウザ経由で接続できるようにすることもできます。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。AI分類は提供されていません。データはカスタム形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:845
@@ -2132,7 +2132,7 @@ msgstr "TRAPPER"
 #. type: Plain text
 #: 300.en.adoc:850
 msgid "TRAPPER cite:[trapper] (https://os-conservation.org/projects/trapper) is an online system for managing camera trap data. It is maintained by the Open Science Conservation Fund, based in Poland. TRAPPER is mainly used by European projects and is free to use. The software is open source and requires installation and hosting. Classification is media-based with the option to classify multiple media at once. AI classification is possible, using existing species classification models. Data can be exported as <<camtrap-dp,Camtrap DP>>."
-msgstr "TRAPPER cite:[trapper]（link++https://os-conservation.org/projects/trapper++）は、カメラトラップデータを管理するためのオンラインシステムです。ポーランドに拠点を置くOpen Science Conservation Fundによって維持されています。TRAPPERは主にヨーロッパのプロジェクトで使用され、無料で利用できます。このソフトウェアはオープンソースであり、インストールとホスティングが必要です。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。既存の種分類モデルを利用することで、AI分類が可能です。データは<<camtrap-dp,Camtrap DP>>形式でエクスポートできます。"
+msgstr "TRAPPER cite:[trapper]（link:++https://os-conservation.org/projects/trapper++）は、カメラトラップデータを管理するためのオンラインシステムです。ポーランドに拠点を置くOpen Science Conservation Fundによって維持されています。TRAPPERは主にヨーロッパのプロジェクトで使用され、無料で利用できます。このソフトウェアはオープンソースであり、インストールとホスティングが必要です。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。既存の種分類モデルを利用することで、AI分類が可能です。データは<<camtrap-dp,Camtrap DP>>形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:852
@@ -2148,7 +2148,7 @@ msgstr "Wildlife Insights"
 #. type: Plain text
 #: 300.en.adoc:857
 msgid "Wildlife Insights cite:[wildlife-insights] (https://www.wildlifeinsights.org) is an online system for managing camera trap data. It is maintained by Conservation International, Google and other partners, based in the United States. Wildlife Insights is mainly used by projects in the Americas and uses a tiered subscription model (including free tiers). Uploaded media are automatically classified at media level by AI, using a dedicated species classification model developed by Google. Media containing humans are always hidden from the public. Further classification has the option to classify multiple media at once. Data are stored in the cloud, can be used by Wildlife Insights to train AI and must be made public after a maximum embargo period of maximum 48 months. Project metadata is always available via a public portal. Data can be exported in a custom format, based on CTMS cite:[ctms]."
-msgstr "Wildlife Insights cite:[wildlife-insights]（link++https://www.wildlifeinsights.org++）は、カメラトラップデータを管理するためのオンラインシステムです。アメリカ合衆国に拠点を置くConservation International、Google、およびその他のパートナーによって維持されています。Wildlife Insightsは主にアメリカ大陸のプロジェクトで使用されており、段階的なサブスクリプションモデル（無料プランを含む）を採用しています。アップロードされたメディアは、Googleが開発した専用の種分類モデルを使用して、AIによってメディアレベルで自動的に分類されます。人間を含むメディアは常に非公開になります。さらに、複数のメディアを一度に分類するオプションもあります。データはクラウドに保存され、Wildlife InsightsによってAIの訓練に使用されることがあり、最大48か月のエンバーゴ期間後に公開されます。プロジェクトのメタデータは公共ポータルを通じて常に利用可能です。データはCTMS cite:[ctms]に基づき、カスタム形式でエクスポートできます。"
+msgstr "Wildlife Insights cite:[wildlife-insights]（link:++https://www.wildlifeinsights.org++）は、カメラトラップデータを管理するためのオンラインシステムです。アメリカ合衆国に拠点を置くConservation International、Google、およびその他のパートナーによって維持されています。Wildlife Insightsは主にアメリカ大陸のプロジェクトで使用されており、段階的なサブスクリプションモデル（無料プランを含む）を採用しています。アップロードされたメディアは、Googleが開発した専用の種分類モデルを使用して、AIによってメディアレベルで自動的に分類されます。人間を含むメディアは常に非公開になります。さらに、複数のメディアを一度に分類するオプションもあります。データはクラウドに保存され、Wildlife InsightsによってAIの訓練に使用されることがあり、最大48か月のエンバーゴ期間後に公開されます。プロジェクトのメタデータは公共ポータルを通じて常に利用可能です。データはCTMS cite:[ctms]に基づき、カスタム形式でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:859
@@ -2164,7 +2164,7 @@ msgstr "WildTrax"
 #. type: Plain text
 #: 300.en.adoc:864
 msgid "WildTrax cite:[wildtrax] (https://www.wildtrax.ca/) is an online system for managing camera trap data. It is maintained by the University of Alberta, based in Canada. WildTrax is mainly used by Canadian projects and is free to use (except for very large projects). Classification is media-based with the option to classify multiple media at once. AI classification is possible, but only at a broad level (blanks, animals, vehicles), species classification is not (yet) offered. Data are stored in the cloud. Project metadata can be made available via a public portal. Data can be exported in a custom format (with associated R package)."
-msgstr "WildTrax cite:[wildtrax]（link++https://www.wildtrax.ca/++）は、カメラトラップデータを管理するためのオンラインシステムです。カナダに拠点を置くUniversity of Albertaによって維持されています。WildTraxは主にカナダのプロジェクトで使用されており、非常に大規模なプロジェクトを除き、無料で利用できます。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。AI分類も可能ですが、広範なレベル（ブランク、動物、車両）のみで、種の分類は（まだ）提供されていません。データはクラウドに保存されます。プロジェクトのメタデータは公共ポータルを通じて公開することができます。データはカスタム形式（関連するRパッケージ付き）でエクスポートできます。"
+msgstr "WildTrax cite:[wildtrax]（link:++https://www.wildtrax.ca/++）は、カメラトラップデータを管理するためのオンラインシステムです。カナダに拠点を置くUniversity of Albertaによって維持されています。WildTraxは主にカナダのプロジェクトで使用されており、非常に大規模なプロジェクトを除き、無料で利用できます。分類はメディアベースで、一度に複数のメディアを分類するオプションがあります。AI分類も可能ですが、広範なレベル（ブランク、動物、車両）のみで、種の分類は（まだ）提供されていません。データはクラウドに保存されます。プロジェクトのメタデータは公共ポータルを通じて公開することができます。データはカスタム形式（関連するRパッケージ付き）でエクスポートできます。"
 
 #. type: Plain text
 #: 300.en.adoc:866
@@ -2376,7 +2376,7 @@ msgstr "ベルギーで2023年に記録されたマスクラットの全ての�
 #. type: Plain text
 #: 400.en.adoc:16
 msgid "The easiest way to make a dataset **findable** is by providing meaningful metadata (e.g. title, description and keywords) and depositing it in a research repository (such as the IPT cite:[robertson-2014] in combination with GBIF). Repositories provide cross-dataset search functionalities and will assign each dataset a <<section-stable-unique-identifiers,unique identifier>> so that it can be uniquely referenced and **accessed**. Adding an open <<section-license,license>> to the dataset will allow users to access and **reuse** the data (in addition to the metadata), while <<#section-project-metadata,rich metadata>> (e.g. methodology) will enable users to determine if the dataset is fit for their purpose. The most challenging aspect is to make a dataset **interoperable** so that it can easily be integrated with other data. This can be achieved by using standards: research repositories will standardize metadata and <<camtrap-dp,Camtrap DP>> can be used to standardize the data. See also citenp:[bubnicki-2023] (section \"Is Camtrap DP FAIR?\") for more information on how Camtrap DP enables FAIR data exchange."
-msgstr "データセットを**見つけやすく**する最も簡単な方法は、意味のあるメタデータ（例：タイトル、説明、キーワード）を提供し、研究リポジトリ（例えば、GBIF の場合は、IPT cite:[robertson-2014]）に格納することです。リポジトリはデータセット横断検索機能を提供し、各データセットに<<section-stable-unique-identifiers,一意の識別子>>を割り当てるため、データセットを一意に参照および**アクセス**できます。データセットにオープン<<section-license,ライセンス>>を付与することで、ユーザーはメタデータに加えてデータにアクセスして**再利用**できるようになります。<<#section-project-metadata,豊富なメタデータ>>（例：方法論）は、データセットが目的に適しているかどうかをユーザーが判断するのに役立ちます。最も難しい側面は、データセットを他のデータと簡単に統合できるように**相互運用可能**にすることです。これは標準を使用することで達成できます。研究リポジトリはメタデータを標準化し、データを標準化するために<<camtrap-dp,Camtrap DP>>が使用できます。Camtrap DPがどのようにしてFAIRデータ交換を可能にするか、に関する詳細は、citenp:[bubnicki-2023]（「Is Camtrap DP FAIR?」のセクション）も参照してください。"
+msgstr "データセットを**見つけやすく**する最も簡単な方法は、意味のあるメタデータ（例. タイトル、説明、キーワード）を提供し、研究リポジトリ（例えば、GBIF の場合は、IPT cite:[robertson-2014]）に格納することです。リポジトリはデータセット横断検索機能を提供し、各データセットに<<section-stable-unique-identifiers,一意の識別子>>を割り当てるため、データセットを一意に参照および**アクセス**できます。データセットにオープン<<section-license,ライセンス>>を付与することで、ユーザーはメタデータに加えてデータにアクセスして**再利用**できるようになります。<<#section-project-metadata,豊富なメタデータ>>（例. 方法論）は、データセットが目的に適しているかどうかをユーザーが判断するのに役立ちます。最も難しい側面は、データセットを他のデータと簡単に統合できるように**相互運用可能**にすることです。これは標準を使用することで達成できます。研究リポジトリはメタデータを標準化し、データを標準化するために<<camtrap-dp,Camtrap DP>>が使用できます。Camtrap DPがどのようにしてFAIRデータ交換を可能にするか、に関する詳細は、citenp:[bubnicki-2023]（「Is Camtrap DP FAIR?」のセクション）も参照してください。"
 
 #. type: Title ===
 #: 400.en.adoc:18
@@ -2424,7 +2424,7 @@ msgstr "機密情報"
 #. type: Plain text
 #: 400.en.adoc:35
 msgid "Camera trap data may contain sensitive information, such as personal information (e.g. names or images of living persons), the occurrence of sensitive (e.g. rare or endangered) species, the locations of actively managed cameras, or even notes and comments not intended for the public. We recommend following the best practices in citenp:[chapman-2020], which favour generalization over restriction of the record as a whole."
-msgstr "カメラトラップデータには、個人情報（例：生きている人の名前や静止画）、センシティブな種（例：希少種や絶滅危惧種）のオカレンス、積極的に管理されているカメラの位置、または公開を意図しないメモやコメントなどの機密情報が含まれている場合があります。citenp:[chapman-2020]のベストプラクティスに従い、レコード全体の制限よりも情報の一般化を推奨します。"
+msgstr "カメラトラップデータには、個人情報（例. 生きている人の名前や静止画）、センシティブな種（例. 希少種や絶滅危惧種）のオカレンス、積極的に管理されているカメラの位置、または公開を意図しないメモやコメントなどの機密情報が含まれている場合があります。citenp:[chapman-2020]のベストプラクティスに従い、レコード全体の制限よりも情報の一般化を推奨します。"
 
 #. type: Title =====
 #: 400.en.adoc:37
@@ -2440,7 +2440,7 @@ msgstr "個人データとは、生きている人を特定または特定可能
 #. type: Plain text
 #: 400.en.adoc:42
 msgid "We recommend contacting participants to ask if their personal information can be made public and to anonymize (e.g. `anonymized:3eb30aa`) or exclude it when they prefer not to. Some <<data-management-system,data management system>> (such as citenp:[agouti]) allow users to indicate their preferences and automatically anonymize their personal data in exports. Note that it may not be possible to permanently remove personal information from older versions of an already published dataset."
-msgstr "参加者に連絡して、個人情報を公開してもよいかどうかを確認し、公開を希望しない場合は匿名化（例：`anonymized:3eb30aa`）または除外することを推奨します。いくつかの<<data-management-system,データ管理システム>>（例：citenp:[agouti]）では、ユーザーが設定を指定でき、エクスポート時に自動的に個人データを匿名化することができます。既に公開されたデータセットの古いバージョンから個人情報を完全に削除することはできない場合があることに注意してください。"
+msgstr "参加者に連絡して、個人情報を公開してもよいかどうかを確認し、公開を希望しない場合は匿名化（例. `anonymized:3eb30aa`）または除外することを推奨します。いくつかの<<data-management-system,データ管理システム>>（例. citenp:[agouti]）では、ユーザーが設定を指定でき、エクスポート時に自動的に個人データを匿名化することができます。既に公開されたデータセットの古いバージョンから個人情報を完全に削除することはできない場合があることに注意してください。"
 
 #. type: Title =====
 #: 400.en.adoc:44
@@ -2456,7 +2456,7 @@ msgstr "識別可能な人物が含まれる<<media-file,メディアファイ�
 #. type: Plain text
 #: 400.en.adoc:49
 msgid "We recommend providing the URL to all media files (in {media-filePath} or https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI] ), but regulating its access at the provider level (e.g. `https://multimedia.agouti.eu/assets/813bafb2-befe-45fa-b0e3-080f1f019a70/file`). The expected access can be described in {media-filePublic} or https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]. Note that in a <<darwin-core-archive,Darwin Core Archive>>, observations (and media) of humans, vehicles, setup, etc. are typically excluded."
-msgstr "全てのメディアファイルについてURL（{media-filePath} または link:++https://ac.tdwg.org/termlist/#ac_accessURI++[ac:accessURI] に記載）を提供することを推奨します。ただし、アクセスはプロバイダーレベルで規制します（例：`https://multimedia.agouti.eu/assets/813bafb2-befe-45fa-b0e3-080f1f019a70/file`）。想定されるアクセスは、{media-filePublic} またはlink:++https://ac.tdwg.org/termlist/#ac_serviceExpectation++[ac:serviceExpectation]に記載できます。<<darwin-core-archive,Darwin Core Archive>>では、人間、車両、設置状況などの観察（およびメディア）は、通常除外されることに注意してください。"
+msgstr "全てのメディアファイルについてURL（{media-filePath} または link:++https://ac.tdwg.org/termlist/#ac_accessURI++[ac:accessURI] に記載）を提供することを推奨します。ただし、アクセスはプロバイダーレベルで規制します（例. `https://multimedia.agouti.eu/assets/813bafb2-befe-45fa-b0e3-080f1f019a70/file`）。想定されるアクセスは、{media-filePublic} またはlink:++https://ac.tdwg.org/termlist/#ac_serviceExpectation++[ac:serviceExpectation]に記載できます。<<darwin-core-archive,Darwin Core Archive>>では、人間、車両、設置状況などの観察（およびメディア）は、通常除外されることに注意してください。"
 
 #. type: Title =====
 #: 400.en.adoc:51
@@ -2467,7 +2467,7 @@ msgstr "機密情報を含む位置情報"
 #. type: Plain text
 #: 400.en.adoc:54
 msgid "Camera trap data may contain <<location>> information of sensitive species. Locations of actively managed cameras can also be sensitive to vandalism and theft. We recommended following citenp:[chapman-2020] to determine sensitivity (https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity[Chapter 2]) and choose an appropriate generalization."
-msgstr "カメラトラップデータには、センシティブな種の<<location,位置>>情報が含まれている場合があります。積極的に管理されているカメラの位置も、破壊行為や盗難に対してセンシティブな内容を含むでしょう。citenp:[chapman-2020]に従い、機密情報の格付けを決定し（link++https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity++[Chapter 2]）、適切な一般化を選択することを推奨します。"
+msgstr "カメラトラップデータには、センシティブな種の<<location,位置>>情報が含まれている場合があります。積極的に管理されているカメラの位置も、破壊行為や盗難に対してセンシティブな内容を含むでしょう。citenp:[chapman-2020]に従い、機密情報の格付けを決定し（link:++https://docs.gbif.org/sensitive-species-best-practices/master/en/#determining-sensitivity++[Chapter 2]）、適切な一般化を選択することを推奨します。"
 
 #. type: delimited block =
 #: 400.en.adoc:58
@@ -2562,7 +2562,7 @@ msgstr "その他の機密情報"
 #. type: Plain text
 #: 400.en.adoc:111
 msgid "Text fields such as comments and notes (e.g. {deployments-deploymentComments} or term:dwc[dwc:occurrenceRemarks]) may contain sensitive information such as <<section-personal-data,person names>>, <<section-sensitive-location-information,sensitive location information>> or information not intended for the public. We recommend verifying values and generalizing where necessary (see https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[Chapter 3] in citenp:[chapman-2020])."
-msgstr "コメントやメモなどのテキストフィールド（例：{deployments-deploymentComments} または term:dwc[dwc:occurrenceRemarks]）には、<<section-personal-data,個人名>>、<<section-sensitive-location-information,機密性の高い位置情報>> 、または公開を意図しない情報などの機密情報が含まれている場合があります。値を確認し、必要に応じて一般化することを推奨します（citenp:[chapman-2020]の https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[3章]参照）。"
+msgstr "コメントやメモなどのテキストフィールド（例. {deployments-deploymentComments} または term:dwc[dwc:occurrenceRemarks]）には、<<section-personal-data,個人名>>、<<section-sensitive-location-information,機密性の高い位置情報>> 、または公開を意図しない情報などの機密情報が含まれている場合があります。値を確認し、必要に応じて一般化することを推奨します（citenp:[chapman-2020]の https://docs.gbif.org/sensitive-species-best-practices/master/en/#generalizing-textual-information[3章]参照）。"
 
 #. type: Title ===
 #: 400.en.adoc:113
@@ -3206,7 +3206,7 @@ msgstr "term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]"
 #. type: Plain text
 #: 400.en.adoc:484
 msgid "Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (`https://doi.org/10.15468/5tb6ze`), study URL (`http://n2t.net/ark:/63614/w12001317`), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI). term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}."
-msgstr "データセットの識別子と名前です。term:dwc[dwc:datasetID]には、ユーザーがソースであるデータセット/研究に関する情報を見つけられるように、永続的なURLまたは識別子を使用することを推奨します。優先順位としては、データセットのDOI（`https://doi.org/10.15468/5tb6ze`）、研究のURL（`http://n2t.net/ark:/63614/w12001317`）、または<<data-management-system,データ管理システム>>で使用される研究識別子の順です。Camtrap DPでは、この用語は{package-id} に相当しますが、より良い識別子（例：DOI）が利用可能な場合はそれを使用します。term:dwc[dwc:datasetName] は、term:dwc[dwc:datasetID]で参照されるデータセット/研究のタイトルを入れましょう。メタデータのタイトルには同じ値を使用することを推奨します。Camtrap DPでは、この用語は{package-title}に相当します。"
+msgstr "データセットの識別子と名前です。term:dwc[dwc:datasetID]には、ユーザーがソースであるデータセット/研究に関する情報を見つけられるように、永続的なURLまたは識別子を使用することを推奨します。優先順位としては、データセットのDOI（`https://doi.org/10.15468/5tb6ze`）、研究のURL（`http://n2t.net/ark:/63614/w12001317`）、または<<data-management-system,データ管理システム>>で使用される研究識別子の順です。Camtrap DPでは、この用語は{package-id} に相当しますが、より良い識別子（例. DOI）が利用可能な場合はそれを使用します。term:dwc[dwc:datasetName] は、term:dwc[dwc:datasetID]で参照されるデータセット/研究のタイトルを入れましょう。メタデータのタイトルには同じ値を使用することを推奨します。Camtrap DPでは、この用語は{package-title}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:486
@@ -3348,7 +3348,7 @@ msgstr "term:dwc[dwc:behavior]"
 #. type: Plain text
 #: 400.en.adoc:547
 msgid "The dominant behaviour of the observed <<individual>>(s). We recommend using existing or your own controlled values (e.g. grazing, browsing, rooting, vigilance, running, walking). In Camtrap DP, this term corresponds with {observations-behavior}."
-msgstr "観察された<<individual,個体>>の主な行動。既存の制御値または独自の制御値（例：grazing、browsing、rooting、vigilance、running、walking）を使用することを推奨します。Camtrap DPでは、この用語は{observations-behavior}に相当します。"
+msgstr "観察された<<individual,個体>>の主な行動。既存の制御値または独自の制御値（例. grazing、browsing、rooting、vigilance、running、walking）を使用することを推奨します。Camtrap DPでは、この用語は{observations-behavior}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:549
@@ -3656,7 +3656,7 @@ msgstr "term:dwc[dwc:coordinatePrecision]"
 #. type: Plain text
 #: 400.en.adoc:689
 msgid "The decimal precision of the geographic <<section-decimallatitude-decimallongitude,coordinates>>>, if known. This information is known and we recommend providing it for <<section-sensitive-location-information,generalized/rounded>> coordinates (e.g. `0.001` for coordinates that were rounded to 3 decimals). In Camtrap DP, this term corresponds with {package-coordinatePrecision}, although there it is specified for the dataset as whole, rather than per record."
-msgstr "地理<<section-decimallatitude-decimallongitude,座標>>>の小数点以下の精度（既知の場合）。この情報が既知である場合、<<section-sensitive-location-information,一般化/丸められた>>座標に対して提供することを推奨します（例：小数点以下3桁に丸められた座標の場合は`0.001`）。Camtrap DPでは、この用語は{package-coordinatePrecision}に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
+msgstr "地理<<section-decimallatitude-decimallongitude,座標>>>の小数点以下の精度（既知の場合）。この情報が既知である場合、<<section-sensitive-location-information,一般化/丸められた>>座標に対して提供することを推奨します（例. 小数点以下3桁に丸められた座標の場合は`0.001`）。Camtrap DPでは、この用語は{package-coordinatePrecision}に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:691
@@ -3786,7 +3786,7 @@ msgstr "<<section-why-not-a-sampling-event-dataset,上述>>の通り、カメラ
 #. type: Plain text
 #: 400.en.adoc:753
 msgid "Note that the {ac-extension} can contain duplicates, an important difference with Camtrap DP's {media} where each file is only listed once. Repeated <<section-ac-occurrenceid,occurrenceID>> are the result of a single <<section-media-or-event-based-classification,event-based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated <<section-ac-identifier,identifiers>> are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media file `e68deaed` in <<table-ac-extension>>). The extension should however contain unique <<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>> combinations."
-msgstr "{ac-extension}には重複が含まれる可能性があることに注意してください。各ファイルが一度だけリストアップされるCamtrap DPの {media}との重要な違いです。同じ<<section-ac-occurrenceid,occurrenceID>>が繰り返し表れるのは、単一の<<section-media-or-event-based-classification,イベントベース>> の観察が複数のメディアファイルに関連している結果です（例：<<table-ac-extension>>の観察`05230014` ）。同じ<<section-ac-identifier,identifiers>>が繰り返し表れるのは、一つのメディアファイルが複数の観察の情報源であることの結果です（例：<<table-ac-extension>>のメディアファイル`e68deaed` のように、同じ静止画に複数の種が観察される場合）。ただし、拡張ファイルの<<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>>の組み合わせは一意である必要があります。"
+msgstr "{ac-extension}には重複が含まれる可能性があることに注意してください。各ファイルが一度だけリストアップされるCamtrap DPの {media}との重要な違いです。同じ<<section-ac-occurrenceid,occurrenceID>>が繰り返し表れるのは、単一の<<section-media-or-event-based-classification,イベントベース>> の観察が複数のメディアファイルに関連している結果です（例. <<table-ac-extension>>の観察 `05230014` ）。同じ<<section-ac-identifier,identifiers>>が繰り返し表れるのは、一つのメディアファイルが複数の観察の情報源であることの結果です（例. <<table-ac-extension>>のメディアファイル `e68deaed` のように、同じ静止画に複数の種が観察される場合）。ただし、拡張ファイルの<<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>>の組み合わせは一意である必要があります。"
 
 #. type: Block title
 #: 400.en.adoc:755
@@ -3963,7 +3963,7 @@ msgstr "https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]"
 #. type: Plain text
 #: 400.en.adoc:855
 msgid "The device(s) used to create the media file. We recommend providing the <<camera>> make and model (e.g. `Reconyx-HF2X`). In Camtrap DP, this term corresponds with {deployments-cameraModel}."
-msgstr "メディアファイルを作成するために使用されたデバイス。<<camera,カメラ>>のメーカーとモデル（例：`Reconyx-HF2X`）を提供することを推奨します。Camtrap DPでは、この用語は{deployments-cameraModel}に相当します。"
+msgstr "メディアファイルを作成するために使用されたデバイス。<<camera,カメラ>>のメーカーとモデル（例. `Reconyx-HF2X`）を提供することを推奨します。Camtrap DPでは、この用語は{deployments-cameraModel}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:857
@@ -4055,7 +4055,7 @@ msgstr "[[activity]]活動"
 #. type: Plain text
 #: glossary.en.adoc:5
 msgid "Movement in front of a <<camera>>. Movement can cause a <<trigger>> when certain conditions are met (e.g. within the <<detection-zone,detection zone>> and outside the <<quiet-period,quiet period>>). Camera traps are typically <<deployment,deployed>> to capture wildlife activity, but may also record movements of humans, vehicles or vegetation."
-msgstr "<<camera,カメラ>>の前での動き。特定の条件が満たされると動きが<<trigger,トリガー>>を引き起こすことがあります（例：<<detection-zone,検出ゾーン>>内かつ<<quiet-period,静止期間>>外）。カメラトラップは通常、野生動物の活動を撮影するために<<deployment,設置>>されますが、人間、車両、または植生の動きを記録することもあります。"
+msgstr "<<camera,カメラ>>の前での動き。特定の条件が満たされると動きが<<trigger,トリガー>>を引き起こすことがあります（例. <<detection-zone,検出ゾーン>>内かつ<<quiet-period,静止期間>>外）。カメラトラップは通常、野生動物の活動を撮影するために<<deployment,設置>>されますが、人間、車両、または植生の動きを記録することもあります。"
 
 #. type: Labeled list
 #: glossary.en.adoc:6
@@ -4088,7 +4088,7 @@ msgstr "[[bait]]餌"
 #. type: Plain text
 #: glossary.en.adoc:11
 msgid "Attractant used to encourage animals to investigate a <<location>> or specific point within the <<detection-zone,detection zone>>. Baits may be auditory, olfactory, visual, or some combination of these in nature. Whether bait was used for a <<deployment>> is useful to know for analyses, as it can alter the natural behaviour of animals. Can be expressed as a categorical description (e.g. `acoustic`, `visual`, `scent`) or a boolean. Also referred to as `lure` cite:[meek-2014]. {deployments-baitUse} in Camtrap DP."
-msgstr "動物を<<detection-zone,検出ゾーン>>内の<<location,場所>>または特定のポイントに誘導するために使用される誘引物。餌は聴覚的、嗅覚的、視覚的、またはこれらの組み合わせであることがあります。<<deployment,設置>>に餌が使用されたかどうかは、動物の自然な行動を変える可能性があるため、分析に役立ちます。カテゴリカルな説明（例：acoustic、visual、scent）またはブール値として表現できます。lureとも呼ばれます cite:[meek-2014]。Camtrap DPでは、{deployments-baitUse}に対応します。"
+msgstr "動物を<<detection-zone,検出ゾーン>>内の<<location,場所>>または特定のポイントに誘導するために使用される誘引物。餌は聴覚的、嗅覚的、視覚的、またはこれらの組み合わせであることがあります。<<deployment,設置>>に餌が使用されたかどうかは、動物の自然な行動を変える可能性があるため、分析に役立ちます。カテゴリカルな説明（例. acoustic、visual、scent）またはブール値として表現できます。lureとも呼ばれます cite:[meek-2014]。Camtrap DPでは、{deployments-baitUse}に対応します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:12
@@ -4176,7 +4176,7 @@ msgstr "[[classification]]分類"
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "The act of classifying camera trap <<media>>, resulting in <<observation,observations>>. Not to be confused with taxonomic classification. Can be performed in different steps and with different levels of precision, e.g. 1. media does/does not contain object(s) of interest (i.e. <<blank>>), 2. object of interest is human/vehicle/animal or unknown, 3. animal is member of certain taxon (e.g. Sus scrofa, Rodentia), 4. animal is of certain sex/life stage, is known <<individual>> x or shows certain behaviour. Classification is typically labour intensive and therefore often aided by <<computer-vision,computer vision>>, <<citizen-science,volunteers>> and/or classifying <<sequence,sequences>> rather than individual <<media-file,media files>>. Also referred to as `image classification`, `annotation` or `identification`. See also <<section-classification>>."
-msgstr "カメラトラップ<<media,メディア>>を分類する行為で、<<observation,観察結果>>をもたらします。分類学的分類とは混同しないでください。異なるステップと異なる精度レベルで実行できます。例：1. メディアに興味のあるオブジェクトが含まれている/含まれていない（すなわち、<<blank,ブランク>>）、2. 興味のあるオブジェクトが人間/車両/動物または不明、3. 動物が特定の分類群に属す（例：Sus scrofa、Rodentia）、4. 動物が特定の性別/ライフステージに属し、既知の<<individual,個体>>xであるか、特定の行動を示す。分類は通常、労働集約的であるため、<<computer-vision,コンピュータビジョン>>、<<citizen-science,ボランティア>>により支援され、さらに/または個々の<<media-file,media files>>ではなく<<sequence,シーケンス>>を分類するときに支援されます。 `image classification`、 `annotation`、または `identification`とも呼ばれます。<<section-classification>>も参照してください。"
+msgstr "カメラトラップ<<media,メディア>>を分類する行為で、<<observation,観察結果>>をもたらします。分類学的分類とは混同しないでください。異なるステップと異なる精度レベルで実行できます。例. 1. メディアに興味のあるオブジェクトが含まれている/含まれていない（すなわち、<<blank,ブランク>>）、2. 興味のあるオブジェクトが人間/車両/動物または不明、3. 動物が特定の分類群に属す（例. Sus scrofa、Rodentia）、4. 動物が特定の性別/ライフステージに属し、既知の<<individual,個体>>xであるか、特定の行動を示す。分類は通常、労働集約的であるため、<<computer-vision,コンピュータビジョン>>、<<citizen-science,ボランティア>>により支援され、さらに/または個々の<<media-file,media files>>ではなく<<sequence,シーケンス>>を分類するときに支援されます。 `image classification`、 `annotation`、または `identification`とも呼ばれます。<<section-classification>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:28
@@ -4220,7 +4220,7 @@ msgstr "[[covariates]]共変量"
 #. type: Plain text
 #: glossary.en.adoc:35
 msgid "Ecological variables that may affect the behaviour and detection of animals (e.g. <<bait,bait use>>, <<feature-type,feature type>>, <<habitat-type,habitat>>, canopy cover). Recording covariates is important for further analysis of the data. See also <<section-covariates>>."
-msgstr "動物の行動と検出に影響を与える可能性のある生態学的変数（例：<<bait,餌の使用>>、<<feature-type,特徴タイプ>>、<<habitat-type,ハビタット>>、樹冠被覆率）。データのさらなる分析のために共変量を記録することが重要です。<<section-covariates>>も参照してください。"
+msgstr "動物の行動と検出に影響を与える可能性のある生態学的変数（例. <<bait,餌の使用>>、<<feature-type,特徴タイプ>>、<<habitat-type,ハビタット>>、樹冠被覆率）。データのさらなる分析のために共変量を記録することが重要です。<<section-covariates>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:36
@@ -4231,7 +4231,7 @@ msgstr "[[data-exchange-format]]データ交換フォーマット"
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "Format used to exchange data between systems (e.g. <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>>). Requires data transformation from the source system to the format and from the format to the target system. Well designed data exchange formats facilitate <<FAIR>> data exchange, use open formats and provide clear definitions. Also referred to as `data standard` (when approved through a ratification process)."
-msgstr "システム間でデータを交換するために使用されるフォーマット（例：<<camtrap-dp,Camtrap DP>>と<<darwin-core-archive,Darwin Core Archive>>）。提供元のシステムからあるフォーマットへのデータ変換と、そのフォーマットからターゲットとなるシステムへのデータ変換が必要です。よく設計されたデータ交換フォーマットは、<<FAIR>>データ交換を促進し、オープンフォーマットを使用し、明確な定義を提供します。承認プロセスを経て承認された場合、 `data standard`とも呼ばれます。"
+msgstr "システム間でデータを交換するために使用されるフォーマット（例. <<camtrap-dp,Camtrap DP>>と<<darwin-core-archive,Darwin Core Archive>>）。提供元のシステムからあるフォーマットへのデータ変換と、そのフォーマットからターゲットとなるシステムへのデータ変換が必要です。よく設計されたデータ交換フォーマットは、<<FAIR>>データ交換を促進し、オープンフォーマットを使用し、明確な定義を提供します。承認プロセスを経て承認された場合、 `data standard`とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:38
@@ -4330,7 +4330,7 @@ msgstr "[[EXIF]]EXIF"
 #. type: Plain text
 #: glossary.en.adoc:55
 msgid "Exchangeable Image File Format. A format for storing metadata about a <<media-file,media file>> (e.g. creation date and time, format, resolution, shutter speed, exposure level, camera model), typically stored as part of the media file. {media-exifData} in Camtrap DP."
-msgstr "交換可能な静止画ファイル形式。<<media-file,メディアファイル>>に関するメタデータ（例：作成日時、形式、解像度、シャッタースピード、露出レベル、カメラモデル）を保存するための形式で、通常はメディアファイルの一部として保存されます。Camtrap DPでは、{media-exifData}に相当します。"
+msgstr "交換可能な静止画ファイル形式。<<media-file,メディアファイル>>に関するメタデータ（例. 作成日時、形式、解像度、シャッタースピード、露出レベル、カメラモデル）を保存するための形式で、通常はメディアファイルの一部として保存されます。Camtrap DPでは、{media-exifData}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:56
@@ -4363,7 +4363,7 @@ msgstr "[[file-path]]ファイルパス"
 #. type: Plain text
 #: glossary.en.adoc:61
 msgid "String describing the location of a file in a storage system (e.g. `data/deployments.csv`). When served over http/https, the domain name and file path constitute the file URL (e.g. `https://raw.githubusercontent.com/tdwg/camtrap-dp/main/example/deployments.csv`)."
-msgstr "ストレージ・システム内のファイルの場所を記述する文字列（例：`data/deployments.csv`）。http/httpsで提供される場合、ドメイン名とファイルパスがファイルURLを構成します（例：`https://raw.githubusercontent.com/tdwg/camtrap-dp/main/example/deployments.csv`）。"
+msgstr "ストレージ・システム内のファイルの場所を記述する文字列（例. `data/deployments.csv`）。http/httpsで提供される場合、ドメイン名とファイルパスがファイルURLを構成します（例. `https://raw.githubusercontent.com/tdwg/camtrap-dp/main/example/deployments.csv`）。"
 
 #. type: Labeled list
 #: glossary.en.adoc:62
@@ -4407,7 +4407,7 @@ msgstr "[[independence-interval]]独立間隔"
 #. type: Plain text
 #: glossary.en.adoc:69
 msgid "Minimum duration between consecutive <<trigger,triggers>> to be considered belonging to separate <<sequence,sequences>>. This duration (e.g. 120 seconds) can be defined in a <<data-management-system>> to automatically group <<media>> into sequences. This is different from the <<quiet-period,quiet period>>, which is a camera setting."
-msgstr "連続する<<trigger,トリガー>>を別の<<sequence,シーケンス>>として扱うための最小時間間隔。この値（例：120秒）は、<<data-management-system,データ管理システム>>で定義され、<<media,メディア>>を自動的にシーケンスにグループ化するために使用されます。これは、カメラ設定である<<quiet-period,静止期間>>とは異なります。"
+msgstr "連続する<<trigger,トリガー>>を別の<<sequence,シーケンス>>として扱うための最小時間間隔。この値（例. 120秒）は、<<data-management-system,データ管理システム>>で定義され、<<media,メディア>>を自動的にシーケンスにグループ化するために使用されます。これは、カメラ設定である<<quiet-period,静止期間>>とは異なります。"
 
 #. type: Labeled list
 #: glossary.en.adoc:70
@@ -4429,7 +4429,7 @@ msgstr "[[location]]場所"
 #. type: Plain text
 #: glossary.en.adoc:73
 msgid "Physical place where a <<deployment,deployed>> <<camera>> is located. A location can be described with a name and/or identifier and coordinates in a certain reference system (e.g. decimal latitude and longitude in WGS84). Also referred to as `camera location` cite:[newkirk-2016], `station` cite:[berkel-2014,camera-trap-manager], `project station` cite:[wildcam-project] or `trap station` cite:[camelot]. Deployment location with a {deployments-locationName}, {deployments-locationID}, {deployments-latitude}, {deployments-longitude}, and {deployments-coordinateUncertainty} in Camtrap DP. See also <<section-location>>."
-msgstr "<<deployment,設置された>> <<camera,カメラ>>が位置する物理的な場所。名前および/または識別子と特定の参照システム（例：WGS84の10進法の緯度と経度）で座標を記述できます。また、 `camera location` cite:[newkirk-2016]、 `station` cite:[berkel-2014,camera-trap-manager]、 `project station` cite:[wildcam-project]、または `trap station` cite:[camelot]とも呼ばれます。Camtrap DPでは、{deployments-locationName}、{deployments-locationID}、{deployments-latitude}、{deployments-longitude}、および{deployments-coordinateUncertainty}に相当します。<<section-location>>も参照してください。"
+msgstr "<<deployment,設置された>> <<camera,カメラ>>が位置する物理的な場所。名前および/または識別子と特定の参照システム（例. WGS84の10進法の緯度と経度）で座標を記述できます。また、 `camera location` cite:[newkirk-2016]、 `station` cite:[berkel-2014,camera-trap-manager]、 `project station` cite:[wildcam-project]、または `trap station` cite:[camelot]とも呼ばれます。Camtrap DPでは、{deployments-locationName}、{deployments-locationID}、{deployments-latitude}、{deployments-longitude}、および{deployments-coordinateUncertainty}に相当します。<<section-location>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:74
@@ -4462,7 +4462,7 @@ msgstr "[[media-file]]メディアファイル"
 #. type: Plain text
 #: glossary.en.adoc:79
 msgid "A (audio)visual file captured by a <<camera>>. Can be an <<image>> or <<video>>. A media file typically has an identifier, file name, timestamp when it was created and associated metadata (e.g. <<EXIF>>). To access a media file, one needs to know its <<file-path,file path>> and have the required access rights. Media with {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} in Camtrap DP. See also <<section-media-files>>."
-msgstr "<<camera,カメラ>>によって録音された（音声）ビジュアルファイル。<<image,静止画>>または<<video,動画>>である可能性があります。メディアファイルには通常、識別子、ファイル名、作成時のタイムスタンプ、および関連するメタデータ（例：<<EXIF>>）が含まれます。メディアファイルにアクセスするには、その<<file-path,ファイルパス>>を知り、必要とされるアクセス権を持つ必要があります。Camtrap DPでは、{media-mediaID}、{media-timestamp}、{media-fileName}、{media-filePath}に相当します。<<section-media-files>>も参照してください。"
+msgstr "<<camera,カメラ>>によって録音された（音声）ビジュアルファイル。<<image,静止画>>または<<video,動画>>である可能性があります。メディアファイルには通常、識別子、ファイル名、作成時のタイムスタンプ、および関連するメタデータ（例. <<EXIF>>）が含まれます。メディアファイルにアクセスするには、その<<file-path,ファイルパス>>を知り、必要とされるアクセス権を持つ必要があります。Camtrap DPでは、{media-mediaID}、{media-timestamp}、{media-fileName}、{media-filePath}に相当します。<<section-media-files>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:80
@@ -4473,7 +4473,7 @@ msgstr "[[media-type]]メディアタイプ"
 #. type: Plain text
 #: glossary.en.adoc:81
 msgid "Standardized expression of a file format (e.g. `image/jpeg` for an <<image>>). Formerly known as MIME type. {media-fileMediatype} in Camtrap DP."
-msgstr "ファイル形式の標準化された表現（例：<<image,静止画>>の場合は `image/jpeg` ）。以前はMIMEタイプとして知られていました。Camtrap DPでは、{media-fileMediatype}に相当します。"
+msgstr "ファイル形式の標準化された表現（例. <<image,静止画>>の場合は `image/jpeg` ）。以前はMIMEタイプとして知られていました。Camtrap DPでは、{media-fileMediatype}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:82
@@ -4506,7 +4506,7 @@ msgstr "[[organization]]組織"
 #. type: Plain text
 #: glossary.en.adoc:87
 msgid "Entity comprising one or more people that share a particular purpose, such as a company, institution, association or partnership. Organizations can be directly associated with a <<project>> (e.g. as rights holder, publisher) or indirectly via the affiliation of the project <<participant,participants>>. An organization is a {package-contributors} in Camtrap DP."
-msgstr "特定の目的を共有する1人以上の人々で構成されるエンティティ。例えば、会社、機関、協会、またはパートナーシップ。組織は、<<project,プロジェクト>>に直接関連付けられることもあれば（例：権利保有者、出版者）、プロジェクト<<participant,参加者>>の所属を通じて間接的に関連付けられることもあります。Camtrap DPでは、{package-contributors}に相当します。"
+msgstr "特定の目的を共有する1人以上の人々で構成されるエンティティ。例えば、会社、機関、協会、またはパートナーシップ。組織は、<<project,プロジェクト>>に直接関連付けられることもあれば（例. 権利保有者、出版者）、プロジェクト<<participant,参加者>>の所属を通じて間接的に関連付けられることもあります。Camtrap DPでは、{package-contributors}に相当します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:88
@@ -4528,7 +4528,7 @@ msgstr "[[role]]役割"
 #. type: Plain text
 #: glossary.en.adoc:91
 msgid "Function carried out by a <<participant>> in a <<project>>, such as project lead, data manager or volunteer <<classification,classifying>> media. Participants can have multiple roles and roles are typically associated with different rights in a <<data-management-system,data management system>> (e.g. the right to invite new participants). Also referred to as `participant type`. {package-contributors-role} in Camtrap DP. See also <<section-participants-and-roles>>."
-msgstr "<<project,プロジェクト>>における<<participant,参加者>>の役割。例えば、プロジェクトリーダー、データマネージャー、メディアを<<classification,分類する>>ボランティア。参加者は複数の役割を持つことができ、役割は通常、<<data-management-system,データ管理システム内>>の異なる権利（例：新しい参加者を招待する権利）に関連付けられます。 `participant type`とも呼ばれます。Camtrap DPでは、{package-contributors-role}に相当します。<<section-participants-and-roles>>も参照してください。"
+msgstr "<<project,プロジェクト>>における<<participant,参加者>>の役割。例えば、プロジェクトリーダー、データマネージャー、メディアを<<classification,分類する>>ボランティア。参加者は複数の役割を持つことができ、役割は通常、<<data-management-system,データ管理システム内>>の異なる権利（例. 新しい参加者を招待する権利）に関連付けられます。 `participant type`とも呼ばれます。Camtrap DPでは、{package-contributors-role}に相当します。<<section-participants-and-roles>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:92
@@ -4561,7 +4561,7 @@ msgstr "[[sampling-design]]サンプリングデザイン"
 #. type: Plain text
 #: glossary.en.adoc:97
 msgid "Strategy for deploying cameras to facilitate a certain research purpose. Can be expressed as a categorical description (e.g. `simple random`, `systematic random`, `opportunistic`). {package-project-samplingDesign} in Camtrap DP."
-msgstr "特定の研究目的を促進するためのカメラ設置戦略。カテゴリによる説明で表現できる（例：`simple random`、`systematic random`、`opportunistic`）。Camtrap DPでは、{package-project-samplingDesign}に対応します。"
+msgstr "特定の研究目的を促進するためのカメラ設置戦略。カテゴリによる説明で表現できる（例. `simple random`、`systematic random`、`opportunistic`）。Camtrap DPでは、{package-project-samplingDesign}に対応します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:98
@@ -4583,7 +4583,7 @@ msgstr "[[sensor]]センサー"
 #. type: Plain text
 #: glossary.en.adoc:101
 msgid "Device that detects changes in the environment, such as movement, heat, light, sound, or other stimuli. Modern camera traps typically use an integrated passive infrared (PIR) sensor that is designed to detect <<activity>> based on a combination of heat and motion."
-msgstr "環境の変化（例：動き、熱、光、音、その他の刺激）を検出するデバイス。現代のカメラトラップは通常、熱と動きの組み合わせに基づいて<<activity,活動>>を検出するように設計された人感赤外線（PIR）センサーを使用します。"
+msgstr "環境の変化（例. 動き、熱、光、音、その他の刺激）を検出するデバイス。現代のカメラトラップは通常、熱と動きの組み合わせに基づいて<<activity,活動>>を検出するように設計された人感赤外線（PIR）センサーを使用します。"
 
 #. type: Labeled list
 #: glossary.en.adoc:102
@@ -4660,7 +4660,7 @@ msgstr "[[UUID]]UUID"
 #. type: Plain text
 #: glossary.en.adoc:115
 msgid "Universally Unique Identifier (UUID). A type of globally unique identifier that can be generated without a central registration authority. Example: `6d65f3e4-4770-407b-b2bf-878983bf9872`."
-msgstr "ユニバーサル固有識別子（UUID）。中央登録機関なしで生成できるグローバルに一意の識別子の一種。例：`6d65f3e4-4770-407b-b2bf-878983bf9872`。"
+msgstr "ユニバーサル固有識別子（UUID）。中央登録機関なしで生成できるグローバルに一意の識別子の一種。例. `6d65f3e4-4770-407b-b2bf-878983bf9872`。"
 
 #. type: Labeled list
 #: glossary.en.adoc:116
