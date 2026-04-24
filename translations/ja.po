@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-24 01:38\n"
+"PO-Revision-Date: 2026-04-24 04:27\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3222,7 +3222,7 @@ msgstr "term:dwc[dwc:collectionCode]"
 #. type: Plain text
 #: 400.en.adoc:491
 msgid "The name or acronym identifying the collection or dataset the record was derived from. Traditionally used to indicate a physical collection, we recommend to provide the name of the <<data-management-system,data management system>> (i.e. virtual collection) the record was derived from. This allows users to search for records from the same data management system across datasets. Recommended values: `Agouti`, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. In Camtrap DP, this term corresponds with the `title` of the (applicable) source in {package-sources}."
-msgstr "記録が由来するコレクションまたはデータセットを識別する名前または略語です。従来は物理的なコレクションを示しましたが、記録が由来する<<data-management-system,データ管理システム>>（すなわち、仮想コレクション）の名前を提供することを推奨します。これにより、ユーザーは同じデータ管理システムからの記録をデータセット全体で検索できます。推奨値： `Agouti`、 `Camelot`、 `eMammal`、 `Trapper`、 `Wildlife Insights`など。Camtrap DPでは、この用語は{package-sources}の（該当する）ソースのタイトルに相当します。"
+msgstr "記録が由来するコレクションまたはデータセットを識別する名前または略語です。従来は物理的なコレクションを示しましたが、記録が由来する<<data-management-system,データ管理システム>>（すなわち、仮想コレクション）の名前を提供することを推奨します。これにより、ユーザーは同じデータ管理システムからの記録をデータセット全体で検索できます。推奨値： `Agouti`、 `Camelot`、 `eMammal`、 `Trapper`、 `Wildlife Insights` など。Camtrap DPでは、この用語は{package-sources}の（該当する）ソースのタイトルに相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:493
@@ -3238,7 +3238,7 @@ msgstr "term:dwc[dwc:basisOfRecord]"
 #. type: Plain text
 #: 400.en.adoc:498
 msgid "The specific nature of the record. Set to `MachineObservation` for all records. While humans decide when and were to deploy a camera trap, and humans or machines (AI) can <<classification,classify>> media, the capturing of the record is done by a machine responding to a sensor. This is critically different from human observations, where a human is actively in control of the decision whether to record an organism or not."
-msgstr "レコードの特性。全てのレコードに対して `MachineObservation`を入力します。人間がカメラトラップをいつどこに設置するかを決定し、人間または機械（AI）がメディアを<<classification,分類>>しますが、レコード収集はセンサーに応答する機械によって行われます。これは、人間が積極的に生物を記録するかどうかを決定する、人間の観察とは本質的に異なります。"
+msgstr "レコードの特性。全てのレコードに対して `MachineObservation` を入力します。人間がカメラトラップをいつどこに設置するかを決定し、人間または機械（AI）がメディアを<<classification,分類>>しますが、レコード収集はセンサーに応答する機械によって行われます。これは、人間が積極的に生物を記録するかどうかを決定する、人間の観察とは本質的に異なります。"
 
 #. type: Title =====
 #: 400.en.adoc:500
@@ -3316,7 +3316,7 @@ msgstr "term:dwc[dwc:sex]"
 #. type: Plain text
 #: 400.en.adoc:533
 msgid "The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIF Sex vocabulary]. In Camtrap DP, this term corresponds with {observations-sex}."
-msgstr "観察された<<individual,個体>>の性別。Camtrap DPに基づき、link:++https://rs.gbif.org/vocabulary/gbif/sex.xml++[GBIFの性別語彙]と互換性のある制御値である、 `male`および `female`を使用することを推奨します。Camtrap DPでは、この用語は{observations-sex}に相当します。"
+msgstr "観察された<<individual,個体>>の性別。Camtrap DPに基づき、link:++https://rs.gbif.org/vocabulary/gbif/sex.xml++[GBIFの性別語彙]と互換性のある制御値である、`male` および `female` を使用することを推奨します。Camtrap DPでは、この用語は{observations-sex}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:535
@@ -3332,7 +3332,7 @@ msgstr "term:dwc[dwc:lifeStage]"
 #. type: Plain text
 #: 400.en.adoc:540
 msgid "The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the https://registry.gbif.org/vocabulary/LifeStage[GBIF LifeStage vocabulary]. In Camtrap DP, this term corresponds with {observations-lifeStage}."
-msgstr "観察された<<individual,個体>>の生活史。Camtrap DPに基づき、link:++https://registry.gbif.org/vocabulary/LifeStage++[GBIFの生活史語彙]と互換性のある制御値である、`adult`、`subadult`、および `juvenile`を使用することを推奨します。Camtrap DPでは、この用語は{observations-lifeStage}に相当します。"
+msgstr "観察された<<individual,個体>>の生活史。Camtrap DPに基づき、link:++https://registry.gbif.org/vocabulary/LifeStage++[GBIFの生活史語彙]と互換性のある制御値である、`adult`、`subadult` および `juvenile` を使用することを推奨します。Camtrap DPでは、この用語は{observations-lifeStage}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:542
@@ -3364,7 +3364,7 @@ msgstr "term:dwc[dwc:occurrenceStatus]"
 #. type: Plain text
 #: 400.en.adoc:554
 msgid "A statement about the presence or absence of the taxon at a location. When reduced to species observations (filtering out <<blank,blanks>>, etc.), camera trap data only contain presence records. Set to `present` for all records."
-msgstr "特定の場所での分類群の存在または不在に関する言及。種の観察に絞り込まれた場合（<<blank,ブランク>>などを除外など）、カメラトラップデータには存在記録のみが含まれます。全てのレコードに対して `present`を入力します。"
+msgstr "特定の場所での分類群の存在または不在に関する言及。種の観察に絞り込まれた場合（<<blank,ブランク>>などを除外など）、カメラトラップデータには存在記録のみが含まれます。全てのレコードに対して `present` を入力します。"
 
 #. type: Title =====
 #: 400.en.adoc:556
@@ -3444,7 +3444,7 @@ msgstr "term:dwc[dwc:eventDate]"
 #. type: Plain text
 #: 400.en.adoc:589
 msgid "The date, date-time or date-time interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media-based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event-based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal."
-msgstr "<<event,イベント>>が発生した日付、日時、または日時の期間。<<section-media-or-event-based-classification,メディアベースの分類>>には単一のタイムスタンプを使用し、<<section-media-or-event-based-classification,イベントベースの分類>>には期間を使用することを推奨します。期間は<<section-eventid,eventID>>で識別された<<event,イベント>>の開始と終了のタイムスタンプから構成されます。タイムスタンプはISO 8601形式（`YYYY-MM-DDTHH:MM:SS`）で記述し、期間を示すには`/`を使用し、タイムゾーン（`+02:00`）を含めるか、UTC（`Z`）に変換して示します。Camtrap DPでは、この用語は{observations-eventStart}および{observations-eventEnd}に相当します。両方の値が等しい場合は{observations-eventStart}です。"
+msgstr "<<event,イベント>>が発生した日付、日時、または日時の期間。<<section-media-or-event-based-classification,メディアベースの分類>>には単一のタイムスタンプを使用し、<<section-media-or-event-based-classification,イベントベースの分類>>には期間を使用することを推奨します。期間は<<section-eventid,eventID>>で識別された<<event,イベント>>の開始と終了のタイムスタンプから構成されます。タイムスタンプはISO 8601形式（`YYYY-MM-DDTHH:MM:SS`）で記述し、期間を示すには `/` を使用し、タイムゾーン (`+02:00`) を含めるか、UTC (`Z`) に変換して示します。Camtrap DPでは、この用語は{observations-eventStart}および{observations-eventEnd}に相当します。両方の値が等しい場合は{observations-eventStart}です。"
 
 #. type: delimited block -
 #: 400.en.adoc:596
@@ -3486,7 +3486,7 @@ msgstr "term:dwc[dwc:samplingProtocol]"
 #. type: Plain text
 #: 400.en.adoc:611
 msgid "The method(s) or protocol(s) used during the <<event>>. We recommend using the controlled value `camera trap`. This allows users to search for records with this protocol across datasets."
-msgstr "<<event,イベント>>中に使用された方法またはプロトコル。制御値として `camera trap`を使用することを推奨します。これにより、ユーザーはこのプロトコルを持つ記録をデータセット全体で検索できます。"
+msgstr "<<event,イベント>>中に使用された方法またはプロトコル。制御値として `camera trap` を使用することを推奨します。これにより、ユーザーはこのプロトコルを持つ記録をデータセット全体で検索できます。"
 
 #. type: Title =====
 #: 400.en.adoc:613
@@ -3640,7 +3640,7 @@ msgstr "term:dwc[dwc:coordinateUncertaintyInMeters]"
 #. type: Plain text
 #: 400.en.adoc:682
 msgid "The horizontal distance (in metres) from the geographic <<section-decimallatitude-decimallongitude,coordinates>> describing the smallest circle containing the <<location>>. We recommend `30` meters as reasonable lower limit for coordinates obtained by GPS, but see <<section-location>> for details on what elements contribute to the uncertainty. <<section-sensitive-location-information,Generalized/rounded>> coordinates in particular will increase the term:dwc[dwc:coordinateUncertaintyInMeters]. In Camtrap DP, this term corresponds with {deployments-coordinateUncertainty}."
-msgstr "地理<<section-decimallatitude-decimallongitude,座標>>から、<<location,場所>>を含む最小の円までの、水平距離（メートル単位）。GPSで取得された座標の合理的な下限として`30`メートルを推奨しますが、不確実性に寄与する要素の詳細については<<section-location>>を参照してください。特に<<section-sensitive-location-information,一般化/丸められた>>座標はdwc:coordinateUncertaintyInMetersを増加させます。Camtrap DPでは、この用語は{deployments-coordinateUncertainty}に相当します。"
+msgstr "地理<<section-decimallatitude-decimallongitude,座標>>から、<<location,場所>>を含む最小の円までの、水平距離（メートル単位）。GPSで取得された座標の合理的な下限として `30` メートルを推奨しますが、不確実性に寄与する要素の詳細については<<section-location>>を参照してください。特に<<section-sensitive-location-information,一般化/丸められた>>座標はdwc:coordinateUncertaintyInMetersを増加させます。Camtrap DPでは、この用語は{deployments-coordinateUncertainty}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:684
@@ -3656,7 +3656,7 @@ msgstr "term:dwc[dwc:coordinatePrecision]"
 #. type: Plain text
 #: 400.en.adoc:689
 msgid "The decimal precision of the geographic <<section-decimallatitude-decimallongitude,coordinates>>>, if known. This information is known and we recommend providing it for <<section-sensitive-location-information,generalized/rounded>> coordinates (e.g. `0.001` for coordinates that were rounded to 3 decimals). In Camtrap DP, this term corresponds with {package-coordinatePrecision}, although there it is specified for the dataset as whole, rather than per record."
-msgstr "地理<<section-decimallatitude-decimallongitude,座標>>>の小数点以下の精度（既知の場合）。この情報が既知である場合、<<section-sensitive-location-information,一般化/丸められた>>座標に対して提供することを推奨します（例. 小数点以下3桁に丸められた座標の場合は`0.001`）。Camtrap DPでは、この用語は{package-coordinatePrecision}に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
+msgstr "地理<<section-decimallatitude-decimallongitude,座標>>>の小数点以下の精度（既知の場合）。この情報が既知である場合、<<section-sensitive-location-information,一般化/丸められた>>座標に対して提供することを推奨します（例. 小数点以下3桁に丸められた座標の場合は `0.001`）。Camtrap DPでは、この用語は{package-coordinatePrecision}に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:691
@@ -3738,7 +3738,7 @@ msgstr "term:dwc[dwc:taxonID]"
 #. type: Plain text
 #: 400.en.adoc:732
 msgid "An identifier for <<section-scientificname,scientificName>>. This identifier allows users to find all observations (and media) for a specific taxon. Use a <<section-stable-unique-identifiers,stable unique identifier>>, preferably one assigned by an <<table-taxon-reference-sources,authorative source>>. In Camtrap DP, this term corresponds with the `taxonID` of the corresponding taxon in {package-taxonomic}."
-msgstr "<<section-scientificname,scientificName>>の識別子。この識別子により、ユーザーは特定の分類群の観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用し、できれば<<table-taxon-reference-sources,権威あるソース>>によって割り当てられたものを使用してください。Camtrap DPでは、この用語は{package-taxonomic}の分類群の`taxonID`に相当します。"
+msgstr "<<section-scientificname,scientificName>>の識別子。この識別子により、ユーザーは特定の分類群の観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用し、できれば<<table-taxon-reference-sources,権威あるソース>>によって割り当てられたものを使用してください。Camtrap DPでは、この用語は{package-taxonomic}の分類群の `taxonID` に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:734
@@ -3770,7 +3770,7 @@ msgstr "term:dwc[dwc:kingdom]"
 #. type: Plain text
 #: 400.en.adoc:746
 msgid "The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classifications>> of plants, fungi or other kingdoms."
-msgstr "<<section-scientificname,scientificName>>が属する分類群の界。これにより、link:++https://www.gbif.org/developer/species++[GBIFの種名マッチング] などのサービスが同名異種を区別することができます。カメラトラップデータには植物、菌類、その他の界の<<classification,分類>>がほとんど含まれないため、全てのレコードに`Animalia`を入力する可能性が高いです。"
+msgstr "<<section-scientificname,scientificName>>が属する分類群の界。これにより、link:++https://www.gbif.org/developer/species++[GBIFの種名マッチング] などのサービスが同名異種を区別することができます。カメラトラップデータには植物、菌類、その他の界の<<classification,分類>>がほとんど含まれないため、全てのレコードに `Animalia` を入力する可能性が高いです。"
 
 #. type: Title ====
 #: 400.en.adoc:748
@@ -4649,15 +4649,7 @@ msgstr "[[trigger]]トリガー"
 #. type: Plain text
 #: glossary.en.adoc:113
 msgid "<<sensor,Sensor>> condition that prompts a <<camera>> to activate and capture <<media>>. Also used to indicate the series of consecutive <<media-file,media files>> resulting from that trigger. One or more triggers form a <<sequence>>. Also referred to as `burst`."
-msgstr "<<camera,カメラ>>を起動して<<media,メディア>>を撮影する際の<<sensor,センサー>>条件。また、そのトリガーにより生じた連続する<<media-file,メディアファイル>>のシリーズを示すためにも使用されます。1つ以上のトリガーが<<sequence,シーケンス>>を形成します。また `burst`とも呼ばれます。\n\n"
-"testing asciidoc here\n"
-"また、`burst`とも呼ばれます。\n"
-"また、 `burst` とも呼ばれます。\n"
-"また、(`burst`)とも呼ばれます。\n"
-"または`burst`とも呼ばれます。\n"
-"または `burst` とも呼ばれます。\n"
-"<<sequence,シーケンス>>、`burst`とも呼ばれます。\n"
-"<<sequence,シーケンス>>、 `burst` とも呼ばれます。"
+msgstr "<<camera,カメラ>>を起動して<<media,メディア>>を撮影する際の<<sensor,センサー>>条件。また、そのトリガーにより生じた連続する<<media-file,メディアファイル>>のシリーズを示すためにも使用されます。1つ以上のトリガーが<<sequence,シーケンス>>を形成します。または `burst` とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:114
