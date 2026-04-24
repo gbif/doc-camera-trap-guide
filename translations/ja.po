@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-24 00:31\n"
+"PO-Revision-Date: 2026-04-24 01:38\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3979,7 +3979,7 @@ msgstr "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCr
 #. type: Plain text
 #: 400.en.adoc:862
 msgid "The method(s) used to create or alter the media file. We recommend using this term to provide the <<trigger>> method that was used to capture the media file, as controlled values: `activity detection` or `time lapse`. In Camtrap DP, this term corresponds with {media-captureMethod}."
-msgstr "メディアファイルを作成または変更するために使用された方法。この用語を使用して、メディアファイルを収集するために使用された<<trigger,トリガー>>方法を提供することを推奨します。制御値は `activity detection`または `time lapse`です。Camtrap DPでは、この用語は{media-captureMethod}に相当します。"
+msgstr "メディアファイルを作成または変更するために使用された方法。この用語を使用して、メディアファイルを収集するために使用された<<trigger,トリガー>>方法を提供することを推奨します。制御値は `activity detection`、 `time lapse`のいずれかです。Camtrap DPでは、この用語は{media-captureMethod}に相当します。"
 
 #. type: Title =====
 #: 400.en.adoc:864
@@ -4110,7 +4110,7 @@ msgstr "[[camera]]カメラ"
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Device designed to automatically capture <<media>> of (wildlife) <<activity>>, typically <<trigger,triggered>> by a combination of heat and motion. Of a certain make and model and uniquely identifiable by e.g. by serial number. Also referred to as `camera trap`, `game camera`, `trail camera`, `scouting camera` or `device`."
-msgstr "（野生動物の）<<activity,活動>>の<<media,メディア>>を自動的に撮影するように設計されたデバイス。通常、熱と動きの組み合わせによって<<trigger,トリガー>>されます。特定のメーカーとモデルがあり、シリアル番号などで一意に識別できます。 `camera trap`、 `game camera`、 `trail camera`、 `scouting camera`、 または `device`とも呼ばれます。"
+msgstr "（野生動物の）<<activity,活動>>の<<media,メディア>>を自動的に撮影するように設計されたデバイス。通常、熱と動きの組み合わせによって<<trigger,トリガー>>されます。特定のメーカーとモデルがあり、シリアル番号などで一意に識別できます。 `camera trap`、 `game camera`、 `trail camera`、 `scouting camera`、 `device`とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:16
@@ -4176,7 +4176,7 @@ msgstr "[[classification]]分類"
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "The act of classifying camera trap <<media>>, resulting in <<observation,observations>>. Not to be confused with taxonomic classification. Can be performed in different steps and with different levels of precision, e.g. 1. media does/does not contain object(s) of interest (i.e. <<blank>>), 2. object of interest is human/vehicle/animal or unknown, 3. animal is member of certain taxon (e.g. Sus scrofa, Rodentia), 4. animal is of certain sex/life stage, is known <<individual>> x or shows certain behaviour. Classification is typically labour intensive and therefore often aided by <<computer-vision,computer vision>>, <<citizen-science,volunteers>> and/or classifying <<sequence,sequences>> rather than individual <<media-file,media files>>. Also referred to as `image classification`, `annotation` or `identification`. See also <<section-classification>>."
-msgstr "カメラトラップ<<media,メディア>>を分類する行為で、<<observation,観察結果>>をもたらします。分類学的分類とは混同しないでください。異なるステップと異なる精度レベルで実行できます。例. 1. メディアに興味のあるオブジェクトが含まれている/含まれていない（すなわち、<<blank,ブランク>>）、2. 興味のあるオブジェクトが人間/車両/動物または不明、3. 動物が特定の分類群に属す（例. Sus scrofa、Rodentia）、4. 動物が特定の性別/ライフステージに属し、既知の<<individual,個体>>xであるか、特定の行動を示す。分類は通常、労働集約的であるため、<<computer-vision,コンピュータビジョン>>、<<citizen-science,ボランティア>>により支援され、さらに/または個々の<<media-file,media files>>ではなく<<sequence,シーケンス>>を分類するときに支援されます。 `image classification`、 `annotation`、または `identification`とも呼ばれます。<<section-classification>>も参照してください。"
+msgstr "カメラトラップ<<media,メディア>>を分類する行為で、<<observation,観察結果>>をもたらします。分類学的分類とは混同しないでください。異なるステップと異なる精度レベルで実行できます。例. 1. メディアに興味のあるオブジェクトが含まれている/含まれていない（すなわち、<<blank,ブランク>>）、2. 興味のあるオブジェクトが人間/車両/動物または不明、3. 動物が特定の分類群に属す（例. Sus scrofa、Rodentia）、4. 動物が特定の性別/ライフステージに属し、既知の<<individual,個体>>xであるか、特定の行動を示す。分類は通常、労働集約的であるため、<<computer-vision,コンピュータビジョン>>、<<citizen-science,ボランティア>>により支援され、さらに/または個々の<<media-file,media files>>ではなく<<sequence,シーケンス>>を分類するときに支援されます。 `image classification`、 `annotation`、 `identification`とも呼ばれます。<<section-classification>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:28
@@ -4187,7 +4187,7 @@ msgstr "[[citizen-science]]市民科学"
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "Scientific research conducted with participation from the public. Also referred to as `community science`, `crowd science`, `crowdsourcing`, or `volunteer monitoring`. In camera trap research, citizen scientists can participate in camera trap <<deployment>> and <<classification>>. See also <<section-citizen-science>>."
-msgstr "市民の参加を伴う科学研究。 `community science`、 `crowd science`、 `crowdsourcing`、または `volunteer monitoring`とも呼ばれます。カメラトラップ研究では、市民科学者がカメラトラップの<<deployment,設置>>と<<classification,分類>>に参加できます。<<section-citizen-science>>も参照してください。"
+msgstr "市民の参加を伴う科学研究。 `community science`、 `crowd science`、 `crowdsourcing`、 `volunteer monitoring`とも呼ばれます。カメラトラップ研究では、市民科学者がカメラトラップの<<deployment,設置>>と<<classification,分類>>に参加できます。<<section-citizen-science>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:30
@@ -4231,7 +4231,7 @@ msgstr "[[data-exchange-format]]データ交換フォーマット"
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "Format used to exchange data between systems (e.g. <<camtrap-dp,Camtrap DP>> and <<darwin-core-archive,Darwin Core Archive>>). Requires data transformation from the source system to the format and from the format to the target system. Well designed data exchange formats facilitate <<FAIR>> data exchange, use open formats and provide clear definitions. Also referred to as `data standard` (when approved through a ratification process)."
-msgstr "システム間でデータを交換するために使用されるフォーマット（例. <<camtrap-dp,Camtrap DP>>と<<darwin-core-archive,Darwin Core Archive>>）。提供元のシステムからあるフォーマットへのデータ変換と、そのフォーマットからターゲットとなるシステムへのデータ変換が必要です。よく設計されたデータ交換フォーマットは、<<FAIR>>データ交換を促進し、オープンフォーマットを使用し、明確な定義を提供します。承認プロセスを経て承認された場合、 `data standard`とも呼ばれます。"
+msgstr "システム間でデータを交換するために使用されるフォーマット（例. <<camtrap-dp,Camtrap DP>>と<<darwin-core-archive,Darwin Core Archive>>）。提供元のシステムからあるフォーマットへのデータ変換と、そのフォーマットからターゲットとなるシステムへのデータ変換が必要です。よく設計されたデータ交換フォーマットは、<<FAIR>>データ交換を促進し、オープンフォーマットを使用し、明確な定義を提供します。承認プロセスを経て承認された場合  `data standard` とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:38
@@ -4253,7 +4253,7 @@ msgstr "[[data-repository]]データリポジトリ"
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "Online system for the long-term archival of (research) data (e.g. https://zenodo.org[Zenodo], https://datadryad.org/[Dryad] and the GBIF https://www.gbif.org/ipt[IPT]). Different from a <<data-management-system,data management system>> which is designed for the management (and not necessarily long-term archival) of data."
-msgstr "（研究）データの長期アーカイブのためのオンラインシステム（例：link:++https://zenodo.org++[Zenodo]、link:++https://datadryad.org/++[Dryad]、およびlink:++https://www.gbif.org/ipt++[IPT]。（必ずしも長期アーカイブではない）データの管理を目的とした<<data-management-system,データ管理システム>>とは異なります。"
+msgstr "（研究）データの長期アーカイブのためのオンラインシステム（例. link:++https://zenodo.org++[Zenodo]、link:++https://datadryad.org/++[Dryad]、およびlink:++https://www.gbif.org/ipt++[IPT]。（必ずしも長期アーカイブではない）データの管理を目的とした<<data-management-system,データ管理システム>>とは異なります。"
 
 #. type: Labeled list
 #: glossary.en.adoc:42
@@ -4286,7 +4286,7 @@ msgstr "[[deployment-group]]設置グループ"
 #. type: Plain text
 #: glossary.en.adoc:47
 msgid "Logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` cite:[oconnor-2017], `camera trap array` cite:[meek-2014], `cluster` cite:[risc-2019], `paired deployment` cite:[kolowski-2017], `site` and `strata` cite:[sun-2021] are spatial deployment groups. `sampling campaign` cite:[lamelas-2020], `sampling event` cite:[fegraus-2011] and `session` are temporal deployment groups. `subproject` cite:[emammal-design], `survey` cite:[risc-2019,camerabase] and `tags` are thematic deployment groups. `study areas` cite:[newkirk-2016] can be considered a deployment group or <<project>> in its own right. {deployments-deploymentGroups} in Camtrap DP. See also <<section-deployment-groups>>."
-msgstr "空間的、時間的、またはテーマ別の基準に基づく<<deployment,設置>>の論理的グループ化。設置は複数の設置グループに属することができます。 `array` cite:[oconnor-2017]、 `camera trap array` cite:[meek-2014]、 `cluster` cite:[risc-2019]、 `paired deployment` cite:[kolowski-2017]、 `site` と `strata` cite:[sun-2021]は空間的な設置グループです。 `sampling campaign` cite:[lamelas-2020]、 `sampling event` cite:[fegraus-2011]および `session` は時間的な設置グループです。 `subproject` cite:[emammal-design]、 `survey` cite:[risc-2019,camerabase]および `tags`はテーマ別設置グループです。 `study areas` cite:[newkirk-2016]は、それ自体が設置グループまたは <<project,プロジェクト>>と見なされることがあります。Camtrap DPでは、{deployments-deploymentGroups}に相当します。<<section-deployment-groups>>も参照してください。"
+msgstr "空間的、時間的、またはテーマ別の基準に基づく<<deployment,設置>>の論理的グループ化。設置は複数の設置グループに属することができます。 `array` cite:[oconnor-2017]、 `camera trap array` cite:[meek-2014]、 `cluster` cite:[risc-2019]、 `paired deployment` cite:[kolowski-2017]、 `site` と `strata` cite:[sun-2021]は空間的な設置グループです。 `sampling campaign` cite:[lamelas-2020]、 `sampling event` cite:[fegraus-2011] および `session` は時間的な設置グループです。 `subproject` cite:[emammal-design]、 `survey` cite:[risc-2019,camerabase] および `tags` はテーマ別設置グループです。 `study areas` cite:[newkirk-2016] は、それ自体が設置グループまたは <<project,プロジェクト>>と見なされることがあります。Camtrap DPでは、{deployments-deploymentGroups}に相当します。<<section-deployment-groups>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:48
@@ -4440,7 +4440,7 @@ msgstr "[[machine-learning]]機械学習"
 #. type: Plain text
 #: glossary.en.adoc:75
 msgid "Computational technique that makes use of (training) data (e.g. https://lila.science/) and algorithms to imitate the way that humans learn, gradually improving accuracy."
-msgstr "（教師）データ（例：link:++https://lila.science/++[https://lila.science/]）とアルゴリズムを使用して、人間が学習する方法を模倣し、徐々に精度を向上させる計算技術。"
+msgstr "（教師）データ（例. link:++https://lila.science/++[https://lila.science/]）とアルゴリズムを使用して、人間が学習する方法を模倣し、徐々に精度を向上させる計算技術。"
 
 #. type: Labeled list
 #: glossary.en.adoc:76
@@ -4517,7 +4517,7 @@ msgstr "[[participant]]参加者"
 #. type: Plain text
 #: glossary.en.adoc:89
 msgid "Person associated with a <<project>>, performing out one or more <<role,roles>>. Participant information typically includes name and contact information and is subject to <<GDPR>>. <<organization,Organizations>> can also be considered participants. Also referred to as `contributor`, sometimes `user`. A participant is a {package-contributors} in Camtrap DP. See also <<section-participants-and-roles>>."
-msgstr "<<project,プロジェクト>>に関連する人物で、1つ以上の<<role,役割>>を果たします。参加者情報には通常、名前と連絡先の情報が含まれ、<<GDPR>>の対象となります。<<organization,組織>>も参加者と見なされることがあります。また、 `contributor`、時には `user`とも呼ばれます。Camtrap DPでは、{package-contributors}に相当します。<<section-participants-and-roles>>も参照してください。"
+msgstr "<<project,プロジェクト>>に関連する人物で、1つ以上の<<role,役割>>を果たします。参加者情報には通常、名前と連絡先の情報が含まれ、<<GDPR>>の対象となります。<<organization,組織>>も参加者と見なされることがあります。また、 `contributor`、時には、 `user`とも呼ばれます。Camtrap DPでは、{package-contributors}に相当します。<<section-participants-and-roles>>も参照してください。"
 
 #. type: Labeled list
 #: glossary.en.adoc:90
@@ -4649,7 +4649,15 @@ msgstr "[[trigger]]トリガー"
 #. type: Plain text
 #: glossary.en.adoc:113
 msgid "<<sensor,Sensor>> condition that prompts a <<camera>> to activate and capture <<media>>. Also used to indicate the series of consecutive <<media-file,media files>> resulting from that trigger. One or more triggers form a <<sequence>>. Also referred to as `burst`."
-msgstr "<<camera,カメラ>>を起動して<<media,メディア>>を撮影する際の<<sensor,センサー>>条件。また、そのトリガーにより生じた連続する<<media-file,メディアファイル>>のシリーズを示すためにも使用されます。1つ以上のトリガーが<<sequence,シーケンス>>を形成します。また、`burst`とも呼ばれます。"
+msgstr "<<camera,カメラ>>を起動して<<media,メディア>>を撮影する際の<<sensor,センサー>>条件。また、そのトリガーにより生じた連続する<<media-file,メディアファイル>>のシリーズを示すためにも使用されます。1つ以上のトリガーが<<sequence,シーケンス>>を形成します。また `burst`とも呼ばれます。\n\n"
+"testing asciidoc here\n"
+"また、`burst`とも呼ばれます。\n"
+"また、 `burst` とも呼ばれます。\n"
+"また、(`burst`)とも呼ばれます。\n"
+"または`burst`とも呼ばれます。\n"
+"または `burst` とも呼ばれます。\n"
+"<<sequence,シーケンス>>、`burst`とも呼ばれます。\n"
+"<<sequence,シーケンス>>、 `burst` とも呼ばれます。"
 
 #. type: Labeled list
 #: glossary.en.adoc:114
