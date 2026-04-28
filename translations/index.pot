@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-14 07:27+0000\n"
+"POT-Creation-Date: 2026-04-28 10:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,7 +173,7 @@ msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:46 100.en.adoc:36 200.en.adoc:97 300.en.adoc:969
-#: 400.en.adoc:884 afterword.en.adoc:6 glossary.en.adoc:118
+#: 400.en.adoc:879 afterword.en.adoc:6 glossary.en.adoc:118
 #: bibliography.en.adoc:6
 msgid "<<<"
 msgstr ""
@@ -2955,17 +2955,8 @@ msgid ""
 "definitions, recommendations and examples."
 msgstr ""
 
-#. type: delimited block =
-#: 400.en.adoc:122
-msgid ""
-"At the time of writing, GBIF does not yet support the publication of Camtrap "
-"DP in their production environment. It will be released as a feature in "
-"version 3 of the Integrated Publishing Toolkit "
-"(https://www.gbif.org/ipt[IPT])."
-msgstr ""
-
 #. type: Plain text
-#: 400.en.adoc:125
+#: 400.en.adoc:120
 msgid ""
 "Not all information in a published Camtrap DP is currently harvested by "
 "GBIF. The GBIF data model requires it to be transformed to Darwin Core "
@@ -2979,19 +2970,19 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 400.en.adoc:127
+#: 400.en.adoc:122
 #, no-wrap
 msgid "Darwin Core Archive"
 msgstr ""
 
 #. type: Title ====
-#: 400.en.adoc:130
+#: 400.en.adoc:125
 #, no-wrap
 msgid "Why not a sampling event dataset?"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:133
+#: 400.en.adoc:128
 msgid ""
 "With their hierarchical events (<<deployment,deployments>>, "
 "<<sequence,sequences>>) and resulting <<observation,observations>>, it seems "
@@ -3005,7 +2996,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:135
+#: 400.en.adoc:130
 msgid ""
 "It unfortunately also **impedes us from expressing information about the "
 "<<media>> as an extension**, since the star schema design of a "
@@ -3020,7 +3011,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 400.en.adoc:137
+#: 400.en.adoc:132
 #, no-wrap
 msgid ""
 "{event-core} with camera trap data. It contains three types of events: one "
@@ -3031,7 +3022,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 400.en.adoc:171
+#: 400.en.adoc:166
 #, no-wrap
 msgid ""
 "|eventType\n"
@@ -3068,7 +3059,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 400.en.adoc:174
+#: 400.en.adoc:169
 #, no-wrap
 msgid ""
 "{occurrence-extension} with camera trap data. It contains three "
@@ -3081,7 +3072,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 400.en.adoc:197
+#: 400.en.adoc:192
 #, no-wrap
 msgid ""
 "|occurrenceID\n"
@@ -3108,7 +3099,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:200
+#: 400.en.adoc:195
 msgid ""
 "We therefore recommend expressing camera trap data as an Occurrence dataset "
 "with an {occurrence-core} and an {ac-extension} (see "
@@ -3129,7 +3120,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:202
+#: 400.en.adoc:197
 msgid ""
 "Term recommendations for the {occurrence-core} and {ac-extension} are "
 "provided in <<section-occurrence-core>> and <<section-ac-extension>> "
@@ -3137,7 +3128,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 400.en.adoc:204
+#: 400.en.adoc:199
 #, no-wrap
 msgid ""
 "{occurrence-core} with camera trap data. It contains the same three "
@@ -3149,7 +3140,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 400.en.adoc:235
+#: 400.en.adoc:230
 #, no-wrap
 msgid ""
 "|occurrenceID\n"
@@ -3183,7 +3174,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 400.en.adoc:238
+#: 400.en.adoc:233
 #, no-wrap
 msgid ""
 "{ac-extension} with camera trap data. It contains the same two media files "
@@ -3193,7 +3184,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 400.en.adoc:275
+#: 400.en.adoc:270
 #, no-wrap
 msgid ""
 "|occurrenceID\n"
@@ -3233,7 +3224,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 400.en.adoc:277
+#: 400.en.adoc:272
 #, no-wrap
 msgid ""
 "Screenshot of an "
@@ -3244,19 +3235,19 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: 400.en.adoc:279
+#: 400.en.adoc:274
 #, no-wrap
 msgid "img/web/example-event-page.png"
 msgstr ""
 
 #. type: Title ====
-#: 400.en.adoc:282
+#: 400.en.adoc:277
 #, no-wrap
 msgid "Occurrence core"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:285
+#: 400.en.adoc:280
 msgid ""
 "As described <<section-why-not-a-sampling-event-dataset,above>>, we "
 "recommend to use of an {occurrence-core} for expressing camera trap data as "
@@ -3268,7 +3259,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:287
+#: 400.en.adoc:282
 msgid ""
 "Note that the {occurrence-core} should only contain "
 "<<observation-type,animal observations>>, so classifications of "
@@ -3286,7 +3277,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 400.en.adoc:289
+#: 400.en.adoc:284
 #, no-wrap
 msgid ""
 "Recommended terms to use when expressing camera trap data as an "
@@ -3295,7 +3286,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 400.en.adoc:455
+#: 400.en.adoc:450
 #, no-wrap
 msgid ""
 "|Term\n"
@@ -3465,18 +3456,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:458 400.en.adoc:822
+#: 400.en.adoc:453 400.en.adoc:817
 #, no-wrap
 msgid "type"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:461
+#: 400.en.adoc:456
 msgid "https://dwc.tdwg.org/list/#dc_type[dc:type]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:463
+#: 400.en.adoc:458
 msgid ""
 "The nature of the resource. Use `StillImage` if the record is based on an "
 "image or sequence of images, `MovingImage` if based on a video. One can also "
@@ -3484,18 +3475,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:465
+#: 400.en.adoc:460
 #, no-wrap
 msgid "license"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:468
+#: 400.en.adoc:463
 msgid "https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:470
+#: 400.en.adoc:465
 msgid ""
 "The licence under which the data record is shared. Very likely this will be "
 "the same licence as the one used for the dataset as a whole, but it is "
@@ -3510,18 +3501,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:472
+#: 400.en.adoc:467
 #, no-wrap
 msgid "rightsHolder"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:475
+#: 400.en.adoc:470
 msgid "https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:477
+#: 400.en.adoc:472
 msgid ""
 "The person or organization (i.e. <<participant>>) owning or managing rights "
 "over the resource. In all likeness the organization that decided under what "
@@ -3533,18 +3524,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:479
+#: 400.en.adoc:474
 #, no-wrap
 msgid "datasetID & datasetName"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:482
+#: 400.en.adoc:477
 msgid "term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:484
+#: 400.en.adoc:479
 msgid ""
 "Respectively the identifier and name of the dataset. For "
 "term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that "
@@ -3560,18 +3551,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:486
+#: 400.en.adoc:481
 #, no-wrap
 msgid "collectionCode"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:489
+#: 400.en.adoc:484
 msgid "term:dwc[dwc:collectionCode]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:491
+#: 400.en.adoc:486
 msgid ""
 "The name or acronym identifying the collection or dataset the record was "
 "derived from. Traditionally used to indicate a physical collection, we "
@@ -3584,18 +3575,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:493
+#: 400.en.adoc:488
 #, no-wrap
 msgid "basisOfRecord"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:496
+#: 400.en.adoc:491
 msgid "term:dwc[dwc:basisOfRecord]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:498
+#: 400.en.adoc:493
 msgid ""
 "The specific nature of the record. Set to `MachineObservation` for all "
 "records. While humans decide when and were to deploy a camera trap, and "
@@ -3606,18 +3597,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:500
+#: 400.en.adoc:495
 #, no-wrap
 msgid "dataGeneralizations"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:503
+#: 400.en.adoc:498
 msgid "term:dwc[dwc:dataGeneralizations]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:505
+#: 400.en.adoc:500
 msgid ""
 "The actions taken to make the published data less specific or complete than "
 "in its original form. We recommend succinctly describing here what "
@@ -3628,13 +3619,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:507 400.en.adoc:591 400.en.adoc:627 400.en.adoc:698
-#: 400.en.adoc:720
+#: 400.en.adoc:502 400.en.adoc:586 400.en.adoc:622 400.en.adoc:693
+#: 400.en.adoc:715
 msgid "Examples:"
 msgstr ""
 
 #. type: delimited block -
-#: 400.en.adoc:511
+#: 400.en.adoc:506
 #, no-wrap
 msgid ""
 "coordinates rounded to 0.001 degree\n"
@@ -3642,18 +3633,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:514 400.en.adoc:808
+#: 400.en.adoc:509 400.en.adoc:803
 #, no-wrap
 msgid "occurrenceID"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:517 400.en.adoc:811
+#: 400.en.adoc:512 400.en.adoc:806
 msgid "term:dwc[dwc:occurrenceID]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:519
+#: 400.en.adoc:514
 msgid ""
 "An identifier for the <<observation>>. Use a "
 "<<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap "
@@ -3661,18 +3652,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:521
+#: 400.en.adoc:516
 #, no-wrap
 msgid "individualCount"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:524
+#: 400.en.adoc:519
 msgid "term:dwc[dwc:individualCount]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:526
+#: 400.en.adoc:521
 msgid ""
 "The number of observed <<individual,individuals>>. Note that this number is "
 "dependent on the <<table-classification-precision,precision>> of the "
@@ -3681,18 +3672,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:528
+#: 400.en.adoc:523
 #, no-wrap
 msgid "sex"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:531
+#: 400.en.adoc:526
 msgid "term:dwc[dwc:sex]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:533
+#: 400.en.adoc:528
 msgid ""
 "The sex of the observed <<individual>>(s). We recommend using the controlled "
 "values `male` and `female`, which are based on Camtrap DP and compatible "
@@ -3701,18 +3692,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:535
+#: 400.en.adoc:530
 #, no-wrap
 msgid "lifeStage"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:538
+#: 400.en.adoc:533
 msgid "term:dwc[dwc:lifeStage]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:540
+#: 400.en.adoc:535
 msgid ""
 "The life stage of the observed <<individual>>(s). We recommend using the "
 "controlled values `adult`, `subadult`, and `juvenile`, which are based on "
@@ -3723,18 +3714,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:542
+#: 400.en.adoc:537
 #, no-wrap
 msgid "behavior"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:545
+#: 400.en.adoc:540
 msgid "term:dwc[dwc:behavior]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:547
+#: 400.en.adoc:542
 msgid ""
 "The dominant behaviour of the observed <<individual>>(s). We recommend using "
 "existing or your own controlled values (e.g. grazing, browsing, rooting, "
@@ -3743,18 +3734,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:549
+#: 400.en.adoc:544
 #, no-wrap
 msgid "occurrenceStatus"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:552
+#: 400.en.adoc:547
 msgid "term:dwc[dwc:occurrenceStatus]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:554
+#: 400.en.adoc:549
 msgid ""
 "A statement about the presence or absence of the taxon at a location. When "
 "reduced to species observations (filtering out <<blank,blanks>>, etc.), "
@@ -3763,18 +3754,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:556
+#: 400.en.adoc:551
 #, no-wrap
 msgid "occurrenceRemarks"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:559
+#: 400.en.adoc:554
 msgid "term:dwc[dwc:occurrenceRemarks]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:561
+#: 400.en.adoc:556
 msgid ""
 "The comments or notes about the <<observation>>. These are typically notes "
 "(sometimes in the native language of the author) about the observation "
@@ -3785,18 +3776,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:563
+#: 400.en.adoc:558
 #, no-wrap
 msgid "organismID"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:566
+#: 400.en.adoc:561
 msgid "term:dwc[dwc:organismID]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:568
+#: 400.en.adoc:563
 msgid ""
 "An identifier for an observed and known <<individual>> that was recognized "
 "by colour ring, ear tag, skin pattern or other characteristics. Observations "
@@ -3810,18 +3801,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:570
+#: 400.en.adoc:565
 #, no-wrap
 msgid "eventID"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:573
+#: 400.en.adoc:568
 msgid "term:dwc[dwc:eventID]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:575
+#: 400.en.adoc:570
 msgid ""
 "An identifier for the event the observation belongs to. We recommend "
 "providing the identifier for the <<event>> (typically a <<sequence>>) as "
@@ -3836,18 +3827,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:577
+#: 400.en.adoc:572
 #, no-wrap
 msgid "parentEventID"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:580
+#: 400.en.adoc:575
 msgid "term:dwc[dwc:parentEventID]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:582
+#: 400.en.adoc:577
 msgid ""
 "An identifier for a broader event then those identified by "
 "<<section-eventid,eventID>>. We recommend providing the identifier of the "
@@ -3861,18 +3852,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:584
+#: 400.en.adoc:579
 #, no-wrap
 msgid "eventDate"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:587
+#: 400.en.adoc:582
 msgid "term:dwc[dwc:eventDate]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:589
+#: 400.en.adoc:584
 msgid ""
 "The date, date-time or date-time interval during which the <<event>> "
 "occurred. We recommend using a single timestamp for "
@@ -3888,7 +3879,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: 400.en.adoc:596
+#: 400.en.adoc:591
 #, no-wrap
 msgid ""
 "2020-07-29T05:38:55Z/2020-07-29T05:39:00Z\n"
@@ -3897,18 +3888,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:599
+#: 400.en.adoc:594
 #, no-wrap
 msgid "habitat"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:602
+#: 400.en.adoc:597
 msgid "term:dwc[dwc:habitat]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:604
+#: 400.en.adoc:599
 msgid ""
 "A category or description of the habitat in which the <<event>> "
 "occurred. This is typically the habitat at the time of deployment, with "
@@ -3919,18 +3910,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:606
+#: 400.en.adoc:601
 #, no-wrap
 msgid "samplingProtocol"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:609
+#: 400.en.adoc:604
 msgid "term:dwc[dwc:samplingProtocol]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:611
+#: 400.en.adoc:606
 msgid ""
 "The method(s) or protocol(s) used during the <<event>>. We recommend using "
 "the controlled value `camera trap`. This allows users to search for records "
@@ -3938,18 +3929,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:613
+#: 400.en.adoc:608
 #, no-wrap
 msgid "samplingEffort"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:616
+#: 400.en.adoc:611
 msgid "term:dwc[dwc:samplingEffort]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:618
+#: 400.en.adoc:613
 msgid ""
 "The amount of effort expanded during the <<event>>. We recommend providing "
 "the date-time interval the camera trap was deployed, using the same "
@@ -3959,18 +3950,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:620
+#: 400.en.adoc:615
 #, no-wrap
 msgid "eventRemarks"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:623
+#: 400.en.adoc:618
 msgid "term:dwc[dwc:eventRemarks]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:625
+#: 400.en.adoc:620
 msgid ""
 "The comments or notes about the <<event>>. These are typically notes "
 "(sometimes in the native language of the author) about the <<deployment>> "
@@ -3985,7 +3976,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: 400.en.adoc:632
+#: 400.en.adoc:627
 #, no-wrap
 msgid ""
 "camera trap with bait near burrow\n"
@@ -3994,18 +3985,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:635
+#: 400.en.adoc:630
 #, no-wrap
 msgid "locationID"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:638
+#: 400.en.adoc:633
 msgid "term:dwc[dwc:locationID]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:640
+#: 400.en.adoc:635
 msgid ""
 "An identifier for the <<location>>. This identifier allows users to find all "
 "observations (and media) for a specific location (across deployments). Use a "
@@ -4014,18 +4005,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:642
+#: 400.en.adoc:637
 #, no-wrap
 msgid "locality"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:645
+#: 400.en.adoc:640
 msgid "term:dwc[dwc:locality]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:647
+#: 400.en.adoc:642
 msgid ""
 "The name of the <<location>>. This is typically a name or code assigned "
 "within the camera trap study. In Camtrap DP, this term corresponds with "
@@ -4033,18 +4024,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:649
+#: 400.en.adoc:644
 #, no-wrap
 msgid "minimumDepthInMeters & maximumDepthInMeters"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:652
+#: 400.en.adoc:647
 msgid "term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:654
+#: 400.en.adoc:649
 msgid ""
 "The depth (in meters) below the local surface. For (marine) camera trap "
 "studies, this is the <<camera-depth,depth>> at which the <<camera>> is "
@@ -4054,20 +4045,20 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:656
+#: 400.en.adoc:651
 #, no-wrap
 msgid "minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:659
+#: 400.en.adoc:654
 msgid ""
 "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & "
 "term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:661
+#: 400.en.adoc:656
 msgid ""
 "The height (in meters) above a reference surface. For camera trap studies, "
 "this is the <<camera-height,height>> at which the <<camera>> is deployed. We "
@@ -4077,18 +4068,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:663
+#: 400.en.adoc:658
 #, no-wrap
 msgid "decimalLatitude & decimalLongitude"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:666
+#: 400.en.adoc:661
 msgid "term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:668
+#: 400.en.adoc:663
 msgid ""
 "The geographic latitude and longitude of the <<location>>, in decimal "
 "degrees. Latitude values lie between -90 and 90, longitude values between "
@@ -4102,18 +4093,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:670
+#: 400.en.adoc:665
 #, no-wrap
 msgid "geodeticDatum"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:673
+#: 400.en.adoc:668
 msgid "term:dwc[dwc:geodeticDatum]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:675
+#: 400.en.adoc:670
 msgid ""
 "The spatial reference system used for the geographic "
 "<<section-decimallatitude-decimallongitude,coordinates>>. For coordinates "
@@ -4123,18 +4114,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:677
+#: 400.en.adoc:672
 #, no-wrap
 msgid "coordinateUncertaintyInMeters"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:680
+#: 400.en.adoc:675
 msgid "term:dwc[dwc:coordinateUncertaintyInMeters]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:682
+#: 400.en.adoc:677
 msgid ""
 "The horizontal distance (in metres) from the geographic "
 "<<section-decimallatitude-decimallongitude,coordinates>> describing the "
@@ -4148,18 +4139,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:684
+#: 400.en.adoc:679
 #, no-wrap
 msgid "coordinatePrecision"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:687
+#: 400.en.adoc:682
 msgid "term:dwc[dwc:coordinatePrecision]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:689
+#: 400.en.adoc:684
 msgid ""
 "The decimal precision of the geographic "
 "<<section-decimallatitude-decimallongitude,coordinates>>>, if known. This "
@@ -4171,18 +4162,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:691
+#: 400.en.adoc:686
 #, no-wrap
 msgid "identifiedBy"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:694
+#: 400.en.adoc:689
 msgid "term:dwc[dwc:identifiedBy]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:696
+#: 400.en.adoc:691
 msgid ""
 "The person or <<AI,species classification model>> that identified the "
 "observed <<individual,individual(s)>> and assigned the "
@@ -4196,7 +4187,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: 400.en.adoc:703
+#: 400.en.adoc:698
 #, no-wrap
 msgid ""
 "Peter Desmet\n"
@@ -4205,18 +4196,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:706
+#: 400.en.adoc:701
 #, no-wrap
 msgid "dateIdentified"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:709
+#: 400.en.adoc:704
 msgid "term:dwc[dwc:dateIdentified]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:711
+#: 400.en.adoc:706
 msgid ""
 "The date or date-time on which the identification was made. We recommend "
 "providing a single timestamp: that of the <<classification>> made by the "
@@ -4229,18 +4220,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:713
+#: 400.en.adoc:708
 #, no-wrap
 msgid "identificationRemarks"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:716
+#: 400.en.adoc:711
 msgid "term:dwc[dwc:identificationRemarks]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:718
+#: 400.en.adoc:713
 msgid ""
 "The comments or notes about the identification. We recommend using this term "
 "to provide information on whether the <<classification>> was made by a human "
@@ -4251,7 +4242,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: 400.en.adoc:724
+#: 400.en.adoc:719
 #, no-wrap
 msgid ""
 "classified by a human\n"
@@ -4259,18 +4250,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:727
+#: 400.en.adoc:722
 #, no-wrap
 msgid "taxonID"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:730
+#: 400.en.adoc:725
 msgid "term:dwc[dwc:taxonID]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:732
+#: 400.en.adoc:727
 msgid ""
 "An identifier for <<section-scientificname,scientificName>>. This identifier "
 "allows users to find all observations (and media) for a specific taxon. Use "
@@ -4281,36 +4272,36 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:734
+#: 400.en.adoc:729
 #, no-wrap
 msgid "scientificName"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:737
+#: 400.en.adoc:732
 msgid "term:dwc[dwc:scientificName]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:739
+#: 400.en.adoc:734
 msgid ""
 "The scientific name of the observed <<individual,individual(s)>>. In Camtrap "
 "DP, this term corresponds with {observations-scientificName}."
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:741
+#: 400.en.adoc:736
 #, no-wrap
 msgid "kingdom"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:744
+#: 400.en.adoc:739
 msgid "term:dwc[dwc:kingdom]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:746
+#: 400.en.adoc:741
 msgid ""
 "The kingdom in which the taxon with the "
 "<<section-scientificname,scientificName>> is classified. It allows services "
@@ -4321,13 +4312,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 400.en.adoc:748
+#: 400.en.adoc:743
 #, no-wrap
 msgid "Audubon Media Description extension"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:751
+#: 400.en.adoc:746
 msgid ""
 "As described <<section-why-not-a-sampling-event-dataset,above>>, we "
 "recommend to use of an {ac-extension} for expressing camera trap data as a "
@@ -4336,7 +4327,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:753
+#: 400.en.adoc:748
 msgid ""
 "Note that the {ac-extension} can contain duplicates, an important difference "
 "with Camtrap DP's {media} where each file is only listed once. Repeated "
@@ -4353,7 +4344,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 400.en.adoc:755
+#: 400.en.adoc:750
 #, no-wrap
 msgid ""
 "Recommended terms to use when expressing camera trap data as an "
@@ -4361,7 +4352,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 400.en.adoc:805
+#: 400.en.adoc:800
 #, no-wrap
 msgid ""
 "|Term\n"
@@ -4414,7 +4405,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:813
+#: 400.en.adoc:808
 msgid ""
 "A foreign key to the <<section-occurrenceid,occurrenceID>> in the "
 "{occurrence-core}, to indicate the relation between the <<observation>> and "
@@ -4430,18 +4421,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:815
+#: 400.en.adoc:810
 #, no-wrap
 msgid "identifier"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:818
+#: 400.en.adoc:813
 msgid "https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:820
+#: 400.en.adoc:815
 msgid ""
 "An identifier for the <<media-file,media file>>. Use a "
 "<<section-stable-unique-identifiers,stable unique identifier>>. This term "
@@ -4451,12 +4442,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:825
+#: 400.en.adoc:820
 msgid "https://ac.tdwg.org/termlist/#dc_type[dc:type]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:827
+#: 400.en.adoc:822
 msgid ""
 "The nature of the resource. Use `StillImage` for <<image,images>>, "
 "`MovingImage` for <<video,videos>>. Do not use "
@@ -4465,18 +4456,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:829
+#: 400.en.adoc:824
 #, no-wrap
 msgid "comments"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:832
+#: 400.en.adoc:827
 msgid "https://ac.tdwg.org/termlist/#ac_comments[ac:comments]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:834
+#: 400.en.adoc:829
 msgid ""
 "The comments or notes about the media file. In contrast with "
 "<<section-eventremarks,eventRemarks>> and "
@@ -4488,18 +4479,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:836
+#: 400.en.adoc:831
 #, no-wrap
 msgid "rights"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:839
+#: 400.en.adoc:834
 msgid "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:841
+#: 400.en.adoc:836
 msgid ""
 "The licence under which the media file is shared. Note that this applies to "
 "file referenced in <<section-ac-accessuri,accessURI>>, not the data in the "
@@ -4519,18 +4510,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:843
+#: 400.en.adoc:838
 #, no-wrap
 msgid "CreateDate"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:846
+#: 400.en.adoc:841
 msgid "https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:848
+#: 400.en.adoc:843
 msgid ""
 "The date-time on which the media file was created. This information is "
 "typically extracted from the <<EXIF>> metadata by the "
@@ -4541,18 +4532,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:850
+#: 400.en.adoc:845
 #, no-wrap
 msgid "captureDevice"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:853
+#: 400.en.adoc:848
 msgid "https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:855
+#: 400.en.adoc:850
 msgid ""
 "The device(s) used to create the media file. We recommend providing the "
 "<<camera>> make and model (e.g. `Reconyx-HF2X`). In Camtrap DP, this term "
@@ -4560,18 +4551,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:857
+#: 400.en.adoc:852
 #, no-wrap
 msgid "resourceCreationTechnique"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:860
+#: 400.en.adoc:855
 msgid "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:862
+#: 400.en.adoc:857
 msgid ""
 "The method(s) used to create or alter the media file. We recommend using "
 "this term to provide the <<trigger>> method that was used to capture the "
@@ -4580,18 +4571,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:864
+#: 400.en.adoc:859
 #, no-wrap
 msgid "accessURI"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:867
+#: 400.en.adoc:862
 msgid "https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:869
+#: 400.en.adoc:864
 msgid ""
 "The URI (Uniform Resource Identifier) that provides access to the media "
 "file. Although the term allows to point to relative <<file-path,file paths>> "
@@ -4605,18 +4596,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:871
+#: 400.en.adoc:866
 #, no-wrap
 msgid "serviceExpectation"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:874
+#: 400.en.adoc:869
 msgid "https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:876
+#: 400.en.adoc:871
 msgid ""
 "The service expectations users may have of the "
 "<<section-ac-accessuri,accessURI>>. We recommend using the controlled values "
@@ -4627,18 +4618,18 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 400.en.adoc:878
+#: 400.en.adoc:873
 #, no-wrap
 msgid "format"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:881
+#: 400.en.adoc:876
 msgid "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
 msgstr ""
 
 #. type: Plain text
-#: 400.en.adoc:883
+#: 400.en.adoc:878
 msgid ""
 "The file format of the media file. We recommend providing the media type "
 "(MIME type) using the controlled values `image/jpeg`, `video/mp4` or "
