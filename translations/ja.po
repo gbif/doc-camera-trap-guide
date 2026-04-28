@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-24 05:42\n"
+"PO-Revision-Date: 2026-04-28 05:12\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3931,7 +3931,7 @@ msgstr "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
 #. type: Plain text
 #: 400.en.adoc:841
 msgid "The licence under which the media file is shared. Note that this applies to file referenced in <<section-ac-accessuri,accessURI>>, not the data in the {ac-extension} (these fall under the dataset license). We recommend using the same license for all media files. To enable wide use, we recommend publishing media files under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] or https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International license] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode` or `https://creativecommons.org/licenses/by/4.0/legalcode` respectively. Do not use https://ac.tdwg.org/termlist/#dc_rights[**dc**:rights], because that term expects a literal value (the full-text copyright statement). In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `media` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
-msgstr "メディアファイルが共有されるライセンス。これは<<section-ac-accessuri,accessURI>>で参照されるファイルに適用され、{ac-extension}のデータには適用されません（データセットライセンスが適用されます）。全てのメディアファイルに同じライセンスを使用することを推奨します。広範な利用を可能にするために、メディアファイルを https://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]または https://creativecommons.org/licenses/by/4.0/[クリエイティブ・コモンズ表示4.0国際ライセンス]の下で公開し、URLを提供することを推奨します： `https://creativecommons.org/publicdomain/zero/1.0/legalcode`、または、 `https://creativecommons.org/licenses/by/4.0/legalcode`。link:++https://ac.tdwg.org/termlist/#dc_rights++[**dc**:rights]は、文字列値（全文の著作権声明）を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{package-licenses}の `media` のスコープを持つライセンスの `path` に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
+msgstr "メディアファイルが共有されるライセンス。これは<<section-ac-accessuri,accessURI>>で参照されるファイルに適用され、{ac-extension}のデータには適用されません（データセットライセンスが適用されます）。全てのメディアファイルに同じライセンスを使用することを推奨します。広範な利用を可能にするために、メディアファイルを https://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]または https://creativecommons.org/licenses/by/4.0/[クリエイティブ・コモンズ表示4.0国際ライセンス]の下で公開し、URLを提供することを推奨します： `https://creativecommons.org/publicdomain/zero/1.0/legalcode` または、 `https://creativecommons.org/licenses/by/4.0/legalcode` 。link:++https://ac.tdwg.org/termlist/#dc_rights++[**dc**:rights]は、文字列値（全文の著作権声明）を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{package-licenses}の `media` のスコープを持つライセンスの `path` に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
 #: 400.en.adoc:843
