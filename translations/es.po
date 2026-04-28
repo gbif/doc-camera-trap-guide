@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-14 08:19\n"
+"PO-Revision-Date: 2026-04-28 08:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -100,7 +100,7 @@ msgstr "Japonés"
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "Translated by https://orcid.org/0009-0004-0192-3904[Kumiko Totsu], https://orcid.org/0000-0002-9563-457X[Keita Fukasawa] and https://orcid.org/0000-0001-6935-7233[Kana Terayama] from the National Institute for Environmental Studies, Japan, in collaboration with the Japan Initiative for Biodiversity Information (JBIF)."
-msgstr ""
+msgstr "Traducida por https://orcid.org/0009-0004-0192-3904[Kumiko Totsu], https://orcid.org/0000-0002-9563-457X[Keita Fukasawa] y https://orcid.org/0000-0001-6935-7233[Kana Terayama] del Instituto Nacional de Estudios Ambientales de Japón, en colaboración con la Iniciativa Japonesa para la Información sobre Biodiversidad (JBIF)."
 
 #. type: Title ===
 #: colophon.en.adoc:30
