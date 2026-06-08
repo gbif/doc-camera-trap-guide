@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-06-05 21:32\n"
+"PO-Revision-Date: 2026-06-08 17:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1550,7 +1550,7 @@ msgstr "|Nombre de columna\n"
 "|Los valores (0-360) comienzan en sentido horario desde el norte, por lo que 0 = norte, 90 = este, 180 = sur, 270 = oeste.\n"
 "|grados decimales\n"
 "|número\n"
-"|no\n"
+"|no\n\n"
 
 #. type: Title ====
 #: 300.en.adoc:597
