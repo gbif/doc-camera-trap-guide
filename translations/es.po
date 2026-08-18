@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-08-18 13:09\n"
+"PO-Revision-Date: 2026-08-18 14:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -182,7 +182,7 @@ msgstr "Las plataformas especializadas de gestión de datos ahora se utilizan pr
 #. type: Plain text
 #: 100.en.adoc:13
 msgid "<<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> are increasingly used to automate <<species-recognition,species recognition>> and will soon be applied to most recorded media"
-msgstr "La <<AI,inteligencia artificial>> (IA) y la <<cloud-computingcomputación en la nube>> se utilizan cada vez más para automatizar el <<species-recognition,reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
+msgstr "La <<AI,inteligencia artificial>> (IA) y la <<cloud-computing,computación en la nube>> se utilizan cada vez más para automatizar el <<species-recognition,reconocimiento de especies>> y pronto se aplicará a la mayoría de los registros multimedia"
 
 #. type: Plain text
 #: 100.en.adoc:14
@@ -332,7 +332,7 @@ msgstr "|diversidad |índices de diversidad |diversidad |riqueza |presencia de e
 #: 200.en.adoc:52
 #, no-wrap
 msgid "Camera trap project life cycle"
-msgstr "Ciclo de vida de la cámara trampa"
+msgstr "Ciclo de vida de los proyectos con cámaras trampa"
 
 #. type: Plain text
 #: 200.en.adoc:55
@@ -379,7 +379,7 @@ msgid "|Topic\n"
 msgstr "|Tema\n"
 "|Qué\n"
 "|Referencia\n\n"
-"|Ciclo de vida completo de captura de cámara \n"
+"|Ciclo de vida completo del fototrampeo\n"
 "|Estado general de la técnica +\n"
 "Desarrollo futuro y restricciones de la cámara trampa\n"
 "|citenp:[cadman-2014,rovero-2016,wearn-2017,meek-2020,gloverkapfer-2019]\n\n"
@@ -392,7 +392,7 @@ msgstr "|Tema\n"
 "Almacenamiento y mantenimiento de la cámara trampa +\n"
 "Cebos y señuelos +\n"
 "Combatir el robo y el vandalismo +\n"
-"SConfiguración en diferentes ambientes\n"
+"Configuración en diferentes ambientes\n"
 "|citenp:[wearn-2017,rovero-2010,rovero-2013,meek-2014]\n\n"
 "|Gestión e intercambio de datos\n"
 "|Consideraciones de gestión de datos +\n"
@@ -445,7 +445,7 @@ msgstr "Qué son los datos de las cámaras trampa"
 #. type: Plain text
 #: 300.en.adoc:16
 msgid "Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. But to be able to use these for research they need to be documented with additional information. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved."
-msgstr "Intuitivamente, asociamos los datos de las cámaras trampa con los <<media>> capturados por las <<camera,cameras>>. Pero para poder utilizarlos para la investigación necesitan estar documentados con información adicional. Los archivos multimedia deben ser <<classification, classified>> para saber qué especies fueron observadas. La información sobre el <<deployment>>, la duración, la <<location>>, la <<alignment>> y la metodología de muestreo, es necesaria para saber cuándo, dónde y qué tan probable era que se observaran esas especies. Finalmente, necesitamos información sobre el <<project,project/study>> en su conjunto para conocer el alcance y quién estaba involucrado."
+msgstr "Intuitivamente, asociamos los datos de las cámaras trampa con los archivos <<media>> capturados por las <<camera,cameras>>. Pero para poder utilizarlos para la investigación necesitan estar documentados con información adicional. Los archivos multimedia deben ser <<classification,clasificados>> para saber qué especies fueron observadas. La información sobre el <<deployment>>, la duración, la <<location,ubicación>>, la <<alignment>> y la metodología de muestreo, es necesaria para saber cuándo, dónde y qué tan probable era que se observaran esas especies. Finalmente, necesitamos información sobre el <<project,proyecto/estudio>> en su conjunto para conocer el alcance y quién estaba involucrado."
 
 #. type: Plain text
 #: 300.en.adoc:18
@@ -468,7 +468,7 @@ msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturad
 #: 300.en.adoc:22
 #, no-wrap
 msgid "**Deployments:** information regarding the camera <<location>> and <<alignment>>, the sampling duration and <<covariates>>. Typically not automatically registered by the camera.\n"
-msgstr "**Despliegues:** información sobre la <<location>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara.\n"
+msgstr "**Despliegues:** información sobre la <<location, localización>> de la cámara y su <<alignment>>, la duración de muestreo y <<covariates>>. Normalmente no se registra automáticamente por la cámara.\n"
 
 #. type: Plain text
 #: 300.en.adoc:23
