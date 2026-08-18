@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-06-08 17:54\n"
+"PO-Revision-Date: 2026-08-18 13:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,8 +20,7 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Best Practices for Managing and Publishing Camera Trap Data"
-msgstr "Buenas prácticas para gestionar y \n"
-"publicar datos de cámaras trampa"
+msgstr "Buenas prácticas para gestionar y publicar datos de cámaras trampa"
 
 #. type: Plain text
 #: index.en.adoc:134
@@ -1517,7 +1516,7 @@ msgstr "|Nombre de columna\n"
 "|sí\n\n"
 "|deploymentStart\n"
 "|Fecha y hora en que comenzó el despliegue.\n"
-"|Formateado como  `AAAA-MM-DDTHH:MM:SSZ`.\n"
+"|Formateado como `AAAA-MM-DDTHH:MM:SSZ`.\n"
 "|\n"
 "|fecha y hora\n"
 "|sí\n\n"
@@ -1550,7 +1549,7 @@ msgstr "|Nombre de columna\n"
 "|Los valores (0-360) comienzan en sentido horario desde el norte, por lo que 0 = norte, 90 = este, 180 = sur, 270 = oeste.\n"
 "|grados decimales\n"
 "|número\n"
-"|no\n\n"
+"|no\n"
 
 #. type: Title ====
 #: 300.en.adoc:597
