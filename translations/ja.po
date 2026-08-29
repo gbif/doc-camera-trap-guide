@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
-"POT-Creation-Date: 2026-04-14 07:27+0000\n"
-"PO-Revision-Date: 2026-04-28 05:12\n"
+"POT-Creation-Date: 2026-04-28 10:22+0000\n"
+"PO-Revision-Date: 2026-04-28 10:25\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -146,7 +146,7 @@ msgstr "カメラトラップは、生物多様性や自然生態系の状態を
 
 #. type: Plain text
 #: colophon.en.adoc:46 100.en.adoc:36 200.en.adoc:97 300.en.adoc:969
-#: 400.en.adoc:884 afterword.en.adoc:6 glossary.en.adoc:118
+#: 400.en.adoc:879 afterword.en.adoc:6 glossary.en.adoc:118
 #: bibliography.en.adoc:6
 msgid "<<<"
 msgstr "<<<"
@@ -2580,46 +2580,41 @@ msgstr "カメラトラップデータを公開するために、<<camtrap-dp,Ca
 msgid "See the https://camtrap-dp.tdwg.org[Camtrap DP website] for term definitions, recommendations and examples."
 msgstr "用語の定義、推奨事項、および例については、link:++https://camtrap-dp.tdwg.org++[Camtrap DPのウェブサイト] を参照してください。"
 
-#. type: delimited block =
-#: 400.en.adoc:122
-msgid "At the time of writing, GBIF does not yet support the publication of Camtrap DP in their production environment. It will be released as a feature in version 3 of the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT])."
-msgstr "執筆時点では、GBIFはまだCamtrap DPの公開を本番環境でサポートしていません。これは、link:++https://www.gbif.org/ipt++[IPT]のバージョン3の機能としてリリースされる予定です。"
-
 #. type: Plain text
-#: 400.en.adoc:125
+#: 400.en.adoc:120
 msgid "Not all information in a published Camtrap DP is currently harvested by GBIF. The GBIF data model requires it to be transformed to Darwin Core before ingestion. This process is provided by the https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] function in the R software package camtraptor cite:[camtraptor]. This function implements the <<section-darwin-core-archive,recommendations>> suggested in this document. GBIF will be able to process more information from a published Camtrap DP once it has implemented a new data model cite:[gbif-2022]."
 msgstr "公開されたCamtrap DPの全ての情報が現在GBIFによって収集されるわけではないことに注意してください。GBIFのデータモデルでは、取り込み前にDarwin Coreに変換する必要があります。このプロセスは、Rソフトウェアパッケージcamtraptorの https://inbo.github.io/camtraptor/reference/write_dwc.html[`write_dwc()`] 関数によって提供されます cite:[camtraptor]。この関数は、この文書で推奨されている<<section-darwin-core-archive,推奨事項>>を実装しています。GBIFが新しいデータモデルを実装すると、公開されたCamtrap DPからより多くの情報を処理できるようになります cite:[gbif-2022]。"
 
 #. type: Title ===
-#: 400.en.adoc:127
+#: 400.en.adoc:122
 #, no-wrap
 msgid "Darwin Core Archive"
 msgstr "Darwin Core Archive"
 
 #. type: Title ====
-#: 400.en.adoc:130
+#: 400.en.adoc:125
 #, no-wrap
 msgid "Why not a sampling event dataset?"
 msgstr "なぜサンプリングイベントデータセットではないのか？"
 
 #. type: Plain text
-#: 400.en.adoc:133
+#: 400.en.adoc:128
 msgid "With their hierarchical events (<<deployment,deployments>>, <<sequence,sequences>>) and resulting <<observation,observations>>, it seems logical to express camera trap data as https://www.gbif.org/sampling-event-data[Sampling-event data] with an {event-core} (see <<table-event-core>>) and an {occurrence-extension} (see <<table-occurrence-extension>>). It allows us to provide detailed (though repeated) information about each type of event and offers the possibility to add a {mof-extension} with <<alignment>> and other information (mostly relevant for the deployments)."
 msgstr "階層的なイベント（<<deployment,設置>>、<<sequence,シーケンス>>）とそれに伴う<<observation,観察>>結果を持つカメラトラップデータを、link:++https://www.gbif.org/sampling-event-data++[サンプリングイベントデータ]として、つまり{event-core}（イベントコア）（<<table-event-core>>参照）と{occurrence-extension}（オカレンス拡張）（<<table-occurrence-extension>>参照）を使用して表現するのが論理的に思えます。これにより、各タイプのイベントに関する詳細な（ただし繰り返しの）情報を提供し、{mof-extension}（Measurement Or Facts拡張）を追加することで<<alignment,アライメント>>やその他の（主に設置に関連した）情報を含めて提供することが可能となります。"
 
 #. type: Plain text
-#: 400.en.adoc:135
+#: 400.en.adoc:130
 msgid "It unfortunately also **impedes us from expressing information about the <<media>> as an extension**, since the star schema design of a <<darwin-core-archive,Darwin Core Archive>> does not allow to relate the {occurrence-extension} with an {ac-extension}. It is technically possible to link the {ac-extension} with the {event-core}, but the media would then not be linked to the occurrences and not appear on occurrence pages at GBIF.org. The only available option to express information about the media at an occurrence level would be to use term:dwc[dwc:associatedMedia], which would reduce it to a (list of) URL(s). License, media type, capture method, bounding boxes, etc. cannot be provided."
 msgstr "残念ながら、<<darwin-core-archive,Darwin Core Archive>>のスター・スキーマ設計では、{occurrence-extension}（オカレンス拡張）と{ac-extension}（Audubon Media Description拡張）を関連付けることができないため、**<<media,メディア>>に関する情報を拡張形式で表現することができません**。技術的には、{ac-extension}（Audubon Media Description拡張）を{event-core}（イベントコア）と関連付けできますが、その場合、メディアはオカレンスにリンクされず、GBIF.orgのオカレンスページに表示されません。オカレンスレベルでメディアに関する情報を表現する唯一の方法は、term:dwc[dwc:associatedMedia]を使用することですが、提供可能な情報はURLのリストに限定されます。ライセンス、メディアタイプ、撮影方法、バウンディングボックスなどは提供できません。"
 
 #. type: Block title
-#: 400.en.adoc:137
+#: 400.en.adoc:132
 #, no-wrap
 msgid "{event-core} with camera trap data. It contains three types of events: one <<deployment>> (with a duration of days), one <<sequence>> (with a duration of seconds) and two <<media>>-based events (with a single timestamp). Note that location information is the same for all events. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
 msgstr "カメラトラップデータを含む{event-core}（イベントコア）。3種類のイベントが含まれる：1つの<<deployment,設置>>（期間は日単位）、1つの<<sequence,シーケンス>> （期間は秒単位）、および2つの<<media,メディア>>ベースのイベント（単一のタイムスタンプ）。全てのイベントについて位置情報が同じであることに注意。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
-#: 400.en.adoc:171
+#: 400.en.adoc:166
 #, no-wrap
 msgid "|eventType\n"
 "|eventID\n"
@@ -2677,13 +2672,13 @@ msgstr "|eventType\n"
 "|51.496, 4.774\n"
 
 #. type: Block title
-#: 400.en.adoc:174
+#: 400.en.adoc:169
 #, no-wrap
 msgid "{occurrence-extension} with camera trap data. It contains three observations: two <<#section-media-or-event-based-classification,media-based>> classifications of _Anas platyrhynchos_ and one event-based classification of _Ardea cinerea_. Information about the media files can only be provided in term:dwc[dwc:associatedMedia]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
 msgstr "カメラトラップデータを含む {occurrence-extension}（オカレンス拡張）。３種類の観察記録が含まれる：2つの<<#section-media-or-event-based-classification,メディアベース>>の_Anas platyrhynchos_ の分類、1つのイベントベースの_Ardea cinerea_の分類。メディアファイルに関する情報は、dwc:associatedMedia にのみ記述することができる。：link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
-#: 400.en.adoc:197
+#: 400.en.adoc:192
 #, no-wrap
 msgid "|occurrenceID\n"
 "|eventID\n"
@@ -2721,23 +2716,23 @@ msgstr "|occurrenceID\n"
 "https://multimedia.agouti.eu/assets/c5efbcb3-34f5-4a59-bc15-034e01b05475/file#\n"
 
 #. type: Plain text
-#: 400.en.adoc:200
+#: 400.en.adoc:195
 msgid "We therefore recommend expressing camera trap data as an Occurrence dataset with an {occurrence-core} and an {ac-extension} (see <<table-occurrence-core>> and <<table-ac-extension>>). This treats **media as primary data records**, which is important given that they are the evidence on which the observations are based. Event hierarchy can largely be retained as well, since the {occurrence-core} allows to group occurrences into events (term:dwc[dwc:eventID]) and parent events (term:dwc[dwc:parentEventID]). By providing the <<event>>/sequence identifier in term:dwc[dwc:eventID] and <<deployment>> identifier in term:dwc[dwc:parentEventID], observations can be grouped just like they would in an {event-core} and GBIF.org will automatically create event pages for those (see <<figure-example-event-page>>). Event duration information however cannot be provided, but <<section-eventdate,eventDate>> and <<section-samplingeffort,samplingEffort>> can retain most of it. Information about the deployment location, habitat, sampling protocol, etc. is repeated for every observation in the deployment."
 msgstr "したがって、カメラトラップデータをオカレンスデータセットとして表現することを推奨します。{occurrence-core}（オカレンスコア）と{ac-extension}（Audubon Media Description拡張）を使用します（<<table-occurrence-core>> および<<table-ac-extension>>を参照）。**メディアを主要なデータレコードとして**扱います。このことは、メディアが観察の証拠であることからも重要です。{occurrence-core}（オカレンスコア）は、オカレンスをイベント（term:dwc[dwc:eventID]）および親イベント（term:dwc[dwc:parentEventID]）にグループ化することが可能なため、<<event,イベント>>の階層構造も大部分が保持されます。term:dwc[dwc:eventID]に<<event,イベント>>/シーケンスの識別子を、term:dwc[dwc:parentEventID]に<<deployment,設置>>の識別子を提供することで、{event-core}（イベントコア）と同様に観察情報をグループ化でき、GBIF.orgで自動的にイベントページが作成されます（<<figure-example-event-page>>参照）。イベントの期間情報は提供できませんが、<<section-eventdate,eventDate>>と<<section-samplingeffort,samplingEffort>>でほとんどの情報を保持できます。設置場所、ハビタット、サンプリング手順などの情報は、設置に関連付く全ての観察に対して繰り返されます。"
 
 #. type: Plain text
-#: 400.en.adoc:202
+#: 400.en.adoc:197
 msgid "Term recommendations for the {occurrence-core} and {ac-extension} are provided in <<section-occurrence-core>> and <<section-ac-extension>> respectively."
 msgstr "{occurrence-core}（オカレンスコア）と{ac-extension}（Audubon Media Description拡張）の用語の推奨事項は、それぞれ<<section-occurrence-core>>および<<section-ac-extension>>に記載されています。"
 
 #. type: Block title
-#: 400.en.adoc:204
+#: 400.en.adoc:199
 #, no-wrap
 msgid "{occurrence-core} with camera trap data. It contains the same three observations as in <<table-occurrence-extension>>. The event/sequence identifier is provided in term:dwc[dwc:eventID], the deployment identifier in term:dwc[dwc:parentEventID]. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
 msgstr "カメラトラップデータを含む{occurrence-core}（オカレンスコア） 。これには<<table-occurrence-extension>>と同じ3つの観察が含まれる。イベント/シーケンスの識別子はterm:dwc[dwc:eventID]に、設置の識別子はterm:dwc[dwc:parentEventID]に提供される。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
-#: 400.en.adoc:235
+#: 400.en.adoc:230
 #, no-wrap
 msgid "|occurrenceID\n"
 "|eventID\n"
@@ -2791,13 +2786,13 @@ msgstr "|occurrenceID\n"
 "|51.496, 4.774\n"
 
 #. type: Block title
-#: 400.en.adoc:238
+#: 400.en.adoc:233
 #, no-wrap
 msgid "{ac-extension} with camera trap data. It contains the same two media files as referenced in <<table-occurrence-extension>>, but now allows to share more information per file. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
 msgstr "カメラトラップデータを含む{ac-extension}（Audubon Media Description拡張）。これには<<table-occurrence-extension>>で参照されているものと同じ2つのメディアファイルが含まれるが、ファイル毎により多くの情報を共有できるようになる。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
-#: 400.en.adoc:275
+#: 400.en.adoc:270
 #, no-wrap
 msgid "|occurrenceID\n"
 "|identifier\n"
@@ -2861,41 +2856,41 @@ msgstr "|occurrenceID\n"
 "|[.break-all]#https://creativecommons.org/licenses/by/4.0/legalcode#\n"
 
 #. type: Block title
-#: 400.en.adoc:277
+#: 400.en.adoc:272
 #, no-wrap
 msgid "Screenshot of an https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[event page] created by GBIF.org from information provided in an {occurrence-core} (based on row 3 in <<table-occurrence-core>>). Notice the event ID (a sequence) and parent event ID (a deployment)."
 msgstr "GBIF.orgが{occurrence-core}オカレンスコアに提供された情報から作成した https://www.gbif.org/dataset/8a5cbaec-2839-4471-9e1d-98df301095dd/event/79204343-27df-401d-bfbd-80366e848fd5[イベントページ]のスクリーンショット （<<table-occurrence-core>>の3行目に基づく）。イベントID（シーケンス）と親イベントID（設置）に注目してほしい。"
 
 #. type: Target for macro image
-#: 400.en.adoc:279
+#: 400.en.adoc:274
 #, no-wrap
 msgid "img/web/example-event-page.png"
 msgstr "img/web/example-event-page.png"
 
 #. type: Title ====
-#: 400.en.adoc:282
+#: 400.en.adoc:277
 #, no-wrap
 msgid "Occurrence core"
 msgstr "オカレンスコア"
 
 #. type: Plain text
-#: 400.en.adoc:285
+#: 400.en.adoc:280
 msgid "As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {occurrence-core} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-occurrence-core-terms>> for term recommendations. These recommendations align with the GBIF quality requirements for Occurrence datasets cite:[gbif-2020] and use the same terminology (Required, Strongly recommended, Share if available)."
 msgstr "<<section-why-not-a-sampling-event-dataset,上述>>の通り、カメラトラップデータを<<darwin-core-archive,Darwin Core Archive>>として表現するために、{occurrence-core}（オカレンスコア）を使用することを推奨します。用語の推奨事項については<<table-occurrence-core-terms>>を参照してください。これらの推奨事項は、GBIFのオカレンスデータセットに対する品質要件cite:[gbif-2020]と一致しており、同じ用語（必須、強く推奨、できれば共有）を使用しています。"
 
 #. type: Plain text
-#: 400.en.adoc:287
+#: 400.en.adoc:282
 msgid "Note that the {occurrence-core} should only contain <<observation-type,animal observations>>, so classifications of <<blank,blanks>>, vehicles and preferably <<section-sensitive-media-files,humans>> should be filtered out. The number of records will depend on the size of the study, the classification effort (are all media classified?), the classification precision (see <<table-classification-precision>>) and whether <<section-media-or-event-based-classification,media- or event-based classification>> was used. Especially media-based classifications can substantially increase the number of occurrences, with little added benefit for ecological research. <<camtrap-dp,Camtrap DP>> is designed for both, but when publishing as a Darwin Core Archive, we recommend only providing event-based observations if available."
 msgstr "なお、{occurrence-core}オカレンスコア には<<observation-type,動物の観察>>のみを含めるべきであり、<<blank,ブランク>>、車両や（できれば）<<section-sensitive-media-files,人間>>に分類される情報は除外する必要があります。レコード数は、研究の規模、分類の努力（全てのメディアが分類されているか？）、分類の精度（<<table-classification-precision>>参照）、および<<section-media-or-event-based-classification,メディアベースまたはイベントベースの分類>>が使用されたかどうかに依存します。特にメディアベースの分類は、オカレンスの数を大幅に増加させる可能性があり、生態学的研究にほとんど有益ではありません。<<camtrap-dp,Camtrap DP>>は両方に対応していますが、Darwin Core Archiveとして公開する場合は、できればイベントベースの観察のみを提供することを推奨します。"
 
 #. type: Block title
-#: 400.en.adoc:289
+#: 400.en.adoc:284
 #, no-wrap
 msgid "Recommended terms to use when expressing camera trap data as an {occurrence-core}. https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343[Source]."
 msgstr "カメラトラップデータを{occurrence-core}オカレンスコアとして記述する場合の推奨事項。link:++https://camtrap-dp.tdwg.org/example/00a2c20d/#79204343++[出典]。"
 
 #. type: Table
-#: 400.en.adoc:455
+#: 400.en.adoc:450
 #, no-wrap
 msgid "|Term\n"
 "|Status\n"
@@ -3145,125 +3140,125 @@ msgstr "|用語\n"
 "|Animalia\n"
 
 #. type: Title =====
-#: 400.en.adoc:458 400.en.adoc:822
+#: 400.en.adoc:453 400.en.adoc:817
 #, no-wrap
 msgid "type"
 msgstr "type"
 
 #. type: Plain text
-#: 400.en.adoc:461
+#: 400.en.adoc:456
 msgid "https://dwc.tdwg.org/list/#dc_type[dc:type]"
 msgstr "https://dwc.tdwg.org/list/#dc_type[dc:type]"
 
 #. type: Plain text
-#: 400.en.adoc:463
+#: 400.en.adoc:458
 msgid "The nature of the resource. Use `StillImage` if the record is based on an image or sequence of images, `MovingImage` if based on a video. One can also use the broader term `Image` for all records."
 msgstr "リソースの性質。レコードが静止画または静止画のシーケンスに基づいている場合は `StillImage` を使用し、動画に基づいている場合は `MovingImage` を使用します。全てのレコードに対してより広い用語 `Image` を使用することもできます。"
 
 #. type: Title =====
-#: 400.en.adoc:465
+#: 400.en.adoc:460
 #, no-wrap
 msgid "license"
 msgstr "license"
 
 #. type: Plain text
-#: 400.en.adoc:468
+#: 400.en.adoc:463
 msgid "https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]"
 msgstr "https://dwc.tdwg.org/list/#dcterms_license[dcterms:license]"
 
 #. type: Plain text
-#: 400.en.adoc:470
+#: 400.en.adoc:465
 msgid "The licence under which the data record is shared. Very likely this will be the same licence as the one used for the dataset as a whole, but it is possible to deviate cite:[waller-2020]. To enable wide use, we recommend publishing data under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode`. In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `data` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
 msgstr "共有されるデータレコードのライセンス。データセット全体に使用されるライセンスと同じライセンスである可能性が高いですが、そうではない可能性もあります cite:[waller-2020]。広く活用されるため、データを https://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]の下で公開し、URLとして提供することを推奨します：`https://creativecommons.org/publicdomain/zero/1.0/legalcode`。Camtrap DPでは、この用語はライセンスの `path` に相当し、 {package-licenses}の `data` のスコープがあります。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
-#: 400.en.adoc:472
+#: 400.en.adoc:467
 #, no-wrap
 msgid "rightsHolder"
 msgstr "rightsHolder"
 
 #. type: Plain text
-#: 400.en.adoc:475
+#: 400.en.adoc:470
 msgid "https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]"
 msgstr "https://dwc.tdwg.org/list/#dcterms_rightsHolder[dcterms:rightsHolder]"
 
 #. type: Plain text
-#: 400.en.adoc:477
+#: 400.en.adoc:472
 msgid "The person or organization (i.e. <<participant>>) owning or managing rights over the resource. In all likeness the organization that decided under what license the data are published and/or the publisher of the data (i.e. the organization selected as publisher when registering a dataset with GBIF). Use an acronym if the organization has one. In Camtrap DP, this term corresponds with the `title` of the collaborator that has the role `rightsHolder` in {package-contributors}."
 msgstr "リソースの権利を所有または管理する個人または組織（すなわち、<<participant,参加者>>）。データがどのライセンスの下で公開されるかを決定した組織、および/またはデータ出版機関（すなわち、GBIFにデータセットを登録する際に出版者として選択された組織）である可能性が高いです。組織に略称がある場合はそれを使用します。Camtrap DPでは、この用語は{package-contributors}の `rightsHolder` の役割を持つ共同作業者の `title` に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:479
+#: 400.en.adoc:474
 #, no-wrap
 msgid "datasetID & datasetName"
 msgstr "datasetID & datasetName"
 
 #. type: Plain text
-#: 400.en.adoc:482
+#: 400.en.adoc:477
 msgid "term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]"
 msgstr "term:dwc[dwc:datasetID] & term:dwc[dwc:datasetName]"
 
 #. type: Plain text
-#: 400.en.adoc:484
+#: 400.en.adoc:479
 msgid "Respectively the identifier and name of the dataset. For term:dwc[dwc:datasetID] we recommend using a stable URL or identifier that allows users to find information about the source dataset/study. In order of preference: dataset DOI (`https://doi.org/10.15468/5tb6ze`), study URL (`http://n2t.net/ark:/63614/w12001317`), or study identifier used by the <<data-management-system,data management system>>. In Camtrap DP, this term corresponds with {package-id}, unless a better identifier is available (e.g. a DOI). term:dwc[dwc:datasetName] should refer to the title of the dataset/study as referred to by term:dwc[dwc:datasetID]. We recommend using the same value for the title in the metadata. In Camtrap DP, this term corresponds with {package-title}."
 msgstr "データセットの識別子と名前です。term:dwc[dwc:datasetID]には、ユーザーがソースであるデータセット/研究に関する情報を見つけられるように、永続的なURLまたは識別子を使用することを推奨します。優先順位としては、データセットのDOI（`https://doi.org/10.15468/5tb6ze`）、研究のURL（`http://n2t.net/ark:/63614/w12001317`）、または<<data-management-system,データ管理システム>>で使用される研究識別子の順です。Camtrap DPでは、この用語は{package-id} に相当しますが、より良い識別子（例. DOI）が利用可能な場合はそれを使用します。term:dwc[dwc:datasetName] は、term:dwc[dwc:datasetID]で参照されるデータセット/研究のタイトルを入れましょう。メタデータのタイトルには同じ値を使用することを推奨します。Camtrap DPでは、この用語は{package-title}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:486
+#: 400.en.adoc:481
 #, no-wrap
 msgid "collectionCode"
 msgstr "collectionCode"
 
 #. type: Plain text
-#: 400.en.adoc:489
+#: 400.en.adoc:484
 msgid "term:dwc[dwc:collectionCode]"
 msgstr "term:dwc[dwc:collectionCode]"
 
 #. type: Plain text
-#: 400.en.adoc:491
+#: 400.en.adoc:486
 msgid "The name or acronym identifying the collection or dataset the record was derived from. Traditionally used to indicate a physical collection, we recommend to provide the name of the <<data-management-system,data management system>> (i.e. virtual collection) the record was derived from. This allows users to search for records from the same data management system across datasets. Recommended values: `Agouti`, `Camelot`, `eMammal`, `Trapper`, `Wildlife Insights`, etc. In Camtrap DP, this term corresponds with the `title` of the (applicable) source in {package-sources}."
 msgstr "記録が由来するコレクションまたはデータセットを識別する名前または略語です。従来は物理的なコレクションを示しましたが、記録が由来する<<data-management-system,データ管理システム>>（すなわち、仮想コレクション）の名前を提供することを推奨します。これにより、ユーザーは同じデータ管理システムからの記録をデータセット全体で検索できます。推奨値： `Agouti`、 `Camelot`、 `eMammal`、 `Trapper`、 `Wildlife Insights` など。Camtrap DPでは、この用語は{package-sources}の（該当する）ソースのタイトルに相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:493
+#: 400.en.adoc:488
 #, no-wrap
 msgid "basisOfRecord"
 msgstr "basisOfRecord"
 
 #. type: Plain text
-#: 400.en.adoc:496
+#: 400.en.adoc:491
 msgid "term:dwc[dwc:basisOfRecord]"
 msgstr "term:dwc[dwc:basisOfRecord]"
 
 #. type: Plain text
-#: 400.en.adoc:498
+#: 400.en.adoc:493
 msgid "The specific nature of the record. Set to `MachineObservation` for all records. While humans decide when and were to deploy a camera trap, and humans or machines (AI) can <<classification,classify>> media, the capturing of the record is done by a machine responding to a sensor. This is critically different from human observations, where a human is actively in control of the decision whether to record an organism or not."
 msgstr "レコードの特性。全てのレコードに対して `MachineObservation` を入力します。人間がカメラトラップをいつどこに設置するかを決定し、人間または機械（AI）がメディアを<<classification,分類>>しますが、レコード収集はセンサーに応答する機械によって行われます。これは、人間が積極的に生物を記録するかどうかを決定する、人間の観察とは本質的に異なります。"
 
 #. type: Title =====
-#: 400.en.adoc:500
+#: 400.en.adoc:495
 #, no-wrap
 msgid "dataGeneralizations"
 msgstr "dataGeneralizations"
 
 #. type: Plain text
-#: 400.en.adoc:503
+#: 400.en.adoc:498
 msgid "term:dwc[dwc:dataGeneralizations]"
 msgstr "term:dwc[dwc:dataGeneralizations]"
 
 #. type: Plain text
-#: 400.en.adoc:505
+#: 400.en.adoc:500
 msgid "The actions taken to make the published data less specific or complete than in its original form. We recommend succinctly describing here what <<section-sensitive-information,sensitive information>> of the record was generalized and how. Note that this information can be provided at record level and does not need to apply to the whole dataset. If important information was omitted altogether, use term:dwc[dwc:informationWithheld]."
 msgstr "元の形よりも特定されにくく、不完全なデータとして公開するための措置。記録のどの<<section-sensitive-information,機密情報>>がどのように一般化されたかを簡潔に説明することを推奨します。この情報はレコードレベルで提供でき、データセット全体に適用する必要はありません。重要な情報が完全に省略された場合は、term:dwc[dwc:informationWithheld]を使用してください。"
 
 #. type: Plain text
-#: 400.en.adoc:507 400.en.adoc:591 400.en.adoc:627 400.en.adoc:698
-#: 400.en.adoc:720
+#: 400.en.adoc:502 400.en.adoc:586 400.en.adoc:622 400.en.adoc:693
+#: 400.en.adoc:715
 msgid "Examples:"
 msgstr "例："
 
 #. type: delimited block -
-#: 400.en.adoc:511
+#: 400.en.adoc:506
 #, no-wrap
 msgid "coordinates rounded to 0.001 degree\n"
 "scientific name generalized to genus\n"
@@ -3271,183 +3266,183 @@ msgstr "coordinates rounded to 0.001 degree\n"
 "scientific name generalized to genus\n"
 
 #. type: Title =====
-#: 400.en.adoc:514 400.en.adoc:808
+#: 400.en.adoc:509 400.en.adoc:803
 #, no-wrap
 msgid "occurrenceID"
 msgstr "occurrenceID"
 
 #. type: Plain text
-#: 400.en.adoc:517 400.en.adoc:811
+#: 400.en.adoc:512 400.en.adoc:806
 msgid "term:dwc[dwc:occurrenceID]"
 msgstr "term:dwc[dwc:occurrenceID]"
 
 #. type: Plain text
-#: 400.en.adoc:519
+#: 400.en.adoc:514
 msgid "An identifier for the <<observation>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap DP, this term corresponds with {observations-observationID}."
 msgstr "<<observation,観察>>の識別子。<<section-stable-unique-identifiers,安定した一意の識別子>>を使用します。Camtrap DPでは、この用語は{observations-observationID}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:521
+#: 400.en.adoc:516
 #, no-wrap
 msgid "individualCount"
 msgstr "individualCount"
 
 #. type: Plain text
-#: 400.en.adoc:524
+#: 400.en.adoc:519
 msgid "term:dwc[dwc:individualCount]"
 msgstr "term:dwc[dwc:individualCount]"
 
 #. type: Plain text
-#: 400.en.adoc:526
+#: 400.en.adoc:521
 msgid "The number of observed <<individual,individuals>>. Note that this number is dependent on the <<table-classification-precision,precision>> of the identifications. In Camtrap DP, this term corresponds with {observations-count}."
 msgstr "観察された<<individual,個体数>>。この数は同定の<<table-classification-precision,精度>>に依存することに注意してください。Camtrap DPでは、この用語は{observations-count}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:528
+#: 400.en.adoc:523
 #, no-wrap
 msgid "sex"
 msgstr "sex"
 
 #. type: Plain text
-#: 400.en.adoc:531
+#: 400.en.adoc:526
 msgid "term:dwc[dwc:sex]"
 msgstr "term:dwc[dwc:sex]"
 
 #. type: Plain text
-#: 400.en.adoc:533
+#: 400.en.adoc:528
 msgid "The sex of the observed <<individual>>(s). We recommend using the controlled values `male` and `female`, which are based on Camtrap DP and compatible with the https://rs.gbif.org/vocabulary/gbif/sex.xml[GBIF Sex vocabulary]. In Camtrap DP, this term corresponds with {observations-sex}."
 msgstr "観察された<<individual,個体>>の性別。Camtrap DPに基づき、link:++https://rs.gbif.org/vocabulary/gbif/sex.xml++[GBIFの性別語彙]と互換性のある制御値である、`male` および `female` を使用することを推奨します。Camtrap DPでは、この用語は{observations-sex}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:535
+#: 400.en.adoc:530
 #, no-wrap
 msgid "lifeStage"
 msgstr "lifeStage"
 
 #. type: Plain text
-#: 400.en.adoc:538
+#: 400.en.adoc:533
 msgid "term:dwc[dwc:lifeStage]"
 msgstr "term:dwc[dwc:lifeStage]"
 
 #. type: Plain text
-#: 400.en.adoc:540
+#: 400.en.adoc:535
 msgid "The life stage of the observed <<individual>>(s). We recommend using the controlled values `adult`, `subadult`, and `juvenile`, which are based on Camtrap DP and compatible with the https://registry.gbif.org/vocabulary/LifeStage[GBIF LifeStage vocabulary]. In Camtrap DP, this term corresponds with {observations-lifeStage}."
 msgstr "観察された<<individual,個体>>の生活史。Camtrap DPに基づき、link:++https://registry.gbif.org/vocabulary/LifeStage++[GBIFの生活史語彙]と互換性のある制御値である、`adult`、`subadult` および `juvenile` を使用することを推奨します。Camtrap DPでは、この用語は{observations-lifeStage}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:542
+#: 400.en.adoc:537
 #, no-wrap
 msgid "behavior"
 msgstr "behavior"
 
 #. type: Plain text
-#: 400.en.adoc:545
+#: 400.en.adoc:540
 msgid "term:dwc[dwc:behavior]"
 msgstr "term:dwc[dwc:behavior]"
 
 #. type: Plain text
-#: 400.en.adoc:547
+#: 400.en.adoc:542
 msgid "The dominant behaviour of the observed <<individual>>(s). We recommend using existing or your own controlled values (e.g. grazing, browsing, rooting, vigilance, running, walking). In Camtrap DP, this term corresponds with {observations-behavior}."
 msgstr "観察された<<individual,個体>>の主な行動。既存の制御値または独自の制御値（例. grazing、browsing、rooting、vigilance、running、walking）を使用することを推奨します。Camtrap DPでは、この用語は{observations-behavior}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:549
+#: 400.en.adoc:544
 #, no-wrap
 msgid "occurrenceStatus"
 msgstr "occurrenceStatus"
 
 #. type: Plain text
-#: 400.en.adoc:552
+#: 400.en.adoc:547
 msgid "term:dwc[dwc:occurrenceStatus]"
 msgstr "term:dwc[dwc:occurrenceStatus]"
 
 #. type: Plain text
-#: 400.en.adoc:554
+#: 400.en.adoc:549
 msgid "A statement about the presence or absence of the taxon at a location. When reduced to species observations (filtering out <<blank,blanks>>, etc.), camera trap data only contain presence records. Set to `present` for all records."
 msgstr "特定の場所での分類群の存在または不在に関する言及。種の観察に絞り込まれた場合（<<blank,ブランク>>などを除外など）、カメラトラップデータには存在記録のみが含まれます。全てのレコードに対して `present` を入力します。"
 
 #. type: Title =====
-#: 400.en.adoc:556
+#: 400.en.adoc:551
 #, no-wrap
 msgid "occurrenceRemarks"
 msgstr "occurrenceRemarks"
 
 #. type: Plain text
-#: 400.en.adoc:559
+#: 400.en.adoc:554
 msgid "term:dwc[dwc:occurrenceRemarks]"
 msgstr "term:dwc[dwc:occurrenceRemarks]"
 
 #. type: Plain text
-#: 400.en.adoc:561
+#: 400.en.adoc:556
 msgid "The comments or notes about the <<observation>>. These are typically notes (sometimes in the native language of the author) about the observation and/or observed <<individual>>(s) that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. In Camtrap DP, this term corresponds with {observations-observationComments}."
 msgstr "<<observation,観察>>に関するコメントやメモ。これらは通常、他のデータフィールドに記録されなかった、または記録できなかった観察および/または観察された<<individual,個体>>に関する（時には著者の母国語による）メモです。この情報は公開するのに有用かもしれませんが、<<section-other-sensitive-information,機密情報>>を含む可能性があります。Camtrap DPでは、この用語は{observations-observationComments}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:563
+#: 400.en.adoc:558
 #, no-wrap
 msgid "organismID"
 msgstr "organismID"
 
 #. type: Plain text
-#: 400.en.adoc:566
+#: 400.en.adoc:561
 msgid "term:dwc[dwc:organismID]"
 msgstr "term:dwc[dwc:organismID]"
 
 #. type: Plain text
-#: 400.en.adoc:568
+#: 400.en.adoc:563
 msgid "An identifier for an observed and known <<individual>> that was recognized by colour ring, ear tag, skin pattern or other characteristics. Observations with term:dwc[dwc:organismID] typically have term:dwc[dwc:individualCount] of 1, unless the term:dwc[dwc:organismID] refers to a known group. Unless a globally unique identifier is available and known for the individual, we recommend using the code/identifier assigned within the camera trap study to the individual, allowing users to find all observations of this individual within the dataset. In Camtrap DP, this term corresponds with {observations-individualID}."
 msgstr "カラーリング、耳タグ、皮膚パターンなどの特徴によって認識された観察された既知の<<individual,個体>>識別子。term:dwc[dwc:organismID]が既知のグループを指す場合を除き、term:dwc[dwc:organismID]を持つ観察は、通常、term:dwc[dwc:individualCount]が1です。個体に対して、グローバルに一意の識別子が割り当てられていることを把握しているのでなければ、カメラトラップ研究内で個体に割り当てられたコード/識別子を使用することを推奨します。これにより、ユーザーはデータセット内で特定の個体に関する観察を全て見つけることができます。Camtrap DPでは、この用語は{observations-individualID}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:570
+#: 400.en.adoc:565
 #, no-wrap
 msgid "eventID"
 msgstr "eventID"
 
 #. type: Plain text
-#: 400.en.adoc:573
+#: 400.en.adoc:568
 msgid "term:dwc[dwc:eventID]"
 msgstr "term:dwc[dwc:eventID]"
 
 #. type: Plain text
-#: 400.en.adoc:575
+#: 400.en.adoc:570
 msgid "An identifier for the event the observation belongs to. We recommend providing the identifier for the <<event>> (typically a <<sequence>>) as used for <<section-media-or-event-based-classification,event-based classification>>. Using an Occurrence core, events will not have their own records, but providing their identifier in term:dwc[dwc:eventID] allows users to find all observations (and media) for a specific event. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:eventID] as belonging together. In Camtrap DP, this term corresponds with {observations-eventID}."
 msgstr "観察が属する<<event,イベント>>の識別子。<<section-media-or-event-based-classification,イベントベースの分類>>に使用されるイベント（通常は<<sequence,シーケンス>>）の識別子を提供することを推奨します。オカレンスコアを使用する場合、イベントには独自のレコードがありませんが、term:dwc[dwc:eventID]に識別子を提供することで、ユーザーは特定のイベントにおける観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用してください。GBIF.orgは、同じterm:dwc[dwc:eventID]を持つ観察を自動的にグループ化して一緒に属するものとして扱います。Camtrap DPでは、この用語は{observations-eventID}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:577
+#: 400.en.adoc:572
 #, no-wrap
 msgid "parentEventID"
 msgstr "parentEventID"
 
 #. type: Plain text
-#: 400.en.adoc:580
+#: 400.en.adoc:575
 msgid "term:dwc[dwc:parentEventID]"
 msgstr "term:dwc[dwc:parentEventID]"
 
 #. type: Plain text
-#: 400.en.adoc:582
+#: 400.en.adoc:577
 msgid "An identifier for a broader event then those identified by <<section-eventid,eventID>>. We recommend providing the identifier of the <<deployment>>. Using an Occurrence core, deployments will not have their own records, but providing their identifier in term:dwc[dwc:parentEventID] allows users to find all observations (and media) for a specific deployment. Use a <<section-stable-unique-identifiers,stable unique identifier>>. Note that GBIF.org will automatically group observations with the same term:dwc[dwc:parentEventID] as belonging together. In Camtrap DP, this term corresponds with {observations-deploymentID}."
 msgstr "<<section-eventid,eventID>>で識別されたイベントよりも広いイベントの識別子。<<deployment,設置>>の識別子を提供することを推奨します。オカレンスコアを使用する場合、設置には独自のレコードがありませんが、term:dwc[dwc:parentEventID]に識別子を提供することで、ユーザーは特定の設置における観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用してください。GBIF.orgは、同じterm:dwc[dwc:parentEventID]を持つ観察を自動的にグループ化して一緒に属するものとして扱います。Camtrap DPでは、この用語は{observations-deploymentID}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:584
+#: 400.en.adoc:579
 #, no-wrap
 msgid "eventDate"
 msgstr "eventDate"
 
 #. type: Plain text
-#: 400.en.adoc:587
+#: 400.en.adoc:582
 msgid "term:dwc[dwc:eventDate]"
 msgstr "term:dwc[dwc:eventDate]"
 
 #. type: Plain text
-#: 400.en.adoc:589
+#: 400.en.adoc:584
 msgid "The date, date-time or date-time interval during which the <<event>> occurred. We recommend using a single timestamp for <<section-media-or-event-based-classification,media-based classifications>> and an interval - consisting of the timestamps of the start and end of the <<event>> as identified by <<section-eventid,eventID>> for <<section-media-or-event-based-classification,event-based classifications>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`), use `/` to indicate an interval and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-eventStart} and {observations-eventEnd}, or {observations-eventStart} if both are equal."
 msgstr "<<event,イベント>>が発生した日付、日時、または日時の期間。<<section-media-or-event-based-classification,メディアベースの分類>>には単一のタイムスタンプを使用し、<<section-media-or-event-based-classification,イベントベースの分類>>には期間を使用することを推奨します。期間は<<section-eventid,eventID>>で識別された<<event,イベント>>の開始と終了のタイムスタンプから構成されます。タイムスタンプはISO 8601形式（`YYYY-MM-DDTHH:MM:SS`）で記述し、期間を示すには `/` を使用し、タイムゾーン (`+02:00`) を含めるか、UTC (`Z`) に変換して示します。Camtrap DPでは、この用語は{observations-eventStart}および{observations-eventEnd}に相当します。両方の値が等しい場合は{observations-eventStart}です。"
 
 #. type: delimited block -
-#: 400.en.adoc:596
+#: 400.en.adoc:591
 #, no-wrap
 msgid "2020-07-29T05:38:55Z/2020-07-29T05:39:00Z\n"
 "2020-07-29T05:38:55Z\n"
@@ -3457,71 +3452,71 @@ msgstr "2020-07-29T05:38:55Z/2020-07-29T05:39:00Z\n"
 "2020-07-29T07:38:55+02:00\n"
 
 #. type: Title =====
-#: 400.en.adoc:599
+#: 400.en.adoc:594
 #, no-wrap
 msgid "habitat"
 msgstr "habitat"
 
 #. type: Plain text
-#: 400.en.adoc:602
+#: 400.en.adoc:597
 msgid "term:dwc[dwc:habitat]"
 msgstr "term:dwc[dwc:habitat]"
 
 #. type: Plain text
-#: 400.en.adoc:604
+#: 400.en.adoc:599
 msgid "A category or description of the habitat in which the <<event>> occurred. This is typically the habitat at the time of deployment, with values repeated for all records of this deployment. Values can be controlled, ideally using an existing classification system, or free-text descriptions. In Camtrap DP, this term corresponds with {deployments-habitat}."
 msgstr "<<event,イベント>>が発生したハビタットのカテゴリまたは説明。これは通常、設置時のハビタットであり、この設置の全てのレコードに対して値が繰り返されます。値は制御され、理想的には既存の分類システムを使用するか、自由形式の説明を入力できます。Camtrap DPでは、この用語は{deployments-habitat}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:606
+#: 400.en.adoc:601
 #, no-wrap
 msgid "samplingProtocol"
 msgstr "samplingProtocol"
 
 #. type: Plain text
-#: 400.en.adoc:609
+#: 400.en.adoc:604
 msgid "term:dwc[dwc:samplingProtocol]"
 msgstr "term:dwc[dwc:samplingProtocol]"
 
 #. type: Plain text
-#: 400.en.adoc:611
+#: 400.en.adoc:606
 msgid "The method(s) or protocol(s) used during the <<event>>. We recommend using the controlled value `camera trap`. This allows users to search for records with this protocol across datasets."
 msgstr "<<event,イベント>>中に使用された方法またはプロトコル。制御値として `camera trap` を使用することを推奨します。これにより、ユーザーはこのプロトコルを持つ記録をデータセット全体で検索できます。"
 
 #. type: Title =====
-#: 400.en.adoc:613
+#: 400.en.adoc:608
 #, no-wrap
 msgid "samplingEffort"
 msgstr "samplingEffort"
 
 #. type: Plain text
-#: 400.en.adoc:616
+#: 400.en.adoc:611
 msgid "term:dwc[dwc:samplingEffort]"
 msgstr "term:dwc[dwc:samplingEffort]"
 
 #. type: Plain text
-#: 400.en.adoc:618
+#: 400.en.adoc:613
 msgid "The amount of effort expanded during the <<event>>. We recommend providing the date-time interval the camera trap was deployed, using the same formatting conventions as <<section-eventdate,eventDate>>. In Camtrap DP, this term corresponds with {deployments-deploymentStart} and {deployments-deploymentEnd}."
 msgstr "<<event,イベント>>に費やした努力量。カメラトラップが設置された日時の期間を提供することを推奨します。<<section-eventdate,eventDate>>と同じフォーマット規則を使用します。Camtrap DPでは、この用語は{deployments-deploymentStart}および{deployments-deploymentEnd}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:620
+#: 400.en.adoc:615
 #, no-wrap
 msgid "eventRemarks"
 msgstr "eventRemarks"
 
 #. type: Plain text
-#: 400.en.adoc:623
+#: 400.en.adoc:618
 msgid "term:dwc[dwc:eventRemarks]"
 msgstr "term:dwc[dwc:eventRemarks]"
 
 #. type: Plain text
-#: 400.en.adoc:625
+#: 400.en.adoc:620
 msgid "The comments or notes about the <<event>>. These are typically notes (sometimes in the native language of the author) about the <<deployment>> that were not or could not be recorded in another field. This information is potentially useful to publish, but may contain <<section-other-sensitive-information,sensitive information>>. We also recommend this term for providing other (structured) information associated with the deployment, such as <<bait>> use, <<feature-type,feature type>> or tags, as pipe (`|`) separated values. In Camtrap DP, this term corresponds with {deployments-deploymentComments} and relates to {deployments-baitUse}, {deployments-featureType} and {deployments-deploymentTags}."
 msgstr "<<event,イベント>>に関するコメントやメモ。これらは通常、他のデータフィールドに記録されなかった、または記録できなかった<<deployment,設置>>に関する（時には著者の母国語による）メモです。この情報は公開すると有用かもしれませんが、<<section-other-sensitive-information,機密情報>>を含む可能性があります。また、<<bait,餌>>の使用、<<feature-type,特徴タイプ>>、タグなど、設置に関連する他の（構造化された）情報を提供するために、この項目を使用することを推奨します。その際はパイプ（`|`）で区切られた値を入力します。Camtrap DPでは、この用語は{deployments-deploymentComments}に相当し、{deployments-baitUse}、{deployments-featureType}および{deployments-deploymentTags}に相当します。"
 
 #. type: delimited block -
-#: 400.en.adoc:632
+#: 400.en.adoc:627
 #, no-wrap
 msgid "camera trap with bait near burrow\n"
 "camera trap without bait | tags: position:above stream\n"
@@ -3531,151 +3526,151 @@ msgstr "camera trap with bait near burrow\n"
 "camera malfunction on 29/06/2020\n"
 
 #. type: Title =====
-#: 400.en.adoc:635
+#: 400.en.adoc:630
 #, no-wrap
 msgid "locationID"
 msgstr "locationID"
 
 #. type: Plain text
-#: 400.en.adoc:638
+#: 400.en.adoc:633
 msgid "term:dwc[dwc:locationID]"
 msgstr "term:dwc[dwc:locationID]"
 
 #. type: Plain text
-#: 400.en.adoc:640
+#: 400.en.adoc:635
 msgid "An identifier for the <<location>>. This identifier allows users to find all observations (and media) for a specific location (across deployments). Use a <<section-stable-unique-identifiers,stable unique identifier>>. In Camtrap DP, this term corresponds with {deployments-locationID}."
 msgstr "<<location,場所>>の識別子。この識別子により、ユーザーは（設置全体で）特定の場所の観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用してください。Camtrap DPでは、この用語は{deployments-locationID}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:642
+#: 400.en.adoc:637
 #, no-wrap
 msgid "locality"
 msgstr "locality"
 
 #. type: Plain text
-#: 400.en.adoc:645
+#: 400.en.adoc:640
 msgid "term:dwc[dwc:locality]"
 msgstr "term:dwc[dwc:locality]"
 
 #. type: Plain text
-#: 400.en.adoc:647
+#: 400.en.adoc:642
 msgid "The name of the <<location>>. This is typically a name or code assigned within the camera trap study. In Camtrap DP, this term corresponds with {deployments-locationName}."
 msgstr "<<location,場所>>の名前。これは通常、カメラトラップ研究内で割り当てられた名前またはコードです。Camtrap DPでは、この用語は{deployments-locationName}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:649
+#: 400.en.adoc:644
 #, no-wrap
 msgid "minimumDepthInMeters & maximumDepthInMeters"
 msgstr "minimumDepthInMeters & maximumDepthInMeters"
 
 #. type: Plain text
-#: 400.en.adoc:652
+#: 400.en.adoc:647
 msgid "term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]"
 msgstr "term:dwc[dwc:minimumDepthInMeters] & term:dwc[dwc:maximumDepthInMeters]"
 
 #. type: Plain text
-#: 400.en.adoc:654
+#: 400.en.adoc:649
 msgid "The depth (in meters) below the local surface. For (marine) camera trap studies, this is the <<camera-depth,depth>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraDepth}."
 msgstr "地表からの深さ（メートル単位）。（海洋）カメラトラップ研究では、これは<<camera,カメラ>>が設置された<<camera-depth,深さ>>です。<<camera-depth,カメラの深さ>>または<<camera-height,カメラの高さ>>のいずれかを提供することを推奨します。両方を提供しないでください。Camtrap DPでは、この用語は{deployments-cameraDepth}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:656
+#: 400.en.adoc:651
 #, no-wrap
 msgid "minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters"
 msgstr "minimumDistanceAboveSurfaceInMeters & maximumDistanceAboveSurfaceInMeters"
 
 #. type: Plain text
-#: 400.en.adoc:659
+#: 400.en.adoc:654
 msgid "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]"
 msgstr "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] & term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]"
 
 #. type: Plain text
-#: 400.en.adoc:661
+#: 400.en.adoc:656
 msgid "The height (in meters) above a reference surface. For camera trap studies, this is the <<camera-height,height>> at which the <<camera>> is deployed. We recommend providing either a <<camera-depth,camera depth>> or <<camera-height,camera height>>, not both. In Camtrap DP, this term corresponds with {deployments-cameraHeight}."
 msgstr "基準面からの高さ（メートル単位）。カメラトラップ研究では、これは<<camera,カメラ>>が設置された<<camera-height,高さ>>です。<<camera-depth,カメラの深さ>>または<<camera-height,カメラの高さ>>のいずれかを提供することを推奨します。両方を提供しないでください。Camtrap DPでは、この用語は{deployments-cameraHeight}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:663
+#: 400.en.adoc:658
 #, no-wrap
 msgid "decimalLatitude & decimalLongitude"
 msgstr "decimalLatitude & decimalLongitude"
 
 #. type: Plain text
-#: 400.en.adoc:666
+#: 400.en.adoc:661
 msgid "term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]"
 msgstr "term:dwc[dwc:decimalLatitude] & term:dwc[dwc:decimalLongitude]"
 
 #. type: Plain text
-#: 400.en.adoc:668
+#: 400.en.adoc:663
 msgid "The geographic latitude and longitude of the <<location>>, in decimal degrees. Latitude values lie between -90 and 90, longitude values between -180 and 180. For camera trap studies, these are typically obtained by GPS and recorded in the <<data-management-system,data management system>>. We recommend providing the coordinates as stored in the data management system, unless they need to be rounded/generalization to protect <<section-sensitive-location-information,sensitive information>>. In Camtrap DP, these terms correspond with {deployments-latitude} and {deployments-longitude} respectively."
 msgstr "10進法による、<<location,場所>>の地理的緯度と経度。緯度の値は-90から90の間、経度の値は-180から180の間です。カメラトラップ研究では、これらは通常GPSで取得され、<<data-management-system,データ管理システム>>に記録されます。データ管理システムに保存されている座標を提供することを推奨します。ただし、<<section-sensitive-location-information,機密情報>>を保護するために丸める/一般化する必要がある場合を除きます。Camtrap DPでは、これらの用語はそれぞれ{deployments-latitude}および{deployments-longitude}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:670
+#: 400.en.adoc:665
 #, no-wrap
 msgid "geodeticDatum"
 msgstr "geodeticDatum"
 
 #. type: Plain text
-#: 400.en.adoc:673
+#: 400.en.adoc:668
 msgid "term:dwc[dwc:geodeticDatum]"
 msgstr "term:dwc[dwc:geodeticDatum]"
 
 #. type: Plain text
-#: 400.en.adoc:675
+#: 400.en.adoc:670
 msgid "The spatial reference system used for the geographic <<section-decimallatitude-decimallongitude,coordinates>>. For coordinates obtained by GPS this is typically `EPSG:4326` (i.e. `WGS84`) cite:[chapman-wieczorek-2020]. In Camtrap DP, WGS84 is implied for the terms {deployments-latitude} and {deployments-longitude}."
 msgstr "地理<<section-decimallatitude-decimallongitude,座標>>に使用される空間参照システム。GPSで取得された座標の場合、通常は `EPSG:4326`（すなわち、`WGS84`）です cite:[chapman-wieczorek-2020]。Camtrap DPでは、WGS84は{deployments-latitude}および{deployments-longitude}の用語の定義に示されています。"
 
 #. type: Title =====
-#: 400.en.adoc:677
+#: 400.en.adoc:672
 #, no-wrap
 msgid "coordinateUncertaintyInMeters"
 msgstr "coordinateUncertaintyInMeters"
 
 #. type: Plain text
-#: 400.en.adoc:680
+#: 400.en.adoc:675
 msgid "term:dwc[dwc:coordinateUncertaintyInMeters]"
 msgstr "term:dwc[dwc:coordinateUncertaintyInMeters]"
 
 #. type: Plain text
-#: 400.en.adoc:682
+#: 400.en.adoc:677
 msgid "The horizontal distance (in metres) from the geographic <<section-decimallatitude-decimallongitude,coordinates>> describing the smallest circle containing the <<location>>. We recommend `30` meters as reasonable lower limit for coordinates obtained by GPS, but see <<section-location>> for details on what elements contribute to the uncertainty. <<section-sensitive-location-information,Generalized/rounded>> coordinates in particular will increase the term:dwc[dwc:coordinateUncertaintyInMeters]. In Camtrap DP, this term corresponds with {deployments-coordinateUncertainty}."
 msgstr "地理<<section-decimallatitude-decimallongitude,座標>>から、<<location,場所>>を含む最小の円までの、水平距離（メートル単位）。GPSで取得された座標の合理的な下限として `30` メートルを推奨しますが、不確実性に寄与する要素の詳細については<<section-location>>を参照してください。特に<<section-sensitive-location-information,一般化/丸められた>>座標はdwc:coordinateUncertaintyInMetersを増加させます。Camtrap DPでは、この用語は{deployments-coordinateUncertainty}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:684
+#: 400.en.adoc:679
 #, no-wrap
 msgid "coordinatePrecision"
 msgstr "coordinatePrecision"
 
 #. type: Plain text
-#: 400.en.adoc:687
+#: 400.en.adoc:682
 msgid "term:dwc[dwc:coordinatePrecision]"
 msgstr "term:dwc[dwc:coordinatePrecision]"
 
 #. type: Plain text
-#: 400.en.adoc:689
+#: 400.en.adoc:684
 msgid "The decimal precision of the geographic <<section-decimallatitude-decimallongitude,coordinates>>>, if known. This information is known and we recommend providing it for <<section-sensitive-location-information,generalized/rounded>> coordinates (e.g. `0.001` for coordinates that were rounded to 3 decimals). In Camtrap DP, this term corresponds with {package-coordinatePrecision}, although there it is specified for the dataset as whole, rather than per record."
 msgstr "地理<<section-decimallatitude-decimallongitude,座標>>>の小数点以下の精度（既知の場合）。この情報が既知である場合、<<section-sensitive-location-information,一般化/丸められた>>座標に対して提供することを推奨します（例. 小数点以下3桁に丸められた座標の場合は `0.001`）。Camtrap DPでは、この用語は{package-coordinatePrecision}に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
-#: 400.en.adoc:691
+#: 400.en.adoc:686
 #, no-wrap
 msgid "identifiedBy"
 msgstr "identifiedBy"
 
 #. type: Plain text
-#: 400.en.adoc:694
+#: 400.en.adoc:689
 msgid "term:dwc[dwc:identifiedBy]"
 msgstr "term:dwc[dwc:identifiedBy]"
 
 #. type: Plain text
-#: 400.en.adoc:696
+#: 400.en.adoc:691
 msgid "The person or <<AI,species classification model>> that identified the observed <<individual,individual(s)>> and assigned the <<section-scientificname,scientificName>>. We recommend providing a single name: that of the person or model that made the (most recent) classification. Although <<classification,classifying>> can be broader than assigning a scientific name, it is likely to involve that aspect for <<observation-type,animal observations>>. Note that this term contains <<section-personal-data,personal data>>. In Camtrap DP, this term corresponds with {observations-classifiedBy}."
 msgstr "観察された<<individual,個体>>を識別し、<<section-scientificname,scientificName>>を割り当てた人物または<<AI,種分類モデル>>。最新の分類を行った人物またはモデルの名前を1つ提供することを推奨します。<<classification,分類>>は学名の割り当てよりも広範である可能性がありますが、<<observation-type,動物の観察>>に関してはその側面が関与する可能性が高いです。この用語には<<section-personal-data,個人データ>>が含まれていることに注意してください。Camtrap DPでは、この用語は{observations-classifiedBy}に相当します。"
 
 #. type: delimited block -
-#: 400.en.adoc:703
+#: 400.en.adoc:698
 #, no-wrap
 msgid "Peter Desmet\n"
 "Western Europe species model Version 1\n"
@@ -3685,39 +3680,39 @@ msgstr "Peter Desmet\n"
 "anonymized:3eb30aa\n"
 
 #. type: Title =====
-#: 400.en.adoc:706
+#: 400.en.adoc:701
 #, no-wrap
 msgid "dateIdentified"
 msgstr "dateIdentified"
 
 #. type: Plain text
-#: 400.en.adoc:709
+#: 400.en.adoc:704
 msgid "term:dwc[dwc:dateIdentified]"
 msgstr "term:dwc[dwc:dateIdentified]"
 
 #. type: Plain text
-#: 400.en.adoc:711
+#: 400.en.adoc:706
 msgid "The date or date-time on which the identification was made. We recommend providing a single timestamp: that of the <<classification>> made by the person or model indicated in <<section-identifiedby,identifiedBy>>. This information is typically recorded by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {observations-classificationTimestamp}."
 msgstr "識別が行われた日付または日時。<<section-identifiedby,identifiedBy>>で示された人物またはモデルによって行われた<<classification,分類>>のタイムスタンプを1つ提供することを推奨します。この情報は通常、<<data-management-system,データ管理システム>>によって記録されます。タイムスタンプはISO 8601形式（`YYYY-MM-DDTHH:MM:SS`）で記述し、タイムゾーン（`+02:00`）を含めるか、UTC（`Z`）に変換して示します。Camtrap DPでは、この用語は{observations-classificationTimestamp}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:713
+#: 400.en.adoc:708
 #, no-wrap
 msgid "identificationRemarks"
 msgstr "identificationRemarks"
 
 #. type: Plain text
-#: 400.en.adoc:716
+#: 400.en.adoc:711
 msgid "term:dwc[dwc:identificationRemarks]"
 msgstr "term:dwc[dwc:identificationRemarks]"
 
 #. type: Plain text
-#: 400.en.adoc:718
+#: 400.en.adoc:713
 msgid "The comments or notes about the identification. We recommend using this term to provide information on whether the <<classification>> was made by a human or <<AI,species classification model>> as well as the degree of certainty if available (often recorded for AI classification). In Camtrap DP, this term relates to {observations-classificationMethod} and {observations-classificationProbability}."
 msgstr "識別に関するコメントやメモ。この用語を使用して、人間と<<AI,種分類モデル>>のどちらによって、<<classification,分類>>が行われたのか、また、できれば確実性の度合い（通常AI分類で記録される）を提供することを推奨します。Camtrap DPでは、この用語は{observations-classificationMethod}および{observations-classificationProbability}に相当します。"
 
 #. type: delimited block -
-#: 400.en.adoc:724
+#: 400.en.adoc:719
 #, no-wrap
 msgid "classified by a human\n"
 "classified by a machine with a degree of certainty of 89%\n"
@@ -3725,77 +3720,77 @@ msgstr "classified by a human\n"
 "classified by a machine with a degree of certainty of 89%\n"
 
 #. type: Title =====
-#: 400.en.adoc:727
+#: 400.en.adoc:722
 #, no-wrap
 msgid "taxonID"
 msgstr "taxonID"
 
 #. type: Plain text
-#: 400.en.adoc:730
+#: 400.en.adoc:725
 msgid "term:dwc[dwc:taxonID]"
 msgstr "term:dwc[dwc:taxonID]"
 
 #. type: Plain text
-#: 400.en.adoc:732
+#: 400.en.adoc:727
 msgid "An identifier for <<section-scientificname,scientificName>>. This identifier allows users to find all observations (and media) for a specific taxon. Use a <<section-stable-unique-identifiers,stable unique identifier>>, preferably one assigned by an <<table-taxon-reference-sources,authorative source>>. In Camtrap DP, this term corresponds with the `taxonID` of the corresponding taxon in {package-taxonomic}."
 msgstr "<<section-scientificname,scientificName>>の識別子。この識別子により、ユーザーは特定の分類群の観察（およびメディア）を全て見つけることができます。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用し、できれば<<table-taxon-reference-sources,権威あるソース>>によって割り当てられたものを使用してください。Camtrap DPでは、この用語は{package-taxonomic}の分類群の `taxonID` に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:734
+#: 400.en.adoc:729
 #, no-wrap
 msgid "scientificName"
 msgstr "scientificName"
 
 #. type: Plain text
-#: 400.en.adoc:737
+#: 400.en.adoc:732
 msgid "term:dwc[dwc:scientificName]"
 msgstr "term:dwc[dwc:scientificName]"
 
 #. type: Plain text
-#: 400.en.adoc:739
+#: 400.en.adoc:734
 msgid "The scientific name of the observed <<individual,individual(s)>>. In Camtrap DP, this term corresponds with {observations-scientificName}."
 msgstr "観察された<<individual,個体>>の学名。Camtrap DPでは、この用語は{observations-scientificName}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:741
+#: 400.en.adoc:736
 #, no-wrap
 msgid "kingdom"
 msgstr "kingdom"
 
 #. type: Plain text
-#: 400.en.adoc:744
+#: 400.en.adoc:739
 msgid "term:dwc[dwc:kingdom]"
 msgstr "term:dwc[dwc:kingdom]"
 
 #. type: Plain text
-#: 400.en.adoc:746
+#: 400.en.adoc:741
 msgid "The kingdom in which the taxon with the <<section-scientificname,scientificName>> is classified. It allows services like GBIF's https://www.gbif.org/developer/species[species name matching] to disambiguate between homonyms. Most likely `Animalia` for all records, since camera trap data almost never contain <<classification,classifications>> of plants, fungi or other kingdoms."
 msgstr "<<section-scientificname,scientificName>>が属する分類群の界。これにより、link:++https://www.gbif.org/developer/species++[GBIFの種名マッチング] などのサービスが同名異種を区別することができます。カメラトラップデータには植物、菌類、その他の界の<<classification,分類>>がほとんど含まれないため、全てのレコードに `Animalia` を入力する可能性が高いです。"
 
 #. type: Title ====
-#: 400.en.adoc:748
+#: 400.en.adoc:743
 #, no-wrap
 msgid "Audubon Media Description extension"
 msgstr "Audubon Media Description extension"
 
 #. type: Plain text
-#: 400.en.adoc:751
+#: 400.en.adoc:746
 msgid "As described <<section-why-not-a-sampling-event-dataset,above>>, we recommend to use of an {ac-extension} for expressing camera trap data as a <<darwin-core-archive,Darwin Core Archive>>. See <<table-ac-extension-terms>> for term recommendations."
 msgstr "<<section-why-not-a-sampling-event-dataset,上述>>の通り、カメラトラップデータを<<darwin-core-archive,Darwin Core Archive>>として表現するために、{ac-extension}を使用することを推奨します。用語の推奨事項については<<table-ac-extension-terms>>を参照してください。"
 
 #. type: Plain text
-#: 400.en.adoc:753
+#: 400.en.adoc:748
 msgid "Note that the {ac-extension} can contain duplicates, an important difference with Camtrap DP's {media} where each file is only listed once. Repeated <<section-ac-occurrenceid,occurrenceID>> are the result of a single <<section-media-or-event-based-classification,event-based>> observation being related to multiple media files (e.g. observation `05230014` in <<table-ac-extension>>). Repeated <<section-ac-identifier,identifiers>> are the result of a media file being the source for multiple observations (e.g. multiple species observed in the same image, such as in media file `e68deaed` in <<table-ac-extension>>). The extension should however contain unique <<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>> combinations."
 msgstr "{ac-extension}には重複が含まれる可能性があることに注意してください。各ファイルが一度だけリストアップされるCamtrap DPの {media}との重要な違いです。同じ<<section-ac-occurrenceid,occurrenceID>>が繰り返し表れるのは、単一の<<section-media-or-event-based-classification,イベントベース>> の観察が複数のメディアファイルに関連している結果です（例. <<table-ac-extension>>の観察 `05230014` ）。同じ<<section-ac-identifier,identifiers>>が繰り返し表れるのは、一つのメディアファイルが複数の観察の情報源であることの結果です（例. <<table-ac-extension>>のメディアファイル `e68deaed` のように、同じ静止画に複数の種が観察される場合）。ただし、拡張ファイルの<<section-ac-occurrenceid,occurrenceID>>+<<section-ac-identifier,identifier>>の組み合わせは一意である必要があります。"
 
 #. type: Block title
-#: 400.en.adoc:755
+#: 400.en.adoc:750
 #, no-wrap
 msgid "Recommended terms to use when expressing camera trap data as an {ac-extension}. <<figure-example-image,Source>>."
 msgstr "カメラトラップデータを{ac-extension}で表現する場合に推奨されるデータ項目。<<figure-example-image,出典>>"
 
 #. type: Table
-#: 400.en.adoc:805
+#: 400.en.adoc:800
 #, no-wrap
 msgid "|Term\n"
 "|Status\n"
@@ -3871,161 +3866,161 @@ msgstr "|用語\n"
 "|online\n"
 
 #. type: Plain text
-#: 400.en.adoc:813
+#: 400.en.adoc:808
 msgid "A foreign key to the <<section-occurrenceid,occurrenceID>> in the {occurrence-core}, to indicate the relation between the <<observation>> and the <<media-file,media file(s)>> on which it is based. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {observations-observationID}, but the relationship between {observations} and {media} can be established in several ways: either directly via {observations-mediaID} or by selecting media that have the same {media-deploymentID} as the observation and a {media-timestamp} that falls between the {observations-eventStart} and {observations-eventEnd} of the observation."
 msgstr "{occurrence-core}の<<section-occurrenceid,occurrenceID>>への外部キーで、観察とそれに基づくメディアファイルとの関係を示します。この用語には重複が含まれる可能性があります。これは多対多の関係であるためです（<<section-ac-extension>>の注を参照）。Camtrap DPでは、この用語は{observations-observationID}に相当しますが、{observations}と{media}の関係は、以下のいずれかの方法で確立されます：{observations-mediaID}で直接関連付けする。または観察と同じ{media-deploymentID} を持ち、{media-timestamp}が観察の{observations-eventStart}と{observations-eventEnd}の間にあるメディアを選択する。"
 
 #. type: Title =====
-#: 400.en.adoc:815
+#: 400.en.adoc:810
 #, no-wrap
 msgid "identifier"
 msgstr "identifier"
 
 #. type: Plain text
-#: 400.en.adoc:818
+#: 400.en.adoc:813
 msgid "https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]"
 msgstr "https://ac.tdwg.org/termlist/#dcterms_identifier[dcterms:identifier]"
 
 #. type: Plain text
-#: 400.en.adoc:820
+#: 400.en.adoc:815
 msgid "An identifier for the <<media-file,media file>>. Use a <<section-stable-unique-identifiers,stable unique identifier>>. This term can contain duplicates, as this is a many-to-many relationship (see note in <<section-ac-extension>>). In Camtrap DP, this term corresponds with {media-mediaID}."
 msgstr "<<media-file,media file>>の識別子。<<section-stable-unique-identifiers,安定した一意な識別子>>を使用します。多対多の関係であるため（<<section-ac-extension>>の注を参照）、この用語は重複する可能性があります。Camtrap DPでは、この用語は{media-mediaID}に相当します。"
 
 #. type: Plain text
-#: 400.en.adoc:825
+#: 400.en.adoc:820
 msgid "https://ac.tdwg.org/termlist/#dc_type[dc:type]"
 msgstr "https://ac.tdwg.org/termlist/#dc_type[dc:type]"
 
 #. type: Plain text
-#: 400.en.adoc:827
+#: 400.en.adoc:822
 msgid "The nature of the resource. Use `StillImage` for <<image,images>>, `MovingImage` for <<video,videos>>. Do not use https://ac.tdwg.org/termlist/#dcterms_type[**dcterms**:type], because that term expects a URL value."
 msgstr "リソースの性質。<<image,静止画>>には `StillImage`、<<video,動画>>には `MovingImage` を使用します。link:++https://ac.tdwg.org/termlist/#dcterms_type++[**dcterms**:type]は、URL値を入力する決まりがあるため、使用しないでください。"
 
 #. type: Title =====
-#: 400.en.adoc:829
+#: 400.en.adoc:824
 #, no-wrap
 msgid "comments"
 msgstr "comments"
 
 #. type: Plain text
-#: 400.en.adoc:832
+#: 400.en.adoc:827
 msgid "https://ac.tdwg.org/termlist/#ac_comments[ac:comments]"
 msgstr "https://ac.tdwg.org/termlist/#ac_comments[ac:comments]"
 
 #. type: Plain text
-#: 400.en.adoc:834
+#: 400.en.adoc:829
 msgid "The comments or notes about the media file. In contrast with <<section-eventremarks,eventRemarks>> and <<section-occurrenceremarks,occurrenceRemarks>>, notes about the media files themselves are seldom recorded in <<data-management-system,data management systems>>. The term could be used to indicate if a media file was marked as favourite or noteworthy. In Camtrap DP, this term corresponds with {media-mediaComments} and relates to {media-favorite}."
 msgstr "メディアファイルに関するコメントやメモ。<<section-eventremarks,eventRemarks>>や<<section-occurrenceremarks,occurrenceRemarks>>とは対照的に、メディアファイル自体に関するメモは<<data-management-system,データ管理システム>>に記録されることはほとんどありません。この用語は、メディアファイルが、お気に入りや注目としてマークされたかどうかを示すために使用できます。Camtrap DPでは、この用語は{media-mediaComments}に相当し、{media-favorite}に関連します。"
 
 #. type: Title =====
-#: 400.en.adoc:836
+#: 400.en.adoc:831
 #, no-wrap
 msgid "rights"
 msgstr "rights"
 
 #. type: Plain text
-#: 400.en.adoc:839
+#: 400.en.adoc:834
 msgid "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
 msgstr "https://ac.tdwg.org/termlist/#dcterms_rights[dcterms:rights]"
 
 #. type: Plain text
-#: 400.en.adoc:841
+#: 400.en.adoc:836
 msgid "The licence under which the media file is shared. Note that this applies to file referenced in <<section-ac-accessuri,accessURI>>, not the data in the {ac-extension} (these fall under the dataset license). We recommend using the same license for all media files. To enable wide use, we recommend publishing media files under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero waiver] or https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International license] and to provide it as a URL: `https://creativecommons.org/publicdomain/zero/1.0/legalcode` or `https://creativecommons.org/licenses/by/4.0/legalcode` respectively. Do not use https://ac.tdwg.org/termlist/#dc_rights[**dc**:rights], because that term expects a literal value (the full-text copyright statement). In Camtrap DP, this term corresponds with the `path` of the licence that has the scope `media` in {package-licenses}, although there it is specified for the dataset as whole, rather than per record."
 msgstr "メディアファイルが共有されるライセンス。これは<<section-ac-accessuri,accessURI>>で参照されるファイルに適用され、{ac-extension}のデータには適用されません（データセットライセンスが適用されます）。全てのメディアファイルに同じライセンスを使用することを推奨します。広範な利用を可能にするために、メディアファイルを https://creativecommons.org/publicdomain/zero/1.0/[クリエイティブ・コモンズ・ゼロ]または https://creativecommons.org/licenses/by/4.0/[クリエイティブ・コモンズ表示4.0国際ライセンス]の下で公開し、URLを提供することを推奨します： `https://creativecommons.org/publicdomain/zero/1.0/legalcode` または、 `https://creativecommons.org/licenses/by/4.0/legalcode` 。link:++https://ac.tdwg.org/termlist/#dc_rights++[**dc**:rights]は、文字列値（全文の著作権声明）を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{package-licenses}の `media` のスコープを持つライセンスの `path` に相当します。ただし、レコード単位ではなく、データセット全体を指定します。"
 
 #. type: Title =====
-#: 400.en.adoc:843
+#: 400.en.adoc:838
 #, no-wrap
 msgid "CreateDate"
 msgstr "CreateDate"
 
 #. type: Plain text
-#: 400.en.adoc:846
+#: 400.en.adoc:841
 msgid "https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]"
 msgstr "https://ac.tdwg.org/termlist/#xmp_CreateDate[xmp:CreateDate]"
 
 #. type: Plain text
-#: 400.en.adoc:848
+#: 400.en.adoc:843
 msgid "The date-time on which the media file was created. This information is typically extracted from the <<EXIF>> metadata by the <<data-management-system,data management system>>. Write timestamps in the ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`) and include the timezone (`+02:00`) or convert and indicate as UTC (`Z`). In Camtrap DP, this term corresponds with {media-timestamp}."
 msgstr "メディアファイルが作成された日時。この情報は通常、<<data-management-system,data management system,データ管理システム>>によって<<EXIF>>メタデータから抽出されます。タイムスタンプはISO 8601形式（`YYYY-MM-DDTHH:MM:SS`）で記述し、タイムゾーン（`+02:00`）を含めるか、UTC（`Z`）に変換して示します。Camtrap DPでは、この用語は{media-timestamp}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:850
+#: 400.en.adoc:845
 #, no-wrap
 msgid "captureDevice"
 msgstr "captureDevice"
 
 #. type: Plain text
-#: 400.en.adoc:853
+#: 400.en.adoc:848
 msgid "https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]"
 msgstr "https://ac.tdwg.org/termlist/#ac_captureDevice[ac:captureDevice]"
 
 #. type: Plain text
-#: 400.en.adoc:855
+#: 400.en.adoc:850
 msgid "The device(s) used to create the media file. We recommend providing the <<camera>> make and model (e.g. `Reconyx-HF2X`). In Camtrap DP, this term corresponds with {deployments-cameraModel}."
 msgstr "メディアファイルを作成するために使用されたデバイス。<<camera,カメラ>>のメーカーとモデル（例. `Reconyx-HF2X`）を提供することを推奨します。Camtrap DPでは、この用語は{deployments-cameraModel}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:857
+#: 400.en.adoc:852
 #, no-wrap
 msgid "resourceCreationTechnique"
 msgstr "resourceCreationTechnique"
 
 #. type: Plain text
-#: 400.en.adoc:860
+#: 400.en.adoc:855
 msgid "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]"
 msgstr "https://ac.tdwg.org/termlist/#ac_resourceCreationTechnique[ac:resourceCreationTechnique]"
 
 #. type: Plain text
-#: 400.en.adoc:862
+#: 400.en.adoc:857
 msgid "The method(s) used to create or alter the media file. We recommend using this term to provide the <<trigger>> method that was used to capture the media file, as controlled values: `activity detection` or `time lapse`. In Camtrap DP, this term corresponds with {media-captureMethod}."
 msgstr "メディアファイルを作成または変更するために使用された方法。この用語を使用して、メディアファイルを収集するために使用された<<trigger,トリガー>>方法を提供することを推奨します。制御値は `activity detection`、 `time lapse` のいずれかです。Camtrap DPでは、この用語は{media-captureMethod}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:864
+#: 400.en.adoc:859
 #, no-wrap
 msgid "accessURI"
 msgstr "accessURI"
 
 #. type: Plain text
-#: 400.en.adoc:867
+#: 400.en.adoc:862
 msgid "https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]"
 msgstr "https://ac.tdwg.org/termlist/#ac_accessURI[ac:accessURI]"
 
 #. type: Plain text
-#: 400.en.adoc:869
+#: 400.en.adoc:864
 msgid "The URI (Uniform Resource Identifier) that provides access to the media file. Although the term allows to point to relative <<file-path,file paths>> or offline storage, we strongly recommend to provide the http/https URL that serves the media file, if available (see <<section-storage>>). Use a http/https URL that serves the media file directly (not a HTML page embedding it), so it can be displayed on occurrence pages at GBIF.org. Camera trap images are typically small enough that it is not necessary to serve a reduced version of the file. In Camtrap DP, this term corresponds with {media-filePath}."
 msgstr "メディアファイルにアクセスするためのURI（Uniform Resource Identifier）。この用語は相対<<file-path,ファイルパス>>やオフラインのストレージを指すことができますが、できればメディアファイルが掲載されているhttp/https URLを提供することを強く推奨します（<<section-storage>>参照）。メディアファイルを（埋め込みしたHTMLページではなく）直接掲載するhttp/https URLを使用してください。これにより、GBIF.orgのオカレンスページで表示できます。カメラトラップ静止画は通常小さいため、縮小したバージョンを掲載用ファイルとする必要はありません。Camtrap DPでは、この用語は{media-filePath}に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:871
+#: 400.en.adoc:866
 #, no-wrap
 msgid "serviceExpectation"
 msgstr "serviceExpectation"
 
 #. type: Plain text
-#: 400.en.adoc:874
+#: 400.en.adoc:869
 msgid "https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]"
 msgstr "https://ac.tdwg.org/termlist/#ac_serviceExpectation[ac:serviceExpectation]"
 
 #. type: Plain text
-#: 400.en.adoc:876
+#: 400.en.adoc:871
 msgid "The service expectations users may have of the <<section-ac-accessuri,accessURI>>. We recommend using the controlled values `online` for media files that are publicly accessible over http/https and `authenticate` for media files that are kept private over http/https (see <<section-sensitive-media-files>>). In Camtrap DP, these values related to `TRUE` and `FALSE` respectively in {media-filePublic}."
 msgstr "<<section-ac-accessuri,accessURI>>に対するユーザーのサービス期待値。制御値としては、http/httpsで公開されているメディアファイルには `online` を、http/httpsで非公開にされているメディアファイルには `authenticate` を使用することを推奨します（<<section-sensitive-media-files>>参照）。Camtrap DPでは、これらの値はそれぞれ{media-filePublic}の `TRUE` および `FALSE` に相当します。"
 
 #. type: Title =====
-#: 400.en.adoc:878
+#: 400.en.adoc:873
 #, no-wrap
 msgid "format"
 msgstr "format"
 
 #. type: Plain text
-#: 400.en.adoc:881
+#: 400.en.adoc:876
 msgid "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
 msgstr "https://ac.tdwg.org/termlist/#dc_format[dc:format]"
 
 #. type: Plain text
-#: 400.en.adoc:883
+#: 400.en.adoc:878
 msgid "The file format of the media file. We recommend providing the media type (MIME type) using the controlled values `image/jpeg`, `video/mp4` or `video/mpeg` of the https://ac.tdwg.org/format/[Audiovisual Core Controlled Vocabulary for Dublin Core]. Do not use https://ac.tdwg.org/termlist/#dcterms_format[**dcterms**:format], because that term expects a URL value. In Camtrap DP, this term corresponds with {media-fileMediatype}."
 msgstr "メディアファイルのファイル形式。link:++https://ac.tdwg.org/format/++[Dublin CoreのAudiovisual Core Controlled Vocabulary]の制御値である、 `image/jpeg`、 `video/mp4` または `video/mpeg` を使用して、メディアタイプ（MIMEタイプ）を提供することを推奨します。link:++https://ac.tdwg.org/termlist/#dcterms_format++[**dcterms**:format]は 、URL値を入力する決まりがあるため、使用しないでください。Camtrap DPでは、この用語は{media-fileMediatype}に相当します。"
 
