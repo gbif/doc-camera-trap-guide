@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-08-18 14:24\n"
+"PO-Revision-Date: 2026-08-31 18:36\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -445,7 +445,7 @@ msgstr "Qué son los datos de las cámaras trampa"
 #. type: Plain text
 #: 300.en.adoc:16
 msgid "Intuitively, we associate camera trap data with the <<media>> files captured by the <<camera,cameras>>. But to be able to use these for research they need to be documented with additional information. Media files should be <<classification, classified>> to know what species were observed. Information on camera <<deployment>>, duration, <<location>>, <<alignment>> and sampling methodology is needed to know when, where and how likely those species were to be observed. Finally, we need information about the <<project,project/study>> as a whole to know the scope and who was involved."
-msgstr "Intuitivamente, asociamos los datos de las cámaras trampa con los archivos <<media>> capturados por las <<camera,cameras>>. Pero para poder utilizarlos para la investigación necesitan estar documentados con información adicional. Los archivos multimedia deben ser <<classification,clasificados>> para saber qué especies fueron observadas. La información sobre el <<deployment>>, la duración, la <<location,ubicación>>, la <<alignment>> y la metodología de muestreo, es necesaria para saber cuándo, dónde y qué tan probable era que se observaran esas especies. Finalmente, necesitamos información sobre el <<project,proyecto/estudio>> en su conjunto para conocer el alcance y quién estaba involucrado."
+msgstr "Intuitivamente, asociamos los datos de las cámaras trampa con los archivos <<media>> capturados por las <<camera,cámaras>>. Pero para poder utilizarlos para la investigación necesitan estar documentados con información adicional. Los archivos multimedia deben ser <<classification,clasificados>> para saber qué especies fueron observadas. La información sobre el <<deployment>>, la duración, la <<location,ubicación>>, la <<alignment>> y la metodología de muestreo, es necesaria para saber cuándo, dónde y qué tan probable era que se observaran esas especies. Finalmente, necesitamos información sobre el <<project,proyecto/estudio>> en su conjunto para conocer el alcance y quién estaba involucrado."
 
 #. type: Plain text
 #: 300.en.adoc:18
@@ -462,7 +462,7 @@ msgstr "**Metadatos del proyecto:** información sobre el proyecto/estudio cómo
 #: 300.en.adoc:21
 #, no-wrap
 msgid "**Media files:** images, videos or sound files captured by the <<camera,cameras>>, including their <<EXIF>> metadata\n"
-msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cameras>>, incluyendo sus metadatos <<EXIF>>\n"
+msgstr "**Archivos multimedia:** imágenes, videos o archivos de sonido capturados por las <<camera,cámeras>>, incluyendo sus metadatos <<EXIF>>\n"
 
 #. type: Plain text
 #: 300.en.adoc:22
