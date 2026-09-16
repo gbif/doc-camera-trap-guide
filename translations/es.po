@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-08-31 18:36\n"
+"PO-Revision-Date: 2026-09-16 14:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -283,7 +283,7 @@ msgstr "Los taxones de animales más frecuentemente estudiados incluyen ungulado
 #: 200.en.adoc:17
 #, no-wrap
 msgid "Aims and outputs of camera trap studies as taken from citenp:[wearn-2017]."
-msgstr "Objetivos y resultados de estudios de cámaras trampa tomados de [wearn-2017]."
+msgstr "Objetivos y resultados de estudios de cámaras trampa tomados de cite:[wearn-2017]."
 
 #. type: Table
 #: 200.en.adoc:38
@@ -793,7 +793,7 @@ msgstr "Archivos multimedia"
 #. type: Plain text
 #: 300.en.adoc:156
 msgid "<<media-file,Media files>> are the raw data a camera trap collects. For most camera trap studies, these will be <<image,images>> (see <<figure-example-image>> for an example), but modern camera traps can record other types of media types as well, such as <<video>> or sound. Videos can capture animal behaviour in more detail than images and are often suitable for outreach, but require more battery power, larger file sizes and are harder to process."
-msgstr "Los <<media-file,Media files>> son los datos crudos que recolecta una cámara trampa. Para la mayoría de los estudios de cámaras trampa, estas serán <<image,images>> (ver la <<figure-example-image>> para un ejemplo), pero las cámaras trampa modernas también pueden grabar otros tipos de medios, tal como <<video>> o sonido. Los videos pueden capturar el comportamiento animal con más detalle que las imágenes y a menudo son adecuados para su divulgación, pero requieren más batería, archivos de mayor tamaño y son más difíciles de procesar."
+msgstr "Los <<media-file,archivos multimedia>> son los datos crudos que recolecta una cámara trampa. Para la mayoría de los estudios de cámaras trampa, estas serán <<image,images>> (ver la <<figure-example-image>> para un ejemplo), pero las cámaras trampa modernas también pueden grabar otros tipos de medios, tal como <<video>> o sonido. Los videos pueden capturar el comportamiento animal con más detalle que las imágenes y a menudo son adecuados para su divulgación, pero requieren más batería, archivos de mayor tamaño y son más difíciles de procesar."
 
 #. type: Plain text
 #: 300.en.adoc:158
