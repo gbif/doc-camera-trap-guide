@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-09-18 10:09+0000\n"
+"POT-Creation-Date: 2026-09-18 10:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -226,7 +226,7 @@ msgstr ""
 #: 100.en.adoc:12
 msgid ""
 "Specialized data management platforms are now primarily used to manage "
-"projects and data"
+"projects and data."
 msgstr ""
 
 #. type: Plain text
@@ -234,17 +234,17 @@ msgstr ""
 msgid ""
 "<<AI,Artificial intelligence>> (AI) and <<cloud-computing,cloud computing>> "
 "are increasingly used to automate <<species-recognition,species "
-"recognition>> and will soon be applied to most recorded media"
+"recognition>> and will soon be applied to most recorded media."
 msgstr ""
 
 #. type: Plain text
 #: 100.en.adoc:14
 msgid ""
-"Data exchange is now facilitated by Camtrap DP, a "
-"<<data-exchange-format,data exchange format>> developed under Biodiversity "
-"Information Standards (https://www.tdwg.org/[TDWG]). There is increased "
-"awareness of open science, <<FAIR>> data cite:[wilkinson-2016] and privacy "
-"regulations"
+"Data exchange is now facilitated by Camera Trap Data Package "
+"(https://camtrap-dp.tdwg.org/[Camtrap DP]), a <<data-exchange-format,data "
+"exchange format>> developed under Biodiversity Information Standards "
+"(https://www.tdwg.org/[TDWG]). There is increased awareness of open science, "
+"<<FAIR>> data cite:[wilkinson-2016] and privacy regulations."
 msgstr ""
 
 #. type: Plain text
