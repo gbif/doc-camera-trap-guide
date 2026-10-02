@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-10-02 15:52\n"
+"PO-Revision-Date: 2026-10-02 17:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1580,8 +1580,8 @@ msgstr "La precisión del receptor GPS o recurso de georreferencia. La mayoría 
 #. type: Plain text
 #: 300.en.adoc:606
 msgid "The https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[coordinate precision]. The less precise (and closer to the equator) the higher the uncertainty, e.g. WGS84 coordinates with a precision of 0.001 degree have an uncertainty of 157 m at the equator (see https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Table 3] in citenp:[chapman-wieczorek-2020])."
-msgstr "La precisión de las coordenadas https://docs.gbif.org/georeferencing-best-practices/1.0/es/#incertidumbre-relacionada-con-la-precisi%C3%B3n-de-las-coordenadas[coordinate precision]. Cuanto menos precisa (y más cerca del ecuador) mayor es la incertidumbre, p.ej., las coordenadas WGS84 con una precisión de 0,001 grados tienen una incertidumbre de 157 metros en el ecuador\n"
-"(ver la Tabla 3 https://docs.gbif.org/georeferencing-best-practices/1.0/es/#table-uncertainty[Table 3] en citenp:[chapman-wieczorek-2020])."
+msgstr "La https://docs.gbif.org/georeferencing-best-practices/1.0/en/#uncertainty-related-to-coordinate-precision[precisión de las coordenadas]. Cuanto menos precisa (y más cerca del ecuador) mayor es la incertidumbre, p.ej., las coordenadas WGS84 con una precisión de 0,001 grados tienen una incertidumbre de 157 metros en el ecuador\n"
+"(ver la https://docs.gbif.org/georeferencing-best-practices/1.0/en/#table-uncertainty[Tabla 3] en citenp:[chapman-wieczorek-2020])."
 
 #. type: Plain text
 #: 300.en.adoc:607
@@ -1646,7 +1646,7 @@ msgstr "Covariables"
 #. type: Plain text
 #: 300.en.adoc:632
 msgid "Covariates are variables that may affect the behaviour and thus detection of animals. Recording those is important for further analysis of the data. <<bait,Bait>>, <<feature-type,feature type>> and <<habitat-type,habitat type>> are commonly recorded covariates. What and how to record covariates should be consistent within a project, but is typically not so across projects, unless they form part of a larger well-coordinated research study.  To aid interoperability, we recommend making use of existing classification systems to record covariates:"
-msgstr "Las covariables son variables que pueden afectar el comportamiento y, por tanto, la detección de animales. Registrar estas variables es importante para un análisis más profundo de los datos. <<bait,cebo>>,  <<feature-type,tipo de característica> y <<habitat-type,tipo de hábitat>> son covariables comúnmente registradas. El qué y el cómo registrar covariables debe ser consistente dentro de un proyecto, pero normalmente no es así entre proyectos, a menos que formen parte de un estudio de investigación más amplio y bien coordinado. Para facilitar la interoperabilidad, recomendamos hacer uso de los sistemas de clasificación existentes para registrar covariables:"
+msgstr "Las covariables son variables que pueden afectar el comportamiento y, por tanto, la detección de animales. Registrar estas variables es importante para un análisis más profundo de los datos. <<bait,cebo>>, <<feature-type,tipo de característica>> y <<habitat-type,tipo de hábitat>> son covariables comúnmente registradas. El qué y el cómo registrar covariables debe ser consistente dentro de un proyecto, pero normalmente no es así entre proyectos, a menos que formen parte de un estudio de investigación más amplio y bien coordinado. Para facilitar la interoperabilidad, recomendamos hacer uso de los sistemas de clasificación existentes para registrar covariables:"
 
 #. type: Plain text
 #: 300.en.adoc:634
@@ -2051,12 +2051,12 @@ msgstr "La gestión de los datos de las cámaras trampa puede ser abrumadora, es
 #. type: Plain text
 #: 300.en.adoc:822
 msgid "Create one or more projects"
-msgstr "Crean uno o más proyectos"
+msgstr "Crear uno o más proyectos"
 
 #. type: Plain text
 #: 300.en.adoc:823
 msgid "Invite <<participant,collaborators>> with different levels of access"
-msgstr "Invitan a <<participant,collaborators>> con distintos niveles de acceso"
+msgstr "Invitan a <<participant,colaboradores>> con distintos niveles de acceso"
 
 #. type: Plain text
 #: 300.en.adoc:824
@@ -2066,7 +2066,7 @@ msgstr "Subir medios y crear despliegues"
 #. type: Plain text
 #: 300.en.adoc:825
 msgid "<<classification,Classify>> media to observations, optionally supported by <<computer-vision,AI>> and <<citizen-science,citizen science>>"
-msgstr "<<classification,Classify>> archivos multimedia para observaciones, apoyados opcionalmente por <<computer-vision,AI>> y <<citizen-science,citizen science>>"
+msgstr "<<classification,Clasificación>> de archivos multimedia para observaciones, apoyados opcionalmente por <<computer-vision,IA>> y <<citizen-science,ciencia ciudadana>>"
 
 #. type: Plain text
 #: 300.en.adoc:826
