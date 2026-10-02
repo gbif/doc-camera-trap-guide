@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-09-16 17:43\n"
+"PO-Revision-Date: 2026-10-02 15:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1272,7 +1272,7 @@ msgstr "Un <<deployment>> es la colocación espacial y temporal de una <<camera>
 #. type: Plain text
 #: 300.en.adoc:433
 msgid "Data management systems typically organize deployments into the following classes: <<deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>)."
-msgstr "Los sistemas de gestión de datos normalmente organizan despliegues en las siguientes clases: <deployment, despliegue>>, <<location,localización>>, <<camera>>, <<deployment-group,grupo de despliegue>> y <<subproject>> (ver la <<figure-class-diagram>>)."
+msgstr "Los sistemas de gestión de datos normalmente organizan despliegues en las siguientes clases: <deployment,despliegue>>, <<location,localización>>, <<camera>>, <<deployment-group,grupo de despliegue>> y <<subproject>> (ver la <<figure-class-diagram>>)."
 
 #. type: Block title
 #: 300.en.adoc:435
@@ -1391,7 +1391,7 @@ msgstr "Utilice nombres descriptivos, para que los usuarios tienen una idea de q
 #. type: Plain text
 #: 300.en.adoc:512
 msgid "Separate words using snake case (`deployment_location_1`), hyphen case (`deployment-location-1`) or camel case (`deploymentLocation1`) rather than white space (`deployment location 1`). Snake case ensures the highest level of interoperability between systems, camel case is most often used in data standards."
-msgstr "Separar palabras usando guión bajo [snake case] (`ubicación_despliegue_1`), guión [hyphen case] `(despliegue-ubicación-1`) o mayúsculas [camel case] (`despliegueUbicación1`), en lugar de espacios (`ubicación de despliegue 1`). El uso del guión bajo garantiza el nivel de interoperabilidad más alto entre sistemas, el uso de la separación por mayúsculas se utiliza con mayor frecuencia en los estándares de datos."
+msgstr "Separar palabras usando guión bajo (`ubicación_despliegue_1`), guión (`despliegue-ubicación-1`) o mayúsculas (`despliegueUbicación1`), en lugar de espacios (`ubicación de despliegue 1`). El uso del guión bajo garantiza el nivel de interoperabilidad más alto entre sistemas, el uso de la separación por mayúsculas se utiliza con mayor frecuencia en los estándares de datos."
 
 #. type: Plain text
 #: 300.en.adoc:513
