@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-10-05 15:58\n"
+"PO-Revision-Date: 2026-10-05 17:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4291,7 +4291,7 @@ msgstr "[[deployment-group]]grupo de despliegue"
 #. type: Plain text
 #: glossary.en.adoc:47
 msgid "Logical grouping of <<deployment,deployments>>, based on spatial, temporal or thematic criteria. A deployment can belong to multiple deployment groups. `array` cite:[oconnor-2017], `camera trap array` cite:[meek-2014], `cluster` cite:[risc-2019], `paired deployment` cite:[kolowski-2017], `site` and `strata` cite:[sun-2021] are spatial deployment groups. `sampling campaign` cite:[lamelas-2020], `sampling event` cite:[fegraus-2011] and `session` are temporal deployment groups. `subproject` cite:[emammal-design], `survey` cite:[risc-2019,camerabase] and `tags` are thematic deployment groups. `study areas` cite:[newkirk-2016] can be considered a deployment group or <<project>> in its own right. {deployments-deploymentGroups} in Camtrap DP. See also <<section-deployment-groups>>."
-msgstr "Agrupación lógica de <<deployment,deployments>>, basada en criterios espaciales, temporales o temáticos. Un despliegue puede pertenecer a múltiples grupos de despliegue. `array` cite:[oconnor-2017], `despliegue de cámara trampa` cite:[meek-2014], `clúster` cite:[risc-2019], `despliegues emparejados` cite:[kolowski-2017, `sitio` y `estratos` cite:[sun-2021] son grupos de despliegue espacial. `campaña de muestreo` cite:[lamelas-2020], `evento de muestreo` cite:[fegraus-2011] y `sesión` son grupos de despliegue temporal. `subproyecto` cite:[emammal-design], `encuesta` cite:[risc-2019,camerabase] y `etiquetas` son grupos de despliegue temáticos. `áreas de estudio` cite:[newkirk-2016] pueden considerarse un grupo de despliegue o <<project>> por derecho propio. {deployments-deploymentGroups} en Camtrap DP. Ver también la <<section-deployment-groups>>."
+msgstr "Agrupación lógica de <<deployment,despliegues>>, basada en criterios espaciales, temporales o temáticos. Un despliegue puede pertenecer a múltiples grupos de despliegue. `array` cite:[oconnor-2017], `despliegue de cámara trampa` cite:[meek-2014], `cluster` cite:[risc-2019], `despliegues emparejados` cite:[kolowski-2017], `sitio` y `estratos` cite:[sun-2021] son grupos de despliegue espacial. `campaña de muestreo` cite:[lamelas-2020], `evento de muestreo` cite:[fegraus-2011] y `sesión` son grupos de despliegue temporal. `subproyecto` cite:[emammal-design], `encuesta` cite:[risc-2019,camerabase] y `etiquetas` son grupos de despliegue temáticos. `áreas de estudio` cite:[newkirk-2016] pueden considerarse un grupo de despliegue o <<project>> por derecho propio. {deployments-deploymentGroups} en Camtrap DP. Ver también la <<section-deployment-groups>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:48
@@ -4302,7 +4302,7 @@ msgstr "[[detection-distance]]distancia de detección"
 #. type: Plain text
 #: glossary.en.adoc:49
 msgid "Furthest distance in the <<detection-zone,detection zone>> at which the <<camera>> detects <<activity>>. {deployments-detectionDistance} in Camtrap DP."
-msgstr "La distancia más lejana en la <<detection-zone,detection zone>> en la que la <<camera>> detecta <<activity>>. d{deployments-detectionDistance} en Camtrap DP."
+msgstr "La distancia más lejana en la <<detection-zone,zona de detección>> en la que la <<camera>> detecta <<activity>>. d{deployments-detectionDistance} en Camtrap DP."
 
 #. type: Labeled list
 #: glossary.en.adoc:50
@@ -4324,7 +4324,7 @@ msgstr "[[evento]]evento"
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "Action that occurs at a specific <<location>> for a specific duration. In camera trap research, events typically refer to animal <<activity>> recorded through one or more <<trigger,triggers>> and forming a <<sequence>>, but other definitions might be used when analysing data. Events can be indicated with {observations-eventID}, {observations-eventStart} and {observations-eventEnd} in Camtrap DP. In a <<darwin-core-archive,Darwin Core Archive>>, <<deployment,deployments>> can also be considered events."
-msgstr "Acción que ocurre en una <<location>> específica por una duración específica. En investigación de cámaras trampa los eventos normalmente se refieren a <<activity>> animal grabada a través de una o más <<trigger,triggers>> y formando una <<sequence>>, pero otras definiciones pueden ser utilizadas al analizar datos. Los eventos se pueden indicar con {observations-eventID}, {observations-eventStart} y {observations-eventEnd} en Camtrap DP. En un <<darwin-core-archive,Darwin Core Archive>>, los <<deployment,deployments>> también pueden considerarse eventos."
+msgstr "Acción que ocurre en una <<location,localización>> específica por una duración específica. En investigación de cámaras trampa los eventos normalmente se refieren a <<activity>> animal grabada a través de una o más <<trigger,disparos>> y formando una <<sequence>>, pero otras definiciones pueden ser utilizadas al analizar datos. Los eventos se pueden indicar con {observations-eventID}, {observations-eventStart} y {observations-eventEnd} en Camtrap DP. En un <<darwin-core-archive,Darwin Core Archive>>, los <<deployment,deployments>> también pueden considerarse eventos."
 
 #. type: Labeled list
 #: glossary.en.adoc:54
@@ -4467,7 +4467,7 @@ msgstr "[[media-file]]archivo multimedia"
 #. type: Plain text
 #: glossary.en.adoc:79
 msgid "A (audio)visual file captured by a <<camera>>. Can be an <<image>> or <<video>>. A media file typically has an identifier, file name, timestamp when it was created and associated metadata (e.g. <<EXIF>>). To access a media file, one needs to know its <<file-path,file path>> and have the required access rights. Media with {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} in Camtrap DP. See also <<section-media-files>>."
-msgstr "Un archivo (audio)visual capturado por una <<camera,cámara>>. Puede ser una <<image,imagen>> o un <video>>. Un archivo multimedia normalmente tiene un identificador, nombre de archivo, marca de tiempo cuando fue creado y metadatos asociados (p. ej., <<EXIF>>). Para acceder a un archivo multimedia, uno necesita conocer su <<file-path,ruta de archivo>> y tener los derechos de acceso necesarios. Multimedia con {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} en Camtrap DP. Ver también la <<section-media-files>>."
+msgstr "Un archivo (audio)visual capturado por una <<camera,cámara>>. Puede ser una <<image,imagen>> o un <<video,video>>. Un archivo multimedia normalmente tiene un identificador, nombre de archivo, marca de tiempo cuando fue creado y metadatos asociados (p. ej., <<EXIF>>). Para acceder a un archivo multimedia, uno necesita conocer su <<file-path,ruta de archivo>> y tener los derechos de acceso necesarios. Multimedia con {media-mediaID}, {media-timestamp}, {media-fileName}, {media-filePath} en Camtrap DP. Ver también la <<section-media-files>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:80
