@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-10-05 17:02\n"
+"PO-Revision-Date: 2026-10-05 18:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4621,7 +4621,7 @@ msgstr "[[site]]sitio"
 #. type: Plain text
 #: glossary.en.adoc:107
 msgid "Geographic area containing multiple <<location,locations>>."
-msgstr "Área geográfica que contiene múltiples <<location,locations>>."
+msgstr "Área geográfica que contiene múltiples <<location,localizaciones>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:108
@@ -4643,7 +4643,7 @@ msgstr "[[subproject]]subproyecto"
 #. type: Plain text
 #: glossary.en.adoc:111
 msgid "Type of <<deployment-group,deployment group>> used to subdivide very large projects into more manageable units."
-msgstr "Tipo de <<deployment-group,deployment group>> utilizado para subdividir proyectos muy grandes en unidades más manejables."
+msgstr "Tipo de <<deployment-group,grupo de despliegue>> utilizado para subdividir proyectos muy grandes en unidades más manejables."
 
 #. type: Labeled list
 #: glossary.en.adoc:112
@@ -4654,7 +4654,7 @@ msgstr "[[trigger]]disparo"
 #. type: Plain text
 #: glossary.en.adoc:113
 msgid "<<sensor,Sensor>> condition that prompts a <<camera>> to activate and capture <<media>>. Also used to indicate the series of consecutive <<media-file,media files>> resulting from that trigger. One or more triggers form a <<sequence>>. Also referred to as `burst`."
-msgstr "Condición de <<sensor,Sensor>> que hace que una <<camera>> se active y capture <<media>>. También se utiliza para indicar la serie de <<media-file,media files>> consecutivos resultantes de ese disparo. Uno o más disparos forman una <<sequence>>. También se denomina `ráfaga`."
+msgstr "Condición del <<sensor,sensor>> que hace que una <<camera>> se active y capture un <<media,archivo multimedia>>. También se utiliza para indicar la serie de <<media-file,archivos multimedia>> consecutivos resultantes de ese disparo. Uno o más disparos forman una <<sequence>>. También se denomina `ráfaga`."
 
 #. type: Labeled list
 #: glossary.en.adoc:114
