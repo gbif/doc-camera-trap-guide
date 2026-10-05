@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-10-02 18:46\n"
+"PO-Revision-Date: 2026-10-05 12:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1272,7 +1272,7 @@ msgstr "Un <<deployment>> es la colocación espacial y temporal de una <<camera>
 #. type: Plain text
 #: 300.en.adoc:433
 msgid "Data management systems typically organize deployments into the following classes: <<deployment>>, <<location>>, <<camera>>, <<deployment-group,deployment group>> and <<subproject>> (see <<figure-class-diagram>>)."
-msgstr "Los sistemas de gestión de datos normalmente organizan despliegues en las siguientes clases: <deployment,despliegue>>, <<location,localización>>, <<camera>>, <<deployment-group,grupo de despliegue>> y <<subproject>> (ver la <<figure-class-diagram>>)."
+msgstr "Los sistemas de gestión de datos normalmente organizan despliegues en las siguientes clases: <<deployment,despliegue>>, <<location,localización>>, <<camera>>, <<deployment-group,grupo de despliegue>> y <<subproject>> (ver la <<figure-class-diagram>>)."
 
 #. type: Block title
 #: 300.en.adoc:435
