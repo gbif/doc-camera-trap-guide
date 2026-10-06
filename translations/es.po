@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: camera-trap-guide\n"
 "POT-Creation-Date: 2026-04-28 10:22+0000\n"
-"PO-Revision-Date: 2026-10-06 12:55\n"
+"PO-Revision-Date: 2026-10-06 14:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -798,7 +798,7 @@ msgstr "Los <<media-file,archivos multimedia>> son los datos crudos que recolect
 #. type: Plain text
 #: 300.en.adoc:158
 msgid "An often used compromise is to take a series of images when a camera is triggered (e.g. 10 images, 1 second apart). When processing the media files, those related images can be combined in a <<sequence>>. A sequence not only combines images resulting from a single <<trigger>>, but also consecutive triggers that fall within a preset <<independence-interval,independence interval>> (e.g. 120s). That way, continued <<activity>> is captured in a single <<sequence>>/<<event>> (see <<table-sequence>>)."
-msgstr "Un compromiso utilizado a menudo es tomar una serie de imágenes cuando se activa una cámara (por ejemplo, 10 imágenes, 1 segundo de separación). Cuando se procesan los archivos multimedia, esas imágenes relacionadas se pueden combinar en una <<sequence>>. Una secuencia no solo combina imágenes resultantes de un solo <<trigger>>, también combina desencadenadores consecutivos que caen dentro de un <<independence-interval,independence interval>> preestablecido (p. ej., 120s). De esa manera, la <<activity>> continuada se capturó en un solo <<sequence>>/<<event>> (ver la <<table-sequence>>)."
+msgstr "Un compromiso utilizado a menudo es tomar una serie de imágenes cuando se activa una cámara (por ejemplo, 10 imágenes, 1 segundo de separación). Cuando se procesan los archivos multimedia, esas imágenes relacionadas se pueden combinar en una <<sequence>>. Una secuencia no solo combina imágenes resultantes de un solo <<trigger>>, también combina desencadenadores consecutivos que caen dentro de un <<independence-interval,intervalo de independencia>> preestablecido (p. ej., 120s). De esa manera, la <<activity>> continuada se capturó en un solo <<sequence,secuencia>>/<<event,evento>> (ver la <<table-sequence>>)."
 
 #. type: Block title
 #: 300.en.adoc:159
@@ -2418,7 +2418,7 @@ msgstr "Se recomienda que sea **único globalmente**, es decir, se refiera de fo
 #. type: Plain text
 #: 400.en.adoc:30
 msgid "If available, we recommend using the identifier assigned by the <<data-management-system,data management system>>, as is. These identifiers will be unique, most likely stable, and sometimes globally unique (e.g. a <<UUID,UUID>>). They also allow users (with access) to look up the record in the data management system. We advice against appending elements to the identifier to make it globally unique, since this makes it more prone to change. Since datasets can be uniquely identified (e.g. with a DOI), it is sufficient if the identifier is unique within the dataset."
-msgstr "Si está disponible, recomendamos utilizar el identificador asignado por el <<data-management-system,data management system>>, tal como esté. Estos identificadores serán únicos, muy probablemente estables, y a veces únicos a nivel global (por ejemplo, un <<UUID,UUID>>). También permiten a los usuarios (con acceso) buscar el registro en el sistema de gestión de datos. Recomendamos no añadir elementos al identificador para hacerlo único globalmente, ya que esto lo hace más propenso al cambio. Dado que los conjuntos de datos pueden ser identificados de forma única (p. ej., con un DOI), es suficiente si el identificador es único dentro del conjunto de datos."
+msgstr "Si está disponible, recomendamos utilizar el identificador asignado por el <<data-management-system,sistema de gestión de datos>>, tal como esté. Estos identificadores serán únicos, muy probablemente estables, y a veces únicos a nivel global (por ejemplo, un <<UUID,UUID>>). También permiten a los usuarios (con acceso) buscar el registro en el sistema de gestión de datos. Recomendamos no añadir elementos al identificador para hacerlo único globalmente, ya que esto lo hace más propenso al cambio. Dado que los conjuntos de datos pueden ser identificados de forma única (p. ej., con un DOI), es suficiente si el identificador es único dentro del conjunto de datos."
 
 #. type: Title ====
 #: 400.en.adoc:32
